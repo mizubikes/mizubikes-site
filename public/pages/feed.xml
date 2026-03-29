@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on Mizubikes</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 29 Jul 2020 10:28:09 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/pages/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Wed, 29 Jul 2020 10:28:09 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=3162</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 29 Jul 2020 07:08:46 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=3097</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Button &amp; Separator</title>
+      <link>http://localhost:1313/3029-2/</link>
+      <pubDate>Fri, 20 Mar 2020 15:44:14 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=3029</guid> 
+      <description>&lt;p&gt;Faucibus nisl tincidunt eget nullam non. Feugiat sed lectus vestibulum mattis ullamcorper. Egestas purus viverra accumsan in nisl nisi scelerisque eu. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Dignissim suspendisse in est ante in nibh mauris cursus. Ipsum faucibus vitae aliquet nec.&lt;/p&gt;
+&lt;h5 id=&#34;filled-style-button&#34;&gt;Filled Style Button&lt;/h5&gt;
+&lt;p&gt;Aliquam faucibus purus in massa tempor nec feugiat nisliverra orci sagittis.&lt;/p&gt;
+&lt;p&gt;More Information&lt;/p&gt;
+&lt;h5 id=&#34;outline-style-button&#34;&gt;Outline Style Button&lt;/h5&gt;
+&lt;p&gt;Aliquam faucibus purus in massa tempor nec feugiat nisliverra orci sagittis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Image &amp; Gallery Block</title>
+      <link>http://localhost:1313/image-gallery-block/</link>
+      <pubDate>Fri, 20 Mar 2020 15:03:59 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=3015</guid> 
+      <description>&lt;p&gt;Porttitor leo a diam sollicitudin tempor id. Cursus mattis molestie a iaculis at erat pellentesque. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Sem fringilla ut morbi tincidunt augue interdum. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Nisl suscipit adipiscing bibendum est.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2020/03/julius-drost-1088403-unsplash.jpg&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;h5 id=&#34;left-aligned-image&#34;&gt;Left Aligned Image&lt;/h5&gt;
+&lt;p&gt;Has wisi placerat legendos in, eu eos eius lorem consequat. In cum eruditi facilis, qui id facer scripserit. Ne vix nulla eirmod iracundia, vix et accusam officiis. Cum nobis munere partem ei.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Table Block</title>
+      <link>http://localhost:1313/table-block/</link>
+      <pubDate>Fri, 20 Mar 2020 15:00:01 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=3008</guid> 
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rutrum quisque non tellus orci. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Rhoncus mattis rhoncus urna neque viverra. Tristique risus nec feugiat in fermentum posuere urna nec.&lt;/p&gt;
+&lt;h5 id=&#34;table-wide-width&#34;&gt;Table Wide Width&lt;/h5&gt;
+&lt;p&gt;IDFirst NameLast NameProfession1JohnDoeEntrepreneur2MichaelClarckWeb Designer3MonicaSherifAuthor4AlexMcLarenAnalytic&lt;/p&gt;
+&lt;p&gt;Tristique magna sit amet purus gravida quis. Netus et malesuada fames ac turpis egestas sed. Id volutpat lacus laoreet non curabitur gravida arcu. Ornare arcu odio ut sem nulla pharetra diam sit. Massa tempor nec feugiat nisl. Laoreet id donec ultrices tincidunt arcu non sodales neque. Sit amet dictum sit amet justo donec.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quote Block</title>
+      <link>http://localhost:1313/quote-block/</link>
+      <pubDate>Fri, 20 Mar 2020 14:39:16 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=2997</guid> 
+      <description>&lt;p&gt;Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. A arcu cursus vitae congue. Netus et malesuada fames ac turpis egestas integer eget. Quis commodo odio aenean sed adipiscing diam donec adipiscing. Viverra tellus in hac habitasse. Varius sit amet mattis vulputate enim. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada.&lt;/p&gt;
+&lt;h5 id=&#34;quote-left-aligned&#34;&gt;Quote Left Aligned&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Only a quarter of young adults are financially literate. You don’t want to overwhelm them with terrible advice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Columns Block</title>
+      <link>http://localhost:1313/columns-block/</link>
+      <pubDate>Fri, 20 Mar 2020 14:17:02 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=2964</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Left Sidebar</title>
+      <link>http://localhost:1313/left-sidebar/</link>
+      <pubDate>Tue, 28 Jan 2020 13:21:35 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=2664</guid> 
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis feugiat vivamus at augue eget arcu dictum varius. Vestibulum lectus mauris ultrices eros in. Semper eget duis at tellus at urna condimentum mattis pellentesque. Enim neque volutpat ac tincidunt vitae semper quis. Mi eget mauris pharetra et ultrices neque ornare. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Fringilla est ullamcorper eget nulla facilisi etiam. Varius quam quisque id diam vel quam elementum. Odio morbi quis commodo odio aenean sed adipiscing diam. Mattis molestie a iaculis at. Lectus quam id leo in vitae. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Velit aliquet sagittis id consectetur purus ut faucibus. Amet risus nullam eget felis eget nunc lobortis mattis. Maecenas accumsan lacus vel facilisis volutpat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Right Sidebar</title>
+      <link>http://localhost:1313/right-sidebar/</link>
+      <pubDate>Tue, 28 Jan 2020 13:21:20 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=2662</guid> 
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis feugiat vivamus at augue eget arcu dictum varius. Vestibulum lectus mauris ultrices eros in. Semper eget duis at tellus at urna condimentum mattis pellentesque. Enim neque volutpat ac tincidunt vitae semper quis. Mi eget mauris pharetra et ultrices neque ornare. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Fringilla est ullamcorper eget nulla facilisi etiam. Varius quam quisque id diam vel quam elementum. Odio morbi quis commodo odio aenean sed adipiscing diam. Mattis molestie a iaculis at. Lectus quam id leo in vitae. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Velit aliquet sagittis id consectetur purus ut faucibus. Amet risus nullam eget felis eget nunc lobortis mattis. Maecenas accumsan lacus vel facilisis volutpat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Default Width</title>
+      <link>http://localhost:1313/default-width/</link>
+      <pubDate>Tue, 28 Jan 2020 13:21:00 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=2660</guid> 
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis feugiat vivamus at augue eget arcu dictum varius. Vestibulum lectus mauris ultrices eros in. Semper eget duis at tellus at urna condimentum mattis pellentesque. Enim neque volutpat ac tincidunt vitae semper quis. Mi eget mauris pharetra et ultrices neque ornare. Mi eget mauris pharetra et ultrices neque ornare aenean euismod. Fringilla est ullamcorper eget nulla facilisi etiam. Varius quam quisque id diam vel quam elementum. Odio morbi quis commodo odio aenean sed adipiscing diam. Mattis molestie a iaculis at. Lectus quam id leo in vitae. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Velit aliquet sagittis id consectetur purus ut faucibus. Amet risus nullam eget felis eget nunc lobortis mattis. Maecenas accumsan lacus vel facilisis volutpat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Narrow Width</title>
+      <link>http://localhost:1313/narrow-width/</link>
+      <pubDate>Tue, 28 Jan 2020 13:20:23 +0000</pubDate>
+       <guid isPermaLink="false">https://startersites.io/blocksy/blog/?page_id=2658</guid> 
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laoreet non curabitur gravida arcu ac tortor dignissim convallis aenean. Fermentum odio eu feugiat pretium nibh. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Vitae purus faucibus ornare suspendisse sed nisi. Aliquam sem fringilla ut morbi tincidunt augue. Diam sollicitudin tempor id eu nisl. Nascetur ridiculus mus mauris vitae ultricies leo integer. Aliquet enim tortor at auctor urna nunc. Praesent tristique magna sit amet purus gravida quis blandit turpis. Ac turpis egestas integer eget aliquet nibh. Mauris sit amet massa vitae. Volutpat ac tincidunt vitae semper. Massa eget egestas purus viverra accumsan in nisl nisi scelerisque. Arcu vitae elementum curabitur vitae nunc. Vitae nunc sed velit dignissim sodales ut eu sem integer. Fermentum dui faucibus in ornare quam viverra. Amet est placerat in egestas. Bibendum arcu vitae elementum curabitur vitae nunc sed velit. In hac habitasse platea dictumst quisque sagittis.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

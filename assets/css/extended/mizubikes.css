@@ -1,0 +1,213 @@
+.mb-ticker {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.4rem 0;
+  border-bottom: 0.5px solid var(--border);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.mb-ticker-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #1B8FAB;
+  flex-shrink: 0;
+}
+.mb-ticker-items {
+  display: flex;
+  gap: 2rem;
+  overflow: hidden;
+}
+.mb-ticker-items a {
+  font-size: 12px;
+  color: var(--secondary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.mb-ticker-items a:hover { color: var(--primary); }
+
+.header {
+  padding: 0 1rem;
+}
+.nav {
+  min-height: 90px;
+}
+
+.mb-hero {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 0.5px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+.mb-hero-main {
+  position: relative;
+  display: block;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+}
+.mb-hero-main img {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  display: block;
+}
+.mb-hero-overlay {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 1.5rem;
+  background: linear-gradient(transparent, rgba(0,0,0,0.75));
+}
+.mb-hero-cat {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: #5DCAA5;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+.mb-hero-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.3;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+.mb-hero-meta {
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+  margin-top: 0.4rem;
+}
+
+.mb-hero-sidebar {
+  display: flex;
+  flex-direction: column;
+}
+.mb-side-card {
+  display: grid;
+  grid-template-columns: 85px 1fr;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 0.5px solid var(--border);
+  text-decoration: none;
+}
+.mb-side-card:last-child { border-bottom: none; }
+.mb-side-card img {
+  width: 85px;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.mb-side-info { display: flex; flex-direction: column; gap: 0.2rem; }
+.mb-side-title {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--primary);
+}
+.mb-side-date { font-size: 11px; color: var(--secondary); }
+
+.mb-cat {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1B8FAB;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.mb-section { margin-bottom: 2rem; }
+.mb-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--primary);
+  margin-bottom: 1rem;
+}
+.mb-section-title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.mb-section-more {
+  font-size: 11px;
+  color: var(--secondary);
+  text-decoration: none;
+}
+.mb-section-more:hover { color: var(--primary); }
+
+.mb-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+.mb-card {
+  display: block;
+  text-decoration: none;
+  border-bottom: 0.5px solid var(--border);
+  padding-bottom: 1rem;
+}
+.mb-card img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+.mb-card-title {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--primary);
+  margin-bottom: 0.3rem;
+}
+.mb-card-excerpt {
+  font-size: 13px;
+  color: var(--secondary);
+  line-height: 1.6;
+}
+.mb-card-date { font-size: 11px; color: var(--secondary); margin-top: 0.4rem; }
+
+.mb-wide-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.mb-wide-card {
+  display: block;
+  text-decoration: none;
+  border-bottom: 0.5px solid var(--border);
+  padding-bottom: 1rem;
+}
+.mb-wide-card img {
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  border-radius: 3px;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+.mb-wide-title {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--primary);
+  margin-bottom: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  .mb-hero { grid-template-columns: 1fr; }
+  .mb-hero-sidebar { display: none; }
+  .mb-card-grid { grid-template-columns: 1fr; }
+  .mb-wide-grid { grid-template-columns: 1fr; }
+}

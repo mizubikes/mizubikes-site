@@ -1,0 +1,89 @@
+{{- define "main" }}
+{{- $posts := where .Site.RegularPages "Type" "posts" }}
+{{- $featured := index $posts 0 }}
+{{- $secondary := slice }}
+{{- if gt (len $posts) 1 }}{{ $secondary = $posts | after 1 | first 4 }}{{ end }}
+{{- $latest := slice }}
+{{- if gt (len $posts) 5 }}{{ $latest = $posts | after 5 | first 3 }}{{ end }}
+{{- $wide := slice }}
+{{- if gt (len $posts) 8 }}{{ $wide = $posts | after 8 | first 2 }}{{ end }}
+
+<div class="mb-ticker">
+  <span class="mb-ticker-label">Latest</span>
+  <div class="mb-ticker-items">
+    {{- range first 4 $posts }}
+    <a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
+    {{- end }}
+  </div>
+</div>
+
+{{- if $featured }}
+<div class="mb-hero">
+  <a href="{{ $featured.RelPermalink }}" class="mb-hero-main">
+    {{- with $featured.Params.cover.image }}
+    <img src="{{ . }}" alt="{{ $featured.Title }}" loading="eager">
+    {{- end }}
+    <div class="mb-hero-overlay">
+      <div class="mb-hero-cat">{{ range first 1 $featured.Params.categories }}{{ . | upper }}{{ end }}</div>
+      <h1 class="mb-hero-title">{{ $featured.Title | safeHTML }}</h1>
+      <div class="mb-hero-meta">{{ $featured.Date.Format "January 2006" }} &middot; {{ $featured.ReadingTime }} min read</div>
+    </div>
+  </a>
+
+  <div class="mb-hero-sidebar">
+    {{- range $secondary }}
+    <a href="{{ .RelPermalink }}" class="mb-side-card">
+      {{- with .Params.cover.image }}
+      <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+      {{- end }}
+      <div class="mb-side-info">
+        <div class="mb-cat">{{ range first 1 .Params.categories }}{{ . | upper }}{{ end }}</div>
+        <div class="mb-side-title">{{ .Title | safeHTML }}</div>
+        <div class="mb-side-date">{{ .Date.Format "Jan 2" }}</div>
+      </div>
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+
+{{- if $latest }}
+<div class="mb-section">
+  <div class="mb-section-header">
+    <span class="mb-section-title">Latest from the workshop</span>
+    <a href="/posts/" class="mb-section-more">View all &rarr;</a>
+  </div>
+  <div class="mb-card-grid">
+    {{- range $latest }}
+    <a href="{{ .RelPermalink }}" class="mb-card">
+      {{- with .Params.cover.image }}
+      <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+      {{- end }}
+      <div class="mb-cat">{{ range first 1 .Params.categories }}{{ . | upper }}{{ end }}</div>
+      <div class="mb-card-title">{{ .Title | safeHTML }}</div>
+      <div class="mb-card-excerpt">{{ .Summary | truncate 100 }}</div>
+      <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+
+{{- if $wide }}
+<div class="mb-section">
+  <div class="mb-wide-grid">
+    {{- range $wide }}
+    <a href="{{ .RelPermalink }}" class="mb-wide-card">
+      {{- with .Params.cover.image }}
+      <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+      {{- end }}
+      <div class="mb-cat">{{ range first 1 .Params.categories }}{{ . | upper }}{{ end }}</div>
+      <div class="mb-wide-title">{{ .Title | safeHTML }}</div>
+      <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+
+{{- end }}

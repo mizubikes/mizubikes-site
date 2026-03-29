@@ -1,0 +1,54 @@
+baseURL: https://mizubikes.com
+languageCode: en-US
+title: Mizubikes
+theme: PaperMod
+taxonomies:
+  category: categories
+  tag: tags
+params:
+  description: 'Road bikes, mountain bikes, gravel builds, and honest reviews.'
+  defaultTheme: light
+  disableThemeToggle: true
+  showShareButtons: true
+  showReadingTime: true
+  showToc: false
+  showBreadCrumbs: false
+  showCodeCopyButtons: false
+  comments: false
+  hideFoter: false
+  assets:
+    favicon: /favicon.ico
+    disableHLJS: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+outputFormats:
+  RSS:
+    mediaType: application/rss+xml
+    baseName: feed
+menu:
+  main:
+    - name: Road
+      url: /categories/road/
+      weight: 1
+    - name: Mountain
+      url: /categories/mountain/
+      weight: 2
+    - name: Gravel
+      url: /categories/gravel-cx/
+      weight: 3
+    - name: E-Bike
+      url: /categories/e-bike/
+      weight: 4
+    - name: Bike Repair
+      url: /categories/bike-repair/
+      weight: 5
+    - name: Deals
+      url: /categories/deals/
+      weight: 6
