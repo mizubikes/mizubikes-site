@@ -6,6 +6,7 @@ taxonomies:
   category: categories
   tag: tags
 params:
+  googleAnalytics: G-6C4532LJC9
   description: 'Road bikes, mountain bikes, gravel builds, and honest reviews.'
   defaultTheme: light
   disableThemeToggle: true
