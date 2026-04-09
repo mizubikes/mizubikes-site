@@ -2,12 +2,17 @@ baseURL: https://mizubikes.com
 languageCode: en-US
 title: Mizubikes
 theme: PaperMod
+
+services:
+  googleAnalytics:
+    id: G-6C4532LJC9
+
 taxonomies:
   category: categories
   tag: tags
+
 params:
-  googleAnalytics: G-6C4532LJC9
-  description: 'Road bikes, mountain bikes, gravel builds, and honest reviews.'
+  description: "Road bikes, mountain bikes, gravel builds, and honest reviews."
   defaultTheme: light
   disableThemeToggle: true
   showShareButtons: true
@@ -20,19 +25,23 @@ params:
   assets:
     favicon: /favicon.ico
     disableHLJS: true
+
 markup:
   goldmark:
     renderer:
       unsafe: true
+
 outputs:
   home:
     - HTML
     - RSS
     - JSON
+
 outputFormats:
   RSS:
     mediaType: application/rss+xml
     baseName: feed
+
 menu:
   main:
     - name: Road
