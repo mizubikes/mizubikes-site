@@ -35,8 +35,6 @@ The 2025 **Specialized Turbo Levo 4** lineup represents the next evolution in fu
 
 There are four models in the current Levo 4 family:
 
-{{< figure src="/wp-content/uploads/2025/04/image-6.png" alt="" caption="" >}}
-
 - S-Works Turbo Levo 4
 - Turbo Levo 4 Pro
 - Turbo Levo 4 Expert
