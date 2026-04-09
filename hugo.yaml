@@ -22,6 +22,10 @@ params:
   showCodeCopyButtons: false
   comments: false
   hideFoter: false
+  cover:
+    responsiveImages: false
+    hiddenInList: false
+    hiddenInSingle: false
   assets:
     favicon: /favicon.ico
     disableHLJS: true
