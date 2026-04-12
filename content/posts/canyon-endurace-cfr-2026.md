@@ -4,7 +4,7 @@ date: 2026-04-11
 description: "The new Canyon Endurace CFR just launched with Aeroad geometry, Aeroad looks, and 35mm tire clearance. We break down who it's actually for and whether it's worth $10,499."
 tags: ["canyon", "canyon endurace cfr", "road bikes", "endurance bikes", "aero bikes", "new bikes 2026", "bike reviews"]
 cover:
-  image: "images/canyon-endurace-cfr-2026.webp"
+  image: "images/canyon-endurace-cfr-2026.jpg"
   alt: "Canyon Endurace CFR 2026"
   caption: "Photo: Canyon"
   relative: false
