@@ -24,7 +24,7 @@
     <img src="{{ . }}" alt="{{ $featured.Title }}" loading="eager">
     {{- end }}
     <div class="mb-hero-overlay">
-      <div class="mb-hero-cat">{{ range first 1 $featured.Params.categories }}{{ . | upper }}{{ end }}</div>
+      <div class="mb-hero-cat">{{ range first 1 $featured.Params.tags }}{{ . | upper }}{{ end }}</div>
       <h1 class="mb-hero-title">{{ $featured.Title | safeHTML }}</h1>
       <div class="mb-hero-meta">{{ $featured.Date.Format "January 2006" }} &middot; {{ $featured.ReadingTime }} min read</div>
     </div>
@@ -37,7 +37,7 @@
       <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
       {{- end }}
       <div class="mb-side-info">
-        <div class="mb-cat">{{ range first 1 .Params.categories }}{{ . | upper }}{{ end }}</div>
+        <div class="mb-cat">{{ range first 1 .Params.tags }}{{ . | upper }}{{ end }}</div>
         <div class="mb-side-title">{{ .Title | safeHTML }}</div>
         <div class="mb-side-date">{{ .Date.Format "Jan 2" }}</div>
       </div>
@@ -59,7 +59,7 @@
       {{- with .Params.cover.image }}
       <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
       {{- end }}
-      <div class="mb-cat">{{ range first 1 .Params.categories }}{{ . | upper }}{{ end }}</div>
+      <div class="mb-cat">{{ range first 1 .Params.tags }}{{ . | upper }}{{ end }}</div>
       <div class="mb-card-title">{{ .Title | safeHTML }}</div>
       <div class="mb-card-excerpt">{{ .Summary | truncate 100 }}</div>
       <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
@@ -77,7 +77,7 @@
       {{- with .Params.cover.image }}
       <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
       {{- end }}
-      <div class="mb-cat">{{ range first 1 .Params.categories }}{{ . | upper }}{{ end }}</div>
+      <div class="mb-cat">{{ range first 1 .Params.tags }}{{ . | upper }}{{ end }}</div>
       <div class="mb-wide-title">{{ .Title | safeHTML }}</div>
       <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
     </a>
