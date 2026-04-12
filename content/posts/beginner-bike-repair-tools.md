@@ -3,11 +3,7 @@ _edit_last: "2"
 _thumbnail_id: "3462"
 _wp_old_slug: beginner-bike-repair-tools-the-essential-starter-kit-for-diy-bike-maintenance
 author: mizubikes
-categories:
-  - bike-repair
-  - deals
-  - mountain
-  - road
+categories: ["Bike Repair"]
 cover:
   alt: Screenshot 2025-04-04 001635
   image: /wp-content/uploads/2025/04/Screenshot-2025-04-04-001635.png
