@@ -55,7 +55,7 @@ menu:
       url: /categories/mountain/
       weight: 2
     - name: Gravel
-      url: /categories/gravel-cx/
+      url: /categories/gravel/
       weight: 3
     - name: E-Bike
       url: /categories/e-bike/
