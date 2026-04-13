@@ -64,10 +64,13 @@
   padding: 1.5rem;
   background: linear-gradient(transparent, rgba(0,0,0,0.75));
 }
+.mb-hero-overlay .mb-cat {
+  color: #ffffff;
+}
 .mb-hero-cat {
   font-size: 10px;
   letter-spacing: 0.12em;
-  color: #5DCAA5;
+  color: #ffffff;
   font-weight: 600;
   margin-bottom: 0.4rem;
 }
