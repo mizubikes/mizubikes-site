@@ -1,8 +1,7 @@
 ---
 _edit_last: "2"
 author: mizubikes
-categories:
-  - uncategorized
+categories: ["Road", "Reviews"]
 date: "2025-04-08T23:27:45+00:00"
 draft: "true"
 guid: https://mizubikes.com/?p=3486
