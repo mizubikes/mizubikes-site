@@ -2,11 +2,11 @@
 _edit_last: "2"
 _thumbnail_id: "3503"
 author: mizubikes
-categories:
-  - road
+categories: ["Road", "Reviews"]
 cover:
-  alt: Screenshot
   image: /wp-content/uploads/2025/04/IMG_1242.jpeg
+  alt: "Specialized Aethos Review"
+  relative: false
 date: "2025-04-12T15:34:35+00:00"
 guid: https://mizubikes.com/?p=3497
 parent_post_id: null
@@ -19,7 +19,7 @@ rank_math_primary_category: "3"
 rank_math_seo_score: "70"
 rank_math_title: 'Specialized Aethos Review: A Lightweight Road Bike for Time-Crunched Cyclists'
 title: 'Specialized Aethos Review: A Lightweight Road Bike for Time-Crunched Cyclists'
-url: /https-mizubikes-com-specialized-aethos-review/
+url: /specialized-aethos-review/
 
 ---
 {{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-11-002541-1.png" alt="Specialized Aethos" caption="Specialized Aethos" >}}
