@@ -3,7 +3,7 @@ _edit_last: "2"
 author: mizubikes
 categories: ["Road", "Reviews"]
 date: "2025-04-08T23:27:45+00:00"
-draft: "true"
+draft: "false"
 guid: https://mizubikes.com/?p=3486
 parent_post_id: null
 post_id: "3486"
