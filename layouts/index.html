@@ -5,13 +5,10 @@
 {{- if gt (len $posts) 1 }}{{ $secondary = $posts | after 1 | first 4 }}{{ end }}
 
 {{- $workshop := where .Site.RegularPages "Type" "posts" }}
-{{- $workshop = where $workshop ".Params.categories" "intersect" (slice "Bike Repair") | first 3 }}
+{{- $workshop = where $workshop ".Params.categories" "intersect" (slice "Bike Repair" "Bike Builds") | first 3 }}
 
 {{- $reviews := where .Site.RegularPages "Type" "posts" }}
 {{- $reviews = where $reviews ".Params.categories" "intersect" (slice "Reviews") | first 3 }}
-
-{{- $builds := where .Site.RegularPages "Type" "posts" }}
-{{- $builds = where $builds ".Params.categories" "intersect" (slice "Bike Builds") | first 3 }}
 
 <div class="mb-ticker">
   <span class="mb-ticker-label">Latest</span>
@@ -82,28 +79,6 @@
   </div>
   <div class="mb-card-grid">
     {{- range $reviews }}
-    <a href="{{ .RelPermalink }}" class="mb-card">
-      {{- with .Params.cover.image }}
-      <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
-      {{- end }}
-      <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
-      <div class="mb-card-title">{{ .Title | safeHTML }}</div>
-      <div class="mb-card-excerpt">{{ .Summary | truncate 100 }}</div>
-      <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
-    </a>
-    {{- end }}
-  </div>
-</div>
-{{- end }}
-
-{{- if $builds }}
-<div class="mb-section">
-  <div class="mb-section-header">
-    <span class="mb-section-title">Bike Builds</span>
-    <a href="/categories/bike-builds/" class="mb-section-more">View all &rarr;</a>
-  </div>
-  <div class="mb-card-grid">
-    {{- range $builds }}
     <a href="{{ .RelPermalink }}" class="mb-card">
       {{- with .Params.cover.image }}
       <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
