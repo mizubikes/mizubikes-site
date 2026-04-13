@@ -63,6 +63,9 @@ menu:
     - name: Bike Repair
       url: /categories/bike-repair/
       weight: 5
+    - name: Bike Builds
+      url: /categories/bike-builds/
+      weight: 6
     - name: Deals
       url: /categories/deals/
-      weight: 6
+      weight: 7
