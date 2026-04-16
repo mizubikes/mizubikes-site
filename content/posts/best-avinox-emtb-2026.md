@@ -3,6 +3,7 @@ title: "Best Avinox eMTBs in 2026: M2 and M2S Bikes for Every Budget"
 date: 2026-04-15
 description: "The Avinox M2 and M2S motors have taken over the eMTB world. Here's a breakdown of the best bikes you can buy right now, from $5,000 to $13,000."
 slug: "best-avinox-emtb-2026"
+categories: ["e-bike"]
 tags: ["ebike", "emtb", "avinox", "buyer's guide"]
 cover:
   image: "images/avinox-m2s-motor.png"
