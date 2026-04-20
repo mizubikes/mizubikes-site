@@ -1,0 +1,133 @@
+<div style="margin:2rem 0;">
+
+<div style="display:flex;flex-wrap:wrap;gap:20px;margin-bottom:12px;font-size:13px;">
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:12px;height:12px;border-radius:50%;background:#2563EB;display:inline-block;"></span>GC / climber</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:12px;height:12px;border-radius:50%;background:#DC2626;display:inline-block;"></span>Classics</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:12px;height:12px;border-radius:50%;background:#D97706;display:inline-block;"></span>TT specialist</span>
+  <span style="display:flex;align-items:center;gap:6px;"><span style="width:12px;height:12px;border-radius:50%;background:#059669;display:inline-block;"></span>Sprinter</span>
+</div>
+
+<div style="position:relative;width:100%;height:420px;margin-bottom:2rem;">
+  <canvas id="crankChart"></canvas>
+</div>
+
+<div id="crankRiderLists" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:1rem;"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+(function(){
+function cmToFtIn(cm) {
+  var totalIn = cm / 2.54;
+  var ft = Math.floor(totalIn / 12);
+  var inc = Math.round(totalIn % 12);
+  return ft + "'" + inc + '"';
+}
+function axisLabel(cm) {
+  return cmToFtIn(cm) + ' (' + cm + ')';
+}
+var tickHeights = [165,168,170,173,175,178,180,183,185,188,190,193,195];
+var raw = [
+  {name:'Pogačar',h:176,c:165,t:'gc'},
+  {name:'Vingegaard',h:175,c:160,t:'gc'},
+  {name:'Evenepoel',h:171,c:165,t:'gc'},
+  {name:'Pidcock',h:170,c:165,t:'gc'},
+  {name:'Roglic',h:177,c:165,t:'gc'},
+  {name:'Bernal',h:175,c:165,t:'gc'},
+  {name:'Ayuso',h:183,c:170,t:'gc'},
+  {name:'Hindley',h:175,c:165,t:'gc'},
+  {name:'Carapaz',h:170,c:165,t:'gc'},
+  {name:'Van der Poel',h:184,c:172.5,t:'cls'},
+  {name:'Van Aert',h:188,c:170,t:'cls'},
+  {name:'Asgreen',h:191,c:172.5,t:'cls'},
+  {name:'Politt',h:192,c:175,t:'cls'},
+  {name:'Stuyven',h:186,c:172.5,t:'cls'},
+  {name:'Laporte',h:181,c:172.5,t:'cls'},
+  {name:'De Lie',h:182,c:172.5,t:'cls'},
+  {name:'Ganna',h:193,c:167.5,t:'tt'},
+  {name:'Küng',h:193,c:172.5,t:'tt'},
+  {name:'Dennis',h:182,c:170,t:'tt'},
+  {name:'Bjerg',h:182,c:170,t:'tt'},
+  {name:'Bissegger',h:188,c:170,t:'tt'},
+  {name:'Merlier',h:188,c:172.5,t:'spr'},
+  {name:'Philipsen',h:176,c:170,t:'spr'},
+  {name:'Ewan',h:167,c:165,t:'spr'},
+  {name:'Bennett',h:178,c:172.5,t:'spr'},
+  {name:'Pedersen',h:180,c:172.5,t:'spr'},
+  {name:'Girmay',h:184,c:172.5,t:'spr'},
+  {name:'Groenewegen',h:177,c:172.5,t:'spr'},
+  {name:'Jakobsen',h:181,c:172.5,t:'spr'},
+  {name:'Kooij',h:184,c:172.5,t:'spr'},
+  {name:'Milan',h:194,c:175,t:'spr'},
+  {name:'Ackermann',h:182,c:172.5,t:'spr'},
+  {name:'Kristoff',h:183,c:172.5,t:'spr'},
+  {name:'Bauhaus',h:184,c:172.5,t:'spr'},
+  {name:'Cavendish',h:175,c:170,t:'spr'},
+];
+var cats = {
+  gc:  {label:'GC / climber',  color:'#2563EB', jx:[-1.2,-0.4,0.4,1.2,-1.6,1.6,-0.8,0.8,0]},
+  cls: {label:'Classics',      color:'#DC2626', jx:[-1.2,-0.4,0.4,1.2,-1.6,1.6,-0.8]},
+  tt:  {label:'TT specialist', color:'#D97706', jx:[-1.2,-0.4,0.4,1.2,-1.6]},
+  spr: {label:'Sprinter',      color:'#059669', jx:[-2,-1.2,-0.4,0.4,1.2,2,-1.6,1.6,-2.4,2.4,-0.8,0.8,0,-2.8,2.8]},
+};
+var datasets = Object.keys(cats).map(function(type) {
+  var cat = cats[type];
+  var group = raw.filter(function(r){return r.t===type;});
+  return {
+    label: type,
+    data: group.map(function(r,i){
+      return {x:r.h+(cat.jx[i]||0), y:r.c, name:r.name, realH:r.h};
+    }),
+    backgroundColor: cat.color+'BB',
+    borderColor: cat.color,
+    borderWidth: 1.5,
+    pointRadius: 7,
+    pointHoverRadius: 9,
+  };
+});
+new Chart(document.getElementById('crankChart'),{
+  type:'scatter',
+  data:{datasets:datasets},
+  options:{
+    responsive:true,
+    maintainAspectRatio:false,
+    plugins:{
+      legend:{display:false},
+      tooltip:{callbacks:{label:function(ctx){return ctx.raw.name+' — '+cmToFtIn(ctx.raw.realH)+' ('+ctx.raw.realH+'cm) / '+ctx.raw.y+'mm';}}}
+    },
+    scales:{
+      x:{
+        title:{display:true,text:'Height',color:'#888',font:{size:12}},
+        min:163,max:198,
+        ticks:{color:'#888',font:{size:10},callback:function(v){var r=Math.round(v);return tickHeights.indexOf(r)>-1?axisLabel(r):'';},maxRotation:0,autoSkip:false},
+        grid:{color:'rgba(128,128,128,0.12)'}
+      },
+      y:{
+        title:{display:true,text:'Crank length (mm)',color:'#888',font:{size:12}},
+        min:156,max:178,
+        ticks:{color:'#888',font:{size:11},callback:function(v){return [160,165,170,172.5,175].indexOf(v)>-1?v:'';}},
+        grid:{color:'rgba(128,128,128,0.12)'}
+      }
+    }
+  }
+});
+var container = document.getElementById('crankRiderLists');
+Object.keys(cats).forEach(function(type) {
+  var cat = cats[type];
+  var riders = raw.filter(function(r){return r.t===type;}).sort(function(a,b){return a.c-b.c||a.h-b.h;});
+  var col = document.createElement('div');
+  col.style.cssText = 'border:1px solid #e5e7eb;border-radius:8px;padding:14px 16px;';
+  col.innerHTML = '<div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;border-bottom:1px solid #e5e7eb;padding-bottom:8px;">'
+    +'<span style="width:10px;height:10px;border-radius:50%;background:'+cat.color+';flex-shrink:0;display:inline-block;"></span>'
+    +'<span style="font-size:13px;font-weight:500;">'+cat.label+'</span>'
+    +'</div>'
+    +riders.map(function(r){
+      return '<div style="display:flex;justify-content:space-between;align-items:baseline;padding:4px 0;border-bottom:1px solid #f3f4f6;">'
+        +'<span style="font-size:12px;">'+r.name+'</span>'
+        +'<span style="font-size:12px;color:#6b7280;white-space:nowrap;margin-left:8px;">'+cmToFtIn(r.h)+' · '+r.c+'mm</span>'
+        +'</div>';
+    }).join('');
+  container.appendChild(col);
+});
+})();
+</script>
+</div>
