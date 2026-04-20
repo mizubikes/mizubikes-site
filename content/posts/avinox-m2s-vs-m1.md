@@ -6,8 +6,8 @@ slug: "avinox-m2s-vs-m1"
 categories: ["e-bike"]
 tags: ["ebike", "emtb", "avinox", "motor"]
 cover:
-  image: "images/avinox-m2s-motor.png"
-  alt: "Avinox M2S motor"
+  image: "images/amflow-frame.webp"
+  alt: "Amflow PX Carbon with Avinox M2S motor"
   caption: "Image: Amflow"
 ---
 
@@ -77,8 +77,6 @@ The efficiency bump from 82% to 84.5% is too small to feel directly, but over a 
 ---
 
 ## Bikes You Can Get It On
-
-{{< figure src="/images/amflow-frame.webp" caption="Amflow PX Carbon frame with integrated Avinox motor. Image: Amflow" >}}
 
 The M2S is launching with a massive partner roster — Avinox announced 60+ brands at launch. Some of the notable ones:
 
