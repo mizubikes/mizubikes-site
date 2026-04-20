@@ -16,7 +16,7 @@ At the Leadville Trail 100, two of the top three finishers in both the men's and
 
 Then Life Time banned drop bars from Leadville for 2026. Which tells you everything about how threatening the trend had become.
 
-If you've been following our [hardtail gravel conversion build](/posts/hardtail-gravel-bike-conversion/), you already know this territory. Here's a broader look at the best platforms for this style of riding in 2026 — from DIY hardtail conversions to bikes purpose-built for exactly this use case.
+If you've been following our [hardtail gravel conversion build](/hardtail-gravel-bike-dropbar-conversion/), you already know this territory. Here's a broader look at the best platforms for this style of riding in 2026 — from DIY hardtail conversions to bikes purpose-built for exactly this use case.
 
 ---
 
@@ -127,4 +127,4 @@ The one thing that's clear: this isn't a niche experiment anymore. Drop bar moun
 
 ---
 
-*Building your own drop bar hardtail? Check out our [Cannondale Scalpel HT gravel build](/posts/hardtail-gravel-bike-conversion/) for the full parts list and process.*
+*Building your own drop bar hardtail? Check out our [Cannondale Scalpel HT gravel build](/hardtail-gravel-bike-dropbar-conversion/) for the full parts list and process.*
