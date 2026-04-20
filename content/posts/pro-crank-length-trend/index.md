@@ -5,6 +5,10 @@ description: "Every cycling headline says pros are going shorter on crank length
 slug: "pro-crank-length-trend"
 categories: ["road", "bike fit"]
 tags: ["bike fit", "crank length", "road cycling", "pro cycling"]
+cover:
+  image: "images/crank-hero.png"
+  alt: "Pro cyclist crank length vs height scatter chart"
+  relative: true
 ---
 
 Every few weeks there's another article about some pro going to shorter cranks. Vingegaard on 150mm. Pogačar on 165mm. Van Aert experimenting with shorter lengths. The narrative is simple: short cranks are taking over.
