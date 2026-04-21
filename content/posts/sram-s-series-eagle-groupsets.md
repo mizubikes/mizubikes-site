@@ -81,3 +81,5 @@ More hands-on impressions to come once we see these in the wild. But on paper, S
 ---
 
 *Sources: [BikeRadar](https://www.bikeradar.com/news/sram-new-s-series-components), [Escape Collective](https://escapecollective.com/sram-eagle-s-series-consolidates-nine-groupsets-into-three/)*
+
+*Product images courtesy of [SRAM](https://www.sram.com/en/sram/mountain/series/eagle-drivetrain/collection)*
