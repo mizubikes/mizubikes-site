@@ -2,7 +2,7 @@
 title: "SRAM Eagle S-Series: One Lineup to Replace Nine Drivetrains"
 date: 2026-04-20
 description: "SRAM's new Eagle S-Series simplifies its entire mountain bike drivetrain lineup — S100, S200, and S500 replace SX through XX1 mechanical and AXS."
-categories: ["Components", "Mountain Bike", "News"]
+categories: ["Mountain"]
 tags: ["SRAM", "Eagle", "drivetrain", "groupset", "S-Series"]
 cover:
   image: /images/rd-s500-eagle-drvtrn-axs-with-bat-cover-v3.webp
