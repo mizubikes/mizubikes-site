@@ -4,7 +4,7 @@ date: 2026-04-28
 tags: ["specialized", "epic 9", "epic 8 evo", "mountain bike", "xc"]
 description: "The Epic 9 just dropped. As someone already on an Epic 8 Evo, here's where I honestly landed."
 cover:
-  image: "epic8-evo.png"
+  image: "/images/epic8-evo.png"
   alt: "My Specialized Epic 8 Evo"
 ---
 

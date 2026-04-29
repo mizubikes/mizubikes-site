@@ -4,7 +4,7 @@ date: 2026-04-28
 tags: ["specialized", "epic 9", "epic 8", "xc", "mountain bike", "comparison"]
 description: "Specialized just released the Epic 9. If you're already on an Epic 8, here's a breakdown of every meaningful change and what it means for your decision to upgrade."
 cover:
-  image: "epic9-sworks-hero.png"
+  image: "/images/epic9-sworks-hero.png"
   alt: "2026 Specialized S-Works Epic 9"
   caption: "Image credit: [Specialized](https://www.specialized.com)"
 ---
@@ -49,19 +49,19 @@ This is a big one that doesn't get enough attention. The Epic 9 replaces three b
 
 ## The 2026 Epic 9 Lineup
 
-![Epic 9 Expert — SRAM GX, RockShox Select+](epic9-expert.png)
+![Epic 9 Expert — SRAM GX, RockShox Select+](/images/epic9-expert.png)
 *Epic 9 Expert — $7,499.99 | Image credit: [Specialized](https://www.specialized.com)*
 
-![Epic 9 Pro — SRAM X0, RockShox Ultimate Flight Attendant](epic9-pro.png)
+![Epic 9 Pro — SRAM X0, RockShox Ultimate Flight Attendant](/images/epic9-pro.png)
 *Epic 9 Pro — $11,999.99 | Image credit: [Specialized](https://www.specialized.com)*
 
-![S-Works Epic 9 — SRAM XX SL, RockShox Ultimate Flight Attendant](epic9-sworks.png)
+![S-Works Epic 9 — SRAM XX SL, RockShox Ultimate Flight Attendant](/images/epic9-sworks.png)
 *S-Works Epic 9 — $15,249.99 | Image credit: [Specialized](https://www.specialized.com)*
 
-![S-Works Epic 9 Ultralight LTD — SRAM XX SL, RockShox SL Ultimate](epic9-ultralight.png)
+![S-Works Epic 9 Ultralight LTD — SRAM XX SL, RockShox SL Ultimate](/images/epic9-ultralight.png)
 *S-Works Epic 9 Ultralight LTD — $14,499.99 | Image credit: [Specialized](https://www.specialized.com)*
 
-![S-Works Epic 9 Frameset](epic9-frameset.png)
+![S-Works Epic 9 Frameset](/images/epic9-frameset.png)
 *S-Works Epic 9 Frameset — $6,999.99 | Image credit: [Specialized](https://www.specialized.com)*
 
 ## Complete Bike Weights
