@@ -4,9 +4,8 @@ date: 2026-04-28
 tags: ["specialized", "epic 9", "epic 8 evo", "mountain bike", "xc"]
 description: "The Epic 9 just dropped. As someone already on an Epic 8 Evo, here's where I honestly landed."
 cover:
-  image: "epic9-sworks-hero.png"
-  alt: "2026 Specialized S-Works Epic 9"
-  caption: "Image credit: [Specialized](https://www.specialized.com)"
+  image: "epic8-evo.png"
+  alt: "My Specialized Epic 8 Evo"
 ---
 
 The Epic 9 dropped today. It's lighter, it's faster, and Specialized will tell you it's the best XC race bike ever made. They're probably right.
@@ -14,6 +13,10 @@ The Epic 9 dropped today. It's lighter, it's faster, and Specialized will tell y
 I'm still not buying one.
 
 I've been riding my Epic 8 Evo for a while now and it's genuinely one of my favorite bikes I've owned. Around 26 lbs with my setup — Fox Float SL fork, Fox Float rear shock, OneUp V3 dropper, and tires with enough meat on them to actually handle trail riding. It's not a race build. It's not trying to be. It's a lightweight XC platform that I've set up to ride real terrain, and it does that really well.
+
+If you want to see the full build and first ride impressions, I covered it on the channel:
+
+{{< youtube f8Gv-y4kS3k >}}
 
 When I look at the Epic 9, the first thing I notice is how race-focused every decision is. The in-frame SWAT storage is gone — most of the weight savings came from pulling that out. Makes total sense if you're racing and don't want to carry anything. But I use that storage. Tube, tool, gel. Having it tucked inside the frame is one of those things you don't appreciate until it's gone.
 
