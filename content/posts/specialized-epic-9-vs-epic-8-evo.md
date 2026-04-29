@@ -2,6 +2,8 @@
 title: "The Specialized Epic 9 Is Here. My Epic 8 Evo Isn't Going Anywhere."
 date: 2026-04-28
 tags: ["specialized", "epic 9", "epic 8 evo", "mountain bike", "xc"]
+categories:
+  - mountain
 description: "The Epic 9 just dropped. As someone already on an Epic 8 Evo, here's where I honestly landed."
 cover:
   image: "/images/epic8-evo.png"

@@ -2,6 +2,8 @@
 title: "Epic 8 vs Epic 9: What Actually Changed and Should You Upgrade?"
 date: 2026-04-28
 tags: ["specialized", "epic 9", "epic 8", "xc", "mountain bike", "comparison"]
+categories:
+  - mountain
 description: "Specialized just released the Epic 9. If you're already on an Epic 8, here's a breakdown of every meaningful change and what it means for your decision to upgrade."
 cover:
   image: "/images/epic9-sworks-hero.png"
