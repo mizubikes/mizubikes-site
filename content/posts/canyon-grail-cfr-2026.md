@@ -6,7 +6,7 @@ slug: canyon-grail-cfr-2026
 categories: ["Gravel"]
 tags: ["Canyon", "Gravel Bikes", "Traka", "New Releases"]
 cover:
-  image: "/images/posts/canyon-grail-cfr-traka-2026.webp"
+  image: "/images/canyon-grail-cfr-traka-2026.webp"
   alt: "Bradyn Lange racing the unreleased Canyon Grail CFR prototype at The Traka 2026 in Girona"
   caption: "Photo: Canyon x DT Swiss All-Terrain Racing / Instagram"
   relative: false
