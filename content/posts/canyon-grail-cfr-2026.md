@@ -5,11 +5,11 @@ description: "Canyon's unreleased Grail CFR prototype was spotted at The Traka i
 slug: canyon-grail-cfr-2026
 categories: ["Gravel"]
 tags: ["Canyon", "Gravel Bikes", "Traka", "New Releases"]
-featured_image:
-  src: "/images/posts/canyon-grail-cfr-traka-2026.webp"
+cover:
+  image: "/images/posts/canyon-grail-cfr-traka-2026.webp"
   alt: "Bradyn Lange racing the unreleased Canyon Grail CFR prototype at The Traka 2026 in Girona"
-  credit: "Canyon x DT Swiss All-Terrain Racing / Instagram"
-relative: false
+  caption: "Photo: Canyon x DT Swiss All-Terrain Racing / Instagram"
+  relative: false
 draft: false
 ---
 
