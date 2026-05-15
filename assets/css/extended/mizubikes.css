@@ -110,12 +110,12 @@
 }
 .mb-side-info { display: flex; flex-direction: column; gap: 0.2rem; }
 .mb-side-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 1.4;
   color: var(--primary);
 }
-.mb-side-date { font-size: 11px; color: var(--secondary); }
+.mb-side-date { font-size: 12px; color: var(--secondary); }
 
 .mb-cat {
   font-size: 10px;
@@ -168,18 +168,18 @@
   display: block;
 }
 .mb-card-title {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 1.4;
   color: var(--primary);
   margin-bottom: 0.3rem;
 }
 .mb-card-excerpt {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--secondary);
   line-height: 1.6;
 }
-.mb-card-date { font-size: 11px; color: var(--secondary); margin-top: 0.4rem; }
+.mb-card-date { font-size: 12px; color: var(--secondary); margin-top: 0.4rem; }
 
 .mb-wide-grid {
   display: grid;
@@ -201,7 +201,7 @@
   display: block;
 }
 .mb-wide-title {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 500;
   line-height: 1.4;
   color: var(--primary);
@@ -214,6 +214,7 @@
   .mb-card-grid { grid-template-columns: 1fr; }
   .mb-wide-grid { grid-template-columns: 1fr; }
 }
+
 /* Global type scale */
 body {
   font-size: 18px;
