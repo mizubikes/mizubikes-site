@@ -214,3 +214,12 @@
   .mb-card-grid { grid-template-columns: 1fr; }
   .mb-wide-grid { grid-template-columns: 1fr; }
 }
+/* Global type scale */
+body {
+  font-size: 18px;
+}
+
+.post-content {
+  font-size: 18px;
+  line-height: 1.8;
+}
