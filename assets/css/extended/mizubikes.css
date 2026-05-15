@@ -208,11 +208,41 @@
   margin-bottom: 0.3rem;
 }
 
+/* Mobile latest posts — hidden on desktop */
+.mb-mobile-latest {
+  display: none;
+}
+.mb-mobile-card {
+  display: grid;
+  grid-template-columns: 85px 1fr;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 0.5px solid var(--border);
+  text-decoration: none;
+}
+.mb-mobile-card img {
+  width: 85px;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.mb-mobile-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
 @media (max-width: 768px) {
   .mb-hero { grid-template-columns: 1fr; }
   .mb-hero-sidebar { display: none; }
   .mb-card-grid { grid-template-columns: 1fr; }
   .mb-wide-grid { grid-template-columns: 1fr; }
+  .mb-mobile-latest {
+    display: block;
+    margin-bottom: 1.5rem;
+    border-bottom: 0.5px solid var(--border);
+    padding-bottom: 0.75rem;
+  }
 }
 
 /* Global type scale */

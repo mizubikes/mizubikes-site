@@ -49,6 +49,26 @@
 </div>
 {{- end }}
 
+{{- if $secondary }}
+<div class="mb-mobile-latest">
+  <div class="mb-section-header">
+    <span class="mb-section-title">Latest Posts</span>
+  </div>
+  {{- range $secondary }}
+  <a href="{{ .RelPermalink }}" class="mb-mobile-card">
+    {{- with .Params.cover.image }}
+    <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+    {{- end }}
+    <div class="mb-mobile-card-info">
+      <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
+      <div class="mb-side-title">{{ .Title | safeHTML }}</div>
+      <div class="mb-side-date">{{ .Date.Format "Jan 2" }}</div>
+    </div>
+  </a>
+  {{- end }}
+</div>
+{{- end }}
+
 {{- if $workshop }}
 <div class="mb-section">
   <div class="mb-section-header">
