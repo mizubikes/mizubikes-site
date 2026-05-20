@@ -1,5 +1,5 @@
 ---
-title: "Buying a Used Gravel Bike? Check the Dropout Before You Commit to SRAM 1x13"
+title: "Buying a New or Used Gravel Bike? Check the Dropout Before You Commit to SRAM 1x13"
 date: 2026-05-19
 description: "If you want to run SRAM's 13-speed XPLR groupset, your frame needs a UDH dropout. Here's what to look for on popular gravel bikes — new and used."
 slug: udh-sram-1x13-gravel-frame-compatibility
@@ -53,6 +53,14 @@ Moots went through this with their titanium gravel lineup. Their Routt CRD was t
 On the Canyon side, the Grail CFR and Endurace CFR that I've written about here both carry UDH, as does a growing number of their current gravel lineup. Canyon has been aggressive about adopting current standards, which is one of the things that makes their bikes a reasonable value even at high price points — you're not buying into obsolescence.
 
 BMC's Kaius, the Giant Revolt in its current generation, and ENVE's MOG also have UDH. But again — an older Revolt or a pre-update BMC frame may not.
+
+## Which frames have UDH?
+
+The list is longer than you might expect — over 70 gravel frames from more than 30 brands are currently confirmed UDH-compatible. Rather than bury a long table in this post, we've put together a dedicated reference: [UDH-Compatible Gravel Bikes: Every Frame on SRAM's List (May 2026)](/posts/udh-compatible-gravel-bikes-2026/).
+
+The short version of the most commonly shopped bikes: Trek Checkpoint (Gen 3), Specialized Crux (2025+), Canyon Grail CF (current gen), Cannondale SuperX and Topstone Carbon, BMC Kaius, Cervelo Aspero, Scott Addict Gravel, Orbea Terra, and ENVE MOG all have UDH. The Giant Revolt notably does not, as of mid-2026.
+
+Worth noting: that list is sourced from SRAM's Bike Finder and reflects only frames SRAM has listed there. There are other UDH-compatible frames not on that list, particularly from smaller builders. When in doubt, ask the manufacturer directly.
 
 ## What to Actually Look For When Buying
 
