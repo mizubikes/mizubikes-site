@@ -6,9 +6,9 @@ slug: udh-compatible-gravel-bikes-2026
 categories: ["Gravel"]
 tags: ["SRAM", "UDH", "Gravel Bikes", "Buying Guide"]
 cover:
-  image: "/images/udh-dropout-gravel.png"
-  alt: "UDH dropout on a Specialized gravel bike frame"
-  caption: "Photo: Specialized"
+  image: "/images/sram-bike-finder-udh-gravel.png"
+  alt: "SRAM Bike Finder filtered by UDH and Gravel showing 84 results"
+  caption: "Photo: SRAM"
   relative: false
 draft: false
 ---
