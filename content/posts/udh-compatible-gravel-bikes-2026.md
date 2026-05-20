@@ -15,7 +15,7 @@ draft: false
 
 If you're shopping for a gravel bike and want to run SRAM's 13-speed XPLR ecosystem — or just want the future-proofing that UDH brings — the first question is whether the frame you're considering actually has it. We've pulled every gravel bike currently listed on [SRAM's official Bike Finder](https://bikefinder.sram.com/?technology=UDH&rideType=Gravel&sort=Featured&sortOrder=asc&site=Road) with the UDH filter applied, as of May 2026.
 
-**A note before you use this list:** This is sourced directly from SRAM's Bike Finder tool and reflects only the bikes SRAM has listed there. It is not an exhaustive list of every UDD-compatible frame on the market — there are likely other frames from brands not represented in the Bike Finder, particularly smaller builders and direct-to-consumer brands, that also use the UDH standard. Always verify directly with the frame manufacturer before purchasing, especially on the used market where model year matters.
+**A note before you use this list:** This is sourced directly from SRAM's Bike Finder tool and reflects only the bikes SRAM has listed there. It is not an exhaustive list of every UDH-compatible frame on the market — there are likely other frames from brands not represented in the Bike Finder, particularly smaller builders and direct-to-consumer brands, that also use the UDH standard. Always verify directly with the frame manufacturer before purchasing, especially on the used market where model year matters.
 
 For more on why UDH matters and what to look for when buying new or used, see our full guide: [Buying a New or Used Gravel Bike? Check the Dropout Before You Commit to SRAM 1x13](/posts/udh-sram-1x13-gravel-frame-compatibility/).
 
