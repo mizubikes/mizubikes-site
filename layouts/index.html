@@ -1,5 +1,5 @@
 {{- define "main" }}
-{{- $posts := where .Site.RegularPages "Type" "posts" }}
+{{- $posts := where .Site.RegularPages "Type" "posts" | sort "Params.weight" }}
 {{- $featured := index $posts 0 }}
 {{- $secondary := slice }}
 {{- if gt (len $posts) 1 }}{{ $secondary = $posts | after 1 | first 4 }}{{ end }}
