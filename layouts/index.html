@@ -1,6 +1,6 @@
 {{- define "main" }}
-{{- $allPosts := where .Site.RegularPages "Type" "posts" | sort "Date" "desc" }}
-{{- $pinned := where $allPosts "Params.weight" "ne" nil | sort "Params.weight" "asc" }}
+{{- $allPosts := (where .Site.RegularPages "Type" "posts").ByDate.Reverse }}
+{{- $pinned := (where $allPosts "Params.weight" "ne" nil) | sort "Params.weight" "asc" }}
 {{- $unpinned := where $allPosts "Params.weight" "eq" nil }}
 {{- $posts := $pinned | append $unpinned }}
 {{- $featured := index $posts 0 }}
