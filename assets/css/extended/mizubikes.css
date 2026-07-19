@@ -222,6 +222,51 @@
 }
 .mb-wide-card:hover .mb-wide-title { color: #1B8FAB; }
 
+/* ---------- YouTube follow band ---------- */
+.mb-follow-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 2.5rem;
+  background: rgba(27, 143, 171, 0.06);
+  border: 1px solid rgba(27, 143, 171, 0.18);
+  border-radius: 8px;
+}
+.mb-follow-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.25rem;
+}
+.mb-follow-sub {
+  font-size: 14px;
+  color: var(--secondary);
+  line-height: 1.5;
+}
+.mb-follow-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+  padding: 0.65rem 1.25rem;
+  background: #1B8FAB;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.15s ease;
+  white-space: nowrap;
+}
+.mb-follow-btn:hover {
+  background: #157a93;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+.mb-follow-btn svg { display: block; }
+
 /* ---------- Mobile latest posts — hidden on desktop ---------- */
 .mb-mobile-latest {
   display: none;
@@ -259,10 +304,19 @@
     border-bottom: 0.5px solid var(--border);
     padding-bottom: 0.75rem;
   }
+  .mb-follow-band {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem;
+  }
+  .mb-follow-btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .mb-card, .mb-wide-card, .mb-hero-main img {
+  .mb-card, .mb-wide-card, .mb-hero-main img, .mb-follow-btn {
     transition: none;
   }
 }
