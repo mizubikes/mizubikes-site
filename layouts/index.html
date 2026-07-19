@@ -13,15 +13,6 @@
 {{- $reviews := where .Site.RegularPages "Type" "posts" }}
 {{- $reviews = where $reviews ".Params.categories" "intersect" (slice "Reviews") | first 3 }}
 
-<div class="mb-ticker">
-  <span class="mb-ticker-label">Latest</span>
-  <div class="mb-ticker-items">
-    {{- range first 4 $posts }}
-    <a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
-    {{- end }}
-  </div>
-</div>
-
 {{- if $featured }}
 <div class="mb-hero">
   <a href="{{ $featured.RelPermalink }}" class="mb-hero-main">
@@ -31,20 +22,21 @@
     <div class="mb-hero-overlay">
       <div class="mb-hero-cat">{{- with $featured.Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
       <h1 class="mb-hero-title">{{ $featured.Title | safeHTML }}</h1>
-      <div class="mb-hero-meta">{{ $featured.Date.Format "January 2006" }} &middot; {{ $featured.ReadingTime }} min read</div>
+      <div class="mb-hero-meta">{{ $featured.Date.Format "Jan 2, 2006" }} &middot; {{ $featured.ReadingTime }} min read</div>
     </div>
   </a>
 
   <div class="mb-hero-sidebar">
     {{- range $secondary }}
+    {{- $p := . }}
     <a href="{{ .RelPermalink }}" class="mb-side-card">
       {{- with .Params.cover.image }}
-      <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+      <img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">
       {{- end }}
       <div class="mb-side-info">
         <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
         <div class="mb-side-title">{{ .Title | safeHTML }}</div>
-        <div class="mb-side-date">{{ .Date.Format "Jan 2" }}</div>
+        <div class="mb-side-date">{{ .Date.Format "Jan 2, 2006" }}</div>
       </div>
     </a>
     {{- end }}
@@ -58,14 +50,15 @@
     <span class="mb-section-title">Latest Posts</span>
   </div>
   {{- range $secondary }}
+  {{- $p := . }}
   <a href="{{ .RelPermalink }}" class="mb-mobile-card">
     {{- with .Params.cover.image }}
-    <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+    <img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">
     {{- end }}
     <div class="mb-mobile-card-info">
       <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
       <div class="mb-side-title">{{ .Title | safeHTML }}</div>
-      <div class="mb-side-date">{{ .Date.Format "Jan 2" }}</div>
+      <div class="mb-side-date">{{ .Date.Format "Jan 2, 2006" }}</div>
     </div>
   </a>
   {{- end }}
@@ -80,13 +73,14 @@
   </div>
   <div class="mb-card-grid">
     {{- range $workshop }}
+    {{- $p := . }}
     <a href="{{ .RelPermalink }}" class="mb-card">
       {{- with .Params.cover.image }}
-      <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+      <img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">
       {{- end }}
       <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
       <div class="mb-card-title">{{ .Title | safeHTML }}</div>
-      <div class="mb-card-excerpt">{{ .Summary | truncate 100 }}</div>
+      <div class="mb-card-excerpt">{{ .Summary | plainify | truncate 100 }}</div>
       <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
     </a>
     {{- end }}
@@ -102,13 +96,14 @@
   </div>
   <div class="mb-card-grid">
     {{- range $reviews }}
+    {{- $p := . }}
     <a href="{{ .RelPermalink }}" class="mb-card">
       {{- with .Params.cover.image }}
-      <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+      <img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">
       {{- end }}
       <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
       <div class="mb-card-title">{{ .Title | safeHTML }}</div>
-      <div class="mb-card-excerpt">{{ .Summary | truncate 100 }}</div>
+      <div class="mb-card-excerpt">{{ .Summary | plainify | truncate 100 }}</div>
       <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
     </a>
     {{- end }}
