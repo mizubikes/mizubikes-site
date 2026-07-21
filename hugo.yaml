@@ -1,16 +1,13 @@
-baseURL: https://mizubikes.com
+﻿baseURL: https://mizubikes.com
 languageCode: en-US
 title: Mizubikes
 theme: PaperMod
-
 services:
   googleAnalytics:
     id: G-6C4532LJC9
-
 taxonomies:
   category: categories
   tag: tags
-
 params:
   description: "Road bikes, mountain bikes, gravel builds, and honest reviews."
   defaultTheme: light
@@ -29,43 +26,46 @@ params:
   assets:
     favicon: /favicon.ico
     disableHLJS: true
-
 markup:
   goldmark:
     renderer:
       unsafe: true
-
 outputs:
   home:
     - HTML
     - RSS
     - JSON
-
 outputFormats:
   RSS:
     mediaType: application/rss+xml
     baseName: feed
-
 menu:
   main:
-    - name: Road
+    - identifier: menu-road
+      name: Road
       url: /categories/road/
       weight: 1
-    - name: Mountain
+    - identifier: menu-mountain
+      name: Mountain
       url: /categories/mountain/
       weight: 2
-    - name: Gravel
+    - identifier: menu-gravel
+      name: Gravel
       url: /categories/gravel/
       weight: 3
-    - name: E-Bike
+    - identifier: menu-ebike
+      name: E-Bike
       url: /categories/e-bike/
       weight: 4
-    - name: Bike Repair
+    - identifier: menu-bike-repair
+      name: Bike Repair
       url: /categories/bike-repair/
       weight: 5
-    - name: Bike Builds
+    - identifier: menu-bike-builds
+      name: Bike Builds
       url: /categories/bike-builds/
       weight: 6
-    - name: Deals
+    - identifier: menu-deals
+      name: Deals
       url: /categories/deals/
       weight: 7
