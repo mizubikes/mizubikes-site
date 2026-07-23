@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gravel Bikes on Mizubikes</title>
+    <link>/tags/gravel-bikes/</link>
+    <description>Recent content in Gravel Bikes on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/gravel-bikes/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Buying a New or Used Gravel Bike? Check the Dropout Before You Commit to SRAM 1x13</title>
+      <link>/posts/udh-sram-1x13-gravel-frame-compatibility/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/udh-sram-1x13-gravel-frame-compatibility/</guid> 
+      <description>If you want to run SRAM&amp;#39;s 13-speed XPLR groupset, your frame needs a UDH dropout. Here&amp;#39;s what to look for on popular gravel bikes — new and used.</description>
+    </item>
+    <item>
+      <title>UDH-Compatible Gravel Bikes: Every Frame on SRAM&#39;s List (May 2026)</title>
+      <link>/posts/udh-compatible-gravel-bikes-2026/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/udh-compatible-gravel-bikes-2026/</guid> 
+      <description>A full list of UDH-compatible gravel bikes pulled from SRAM&amp;#39;s official Bike Finder, updated May 2026.</description>
+    </item>
+    <item>
+      <title>Canyon&#39;s New Grail CFR Is the Aeroad of Gravel Bikes</title>
+      <link>/posts/canyon-grail-cfr-2026/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/canyon-grail-cfr-2026/</guid> 
+      <description>Canyon&amp;#39;s unreleased Grail CFR prototype was spotted at The Traka in Girona this week — and it looks exactly like what you&amp;#39;d expect if you&amp;#39;ve been watching the Aeroad family tree grow.</description>
+    </item>
+    <item>
+      <title>Gravel Bike Tire Clearance: What the Specs Don&#39;t Tell You</title>
+      <link>/posts/gravel-bike-tire-clearance/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/gravel-bike-tire-clearance/</guid> 
+      <description>Manufacturer tire clearance specs are conservative by design. Here&amp;#39;s what real-world clearance actually looks like on the Specialized Crux — and how it compares to the competition.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mountain Bike on Mizubikes</title>
+    <link>/tags/mountain-bike/</link>
+    <description>Recent content in Mountain Bike on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/mountain-bike/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Epic 8 vs Epic 9: What Actually Changed and Should You Upgrade?</title>
+      <link>/posts/specialized-epic-8-vs-epic-9-should-you-upgrade/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/specialized-epic-8-vs-epic-9-should-you-upgrade/</guid> 
+      <description>Specialized just released the Epic 9. If you&amp;#39;re already on an Epic 8, here&amp;#39;s a breakdown of every meaningful change and what it means for your decision to upgrade.</description>
+    </item>
+    <item>
+      <title>The Specialized Epic 9 Is Here. My Epic 8 Evo Isn&#39;t Going Anywhere.</title>
+      <link>/posts/specialized-epic-9-vs-epic-8-evo/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/specialized-epic-9-vs-epic-8-evo/</guid> 
+      <description>The Epic 9 just dropped. As someone already on an Epic 8 Evo, here&amp;#39;s where I honestly landed.</description>
+    </item>
+  </channel>
+</rss>

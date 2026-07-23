@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>XPLR on Mizubikes</title>
+    <link>/tags/xplr/</link>
+    <description>Recent content in XPLR on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/xplr/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SRAM Force E1 2x vs 1x vs XPLR: Gearing and Gear Jumps Compared</title>
+      <link>/posts/sram-force-e1-gearing-gear-jumps/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/sram-force-e1-gearing-gear-jumps/</guid> 
+      <description>SRAM Force E1 gearing compared cog by cog — 10-33 vs 10-36 vs 13-speed XPLR 10-46, with the actual gear jumps behind the range numbers.</description>
+    </item>
+    <item>
+      <title>SRAM 1x on a Road Bike: Is It Finally Worth It?</title>
+      <link>/posts/sram-1x-road-bike-vs-2x/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/sram-1x-road-bike-vs-2x/</guid> 
+      <description>1x road drivetrains are showing up more in the pro peloton. Here&amp;#39;s what those setups actually look like, what SRAM Force XPLR changes, and whether your bike can even run it.</description>
+    </item>
+  </channel>
+</rss>

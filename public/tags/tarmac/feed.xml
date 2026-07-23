@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tarmac on Mizubikes</title>
+    <link>/tags/tarmac/</link>
+    <description>Recent content in Tarmac on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/tarmac/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Specialized Tarmac SL9 Is Official: Here&#39;s What Actually Changed</title>
+      <link>/posts/specialized-tarmac-sl9-launch/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/specialized-tarmac-sl9-launch/</guid> 
+      <description>Specialized has officially launched the S-Works Tarmac SL9, calling it the fastest road bike it&amp;#39;s ever made. Here&amp;#39;s what&amp;#39;s real, what&amp;#39;s marketing, and how it stacks up against the SL8.</description>
+    </item>
+    <item>
+      <title>Specialized Tarmac SL9: What the Leaks Actually Show</title>
+      <link>/posts/specialized-tarmac-sl9-leak/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/specialized-tarmac-sl9-leak/</guid> 
+      <description>Leaked images and video of the Specialized Tarmac SL9 have been spreading since May. Here&amp;#39;s what the spy shots actually tell us — and what they don&amp;#39;t.</description>
+    </item>
+  </channel>
+</rss>

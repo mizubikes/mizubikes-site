@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Comparison on Mizubikes</title>
+    <link>/tags/comparison/</link>
+    <description>Recent content in Comparison on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/comparison/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Epic 8 vs Epic 9: What Actually Changed and Should You Upgrade?</title>
+      <link>/posts/specialized-epic-8-vs-epic-9-should-you-upgrade/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/specialized-epic-8-vs-epic-9-should-you-upgrade/</guid> 
+      <description>Specialized just released the Epic 9. If you&amp;#39;re already on an Epic 8, here&amp;#39;s a breakdown of every meaningful change and what it means for your decision to upgrade.</description>
+    </item>
+  </channel>
+</rss>

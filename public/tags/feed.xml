@@ -2,10 +2,655 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Mizubikes</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Mizubikes</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="http://localhost:1313/tags/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drivetrains</title>
+      <link>/tags/drivetrains/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/drivetrains/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Force E1</title>
+      <link>/tags/force-e1/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/force-e1/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Gearing</title>
+      <link>/tags/gearing/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/gearing/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>SRAM</title>
+      <link>/tags/sram/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/sram/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>XPLR</title>
+      <link>/tags/xplr/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/xplr/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Bike Build</title>
+      <link>/tags/bike-build/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/bike-build/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Cascade Components</title>
+      <link>/tags/cascade-components/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/cascade-components/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>GENIE Shock</title>
+      <link>/tags/genie-shock/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/genie-shock/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Mullet</title>
+      <link>/tags/mullet/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/mullet/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Stumpjumper 15</title>
+      <link>/tags/stumpjumper-15/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/stumpjumper-15/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Suspension</title>
+      <link>/tags/suspension/</link>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/suspension/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Drivetrain</title>
+      <link>/tags/drivetrain/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/drivetrain/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Groupset</title>
+      <link>/tags/groupset/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/groupset/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Aluminum Frame</title>
+      <link>/tags/aluminum-frame/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/aluminum-frame/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Specialized</title>
+      <link>/tags/specialized/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/specialized/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Trail Bike</title>
+      <link>/tags/trail-bike/</link>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/trail-bike/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Bike Tech</title>
+      <link>/tags/bike-tech/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/bike-tech/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>New Bikes</title>
+      <link>/tags/new-bikes/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/new-bikes/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Road Bikes</title>
+      <link>/tags/road-bikes/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/road-bikes/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Tarmac</title>
+      <link>/tags/tarmac/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/tarmac/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Aventon</title>
+      <link>/tags/aventon/</link>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/aventon/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Ebike Buying Guide</title>
+      <link>/tags/ebike-buying-guide/</link>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/ebike-buying-guide/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Specialized Vado SL</title>
+      <link>/tags/specialized-vado-sl/</link>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/specialized-vado-sl/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>ST5&#43;</title>
+      <link>/tags/st5&#43;/</link>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/st5&#43;/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Trek Verve</title>
+      <link>/tags/trek-verve/</link>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/trek-verve/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>X-Lab</title>
+      <link>/tags/x-lab/</link>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/x-lab/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>XDS</title>
+      <link>/tags/xds/</link>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/xds/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Shimano</title>
+      <link>/tags/shimano/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/shimano/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Ultegra</title>
+      <link>/tags/ultegra/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/ultegra/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Aero</title>
+      <link>/tags/aero/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/aero/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Gear</title>
+      <link>/tags/gear/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/gear/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Wheels</title>
+      <link>/tags/wheels/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/wheels/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Zipp</title>
+      <link>/tags/zipp/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/zipp/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Crux</title>
+      <link>/tags/crux/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/crux/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Gravel Racing</title>
+      <link>/tags/gravel-racing/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/gravel-racing/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>/tags/opinion/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/opinion/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>32-Inch Wheels</title>
+      <link>/tags/32-inch-wheels/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/32-inch-wheels/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Scott</title>
+      <link>/tags/scott/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/scott/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Unbound</title>
+      <link>/tags/unbound/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/unbound/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Wheel Tech</title>
+      <link>/tags/wheel-tech/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/wheel-tech/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Bike Builds</title>
+      <link>/tags/bike-builds/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/bike-builds/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Buying Guide</title>
+      <link>/tags/buying-guide/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/buying-guide/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Gravel Bikes</title>
+      <link>/tags/gravel-bikes/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/gravel-bikes/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Groupsets</title>
+      <link>/tags/groupsets/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/groupsets/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>UDH</title>
+      <link>/tags/udh/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/udh/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Aerodynamics</title>
+      <link>/tags/aerodynamics/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/aerodynamics/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>ENVE</title>
+      <link>/tags/enve/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/enve/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Bike Industry</title>
+      <link>/tags/bike-industry/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/bike-industry/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>ENVE Melee</title>
+      <link>/tags/enve-melee/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/enve-melee/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Frameset</title>
+      <link>/tags/frameset/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/frameset/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Giant</title>
+      <link>/tags/giant/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/giant/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>OEM</title>
+      <link>/tags/oem/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/oem/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Road Bike</title>
+      <link>/tags/road-bike/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/road-bike/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Unboxing</title>
+      <link>/tags/unboxing/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/unboxing/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Aero Bikes</title>
+      <link>/tags/aero-bikes/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/aero-bikes/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Chinese Bikes</title>
+      <link>/tags/chinese-bikes/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/chinese-bikes/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>WorldTour</title>
+      <link>/tags/worldtour/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/worldtour/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Canyon</title>
+      <link>/tags/canyon/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/canyon/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>New Releases</title>
+      <link>/tags/new-releases/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/new-releases/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Traka</title>
+      <link>/tags/traka/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/traka/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Comparison</title>
+      <link>/tags/comparison/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/comparison/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Epic 8</title>
+      <link>/tags/epic-8/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/epic-8/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Epic 8 Evo</title>
+      <link>/tags/epic-8-evo/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/epic-8-evo/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Epic 9</title>
+      <link>/tags/epic-9/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/epic-9/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Mountain Bike</title>
+      <link>/tags/mountain-bike/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/mountain-bike/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Xc</title>
+      <link>/tags/xc/</link>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/xc/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Eagle</title>
+      <link>/tags/eagle/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/eagle/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>S-Series</title>
+      <link>/tags/s-series/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/s-series/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Avinox</title>
+      <link>/tags/avinox/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/avinox/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Bike Fit</title>
+      <link>/tags/bike-fit/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/bike-fit/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Bike Rumors</title>
+      <link>/tags/bike-rumors/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/bike-rumors/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Crank Length</title>
+      <link>/tags/crank-length/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/crank-length/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Drop Bar MTB</title>
+      <link>/tags/drop-bar-mtb/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/drop-bar-mtb/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Ebike</title>
+      <link>/tags/ebike/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/ebike/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Emtb</title>
+      <link>/tags/emtb/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/emtb/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Gravel</title>
+      <link>/tags/gravel/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/gravel/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Hardtail</title>
+      <link>/tags/hardtail/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/hardtail/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Leadville</title>
+      <link>/tags/leadville/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/leadville/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Motor</title>
+      <link>/tags/motor/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/motor/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Pro Cycling</title>
+      <link>/tags/pro-cycling/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/pro-cycling/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Road Cycling</title>
+      <link>/tags/road-cycling/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/road-cycling/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Buyer&#39;s Guide</title>
+      <link>/tags/buyers-guide/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/buyers-guide/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Bike Reviews</title>
+      <link>/tags/bike-reviews/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/bike-reviews/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Bike Setup</title>
+      <link>/tags/bike-setup/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/bike-setup/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Canyon Endurace Cfr</title>
+      <link>/tags/canyon-endurace-cfr/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/canyon-endurace-cfr/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Endurance Bikes</title>
+      <link>/tags/endurance-bikes/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/endurance-bikes/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Gravel Tires</title>
+      <link>/tags/gravel-tires/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/gravel-tires/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>New Bikes 2026</title>
+      <link>/tags/new-bikes-2026/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/new-bikes-2026/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Specialized Crux</title>
+      <link>/tags/specialized-crux/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/specialized-crux/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Tire Clearance</title>
+      <link>/tags/tire-clearance/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/tire-clearance/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Di2</title>
+      <link>/tags/di2/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/di2/</guid> 
+      <description></description>
+    </item>
+    <item>
+      <title>Factor</title>
+      <link>/tags/factor/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/tags/factor/</guid> 
+      <description></description>
+    </item>
   </channel>
 </rss>

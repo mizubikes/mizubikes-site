@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Opinion on Mizubikes</title>
+    <link>/tags/opinion/</link>
+    <description>Recent content in Opinion on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 28 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/opinion/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crux 5 vs Road Bike: Is the Quiver Killer Finally Here?</title>
+      <link>/posts/crux-5-quiver-killer-road-bike/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/crux-5-quiver-killer-road-bike/</guid> 
+      <description>The Crux 5 weighs 789g, clears 55mm tires, and borrows aero shaping from the Tarmac SL8. Here&amp;#39;s the honest case for replacing your road bike with one.</description>
+    </item>
+    <item>
+      <title>The Crux 5 Is the Gravel Bike We Knew Was Coming</title>
+      <link>/posts/specialized-crux-5-opinion/</link>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/specialized-crux-5-opinion/</guid> 
+      <description>The Specialized Crux 5 goes full aero and leaves its cyclocross roots behind. Here&amp;#39;s why that was inevitable — and what it might cost us down the road.</description>
+    </item>
+  </channel>
+</rss>

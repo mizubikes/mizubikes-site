@@ -2,38 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Road on Mizubikes</title>
-    <link>http://localhost:1313/categories/road/</link>
+    <link>/categories/road/</link>
     <description>Recent content in Road on Mizubikes</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 12 Apr 2025 15:34:35 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/road/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/road/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SRAM 1x on a Road Bike: Is It Finally Worth It?</title>
+      <link>/posts/sram-1x-road-bike-vs-2x/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/sram-1x-road-bike-vs-2x/</guid> 
+      <description>1x road drivetrains are showing up more in the pro peloton. Here&amp;#39;s what those setups actually look like, what SRAM Force XPLR changes, and whether your bike can even run it.</description>
+    </item>
+    <item>
+      <title>Specialized Tarmac SL9 Is Official: Here&#39;s What Actually Changed</title>
+      <link>/posts/specialized-tarmac-sl9-launch/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/specialized-tarmac-sl9-launch/</guid> 
+      <description>Specialized has officially launched the S-Works Tarmac SL9, calling it the fastest road bike it&amp;#39;s ever made. Here&amp;#39;s what&amp;#39;s real, what&amp;#39;s marketing, and how it stacks up against the SL8.</description>
+    </item>
+    <item>
+      <title>Why I&#39;m Finally Thinking About Switching to SRAM</title>
+      <link>/posts/finally-trying-sram-force-e1/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/finally-trying-sram-force-e1/</guid> 
+      <description>I&amp;#39;ve been on Shimano Ultegra since the R8100 launched. Here&amp;#39;s why SRAM Force E1 is finally making me reconsider.</description>
+    </item>
+    <item>
+      <title>Specialized Tarmac SL9: What the Leaks Actually Show</title>
+      <link>/posts/specialized-tarmac-sl9-leak/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/specialized-tarmac-sl9-leak/</guid> 
+      <description>Leaked images and video of the Specialized Tarmac SL9 have been spreading since May. Here&amp;#39;s what the spy shots actually tell us — and what they don&amp;#39;t.</description>
+    </item>
+    <item>
+      <title>Zipp 454 NSW Review: Is the Aging Flagship Still Worth It in 2025?</title>
+      <link>/posts/zipp-454-nsw-still-worth-it/</link>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/zipp-454-nsw-still-worth-it/</guid> 
+      <description>The Zipp 454 NSW has been around a few years, but the sawtooth rim is still in production. Here&amp;#39;s how it stacks up against today&amp;#39;s best aero road wheels.</description>
+    </item>
+    <item>
+      <title>ENVE Melee Frameset Unboxing &amp; Weight Check — Is It Still Worth It in 2026?</title>
+      <link>/posts/enve-melee-unboxing/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/enve-melee-unboxing/</guid> 
+      <description>The ENVE Melee is four years old and still $4,800 at retail. We unbox the Damascus colorway, weigh the frame and fork, and break down whether it still makes sense in 2026.</description>
+    </item>
+    <item>
+      <title>The Factory Always Wins: Why XDS Selling Its Own Bikes Isn&#39;t New — It&#39;s Just Giant&#39;s Playbook</title>
+      <link>/posts/xds-giant-oem-manufacturer-goes-direct/</link>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/xds-giant-oem-manufacturer-goes-direct/</guid> 
+      <description>XDS making bikes for the industry and then selling its own is raising eyebrows. But this story is as old as the bike industry itself — and Giant wrote the original.</description>
+    </item>
+    <item>
+      <title>XDS X-Lab: The Chinese Brand Racing in the WorldTour (And Now Selling to You)</title>
+      <link>/posts/xds-x-lab-worldtour-chinese-bike/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/xds-x-lab-worldtour-chinese-bike/</guid> 
+      <description>XDS just launched X-Lab globally with nine bikes, including the AD9 WorldTour racer. Here&amp;#39;s what they offer, what they cost, and whether they&amp;#39;re worth your attention.</description>
+    </item>
+    <item>
+      <title>Are Short Cranks Taking Over? What the Pro Peloton Data Actually Shows</title>
+      <link>/posts/pro-crank-length-trend/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/pro-crank-length-trend/</guid> 
+      <description>Every cycling headline says pros are going shorter on crank length. The data tells a more specific story — and it matters for what you should actually be riding.</description>
+    </item>
+    <item>
+      <title>Canyon Endurace CFR 2026 Review: Should You Buy It?</title>
+      <link>/posts/canyon-endurace-cfr-2026/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/canyon-endurace-cfr-2026/</guid> 
+      <description>The new Canyon Endurace CFR just launched with Aeroad geometry, Aeroad looks, and 35mm tire clearance. We break down who it&amp;#39;s actually for and whether it&amp;#39;s worth $10,499.</description>
+    </item>
+    <item>
+      <title>Factor Ostro VAM V2 Build</title>
+      <link>/posts/factor-ostro-vam-v2-build/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/factor-ostro-vam-v2-build/</guid> 
+      <description>A full custom build of the Factor Ostro VAM V2 — lightweight aero road bike with Shimano Di2, Quarq power meter, BTLos wheels, and a custom 3D printed headset spacer.</description>
+    </item>
     <item>
       <title>Specialized Aethos Review: A Lightweight Road Bike for Time-Crunched Cyclists</title>
-      <link>http://localhost:1313/https-mizubikes-com-specialized-aethos-review/</link>
+      <link>/specialized-aethos-review/</link>
       <pubDate>Sat, 12 Apr 2025 15:34:35 +0000</pubDate>
        <guid isPermaLink="false">https://mizubikes.com/?p=3497</guid> 
       <description>&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2025/04/Screenshot-2025-04-11-002541-1.png&#34;
+    &lt;img loading=&#34;lazy&#34; src=&#34;/wp-content/uploads/2025/04/Screenshot-2025-04-11-002541-1.png&#34;
          alt=&#34;Specialized Aethos&#34;/&gt; &lt;figcaption&gt;
             &lt;p&gt;Specialized Aethos&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The &lt;strong&gt;Specialized Aethos&lt;/strong&gt; might be the most quietly brilliant road bike out there. It’s not aero. It’s not a race bike. And it’s definitely &lt;em&gt;not&lt;/em&gt; one of those overhyped showcase bikes built to dazzle on Instagram more than real roads. But it &lt;em&gt;is&lt;/em&gt; light, smooth, and a blast to ride—especially if you’re juggling work, family, and a tight training window.&lt;/p&gt;
-&lt;p&gt;The Aethos isn’t trying to win races. It’s built for riders who just want to enjoy the road, feel fast, and get that little rush when the climb kicks up or the group ride speeds up. It doesn’t shout “pro-level performance,” but it definitely delivers it in its own way.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Beginner Bike Repair Tools: The Essential Starter Kit for DIY Bike Maintenance</title>
-      <link>http://localhost:1313/beginner-bike-repair-tools/</link>
-      <pubDate>Fri, 04 Apr 2025 07:32:38 +0000</pubDate>
-       <guid isPermaLink="false">https://mizubikes.com/?p=3461</guid> 
-      <description>&lt;p&gt;Learning to fix your bike at home is easier than you think. With a few &lt;strong&gt;beginner bike repair tools&lt;/strong&gt;, you can save money, skip unnecessary trips to the shop, and gain confidence in your bike maintenance skills.&lt;/p&gt;
-&lt;p&gt;Whether you&amp;rsquo;re a new cyclist or just want to be more self-sufficient on the road or trail, this essential starter kit includes everything you need to tackle the most common bike repairs yourself.&lt;/p&gt;</description>
+&lt;p&gt;The &lt;strong&gt;Specialized Aethos&lt;/strong&gt; might be the most quietly brilliant road bike out there. It&amp;rsquo;s not aero. It&amp;rsquo;s not a race bike. And it&amp;rsquo;s definitely &lt;em&gt;not&lt;/em&gt; one of those overhyped showcase bikes built to dazzle on Instagram more than real roads. But it &lt;em&gt;is&lt;/em&gt; light, smooth, and a blast to ride—especially if you&amp;rsquo;re juggling work, family, and a tight training window.&lt;/p&gt;
+&lt;p&gt;The Aethos isn&amp;rsquo;t trying to win races. It&amp;rsquo;s built for riders who just want to enjoy the road, feel fast, and get that little rush when the climb kicks up or the group ride speeds up. It doesn&amp;rsquo;t shout &amp;ldquo;pro-level performance,&amp;rdquo; but it definitely delivers it in its own way.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Shimano Dura-Ace vs. Ultegra R8100: Is the Weight Savings Worth the Cost?</title>
-      <link>http://localhost:1313/shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/</link>
+      <link>/shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/</link>
       <pubDate>Fri, 07 Mar 2025 06:36:06 +0000</pubDate>
        <guid isPermaLink="false">https://mizubikes.com/?p=3434</guid> 
       <description>&lt;p&gt;If you&amp;rsquo;re debating whether to upgrade from &lt;strong&gt;Shimano Ultegra R8100 Di2&lt;/strong&gt; to &lt;strong&gt;Dura-Ace R9200 Di2&lt;/strong&gt;, you&amp;rsquo;re probably wondering: &lt;strong&gt;Is the weight savings worth the extra cost?&lt;/strong&gt; In this post, we break down the weight differences for each component, the cost per gram saved, and whether Dura-Ace delivers the best bang for your buck.&lt;/p&gt;
@@ -42,11 +111,11 @@
     </item>
     <item>
       <title>5 Road Bike Saddle Bag Essentials For Tubeless Road Bikes</title>
-      <link>http://localhost:1313/5-road-bike-saddle-bag-essentials-for-tubeless-road-bikes/</link>
+      <link>/5-road-bike-saddle-bag-essentials-for-tubeless-road-bikes/</link>
       <pubDate>Thu, 14 Dec 2023 05:41:00 +0000</pubDate>
        <guid isPermaLink="false">https://mizubikes.com/?p=3310</guid> 
       <description>&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2023/12/Screenshot-2023-12-14-at-12.13.31%e2%80%afAM.png&#34;/&gt; 
+    &lt;img loading=&#34;lazy&#34; src=&#34;/wp-content/uploads/2023/12/Screenshot-2023-12-14-at-12.13.31%e2%80%afAM.png&#34;/&gt; 
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;here-is-the-list-of-5-items-i-have-in-my-tubeless-road-bike-saddle-bag&#34;&gt;Here is the list of 5 items I have in my tubeless road bike saddle bag&lt;/h2&gt;
@@ -62,7 +131,7 @@
     </item>
     <item>
       <title>Best Budget Bike Tools for Beginners (What to Buy &amp;amp; What to Skip)</title>
-      <link>http://localhost:1313/buy-this-not-that-budget-friendly-tools-for-beginner-bike-mechanics/</link>
+      <link>/buy-this-not-that-budget-friendly-tools-for-beginner-bike-mechanics/</link>
       <pubDate>Sat, 09 Dec 2023 06:23:00 +0000</pubDate>
        <guid isPermaLink="false">https://mizubikes.com/?p=3319</guid> 
       <description>&lt;h2 id=&#34;you-want-to-start-working-on-your-own-bike-but-are-on-a-budget&#34;&gt;You want to start working on your own bike but are on a budget&lt;/h2&gt;
@@ -77,13 +146,13 @@
     </item>
     <item>
       <title>Cannondale CAAD 13: Is Aluminum still a good value vs the Carbon 2023 SuperSix Evo Hi-Mod?</title>
-      <link>http://localhost:1313/cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/</link>
+      <link>/cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/</link>
       <pubDate>Wed, 01 Nov 2023 06:27:25 +0000</pubDate>
        <guid isPermaLink="false">https://mizubikes.com/?p=3322</guid> 
       <description>&lt;h2 id=&#34;caad-13-aluminum-vs-2023-supersix-evo-hi-mod-carbon-cost-comparison&#34;&gt;CAAD 13 aluminum vs. 2023 SuperSix Evo Hi-Mod carbon cost comparison&lt;/h2&gt;
 &lt;p&gt;Cannondale has always continued to make quality aluminum bikes for as long as I can remember, even after carbon took over the top step and the CAAD 13 is no exception. The question is, is aluminum still a good value with all the reasonably priced carbon options out there?&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/wp-content/uploads/2023/10/image-3-600x388.png&#34;/&gt; 
+    &lt;img loading=&#34;lazy&#34; src=&#34;/wp-content/uploads/2023/10/image-3-600x388.png&#34;/&gt; 
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;just-comparing-the-framesets&#34;&gt;Just comparing the framesets&lt;/h2&gt;
@@ -91,7 +160,7 @@
     </item>
     <item>
       <title>Complete or Custom Build Cost Comparison: Specialized SL8 Pro Di2</title>
-      <link>http://localhost:1313/malesuada-proin-libero-nunc-consequat-interdum/</link>
+      <link>/malesuada-proin-libero-nunc-consequat-interdum/</link>
       <pubDate>Mon, 14 Aug 2023 12:25:00 +0000</pubDate>
        <guid isPermaLink="false">https://startersites.io/blocksy/blog/?p=2632</guid> 
       <description>&lt;p&gt;Is it cheaper to buy a complete built bike or build one from the frame up?&lt;/p&gt;
@@ -99,7 +168,7 @@
     </item>
     <item>
       <title>Freehub Sound Check: Zipp 303, ENVE SES 4.5 and Roval Rapide CLII</title>
-      <link>http://localhost:1313/freehub-sound-check/</link>
+      <link>/freehub-sound-check/</link>
       <pubDate>Fri, 17 Sep 2021 13:01:25 +0000</pubDate>
        <guid isPermaLink="false">https://startersites.io/blocksy/blog/?p=2651</guid> 
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;

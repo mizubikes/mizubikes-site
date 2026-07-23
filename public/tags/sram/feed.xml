@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SRAM on Mizubikes</title>
+    <link>/tags/sram/</link>
+    <description>Recent content in SRAM on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 20 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/sram/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SRAM Force E1 2x vs 1x vs XPLR: Gearing and Gear Jumps Compared</title>
+      <link>/posts/sram-force-e1-gearing-gear-jumps/</link>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/sram-force-e1-gearing-gear-jumps/</guid> 
+      <description>SRAM Force E1 gearing compared cog by cog — 10-33 vs 10-36 vs 13-speed XPLR 10-46, with the actual gear jumps behind the range numbers.</description>
+    </item>
+    <item>
+      <title>SRAM 1x on a Road Bike: Is It Finally Worth It?</title>
+      <link>/posts/sram-1x-road-bike-vs-2x/</link>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/sram-1x-road-bike-vs-2x/</guid> 
+      <description>1x road drivetrains are showing up more in the pro peloton. Here&amp;#39;s what those setups actually look like, what SRAM Force XPLR changes, and whether your bike can even run it.</description>
+    </item>
+    <item>
+      <title>Why I&#39;m Finally Thinking About Switching to SRAM</title>
+      <link>/posts/finally-trying-sram-force-e1/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/finally-trying-sram-force-e1/</guid> 
+      <description>I&amp;#39;ve been on Shimano Ultegra since the R8100 launched. Here&amp;#39;s why SRAM Force E1 is finally making me reconsider.</description>
+    </item>
+    <item>
+      <title>Buying a New or Used Gravel Bike? Check the Dropout Before You Commit to SRAM 1x13</title>
+      <link>/posts/udh-sram-1x13-gravel-frame-compatibility/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/udh-sram-1x13-gravel-frame-compatibility/</guid> 
+      <description>If you want to run SRAM&amp;#39;s 13-speed XPLR groupset, your frame needs a UDH dropout. Here&amp;#39;s what to look for on popular gravel bikes — new and used.</description>
+    </item>
+    <item>
+      <title>UDH-Compatible Gravel Bikes: Every Frame on SRAM&#39;s List (May 2026)</title>
+      <link>/posts/udh-compatible-gravel-bikes-2026/</link>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/udh-compatible-gravel-bikes-2026/</guid> 
+      <description>A full list of UDH-compatible gravel bikes pulled from SRAM&amp;#39;s official Bike Finder, updated May 2026.</description>
+    </item>
+    <item>
+      <title>SRAM Eagle S-Series: One Lineup to Replace Nine Drivetrains</title>
+      <link>/posts/sram-s-series-eagle-groupsets/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/sram-s-series-eagle-groupsets/</guid> 
+      <description>SRAM&amp;#39;s new Eagle S-Series simplifies its entire mountain bike drivetrain lineup — S100, S200, and S500 replace SX through XX1 mechanical and AXS.</description>
+    </item>
+  </channel>
+</rss>

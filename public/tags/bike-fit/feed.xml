@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bike Fit on Mizubikes</title>
+    <link>/tags/bike-fit/</link>
+    <description>Recent content in Bike Fit on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/bike-fit/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are Short Cranks Taking Over? What the Pro Peloton Data Actually Shows</title>
+      <link>/posts/pro-crank-length-trend/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/pro-crank-length-trend/</guid> 
+      <description>Every cycling headline says pros are going shorter on crank length. The data tells a more specific story — and it matters for what you should actually be riding.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Factor on Mizubikes</title>
+    <link>/tags/factor/</link>
+    <description>Recent content in Factor on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/factor/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Factor Ostro VAM V2 Build</title>
+      <link>/posts/factor-ostro-vam-v2-build/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/factor-ostro-vam-v2-build/</guid> 
+      <description>A full custom build of the Factor Ostro VAM V2 — lightweight aero road bike with Shimano Di2, Quarq power meter, BTLos wheels, and a custom 3D printed headset spacer.</description>
+    </item>
+  </channel>
+</rss>

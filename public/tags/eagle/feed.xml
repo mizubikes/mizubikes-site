@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Eagle on Mizubikes</title>
+    <link>/tags/eagle/</link>
+    <description>Recent content in Eagle on Mizubikes</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/eagle/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SRAM Eagle S-Series: One Lineup to Replace Nine Drivetrains</title>
+      <link>/posts/sram-s-series-eagle-groupsets/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+       <guid isPermaLink="false">/posts/sram-s-series-eagle-groupsets/</guid> 
+      <description>SRAM&amp;#39;s new Eagle S-Series simplifies its entire mountain bike drivetrain lineup — S100, S200, and S500 replace SX through XX1 mechanical and AXS.</description>
+    </item>
+  </channel>
+</rss>
