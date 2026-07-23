@@ -1,13 +1,12 @@
 {{- /* Mizubikes override of PaperMod schema_json.html */ -}}
-{{- $base := strings.TrimSuffix "/" site.BaseURL -}}
 {{- if .IsHome }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": {{ site.Title | jsonify }},
-  "url": {{ site.BaseURL | jsonify }},
-  "description": {{ (site.Params.description | default site.Title) | jsonify }}
+  "name": {{ site.Title }},
+  "url": {{ site.BaseURL }},
+  "description": {{ site.Params.description | default site.Title }}
 }
 </script>
 {{- else if .IsPage }}
@@ -20,56 +19,55 @@
     {
       "@type": "ListItem",
       "position": 1,
-      "name": {{ (. | humanize | title) | jsonify }},
-      "item": {{ (printf "%s/%s/" $base .) | jsonify }}
+      "name": {{ . | humanize | title }},
+      "item": {{ absURL (printf "/%s/" .) }}
     },
     {
       "@type": "ListItem",
       "position": 2,
-      "name": {{ $.Title | jsonify }},
-      "item": {{ $.Permalink | jsonify }}
+      "name": {{ $.Title }},
+      "item": {{ $.Permalink }}
     }
   ]
 }
 </script>
 {{- end }}
 {{- $images := slice }}
-{{- with .Params.cover }}{{ with .image }}{{ $images = $images | append (cond (hasPrefix . "http") . (printf "%s%s" $base .)) }}{{ end }}{{ end }}
+{{- with .Params.cover }}{{ with .image }}{{ $images = $images | append (cond (hasPrefix . "http") . (absURL .)) }}{{ end }}{{ end }}
 {{- $kw := slice }}
 {{- if reflect.IsSlice .Params.tags }}{{ range .Params.tags }}{{ $kw = $kw | append (printf "%v" .) }}{{ end }}{{ end }}
-{{- $type := cond (eq .Section "posts") "BlogPosting" "WebPage" }}
 {{- $desc := .Description | default (.Summary | plainify | truncate 250) | default site.Params.description }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": {{ $type | jsonify }},
-  "headline": {{ .Title | jsonify }},
-  "name": {{ .Title | jsonify }},
-  "description": {{ $desc | jsonify }},
-  "url": {{ .Permalink | jsonify }},
+  "@type": "{{ cond (eq .Section "posts") "BlogPosting" "WebPage" }}",
+  "headline": {{ .Title }},
+  "name": {{ .Title }},
+  "description": {{ $desc }},
+  "url": {{ .Permalink }},
   {{- with $kw }}
-  "keywords": {{ . | jsonify }},
+  "keywords": {{ . }},
   {{- end }}
   {{- with $images }}
-  "image": {{ . | jsonify }},
+  "image": {{ . }},
   {{- end }}
-  "datePublished": {{ (.Date.Format "2006-01-02T15:04:05Z07:00") | jsonify }},
-  "dateModified": {{ (.Lastmod.Format "2006-01-02T15:04:05Z07:00") | jsonify }},
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
   "author": {
     "@type": "Person",
-    "name": {{ (site.Params.author | default site.Title) | jsonify }}
+    "name": {{ site.Params.author | default site.Title }}
   },
   "publisher": {
     "@type": "Organization",
-    "name": {{ site.Title | jsonify }},
+    "name": {{ site.Title }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ (printf "%s/favicon.ico" $base) | jsonify }}
+      "url": {{ absURL "/favicon.ico" }}
     }
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": {{ .Permalink | jsonify }}
+    "@id": {{ .Permalink }}
   }
 }
 </script>
