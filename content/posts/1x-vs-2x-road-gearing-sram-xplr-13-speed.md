@@ -6,9 +6,9 @@ slug: 1x-vs-2x-road-gearing-sram-xplr-13-speed
 categories: ["Road"]
 tags: ["SRAM Force XPLR", "1x", "2x", "Gearing", "Road Bike"]
 cover:
-  image: "/images/xplr-vs-road-cassette-cogs.webp"
-  alt: "XPLR 10-46 cassette compared cog for cog against a standard 10-36 road cassette"
-  caption: "Chart: Mizu Bikes"
+  image: "/images/xplr-drivetrain-cover.webp"
+  alt: "SRAM Force XPLR 13-speed 1x drivetrain on a Cannondale SuperSix Evo"
+  caption: "Photo: Mizu Bikes"
   relative: false
 draft: false
 ---
@@ -17,7 +17,10 @@ The knock on running 1x on a road bike is always the same two things: you lose r
 
 ## The gaps: 11 of 13 gears are identical
 
-Start with spacing, since that's the complaint you hear most. I lined my 10-46 XPLR cassette up against a standard 12-speed 10-36 road cassette, cog for cog. Eleven of my thirteen cogs are the exact same tooth counts — 10, 11, 12, 13, 15, 17, 19, 21, 24, 28, 32 — in the same order, with the same jumps between them (that's the comparison in the image above).
+Start with spacing, since that's the complaint you hear most. I lined my 10-46 XPLR cassette up against a standard 12-speed 10-36 road cassette, cog for cog. Eleven of my thirteen cogs are the exact same tooth counts — 10, 11, 12, 13, 15, 17, 19, 21, 24, 28, 32 — in the same order, with the same jumps between them.
+
+![SRAM Force XPLR 13-speed cassette, chain, and rear derailleur on the SuperSix Evo](/images/xplr-drivetrain-detail.webp)
+*Photo: Mizu Bikes*
 
 That's the part that reframed it for me. Through the entire flat and rolling range — the gears you actually pedal in for most of a ride — an XPLR 1x setup shifts exactly like a road cassette, because for those eleven cogs it *is* one. The single-ring penalty everyone warns about just isn't there in the range where you spend your time. The difference only shows up at the very top: a road cassette caps out at a 36-tooth climbing cog, and XPLR trades that for a 38 and a 46.
 
