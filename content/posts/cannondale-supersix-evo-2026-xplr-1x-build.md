@@ -5,6 +5,7 @@ description: "I built a 2026 Cannondale SuperSix Evo around SRAM's 13-speed Forc
 slug: cannondale-supersix-evo-2026-xplr-1x-build
 categories: ["Bike Builds"]
 tags: ["Cannondale", "SuperSix Evo", "SRAM Force XPLR", "1x", "Road Bike"]
+weight: 1
 cover:
   image: "/images/supersix-evo-xplr-1x-build.webp"
   alt: "Cannondale SuperSix Evo 2026 with SRAM Force XPLR 1x drivetrain"
