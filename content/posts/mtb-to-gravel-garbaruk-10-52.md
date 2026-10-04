@@ -5,6 +5,7 @@ description: "I converted a Cannondale Scalpel HT hardtail into a drop-bar grave
 slug: mtb-to-gravel-garbaruk-10-52
 categories: ["Bike Builds"]
 tags: ["Gravel", "MTB to Gravel", "Hardtail Gravel Bike", "Garbaruk", "SRAM XPLR", "13-Speed", "Cannondale Scalpel"]
+weight: 1
 cover:
   image: "/images/scalpel-gravel-conversion-cover.webp"
   alt: "Cannondale Scalpel HT hardtail converted to a drop-bar gravel bike with a rigid carbon fork"
