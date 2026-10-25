@@ -2,7 +2,7 @@
 Mizubikes auto-draft generator.
 
 Runs in GitHub Actions. Picks a topic, researches it with Claude + web search,
-writes a Hugo post in the Mizubikes voice, pulls a Pexels cover image, converts
+writes a Hugo post in the Mizubikes voice, pulls a Pixabay cover image, converts
 it to WebP under 150KB, and writes everything into the repo. The workflow then
 opens a PR so Jared can review the Netlify deploy preview and merge to publish.
 """
@@ -144,20 +144,28 @@ def generate_post(seed: str | None, posts: list[dict]) -> dict:
 
 
 def fetch_cover(query: str, slug: str) -> tuple[str, str, str]:
-    """Returns (image path for front matter, caption, Pexels page URL)."""
-    headers = {"Authorization": os.environ["PEXELS_API_KEY"]}
-    params = {"query": query, "orientation": "portrait", "per_page": 10}
-    r = requests.get("https://api.pexels.com/v1/search", headers=headers, params=params, timeout=30)
-    r.raise_for_status()
-    photos = r.json().get("photos", [])
-    if not photos:
-        params["query"] = "cycling"
-        r = requests.get("https://api.pexels.com/v1/search", headers=headers, params=params, timeout=30)
-        r.raise_for_status()
-        photos = r.json()["photos"]
+    """Returns (image path for front matter, caption, Pixabay page URL)."""
+    key = os.environ["PIXABAY_API_KEY"]
 
-    photo = photos[0]
-    raw = requests.get(photo["src"]["large2x"], timeout=60).content
+    def search(q: str) -> list[dict]:
+        params = {
+            "key": key,
+            "q": q[:100],
+            "image_type": "photo",
+            "orientation": "vertical",
+            "safesearch": "true",
+            "per_page": 10,
+        }
+        r = requests.get("https://pixabay.com/api/", params=params, timeout=30)
+        r.raise_for_status()
+        return r.json().get("hits", [])
+
+    hits = search(query) or search("cycling")
+    if not hits:
+        sys.exit("No Pixabay images found")
+
+    photo = hits[0]
+    raw = requests.get(photo["largeImageURL"], timeout=60).content
     img = Image.open(io.BytesIO(raw)).convert("RGB")
     img.thumbnail((1200, 1600))
 
@@ -174,8 +182,8 @@ def fetch_cover(query: str, slug: str) -> tuple[str, str, str]:
     IMAGES_DIR.mkdir(parents=True, exist_ok=True)
     filename = f"{slug}-cover.webp"
     (IMAGES_DIR / filename).write_bytes(buf.getvalue())
-    caption = f"Photo: {photo['photographer']} / Pexels"
-    return f"/images/{filename}", caption, photo["url"]
+    caption = f"Photo: {photo['user']} / Pixabay"
+    return f"/images/{filename}", caption, photo["pageURL"]
 
 
 def yaml_str(s: str) -> str:
@@ -187,7 +195,7 @@ def main() -> None:
     seed = next_seed_topic()
     data = generate_post(seed, posts)
 
-    image_path, caption, pexels_url = fetch_cover(data["image_query"], data["slug"])
+    image_path, caption, pixabay_url = fetch_cover(data["image_query"], data["slug"])
 
     tags = ", ".join(yaml_str(t) for t in data["tags"])
     front = f"""---
@@ -216,7 +224,7 @@ draft: false
 
 - Category: {data["category"]}
 - Topic source: {"seed list: " + seed if seed else "picked by Claude from recent news"}
-- Cover photo: {pexels_url}
+- Cover photo: {pixabay_url}
 
 Check the Netlify deploy preview below. Merge to publish, close to skip.
 Spot-check specs and prices against the Sources section before merging.
