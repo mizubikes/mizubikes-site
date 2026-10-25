@@ -334,3 +334,17 @@ body {
 :root {
   --main-width: 1200px;
 }
+
+/* Single post cover: cap height so tall/portrait covers don't take over the page */
+.post-single .entry-cover img {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .post-single .entry-cover img {
+    max-height: 60vh;
+  }
+}
