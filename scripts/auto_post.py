@@ -8,6 +8,7 @@ opens a PR so Jared can review the Netlify deploy preview and merge to publish.
 """
 
 import datetime as dt
+from zoneinfo import ZoneInfo
 import io
 import json
 import os
@@ -72,7 +73,7 @@ Voice: conversational, technically grounded, honest about real-world tradeoffs, 
 
 Originality: facts from sources are fine, wording must be entirely your own. Never copy or closely mirror sentences from any article or press release. No quotes longer than a few words.
 
-Accuracy: every spec, price, weight, and date must come from your web searches. If you can't verify something, leave it out. End the body with a short "Sources" section listing the URLs you relied on.
+Accuracy: every spec, price, weight, and date must come from your web searches. If you can't verify something, leave it out. Readers are mostly in the US: give prices in USD from US retailers or the brand's US site. If you only find non-US prices, leave the price out rather than quoting euros or pounds. End the body with a short "Sources" section listing the URLs you relied on.
 
 Affiliate links: when you mention a specific product someone might buy, link it with an Amazon search URL in this exact form: https://www.amazon.com/s?k=URL+ENCODED+PRODUCT+NAME&tag={AMAZON_TAG}
 Never invent Amazon product IDs. Add one line near the top of the body: "*Mizubikes may earn a commission from links in this post.*"
@@ -84,7 +85,7 @@ Length: 900-1400 words.
 
 
 def build_user_prompt(seed: str | None, posts: list[dict]) -> str:
-    today = dt.date.today().isoformat()
+    today = dt.datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()
     existing = "\n".join(f"- {p['title']} ({p['url']})" for p in posts) or "(none)"
     if seed:
         topic_line = f"Write about this topic: {seed}"
@@ -157,7 +158,7 @@ def fetch_cover(query: str, slug: str) -> tuple[str, str, str]:
             "key": key,
             "q": q[:100],
             "image_type": "photo",
-            "orientation": "vertical",
+            "orientation": "horizontal",
             "safesearch": "true",
             "per_page": 10,
         }
@@ -205,7 +206,7 @@ def main() -> None:
     tags = ", ".join(yaml_str(t) for t in data["tags"])
     front = f"""---
 title: {yaml_str(data["title"])}
-date: {dt.date.today().isoformat()}
+date: {dt.datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()}
 description: {yaml_str(data["description"])}
 slug: {data["slug"]}
 categories: [{yaml_str(data["category"])}]
