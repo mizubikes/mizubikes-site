@@ -116,7 +116,12 @@ Research with web search first, then respond with ONLY a JSON object (no code fe
 def generate_post(seed: str | None, posts: list[dict]) -> dict:
     client = anthropic.Anthropic()
     messages = [{"role": "user", "content": build_user_prompt(seed, posts)}]
-    tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 8}]
+    tools = [{
+        "type": "web_search_20250305",
+        "name": "web_search",
+        "max_uses": 10,
+        "allowed_callers": ["direct"],
+    }]
 
     for _ in range(6):
         resp = client.messages.create(
