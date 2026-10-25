@@ -1,0 +1,42 @@
+name: Auto-draft post
+
+on:
+  schedule:
+    # Mondays and Thursdays at 14:47 UTC (7:47am PDT / 6:47am PST)
+    - cron: "47 14 * * 1,4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install anthropic requests pillow
+
+      - name: Research, write, and fetch cover image
+        id: gen
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python scripts/auto_post.py
+
+      - name: Open pull request for review
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/${{ steps.gen.outputs.slug }}
+          commit-message: "Auto-draft: ${{ steps.gen.outputs.title }}"
+          title: "Auto-draft: ${{ steps.gen.outputs.title }}"
+          body-path: ${{ steps.gen.outputs.pr_body }}
+          delete-branch: true
