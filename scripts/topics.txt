@@ -1,5 +1,4 @@
 # One topic per line. The auto-drafter uses the top line, then deletes it.
 # When this list is empty, Claude picks a topic from recent cycling news.
-Best gravel tires for mixed pavement and dirt in 2026
 How to set tubeless tire pressure for gravel by rider weight and tire width
 SRAM vs Shimano 13-speed gravel drivetrains compared
