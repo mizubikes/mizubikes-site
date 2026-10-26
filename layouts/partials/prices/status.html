@@ -1,0 +1,14 @@
+{{- /* Status badges for one filament. Context: price record dict (may be empty). */ -}}
+{{- $p := . -}}
+{{- if not $p.price -}}
+  <span class="fp-badge fp-badge-muted">Amazon only</span>
+{{- else -}}
+  {{- if $p.at_low }}<span class="fp-badge fp-badge-good" title="Lowest price in the last 90 days">▼ 90-day low</span>{{ end -}}
+  {{- if and $p.deal (not $p.at_low) }}<span class="fp-badge fp-badge-good" title="On sale, or 10%+ under its typical 90-day price">● Deal</span>{{ end -}}
+  {{- if not $p.available }}<span class="fp-badge fp-badge-warn" title="Backordered at the brand store">Backordered</span>{{ end -}}
+  {{- if $p.stale }}<span class="fp-badge fp-badge-muted" title="Couldn't check today — showing the last price we saw">Last seen {{ time.Format "Jan 2" $p.checked_at }}</span>{{ end -}}
+  {{- if and (not $p.at_low) (not $p.deal) $p.available (not $p.stale) -}}
+    {{- if lt (int ($p.days_tracked | default 0)) 14 }}<span class="fp-badge fp-badge-muted" title="Needs two weeks of prices before we can call a deal">Building history</span>
+    {{- else }}<span class="fp-badge fp-badge-muted">Typical price</span>{{ end -}}
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,45 @@
+name: Tire prices
+
+on:
+  schedule:
+    # Daily at 13:23 UTC (6:23am PDT / 5:23am PST)
+    - cron: "23 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tire-prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Fetch prices
+        run: python scripts/tire_prices.py
+
+      - name: Commit updated price data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tire_prices.json data/tire_history.json
+          if git diff --cached --quiet; then
+            echo "No price changes."
+            exit 0
+          fi
+          git commit -m "Update tire prices $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin HEAD:main

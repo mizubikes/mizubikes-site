@@ -1,0 +1,233 @@
+/* ===== Tire price tracker (/tire-prices/ + tire-price shortcode) ===== */
+
+.fp {
+  --fp-accent: #1B8FAB;
+  --fp-accent-ink: #ffffff;
+  --fp-surface: var(--theme);
+  --fp-text-2: var(--secondary);
+  --fp-grid: rgba(0, 0, 0, 0.08);
+  --fp-good: #0ca30c;
+  --fp-warn: #fab219;
+  /* chart series per tire (validated categorical slots, light surface) */
+  --fp-series-1: #2a78d6;
+  --fp-series-2: #eb6834;
+  --fp-series-3: #1baf7a;
+  --fp-series-4: #eda100;
+}
+
+.fp-updated {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--secondary);
+}
+
+/* jump links */
+.fp-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0 8px;
+}
+.post-content .fp-jump a {
+  box-shadow: none;
+  padding: 4px 14px;
+  border: 1px solid var(--tertiary);
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--primary);
+}
+.post-content .fp-jump a:hover { border-color: var(--fp-accent); }
+
+/* material sections */
+.fp-material { margin-top: 40px; }
+.fp-material h2 { display: flex; align-items: baseline; gap: 10px; }
+.fp-h-sub { font-size: 14px; font-weight: 400; color: var(--secondary); }
+.fp-blurb { color: var(--secondary); }
+
+/* cheapest callout */
+.fp-best {
+  margin: 16px 0;
+  padding: 16px 18px;
+  border: 1px solid var(--tertiary);
+  border-left: 3px solid var(--fp-accent);
+  border-radius: var(--radius);
+  background: var(--entry);
+}
+.fp-best-label {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+.fp-best-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin: 6px 0 12px;
+}
+.fp-best-name { font-size: 18px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; }
+.fp-best-price { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.fp-best-price small { font-size: 14px; font-weight: 400; color: var(--secondary); }
+.fp-best-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* buttons */
+.post-content a.fp-btn,
+.fp a.fp-btn {
+  display: inline-block;
+  box-shadow: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--tertiary);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.post-content a.fp-btn-primary,
+.fp a.fp-btn-primary {
+  background: var(--fp-accent);
+  border-color: var(--fp-accent);
+  color: var(--fp-accent-ink);
+}
+.post-content a.fp-btn:hover,
+.fp a.fp-btn:hover { filter: brightness(0.92); }
+.post-content a.fp-btn-primary:hover,
+.fp a.fp-btn-primary:hover { color: var(--fp-accent-ink); }
+.post-content a.fp-btn-sm,
+.fp a.fp-btn-sm { padding: 5px 10px; font-size: 13px; }
+.post-content a.fp-link,
+.fp a.fp-link { box-shadow: none; font-size: 13px; color: var(--secondary); text-decoration: underline; text-underline-offset: 2px; }
+
+/* table */
+.fp-table-wrap { overflow-x: auto; margin: 12px 0 8px; }
+.post-content table.fp-table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+.post-content table.fp-table th,
+.post-content table.fp-table td {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: middle;
+  min-width: 0;
+}
+.post-content table.fp-table thead th {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  border-bottom: 1px solid var(--tertiary);
+}
+.post-content table.fp-table tbody th { font-weight: 400; }
+.post-content table.fp-table .fp-num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.fp-name { display: flex; align-items: center; gap: 8px; }
+.fp-brand { font-weight: 600; }
+.fp-was { font-size: 12px; color: var(--secondary); }
+.fp-dash { color: var(--secondary); }
+.fp-buy { white-space: nowrap; text-align: right !important; }
+.fp-buy .fp-link { margin-left: 8px; }
+.fp-status { min-width: 110px; }
+
+.fp-swatch {
+  flex: none;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+.fp-s1 { background: var(--fp-series-1); }
+.fp-s2 { background: var(--fp-series-2); }
+.fp-s3 { background: var(--fp-series-3); }
+.fp-s4 { background: var(--fp-series-4); }
+
+/* badges: label in text ink, status carried by icon + tint (never color alone) */
+.fp-badge {
+  display: inline-block;
+  margin: 2px 4px 2px 0;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--tertiary);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--primary);
+  white-space: nowrap;
+}
+.fp-badge-good { border-color: var(--fp-good); background: rgba(12, 163, 12, 0.12); }
+.fp-badge-warn { border-color: var(--fp-warn); background: rgba(250, 178, 25, 0.14); }
+.fp-badge-muted { color: var(--secondary); font-weight: 500; }
+
+/* chart */
+.fp-chart { margin: 20px 0 0; }
+.fp-chart figcaption { font-size: 13px; color: var(--secondary); text-align: left; margin: 0 0 6px; }
+.fp-chart-box { position: relative; height: 260px; }
+.fp-note { font-size: 13px; color: var(--secondary); }
+
+/* methodology */
+.fp-method { margin-top: 48px; padding-top: 8px; border-top: 1px solid var(--border); }
+.fp-method li { color: var(--secondary); }
+
+.fp-show-sm { display: none; }
+
+.fp-sr {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;
+}
+
+/* inline card (shortcode) */
+.fp-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px 20px;
+  margin: 20px 0;
+  padding: 14px 16px;
+  border: 1px solid var(--tertiary);
+  border-left: 3px solid var(--fp-accent);
+  border-radius: var(--radius);
+  background: var(--entry);
+}
+.fp-card-name { display: flex; align-items: center; gap: 8px; font-size: 16px; }
+.fp-size {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--secondary);
+}
+.fp-best-size { font-size: 13px; color: var(--secondary); margin: -6px 0 12px; }
+
+.fp-card-mat {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+  color: var(--secondary); border: 1px solid var(--tertiary);
+  border-radius: 4px; padding: 0 6px;
+}
+.fp-card-price { margin-top: 4px; font-variant-numeric: tabular-nums; }
+.fp-card-price strong { font-size: 20px; }
+.fp-card-price small { color: var(--secondary); margin-left: 4px; }
+.fp-card-low { font-size: 13px; color: var(--secondary); margin-left: 8px; }
+.fp-card-status { margin-top: 4px; }
+.fp-card-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+
+@media (max-width: 600px) {
+  .fp-hide-sm { display: none; }
+  .fp-show-sm { display: block; }
+  .fp-status-sm { margin-top: 4px; }
+  .fp-status-sm .fp-badge { font-size: 11px; padding: 1px 7px; }
+  .post-content table.fp-table { font-size: 14px; }
+  .post-content table.fp-table th,
+  .post-content table.fp-table td { padding: 9px 5px; }
+  .fp-status { min-width: 0; }
+  .fp-buy .fp-link { display: none; }
+  .fp-best-row { flex-direction: column; gap: 2px; }
+  .fp-card-actions { align-items: flex-start; }
+}

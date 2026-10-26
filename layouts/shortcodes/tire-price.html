@@ -1,0 +1,33 @@
+{{- /*
+  Live tire price card for articles.
+  Usage:  {{< tire-price "maxxis-reaver-700x45" >}}
+  The id must exist in data/tires.yaml.
+*/ -}}
+{{- $id := .Get 0 -}}
+{{- $cfg := site.Data.tires -}}
+{{- $t := index (where $cfg.tires "id" $id) 0 -}}
+{{- if not $t -}}
+  {{- errorf "tire-price: unknown id %q in %s" $id .Page.File.Path -}}
+{{- else -}}
+{{- $p := index (site.Data.tire_prices.items | default dict) $id | default dict -}}
+{{- $cat := index (where $cfg.categories "key" $t.category) 0 -}}
+<div class="fp fp-card">
+  <div class="fp-card-main">
+    <div class="fp-card-name"><span class="fp-swatch fp-s{{ $t.slot | default 1 }}" aria-hidden="true"></span><span class="fp-brand">{{ $t.brand }}</span> {{ $t.name }}</div>
+    <div class="fp-size">{{ $t.size }}</div>
+    <div class="fp-card-price">
+      {{- if $p.price -}}
+        <strong>${{ lang.FormatNumber 2 $p.price }}</strong><small>/tire at Worldwide Cyclery</small>
+        {{- with $p.low_90 }}{{ if ge (int ($p.days_tracked | default 0)) 14 }} <span class="fp-card-low">90-day low ${{ lang.FormatNumber 2 . }}</span>{{ end }}{{ end -}}
+      {{- else -}}
+        <small>Price varies — check Amazon</small>
+      {{- end -}}
+    </div>
+    <div class="fp-card-status">{{ partial "prices/status.html" $p }}</div>
+  </div>
+  <div class="fp-card-actions">
+    {{- with $t.amazon }}<a class="fp-btn fp-btn-primary" href="{{ . }}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>{{ end -}}
+    <a class="fp-link" href="/tire-prices/#{{ $t.id }}">Compare {{ with $cat }}{{ lower .title }} {{ end }}tire prices →</a>
+  </div>
+</div>
+{{- end -}}

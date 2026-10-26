@@ -1,0 +1,205 @@
+{{- define "main" }}
+{{- $cfg := site.Data.tires -}}
+{{- $prices := site.Data.tire_prices | default dict -}}
+{{- $items := $prices.items | default dict -}}
+{{- $hist := site.Data.tire_history | default dict -}}
+{{- $anyChart := false -}}
+
+<article class="post-single fp">
+  <header class="post-header">
+    {{- if .Param "ShowBreadCrumbs" }}{{ partial "breadcrumbs.html" . }}{{ end }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+    {{- with $prices.updated }}
+    <div class="fp-updated">Prices checked <time datetime="{{ . }}">{{ time.Format "Jan 2, 2006" . }}</time> · updated every morning</div>
+    {{- end }}
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+
+    <nav class="fp-jump" aria-label="Jump to category">
+      {{- range $cfg.categories }}<a href="#{{ .key }}">{{ .title }}</a>{{ end -}}
+    </nav>
+
+    {{- range $c := $cfg.categories }}
+      {{- /* collect + sort this category's tires by price, unpriced last */ -}}
+      {{- $rows := slice -}}
+      {{- range where $cfg.tires "category" $c.key }}
+        {{- $p := index $items .id | default dict -}}
+        {{- $sortKey := 99999.0 -}}
+        {{- with $p.price }}{{ $sortKey = float . }}{{ end -}}
+        {{- $rows = $rows | append (dict "t" . "p" $p "k" $sortKey) -}}
+      {{- end -}}
+      {{- $rows = sort $rows "k" -}}
+
+      {{- /* chart series: tires with 2+ days of history */ -}}
+      {{- $series := slice -}}
+      {{- range $rows }}
+        {{- $pts := index $hist .t.id | default slice -}}
+        {{- if ge (len $pts) 2 -}}
+          {{- $series = $series | append (dict "name" (printf "%s %s" .t.brand .t.name) "slot" (.t.slot | default 1) "points" $pts) -}}
+        {{- end -}}
+      {{- end -}}
+
+      <section class="fp-material" id="{{ $c.key }}">
+        <h2>{{ $c.title }} <span class="fp-h-sub">{{ $c.size_note }}</span></h2>
+        <p class="fp-blurb">{{ $c.blurb }}</p>
+
+        {{- $best := index $rows 0 -}}
+        {{- if and $best $best.p.price }}
+        <div class="fp-best">
+          <div class="fp-best-label">Cheapest {{ $c.title }} tire right now</div>
+          <div class="fp-best-row">
+            <span class="fp-best-name"><span class="fp-swatch fp-s{{ $best.t.slot | default 1 }}" aria-hidden="true"></span>{{ $best.t.brand }} {{ $best.t.name }}</span>
+            <span class="fp-best-price">${{ lang.FormatNumber 2 $best.p.price }}<small>/tire</small></span>
+          </div>
+          <div class="fp-best-size">{{ $best.t.size }} · pair ${{ lang.FormatNumber 2 (mul 2 $best.p.price) }}</div>
+          <div class="fp-best-actions">
+            {{- with $best.t.amazon }}<a class="fp-btn fp-btn-primary" href="{{ . }}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>{{ end }}
+            {{- with $best.p.store_url }}<a class="fp-btn" href="{{ . }}" target="_blank" rel="nofollow noopener">Worldwide Cyclery</a>{{ end }}
+          </div>
+        </div>
+        {{- end }}
+
+        <div class="fp-table-wrap">
+          <table class="fp-table">
+            <thead>
+              <tr>
+                <th scope="col">Tire</th>
+                <th scope="col" class="fp-num">Price</th>
+                <th scope="col" class="fp-num fp-hide-sm">90-day range</th>
+                <th scope="col" class="fp-hide-sm">Status</th>
+                <th scope="col"><span class="fp-sr">Buy</span></th>
+              </tr>
+            </thead>
+            <tbody>
+            {{- range $rows }}
+              {{- $t := .t }}{{ $p := .p }}
+              <tr id="{{ $t.id }}">
+                <th scope="row" class="fp-name">
+                  <span class="fp-swatch fp-s{{ $t.slot | default 1 }}" aria-hidden="true"></span>
+                  <span>
+                    <span class="fp-brand">{{ $t.brand }}</span> {{ $t.name }}
+                    <span class="fp-size">{{ $t.size }}</span>
+                    <span class="fp-show-sm fp-status-sm">{{ partial "prices/status.html" $p }}</span>
+                  </span>
+                </th>
+                <td class="fp-num">
+                  {{- if $p.price -}}
+                    <strong>${{ lang.FormatNumber 2 $p.price }}</strong>
+                    {{- with $p.compare_at }}<br><s class="fp-was" title="List price">${{ lang.FormatNumber 2 . }}</s>{{ end -}}
+                  {{- else -}}<span class="fp-dash">—</span>{{- end -}}
+                </td>
+                <td class="fp-num fp-hide-sm">
+                  {{- if and $p.low_90 (ge (int ($p.days_tracked | default 0)) 2) -}}
+                    ${{ lang.FormatNumber 2 $p.low_90 }}–${{ lang.FormatNumber 2 $p.high_90 }}
+                  {{- else -}}<span class="fp-dash">—</span>{{- end -}}
+                </td>
+                <td class="fp-status fp-hide-sm">{{ partial "prices/status.html" $p }}</td>
+                <td class="fp-buy">
+                  {{- with $t.amazon }}<a class="fp-btn fp-btn-primary fp-btn-sm" href="{{ . }}" target="_blank" rel="sponsored nofollow noopener">Amazon</a>{{ end -}}
+                  {{- with $p.store_url }}<a class="fp-link" href="{{ . }}" target="_blank" rel="nofollow noopener">WWC</a>{{ end -}}
+                </td>
+              </tr>
+            {{- end }}
+            </tbody>
+          </table>
+        </div>
+
+        {{- if $series }}
+          {{- $anyChart = true }}
+          <figure class="fp-chart">
+            <figcaption>{{ $c.title }} tire price over time (per tire)</figcaption>
+            <div class="fp-chart-box"><canvas aria-label="{{ $c.title }} tire price history line chart" role="img"></canvas></div>
+            <script type="application/json" class="fp-chart-data">{{ dict "series" $series | jsonify | safeJS }}</script>
+          </figure>
+        {{- else }}
+          <p class="fp-note">Price history chart appears once there are a couple of days of data.</p>
+        {{- end }}
+      </section>
+    {{- end }}
+
+    <section class="fp-method">
+      <h2>How this works</h2>
+      <ul>
+        <li>Every morning a script checks the current price of each tire in one popular size and logs it. Prices are per tire, not per pair.</li>
+        <li><strong>90-day range</strong> is the lowest and highest price seen in the last 90 days. <strong>Deal</strong> means the tire is at least 10% under its typical price, or marked down 15% or more from list. <strong>90-day low</strong> needs two weeks of history before it shows.</li>
+        <li>Amazon prices aren't listed because they change through the day — tap the Amazon button to see yours. Amazon links are affiliate links; buying through them supports the site at no extra cost to you.</li>
+        <li>Other sizes and casings usually price within a few dollars of the size shown, but not always. Shipping and tax aren't included.</li>
+      </ul>
+    </section>
+  </div>
+</article>
+
+{{- if $anyChart }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
+<script defer>
+window.addEventListener('load', function () {
+  if (!window.Chart) return;
+  var root = document.querySelector('.fp');
+  var charts = [];
+  function v(name) { return getComputedStyle(root).getPropertyValue(name).trim(); }
+  function fmtDate(d) {
+    var dt = new Date(d + 'T12:00:00');
+    return dt.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  }
+  function build() {
+    charts.forEach(function (c) { c.destroy(); });
+    charts = [];
+    var text2 = v('--fp-text-2'), grid = v('--fp-grid'), surface = v('--fp-surface');
+    document.querySelectorAll('.fp-chart').forEach(function (fig) {
+      var data = JSON.parse(fig.querySelector('.fp-chart-data').textContent);
+      var dates = {};
+      data.series.forEach(function (s) { s.points.forEach(function (p) { dates[p.d] = 1; }); });
+      var labels = Object.keys(dates).sort();
+      var datasets = data.series.map(function (s) {
+        var m = {}; s.points.forEach(function (p) { m[p.d] = p.p; });
+        var color = v('--fp-series-' + s.slot);
+        return {
+          label: s.name,
+          data: labels.map(function (d) { return d in m ? m[d] : null; }),
+          borderColor: color, backgroundColor: color,
+          borderWidth: 2, pointRadius: 0, pointHoverRadius: 5,
+          pointHoverBorderColor: surface, pointHoverBorderWidth: 2,
+          spanGaps: true, tension: 0
+        };
+      });
+      charts.push(new Chart(fig.querySelector('canvas'), {
+        type: 'line',
+        data: { labels: labels, datasets: datasets },
+        options: {
+          responsive: true, maintainAspectRatio: false, animation: false,
+          interaction: { mode: 'index', intersect: false },
+          plugins: {
+            legend: {
+              display: datasets.length > 1, position: 'top', align: 'start',
+              labels: { color: text2, boxWidth: 14, boxHeight: 2, font: { size: 12 } }
+            },
+            tooltip: {
+              callbacks: {
+                title: function (items) { return fmtDate(labels[items[0].dataIndex]); },
+                label: function (ctx) { return ' ' + ctx.dataset.label + ': $' + ctx.parsed.y.toFixed(2); }
+              }
+            }
+          },
+          scales: {
+            x: {
+              grid: { display: false }, border: { color: grid },
+              ticks: { color: text2, maxTicksLimit: 6, maxRotation: 0, callback: function (val) { return fmtDate(labels[val]); } }
+            },
+            y: {
+              grid: { color: grid }, border: { display: false },
+              ticks: { color: text2, maxTicksLimit: 5, callback: function (val) { return '$' + val; } }
+            }
+          }
+        }
+      }));
+    });
+  }
+  build();
+  new MutationObserver(build).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+});
+</script>
+{{- end }}
+{{- end }}{{/* end main */}}

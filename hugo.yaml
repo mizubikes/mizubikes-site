@@ -69,3 +69,7 @@ menu:
       name: Deals
       url: /categories/deals/
       weight: 7
+    - identifier: menu-tire-prices
+      name: Tire Prices
+      url: /tire-prices/
+      weight: 8

@@ -1,0 +1,161 @@
+# Tire price tracker watchlist
+# ----------------------------
+# One entry per tire, one size each. The daily GitHub Action
+# (scripts/tire_prices.py) checks each tire's current price at
+# Worldwide Cyclery and writes data/tire_prices.json + data/tire_history.json.
+#
+# Fields
+#   id        unique slug, used by the {{< tire-price "id" >}} shortcode
+#   brand     display brand
+#   name      display model name
+#   size      size + casing shown under the name
+#   category  must match a key under `categories` below
+#   slot      chart color 1-4, unique within its category
+#   amazon    Amazon link with your tag (shown as a button, never with a price)
+#   store     price source (Shopify store)
+#     base     store root URL, no trailing slash
+#     handle   the part after /products/ in the URL (WWC uses one page per size)
+#     match / exclude   optional words to pick a variant if a page has several
+#
+# Amazon prices are never shown — Amazon only allows prices pulled from
+# their API. The store price is the public reference; the Amazon button
+# is where readers check theirs.
+
+categories:
+  - key: road
+    title: "Road"
+    size_note: "700 × 30, tubeless"
+    blurb: "Fast, supple race tires. 30mm is where most road riders have landed for speed and comfort."
+  - key: gravel
+    title: "Gravel"
+    size_note: "700 × 45, tubeless"
+    blurb: "45mm all-rounders, from fast-rolling file treads to tires with real cornering knobs."
+  - key: trail
+    title: "Trail MTB"
+    size_note: "29 × 2.4–2.5, tubeless"
+    blurb: "The trail and enduro standards. Prices are per tire, with the casing listed since it changes both weight and price."
+
+tires:
+  # ---------- ROAD ----------
+  - id: continental-gp5000-str-700x30
+    brand: Continental
+    name: "Grand Prix 5000 S TR"
+    size: "700 × 30 · Tubeless · Black"
+    category: road
+    slot: 1
+    amazon: "https://www.amazon.com/s?k=Continental+Grand+Prix+5000+S+TR+700x30&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "continental-grand-prix-5000-s-tr-tire-700-x-30-tubeless-folding-black-blackchili-vectran-breaker-lazergrip-act"
+
+  - id: pirelli-pzero-race-tlr-slr-700x30
+    brand: Pirelli
+    name: "P ZERO Race TLR SL-R"
+    size: "700 × 30 · Tubeless · Black"
+    category: road
+    slot: 2
+    amazon: "https://www.amazon.com/s?k=Pirelli+P+Zero+Race+TLR+SL-R+700x30&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "pirelli-p-zero-race-tlr-sl-r-tire-700-x-30-tubeless-folding-black-smartevo2"
+
+  - id: vittoria-corsa-pro-speed-700x30
+    brand: Vittoria
+    name: "Corsa Pro Speed"
+    size: "700 × 30 · Tubeless · Black/Para"
+    category: road
+    slot: 3
+    amazon: "https://www.amazon.com/s?k=Vittoria+Corsa+Pro+Speed+700x30+tubeless&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "vittoria-corsa-pro-speed-tire-700-x-30-tubeless-folding-black-para-race-graphene-g2-0"
+
+  # ---------- GRAVEL ----------
+  - id: maxxis-reaver-700x45
+    brand: Maxxis
+    name: "Reaver"
+    size: "700 × 45 · EXO · Black"
+    category: gravel
+    slot: 1
+    amazon: "https://www.amazon.com/s?k=Maxxis+Reaver+700x45&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "maxxis-reaver-tire-700-x-45-tubeless-folding-black-dual-exo"
+
+  - id: maxxis-rambler-700x45
+    brand: Maxxis
+    name: "Rambler"
+    size: "700 × 45 · EXO · Black"
+    category: gravel
+    slot: 2
+    amazon: "https://www.amazon.com/s?k=Maxxis+Rambler+gravel+tire&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "maxxis-rambler-tire-700-x-45mm-folding-120tpi-casing-dual-compound-exo-protection-tubeless-ready-black"
+
+  - id: schwalbe-g-one-rs-700x45
+    brand: Schwalbe
+    name: "G-One RS Pro"
+    size: "700 × 45 · Addix Race · Black"
+    category: gravel
+    slot: 3
+    amazon: "https://www.amazon.com/s?k=Schwalbe+G-One+RS+Pro&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "schwalbe-g-one-rs-tire-700-x-45-tubeless-folding-black-evolution-line-pro-addix-race"
+
+  - id: pirelli-cinturato-gravel-h-700x45
+    brand: Pirelli
+    name: "Cinturato Gravel H"
+    size: "700 × 45 · Classic Tan"
+    category: gravel
+    slot: 4
+    amazon: "https://www.amazon.com/s?k=Pirelli+Cinturato+Gravel+H&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "pirelli-cinturato-gravel-h-tire-700-x-45-tubeless-folding-classic-tan"
+
+  # ---------- TRAIL MTB ----------
+  - id: maxxis-dhf-29x25-exoplus
+    brand: Maxxis
+    name: "Minion DHF"
+    size: "29 × 2.5 WT · 3C MaxxTerra · EXO+"
+    category: trail
+    slot: 1
+    amazon: "https://www.amazon.com/s?k=Maxxis+Minion+DHF+29x2.5+3C+EXO%2B&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "maxxis-minion-dhf-tire-29-x-2-50-folding-120tpi-3c-maxxterra-compound-exo-protection-tubeless-ready-wide-trail"
+
+  - id: maxxis-dhr2-29x24-exoplus
+    brand: Maxxis
+    name: "Minion DHR II"
+    size: "29 × 2.4 WT · 3C MaxxTerra · EXO+"
+    category: trail
+    slot: 2
+    amazon: "https://www.amazon.com/s?k=Maxxis+Minion+DHR+II+29x2.4+3C+EXO%2B&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "maxxis-minion-dhr-ii-tire-29-x-2-40-folding-120tpi-3c-maxxterra-compound-exo-protection-tubeless-ready-wide"
+
+  - id: maxxis-assegai-29x25-exo
+    brand: Maxxis
+    name: "Assegai"
+    size: "29 × 2.5 WT · 3C MaxxTerra · EXO"
+    category: trail
+    slot: 3
+    amazon: "https://www.amazon.com/s?k=Maxxis+Assegai+29x2.5+3C+EXO&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "maxxis-assegai-tire-29-x-2-5-tubeless-folding-black-3c-maxxterra-exo-protection-wide-trail"
+
+  - id: continental-kryptotal-fr-29x24-enduro
+    brand: Continental
+    name: "Kryptotal Front"
+    size: "29 × 2.4 · Soft · Enduro casing"
+    category: trail
+    slot: 4
+    amazon: "https://www.amazon.com/s?k=Continental+Kryptotal+Front+29x2.4+Enduro&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "continental-kryptotal-front-tire-29-x-2-40-tubeless-folding-black-soft-enduro-casing-e25"
