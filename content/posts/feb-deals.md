@@ -28,7 +28,7 @@ Some key reasons why these are a great buy:
 ✅ **Lightweight** – Keeps your bike fast and responsive  
 ✅ **Tubeless-ready** – Better grip and comfort at lower pressures
 
-## [Fanttik X9 Ace Mini Bike Tire Pump ($39.95)](https://amzn.to/40XWbjA)
+## [Fanttik X9 Ace Mini Bike Tire Pump](https://amzn.to/40XWbjA)
 
 {{< figure src="/wp-content/uploads/2025/02/71UdYUwPwL.%5FAC%5FSL1500%5F.jpg" alt="" caption="" >}}
 
@@ -42,7 +42,7 @@ The **Fanttik X9 Ace Mini Bike Tire Pump** is a great investment for cyclists wh
 
 For riders who prefer **a reliable mini pump over CO2 cartridges**, this is a **top-tier choice**. It's perfect for **tubeless setups** or emergency flats on long rides.
 
-## [Magicshine EVO 1700 Underneath Mounted Bike Lights for Night Riding,SEEMEE 200 V3.0 USB C Rechargeable Bike Tail Lights ($99.99 front and rear)](https://amzn.to/4k2oAO6)
+## [Magicshine EVO 1700 Underneath Mounted Bike Lights for Night Riding,SEEMEE 200 V3.0 USB C Rechargeable Bike Tail Lights](https://amzn.to/4k2oAO6)
 
 {{< figure src="/wp-content/uploads/2025/02/61EBc2Nd0aL.%5FAC%5FSL1500%5F.jpg" alt="" caption="" >}}
 
