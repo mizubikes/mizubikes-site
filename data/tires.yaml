@@ -6,9 +6,8 @@
 #
 # Tire picks are what's winning big gravel races in 2026 and topping
 # the major tire tests (Velo, BikeRadar, Cyclingnews, road.cc), limited
-# to tires with a US Shopify store price (Worldwide Cyclery, plus
-# Specialized dealers Erik's and inCycle for Specialized) so prices
-# can be tracked daily.
+# to tires with a US Shopify store price. inCycle (SoCal) is used
+# whenever it carries the exact tire and size; otherwise Worldwide Cyclery.
 #
 # Fields
 #   id        unique slug, used by the {{< tire-price "id" >}} shortcode
@@ -92,8 +91,10 @@ tires:
     note: "Top-tier in road.cc's 2026 gravel tyre ranking"
     amazon: "https://www.amazon.com/s?k=Schwalbe+Thunder+Burt+29x2.25&tag=mizubikes-web-20"
     store:
-      base: "https://worldwidecyclery.com"
-      handle: "schwalbe-thunder-burt-tire-29-x-2-25-tubeless-folding-black-evolution-super-ground-addix-speed"
+      base: "https://www.incycle.com"
+      handle: "schwalbe-thunder-burt-tire"
+      match: ["29 x 2.25", "super ground"]
+      exclude: ["transparent", "27.5"]
 
   - id: maxxis-aspen-29x225
     brand: Maxxis
@@ -127,8 +128,10 @@ tires:
     note: "Top-tier in road.cc's 2026 gravel tyre ranking"
     amazon: "https://www.amazon.com/s?k=Schwalbe+Thunder+Burt+29x2.1&tag=mizubikes-web-20"
     store:
-      base: "https://worldwidecyclery.com"
-      handle: "schwalbe-thunder-burt-tire-29-x-2-1-tubeless-folding-black-evolution-super-ground-addix-speed"
+      base: "https://www.incycle.com"
+      handle: "schwalbe-thunder-burt-tire"
+      match: ["29 x 2.1 tubeless", "super ground"]
+      exclude: ["transparent", "27.5"]
 
   - id: maxxis-pace-29x21
     brand: Maxxis
@@ -138,8 +141,10 @@ tires:
     slot: 2
     amazon: "https://www.amazon.com/s?k=Maxxis+Pace+29x2.1&tag=mizubikes-web-20"
     store:
-      base: "https://worldwidecyclery.com"
-      handle: "maxxis-pace-29-x-2-10-tire-60tpi-dual-compound-exo-casing-tubeless-ready-black"
+      base: "https://www.incycle.com"
+      handle: "maxxis-pace-tire"
+      match: ["29 x 2.10", "exo"]
+      exclude: ["27.5"]
 
   - id: wtb-nano-29x21
     brand: WTB
@@ -150,8 +155,10 @@ tires:
     note: "BikeRadar pick for loose surfaces"
     amazon: "https://www.amazon.com/s?k=WTB+Nano+29x2.1+TCS&tag=mizubikes-web-20"
     store:
-      base: "https://worldwidecyclery.com"
-      handle: "wtb-nano-tire-29-x-2-1-tcs-tubeless-folding-black-light-fast-rolling-dual-dna"
+      base: "https://www.incycle.com"
+      handle: "wtb-nano-tire"
+      match: ["29 x 2.1 tcs", "dual dna"]
+      exclude: ["27.5", "oe packaging"]
 
   # ---------- 55mm ----------
   - id: continental-terra-adventure-700x55
@@ -293,8 +300,8 @@ tires:
     slot: 5
     amazon: "https://www.amazon.com/s?k=Maxxis+Rambler+gravel+tire&tag=mizubikes-web-20"
     store:
-      base: "https://worldwidecyclery.com"
-      handle: "maxxis-rambler-tire-700-x-45mm-folding-60tpi-casing-dual-compound-silk-shield-protection-tubeless-ready-black"
+      base: "https://www.incycle.com"
+      handle: "maxxis-rambler-tire-700x45-f60-tubeless-folding-dual-silkshield-blk"
 
   - id: specialized-pathfinder-pro-700x47
     brand: Specialized
@@ -305,8 +312,8 @@ tires:
     note: "The Specialized team's race tire of choice"
     amazon: "https://www.amazon.com/s?k=Specialized+Pathfinder+Pro+700x47&tag=mizubikes-web-20"
     store:
-      base: "https://www.eriksbikeshop.com"
-      handle: "specialized-pathfinder-pro-700x47-2bliss-ready-tire-pr5a20214"
+      base: "https://www.incycle.com"
+      handle: "specialized-pathfinder-pro-2br-tire-700x47c"
 
   - id: specialized-tracer-pro-700x47
     brand: Specialized
@@ -316,6 +323,10 @@ tires:
     slot: 7
     note: "The Pathfinder's knobbier sibling, for loose and wet gravel"
     amazon: "https://www.amazon.com/s?k=Specialized+Tracer+Pro+700x47&tag=mizubikes-web-20"
+    store:
+      base: "https://www.incycle.com"
+      handle: "specialized-tracer-pro-2br-tire"
+      match: ["700 x 47"]
 
   # ---------- 40–42mm ----------
   - id: schwalbe-g-one-rs-700x40
@@ -344,13 +355,13 @@ tires:
   - id: maxxis-rambler-700x40
     brand: Maxxis
     name: "Rambler"
-    size: "700 × 40 · EXO"
+    size: "700 × 40 · Tubeless Ready"
     category: "40mm"
     slot: 3
     amazon: "https://www.amazon.com/s?k=Maxxis+Rambler+700x40&tag=mizubikes-web-20"
     store:
-      base: "https://worldwidecyclery.com"
-      handle: "maxxis-rambler-tire-700-x-40mm-folding-120tpi-casing-dual-compound-exo-protection-tubeless-ready-black"
+      base: "https://www.incycle.com"
+      handle: "maxxis-rambler-tire-700x40c-tubeless-ready-blk"
 
   - id: pirelli-cinturato-rcx-700x40
     brand: Pirelli
