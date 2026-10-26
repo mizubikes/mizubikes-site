@@ -46,7 +46,8 @@
         <h2>{{ $c.title }} <span class="fp-h-sub">{{ $c.size_note }}</span></h2>
         <p class="fp-blurb">{{ $c.blurb }}</p>
 
-        {{- $best := index $rows 0 -}}
+        {{- $inStock := where $rows "p.available" true -}}
+        {{- $best := index $inStock 0 -}}
         {{- if and $best $best.p.price }}
         <div class="fp-best">
           <div class="fp-best-label">Cheapest {{ $c.title }} tire right now</div>

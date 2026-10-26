@@ -32,7 +32,7 @@ categories:
     blurb: "45mm all-rounders, from fast-rolling file treads to tires with real cornering knobs."
   - key: trail
     title: "Trail MTB"
-    size_note: "29 × 2.4–2.5, tubeless"
+    size_note: "29 × 2.4–2.6, tubeless"
     blurb: "The trail and enduro standards. Prices are per tire, with the casing listed since it changes both weight and price."
 
 tires:
@@ -85,13 +85,13 @@ tires:
   - id: maxxis-rambler-700x45
     brand: Maxxis
     name: "Rambler"
-    size: "700 × 45 · EXO · Black"
+    size: "700 × 45 · SilkShield · Black"
     category: gravel
     slot: 2
     amazon: "https://www.amazon.com/s?k=Maxxis+Rambler+gravel+tire&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "maxxis-rambler-tire-700-x-45mm-folding-120tpi-casing-dual-compound-exo-protection-tubeless-ready-black"
+      handle: "maxxis-rambler-tire-700-x-45mm-folding-60tpi-casing-dual-compound-silk-shield-protection-tubeless-ready-black"
 
   - id: schwalbe-g-one-rs-700x45
     brand: Schwalbe
@@ -104,28 +104,28 @@ tires:
       base: "https://worldwidecyclery.com"
       handle: "schwalbe-g-one-rs-tire-700-x-45-tubeless-folding-black-evolution-line-pro-addix-race"
 
-  - id: pirelli-cinturato-gravel-h-700x45
-    brand: Pirelli
-    name: "Cinturato Gravel H"
-    size: "700 × 45 · Classic Tan"
+  - id: continental-terra-speed-700x45
+    brand: Continental
+    name: "Terra Speed"
+    size: "700 × 45 · ProTection · Black/Transparent"
     category: gravel
     slot: 4
-    amazon: "https://www.amazon.com/s?k=Pirelli+Cinturato+Gravel+H&tag=mizubikes-web-20"
+    amazon: "https://www.amazon.com/s?k=Continental+Terra+Speed+gravel+tire&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "pirelli-cinturato-gravel-h-tire-700-x-45-tubeless-folding-classic-tan"
+      handle: "continental-terra-speed-tire-700-x-45-tubeless-folding-black-transparent-blackchili-protection-e25"
 
   # ---------- TRAIL MTB ----------
-  - id: maxxis-dhf-29x25-exoplus
+  - id: maxxis-dhf-29x26-exo
     brand: Maxxis
     name: "Minion DHF"
-    size: "29 × 2.5 WT · 3C MaxxTerra · EXO+"
+    size: "29 × 2.6 WT · 3C MaxxTerra · EXO"
     category: trail
     slot: 1
-    amazon: "https://www.amazon.com/s?k=Maxxis+Minion+DHF+29x2.5+3C+EXO%2B&tag=mizubikes-web-20"
+    amazon: "https://www.amazon.com/s?k=Maxxis+Minion+DHF+29x2.6+3C+EXO&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "maxxis-minion-dhf-tire-29-x-2-50-folding-120tpi-3c-maxxterra-compound-exo-protection-tubeless-ready-wide-trail"
+      handle: "maxxis-minion-dhf-tire-29-x-2-60-folding-120tpi-3c-maxxterra-compound-exo-protection-tubeless-ready-wide-trail"
 
   - id: maxxis-dhr2-29x24-exoplus
     brand: Maxxis
