@@ -62,8 +62,8 @@ The finished bike is exactly what I set out to build: a capable, reliable trail 
 Here's how the rest of the series breaks down:
 
 - **Part 2 — [The Cascade 156mm Mullet Link & GENIE Shock](/posts/stumpjumper-15-cascade-mullet-link/):** more travel, more progression, and the story of getting a link built for this generation of frame.
-- **Part 3 — [Internal Cable & Brake Routing](/posts/stumpjumper-15-cable-routing/):** the part of this build nobody enjoys, plus a rotor-size surprise.
-- **Part 4 — [The Shimano XT Di2 Drivetrain](/posts/stumpjumper-15-xt-di2-build/):** fork install, a chainline gotcha, and Di2 tuning.
-- **Part 5 — [Final Assembly, Setup & Weight](/posts/stumpjumper-15-build-weight/):** the finishing touches, sag, and the number on the scale.
+- **Part 3 — Internal Cable & Brake Routing** *(coming soon)*: the part of this build nobody enjoys, plus a rotor-size surprise.
+- **Part 4 — The Shimano XT Di2 Drivetrain** *(coming soon)*: fork install, a chainline gotcha, and Di2 tuning.
+- **Part 5 — Final Assembly, Setup & Weight** *(coming soon)*: the finishing touches, sag, and the number on the scale.
 
 And once it's been out on the trail long enough to say something honest, a full ride review to close the loop. If you've built up a Stumpjumper 15 — alloy or carbon — I'd love to hear what you'd have done differently.

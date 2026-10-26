@@ -75,4 +75,4 @@ The ST5+ is available through Jenson USA and X-Lab dealers. If you're in the sam
 
 ---
 
-*Looking at the XDS X-Lab road and gravel lineup? Check out the full [X-Lab range overview](/posts/xds-x-lab-chinese-worldtour-bike/).*
+*Looking at the XDS X-Lab road and gravel lineup? Check out the full [X-Lab range overview](/posts/xds-x-lab-worldtour-chinese-bike/).*

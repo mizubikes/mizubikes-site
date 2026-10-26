@@ -35,7 +35,7 @@ Results with that setup:
 - **Rear (Specialized Tracer TLR 50c):** Fit, but clearance was tight. Fine for dry conditions, not something I'd push in mud.
 - **Front (Schwalbe Thunder Burt 2.1):** Noticeably more room. The fork is more forgiving than the rear triangle.
 
-![Specialized Tracer TLR 50c mounted in the rear triangle of a Specialized Crux gravel bike showing real-world tire clearance beyond the 47mm spec](images/specialized-crux-tracer-50c-rear-clearance.webp)
+![Specialized Tracer TLR 50c mounted in the rear triangle of a Specialized Crux gravel bike showing real-world tire clearance beyond the 47mm spec](/images/specialized-crux-tracer-50c-rear-clearance.webp)
 
 Despite the different nominal sizes, front and rear ended up with roughly similar actual clearance — the wider rear tire balanced out by the tighter frame geometry, while the larger front tire had more fork room to work with. For dry gravel and mixed terrain, the setup worked well without changing the character of the bike.
 

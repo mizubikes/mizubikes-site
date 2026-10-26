@@ -22,7 +22,7 @@ Here's the short version of the three tiers:
 
 **S100 — Entry Level Mechanical**
 
-![SRAM Eagle S100 Derailleur](/images/rd-s100-eagle-drivettrn-c-dside-s-v01.webp)
+![SRAM Eagle S100 Derailleur](/images/rd-s100-eagle-drvtrn-c-dside-s-v01.webp)
 - 12-speed, 10-50t cassette (455% range)
 - PG-1210 all-steel cassette, Shimano HG freehub compatible (huge deal for budget builds)
 - Drag spring cage damper instead of a full clutch

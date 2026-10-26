@@ -61,7 +61,7 @@ Flat protection is the other number to look at. Challenge's Getaway XP scored a 
 
 Before buying, check your frame clearance with the actual tire and rim, not just the number printed on the tire. I covered that in [Gravel Bike Tire Clearance: What the Specs Don't Tell You](/posts/gravel-bike-tire-clearance/). Measured widths often differ from claimed ones, and some tires run narrow or tall.
 
-If you're going tubeless, have a plan for flats on the road. [5 Road Bike Saddle Bag Essentials For Tubeless Road Bikes](/posts/5-road-bike-saddle-bag-essentials-for-tubeless-road-bikes/) covers the basic kit. For pressure, one German test suggested about 23 to 36 psi for 45mm tires. Your weight, rim width and surface all move that number, so treat it as a starting point.
+If you're going tubeless, have a plan for flats on the road. [5 Road Bike Saddle Bag Essentials For Tubeless Road Bikes](/5-road-bike-saddle-bag-essentials-for-tubeless-road-bikes/) covers the basic kit. For pressure, one German test suggested about 23 to 36 psi for 45mm tires. Your weight, rim width and surface all move that number, so treat it as a starting point.
 
 If you're curious how far the speed obsession goes, I wrote about it in [Gravel Bikes Keep Getting Faster. I'm Not Sure Anyone Asked For That.](/posts/gravel-bikes-do-we-need-more-speed/). Tires are where it's most useful, since a fast tire rewards you on every ride.
 
