@@ -1,14 +1,26 @@
 {
-  "continental-gp5000-str-700x30": [
+  "continental-dubnital-29x22": [
     {
       "d": "2026-10-26",
-      "p": 109.95
+      "p": 86.95
     }
   ],
-  "continental-kryptotal-fr-29x24-enduro": [
+  "continental-race-king-29x22": [
     {
       "d": "2026-10-26",
-      "p": 106.95
+      "p": 65.95
+    }
+  ],
+  "continental-terra-adventure-700x55": [
+    {
+      "d": "2026-10-26",
+      "p": 70.95
+    }
+  ],
+  "continental-terra-speed-700x40": [
+    {
+      "d": "2026-10-26",
+      "p": 77.95
     }
   ],
   "continental-terra-speed-700x45": [
@@ -17,25 +29,31 @@
       "p": 79.95
     }
   ],
-  "maxxis-assegai-29x25-exo": [
+  "maxxis-aspen-29x225": [
     {
       "d": "2026-10-26",
-      "p": 96.0
+      "p": 83.0
     }
   ],
-  "maxxis-dhf-29x26-exo": [
+  "maxxis-pace-29x21": [
     {
       "d": "2026-10-26",
-      "p": 104.0
+      "p": 78.0
     }
   ],
-  "maxxis-dhr2-29x24-exoplus": [
+  "maxxis-rambler-700x40": [
     {
       "d": "2026-10-26",
-      "p": 104.0
+      "p": 54.0
     }
   ],
   "maxxis-rambler-700x45": [
+    {
+      "d": "2026-10-26",
+      "p": 66.0
+    }
+  ],
+  "maxxis-rambler-700x50": [
     {
       "d": "2026-10-26",
       "p": 66.0
@@ -47,10 +65,34 @@
       "p": 59.0
     }
   ],
-  "pirelli-pzero-race-tlr-slr-700x30": [
+  "maxxis-rekon-race-29x225": [
     {
       "d": "2026-10-26",
-      "p": 115.11
+      "p": 88.0
+    }
+  ],
+  "pirelli-cinturato-rcx-700x40": [
+    {
+      "d": "2026-10-26",
+      "p": 108.9
+    }
+  ],
+  "pirelli-cinturato-rh-700x50": [
+    {
+      "d": "2026-10-26",
+      "p": 85.41
+    }
+  ],
+  "pirelli-cinturato-rm-700x55": [
+    {
+      "d": "2026-10-26",
+      "p": 102.51
+    }
+  ],
+  "schwalbe-g-one-rs-700x40": [
+    {
+      "d": "2026-10-26",
+      "p": 76.35
     }
   ],
   "schwalbe-g-one-rs-700x45": [
@@ -59,10 +101,46 @@
       "p": 76.35
     }
   ],
-  "vittoria-corsa-pro-speed-700x30": [
+  "schwalbe-g-one-rs-700x50": [
     {
       "d": "2026-10-26",
-      "p": 125.99
+      "p": 76.35
+    }
+  ],
+  "schwalbe-g-one-rx-700x45": [
+    {
+      "d": "2026-10-26",
+      "p": 76.35
+    }
+  ],
+  "schwalbe-g-one-rx-700x50": [
+    {
+      "d": "2026-10-26",
+      "p": 76.35
+    }
+  ],
+  "schwalbe-thunder-burt-29x21": [
+    {
+      "d": "2026-10-26",
+      "p": 79.4
+    }
+  ],
+  "schwalbe-thunder-burt-29x225": [
+    {
+      "d": "2026-10-26",
+      "p": 79.4
+    }
+  ],
+  "teravail-cannonball-700x55": [
+    {
+      "d": "2026-10-26",
+      "p": 75.0
+    }
+  ],
+  "wtb-nano-29x21": [
+    {
+      "d": "2026-10-26",
+      "p": 58.95
     }
   ]
 }
