@@ -3,7 +3,7 @@
     "continental-dubnital-29x22": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -23,7 +23,7 @@
     "continental-race-king-29x22": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -43,7 +43,7 @@
     "continental-terra-adventure-700x55": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -63,7 +63,7 @@
     "continental-terra-speed-700x40": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -83,7 +83,7 @@
     "continental-terra-speed-700x45": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -103,7 +103,7 @@
     "maxxis-aspen-29x225": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 91.0,
       "days_tracked": 1,
       "deal": false,
@@ -123,7 +123,7 @@
     "maxxis-pace-29x21": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 85.0,
       "days_tracked": 1,
       "deal": false,
@@ -143,7 +143,7 @@
     "maxxis-rambler-700x40": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 72.0,
       "days_tracked": 1,
       "deal": true,
@@ -163,7 +163,7 @@
     "maxxis-rambler-700x45": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 72.0,
       "days_tracked": 1,
       "deal": false,
@@ -183,7 +183,7 @@
     "maxxis-rambler-700x50": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 72.0,
       "days_tracked": 1,
       "deal": false,
@@ -203,7 +203,7 @@
     "maxxis-reaver-700x45": {
       "at_low": false,
       "available": false,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 65.0,
       "days_tracked": 1,
       "deal": false,
@@ -223,7 +223,7 @@
     "maxxis-rekon-race-29x225": {
       "at_low": false,
       "available": false,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 96.0,
       "days_tracked": 1,
       "deal": false,
@@ -243,7 +243,7 @@
     "pirelli-cinturato-rcx-700x40": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -263,7 +263,7 @@
     "pirelli-cinturato-rh-700x50": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 94.9,
       "days_tracked": 1,
       "deal": false,
@@ -283,7 +283,7 @@
     "pirelli-cinturato-rm-700x55": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 113.9,
       "days_tracked": 1,
       "deal": false,
@@ -303,7 +303,7 @@
     "schwalbe-g-one-rs-700x40": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 91.0,
       "days_tracked": 1,
       "deal": true,
@@ -323,7 +323,7 @@
     "schwalbe-g-one-rs-700x45": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 91.0,
       "days_tracked": 1,
       "deal": true,
@@ -343,7 +343,7 @@
     "schwalbe-g-one-rs-700x50": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 91.0,
       "days_tracked": 1,
       "deal": true,
@@ -363,7 +363,7 @@
     "schwalbe-g-one-rx-700x45": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 91.0,
       "days_tracked": 1,
       "deal": true,
@@ -383,7 +383,7 @@
     "schwalbe-g-one-rx-700x50": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 91.0,
       "days_tracked": 1,
       "deal": true,
@@ -403,7 +403,7 @@
     "schwalbe-thunder-burt-29x21": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 102.0,
       "days_tracked": 1,
       "deal": true,
@@ -423,7 +423,7 @@
     "schwalbe-thunder-burt-29x225": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 102.0,
       "days_tracked": 1,
       "deal": true,
@@ -443,7 +443,7 @@
     "specialized-pathfinder-pro-700x42": {
       "at_low": false,
       "available": false,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 54.99,
       "days_tracked": 1,
       "deal": false,
@@ -463,7 +463,7 @@
     "specialized-pathfinder-pro-700x47": {
       "at_low": false,
       "available": false,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -483,7 +483,7 @@
     "specialized-tracer-pro-700x47": {
       "at_low": false,
       "available": false,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 54.99,
       "days_tracked": 1,
       "deal": false,
@@ -503,7 +503,7 @@
     "teravail-cannonball-700x55": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -523,7 +523,7 @@
     "wtb-nano-29x21": {
       "at_low": false,
       "available": false,
-      "checked_at": "2026-10-26T04:53:47+00:00",
+      "checked_at": "2026-10-26T19:25:51+00:00",
       "compare_at": 65.95,
       "days_tracked": 1,
       "deal": false,
@@ -541,5 +541,5 @@
       "variant": "Default Title"
     }
   },
-  "updated": "2026-10-25T21:53:47-07:00"
+  "updated": "2026-10-26T12:25:51-07:00"
 }
