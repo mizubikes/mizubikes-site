@@ -1,82 +1,283 @@
-# Tire price tracker watchlist
-# ----------------------------
-# One entry per tire, one size each. The daily GitHub Action
+# Gravel tire price tracker watchlist
+# ----------------------------------
+# Gravel tires only, grouped by size. The daily GitHub Action
 # (scripts/tire_prices.py) checks each tire's current price at
 # Worldwide Cyclery and writes data/tire_prices.json + data/tire_history.json.
 #
+# Tire picks are what's winning big gravel races in 2026 and topping
+# the major tire tests (Velo, BikeRadar, Cyclingnews, road.cc), limited
+# to tires Worldwide Cyclery sells so prices can be tracked daily.
+#
 # Fields
 #   id        unique slug, used by the {{< tire-price "id" >}} shortcode
-#   brand     display brand
-#   name      display model name
-#   size      size + casing shown under the name
+#   brand / name / size   display text
 #   category  must match a key under `categories` below
-#   slot      chart color 1-4, unique within its category
+#   slot      chart color 1-5, unique within its category
+#   note      optional one-line "why it's here" (keep it factual + sourced)
 #   amazon    Amazon link with your tag (shown as a button, never with a price)
 #   store     price source (Shopify store)
 #     base     store root URL, no trailing slash
 #     handle   the part after /products/ in the URL (WWC uses one page per size)
-#     match / exclude   optional words to pick a variant if a page has several
 #
 # Amazon prices are never shown — Amazon only allows prices pulled from
 # their API. The store price is the public reference; the Amazon button
 # is where readers check theirs.
 
 categories:
-  - key: road
-    title: "Road"
-    size_note: "700 × 30, tubeless"
-    blurb: "Fast, supple race tires. 30mm is where most road riders have landed for speed and comfort."
-  - key: gravel
-    title: "Gravel"
-    size_note: "700 × 45, tubeless"
-    blurb: "45mm all-rounders, from fast-rolling file treads to tires with real cornering knobs."
-  - key: trail
-    title: "Trail MTB"
-    size_note: "29 × 2.4–2.6, tubeless"
-    blurb: "The trail and enduro standards. Prices are per tire, with the casing listed since it changes both weight and price."
+  - key: "29x2-2"
+    title: '2.2–2.25"'
+    size_note: '29 × 2.2–2.25" · about 56–57mm'
+    home: true
+    blurb: "MTB XC tires on a gravel bike. The biggest volume and most comfort, if your frame clears them. More and more pros run this size at rough events."
+  - key: "29x2-1"
+    title: '2.1"'
+    size_note: '29 × 2.1" · about 53mm'
+    home: false
+    blurb: "Slightly narrower XC tires. Fast-rolling, and they fit more frames than 2.2s."
+  - key: "55mm"
+    title: "55mm"
+    size_note: "700 × 55"
+    home: false
+    blurb: "Gravel-specific tires at near-MTB volume. Winning setups at a muddy Unbound 2026 leaned 50–55mm."
+  - key: "50mm"
+    title: "50mm"
+    size_note: "700 × 50"
+    home: true
+    blurb: "Where pro gravel racing has largely settled. A fast, grippy middle ground if your frame has the clearance."
+  - key: "45mm"
+    title: "45mm"
+    size_note: "700 × 45"
+    home: true
+    blurb: "The all-rounder size most gravel bikes ship with. Still raced at the top level: the women's Unbound XL 2026 win was on 45s."
+  - key: "40mm"
+    title: "40mm"
+    size_note: "700 × 40"
+    home: false
+    blurb: "Faster on pavement and the max for many older gravel frames. Best for mixed rides with more road than dirt."
 
 tires:
-  # ---------- ROAD ----------
-  - id: continental-gp5000-str-700x30
+  # ---------- 2.2–2.25" ----------
+  - id: continental-race-king-29x22
     brand: Continental
-    name: "Grand Prix 5000 S TR"
-    size: "700 × 30 · Tubeless · Black"
-    category: road
+    name: "Race King"
+    size: "29 × 2.2 · PureGrip"
+    category: "29x2-2"
     slot: 1
-    amazon: "https://www.amazon.com/s?k=Continental+Grand+Prix+5000+S+TR+700x30&tag=mizubikes-web-20"
+    note: "A go-to for pros on big-volume setups"
+    amazon: "https://www.amazon.com/s?k=Continental+Race+King+29x2.2+tubeless&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "continental-grand-prix-5000-s-tr-tire-700-x-30-tubeless-folding-black-blackchili-vectran-breaker-lazergrip-act"
+      handle: "continental-race-king-tire-29-x-2-20-tubeless-folding-black-puregrip-shieldwall-system-e25"
 
-  - id: pirelli-pzero-race-tlr-slr-700x30
-    brand: Pirelli
-    name: "P ZERO Race TLR SL-R"
-    size: "700 × 30 · Tubeless · Black"
-    category: road
+  - id: continental-dubnital-29x22
+    brand: Continental
+    name: "Dubnital"
+    size: "29 × 2.2 · Race casing"
+    category: "29x2-2"
     slot: 2
-    amazon: "https://www.amazon.com/s?k=Pirelli+P+Zero+Race+TLR+SL-R+700x30&tag=mizubikes-web-20"
+    note: "Fast high-volume pick in Cyclingnews' best gravel tyres"
+    amazon: "https://www.amazon.com/s?k=Continental+Dubnital+29x2.2&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "pirelli-p-zero-race-tlr-sl-r-tire-700-x-30-tubeless-folding-black-smartevo2"
+      handle: "continental-dubnital-tire-29-x-2-20-tubeless-folding-black-rapid-race-casing-e25"
 
-  - id: vittoria-corsa-pro-speed-700x30
-    brand: Vittoria
-    name: "Corsa Pro Speed"
-    size: "700 × 30 · Tubeless · Black/Para"
-    category: road
+  - id: schwalbe-thunder-burt-29x225
+    brand: Schwalbe
+    name: "Thunder Burt"
+    size: "29 × 2.25 · Super Ground"
+    category: "29x2-2"
     slot: 3
-    amazon: "https://www.amazon.com/s?k=Vittoria+Corsa+Pro+Speed+700x30+tubeless&tag=mizubikes-web-20"
+    note: "Top-tier in road.cc's 2026 gravel tyre ranking"
+    amazon: "https://www.amazon.com/s?k=Schwalbe+Thunder+Burt+29x2.25&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "vittoria-corsa-pro-speed-tire-700-x-30-tubeless-folding-black-para-race-graphene-g2-0"
+      handle: "schwalbe-thunder-burt-tire-29-x-2-25-tubeless-folding-black-evolution-super-ground-addix-speed"
 
-  # ---------- GRAVEL ----------
+  - id: maxxis-aspen-29x225
+    brand: Maxxis
+    name: "Aspen"
+    size: "29 × 2.25 · EXO"
+    category: "29x2-2"
+    slot: 4
+    amazon: "https://www.amazon.com/s?k=Maxxis+Aspen+29x2.25+EXO&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "maxxis-aspen-29-x-2-25-tubeless-ready-folding-tire-120tpi-dual-compound-exo-casing-black"
+
+  - id: maxxis-rekon-race-29x225
+    brand: Maxxis
+    name: "Rekon Race"
+    size: "29 × 2.25 · MaxxSpeed · EXO"
+    category: "29x2-2"
+    slot: 5
+    amazon: "https://www.amazon.com/s?k=Maxxis+Rekon+Race+29x2.25&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "maxxis-rekon-race-tire-29-x-2-25-tubeless-folding-black-maxxspeed-exo"
+
+  # ---------- 2.1" ----------
+  - id: schwalbe-thunder-burt-29x21
+    brand: Schwalbe
+    name: "Thunder Burt"
+    size: "29 × 2.1 · Super Ground"
+    category: "29x2-1"
+    slot: 1
+    note: "Top-tier in road.cc's 2026 gravel tyre ranking"
+    amazon: "https://www.amazon.com/s?k=Schwalbe+Thunder+Burt+29x2.1&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "schwalbe-thunder-burt-tire-29-x-2-1-tubeless-folding-black-evolution-super-ground-addix-speed"
+
+  - id: maxxis-pace-29x21
+    brand: Maxxis
+    name: "Pace"
+    size: "29 × 2.1 · EXO"
+    category: "29x2-1"
+    slot: 2
+    amazon: "https://www.amazon.com/s?k=Maxxis+Pace+29x2.1&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "maxxis-pace-29-x-2-10-tire-60tpi-dual-compound-exo-casing-tubeless-ready-black"
+
+  - id: wtb-nano-29x21
+    brand: WTB
+    name: "Nano"
+    size: "29 × 2.1 · TCS Light"
+    category: "29x2-1"
+    slot: 3
+    note: "BikeRadar pick for loose surfaces"
+    amazon: "https://www.amazon.com/s?k=WTB+Nano+29x2.1+TCS&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "wtb-nano-tire-29-x-2-1-tcs-tubeless-folding-black-light-fast-rolling-dual-dna"
+
+  # ---------- 55mm ----------
+  - id: continental-terra-adventure-700x55
+    brand: Continental
+    name: "Terra Adventure"
+    size: "700 × 55 · Trail casing"
+    category: "55mm"
+    slot: 1
+    note: "Continental's gravel/XC hybrid"
+    amazon: "https://www.amazon.com/s?k=Continental+Terra+Adventure+700x55&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "continental-terra-adventure-tire-700-x-55-tubeless-folding-black-grip-trail-casing-e25"
+
+  - id: teravail-cannonball-700x55
+    brand: Teravail
+    name: "Cannonball"
+    size: "700 × 55 · Light & Supple"
+    category: "55mm"
+    slot: 2
+    note: "BikeRadar pick for easy tubeless setup"
+    amazon: "https://www.amazon.com/s?k=Teravail+Cannonball+700x55&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "teravail-cannonball-tire-700-x-55-tubeless-folding-folding-black-light-and-supple-fast-compound"
+
+  - id: pirelli-cinturato-rm-700x55
+    brand: Pirelli
+    name: "Cinturato Gravel RM"
+    size: "700 × 55 · Classic Tan"
+    category: "55mm"
+    slot: 3
+    amazon: "https://www.amazon.com/s?k=Pirelli+Cinturato+Gravel+RM+700x55&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "pirelli-cinturato-gravel-rm-tire-700-x-55-tubeless-folding-classic-tan-smartevo-gr-prowall-gravel-high"
+
+  # ---------- 50mm ----------
+  - id: schwalbe-g-one-rs-700x50
+    brand: Schwalbe
+    name: "G-One RS Pro"
+    size: "700 × 50 · Addix Race"
+    category: "50mm"
+    slot: 1
+    note: "Most popular tire in the Life Time Grand Prix"
+    amazon: "https://www.amazon.com/s?k=Schwalbe+G-One+RS+Pro+700x50&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "schwalbe-g-one-rs-tire-700-x-50-tubeless-folding-black-transparent-evolution-line-pro-addix-race"
+
+  - id: schwalbe-g-one-rx-700x50
+    brand: Schwalbe
+    name: "G-One RX Pro"
+    size: "700 × 50 · Addix Race"
+    category: "50mm"
+    slot: 2
+    note: "Won the men's Unbound XL 2026 (50mm prototype)"
+    amazon: "https://www.amazon.com/s?k=Schwalbe+G-One+RX+Pro+700x50&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "schwalbe-g-one-rx-tire-700-x-50-tubeless-folding-black-evolution-line-pro-addix-race"
+
+  - id: maxxis-rambler-700x50
+    brand: Maxxis
+    name: "Rambler"
+    size: "700 × 50 · SilkShield"
+    category: "50mm"
+    slot: 3
+    amazon: "https://www.amazon.com/s?k=Maxxis+Rambler+700x50&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "maxxis-rambler-tire-700-x-50-tubeless-folding-black-dual-silkshield"
+
+  - id: pirelli-cinturato-rh-700x50
+    brand: Pirelli
+    name: "Cinturato Gravel RH"
+    size: "700 × 50 · TechWALL"
+    category: "50mm"
+    slot: 4
+    amazon: "https://www.amazon.com/s?k=Pirelli+Cinturato+Gravel+RH+700x50&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "pirelli-cinturato-gravel-rh-tire-700-x-50-tubeless-folding-black-speedgrip-techwall-gravel-performance"
+
+  # ---------- 45mm ----------
+  - id: schwalbe-g-one-rs-700x45
+    brand: Schwalbe
+    name: "G-One RS Pro"
+    size: "700 × 45 · Addix Race"
+    category: "45mm"
+    slot: 1
+    note: "Won the women's Unbound XL 2026"
+    amazon: "https://www.amazon.com/s?k=Schwalbe+G-One+RS+Pro+700x45&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "schwalbe-g-one-rs-tire-700-x-45-tubeless-folding-black-evolution-line-pro-addix-race"
+
+  - id: schwalbe-g-one-rx-700x45
+    brand: Schwalbe
+    name: "G-One RX Pro"
+    size: "700 × 45 · Addix Race"
+    category: "45mm"
+    slot: 2
+    note: "Rear tire on Cameron Jones' Unbound 200-winning bike"
+    amazon: "https://www.amazon.com/s?k=Schwalbe+G-One+RX+Pro+700x45&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "schwalbe-g-one-rx-tire-700-x-45-tubeless-folding-black-evolution-line-pro-addix-race"
+
+  - id: continental-terra-speed-700x45
+    brand: Continental
+    name: "Terra Speed"
+    size: "700 × 45 · ProTection"
+    category: "45mm"
+    slot: 3
+    note: "Overall winner in a German 10-tire road and gravel test"
+    amazon: "https://www.amazon.com/s?k=Continental+Terra+Speed+gravel+tire&tag=mizubikes-web-20"
+    store:
+      base: "https://worldwidecyclery.com"
+      handle: "continental-terra-speed-tire-700-x-45-tubeless-folding-black-transparent-blackchili-protection-e25"
+
   - id: maxxis-reaver-700x45
     brand: Maxxis
     name: "Reaver"
-    size: "700 × 45 · EXO · Black"
-    category: gravel
-    slot: 1
+    size: "700 × 45 · EXO"
+    category: "45mm"
+    slot: 4
+    note: "What I run on my Crux"
     amazon: "https://www.amazon.com/s?k=Maxxis+Reaver+700x45&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
@@ -85,77 +286,57 @@ tires:
   - id: maxxis-rambler-700x45
     brand: Maxxis
     name: "Rambler"
-    size: "700 × 45 · SilkShield · Black"
-    category: gravel
-    slot: 2
+    size: "700 × 45 · SilkShield"
+    category: "45mm"
+    slot: 5
     amazon: "https://www.amazon.com/s?k=Maxxis+Rambler+gravel+tire&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
       handle: "maxxis-rambler-tire-700-x-45mm-folding-60tpi-casing-dual-compound-silk-shield-protection-tubeless-ready-black"
 
-  - id: schwalbe-g-one-rs-700x45
+  # ---------- 40mm ----------
+  - id: schwalbe-g-one-rs-700x40
     brand: Schwalbe
     name: "G-One RS Pro"
-    size: "700 × 45 · Addix Race · Black"
-    category: gravel
-    slot: 3
-    amazon: "https://www.amazon.com/s?k=Schwalbe+G-One+RS+Pro&tag=mizubikes-web-20"
+    size: "700 × 40 · Addix Race"
+    category: "40mm"
+    slot: 1
+    amazon: "https://www.amazon.com/s?k=Schwalbe+G-One+RS+Pro+700x40&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "schwalbe-g-one-rs-tire-700-x-45-tubeless-folding-black-evolution-line-pro-addix-race"
+      handle: "schwalbe-g-one-rs-tire-700-x-40-tubeless-folding-black-evolution-line-pro-addix-race"
 
-  - id: continental-terra-speed-700x45
+  - id: continental-terra-speed-700x40
     brand: Continental
     name: "Terra Speed"
-    size: "700 × 45 · ProTection · Black/Transparent"
-    category: gravel
-    slot: 4
-    amazon: "https://www.amazon.com/s?k=Continental+Terra+Speed+gravel+tire&tag=mizubikes-web-20"
-    store:
-      base: "https://worldwidecyclery.com"
-      handle: "continental-terra-speed-tire-700-x-45-tubeless-folding-black-transparent-blackchili-protection-e25"
-
-  # ---------- TRAIL MTB ----------
-  - id: maxxis-dhf-29x26-exo
-    brand: Maxxis
-    name: "Minion DHF"
-    size: "29 × 2.6 WT · 3C MaxxTerra · EXO"
-    category: trail
-    slot: 1
-    amazon: "https://www.amazon.com/s?k=Maxxis+Minion+DHF+29x2.6+3C+EXO&tag=mizubikes-web-20"
-    store:
-      base: "https://worldwidecyclery.com"
-      handle: "maxxis-minion-dhf-tire-29-x-2-60-folding-120tpi-3c-maxxterra-compound-exo-protection-tubeless-ready-wide-trail"
-
-  - id: maxxis-dhr2-29x24-exoplus
-    brand: Maxxis
-    name: "Minion DHR II"
-    size: "29 × 2.4 WT · 3C MaxxTerra · EXO+"
-    category: trail
+    size: "700 × 40 · ProTection"
+    category: "40mm"
     slot: 2
-    amazon: "https://www.amazon.com/s?k=Maxxis+Minion+DHR+II+29x2.4+3C+EXO%2B&tag=mizubikes-web-20"
+    note: "BikeRadar pick for fast, dry conditions"
+    amazon: "https://www.amazon.com/s?k=Continental+Terra+Speed+700x40&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "maxxis-minion-dhr-ii-tire-29-x-2-40-folding-120tpi-3c-maxxterra-compound-exo-protection-tubeless-ready-wide"
+      handle: "continental-terra-speed-tire-700-x-40-tubeless-folding-black-cream-blackchili-protection-e25"
 
-  - id: maxxis-assegai-29x25-exo
+  - id: maxxis-rambler-700x40
     brand: Maxxis
-    name: "Assegai"
-    size: "29 × 2.5 WT · 3C MaxxTerra · EXO"
-    category: trail
+    name: "Rambler"
+    size: "700 × 40 · EXO"
+    category: "40mm"
     slot: 3
-    amazon: "https://www.amazon.com/s?k=Maxxis+Assegai+29x2.5+3C+EXO&tag=mizubikes-web-20"
+    amazon: "https://www.amazon.com/s?k=Maxxis+Rambler+700x40&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "maxxis-assegai-tire-29-x-2-5-tubeless-folding-black-3c-maxxterra-exo-protection-wide-trail"
+      handle: "maxxis-rambler-tire-700-x-40mm-folding-120tpi-casing-dual-compound-exo-protection-tubeless-ready-black"
 
-  - id: continental-kryptotal-fr-29x24-enduro
-    brand: Continental
-    name: "Kryptotal Front"
-    size: "29 × 2.4 · Soft · Enduro casing"
-    category: trail
+  - id: pirelli-cinturato-rcx-700x40
+    brand: Pirelli
+    name: "Cinturato Gravel RCX"
+    size: "700 × 40 · TLR"
+    category: "40mm"
     slot: 4
-    amazon: "https://www.amazon.com/s?k=Continental+Kryptotal+Front+29x2.4+Enduro&tag=mizubikes-web-20"
+    note: "BikeRadar pick for rough, race-pace terrain"
+    amazon: "https://www.amazon.com/s?k=Pirelli+Cinturato+Gravel+RCX+700x40&tag=mizubikes-web-20"
     store:
       base: "https://worldwidecyclery.com"
-      handle: "continental-kryptotal-front-tire-29-x-2-40-tubeless-folding-black-soft-enduro-casing-e25"
+      handle: "pirelli-cinturato-gravel-rcx-tlr-tire-700-x-40-tubeless-folding-black"

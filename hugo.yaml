@@ -71,5 +71,5 @@ menu:
       weight: 7
     - identifier: menu-tire-prices
       name: Tire Prices
-      url: /tire-prices/
+      url: /gravel-tire-prices/
       weight: 8

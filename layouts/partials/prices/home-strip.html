@@ -1,8 +1,8 @@
-{{- /* Home page strip: cheapest in-stock tire per category, linking to /tire-prices/ */ -}}
+{{- /* Home page strip: cheapest in-stock tire per category, linking to /gravel-tire-prices/ */ -}}
 {{- $cfg := site.Data.tires -}}
 {{- $items := (site.Data.tire_prices | default dict).items | default dict -}}
 {{- $tiles := slice -}}
-{{- range $c := $cfg.categories -}}
+{{- range $c := where $cfg.categories "home" true -}}
   {{- $rows := slice -}}
   {{- $count := 0 -}}
   {{- range where $cfg.tires "category" $c.key -}}
@@ -17,13 +17,13 @@
 
 <div class="mb-section fp fp-home">
   <div class="mb-section-header">
-    <span class="mb-section-title">Tire Prices Today</span>
-    <a href="/tire-prices/" class="mb-section-more">All tire prices &rarr;</a>
+    <span class="mb-section-title">Gravel Tire Prices Today</span>
+    <a href="/gravel-tire-prices/" class="mb-section-more">All gravel tire prices &rarr;</a>
   </div>
   <div class="fp-home-grid">
     {{- range $tiles }}
-    <a href="/tire-prices/#{{ .c.key }}" class="fp-home-tile">
-      <div class="mb-cat">{{ if .best }}Cheapest {{ end }}{{ .c.title }} tire</div>
+    <a href="/gravel-tire-prices/#{{ .c.key }}" class="fp-home-tile">
+      <div class="mb-cat">{{ if .best }}Cheapest {{ end }}{{ .c.title }} gravel tire</div>
       {{- with .best }}
       <div class="fp-home-price">${{ lang.FormatNumber 2 .p.price }}<small>/tire</small></div>
       <div class="fp-home-name"><span class="fp-swatch fp-s{{ .t.slot | default 1 }}" aria-hidden="true"></span>{{ .t.brand }} {{ .t.name }}</div>
@@ -33,7 +33,7 @@
         {{- else }}{{ .t.size }}{{ end -}}
       </div>
       {{- else }}
-      <div class="fp-home-name">Compare {{ .count }} {{ lower .c.title }} tires</div>
+      <div class="fp-home-name">Compare {{ .count }} {{ .c.title }} tires</div>
       <div class="fp-home-meta">{{ .c.size_note }}</div>
       {{- end }}
     </a>

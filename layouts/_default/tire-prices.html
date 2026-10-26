@@ -18,7 +18,7 @@
   <div class="post-content">
     {{ .Content }}
 
-    <nav class="fp-jump" aria-label="Jump to category">
+    <nav class="fp-jump" aria-label="Jump to tire size">
       {{- range $cfg.categories }}<a href="#{{ .key }}">{{ .title }}</a>{{ end -}}
     </nav>
 
@@ -50,7 +50,7 @@
         {{- $best := index $inStock 0 -}}
         {{- if and $best $best.p.price }}
         <div class="fp-best">
-          <div class="fp-best-label">Cheapest {{ $c.title }} tire right now</div>
+          <div class="fp-best-label">Cheapest {{ $c.title }} gravel tire in stock</div>
           <div class="fp-best-row">
             <span class="fp-best-name"><span class="fp-swatch fp-s{{ $best.t.slot | default 1 }}" aria-hidden="true"></span>{{ $best.t.brand }} {{ $best.t.name }}</span>
             <span class="fp-best-price">${{ lang.FormatNumber 2 $best.p.price }}<small>/tire</small></span>
@@ -83,6 +83,7 @@
                   <span>
                     <span class="fp-brand">{{ $t.brand }}</span> {{ $t.name }}
                     <span class="fp-size">{{ $t.size }}</span>
+                    {{- with $t.note }}<span class="fp-note-line">{{ . }}</span>{{ end }}
                     <span class="fp-show-sm fp-status-sm">{{ partial "prices/status.html" $p }}</span>
                   </span>
                 </th>
@@ -111,7 +112,7 @@
         {{- if $series }}
           {{- $anyChart = true }}
           <figure class="fp-chart">
-            <figcaption>{{ $c.title }} tire price over time (per tire)</figcaption>
+            <figcaption>{{ $c.title }} gravel tire prices over time (per tire)</figcaption>
             <div class="fp-chart-box"><canvas aria-label="{{ $c.title }} tire price history line chart" role="img"></canvas></div>
             <script type="application/json" class="fp-chart-data">{{ dict "series" $series | jsonify | safeJS }}</script>
           </figure>
@@ -124,10 +125,11 @@
     <section class="fp-method">
       <h2>How this works</h2>
       <ul>
-        <li>Every morning a script checks the current price of each tire in one popular size and logs it. Prices are per tire, not per pair.</li>
+        <li>The tires here are the ones winning big gravel races in 2026 and topping the major tire tests, limited to tires Worldwide Cyclery sells so the price can be checked every morning. Prices are per tire, not per pair.</li>
         <li><strong>90-day range</strong> is the lowest and highest price seen in the last 90 days. <strong>Deal</strong> means the tire is at least 10% under its typical price, or marked down 15% or more from list. <strong>90-day low</strong> needs two weeks of history before it shows.</li>
         <li>Amazon prices aren't listed because they change through the day — tap the Amazon button to see yours. Amazon links are affiliate links; buying through them supports the site at no extra cost to you.</li>
-        <li>Other sizes and casings usually price within a few dollars of the size shown, but not always. Shipping and tax aren't included.</li>
+        <li>Specialized's Pathfinder, a pro favorite, isn't listed because it's sold through Specialized dealers rather than Worldwide Cyclery. Shipping and tax aren't included.</li>
+        <li>Race and test notes come from <a href="https://www.schwalbetires.com/blog/news/events/unbound-2026/" target="_blank" rel="noopener">Schwalbe's Unbound 2026 results</a>, <a href="https://rouleur.it/blogs/desire-journal/pro-bike-cameron-joness-unbound-200-winning-scott-addict-gravel-rc" target="_blank" rel="noopener">Rouleur</a>, <a href="https://silca.cc/blogs/silca/unbound-gravel-2026-recap-and-gallery" target="_blank" rel="noopener">Silca</a>, Velo, <a href="https://www.bikeradar.com/us/road/gear/article/best-gravel-tires-51877/" target="_blank" rel="noopener">BikeRadar</a>, <a href="https://www.cyclingnews.com/features/best-gravel-tyres" target="_blank" rel="noopener">Cyclingnews</a>, and <a href="https://road.cc/blog/ranking-the-best-gravel-tyres-in-2026-how-wide-should-you-go-and-are-mountain-bike-tyres-actually-better-for-gravel" target="_blank" rel="noopener">road.cc</a>.</li>
       </ul>
     </section>
   </div>

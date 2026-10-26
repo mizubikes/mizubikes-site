@@ -13,6 +13,7 @@
   --fp-series-2: #eb6834;
   --fp-series-3: #1baf7a;
   --fp-series-4: #eda100;
+  --fp-series-5: #e87ba4;
 }
 
 .fp-updated {
@@ -148,6 +149,7 @@
 .fp-s2 { background: var(--fp-series-2); }
 .fp-s3 { background: var(--fp-series-3); }
 .fp-s4 { background: var(--fp-series-4); }
+.fp-s5 { background: var(--fp-series-5); }
 
 /* badges: label in text ink, status carried by icon + tint (never color alone) */
 .fp-badge {
@@ -203,6 +205,12 @@
   font-size: 12px;
   font-weight: 400;
   color: var(--secondary);
+}
+.fp-note-line {
+  display: block;
+  font-size: 12px;
+  color: #146f86;
+  margin-top: 2px;
 }
 .fp-best-size { font-size: 13px; color: var(--secondary); margin: -6px 0 12px; }
 

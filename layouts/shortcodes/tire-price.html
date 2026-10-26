@@ -27,7 +27,7 @@
   </div>
   <div class="fp-card-actions">
     {{- with $t.amazon }}<a class="fp-btn fp-btn-primary" href="{{ . }}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>{{ end -}}
-    <a class="fp-link" href="/tire-prices/#{{ $t.id }}">Compare {{ with $cat }}{{ lower .title }} {{ end }}tire prices →</a>
+    <a class="fp-link" href="/gravel-tire-prices/#{{ $t.id }}">Compare {{ with $cat }}{{ .title }} {{ end }}gravel tire prices →</a>
   </div>
 </div>
 {{- end -}}
