@@ -3,7 +3,7 @@
     "continental-gp5000-str-700x30": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T03:58:42+00:00",
+      "checked_at": "2026-10-26T04:15:25+00:00",
       "compare_at": 116.95,
       "days_tracked": 1,
       "deal": false,
@@ -23,7 +23,7 @@
     "continental-kryptotal-fr-29x24-enduro": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T03:58:42+00:00",
+      "checked_at": "2026-10-26T04:15:25+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -40,10 +40,30 @@
       "store_url": "https://worldwidecyclery.com/products/continental-kryptotal-front-tire-29-x-2-40-tubeless-folding-black-soft-enduro-casing-e25?variant=43605883027578",
       "variant": "Default Title"
     },
+    "continental-terra-speed-700x45": {
+      "at_low": false,
+      "available": true,
+      "checked_at": "2026-10-26T04:15:25+00:00",
+      "compare_at": null,
+      "days_tracked": 1,
+      "deal": false,
+      "high_30": 79.95,
+      "high_90": 79.95,
+      "id": "continental-terra-speed-700x45",
+      "low_30": 79.95,
+      "low_90": 79.95,
+      "median_30": 79.95,
+      "median_90": 79.95,
+      "price": 79.95,
+      "source": "store",
+      "stale": false,
+      "store_url": "https://worldwidecyclery.com/products/continental-terra-speed-tire-700-x-45-tubeless-folding-black-transparent-blackchili-protection-e25?variant=43605882110074",
+      "variant": "Default Title"
+    },
     "maxxis-assegai-29x25-exo": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T03:58:42+00:00",
+      "checked_at": "2026-10-26T04:15:25+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -60,18 +80,30 @@
       "store_url": "https://worldwidecyclery.com/products/maxxis-assegai-tire-29-x-2-5-tubeless-folding-black-3c-maxxterra-exo-protection-wide-trail?variant=19224229576826",
       "variant": "Default Title"
     },
-    "maxxis-dhf-29x25-exoplus": {
-      "days_tracked": 0,
-      "error": "HTTP 404 for https://worldwidecyclery.com/products/maxxis-minion-dhf-tire-29-x-2-50-folding-120tpi-3c-maxxterra-compound-exo-protection-tubeless-ready-wide-trail.js",
-      "id": "maxxis-dhf-29x25-exoplus",
+    "maxxis-dhf-29x26-exo": {
+      "at_low": false,
+      "available": false,
+      "checked_at": "2026-10-26T04:15:25+00:00",
+      "compare_at": null,
+      "days_tracked": 1,
+      "deal": false,
+      "high_30": 104.0,
+      "high_90": 104.0,
+      "id": "maxxis-dhf-29x26-exo",
+      "low_30": 104.0,
+      "low_90": 104.0,
+      "median_30": 104.0,
+      "median_90": 104.0,
+      "price": 104.0,
       "source": "store",
       "stale": false,
-      "store_url": "https://worldwidecyclery.com/products/maxxis-minion-dhf-tire-29-x-2-50-folding-120tpi-3c-maxxterra-compound-exo-protection-tubeless-ready-wide-trail"
+      "store_url": "https://worldwidecyclery.com/products/maxxis-minion-dhf-tire-29-x-2-60-folding-120tpi-3c-maxxterra-compound-exo-protection-tubeless-ready-wide-trail?variant=16843953471610",
+      "variant": "Default Title"
     },
     "maxxis-dhr2-29x24-exoplus": {
       "at_low": false,
       "available": false,
-      "checked_at": "2026-10-26T03:58:42+00:00",
+      "checked_at": "2026-10-26T04:15:25+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -89,17 +121,29 @@
       "variant": "Default Title"
     },
     "maxxis-rambler-700x45": {
-      "days_tracked": 0,
-      "error": "HTTP 404 for https://worldwidecyclery.com/products/maxxis-rambler-tire-700-x-45mm-folding-120tpi-casing-dual-compound-exo-protection-tubeless-ready-black.js",
+      "at_low": false,
+      "available": true,
+      "checked_at": "2026-10-26T04:15:25+00:00",
+      "compare_at": 72.0,
+      "days_tracked": 1,
+      "deal": false,
+      "high_30": 66.0,
+      "high_90": 66.0,
       "id": "maxxis-rambler-700x45",
+      "low_30": 66.0,
+      "low_90": 66.0,
+      "median_30": 66.0,
+      "median_90": 66.0,
+      "price": 66.0,
       "source": "store",
       "stale": false,
-      "store_url": "https://worldwidecyclery.com/products/maxxis-rambler-tire-700-x-45mm-folding-120tpi-casing-dual-compound-exo-protection-tubeless-ready-black"
+      "store_url": "https://worldwidecyclery.com/products/maxxis-rambler-tire-700-x-45mm-folding-60tpi-casing-dual-compound-silk-shield-protection-tubeless-ready-black?variant=19146886807674",
+      "variant": "Default Title"
     },
     "maxxis-reaver-700x45": {
       "at_low": false,
       "available": false,
-      "checked_at": "2026-10-26T03:58:42+00:00",
+      "checked_at": "2026-10-26T04:15:25+00:00",
       "compare_at": 65.0,
       "days_tracked": 1,
       "deal": false,
@@ -116,18 +160,10 @@
       "store_url": "https://worldwidecyclery.com/products/maxxis-reaver-tire-700-x-45-tubeless-folding-black-dual-exo?variant=43582891982970",
       "variant": "Default Title"
     },
-    "pirelli-cinturato-gravel-h-700x45": {
-      "days_tracked": 0,
-      "error": "HTTP 404 for https://worldwidecyclery.com/products/pirelli-cinturato-gravel-h-tire-700-x-45-tubeless-folding-classic-tan.js",
-      "id": "pirelli-cinturato-gravel-h-700x45",
-      "source": "store",
-      "stale": false,
-      "store_url": "https://worldwidecyclery.com/products/pirelli-cinturato-gravel-h-tire-700-x-45-tubeless-folding-classic-tan"
-    },
     "pirelli-pzero-race-tlr-slr-700x30": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T03:58:42+00:00",
+      "checked_at": "2026-10-26T04:15:25+00:00",
       "compare_at": 127.9,
       "days_tracked": 1,
       "deal": false,
@@ -147,7 +183,7 @@
     "schwalbe-g-one-rs-700x45": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T03:58:42+00:00",
+      "checked_at": "2026-10-26T04:15:25+00:00",
       "compare_at": 91.0,
       "days_tracked": 1,
       "deal": true,
@@ -167,7 +203,7 @@
     "vittoria-corsa-pro-speed-700x30": {
       "at_low": false,
       "available": true,
-      "checked_at": "2026-10-26T03:58:42+00:00",
+      "checked_at": "2026-10-26T04:15:25+00:00",
       "compare_at": null,
       "days_tracked": 1,
       "deal": false,
@@ -185,5 +221,5 @@
       "variant": "Default Title"
     }
   },
-  "updated": "2026-10-25T20:58:42-07:00"
+  "updated": "2026-10-25T21:15:25-07:00"
 }
