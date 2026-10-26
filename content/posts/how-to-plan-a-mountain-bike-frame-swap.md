@@ -78,7 +78,7 @@ Temporary plan: I’ll run a full 29” setup using a matching rear wheel until 
 - **Shift cable and housing** – [Shimano MTB Optislick Derailleur Cable and Housing Set, Black](https://amzn.to/3RZ24J0)
 - **Dropper post cable kit** – [Shimano MTB Optislick Derailleur Cable and Housing Set, Black](https://amzn.to/3RZ24J0)
 - **29" rear tire** – [MAXXIS Minion DHR II - 3C MaxxTerra](https://amzn.to/4jHv97B)
-- **Brake bleed kit** – [Shimano Hydraulic Brake Bleed Kit](https://www.amazon.com/dp/B01LX9T3F3)
+- **Brake bleed kit** – [Shimano Hydraulic Brake Bleed Kit](https://www.amazon.com/dp/B01LX9T3F3?tag=mizubikes-web-20)
 - **Cable cutters** – [Park Tool CN-10 Cable and Housing Cutter](https://amzn.to/3S2OC6S)
 
 * * *

@@ -63,8 +63,8 @@ Eventually you will need to replace your cassette sprockets either from being wo
 For the chain tool I wouldn't go to inexpensive on this one and I would suggest something with good quality. If you damage a chain while pushing a pin out, it could lead to injury. For this I am recommending a Park Chain tool priced at $41.99. I've had my same park tool for over 10 years and still works great. The new version is compatible with all the previous and the newer chains like the SRAM Flattop chains.
 
 - Buy This: SRAM CT 3.3 Chain Tool $41.95 [https://www.parktool.com/en-us/product/chain-tool-ct-3-3?category=Chain](https://www.parktool.com/en-us/product/chain-tool-ct-3-3?category=Chain)
-- Not This: Oumers Universal Bike Chain Tool $7.99 [https://www.amazon.com/Oumers-Universal-Mountain-Bicycle-Splitter/dp/B0179JC31I](https://www.amazon.com/Oumers-Universal-Mountain-Bicycle-Splitter/dp/B0179JC31I)
-- Not This: Shimano TL-CN35 $109.99 [https://www.amazon.com/SHIMANO-TL-Cn35-Chain-Tool-Speed/dp/B07LGH9H1D](https://www.amazon.com/SHIMANO-TL-Cn35-Chain-Tool-Speed/dp/B07LGH9H1D)
+- Not This: Oumers Universal Bike Chain Tool $7.99 [https://www.amazon.com/Oumers-Universal-Mountain-Bicycle-Splitter/dp/B0179JC31I?tag=mizubikes-web-20](https://www.amazon.com/Oumers-Universal-Mountain-Bicycle-Splitter/dp/B0179JC31I?tag=mizubikes-web-20)
+- Not This: Shimano TL-CN35 $109.99 [https://www.amazon.com/SHIMANO-TL-Cn35-Chain-Tool-Speed/dp/B07LGH9H1D?tag=mizubikes-web-20](https://www.amazon.com/SHIMANO-TL-Cn35-Chain-Tool-Speed/dp/B07LGH9H1D?tag=mizubikes-web-20)
 
 {{< figure src="/wp-content/uploads/2023/12/Screenshot-2023-12-08-at-11.27.10 PM-600x279.png" alt="" caption="" >}}
 
