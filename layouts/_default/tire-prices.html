@@ -58,7 +58,7 @@
           <div class="fp-best-size">{{ $best.t.size }} · pair ${{ lang.FormatNumber 2 (mul 2 $best.p.price) }}</div>
           <div class="fp-best-actions">
             {{- with $best.t.amazon }}<a class="fp-btn fp-btn-primary" href="{{ . }}" target="_blank" rel="sponsored nofollow noopener">Check price on Amazon</a>{{ end }}
-            {{- with $best.p.store_url }}<a class="fp-btn" href="{{ . }}" target="_blank" rel="nofollow noopener">{{ if in . "contenderbicycles" }}Contender Bicycles{{ else }}Worldwide Cyclery{{ end }}</a>{{ end }}
+            {{- with $best.p.store_url }}<a class="fp-btn" href="{{ . }}" target="_blank" rel="nofollow noopener">{{ if in . "eriksbikeshop" }}Erik's Bike Shop{{ else if in . "incycle" }}inCycle{{ else }}Worldwide Cyclery{{ end }}</a>{{ end }}
           </div>
         </div>
         {{- end }}
@@ -128,7 +128,7 @@
         <li>The tires here are the ones winning big gravel races in 2026 and topping the major tire tests, limited to tires with a US store price that can be checked every morning. Prices are per tire, not per pair.</li>
         <li><strong>90-day range</strong> is the lowest and highest price seen in the last 90 days. <strong>Deal</strong> means the tire is at least 10% under its typical price, or marked down 15% or more from list. <strong>90-day low</strong> needs two weeks of history before it shows.</li>
         <li>Amazon prices aren't listed because they change through the day — tap the Amazon button to see yours. Amazon links are affiliate links; buying through them supports the site at no extra cost to you.</li>
-        <li>Specialized tires are sold through Specialized dealers, so the Pathfinder Pro is priced from Contender Bicycles, a US Specialized dealer. The Tracer Pro doesn't have a reliable US store price to track yet, so it shows an Amazon button only. Shipping and tax aren't included.</li>
+        <li>Specialized tires are sold through Specialized dealers, so the Pathfinder Pro is priced from US Specialized dealers Erik's Bike Shop and inCycle. The Tracer Pro doesn't have a reliable US store price to track yet, so it shows an Amazon button only. Shipping and tax aren't included.</li>
         <li>Race and test notes come from <a href="https://www.schwalbetires.com/blog/news/events/unbound-2026/" target="_blank" rel="noopener">Schwalbe's Unbound 2026 results</a>, <a href="https://rouleur.it/blogs/desire-journal/pro-bike-cameron-joness-unbound-200-winning-scott-addict-gravel-rc" target="_blank" rel="noopener">Rouleur</a>, <a href="https://silca.cc/blogs/silca/unbound-gravel-2026-recap-and-gallery" target="_blank" rel="noopener">Silca</a>, Velo, <a href="https://www.bikeradar.com/us/road/gear/article/best-gravel-tires-51877/" target="_blank" rel="noopener">BikeRadar</a>, <a href="https://www.cyclingnews.com/features/best-gravel-tyres" target="_blank" rel="noopener">Cyclingnews</a>, and <a href="https://road.cc/blog/ranking-the-best-gravel-tyres-in-2026-how-wide-should-you-go-and-are-mountain-bike-tyres-actually-better-for-gravel" target="_blank" rel="noopener">road.cc</a>.</li>
       </ul>
     </section>

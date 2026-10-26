@@ -7,7 +7,8 @@
 # Tire picks are what's winning big gravel races in 2026 and topping
 # the major tire tests (Velo, BikeRadar, Cyclingnews, road.cc), limited
 # to tires with a US Shopify store price (Worldwide Cyclery, plus
-# Contender Bicycles for Specialized) so prices can be tracked daily.
+# Specialized dealers Erik's and inCycle for Specialized) so prices
+# can be tracked daily.
 #
 # Fields
 #   id        unique slug, used by the {{< tire-price "id" >}} shortcode
@@ -304,10 +305,8 @@ tires:
     note: "The Specialized team's race tire of choice"
     amazon: "https://www.amazon.com/s?k=Specialized+Pathfinder+Pro+700x47&tag=mizubikes-web-20"
     store:
-      base: "https://contenderbicycles.com"
-      handle: "specialized-pathfinder-pro-2bliss-ready-tire"
-      match: ["47"]
-      exclude: ["650"]
+      base: "https://www.eriksbikeshop.com"
+      handle: "specialized-pathfinder-pro-700x47-2bliss-ready-tire-pr5a20214"
 
   - id: specialized-tracer-pro-700x47
     brand: Specialized
@@ -374,7 +373,5 @@ tires:
     note: "Velo's best budget gravel tire, raced by Keegan Swenson"
     amazon: "https://www.amazon.com/s?k=Specialized+Pathfinder+Pro+700x42&tag=mizubikes-web-20"
     store:
-      base: "https://contenderbicycles.com"
-      handle: "specialized-pathfinder-pro-2bliss-ready-tire"
-      match: ["42"]
-      exclude: ["650"]
+      base: "https://www.incycle.com"
+      handle: "specialized-pathfinder-pro-2br-tire-tan-sidewalls-700-x-42"

@@ -5,6 +5,12 @@ on:
     # Daily at 13:23 UTC (6:23am PDT / 5:23am PST)
     - cron: "23 13 * * *"
   workflow_dispatch:
+  # Re-run whenever the watchlist or script changes, so new tires get prices right away
+  push:
+    branches: [main]
+    paths:
+      - data/tires.yaml
+      - scripts/tire_prices.py
 
 permissions:
   contents: write
