@@ -14,6 +14,8 @@
   --fp-series-3: #1baf7a;
   --fp-series-4: #eda100;
   --fp-series-5: #e87ba4;
+  --fp-series-6: #008300;
+  --fp-series-7: #6250d6;
 }
 
 .fp-updated {
@@ -150,6 +152,8 @@
 .fp-s3 { background: var(--fp-series-3); }
 .fp-s4 { background: var(--fp-series-4); }
 .fp-s5 { background: var(--fp-series-5); }
+.fp-s6 { background: var(--fp-series-6); }
+.fp-s7 { background: var(--fp-series-7); }
 
 /* badges: label in text ink, status carried by icon + tint (never color alone) */
 .fp-badge {

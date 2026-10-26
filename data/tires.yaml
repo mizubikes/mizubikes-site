@@ -6,7 +6,8 @@
 #
 # Tire picks are what's winning big gravel races in 2026 and topping
 # the major tire tests (Velo, BikeRadar, Cyclingnews, road.cc), limited
-# to tires Worldwide Cyclery sells so prices can be tracked daily.
+# to tires with a US Shopify store price (Worldwide Cyclery, plus
+# Contender Bicycles for Specialized) so prices can be tracked daily.
 #
 # Fields
 #   id        unique slug, used by the {{< tire-price "id" >}} shortcode
@@ -45,13 +46,13 @@ categories:
     home: true
     blurb: "Where pro gravel racing has largely settled. A fast, grippy middle ground if your frame has the clearance."
   - key: "45mm"
-    title: "45mm"
-    size_note: "700 × 45"
+    title: "45–47mm"
+    size_note: "700 × 45–47"
     home: true
     blurb: "The all-rounder size most gravel bikes ship with. Still raced at the top level: the women's Unbound XL 2026 win was on 45s."
   - key: "40mm"
-    title: "40mm"
-    size_note: "700 × 40"
+    title: "40–42mm"
+    size_note: "700 × 40–42"
     home: false
     blurb: "Faster on pavement and the max for many older gravel frames. Best for mixed rides with more road than dirt."
 
@@ -234,7 +235,7 @@ tires:
       base: "https://worldwidecyclery.com"
       handle: "pirelli-cinturato-gravel-rh-tire-700-x-50-tubeless-folding-black-speedgrip-techwall-gravel-performance"
 
-  # ---------- 45mm ----------
+  # ---------- 45–47mm ----------
   - id: schwalbe-g-one-rs-700x45
     brand: Schwalbe
     name: "G-One RS Pro"
@@ -294,7 +295,30 @@ tires:
       base: "https://worldwidecyclery.com"
       handle: "maxxis-rambler-tire-700-x-45mm-folding-60tpi-casing-dual-compound-silk-shield-protection-tubeless-ready-black"
 
-  # ---------- 40mm ----------
+  - id: specialized-pathfinder-pro-700x47
+    brand: Specialized
+    name: "Pathfinder Pro"
+    size: "700 × 47 · 2Bliss Ready"
+    category: "45mm"
+    slot: 6
+    note: "The Specialized team's race tire of choice"
+    amazon: "https://www.amazon.com/s?k=Specialized+Pathfinder+Pro+700x47&tag=mizubikes-web-20"
+    store:
+      base: "https://contenderbicycles.com"
+      handle: "specialized-pathfinder-pro-2bliss-ready-tire"
+      match: ["47"]
+      exclude: ["650"]
+
+  - id: specialized-tracer-pro-700x47
+    brand: Specialized
+    name: "Tracer Pro"
+    size: "700 × 47 · 2Bliss Ready"
+    category: "45mm"
+    slot: 7
+    note: "The Pathfinder's knobbier sibling, for loose and wet gravel"
+    amazon: "https://www.amazon.com/s?k=Specialized+Tracer+Pro+700x47&tag=mizubikes-web-20"
+
+  # ---------- 40–42mm ----------
   - id: schwalbe-g-one-rs-700x40
     brand: Schwalbe
     name: "G-One RS Pro"
@@ -340,3 +364,17 @@ tires:
     store:
       base: "https://worldwidecyclery.com"
       handle: "pirelli-cinturato-gravel-rcx-tlr-tire-700-x-40-tubeless-folding-black"
+
+  - id: specialized-pathfinder-pro-700x42
+    brand: Specialized
+    name: "Pathfinder Pro"
+    size: "700 × 42 · 2Bliss Ready"
+    category: "40mm"
+    slot: 5
+    note: "Velo's best budget gravel tire, raced by Keegan Swenson"
+    amazon: "https://www.amazon.com/s?k=Specialized+Pathfinder+Pro+700x42&tag=mizubikes-web-20"
+    store:
+      base: "https://contenderbicycles.com"
+      handle: "specialized-pathfinder-pro-2bliss-ready-tire"
+      match: ["42"]
+      exclude: ["650"]
