@@ -1,6 +1,5 @@
 # One topic per line. The auto-drafter uses the top line, then deletes it.
 # When this list is empty, Claude picks a topic from recent cycling news.
-2026 gravel bike tire clearance chart: max tire size for the newest gravel frames (Canyon Grail, Specialized Crux, Cannondale Topstone, Trek Checkpoint, Giant Revolt, Cervelo Aspero, BMC URS, 3T Exploro and others), with a comparison table of max 700c and 650b tire width per frame
 How to set tubeless tire pressure for gravel by rider weight and tire width
 SRAM 13-speed vs Shimano GRX 12-speed for gravel: which drivetrain to buy in 2026
 Best gravel bikes under $2,000 in 2026
