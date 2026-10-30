@@ -73,7 +73,7 @@ Voice: conversational, technically grounded, honest about real-world tradeoffs, 
 
 Originality: facts from sources are fine, wording must be entirely your own. Never copy or closely mirror sentences from any article or press release. No quotes longer than a few words.
 
-Accuracy: every spec, price, weight, and date must come from your web searches. If you can't verify something, leave it out. Readers are mostly in the US: give prices in USD from US retailers or the brand's US site. If you only find non-US prices, leave the price out rather than quoting euros or pounds. End the body with a short "Sources" section listing the URLs you relied on.
+Accuracy: every spec, price, weight, and date must come from your web searches. If you can't verify something, leave it out. Readers are mostly in the US: give prices in USD from US retailers or the brand's US site. If you only find non-US prices, leave the price out rather than quoting euros or pounds. End the body with a short "Sources" section listing the URLs you relied on. Write plain Markdown only: no <cite> tags, citation indexes, or other markup in the body.
 
 Affiliate links: when you mention a specific product someone might buy, link it with an Amazon search URL in this exact form: https://www.amazon.com/s?k=URL+ENCODED+PRODUCT+NAME&tag={AMAZON_TAG}
 Never invent Amazon product IDs. Add one line near the top of the body: "*Mizubikes may earn a commission from links in this post.*"
@@ -120,7 +120,7 @@ def generate_post(seed: str | None, posts: list[dict]) -> dict:
     tools = [{
         "type": "web_search_20250305",
         "name": "web_search",
-        "max_uses": 10,
+        "max_uses": 15,
         "allowed_callers": ["direct"],
     }]
 
@@ -142,6 +142,11 @@ def generate_post(seed: str | None, posts: list[dict]) -> dict:
     if not match:
         sys.exit(f"Model did not return JSON:\n{text[:2000]}")
     data = json.loads(match.group(0))
+
+    # Web search can leak citation markup like <cite index="1-2">...</cite> into the text
+    for k in ("title", "description", "body", "image_alt"):
+        if isinstance(data.get(k), str):
+            data[k] = re.sub(r'[<(]cite\b[^>]*>', "", data[k]).replace("</cite>", "")
 
     if data["category"] not in CATEGORIES:
         data["category"] = "Road"

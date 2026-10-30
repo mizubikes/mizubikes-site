@@ -25,52 +25,52 @@ A warning before the table: these numbers are not measured the same way. Some br
 
 | Frame | Max 700c | Max 650b | Notes |
 | --- | --- | --- | --- |
-| Canyon Grail (3rd gen, 2027) | <cite index="1-6">57mm front and rear</cite> | Not stated | <cite index="1-10">Single-chainring only</cite> |
-| Specialized Crux 5 | <cite index="14-4">55mm (up from 47mm)</cite> | Not stated | <cite index="14-5">1x only, 52t chainring clearance</cite> |
-| Cannondale Topstone Carbon (rigid fork) | <cite index="26-10">52mm rear, 56mm front</cite> | Not stated | <cite index="26-12">Rated with 4mm of space, not 6mm</cite> |
-| Cannondale Topstone Carbon (Lefty Oliver) | <cite index="26-14">47mm, height-limited by the fork</cite> | Not stated | Quoted with 6mm of space |
-| Cannondale Topstone Alloy | <cite index="23-6">45mm, or 40mm with mudguards</cite> | <cite index="23-7">No figure given</cite> | 700c wheels on all sizes |
-| Trek Checkpoint SL (3rd gen) | <cite index="32-6">50mm</cite> | Not stated for this generation | <cite index="32-1">UDH hanger on all SL bikes</cite> |
-| Giant Revolt Advanced | <cite index="41-3">53mm with the flip chip in the long position</cite> | Not stated | <cite index="42-9">45mm in the short position</cite> |
-| Cervélo Áspero-5 | <cite index="54-6">45mm</cite> | Not stated | <cite index="49-11">52T chainring support</cite> |
-| BMC URS (2nd gen) | <cite index="58-5">47mm</cite> | <cite index="58-5">50mm</cite> | <cite index="62-6">50mm 700c fits "only just" and isn't recommended</cite> |
-| 3T Exploro RaceMax | <cite index="67-4">42mm</cite> | <cite index="67-4">61mm</cite> | <cite index="66-6">3T points you to its own WAM/RAM charts</cite> |
-| Ridley Kanzo Fast 2.0 | <cite index="78-7">58mm</cite> | Not stated | <cite index="79-8">Full mudguards with tires up to 50mm</cite> |
-| Santa Cruz Stigmata (2024) | <cite index="88-2">50mm</cite> | <cite index="88-2">No longer listed</cite> | Previous generation was 45mm |
+| Canyon Grail (3rd gen, 2027) | 57mm front and rear | Not stated | Single-chainring only |
+| Specialized Crux 5 | 55mm (up from 47mm) | Not stated | 1x only, 52t chainring clearance |
+| Cannondale Topstone Carbon (rigid fork) | 52mm rear, 56mm front | Not stated | Rated with 4mm of space, not 6mm |
+| Cannondale Topstone Carbon (Lefty Oliver) | 47mm, height-limited by the fork | Not stated | Quoted with 6mm of space |
+| Cannondale Topstone Alloy | 45mm, or 40mm with mudguards | No figure given | 700c wheels on all sizes |
+| Trek Checkpoint SL (3rd gen) | 50mm | Not stated for this generation | UDH hanger on all SL bikes |
+| Giant Revolt Advanced | 53mm with the flip chip in the long position | Not stated | 45mm in the short position |
+| Cervélo Áspero-5 | 45mm | Not stated | 52T chainring support |
+| BMC URS (2nd gen) | 47mm | 50mm | 50mm 700c fits "only just" and isn't recommended |
+| 3T Exploro RaceMax | 42mm | 61mm | 3T points you to its own WAM/RAM charts |
+| Ridley Kanzo Fast 2.0 | 58mm | Not stated | Full mudguards with tires up to 50mm |
+| Santa Cruz Stigmata (2024) | 50mm | No longer listed | Previous generation was 45mm |
 
 ## The new big-tire class
 
-The Canyon Grail is the clearest example of the shift. The previous Grail was officially limited to <cite index="1-4">42mm</cite>. The new one, <cite index="5-4">launched in September 2026</cite>, takes 57mm. The tradeoff is the drivetrain: <cite index="1-13">Canyon says keeping front derailleur compatibility would have capped rear clearance at 50mm</cite>, so it went 1x only. If you want a 2x gravel bike, that choice matters. I covered the launch in more detail in [Canyon's New Grail Is Here, and It Finally Fits Real Tires](/posts/canyon-grail-2027-launch/).
+The Canyon Grail is the clearest example of the shift. The previous Grail was officially limited to 42mm. The new one, launched in September 2026, takes 57mm. The tradeoff is the drivetrain: Canyon says keeping front derailleur compatibility would have capped rear clearance at 50mm, so it went 1x only. If you want a 2x gravel bike, that choice matters. I covered the launch in more detail in [Canyon's New Grail Is Here, and It Finally Fits Real Tires](/posts/canyon-grail-2027-launch/).
 
-Specialized made a similar move with the Crux 5. <cite index="14-6">Specialized no longer makes a cyclocross bike</cite>, and the Crux is now a gravel racer with 55mm clearance. It's also <cite index="14-8">1x-compatible only</cite>, which is the same pattern as the Grail. More on that in my [Crux 5 breakdown](/posts/specialized-crux-5-2026/).
+Specialized made a similar move with the Crux 5. Specialized no longer makes a cyclocross bike, and the Crux is now a gravel racer with 55mm clearance. It's also 1x-compatible only, which is the same pattern as the Grail. More on that in my [Crux 5 breakdown](/posts/specialized-crux-5-2026/).
 
-Ridley's Kanzo Fast 2.0 goes slightly past both. <cite index="78-7">It clears 58mm, or a 29x2.3" mountain bike tire</cite>, and <cite index="78-12">that edges out the Allied Able and Lauf Seigla by a single millimetre</cite>. Whether that extra millimetre means much is debatable, but the real point is that a 55mm tire now fits an aero race frame.
+Ridley's Kanzo Fast 2.0 goes slightly past both. It clears 58mm, or a 29x2.3" mountain bike tire, and that edges out the Allied Able and Lauf Seigla by a single millimetre. Whether that extra millimetre means much is debatable, but the real point is that a 55mm tire now fits an aero race frame.
 
 ## The "modest" group
 
-The Cervélo Áspero-5 sits at the other end. It was designed around a <cite index="52-8">42c tire</cite>, and its 45mm limit comes from an aero seat tube that wraps the rear tire. Reviewers agree on the tradeoff. One called the clearance <cite index="53-2">modest at best</cite> given what pro gravel racers are running, and another noted that if you <cite index="54-12">ride events that require 50c tires, the bike isn't for you</cite>. It's a great fit for fast, dry gravel. I wouldn't buy it for a muddy or rocky race.
+The Cervélo Áspero-5 sits at the other end. It was designed around a 42c tire, and its 45mm limit comes from an aero seat tube that wraps the rear tire. Reviewers agree on the tradeoff. One called the clearance modest at best given what pro gravel racers are running, and another noted that if you ride events that require 50c tires, the bike isn't for you. It's a great fit for fast, dry gravel. I wouldn't buy it for a muddy or rocky race.
 
-One note on the Áspero. A retailer listing I found quotes <cite index="46-2">700c x 43mm and 650b x 51mm</cite>, which doesn't match what the reviews report. I'm going with 45mm, and I'd ask Cervélo directly before buying any frame for a 650b conversion.
+One note on the Áspero. A retailer listing I found quotes 700c x 43mm and 650b x 51mm, which doesn't match what the reviews report. I'm going with 45mm, and I'd ask Cervélo directly before buying any frame for a 650b conversion.
 
-The 3T Exploro RaceMax is an odd one in the opposite way. Its <cite index="67-4">700c limit is only 42mm, but the claim for 650b is 61mm</cite>. So it behaves more like a 650b-first frame. Velo's reviewer called the clearance <cite index="67-4">oddly limiting</cite> for riders who want to stay on 700c.
+The 3T Exploro RaceMax is an odd one in the opposite way. Its 700c limit is only 42mm, but the claim for 650b is 61mm. So it behaves more like a 650b-first frame. Velo's reviewer called the clearance oddly limiting for riders who want to stay on 700c.
 
 ## How the numbers get measured
 
-Cannondale's Topstone Carbon is a good example of the problem. The rigid-fork bikes are rated at 52mm rear and 56mm front, but <cite index="26-12,26-13">Cannondale used the road-bike 4mm margin rather than the 6mm most brands use, so the apples-to-apples figure is closer to 48mm rear and 52mm front</cite>. That's still a big jump from the previous generation, just not as big as the headline suggests.
+Cannondale's Topstone Carbon is a good example of the problem. The rigid-fork bikes are rated at 52mm rear and 56mm front, but Cannondale used the road-bike 4mm margin rather than the 6mm most brands use, so the apples-to-apples figure is closer to 48mm rear and 52mm front. That's still a big jump from the previous generation, just not as big as the headline suggests.
 
-Canyon's claim is also on an ISO basis, with <cite index="1-6">more than 4mm of margin</cite>. Cervélo says a 45mm tire leaves <cite index="54-7">6mm of space</cite>. Same word, different rules.
+Canyon's claim is also on an ISO basis, with more than 4mm of margin. Cervélo says a 45mm tire leaves 6mm of space. Same word, different rules.
 
-Tire width on the sidewall is the other variable. A tire on a wider rim measures wider than its label. One forum rider notes a 2.2" Race King <cite index="44-10">measures about 56mm on a 25mm internal rim</cite>, which is why a "53mm" frame can feel tight with it. 3T's WAM and RAM system exists for this reason. Its measurements cover width and also radius, because <cite index="66-14">a nominal 40mm tire can still cause trouble through its radius</cite>.
+Tire width on the sidewall is the other variable. A tire on a wider rim measures wider than its label. One forum rider notes a 2.2" Race King measures about 56mm on a 25mm internal rim, which is why a "53mm" frame can feel tight with it. 3T's WAM and RAM system exists for this reason. Its measurements cover width and also radius, because a nominal 40mm tire can still cause trouble through its radius.
 
-Mud makes it worse. The Giant's flip chip is a useful reminder that clearance isn't one number: <cite index="42-8,42-9">the long dropout setting gets you 53mm, the short one drops to 45mm</cite>. And <cite index="42-10">Giant didn't publish official figures with fenders fitted</cite>, so assume you lose some room if you add mudguards.
+Mud makes it worse. The Giant's flip chip is a useful reminder that clearance isn't one number: the long dropout setting gets you 53mm, the short one drops to 45mm. And Giant didn't publish official figures with fenders fitted, so assume you lose some room if you add mudguards.
 
 If you're checking whether a tire will fit, a set of [digital calipers](https://www.amazon.com/s?k=digital+calipers&tag=mizubikes-web-20) is worth the few dollars. Mount the tire on your actual rim, inflate it to riding pressure, and measure the widest point of the tread. Then compare that to the frame's tightest spot. Usually that's the seat tube cutout or the fork crown.
 
 ## 650b isn't the escape hatch it used to be
 
-Five years ago, 650b was how you got big tires onto a 700c-sized frame. That story is fading. Santa Cruz is a good example: the 2024 Stigmata <cite index="88-2">moved to 50mm 700c and stopped mentioning 650b entirely</cite>. Trek's third-generation Checkpoint SL coverage only lists 700c, while the <cite index="33-11">earlier generation was quoted at 650b x 2.1"</cite>.
+Five years ago, 650b was how you got big tires onto a 700c-sized frame. That story is fading. Santa Cruz is a good example: the 2024 Stigmata moved to 50mm 700c and stopped mentioning 650b entirely. Trek's third-generation Checkpoint SL coverage only lists 700c, while the earlier generation was quoted at 650b x 2.1".
 
-BMC and 3T are the clear exceptions in this table. BMC says <cite index="62-7">50mm is genuinely available on 650b as an aftermarket option</cite>, but one tester found the smaller wheel brought <cite index="57-8">handling changes, with the front end wandering on technical climbs</cite>. That was on the previous-generation URS. It's a reminder that a smaller wheel changes bottom bracket height and steering, not just tire volume.
+BMC and 3T are the clear exceptions in this table. BMC says 50mm is genuinely available on 650b as an aftermarket option, but one tester found the smaller wheel brought handling changes, with the front end wandering on technical climbs. That was on the previous-generation URS. It's a reminder that a smaller wheel changes bottom bracket height and steering, not just tire volume.
 
 ## What I'd actually buy
 
@@ -78,7 +78,7 @@ If you race or ride rough terrain and want to run 50mm or wider without worrying
 
 If you mostly ride fast, hard-packed gravel and some road, the Áspero-5's 45mm is enough, especially as it ships with 42mm tires. Just be honest about where you ride. A bike that's tight with 45mm knobbies in the mud is a real limitation, not a spec-sheet quibble.
 
-The Giant Revolt Advanced and BMC URS sit in the middle. The Revolt gives you 53mm if you accept the longer wheelbase setting. The URS gives you a suspension-flavored ride and an official 47mm, with 650b if you want to experiment. For help with the tires themselves, see my picks in [Gravel Bike Tire Clearance: What the Specs Don't Tell You](/posts/gravel-bike-tire-clearance/) and compare options like the [Schwalbe G-One Allround](https://www.amazon.com/s?k=Schwalbe+G-One+Allround&tag=mizubikes-web-20), which <cite index="5-5">Canyon fits as standard on the new Grail in 45mm</cite>, or the [Maxxis Rambler](https://www.amazon.com/s?k=Maxxis+Rambler+gravel+tire&tag=mizubikes-web-20), which <cite index="88-3">Santa Cruz specs on its complete Stigmata builds in 45c</cite>.
+The Giant Revolt Advanced and BMC URS sit in the middle. The Revolt gives you 53mm if you accept the longer wheelbase setting. The URS gives you a suspension-flavored ride and an official 47mm, with 650b if you want to experiment. For help with the tires themselves, see my picks in [Gravel Bike Tire Clearance: What the Specs Don't Tell You](/posts/gravel-bike-tire-clearance/) and compare options like the [Schwalbe G-One Allround](https://www.amazon.com/s?k=Schwalbe+G-One+Allround&tag=mizubikes-web-20), which Canyon fits as standard on the new Grail in 45mm, or the [Maxxis Rambler](https://www.amazon.com/s?k=Maxxis+Rambler+gravel+tire&tag=mizubikes-web-20), which Santa Cruz specs on its complete Stigmata builds in 45c.
 
 I'll update this chart as brands publish more official numbers, especially 650b figures for the newest frames.
 
