@@ -1,29 +1,18 @@
 ---
-_edit_last: "2"
-_thumbnail_id: "3530"
-author: mizubikes
+title: How to Plan a Mountain Bike Frame Swap (Stumpjumper EVO to Stumpjumper 15 Alloy)
+date: '2025-04-21T15:28:00+00:00'
+description: Upgrading from a Stumpjumper EVO Alloy to a Stumpjumper 15 Alloy? Learn how to plan a mountain bike frame swap, what parts transfer, and what to replace—especially for mullet builds.
+url: /how-to-plan-a-mountain-bike-frame-swap/
 categories:
-  - bike-build
-  - bike-repair
-  - mountain
+- Bike Builds
+- Bike Repair
+- Mountain
 cover:
   alt: IMG_0855
   image: /wp-content/uploads/2025/04/IMG_0855.jpg
-date: "2025-04-21T15:28:00+00:00"
-guid: https://mizubikes.com/?p=3526
-parent_post_id: null
-post_id: "3526"
-rank_math_analytic_object_id: "36"
-rank_math_description: Upgrading from a Stumpjumper EVO Alloy to a Stumpjumper 15 Alloy? Learn how to plan a mountain bike frame swap, what parts transfer, and what to replace—especially for mullet builds.
-rank_math_focus_keyword: how to plan a mountain bike frame swap
-rank_math_internal_links_processed: "1"
-rank_math_primary_category: "20"
-rank_math_seo_score: "78"
-rank_math_title: How to Plan a Mountain Bike Frame Swap (Stumpjumper EVO to 15 Alloy)
-title: How to Plan a Mountain Bike Frame Swap (Stumpjumper EVO to Stumpjumper 15 Alloy)
-url: /how-to-plan-a-mountain-bike-frame-swap/
-
+  relative: false
 ---
+
 {{< figure src="/wp-content/uploads/2025/04/IMG%5F1613-1.jpg" alt="2025 Specialized Stumpjumper 15 Alloy frame in raw aluminum finish, ready for component swap in workshop setting" caption="2025 Specialized Stumpjumper 15 Alloy frame in raw aluminum finish, ready for component swap in workshop setting" >}}
 
 **Wondering how to plan a mountain bike frame swap without replacing all your components?** I’m preparing to swap my Specialized Stumpjumper EVO Alloy over to the 2025 Stumpjumper 15 Alloy—and I’m sharing exactly what will carry over, what needs replacing, and what to look out for, especially if you're running a mullet setup.

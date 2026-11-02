@@ -1,13 +1,21 @@
 ---
-title: "Best Hardtail and Drop Bar Full Suspension Bikes for Gravel in 2026"
+title: Best Hardtail and Drop Bar Full Suspension Bikes for Gravel in 2026
 date: 2026-04-19
-description: "From classic hardtail conversions to purpose-built drop bar full suspension bikes, here's what to ride if you want to go beyond what a traditional gravel bike can handle."
-slug: "best-hardtail-drop-bar-gravel-bikes-2026"
-categories: ["gravel", "mountain"]
-tags: ["gravel", "hardtail", "drop bar MTB", "bike build", "leadville"]
+description: From classic hardtail conversions to purpose-built drop bar full suspension bikes, here's what to ride if you want to go beyond what a traditional gravel bike can handle.
+slug: best-hardtail-drop-bar-gravel-bikes-2026
+categories:
+- Gravel
+- Mountain
+tags:
+- gravel
+- hardtail
+- drop bar MTB
+- bike build
+- leadville
 cover:
-  image: "/images/scalpel-ht-drop-bar.jpg"
-  alt: "Cannondale Scalpel HT with drop bars on Southern California trail"
+  image: /images/scalpel-ht-drop-bar.jpg
+  alt: Cannondale Scalpel HT with drop bars on Southern California trail
+  relative: false
 ---
 
 The line between a gravel bike and a mountain bike has been blurring for years. But 2025 was the year it basically disappeared.

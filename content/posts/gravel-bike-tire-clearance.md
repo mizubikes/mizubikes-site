@@ -1,13 +1,19 @@
 ---
-title: "Gravel Bike Tire Clearance: What the Specs Don't Tell You"
+title: 'Gravel Bike Tire Clearance: What the Specs Don''t Tell You'
 date: 2026-04-11
-description: "Manufacturer tire clearance specs are conservative by design. Here's what real-world clearance actually looks like on the Specialized Crux — and how it compares to the competition."
-tags: ["gravel bikes", "specialized crux", "tire clearance", "gravel tires", "bike setup"]
-categories: ["Gravel"]
+description: Manufacturer tire clearance specs are conservative by design. Here's what real-world clearance actually looks like on the Specialized Crux — and how it compares to the competition.
+categories:
+- Gravel
+tags:
+- gravel bikes
+- specialized crux
+- tire clearance
+- gravel tires
+- bike setup
 cover:
-  image: images/specialized-crux-tire-clearance-test.webp
-  alt: "Specialized Crux gravel bike with 50c Tracer TLR rear and 2.1 Thunder Burt front tires mounted, showing real-world tire clearance test"
-  relative: true
+  image: /images/specialized-crux-tire-clearance-test.webp
+  alt: Specialized Crux gravel bike with 50c Tracer TLR rear and 2.1 Thunder Burt front tires mounted, showing real-world tire clearance test
+  relative: false
 ---
 
 If you're shopping for your first gravel bike and trying to make sense of tire clearance specs, here's the first thing to understand: the number on the spec sheet isn't the full story.

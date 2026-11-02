@@ -1,21 +1,16 @@
 ---
-_thumbnail_id: "3387"
-author: mizubikes
-categories:
-  - buying-and-selling
+title: 'Make Money Selling Old Bike Parts on eBay: Fees &amp; Tips Explained'
+date: '2025-02-10T06:46:56+00:00'
+url: /make-extra-money-selling-bike-parts-on-ebay-fees-tips-explained/
+categories: []
+tags:
+- Buying Guide
 cover:
   alt: Screenshot 2025-02-09 230247
   image: /wp-content/uploads/2025/02/Screenshot-2025-02-09-230247-e1739171017373.png
-date: "2025-02-10T06:46:56+00:00"
-guid: https://mizubikes.com/?p=3380
-parent_post_id: null
-post_id: "3380"
-rank_math_analytic_object_id: "10"
-rank_math_internal_links_processed: "1"
-title: 'Make Money Selling Old Bike Parts on eBay: Fees &amp; Tips Explained'
-url: /make-extra-money-selling-bike-parts-on-ebay-fees-tips-explained/
-
+  relative: false
 ---
+
 {{< figure src="/wp-content/uploads/2025/02/Screenshot-2025-02-09-224540.png" alt="" caption="" >}}
 
 Got old bike parts collecting dust? Selling them on eBay can be a great way to make extra cash, hopefully to buy more bike parts. Here’s a breakdown of what you’ll pay and how to maximize your profits.

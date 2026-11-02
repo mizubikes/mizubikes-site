@@ -1,14 +1,22 @@
 ---
-title: "ENVE G SES vs. Zipp 303 XPLR: Aero Gravel Wheels Compared"
+title: 'ENVE G SES vs. Zipp 303 XPLR: Aero Gravel Wheels Compared'
 date: 2026-05-14
-description: "ENVE G SES 4.5, 4.5 Pro, and 6.7 Pro vs. Zipp 303 XPLR S and SW — specs, pricing, internal width, and who each wheel is actually for."
+lastmod: 2026-11-01
+description: ENVE G SES 4.5, 4.5 Pro, and 6.7 Pro vs. Zipp 303 XPLR S and SW — specs, pricing, internal width, and who each wheel is actually for.
 slug: enve-g-ses-vs-zipp-303-xplr-gravel-wheels
-categories: ["Gravel"]
-tags: ["ENVE", "Zipp", "wheels", "gravel racing", "aerodynamics", "gear"]
+categories:
+- Gravel
+tags:
+- ENVE
+- Zipp
+- wheels
+- gravel racing
+- aerodynamics
+- gear
 cover:
-  image: "/images/enve-vs-zipp-gravel-wheels.webp"
-  alt: "ENVE G SES 6.7 Pro vs Zipp 303 XPLR SW gravel wheels"
-  caption: "Photo: ENVE Composites / Zipp"
+  image: /images/enve-vs-zipp-gravel-wheels.webp
+  alt: ENVE G SES 6.7 Pro vs Zipp 303 XPLR SW gravel wheels
+  caption: 'Photo: ENVE Composites / Zipp'
   relative: false
 draft: false
 ---
@@ -16,6 +24,10 @@ draft: false
 When Zipp launched the 303 XPLR SW in 2024 with a 32mm internal width, it felt like a line in the sand. Nobody had pushed a production gravel wheel that wide before, and the message was clear: the era of putting 45mm tires on 25mm rims was over. Now ENVE has responded with the G SES lineup — and specifically the 6.7 Pro at 35mm internal — and the aero gravel wheel market looks meaningfully different than it did twelve months ago.
 
 This is a straight comparison of where both brands stand right now: specs, pricing, philosophy, and who each wheel is actually for.
+
+**Quick answer:** For the best value, get the [Zipp 303 XPLR S](https://www.amazon.com/s?k=Zipp+303+XPLR+S+wheelset&tag=mizubikes-web-20) at $1,400. It uses the same 32mm-wide rim as the SW. The ENVE G SES 4.5 Pro is the best all-around race wheel if you want freedom in tire choice and can spend $3,100. The 6.7 Pro only makes sense if your frame clears 47mm+ tires and you race fast, open courses.
+
+*Mizubikes may earn a commission from links in this post.*
 
 ## The lineups
 
@@ -51,7 +63,7 @@ The 6.7 Pro's 60/67mm depths are also deep enough to be technically illegal for 
 
 ## Tire compatibility
 
-This is where the two brands diverge most sharply. Both Zipp XPLR models require approved tires. The list is built around the Goodyear XPLR Slick and XPLR Inter, with a small number of additional approved options. If your preferred tire isn't on the list, you're outside warranty — and outside Zipp's recommendations. The Goodyear XPLR tires are genuinely good, but being locked into a short approved list is a real constraint, especially as more brands release wide gravel tires.
+This is where the two brands diverge most sharply. Both Zipp XPLR models require approved tires. The list is built around the [Goodyear XPLR Slick and XPLR Inter](https://www.amazon.com/s?k=Goodyear+XPLR+Inter+gravel+tire&tag=mizubikes-web-20), with a small number of additional approved options. If your preferred tire isn't on the list, you're outside warranty — and outside Zipp's recommendations. The Goodyear XPLR tires are genuinely good, but being locked into a short approved list is a real constraint, especially as more brands release wide gravel tires.
 
 ENVE publishes recommendations rather than a strict approved list. They've done their own blow-off testing across a range of tires including competitors', and they're transparent about the methodology. More flexibility, more responsibility on the rider to choose sensibly.
 
@@ -76,3 +88,9 @@ The ENVE 4.5 Pro at $3,100 asks you to pay a premium for ceramic hubs, asymmetri
 **ENVE G SES 4.5 Pro** — The most versatile option in the ENVE lineup. Ceramic hubs, 1,480g claimed (lightest here), works with tires from 40mm up, asymmetric depths. At the same $3,100 as the 6.7 Pro but 100g lighter and more broadly compatible, it's the easier daily recommendation. Best for: competitive gravel riders who want the best all-around race wheel.
 
 **ENVE G SES 6.7 Pro** — A specialist tool. If you have a frame that clears 47mm+ tires, race fast exposed courses, and want the most aerodynamically optimized gravel wheel in production, this is it. Best for: dedicated gravel racers on fast courses with bikes that have the clearance to run it properly.
+
+## Before you buy
+
+Wider rims make every tire measure wider, so check your frame first. The [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/) lists the max tire size for the current frames, and [Gravel Bike Tire Clearance: What the Specs Don't Tell You](/posts/gravel-bike-tire-clearance/) explains why the number on the sidewall isn't the number you'll measure. For the full ENVE lineup on its own, see [ENVE G SES Gravel Wheels: The 4.5 Pro and 6.7 Pro Go Wider Than Ever](/posts/enve-g-ses-gravel-wheels-2026/). If you're not locked into Goodyear, my picks for [gravel tires for mixed pavement and dirt](/posts/best-gravel-tires-mixed-pavement-dirt-2026/) are a good place to start.
+
+*Prices are US launch pricing. Both brands' wheels are often discounted at retailers, so check current prices before you buy.*

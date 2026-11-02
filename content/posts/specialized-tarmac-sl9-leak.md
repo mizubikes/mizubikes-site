@@ -1,14 +1,20 @@
 ---
-title: "Specialized Tarmac SL9: What the Leaks Actually Show"
+title: 'Specialized Tarmac SL9: What the Leaks Actually Show'
 date: 2026-06-06
-description: "Leaked images and video of the Specialized Tarmac SL9 have been spreading since May. Here's what the spy shots actually tell us — and what they don't."
+description: Leaked images and video of the Specialized Tarmac SL9 have been spreading since May. Here's what the spy shots actually tell us — and what they don't.
 slug: specialized-tarmac-sl9-leak
-categories: ["Road"]
-tags: ["Specialized", "Tarmac", "Road Bikes", "Bike Tech", "New Bikes"]
+categories:
+- Road
+tags:
+- Specialized
+- Tarmac
+- Road Bikes
+- Bike Tech
+- New Bikes
 cover:
-  image: "/images/specialized-tarmac-sl9-leak.webp"
-  alt: "Alleged leaked image of the Specialized Tarmac SL9 road bike"
-  caption: "Photo: @czice_ via Instagram"
+  image: /images/specialized-tarmac-sl9-leak.webp
+  alt: Alleged leaked image of the Specialized Tarmac SL9 road bike
+  caption: 'Photo: @czice_ via Instagram'
   relative: false
 draft: false
 ---

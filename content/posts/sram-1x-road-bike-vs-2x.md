@@ -1,14 +1,20 @@
 ---
-title: "SRAM 1x on a Road Bike: Is It Finally Worth It?"
+title: 'SRAM 1x on a Road Bike: Is It Finally Worth It?'
 date: 2026-07-14
-description: "1x road drivetrains are showing up more in the pro peloton. Here's what those setups actually look like, what SRAM Force XPLR changes, and whether your bike can even run it."
+description: 1x road drivetrains are showing up more in the pro peloton. Here's what those setups actually look like, what SRAM Force XPLR changes, and whether your bike can even run it.
 slug: sram-1x-road-bike-vs-2x
-categories: ["Road"]
-tags: ["SRAM", "Force E1", "XPLR", "Drivetrain", "Groupset"]
+categories:
+- Road
+tags:
+- SRAM
+- Force E1
+- XPLR
+- Drivetrain
+- Groupset
 cover:
-  image: "/images/sram-force-1x-crankset.webp"
-  alt: "SRAM Force 1x crankset"
-  caption: "Photo: SRAM"
+  image: /images/sram-force-1x-crankset.webp
+  alt: SRAM Force 1x crankset
+  caption: 'Photo: SRAM'
   relative: false
 draft: false
 ---

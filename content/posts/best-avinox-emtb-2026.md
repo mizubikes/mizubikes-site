@@ -1,14 +1,21 @@
 ---
-title: "Best Avinox eMTBs in 2026: M2 and M2S Bikes for Every Budget"
+title: 'Best Avinox eMTBs in 2026: M2 and M2S Bikes for Every Budget'
 date: 2026-04-15
-description: "The Avinox M2 and M2S motors have taken over the eMTB world. Here's a breakdown of the best bikes you can buy right now, from $5,000 to $13,000."
-slug: "best-avinox-emtb-2026"
-categories: ["e-bike"]
-tags: ["ebike", "emtb", "avinox", "buyer's guide"]
+lastmod: 2026-11-01
+description: The Avinox M2 and M2S motors have taken over the eMTB world. Here's a breakdown of the best bikes you can buy right now, from $5,000 to $13,000.
+slug: best-avinox-emtb-2026
+categories:
+- E-Bike
+tags:
+- ebike
+- emtb
+- avinox
+- buyer's guide
 cover:
-  image: "images/avinox-m2s-motor.png"
-  alt: "Avinox M2S motor"
-  caption: "Image: Amflow"
+  image: /images/avinox-m2s-motor.png
+  alt: Avinox M2S motor
+  caption: 'Image: Amflow'
+  relative: false
 ---
 
 The Avinox motor story has moved fast. DJI's ebike division launched the M1 in 2025 and immediately made Bosch and Shimano look like they were playing a different game. Now the second generation is here — the M2 and M2S — and the number of bikes built around these motors has exploded. Over 60 brands have signed on, which means the hard part isn't finding an Avinox bike anymore. It's figuring out which one is actually right for you.
@@ -97,7 +104,7 @@ What makes the Druid E stand out isn't the spec — it's the chassis. Forbidden 
 
 ---
 
-## Best All-Rounder: YT Decoy X (~$10,500)
+## Best Mullet Enduro: YT Decoy X (~$10,500)
 
 The Decoy X uses a hydroformed alloy frame with 170mm front travel and 160mm rear, the M2S motor, and an 800Wh battery. Available in five sizes from S to XXL — which sounds like table stakes but isn't. First-gen Avinox bikes couldn't fit an 800Wh battery in smaller frames. That's fixed here.
 
@@ -107,9 +114,23 @@ The launch edition spec is loaded — Fox Podium fork, SRAM X0 Transmission, Mav
 
 ---
 
+## Best From a US Brand: Pivot Shuttle AMPD ($9,499–$14,499)
+
+If you want an Avinox bike from a brand with a big US dealer network, the Pivot Shuttle AMPD is the one to look at. Pricing runs from $9,499 to $14,499. Pivot's dealer network matters more on an eMTB than on a regular bike, because motor and battery service is where direct-to-consumer brands can leave you waiting.
+
+**Best for:** Riders who want shop support and a premium US brand behind their Avinox bike.
+
+---
+
+## Also Worth a Look
+
+The Avinox list keeps growing. Other M2/M2S bikes worth knowing about: the **Forbidden Dreadnought E** (the long-travel sibling to the Druid E), **Atherton S.170E**, **BH iLynx+ DL Enduro**, **Orange Phase**, **Raymon Tarok** and **Megamo Reason**. Several are mainly sold in Europe, so check US availability before you fall for one.
+
+---
+
 ## Who's Not Playing Along (Yet)
 
-Worth noting: notable holdouts include Norco, Yeti, Trek, Specialized, Rocky Mountain, Transition, and Santa Cruz. That's not automatically a problem — those motors still work well and have deep trail-tested refinement. But if your shortlist includes brands from that group, factor in that you're working with motors in a different performance tier.
+As of this update, notable holdouts include Norco, Yeti, Trek, Specialized, Rocky Mountain, Transition, and Santa Cruz. That's not automatically a problem — those motors still work well and have deep trail-tested refinement. But if your shortlist includes brands from that group, factor in that you're working with motors in a different performance tier.
 
 ---
 
@@ -118,3 +139,7 @@ Worth noting: notable holdouts include Norco, Yeti, Trek, Specialized, Rocky Mou
 The M2/M2S launch has given eMTB buyers a genuinely wide range of options at every price point, from $5K carbon bikes up to $13K flagship builds. The motor itself is no longer the differentiator — they all have the power. What you're actually choosing between is chassis geometry, suspension quality, battery configuration, and brand support.
 
 Pick the motor based on how you ride. Pick the bike based on everything else.
+
+Still deciding whether you need the M2S at all? I dug into that in [Avinox M2S vs M1: Is 1,500W Actually Better?](/posts/avinox-m2s-vs-m1/). If you're looking at the mainstream brands instead, here's my [2025 Specialized Turbo Levo 4 lineup guide](/2025-specialized-turbo-levo-4-lineup-guide/). And if you're shopping for someone who doesn't want to think about watts at all, [finding an e-bike for my wife](/posts/finding-an-ebike-for-my-wife/) is the opposite end of the spectrum.
+
+*Prices are US launch pricing where available, and European-brand prices are estimates. Amflow's PR Carbon is listed at $4,999 and the PX Carbon Pro at $10,199. Sources: [BikeRadar's Avinox bike list](https://www.bikeradar.com/advertising-feature/news/bikes-with-avinox-m2-m2s-motors), manufacturer sites.*

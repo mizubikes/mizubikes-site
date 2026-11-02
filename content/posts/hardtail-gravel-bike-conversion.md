@@ -1,37 +1,22 @@
 ---
-_edit_last: "2"
-_thumbnail_id: "3523"
-_wp_old_slug: scalpel-ht-hardtail-gravel-conversion
-author: mizubikes
-categories:
-  - bike-build
-  - gravel/cx
-  - mountain
-cover:
-  alt: IMG_1597
-  image: /wp-content/uploads/2025/04/IMG_1597-1.jpg
-date: "2025-04-19T05:29:44+00:00"
-guid: https://mizubikes.com/?p=3519
-parent_post_id: null
-post_id: "3519"
-rank_math_analytic_object_id: "35"
-rank_math_contentai_score:
-  headingCount: "0"
-  keywords: "74.51"
-  linkCount: "0"
-  mediaCount: "0"
-  wordCount: "0"
-rank_math_description: See how I built a Cannondale Scalpel HT into a fast gravel bike. This hardtail gravel bike conversion runs MTB tires, SRAM AXS, and a carbon ENVE fork
-rank_math_focus_keyword: Hardtail gravel bike conversion
-rank_math_internal_links_processed: "1"
-rank_math_primary_category: "17"
-rank_math_seo_score: "79"
-rank_math_title: 'Hardtail Gravel Bike Conversion: Scalpel HT Gravel Build'
 title: 'Hardtail Gravel Bike Conversion: My Cannondale Scalpel HT Gravel Build'
+date: '2025-04-19T05:29:44+00:00'
+lastmod: 2026-11-01
+description: 'Why a Cannondale Scalpel HT hardtail makes a great gravel bike: tire clearance, geometry, rigid fork and drivetrain options. Updated with how the finished build turned out.'
 url: /hardtail-gravel-bike-conversion/
-
+categories:
+- Bike Builds
+- Gravel
+- Mountain
+cover:
+  alt: Cannondale Scalpel HT hardtail being converted into a gravel bike
+  image: /wp-content/uploads/2025/04/IMG_1597-1.jpg
+  relative: false
 ---
-{{< figure src="/wp-content/uploads/2025/04/IMG%5F1597-2.jpg" alt="Hardtail gravel bike conversion" caption="Hardtail gravel bike conversion" >}}
+
+> **Update (October 2026): this build is finished.** The final bike ended up different from the plan below. It got drop bars right away, a Niner RDO rigid fork instead of the ENVE, and SRAM Rival XPLR AXS with Garbaruk's 13-speed 10-52 cassette instead of a GX Eagle mix. It weighs 18 lb 7 oz with pedals. The full parts list, weight and ride impressions are in **[Mountain Bike to Gravel Bike Conversion: Garbaruk 10-52 13-Speed Build](/posts/mtb-to-gravel-garbaruk-10-52/)**, and I later tested 2.35" tires on it in **[I Put 2.35" MTB Tires on My Drop Bar Gravel Bike](/posts/2-35-mtb-tires-drop-bar-gravel-bike/)**. The rest of this post is the original plan, and the reasoning still holds.
+
+{{< figure src="/wp-content/uploads/2025/04/IMG_1597-2.jpg" alt="Cannondale Scalpel HT hardtail gravel bike conversion" caption="The Scalpel HT at the start of the conversion" >}}
 
 Gravel bikes are all the rage—but what if you already have a capable hardtail mountain bike frame sitting in your garage? That’s the question I asked before starting a **hardtail gravel bike conversion** using a **Cannondale Scalpel HT**.
 
@@ -99,7 +84,15 @@ Gravel is all about tires, and your options really open up when you build on an 
 
 #### Top Lightweight, Fast-Rolling Tire Picks:
 
-**Tire****Size****Weight****Notes**Continental Race King ProTection29x2.2"~605gDylan Johnson’s go-to for gravel racingSchwalbe Thunder Burt29x2.1–2.25"~525–600gAlmost slick; insanely fast on dry hardpackMaxxis Receptor29x2.0"~625gGravel/XC hybrid tire with great rolling speed
+| Tire | Size | Weight | Notes |
+|---|---|---|---|
+| [Continental Race King ProTection](https://www.amazon.com/s?k=Continental+Race+King+ProTection+29x2.2&tag=mizubikes-web-20) | 29x2.2" | ~605g | Dylan Johnson's go-to for gravel racing |
+| [Schwalbe Thunder Burt](https://www.amazon.com/s?k=Schwalbe+Thunder+Burt+29+2.25&tag=mizubikes-web-20) | 29x2.1–2.25" | ~525–600g | Almost slick; insanely fast on dry hardpack. This is what I ended up running |
+| [Maxxis Receptor](https://www.amazon.com/s?k=Maxxis+Receptor+29&tag=mizubikes-web-20) | 29x2.0" | ~625g | Gravel/XC hybrid tire with great rolling speed |
+
+*Mizubikes may earn a commission from links in this post.*
+
+Before you buy tires, check what your frame actually clears. A 2.25" tire on a wide rim can measure 57mm or more, and I covered why in [Gravel Bike Tire Clearance: What the Specs Don't Tell You](/posts/gravel-bike-tire-clearance/).
 
 These tires give you the speed and smoothness of gravel tires, with the grip and comfort of MTB rubber. Perfect match for this build.
 
@@ -126,5 +119,5 @@ It might not be as sleek on tarmac, but it absolutely crushes rough gravel, long
 
 * * *
 
-**Want to follow this build?**  
-Check out my updates, ride tests, and gear breakdowns on [@mizubikes YouTube](https://www.youtube.com/@mizubikes). You’ll see how this hardtail gravel bike conversion turns out in real-world gravel and trail conditions.
+**Want to see how it turned out?**
+The finished build, with the full parts list, weight and first ride, is in [Mountain Bike to Gravel Bike Conversion: Garbaruk 10-52 13-Speed Build](/posts/mtb-to-gravel-garbaruk-10-52/), and the build video is on [@mizubikes YouTube](https://www.youtube.com/@mizubikes). For the drop bar parts list, see [Hardtail Gravel Bike Drop Bar Conversion: Complete Parts List](/hardtail-gravel-bike-dropbar-conversion/). If you'd rather buy a bike built for this from the start, see [Best Hardtail and Drop Bar Full Suspension Bikes for Gravel in 2026](/posts/best-hardtail-drop-bar-gravel-bikes-2026/).

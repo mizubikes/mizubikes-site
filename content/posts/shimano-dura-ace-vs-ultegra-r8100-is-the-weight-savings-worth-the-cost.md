@@ -1,23 +1,18 @@
 ---
-_thumbnail_id: "3435"
-author: mizubikes
+title: 'Shimano Dura-Ace vs. Ultegra R8100: Is the Weight Savings Worth the Cost?'
+date: '2025-03-07T06:36:06+00:00'
+url: /shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/
 categories:
-  - buying-and-selling
-  - deals
-  - road
+- Deals
+- Road
+tags:
+- Buying Guide
 cover:
   alt: Screenshot 2025-03-06 223438
   image: /wp-content/uploads/2025/03/Screenshot-2025-03-06-223438-e1741329359805.png
-date: "2025-03-07T06:36:06+00:00"
-guid: https://mizubikes.com/?p=3434
-parent_post_id: null
-post_id: "3434"
-rank_math_analytic_object_id: "5"
-rank_math_internal_links_processed: "1"
-title: 'Shimano Dura-Ace vs. Ultegra R8100: Is the Weight Savings Worth the Cost?'
-url: /shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/
-
+  relative: false
 ---
+
 If you're debating whether to upgrade from **Shimano Ultegra R8100 Di2** to **Dura-Ace R9200 Di2**, you're probably wondering: **Is the weight savings worth the extra cost?** In this post, we break down the weight differences for each component, the cost per gram saved, and whether Dura-Ace delivers the best bang for your buck.
 
 ## **Weight and Cost Comparison: Dura-Ace R9200 vs. Ultegra R8100**

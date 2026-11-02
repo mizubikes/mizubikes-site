@@ -1,14 +1,22 @@
 ---
-title: "The Factory Always Wins: Why XDS Selling Its Own Bikes Isn't New — It's Just Giant's Playbook"
+title: 'The Factory Always Wins: Why XDS Selling Its Own Bikes Isn''t New — It''s Just Giant''s Playbook'
 date: 2026-05-13
-description: "XDS making bikes for the industry and then selling its own is raising eyebrows. But this story is as old as the bike industry itself — and Giant wrote the original."
+lastmod: 2026-11-01
+description: 'XDS builds bikes for the industry and now sells its own X-Lab bikes direct. Giant did the same to Schwinn in the 1980s. Updated Nov 2026 with US frameset prices.'
 slug: xds-giant-oem-manufacturer-goes-direct
-categories: ["Road"]
-tags: ["XDS", "X-Lab", "Giant", "Bike industry", "OEM", "Bike tech"]
+categories:
+- Road
+tags:
+- XDS
+- X-Lab
+- Giant
+- Bike industry
+- OEM
+- Bike tech
 cover:
-  image: "/images/xds-x-lab-ad9.webp"
-  alt: "XDS X-Lab AD9 aero road bike — the bike that started the conversation"
-  caption: "Photo: XDS / X-Lab"
+  image: /images/xds-x-lab-ad9.webp
+  alt: XDS X-Lab AD9 aero road bike — the bike that started the conversation
+  caption: 'Photo: XDS / X-Lab'
   relative: false
 draft: false
 ---
@@ -63,6 +71,20 @@ What's different in 2026 is that X-Lab is doing it visibly, at the sport's highe
 
 {{< figure src="/images/xds-x-lab-gt8.webp" alt="XDS X-Lab GT8 carbon gravel bike in black with gold accents" caption="Photo: XDS / X-Lab" >}}
 
+## Update: Where X-Lab Stands Six Months Later (November 2026)
+
+The launch wasn't a one-off. X-Lab came into the US in April with complete bikes sold direct, and according to the brand it sold through almost all of that first production run. In August it announced that bare framesets would follow, starting as early as September:
+
+| X-Lab frameset | Type | US frameset price |
+|---|---|---|
+| AD9 | Aero road | $3,500 |
+| RT9 | Lightweight road | $3,000 |
+| GT8 | Gravel | $2,000 |
+
+For context, a complete AD9 with Dura-Ace is about $8,000, and a GT8 with Shimano GRX Di2 and carbon wheels is about $3,200. That GT8 number is the one that should worry the established gravel brands. It's in the same territory as Canyon's direct-to-consumer pricing, and Canyon doesn't own a carbon factory.
+
+X-Lab also showed its first mountain bike in September: an unnamed full-suspension XC race bike built for the Kazakhstan national team, with a flex-stay rear end and a RockShox SID up front. There's no price and no production date yet. But a factory that already builds bikes for half the industry is now working through road, gravel and XC in the same order the big brands did.
+
 ## Whether You Should Care as a Buyer
 
 Probably not, at least not about the ethics of it. The bike industry's manufacturing geography has always been more complicated than brand marketing suggests, and that complexity has generally been good for consumers — more competition, better materials, lower prices at a given spec level.
@@ -73,4 +95,6 @@ XDS and X-Lab are a new face on a very old story. The factory, as always, is doi
 
 ---
 
-*Read our breakdown of the full X-Lab lineup — including prices, specs, and what we don't know yet — in our [XDS X-Lab launch post](/posts/xds-x-lab-worldtour-chinese-bike/).*
+*Read our breakdown of the full X-Lab lineup — including prices, specs, and what we don't know yet — in our [XDS X-Lab launch post](/posts/xds-x-lab-worldtour-chinese-bike/). If you're weighing the GT8 against the established direct-to-consumer option, see what Canyon did with [the new Grail](/posts/canyon-grail-2027-launch/), and check frame clearance across brands in the [2026 gravel tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/).*
+
+*Sources for the November 2026 update: [Escape Collective](https://escapecollective.com/x-lab-will-sell-framesets-in-the-us/), [Bicycle Retailer](https://bicycleretailer.com/industry-news/2026/08/18/retailer-popular-demand-x-lab-will-make-framesets-available), [Singletracks](https://www.singletracks.com/mtb-gear/first-x-lab-mountain-bike-is-full-suspension-but-you-cant-buy-it-yet/).*

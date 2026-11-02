@@ -1,14 +1,21 @@
 ---
-title: "SRAM Force E1 2x vs 1x vs XPLR: Gearing and Gear Jumps Compared"
+title: 'SRAM Force E1 2x vs 1x vs XPLR: Gearing and Gear Jumps Compared'
 date: 2026-07-20
-description: "SRAM Force E1 gearing compared cog by cog — 10-33 vs 10-36 vs 13-speed XPLR 10-46, with the actual gear jumps behind the range numbers."
+lastmod: 2026-11-01
+description: SRAM Force E1 gearing compared cog by cog — 10-33 vs 10-36 vs 13-speed XPLR 10-46, with the actual gear jumps behind the range numbers.
 slug: sram-force-e1-gearing-gear-jumps
-categories: ["Gravel"]
-tags: ["SRAM", "Force E1", "XPLR", "Drivetrains", "Gearing"]
+categories:
+- Gravel
+tags:
+- SRAM
+- Force E1
+- XPLR
+- Drivetrains
+- Gearing
 cover:
-  image: "/images/force-e1-gearing-cover.webp"
-  alt: "SRAM Force E1 road cassette and rear derailleur alongside the 13-speed Force XPLR cassette and derailleur"
-  caption: "Photo: SRAM"
+  image: /images/force-e1-gearing-cover.webp
+  alt: SRAM Force E1 road cassette and rear derailleur alongside the 13-speed Force XPLR cassette and derailleur
+  caption: 'Photo: SRAM'
   relative: false
 draft: false
 ---
@@ -89,3 +96,10 @@ The 46T 1x with the road 10-36 cassette is the setup I have the hardest time rec
 If your riding is mostly pavement and rolling terrain, the 10-33 with a 2x crank is the connoisseur's choice — the tightest cruising spacing SRAM makes at this level, with the 2x low end backstopping that abrupt 28→33 shift. If you split time between road and dirt, the 48/35 with the 10-36 is the honest all-rounder, and the front derailleur quietly patches the cassette's one weak spot. And if the bike is a dedicated gravel rig, the XPLR 44T setup gives you essentially the same low gear as the 2x with one less derailleur to think about, as long as you make peace with those two big jumps at the bottom and a 4.4 top gear that spins out in the mid-30s.
 
 I've already tipped my hand on which direction I'm leaning in the [previous post](/posts/finally-trying-sram-force-e1/), and the full build is coming together now. Once it's rideable I'll report back on whether the jump math matches how the drivetrain actually feels on the road — including whether E1 finally fixed the front derailleur. If you're pricing out cassettes in the meantime, the [Force XG-1270 is on Amazon](https://www.amazon.com/s?k=sram+force+xg-1270+e1+cassette&tag=mizubikes-web-20) in all four sizes, and Worldwide Cyclery stocks the [13-speed XPLR 10-46](https://worldwidecyclery.com/) if you're going the gravel route.
+
+
+## Update: what I actually built (November 2026)
+
+I ended up going 1x. The SuperSix Evo build runs a 46-tooth chainring with the 13-speed Force XPLR 10-46 cassette. That's about 460% total range, slightly more than the common 48/35 with 10-33 2x setup, and the finished bike came in at 15 lb 15 oz with pedals. The build, the gearing surprise and how it rides are in [Cannondale SuperSix Evo 2026 Build: 13-Speed SRAM Force XPLR 1x](/posts/cannondale-supersix-evo-2026-xplr-1x-build/). The cog-by-cog comparison against a 2x road cassette is in [1x vs 2x Road Gearing: What You Actually Give Up with 13-Speed SRAM XPLR](/posts/1x-vs-2x-road-gearing-sram-xplr-13-speed/).
+
+Before you order a Full Mount XPLR derailleur, make sure your frame is UDH. Here's [how to check the dropout](/posts/udh-sram-1x13-gravel-frame-compatibility/), and here's [SRAM's list of UDH gravel frames](/posts/udh-compatible-gravel-bikes-2026/).

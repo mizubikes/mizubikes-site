@@ -1,14 +1,19 @@
 ---
-title: "The Crux 5 Is the Gravel Bike We Knew Was Coming"
+title: The Crux 5 Is the Gravel Bike We Knew Was Coming
 date: 2026-05-28
-description: "The Specialized Crux 5 goes full aero and leaves its cyclocross roots behind. Here's why that was inevitable — and what it might cost us down the road."
+description: The Specialized Crux 5 goes full aero and leaves its cyclocross roots behind. Here's why that was inevitable — and what it might cost us down the road.
 slug: specialized-crux-5-opinion
-categories: ["Gravel"]
-tags: ["Specialized", "Crux", "Gravel Racing", "Opinion"]
+categories:
+- Gravel
+tags:
+- Specialized
+- Crux
+- Gravel Racing
+- Opinion
 cover:
-  image: "/images/specialized-crux-5-sworks.webp"
-  alt: "2026 Specialized S-Works Crux 5 in black"
-  caption: "Photo: Specialized"
+  image: /images/specialized-crux-5-sworks.webp
+  alt: 2026 Specialized S-Works Crux 5 in black
+  caption: 'Photo: Specialized'
   relative: false
 draft: false
 ---

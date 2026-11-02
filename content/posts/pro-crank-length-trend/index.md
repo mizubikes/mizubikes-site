@@ -1,14 +1,20 @@
 ---
-title: "Are Short Cranks Taking Over? What the Pro Peloton Data Actually Shows"
+title: Are Short Cranks Taking Over? What the Pro Peloton Data Actually Shows
 date: 2026-04-19
-description: "Every cycling headline says pros are going shorter on crank length. The data tells a more specific story — and it matters for what you should actually be riding."
-slug: "pro-crank-length-trend"
-categories: ["road", "bike fit"]
-tags: ["bike fit", "crank length", "road cycling", "pro cycling"]
+lastmod: 2026-11-01
+description: Every cycling headline says pros are going shorter on crank length. The data tells a more specific story — and it matters for what you should actually be riding.
+slug: pro-crank-length-trend
+categories:
+- Road
+tags:
+- bike fit
+- crank length
+- road cycling
+- pro cycling
 cover:
-  image: "images/crank-hero.png"
-  alt: "Pro cyclist crank length vs height scatter chart"
-  relative: true
+  image: /images/crank-hero.png
+  alt: Pro cyclist crank length vs height scatter chart
+  relative: false
   hiddenInSingle: true
 ---
 
@@ -101,3 +107,13 @@ GC riders are going shorter — deliberately and with measurable benefit. Sprint
 If you're a climber or an endurance-focused rider, the case for experimenting with shorter cranks is real. If you're a power-focused rider who lives for the sprint or the cobbles, the data suggests you're probably fine where you are.
 
 Get a bike fit. Try before you commit. And don't let any headline tell you what's right for your specific body.
+
+## If you want to try shorter cranks
+
+Changing cranks changes your saddle height. Going from 172.5mm to 165mm raises the bottom of your pedal stroke by 7.5mm, so you'll usually raise the saddle about that much and may need to move it forward slightly to keep the same knee position. Make that change before your first ride, not after a sore one.
+
+You don't need a top-tier crankset to test the idea. A [165mm Shimano 105 or Ultegra crankset](https://www.amazon.com/s?k=Shimano+Ultegra+R8100+crankset+165mm&tag=mizubikes-web-20) or a [165mm SRAM Rival/Force crank](https://www.amazon.com/s?k=SRAM+Force+crankset+165mm&tag=mizubikes-web-20) is an affordable way to find out whether the hip angle change helps you before you commit to a power meter crank in that length.
+
+Crank length also affects how your gearing feels, since a shorter lever spins faster for the same gear. If you're rethinking gearing at the same time, [1x vs 2x road gearing with 13-speed SRAM XPLR](/posts/1x-vs-2x-road-gearing-sram-xplr-13-speed/) and [SRAM Force E1 2x vs 1x vs XPLR gear jumps](/posts/sram-force-e1-gearing-gear-jumps/) walk through the ratios.
+
+*Mizubikes may earn a commission from links in this post.*

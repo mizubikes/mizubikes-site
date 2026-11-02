@@ -1,14 +1,21 @@
 ---
-title: "Buying a New or Used Gravel Bike? Check the Dropout Before You Commit to SRAM 1x13"
+title: Buying a New or Used Gravel Bike? Check the Dropout Before You Commit to SRAM 1x13
 date: 2026-05-19
-description: "If you want to run SRAM's 13-speed XPLR groupset, your frame needs a UDH dropout. Here's what to look for on popular gravel bikes — new and used."
+description: If you want to run SRAM's 13-speed XPLR groupset, your frame needs a UDH dropout. Here's what to look for on popular gravel bikes — new and used.
 slug: udh-sram-1x13-gravel-frame-compatibility
-categories: ["Gravel"]
-tags: ["SRAM", "UDH", "Groupsets", "Gravel Bikes", "Bike Builds", "Buying Guide"]
+categories:
+- Gravel
+tags:
+- SRAM
+- UDH
+- Groupsets
+- Gravel Bikes
+- Bike Builds
+- Buying Guide
 cover:
-  image: "/images/udh-dropout-gravel.png"
-  alt: "UDH dropout on a Specialized gravel bike frame"
-  caption: "Photo: Specialized"
+  image: /images/udh-dropout-gravel.png
+  alt: UDH dropout on a Specialized gravel bike frame
+  caption: 'Photo: Specialized'
   relative: false
 draft: false
 ---

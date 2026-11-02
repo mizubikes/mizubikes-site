@@ -1,14 +1,20 @@
 ---
-title: "Cannondale SuperSix Evo 2026 Build: 13-Speed SRAM Force XPLR 1x"
+title: 'Cannondale SuperSix Evo 2026 Build: 13-Speed SRAM Force XPLR 1x'
 date: 2026-09-10
-description: "I built a 2026 Cannondale SuperSix Evo around SRAM's 13-speed Force XPLR 1x drivetrain — the full build, the gearing surprise, and whether 1x belongs on a road bike."
+description: I built a 2026 Cannondale SuperSix Evo around SRAM's 13-speed Force XPLR 1x drivetrain — the full build, the gearing surprise, and whether 1x belongs on a road bike.
 slug: cannondale-supersix-evo-2026-xplr-1x-build
-categories: ["Bike Builds"]
-tags: ["Cannondale", "SuperSix Evo", "SRAM Force XPLR", "1x", "Road Bike"]
+categories:
+- Bike Builds
+tags:
+- Cannondale
+- SuperSix Evo
+- SRAM Force XPLR
+- 1x
+- Road Bike
 cover:
-  image: "/images/supersix-evo-xplr-1x-build.webp"
-  alt: "Cannondale SuperSix Evo 2026 with SRAM Force XPLR 1x drivetrain"
-  caption: "Photo: Mizu Bikes"
+  image: /images/supersix-evo-xplr-1x-build.webp
+  alt: Cannondale SuperSix Evo 2026 with SRAM Force XPLR 1x drivetrain
+  caption: 'Photo: Mizu Bikes'
   relative: false
 draft: false
 ---

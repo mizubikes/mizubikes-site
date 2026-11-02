@@ -1,28 +1,19 @@
 ---
-_thumbnail_id: "3323"
-_wp_old_date: "2025-02-08"
-author: mizubikes
+title: 'Cannondale CAAD 13: Is Aluminum still a good value vs the Carbon 2023 SuperSix Evo Hi-Mod?'
+date: '2023-11-01T06:27:25+00:00'
+url: /cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/
 categories:
-  - deals
-  - road
+- Deals
+- Road
 cover:
   alt: IMG_0944
   image: /wp-content/uploads/2025/02/IMG_0944.jpg
-date: "2023-11-01T06:27:25+00:00"
-guid: https://mizubikes.com/?p=3322
-parent_post_id: null
-post_id: "3322"
-rank_math_analytic_object_id: "13"
-rank_math_internal_links_processed: "1"
-title: 'Cannondale CAAD 13: Is Aluminum still a good value vs the Carbon 2023 SuperSix Evo Hi-Mod?'
-url: /cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/
-
+  relative: false
 ---
+
 ## CAAD 13 aluminum vs. 2023 SuperSix Evo Hi-Mod carbon cost comparison
 
 Cannondale has always continued to make quality aluminum bikes for as long as I can remember, even after carbon took over the top step and the CAAD 13 is no exception. The question is, is aluminum still a good value with all the reasonably priced carbon options out there?
-
-{{< figure src="/wp-content/uploads/2023/10/image-3-600x388.png" alt="" caption="" >}}
 
 ## Just comparing the framesets
 
@@ -34,27 +25,17 @@ Since Cannondale doesn't have them for sale as a disc frameset in the US, let's 
 
 ## Cannondale CAAD 13 frame weight
 
-{{< figure src="/wp-content/uploads/2023/11/image-600x425.png" alt="" caption="" >}}
-
 The Cannondale CAAD 13 frame in size 54cm weighs 1304g
-
-{{< figure src="/wp-content/uploads/2023/11/image-1-600x414.png" alt="" caption="" >}}
 
 The Cannondale CAAD 13 carbon fork weighs 429g
 
 ## The 2023 Cannondale SuperSix Evo Hi-Mod Weight
 
-{{< figure src="/wp-content/uploads/2023/11/image-2-583x450.png" alt="" caption="" >}}
-
 The 2023 Cannondale Supersix Evo Hi-Mod frame in size 54cm weighs 818g
-
-{{< figure src="/wp-content/uploads/2023/11/image-3-600x405.png" alt="" caption="" >}}
 
 The 2023 Cannondale Supersix Evo Hi-Mod fork weighs 404g
 
 ## Cannondale CAAD 13 vs 2023 Cannondale SuperSix Evo Hi-Mod
-
-{{< figure src="/wp-content/uploads/2023/11/image-4.png" alt="" caption="" >}}
 
 ## Conclusion
 

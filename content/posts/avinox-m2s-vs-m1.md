@@ -1,14 +1,20 @@
 ---
-title: "Avinox M2S vs M1: Is 1,500W Actually Better?"
+title: 'Avinox M2S vs M1: Is 1,500W Actually Better?'
 date: 2026-04-19
-description: "The Avinox M2S doubles down on power with 1,500W and 150Nm of torque. But does more wattage actually make it a better motor — or is the M1 still the smarter buy?"
-slug: "avinox-m2s-vs-m1"
-categories: ["e-bike"]
-tags: ["ebike", "emtb", "avinox", "motor"]
+description: The Avinox M2S doubles down on power with 1,500W and 150Nm of torque. But does more wattage actually make it a better motor — or is the M1 still the smarter buy?
+slug: avinox-m2s-vs-m1
+categories:
+- E-Bike
+tags:
+- ebike
+- emtb
+- avinox
+- motor
 cover:
-  image: "images/amflow-frame.webp"
-  alt: "Amflow PX Carbon with Avinox M2S motor"
-  caption: "Image: Amflow"
+  image: /images/amflow-frame.webp
+  alt: Amflow PX Carbon with Avinox M2S motor
+  caption: 'Image: Amflow'
+  relative: false
 ---
 
 When the Avinox M1 dropped in 2024, it made everyone else look slow. A 1,000W mid-drive in a 2.5kg package — with better software integration than Bosch had managed in a decade — it genuinely changed what people expected from an eMTB motor. Brands rushed to adopt it. Riders lost their minds over it.

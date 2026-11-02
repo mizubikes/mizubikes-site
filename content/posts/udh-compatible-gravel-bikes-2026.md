@@ -1,14 +1,20 @@
 ---
-title: "UDH-Compatible Gravel Bikes: Every Frame on SRAM's List (May 2026)"
+title: 'UDH-Compatible Gravel Bikes: Every Frame on SRAM''s List (May 2026)'
 date: 2026-05-19
-description: "A full list of UDH-compatible gravel bikes pulled from SRAM's official Bike Finder, updated May 2026."
+lastmod: 2026-11-01
+description: A full list of UDH-compatible gravel bikes pulled from SRAM's official Bike Finder, updated May 2026.
 slug: udh-compatible-gravel-bikes-2026
-categories: ["Gravel"]
-tags: ["SRAM", "UDH", "Gravel Bikes", "Buying Guide"]
+categories:
+- Gravel
+tags:
+- SRAM
+- UDH
+- Gravel Bikes
+- Buying Guide
 cover:
-  image: "/images/sram-bike-finder-udh-gravel.png"
-  alt: "SRAM Bike Finder filtered by UDH and Gravel showing 84 results"
-  caption: "Photo: SRAM"
+  image: /images/sram-bike-finder-udh-gravel.png
+  alt: SRAM Bike Finder filtered by UDH and Gravel showing 84 results
+  caption: 'Photo: SRAM'
   relative: false
 draft: false
 ---
@@ -112,5 +118,11 @@ Frames marked **XPLR** are confirmed compatible with SRAM's Full Mount 13-speed 
 </div>
 
 ---
+
+## Frames launched since this list was pulled
+
+Several big gravel launches came after May, and they weren't on the Bike Finder when this list was made: the [third-generation Canyon Grail](/posts/canyon-grail-2027-launch/) (September 2026), the [Specialized Crux 5](/posts/specialized-crux-5-2026/), and Ridley's Kanzo Fast 2.0. All three are 1x-only frames built around wide tires. Confirm UDH and XPLR compatibility on SRAM's Bike Finder or the brand's spec sheet before you buy. The [2026 gravel tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/) covers the tire side of the decision.
+
+If you've already built one of these up, here's mine for reference: a [13-speed Force XPLR 1x road build](/posts/cannondale-supersix-evo-2026-xplr-1x-build/) and a [hardtail gravel conversion with Garbaruk's 10-52](/posts/mtb-to-gravel-garbaruk-10-52/).
 
 *This list was last updated May 2026. SRAM's Bike Finder is the authoritative source — [check it directly](https://bikefinder.sram.com/?technology=UDH&rideType=Gravel&sort=Featured&sortOrder=asc&site=Road) for the most current information.*

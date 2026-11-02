@@ -1,14 +1,19 @@
 ---
-title: "2026 Gravel Bike Tire Clearance Chart: Max Tire Size by Frame"
+title: '2026 Gravel Bike Tire Clearance Chart: Max Tire Size by Frame'
 date: 2026-10-29
-description: "Max 700c and 650b tire clearance for the Canyon Grail, Specialized Crux, Cannondale Topstone, Trek Checkpoint, Giant Revolt, Cervélo Áspero and more."
+description: Max 700c and 650b tire clearance for the Canyon Grail, Specialized Crux, Cannondale Topstone, Trek Checkpoint, Giant Revolt, Cervélo Áspero and more.
 slug: gravel-bike-tire-clearance-chart-2026
-categories: ["Gravel"]
-tags: ["tire clearance", "gravel bikes", "gravel tires", "buying guide"]
+categories:
+- Gravel
+tags:
+- tire clearance
+- gravel bikes
+- gravel tires
+- buying guide
 cover:
-  image: "/images/gravel-bike-tire-clearance-chart-2026-cover.webp"
-  alt: "Cyclist riding a drop-bar gravel bike with wide knobby tires on a dirt road"
-  caption: "Photo: the_iop / Pixabay"
+  image: /images/gravel-bike-tire-clearance-chart-2026-cover.webp
+  alt: Cyclist riding a drop-bar gravel bike with wide knobby tires on a dirt road
+  caption: 'Photo: the_iop / Pixabay'
   relative: false
 draft: false
 ---

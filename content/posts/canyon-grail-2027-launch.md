@@ -1,14 +1,19 @@
 ---
-title: "Canyon's New Grail Is Here, and It Finally Fits Real Tires"
+title: Canyon's New Grail Is Here, and It Finally Fits Real Tires
 date: 2026-09-17
-description: "Canyon just launched the third-generation Grail with 57mm tire clearance and a 1x-only design. Here's what actually changed after months of prototype sightings."
+description: Canyon just launched the third-generation Grail with 57mm tire clearance and a 1x-only design. Here's what actually changed after months of prototype sightings.
 slug: canyon-grail-2027-launch
-categories: ["Gravel"]
-tags: ["Canyon", "Gravel Bikes", "New Releases", "Aero"]
+categories:
+- Gravel
+tags:
+- Canyon
+- Gravel Bikes
+- New Releases
+- Aero
 cover:
-  image: "/images/canyon-grail-2027-launch.webp"
-  alt: "Canyon Grail CF 7 AXS, one of six launch specs for the third-generation Grail"
-  caption: "Photo: Canyon Bicycles"
+  image: /images/canyon-grail-2027-launch.webp
+  alt: Canyon Grail CF 7 AXS, one of six launch specs for the third-generation Grail
+  caption: 'Photo: Canyon Bicycles'
   relative: false
 draft: false
 ---

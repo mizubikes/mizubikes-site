@@ -1,22 +1,15 @@
 ---
-_thumbnail_id: "3412"
-_wp_old_slug: why-i-love-the-new-2025-cannondale-super-x
-author: mizubikes
+title: '2025 Cannondale SuperX Review: The Ultimate Gravel and Cyclocross Race Bike'
+date: '2025-02-18T06:23:20+00:00'
+url: /2025-cannondale-superx-review/
 categories:
-  - gravel/cx
+- Gravel
 cover:
   alt: Screenshot 2025-02-17 215023
   image: /wp-content/uploads/2025/02/Screenshot-2025-02-17-215023-3.png
-date: "2025-02-18T06:23:20+00:00"
-guid: https://mizubikes.com/?p=3406
-parent_post_id: null
-post_id: "3406"
-rank_math_analytic_object_id: "8"
-rank_math_internal_links_processed: "1"
-title: '2025 Cannondale SuperX Review: The Ultimate Gravel and Cyclocross Race Bike'
-url: /2025-cannondale-superx-review/
-
+  relative: false
 ---
+
 {{< figure src="/wp-content/uploads/2025/02/Screenshot-2025-02-17-215023-3.png" alt="" caption="" >}}
 
 **Why the 2025 Cannondale Super X Is the Ultimate Gravel Race Bike**

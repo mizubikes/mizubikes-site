@@ -1,14 +1,22 @@
 ---
-title: "Finding an E-Bike for My Wife (And Not Overthinking It)"
+title: Finding an E-Bike for My Wife (And Not Overthinking It)
 date: 2026-06-27
-description: "How a cyclist who knows too much about bikes shopped for one his wife would actually ride."
+description: How a cyclist who knows too much about bikes shopped for one his wife would actually ride.
 slug: finding-an-ebike-for-my-wife
-categories: ["E-Bike"]
-tags: ["XDS", "X-Lab", "ST5+", "Trek Verve", "Specialized Vado SL", "Aventon", "Ebike Buying Guide"]
+categories:
+- E-Bike
+tags:
+- XDS
+- X-Lab
+- ST5+
+- Trek Verve
+- Specialized Vado SL
+- Aventon
+- Ebike Buying Guide
 cover:
-  image: "/images/xds-st5-plus.webp"
-  alt: "XDS X-Lab ST5+ electric bike"
-  caption: "Photo: X-Lab / XDS"
+  image: /images/xds-st5-plus.webp
+  alt: XDS X-Lab ST5+ electric bike
+  caption: 'Photo: X-Lab / XDS'
   relative: false
 draft: false
 ---

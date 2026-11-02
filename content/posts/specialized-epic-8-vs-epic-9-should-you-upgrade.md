@@ -1,19 +1,42 @@
 ---
-title: "Epic 8 vs Epic 9: What Actually Changed and Should You Upgrade?"
+title: 'Epic 8 vs Epic 9: What Actually Changed and Should You Upgrade?'
 date: 2026-04-28
-tags: ["specialized", "epic 9", "epic 8", "xc", "mountain bike", "comparison"]
+lastmod: 2026-11-01
+description: 'Epic 8 vs Epic 9 compared: frame weight, suspension, storage, cable routing, pricing and who should actually upgrade. Side-by-side table included.'
 categories:
-  - mountain
-description: "Specialized just released the Epic 9. If you're already on an Epic 8, here's a breakdown of every meaningful change and what it means for your decision to upgrade."
+- Mountain
+tags:
+- specialized
+- epic 9
+- epic 8
+- xc
+- mountain bike
+- comparison
 cover:
-  image: "/images/epic9-sworks-hero.png"
-  alt: "2026 Specialized S-Works Epic 9"
-  caption: "Image credit: [Specialized](https://www.specialized.com)"
+  image: /images/epic9-sworks-hero.png
+  alt: 2026 Specialized S-Works Epic 9
+  caption: 'Image credit: [Specialized](https://www.specialized.com)'
+  relative: false
 ---
 
 The Specialized Epic 9 dropped today, and if you're already riding an Epic 8, you're probably asking the same question: is this actually a significant enough jump to justify the upgrade?
 
 The short answer is that the Epic 9 is a genuinely better race bike in almost every measurable way. Whether that matters for how *you* ride is a different question. Here's everything that changed.
+
+## Epic 8 vs Epic 9 at a Glance
+
+| | Epic 8 | Epic 9 |
+|---|---|---|
+| Frame weight (M, with shock and hardware) | about 1,768 g | 1,589 g |
+| Travel (front/rear) | 120/120 mm | 120/120 mm, 130 mm fork compatible |
+| Suspension friction | Baseline | About 11% lower (claimed) |
+| In-frame SWAT storage | Yes | No, external bolt-on box instead |
+| Cable routing | Frame ports | Through the headset |
+| Drivetrain | Mechanical or wireless | Wireless only |
+| Trail-oriented Evo version | Yes (Epic 8 Evo) | None announced as of November 2026 |
+| Starting price | Discounted as stock clears | $7,499.99 (Expert) |
+
+If you race, every row on the right is an upgrade. If you ride trail, use your SWAT storage, or run a cable-actuated dropper, the last few rows are where the Epic 8 still makes the case for itself.
 
 ## Frame Weight
 
@@ -93,3 +116,5 @@ Here's the honest breakdown depending on your situation.
 **If you're buying new in 2026:** The Epic 9 is the better buy over a new Epic 8. But with Epic 8s about to flood the used market as owners upgrade, there's a compelling argument for picking up a lightly used Epic 8 at a significant discount and putting the difference toward components.
 
 Ultimately, the Epic 9 is a genuinely impressive step forward — Specialized didn't just reskin the Epic 8. But impressive and necessary aren't the same thing. Your Epic 8 is still an excellent bike.
+
+I'm on an Epic 8 Evo myself, and I wrote up why I'm keeping it in [The Specialized Epic 9 Is Here. My Epic 8 Evo Isn't Going Anywhere](/posts/specialized-epic-9-vs-epic-8-evo/). If the wireless-only requirement is what's holding you back, [SRAM's Eagle S-Series breakdown](/posts/sram-s-series-eagle-groupsets/) covers what a drivetrain swap actually costs. And if you're leaning toward a trail bike instead, here's [why I chose the Stumpjumper 15 Alloy](/posts/stumpjumper-15-alloy-build/).

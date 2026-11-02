@@ -1,14 +1,22 @@
 ---
-title: "Cascade Components 156mm Mullet Link: More Travel, More Progression"
+title: 'Cascade Components 156mm Mullet Link: More Travel, More Progression'
 date: 2026-07-15
-description: "Installing a Cascade Components 156mm mullet link on the Stumpjumper 15 Alloy, and the story of getting one made to fit an alloy frame."
+description: Installing a Cascade Components 156mm mullet link on the Stumpjumper 15 Alloy, and the story of getting one made to fit an alloy frame.
 slug: stumpjumper-15-cascade-mullet-link
-categories: ["Bike Builds", "Mountain"]
-tags: ["Stumpjumper 15", "Cascade Components", "Mullet", "GENIE Shock", "Suspension", "Bike Build"]
+categories:
+- Bike Builds
+- Mountain
+tags:
+- Stumpjumper 15
+- Cascade Components
+- Mullet
+- GENIE Shock
+- Suspension
+- Bike Build
 cover:
-  image: "/images/stumpjumper-15-cascade-mullet-link.webp"
-  alt: "Cascade Components 156mm mullet link installed on a Specialized Stumpjumper 15 Alloy frame"
-  caption: "Photo: Mizubikes"
+  image: /images/stumpjumper-15-cascade-mullet-link.webp
+  alt: Cascade Components 156mm mullet link installed on a Specialized Stumpjumper 15 Alloy frame
+  caption: 'Photo: Mizubikes'
   relative: false
 draft: false
 ---

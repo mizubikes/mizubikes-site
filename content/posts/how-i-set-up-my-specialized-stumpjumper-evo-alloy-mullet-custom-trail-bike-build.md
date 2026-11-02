@@ -1,22 +1,16 @@
 ---
-_thumbnail_id: "3457"
-author: mizubikes
+title: 'How I Set Up My Specialized Stumpjumper EVO Alloy Mullet: Custom Trail Bike Build'
+date: '2025-04-03T07:46:05+00:00'
+url: /how-i-set-up-my-specialized-stumpjumper-evo-alloy-mullet-custom-trail-bike-build/
 categories:
-  - bike-repair
-  - mountain
+- Bike Repair
+- Mountain
 cover:
   alt: Screenshot 2025-04-02 181021
   image: /wp-content/uploads/2025/04/Screenshot-2025-04-02-181021.png
-date: "2025-04-03T07:46:05+00:00"
-guid: https://mizubikes.com/?p=3456
-parent_post_id: null
-post_id: "3456"
-rank_math_analytic_object_id: "2"
-rank_math_internal_links_processed: "1"
-title: 'How I Set Up My Specialized Stumpjumper EVO Alloy Mullet: Custom Trail Bike Build'
-url: /how-i-set-up-my-specialized-stumpjumper-evo-alloy-mullet-custom-trail-bike-build/
-
+  relative: false
 ---
+
 Building your dream bike is one of the best parts of riding, and for me, that dream is based on the **Specialized Stumpjumper EVO Alloy**. I set this rig up to thrive on aggressive trail and enduro riding, with a **mullet wheel setup** and a dialed parts list built around performance, reliability, and fun while still keeping budget in mind. Here’s a full breakdown of my custom Stumpy EVO build and why each piece made the cut.
 
 * * *

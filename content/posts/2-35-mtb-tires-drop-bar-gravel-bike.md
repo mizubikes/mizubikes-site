@@ -1,14 +1,22 @@
 ---
-title: "I Put 2.35\" MTB Tires on My Drop Bar Gravel Bike"
-date: 2026-11-01T08:20:00-08:00
-description: "I ran 29 x 2.35 Schwalbe Racing Ray and Racing Ralph tires on a drop bar Cannondale Scalpel HT hardtail. Here's what improved and where it still falls short."
+title: I Put 2.35" MTB Tires on My Drop Bar Gravel Bike
+date: 2026-11-01 08:20:00-08:00
+description: I ran 29 x 2.35 Schwalbe Racing Ray and Racing Ralph tires on a drop bar Cannondale Scalpel HT hardtail. Here's what improved and where it still falls short.
 slug: 2-35-mtb-tires-drop-bar-gravel-bike
-categories: ["Gravel"]
-tags: ["Cannondale Scalpel HT", "Schwalbe", "Racing Ray", "Racing Ralph", "Monster Gravel", "Drop Bar MTB", "Tires"]
+categories:
+- Gravel
+tags:
+- Cannondale Scalpel HT
+- Schwalbe
+- Racing Ray
+- Racing Ralph
+- Monster Gravel
+- Drop Bar MTB
+- Tires
 cover:
-  image: "/images/scalpel-ht-235-tires-side.webp"
-  alt: "Drop bar Cannondale Scalpel HT with 29 x 2.35 Schwalbe Racing Ray and Racing Ralph tires leaning on a wooden fence above a valley"
-  caption: "Photo: Mizu Bikes"
+  image: /images/scalpel-ht-235-tires-side.webp
+  alt: Drop bar Cannondale Scalpel HT with 29 x 2.35 Schwalbe Racing Ray and Racing Ralph tires leaning on a wooden fence above a valley
+  caption: 'Photo: Mizu Bikes'
   relative: false
 draft: false
 ---

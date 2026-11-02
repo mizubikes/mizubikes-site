@@ -1,34 +1,29 @@
 ---
-_edit_last: "2"
-_thumbnail_id: "3522"
-author: mizubikes
-categories:
-  - bike-build
-  - gravel/cx
-  - mountain
-cover:
-  alt: IMG_1597
-  image: /wp-content/uploads/2025/04/IMG_1597.jpg
-date: "2025-04-26T06:12:32+00:00"
-guid: https://mizubikes.com/?p=3538
-parent_post_id: null
-post_id: "3538"
-rank_math_analytic_object_id: "37"
-rank_math_description: Complete hardtail gravel bike drop bar conversion parts list using SRAM AXS and Eagle drivetrain. Boost your gravel performance with this expert guide.
-rank_math_focus_keyword: hardtail gravel bike drop bar conversion
-rank_math_internal_links_processed: "1"
-rank_math_primary_category: "20"
-rank_math_seo_score: "66"
-rank_math_title: 'Hardtail Gravel Bike Drop Bar Conversion: Complete Parts List'
 title: 'Hardtail Gravel Bike Drop Bar Conversion: Complete Parts List'
+date: '2025-04-26T06:12:32+00:00'
+lastmod: 2026-11-01
+description: 'Every part you need to put drop bars on a hardtail mountain bike: AXS shifters, derailleur, cassette, brakes for post mount frames and cockpit. Updated with what I actually used.'
 url: /hardtail-gravel-bike-dropbar-conversion/
-
+categories:
+- Bike Builds
+- Gravel
+- Mountain
+cover:
+  alt: Cannondale Scalpel HT hardtail set up for a drop bar gravel conversion
+  image: /wp-content/uploads/2025/04/IMG_1597.jpg
+  relative: false
 ---
+
 Upgrading a hardtail mountain bike into a gravel beast with a drop bar setup is easier than ever with SRAM's AXS wireless components. Here’s the complete list of parts needed to pull off a clean and functional **hardtail gravel bike drop bar conversion**. Choosing the right parts ensures your bike remains fast, durable, and comfortable across all kinds of terrain.
+
+> **Update (October 2026): here's what I actually used.** The finished build went with **SRAM Rival XPLR AXS** shifters and derailleur and **Garbaruk's 13-speed 10-52 cassette**, not the GX Eagle AXS mix below. That gets you Eagle's 520% range with 13 gears and road-style shifting. For brakes, I used Wolf Tooth post-mount-to-flat-mount adapters (+20mm) with standard road calipers, which is option 2 below. Full parts list, weight (18 lb 7 oz) and setup notes: **[Mountain Bike to Gravel Bike Conversion: Garbaruk 10-52 13-Speed Build](/posts/mtb-to-gravel-garbaruk-10-52/)**. The GX Eagle AXS route below still works and is often cheaper on the used market.
+
+*Mizubikes may earn a commission from links in this post.*
+
 
 ### Essential Parts Needed for a Hardtail Gravel Bike Drop Bar Conversion
 
-{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-25-230958.png" alt="" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-25-230958.png" alt="SRAM AXS drop bar conversion parts for a hardtail mountain bike" >}}
 
 - [**SRAM Force eTap AXS Drop Bar Shifters** (wireless)](https://amzn.to/4d8KMDf)
 - **[SRAM GX Eagle AXS Rear Derailleur](https://amzn.to/4lJk5c5)**
@@ -45,8 +40,8 @@ Upgrading a hardtail mountain bike into a gravel beast with a drop bar setup is 
 
 Most mountain bike frames, including hardtails, use **post mount brake calipers**. This is an important detail when selecting brakes for your drop bar conversion. You have three solid options:
 
-- **SRAM Red, Force, or Rival AXS Brake Calipers** with post mount compatibility (less common, but available)
-- Use **a flat mount to post mount adapter** if you're running standard SRAM road calipers
+- **Post mount road hydraulic calipers** that work with road levers. They exist, but they're hard to find and selection is limited
+- **A post mount to flat mount adapter** (like [Wolf Tooth's](https://www.amazon.com/s?k=Wolf+Tooth+post+mount+to+flat+mount+adapter&tag=mizubikes-web-20)) so you can run standard SRAM road calipers. This is what I used, and it's the easiest option
 - Run a **SRAM mountain bike brake caliper** like Level or G2, which fits post mount and pairs well with SRAM shifters (check for lever compatibility)
 
 ### Why Drop Bars and a Hardtail Frame Make the Perfect Combo
@@ -74,3 +69,6 @@ With AXS wireless technology, you also eliminate cable clutter entirely, making 
 - **Use the SRAM AXS App:** Customize shift behavior and check battery life with ease.
 - **Fine-Tune Tire Pressure:** Wider tires allow lower pressures, improving comfort without sacrificing speed.
 - **Invest in Good Bar Tape:** Comfortable bar tape makes a noticeable difference on long rides.
+- **Size the Stem for Drop Bars, Not Flat Bars:** A mountain bike front end is longer and taller than a gravel bike's. Expect to go much shorter on the stem than you'd guess.
+
+For the reasoning behind converting a hardtail at all, start with [Hardtail Gravel Bike Conversion: My Cannondale Scalpel HT Gravel Build](/hardtail-gravel-bike-conversion/). If your frame is UDH and you're wondering whether a 13-speed XPLR derailleur will work, [check the dropout before you commit to SRAM 1x](/posts/udh-sram-1x13-gravel-frame-compatibility/).

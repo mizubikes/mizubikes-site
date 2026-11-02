@@ -1,14 +1,21 @@
 ---
-title: "Crux 5 vs Road Bike: Is the Quiver Killer Finally Here?"
+title: 'Crux 5 vs Road Bike: Is the Quiver Killer Finally Here?'
 date: 2026-05-28
-description: "The Crux 5 weighs 789g, clears 55mm tires, and borrows aero shaping from the Tarmac SL8. Here's the honest case for replacing your road bike with one."
+lastmod: 2026-11-01
+description: The Crux 5 weighs 789g, clears 55mm tires, and borrows aero shaping from the Tarmac SL8. Here's the honest case for replacing your road bike with one.
 slug: crux-5-quiver-killer-road-bike
-categories: ["Gravel"]
-tags: ["Specialized", "Crux", "Gravel Racing", "Opinion", "Road Bikes"]
+categories:
+- Gravel
+tags:
+- Specialized
+- Crux
+- Gravel Racing
+- Opinion
+- Road Bikes
 cover:
-  image: "/images/specialized-crux-5-sworks.webp"
-  alt: "2026 Specialized S-Works Crux 5 in black"
-  caption: "Photo: Specialized"
+  image: /images/specialized-crux-5-sworks.webp
+  alt: 2026 Specialized S-Works Crux 5 in black
+  caption: 'Photo: Specialized'
   relative: false
 draft: false
 ---
@@ -16,6 +23,15 @@ draft: false
 The Crux 5 launched today, and most of the coverage is focused on what it means for gravel racing. Fair enough — that's what Specialized built it for. But I keep staring at the spec sheet thinking about a different question: at what point does a bike like this make a dedicated road bike redundant for most riders?
 
 I think we're getting close.
+
+| | S-Works Crux 5 | S-Works Tarmac SL8 | S-Works Tarmac SL9 |
+|---|---|---|---|
+| Claimed frame weight | 789 g | 685 g | 687 g |
+| Max tire clearance | 55 mm | 32 mm | 32 mm |
+| Drivetrain | 1x only | 1x or 2x | 1x or 2x, UDH |
+| Built for | Gravel racing | Road racing | Road racing |
+
+That 104g gap is the whole argument in one number. The rest of this post is about whether anything else in that table matters for the way you actually ride.
 
 ## The Weight Argument Is Real
 
@@ -58,3 +74,9 @@ You get a better gravel bike than whatever you're currently running. And you get
 The two-bike quiver of road and gravel made sense when the categories were more distinct. The Crux 5 is evidence that the lines are blurring fast. I don't think we're quite at the point where one bike genuinely does everything — the 1x drivetrain and the integrated cockpit still impose some constraints. But we're close enough that the question is worth asking seriously.
 
 For a lot of riders, the honest answer might be: one Crux 5, two wheelsets, and a lot more money left in your pocket.
+
+## Update: the Tarmac SL9 doesn't change the math (November 2026)
+
+Specialized has since launched the [Tarmac SL9](/posts/specialized-tarmac-sl9-launch/). Its claimed frame weight is 687g, 2g heavier than the SL8, and tire clearance is still 32mm. So the gap between the Crux 5 and the newest Tarmac is the same roughly 100g, and the Crux still clears tires more than 20mm wider. The SL9 is a better crit and road race bike. As a do-everything bike, the Crux 5 argument hasn't changed.
+
+If you go the one-bike route, the 1x gearing is the real tradeoff, and I break down what you give up in [1x vs 2x road gearing with 13-speed SRAM XPLR](/posts/1x-vs-2x-road-gearing-sram-xplr-13-speed/). For the full Crux 5 spec and build breakdown, see [Specialized Crux 5: The Gravel Race Bike Goes Full Aero](/posts/specialized-crux-5-2026/). And if the second wheelset is the plan, [ENVE G SES vs Zipp 303 XPLR](/posts/enve-g-ses-vs-zipp-303-xplr-gravel-wheels/) covers the gravel side, and [whether the Zipp 454 NSW is still worth it](/posts/zipp-454-nsw-still-worth-it/) covers road wheels.

@@ -1,14 +1,20 @@
 ---
-title: "Why I'm Finally Thinking About Switching to SRAM"
+title: Why I'm Finally Thinking About Switching to SRAM
 date: 2026-06-16
-description: "I've been on Shimano Ultegra since the R8100 launched. Here's why SRAM Force E1 is finally making me reconsider."
+description: I've been on Shimano Ultegra since the R8100 launched. Here's why SRAM Force E1 is finally making me reconsider.
 slug: finally-trying-sram-force-e1
-categories: ["Road"]
-tags: ["SRAM", "Force E1", "Groupset", "Shimano", "Ultegra"]
+categories:
+- Road
+tags:
+- SRAM
+- Force E1
+- Groupset
+- Shimano
+- Ultegra
 cover:
-  image: "/images/finally-trying-sram-force-e1.webp"
-  alt: "SRAM Force E1 AXS groupset components laid out"
-  caption: "Photo: SRAM"
+  image: /images/finally-trying-sram-force-e1.webp
+  alt: SRAM Force E1 AXS groupset components laid out
+  caption: 'Photo: SRAM'
   relative: false
 draft: false
 ---

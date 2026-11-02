@@ -1,14 +1,24 @@
 ---
-title: "Why I Chose the Stumpjumper 15 Alloy for My Trail Build"
+title: Why I Chose the Stumpjumper 15 Alloy for My Trail Build
 date: 2026-07-08
-description: "Part one of my Stumpjumper 15 Alloy build series: why an alloy frameset on sale beat a carbon build, and what the GENIE platform actually gets you."
+description: 'Part one of my Stumpjumper 15 Alloy build series: why an alloy frameset on sale beat a carbon build, and what the GENIE platform actually gets you.'
 slug: stumpjumper-15-alloy-build
-categories: ["Bike Builds", "Mountain"]
-tags: ["Stumpjumper 15", "Specialized", "Trail Bike", "Bike Build", "GENIE Shock", "Mullet", "Cascade Components", "Aluminum Frame"]
+categories:
+- Bike Builds
+- Mountain
+tags:
+- Stumpjumper 15
+- Specialized
+- Trail Bike
+- Bike Build
+- GENIE Shock
+- Mullet
+- Cascade Components
+- Aluminum Frame
 cover:
-  image: "/images/stumpjumper-15-alloy-build.webp"
-  alt: "Completed Specialized Stumpjumper 15 Alloy trail bike build leaning against a tree"
-  caption: "Photo: Mizubikes"
+  image: /images/stumpjumper-15-alloy-build.webp
+  alt: Completed Specialized Stumpjumper 15 Alloy trail bike build leaning against a tree
+  caption: 'Photo: Mizubikes'
   relative: false
 draft: false
 ---

@@ -1,14 +1,20 @@
 ---
-title: "Specialized Tarmac SL9 Is Official: Here's What Actually Changed"
+title: 'Specialized Tarmac SL9 Is Official: Here''s What Actually Changed'
 date: 2026-06-30
-description: "Specialized has officially launched the S-Works Tarmac SL9, calling it the fastest road bike it's ever made. Here's what's real, what's marketing, and how it stacks up against the SL8."
+description: Specialized has officially launched the S-Works Tarmac SL9, calling it the fastest road bike it's ever made. Here's what's real, what's marketing, and how it stacks up against the SL8.
 slug: specialized-tarmac-sl9-launch
-categories: ["Road"]
-tags: ["Specialized", "Tarmac", "Road Bikes", "Bike Tech", "New Bikes"]
+categories:
+- Road
+tags:
+- Specialized
+- Tarmac
+- Road Bikes
+- Bike Tech
+- New Bikes
 cover:
-  image: "/images/specialized-tarmac-sl9-launch.webp"
-  alt: "Specialized S-Works Tarmac SL9 road bike"
-  caption: "Photo: Specialized"
+  image: /images/specialized-tarmac-sl9-launch.webp
+  alt: Specialized S-Works Tarmac SL9 road bike
+  caption: 'Photo: Specialized'
   relative: false
 draft: false
 ---

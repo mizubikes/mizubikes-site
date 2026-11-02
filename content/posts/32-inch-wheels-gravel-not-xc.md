@@ -1,14 +1,20 @@
 ---
-title: "32-Inch Wheels Make More Sense for Gravel Than XC — And Scott Just Proved It"
+title: 32-Inch Wheels Make More Sense for Gravel Than XC — And Scott Just Proved It
 date: 2026-05-26
-description: "Scott's 32-inch gravel prototype headed to Unbound makes a compelling case that bigger wheels belong in gravel racing before they ever belong in XC."
+description: Scott's 32-inch gravel prototype headed to Unbound makes a compelling case that bigger wheels belong in gravel racing before they ever belong in XC.
 slug: 32-inch-wheels-gravel-not-xc
-categories: ["Gravel"]
-tags: ["Scott", "32-inch wheels", "Unbound", "gravel racing", "wheel tech"]
+categories:
+- Gravel
+tags:
+- Scott
+- 32-inch wheels
+- Unbound
+- gravel racing
+- wheel tech
 cover:
-  image: "/images/scott-32-gravel-jones-unbound.webp"
-  alt: "Scott 32-inch aero gravel prototype built for Unbound 2026 — Cameron Jones' build"
-  caption: "Photo: Scott Sports"
+  image: /images/scott-32-gravel-jones-unbound.webp
+  alt: Scott 32-inch aero gravel prototype built for Unbound 2026 — Cameron Jones' build
+  caption: 'Photo: Scott Sports'
   relative: false
 draft: false
 ---

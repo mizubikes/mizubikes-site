@@ -1,14 +1,20 @@
 ---
-title: "1x vs 2x Road Gearing: What You Actually Give Up with 13-Speed SRAM XPLR"
+title: '1x vs 2x Road Gearing: What You Actually Give Up with 13-Speed SRAM XPLR'
 date: 2026-09-11
-description: "I ran the numbers on SRAM's 13-speed Force XPLR 1x against a standard 2x road setup. The gaps and total range aren't what most people assume."
+description: I ran the numbers on SRAM's 13-speed Force XPLR 1x against a standard 2x road setup. The gaps and total range aren't what most people assume.
 slug: 1x-vs-2x-road-gearing-sram-xplr-13-speed
-categories: ["Road"]
-tags: ["SRAM Force XPLR", "1x", "2x", "Gearing", "Road Bike"]
+categories:
+- Road
+tags:
+- SRAM Force XPLR
+- 1x
+- 2x
+- Gearing
+- Road Bike
 cover:
-  image: "/images/xplr-drivetrain-cover.webp"
-  alt: "SRAM Force XPLR 13-speed 1x drivetrain on a Cannondale SuperSix Evo"
-  caption: "Photo: Mizu Bikes"
+  image: /images/xplr-drivetrain-cover.webp
+  alt: SRAM Force XPLR 13-speed 1x drivetrain on a Cannondale SuperSix Evo
+  caption: 'Photo: Mizu Bikes'
   relative: false
 draft: false
 ---

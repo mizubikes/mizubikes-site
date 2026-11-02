@@ -1,13 +1,20 @@
 ---
-title: "The Specialized Epic 9 Is Here. My Epic 8 Evo Isn't Going Anywhere."
+title: The Specialized Epic 9 Is Here. My Epic 8 Evo Isn't Going Anywhere.
 date: 2026-04-28
-tags: ["specialized", "epic 9", "epic 8 evo", "mountain bike", "xc"]
+lastmod: 2026-11-01
+description: 'Epic 9 vs Epic 8 Evo from an Epic 8 Evo owner: storage, headset routing, mechanical droppers, price, and why I''m keeping mine. Updated November 2026.'
 categories:
-  - mountain
-description: "The Epic 9 just dropped. As someone already on an Epic 8 Evo, here's where I honestly landed."
+- Mountain
+tags:
+- specialized
+- epic 9
+- epic 8 evo
+- mountain bike
+- xc
 cover:
-  image: "/images/epic8-evo.png"
-  alt: "My Specialized Epic 8 Evo"
+  image: /images/epic8-evo.png
+  alt: My Specialized Epic 8 Evo
+  relative: false
 ---
 
 The Epic 9 dropped today. It's lighter, it's faster, and Specialized will tell you it's the best XC race bike ever made. They're probably right.
@@ -31,3 +38,11 @@ The price doesn't help either. $7,499.99 is where the Epic 9 starts. That's the 
 There's also no Evo yet. The Epic 9 consolidates the whole lineup into one bike, which is clean from a product perspective, but the trail-oriented variant hasn't shown up. Maybe it will. When it does, I'll be paying attention.
 
 Until then, my Epic 8 Evo is exactly where I want it. And honestly? If you've been thinking about getting into the Epic platform, now might be a great time to watch the used market. A lot of Epic 8s are about to get listed.
+
+## Six Months Later (November 2026)
+
+Still no Epic 9 Evo that I can find, and my Epic 8 Evo is still the bike I grab for anything with real descending in it. If you're shopping used, the checklist is short. Check the main pivot and rocker bearings, confirm the SWAT door latches cleanly, and ask whether the shock has been serviced. If you're buying one to set up like mine, the parts that made the biggest difference were a [OneUp V3 dropper](https://www.amazon.com/s?k=OneUp+V3+dropper+post&tag=mizubikes-web-20) and tires with real sidewalls.
+
+For the full spec-by-spec breakdown, see [Epic 8 vs Epic 9: What Actually Changed and Should You Upgrade?](/posts/specialized-epic-8-vs-epic-9-should-you-upgrade/). If buying used makes you nervous, [this guide to transferable warranties](/transferable-warranties/) covers which brands carry coverage over to a second owner.
+
+*Mizubikes may earn a commission from links in this post.*

@@ -1,14 +1,20 @@
 ---
-title: "ENVE G SES Gravel Wheels: The 4.5 Pro and 6.7 Pro Go Wider Than Ever"
+title: 'ENVE G SES Gravel Wheels: The 4.5 Pro and 6.7 Pro Go Wider Than Ever'
 date: 2026-05-14
-description: "ENVE's new G SES gravel wheels push rim widths to 35mm internal on the flagship 6.7 Pro. Here's what separates the three models and who they're actually for."
+description: ENVE's new G SES gravel wheels push rim widths to 35mm internal on the flagship 6.7 Pro. Here's what separates the three models and who they're actually for.
 slug: enve-g-ses-gravel-wheels-2026
-categories: ["Gravel"]
-tags: ["ENVE", "wheels", "gravel racing", "aerodynamics", "gear"]
+categories:
+- Gravel
+tags:
+- ENVE
+- wheels
+- gravel racing
+- aerodynamics
+- gear
 cover:
-  image: "/images/enve-g-ses-67-pro-rear.webp"
-  alt: "ENVE G SES 6.7 Pro rear gravel wheel, silver"
-  caption: "Photo: ENVE Composites"
+  image: /images/enve-g-ses-67-pro-rear.webp
+  alt: ENVE G SES 6.7 Pro rear gravel wheel, silver
+  caption: 'Photo: ENVE Composites'
   relative: false
 draft: false
 ---

@@ -1,14 +1,19 @@
 ---
-title: "Best Gravel Tires for Mixed Pavement and Dirt in 2026"
+title: Best Gravel Tires for Mixed Pavement and Dirt in 2026
 date: 2026-10-24
-description: "Our 2026 picks for gravel tires that handle both pavement and dirt, with lab rolling-resistance data, weights, prices and the tradeoffs behind each choice."
+description: Our 2026 picks for gravel tires that handle both pavement and dirt, with lab rolling-resistance data, weights, prices and the tradeoffs behind each choice.
 slug: best-gravel-tires-mixed-pavement-dirt-2026
-categories: ["Gravel"]
-tags: ["gravel tires", "tire reviews", "mixed terrain", "tubeless"]
+categories:
+- Gravel
+tags:
+- gravel tires
+- tire reviews
+- mixed terrain
+- tubeless
 cover:
-  image: "/images/best-gravel-tires-mixed-pavement-dirt-2026-cover.webp"
-  alt: "Cyclist riding a gravel bike on a dirt road that runs alongside paved highway"
-  caption: "Photo: fleglsebastian7 / Pixabay"
+  image: /images/best-gravel-tires-mixed-pavement-dirt-2026-cover.webp
+  alt: Cyclist riding a gravel bike on a dirt road that runs alongside paved highway
+  caption: 'Photo: fleglsebastian7 / Pixabay'
   relative: false
 draft: false
 ---

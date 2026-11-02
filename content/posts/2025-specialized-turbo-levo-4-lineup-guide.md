@@ -1,24 +1,13 @@
 ---
-_edit_last: "2"
-_thumbnail_id: "3480"
-author: mizubikes
-categories:
-  - buying-and-selling
-  - e-bike
-  - mountain
-date: "2025-04-09T15:54:00+00:00"
-guid: https://mizubikes.com/?p=3479
-parent_post_id: null
-post_id: "3479"
-rank_math_analytic_object_id: "34"
-rank_math_description: Explore the 2025 Specialized Turbo Levo 4 lineup. Compare motor power, components, and prices across the S-Works, Pro, Expert, and Comp models.
-rank_math_focus_keyword: 2025 Specialized Turbo Levo 4
-rank_math_internal_links_processed: "1"
-rank_math_primary_category: "4"
-rank_math_seo_score: "70"
-rank_math_title: 2025 Specialized Turbo Levo 4 Lineup | Model Comparison &amp; Buying Guide
 title: '2025 Specialized Turbo Levo 4 Lineup: The Ultimate Buyer''s Guide &amp; Comparison'
+date: '2025-04-09T15:54:00+00:00'
+description: Explore the 2025 Specialized Turbo Levo 4 lineup. Compare motor power, components, and prices across the S-Works, Pro, Expert, and Comp models.
 url: /2025-specialized-turbo-levo-4-lineup-guide/
+categories:
+- E-Bike
+- Mountain
+tags:
+- Buying Guide
 ---
 
 ![2025 Specialized Turbo Levo 4](/wp-content/uploads/2025/04/Screenshot-2025-04-08-220800.png)

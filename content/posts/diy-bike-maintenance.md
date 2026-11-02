@@ -1,25 +1,16 @@
 ---
-_oembed_230678f4b39fab86f68d32ebb4eaf3e1: <iframe title="How to Save Money on Bike Repairs | DIY Maintenance and Cost Breakdown" width="1290" height="726" src="https://www.youtube.com/embed/Fh0zcVl-7WA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-_oembed_time_230678f4b39fab86f68d32ebb4eaf3e1: "1740072901"
-_thumbnail_id: "3424"
-_wp_old_slug: how-to-save-money-on-bike-repairs-a-step-by-step-guide-to-diy-maintenance
-author: mizubikes
+title: 'How to Save Money on Bike Repairs: A Step-by-Step Guide to DIY Maintenance'
+date: '2025-02-20T17:19:08+00:00'
+url: /diy-bike-maintenance/
 categories:
-  - bike-repair
-  - mountain
+- Bike Repair
+- Mountain
 cover:
   alt: EAE7684B-9BD9-48E6-8B9B-705ED1CDD181_Original
   image: /wp-content/uploads/2025/02/EAE7684B-9BD9-48E6-8B9B-705ED1CDD181_Original.jpg
-date: "2025-02-20T17:19:08+00:00"
-guid: https://mizubikes.com/?p=3420
-parent_post_id: null
-post_id: "3420"
-rank_math_analytic_object_id: "7"
-rank_math_internal_links_processed: "1"
-title: 'How to Save Money on Bike Repairs: A Step-by-Step Guide to DIY Maintenance'
-url: /diy-bike-maintenance/
-
+  relative: false
 ---
+
 https://youtu.be/Fh0zcVl-7WA
 
 **Is your bike in need of some repairs, but you’re shocked by the high price tag from the bike shop?**  

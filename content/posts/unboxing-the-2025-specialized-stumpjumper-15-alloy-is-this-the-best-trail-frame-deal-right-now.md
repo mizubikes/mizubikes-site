@@ -1,25 +1,17 @@
 ---
-_oembed_24e54fa7303fc80d5fc6e3b0aca4c28a: '{{unknown}}'
-_thumbnail_id: "3441"
-author: mizubikes
+title: Unboxing the 2025 Specialized Stumpjumper 15 Alloy – Is This the Best Trail Frame Deal Right Now?
+date: '2025-03-27T04:44:38+00:00'
+url: /unboxing-the-2025-specialized-stumpjumper-15-alloy-is-this-the-best-trail-frame-deal-right-now/
 categories:
-  - buying-and-selling
-  - deals
-  - mountain
+- Deals
+- Mountain
+tags:
+- Buying Guide
 cover:
   alt: Screenshot 2025-03-26 214519
   image: /wp-content/uploads/2025/03/Screenshot-2025-03-26-214519.png
-date: "2025-03-27T04:44:38+00:00"
-guid: https://mizubikes.com/?p=3438
-parent_post_id: null
-post_id: "3438"
-rank_math_analytic_object_id: "4"
-rank_math_internal_links_processed: "1"
-title: Unboxing the 2025 Specialized Stumpjumper 15 Alloy – Is This the Best Trail Frame Deal Right Now?
-url: /unboxing-the-2025-specialized-stumpjumper-15-alloy-is-this-the-best-trail-frame-deal-right-now/
-
+  relative: false
 ---
-{{< figure src="/wp-content/uploads/2025/03/Screenshot-2025-03-26-214705-1024x562.png" alt="" caption="" >}}
 
 Today I’m unboxing a frame I’ve been genuinely excited to try — the **2025 Specialized Stumpjumper 15 Alloy**.
 
@@ -38,8 +30,6 @@ The silhouette is instantly recognizable — classic Stumpjumper — but with on
 Like the carbon version, the alloy frame ditches the single-sidearm design from the previous Stumpjumper and Stumpjumper EVO. Personally, I think it really **cleans up the look**. Combined with the **matte black finish**, the frame looks modern and stealthy in person.
 
 * * *
-
-{{< figure src="/wp-content/uploads/2025/03/Screenshot-2025-03-26-214322-1.png" alt="" caption="" >}}
 
 ## What’s in the Box?
 
@@ -104,8 +94,6 @@ Last year I broke a carbon frame, and it made me rethink what “tough” actual
 * * *
 
 ## Shock Talk: The GENIE in the Frame
-
-{{< figure src="/wp-content/uploads/2025/03/image.png" alt="" caption="" >}}
 
 One interesting piece of this build is the shock: a **FOX FLOAT Performance rear shock** tuned with **Specialized's GENIE technology**. This setup is designed specifically for the new suspension kinematics on the Stumpjumper 15 platform, offering more mid-stroke support and a well-balanced feel.
 

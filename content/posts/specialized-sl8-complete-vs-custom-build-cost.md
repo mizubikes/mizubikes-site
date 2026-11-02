@@ -1,33 +1,17 @@
 ---
-_thumbnail_id: "3297"
-_wp_old_date: "2020-01-28"
-author: mizubikes
-blocksy_demos_imported_post: "1"
-blocksy_post_meta_options:
-  styles_descriptor:
-    google_fonts: []
-    styles:
-      desktop: ""
-      mobile: ""
-      tablet: ""
-    version: 6
+title: 'Complete or Custom Build Cost Comparison: Specialized SL8 Pro Di2'
+date: '2023-08-14T12:25:00+00:00'
+url: /posts/specialized-sl8-complete-vs-custom-build-cost/
+aliases:
+- /malesuada-proin-libero-nunc-consequat-interdum/
 categories:
-  - road
+- Road
 cover:
   alt: Image 1-13-24 at 8.14 PM
   image: /wp-content/uploads/2020/01/Image-1-13-24-at-8.14 PM-e1738914698416.jpeg
-date: "2023-08-14T12:25:00+00:00"
-guid: https://startersites.io/blocksy/blog/?p=2632
-parent_post_id: null
-post_id: "2632"
-rank_math_analytic_object_id: "15"
-rank_math_internal_links_processed: "1"
-stackable_optimized_css: ""
-stackable_optimized_css_raw: []
-title: 'Complete or Custom Build Cost Comparison: Specialized SL8 Pro Di2'
-url: /malesuada-proin-libero-nunc-consequat-interdum/
-
+  relative: false
 ---
+
 Is it cheaper to buy a complete built bike or build one from the frame up?
 
 I recently had a chance to check out the Specialized SL8 Pro Ultegra Di2 complete bike at my local bike shop and it got me thinking, is it cheaper to build one from the frame up or buy the complete bike. So I decided to do a cost breakdown of what the individual parts cost, both at MSRP and at some of the deal prices I've seen lately. Let's start with the what you get when you buy the Specialized SL8 Pro Ultegra Di2 model

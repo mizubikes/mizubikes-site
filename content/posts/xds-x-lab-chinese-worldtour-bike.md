@@ -1,14 +1,21 @@
 ---
-title: "XDS X-Lab: The Chinese Brand Racing in the WorldTour (And Now Selling to You)"
+title: 'XDS X-Lab: The Chinese Brand Racing in the WorldTour (And Now Selling to You)'
 date: 2026-05-10
-description: "XDS just launched X-Lab globally with nine bikes, including the AD9 WorldTour racer. Here's what they offer, what they cost, and whether they're worth your attention."
+description: XDS just launched X-Lab globally with nine bikes, including the AD9 WorldTour racer. Here's what they offer, what they cost, and whether they're worth your attention.
 slug: xds-x-lab-worldtour-chinese-bike
-categories: ["Road"]
-tags: ["XDS", "X-Lab", "Chinese bikes", "WorldTour", "Aero bikes", "Bike tech"]
+categories:
+- Road
+tags:
+- XDS
+- X-Lab
+- Chinese bikes
+- WorldTour
+- Aero bikes
+- Bike tech
 cover:
-  image: "/images/xds-x-lab-ad9.webp"
-  alt: "XDS X-Lab AD9 aero road bike in blue fade colorway"
-  caption: "Photo: XDS / X-Lab"
+  image: /images/xds-x-lab-ad9.webp
+  alt: XDS X-Lab AD9 aero road bike in blue fade colorway
+  caption: 'Photo: XDS / X-Lab'
   relative: false
 draft: false
 ---

@@ -1,14 +1,19 @@
 ---
-title: "Canyon's New Grail CFR Is the Aeroad of Gravel Bikes"
+title: Canyon's New Grail CFR Is the Aeroad of Gravel Bikes
 date: 2026-05-02
-description: "Canyon's unreleased Grail CFR prototype was spotted at The Traka in Girona this week — and it looks exactly like what you'd expect if you've been watching the Aeroad family tree grow."
+description: Canyon's unreleased Grail CFR prototype was spotted at The Traka in Girona this week — and it looks exactly like what you'd expect if you've been watching the Aeroad family tree grow.
 slug: canyon-grail-cfr-2026
-categories: ["Gravel"]
-tags: ["Canyon", "Gravel Bikes", "Traka", "New Releases"]
+categories:
+- Gravel
+tags:
+- Canyon
+- Gravel Bikes
+- Traka
+- New Releases
 cover:
-  image: "/images/canyon-grail-cfr-traka-2026.webp"
-  alt: "Bradyn Lange racing the unreleased Canyon Grail CFR prototype at The Traka 2026 in Girona"
-  caption: "Photo: Canyon x DT Swiss All-Terrain Racing / Instagram"
+  image: /images/canyon-grail-cfr-traka-2026.webp
+  alt: Bradyn Lange racing the unreleased Canyon Grail CFR prototype at The Traka 2026 in Girona
+  caption: 'Photo: Canyon x DT Swiss All-Terrain Racing / Instagram'
   relative: false
 draft: false
 ---

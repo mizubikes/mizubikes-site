@@ -1,14 +1,18 @@
 ---
-title: "Gravel Bikes Keep Getting Faster. I'm Not Sure Anyone Asked For That."
+title: Gravel Bikes Keep Getting Faster. I'm Not Sure Anyone Asked For That.
 date: 2026-09-17
-description: "Every new gravel race bike claims more speed and more aero. At some point the honest question is: speed toward what, exactly?"
+description: 'Every new gravel race bike claims more speed and more aero. At some point the honest question is: speed toward what, exactly?'
 slug: gravel-bikes-do-we-need-more-speed
-categories: ["Gravel"]
-tags: ["Editorial", "Gravel Bikes", "Aero"]
+categories:
+- Gravel
+tags:
+- Editorial
+- Gravel Bikes
+- Aero
 cover:
-  image: "/images/gravel-bikes-do-we-need-more-speed.webp"
-  alt: "Specialized Crux gravel bike leaning on a fence rail in front of golden hills"
-  caption: "Photo: Mizubikes"
+  image: /images/gravel-bikes-do-we-need-more-speed.webp
+  alt: Specialized Crux gravel bike leaning on a fence rail in front of golden hills
+  caption: 'Photo: Mizubikes'
   relative: false
 draft: false
 ---
