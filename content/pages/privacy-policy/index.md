@@ -1,59 +1,50 @@
 ---
-_wp_page_template: default
-author: mizubikes
-date: "2025-02-05T07:49:47+00:00"
-draft: "true"
-guid: https://mizubikes.com/?page_id=3
-parent_post_id: null
-post_id: "3"
 title: Privacy Policy
-url: /
-
+date: 2026-11-01
+lastmod: 2026-11-01
+description: 'How Mizubikes collects and uses data, including analytics, affiliate links, embedded videos and cookies.'
+url: /privacy-policy/
+draft: false
 ---
-## Who we are
 
-**Suggested text:** Our website address is: https://mizubikes.com.
+*Last updated: November 1, 2026*
 
-## Comments
+This policy explains what information mizubikes.com ("Mizubikes," "I," "me") collects when you visit, and how it's used. The short version: this site has no accounts, comments or sign-up forms, and I don't sell your personal information. The data collected comes from the analytics, affiliate and video services described below.
 
-**Suggested text:** When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
+## Information collected
 
-An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.
+**Analytics.** This site uses Google Analytics 4 to understand which pages people read and how they find the site. Google Analytics uses cookies and similar technologies to collect information such as pages viewed, time on page, approximate location (city or region), device and browser type, and the site that referred you. This information is aggregated and isn't used to identify you personally. You can learn how Google uses this data at [Google's privacy and terms page](https://policies.google.com/technologies/partner-sites), and you can opt out with the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout). This site also respects your browser's Do Not Track setting for analytics.
 
-## Media
+**Hosting.** The site is hosted by Netlify, which may log standard technical information such as IP addresses and request times to deliver and secure the site.
 
-**Suggested text:** If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
+**Email.** If you email me, I'll have your email address and anything you include in your message. I use it only to reply.
+
+## Affiliate links
+
+Some links on this site are affiliate links, including links to Amazon, Canyon (through AvantLink) and Worldwide Cyclery. If you click one and make a purchase, the retailer or affiliate network may use cookies to record that the sale came from this site so I can earn a commission. Those cookies are set by the retailer or network, not by Mizubikes, and are governed by their privacy policies.
+
+Mizubikes is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate I earn from qualifying purchases.
+
+## Embedded content
+
+Posts may include embedded YouTube videos. Embedded videos behave as if you visited YouTube directly, and YouTube may set cookies and collect data about your interaction with the video. See [Google's privacy policy](https://policies.google.com/privacy) for details.
+
+## Advertising
+
+Mizubikes may display ads from third-party advertising networks in the future. If it does, this policy will be updated to describe the networks used and how to opt out of personalized advertising before those ads appear.
 
 ## Cookies
 
-**Suggested text:** If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
+You can block or delete cookies in your browser settings. Blocking cookies won't stop you from reading the site, but it may stop analytics from counting your visit and affiliate links from crediting this site.
 
-If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
+## Children's privacy
 
-When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select "Remember Me", your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
+This site isn't directed at children under 13, and I don't knowingly collect personal information from children.
 
-If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.
+## Your choices
 
-## Embedded content from other websites
+Depending on where you live, you may have rights to access or delete personal information about you. Because Mizubikes doesn't keep user accounts or personal profiles, most data is held by the services above, and the opt-out links in this policy are the most direct way to control it. For any privacy question, email [mizubikes@gmail.com](mailto:mizubikes@gmail.com).
 
-**Suggested text:** Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+## Changes
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
-
-## Who we share your data with
-
-**Suggested text:** If you request a password reset, your IP address will be included in the reset email.
-
-## How long we retain your data
-
-**Suggested text:** If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.
-
-For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
-
-## What rights you have over your data
-
-**Suggested text:** If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
-
-## Where your data is sent
-
-**Suggested text:** Visitor comments may be checked through an automated spam detection service.
+If this policy changes, I'll update the date at the top of this page.

@@ -1,4 +1,5 @@
 ---
+draft: true
 author: mizubikes
 blocksy_demos_imported_post: "1"
 blocksy_post_meta_options:

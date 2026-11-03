@@ -30,6 +30,8 @@ params:
     apple_touch_icon: /apple-touch-icon.png
     safari_pinned_tab: /favicon.svg
     disableHLJS: true
+  footer:
+    text: 'As an Amazon Associate I earn from qualifying purchases. [About](/about/) · [Contact](/contact/) · [Privacy Policy](/privacy-policy/)'
 markup:
   goldmark:
     renderer:
