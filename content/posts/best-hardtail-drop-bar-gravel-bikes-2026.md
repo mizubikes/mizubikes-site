@@ -1,6 +1,7 @@
 ---
 title: Best Hardtail and Drop Bar Full Suspension Bikes for Gravel in 2026
 date: 2026-04-19
+lastmod: 2026-11-01
 description: From classic hardtail conversions to purpose-built drop bar full suspension bikes, here's what to ride if you want to go beyond what a traditional gravel bike can handle.
 slug: best-hardtail-drop-bar-gravel-bikes-2026
 categories:
@@ -136,3 +137,5 @@ The one thing that's clear: this isn't a niche experiment anymore. Drop bar moun
 ---
 
 *Building your own drop bar hardtail? Check out our [Cannondale Scalpel HT gravel build](/hardtail-gravel-bike-dropbar-conversion/) for the full parts list and process.*
+
+Prefer to build one yourself? Here's my [Cannondale Scalpel HT hardtail gravel conversion with Garbaruk's 10-52](/posts/mtb-to-gravel-garbaruk-10-52/), the [drop bar conversion parts list](/hardtail-gravel-bike-dropbar-conversion/), and what happened when I [put 2.35" MTB tires on it](/posts/2-35-mtb-tires-drop-bar-gravel-bike/).

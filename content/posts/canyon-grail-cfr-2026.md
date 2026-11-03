@@ -1,6 +1,7 @@
 ---
 title: Canyon's New Grail CFR Is the Aeroad of Gravel Bikes
 date: 2026-05-02
+lastmod: 2026-11-01
 description: Canyon's unreleased Grail CFR prototype was spotted at The Traka in Girona this week — and it looks exactly like what you'd expect if you've been watching the Aeroad family tree grow.
 slug: canyon-grail-cfr-2026
 categories:
@@ -17,6 +18,8 @@ cover:
   relative: false
 draft: false
 ---
+
+> **Update: it launched.** Canyon released the third-generation Grail in September 2026 with 57mm tire clearance and a 1x-only design. Here's [what actually changed](/posts/canyon-grail-2027-launch/), and how its clearance compares in the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/).
 
 If you've been paying attention to Canyon's releases over the past year, there's a pattern worth noting. The Aeroad CFR established the template — deep aero tubes, integrated cockpit, dropped seatstays, built purely for speed. Then last month the Endurace CFR showed up and took that same design language, added a little more tire clearance, and called it an endurance road bike. We actually [covered that one here on Mizubikes](https://mizubikes.com/posts/canyon-endurace-cfr-2026/). Now at The Traka in Girona this week, Canyon's new team — the Canyon x DT Swiss All-Terrain Racing squad — showed up to race on what appears to be an unreleased Grail CFR, and it's exactly what you'd expect if you've been following the thread: Aeroad DNA, pushed all the way into gravel.
 
@@ -47,3 +50,5 @@ Second at one of Europe's biggest gravel races, on an unreleased prototype. Cany
 No official announcement yet. No pricing, no geometry numbers, no release window. Canyon's playbook here looks identical to what they did with the suspension fork RIFT version last year — race it publicly at Traka, let the photos do the talking, then officially release it sometime later in the season. Given the Endurace CFR just dropped last month and Unbound is coming up in June, a formal Grail CFR announcement before or after Unbound feels like the logical window.
 
 What's clear is that Canyon has been deliberate about this. The Aeroad, the Endurace CFR, and now the Grail CFR aren't three separate product decisions — they're a coordinated lineup built around the same engineering and aesthetic philosophy. Road, endurance, gravel. Same bones. Different surfaces. If you've been holding out for Canyon to properly bring the Grail into the big-tire era, Traka 2026 is your signal that it's on the way.
+
+The road bike this design came from: [Canyon Endurace CFR 2026 Review](/posts/canyon-endurace-cfr-2026/). Its big gravel rival: the [Specialized Crux 5](/posts/specialized-crux-5-2026/).

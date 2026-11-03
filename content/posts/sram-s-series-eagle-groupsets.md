@@ -1,6 +1,7 @@
 ---
 title: 'SRAM Eagle S-Series: One Lineup to Replace Nine Drivetrains'
 date: 2026-04-20
+lastmod: 2026-11-01
 description: SRAM's new Eagle S-Series simplifies its entire mountain bike drivetrain lineup — S100, S200, and S500 replace SX through XX1 mechanical and AXS.
 categories:
 - Mountain
@@ -90,3 +91,5 @@ More hands-on impressions to come once we see these in the wild. But on paper, S
 *Sources: [BikeRadar](https://www.bikeradar.com/news/sram-new-s-series-components), [Escape Collective](https://escapecollective.com/sram-eagle-s-series-consolidates-nine-groupsets-into-three/)*
 
 *Product images courtesy of [SRAM](https://www.sram.com/en/sram/mountain/series/eagle-drivetrain/collection)*
+
+How the mechanical options compare: [SRAM Eagle 70 and 90 vs Shimano SLX, XT and XTR](/new-sram-eagle-70-and-90-vs-shimano-slx-xt-xtr-full-drivetrain-comparison-with-weight-and-price/). For a real-world Eagle-range build on drop bars, see my [Garbaruk 10-52 gravel conversion](/posts/mtb-to-gravel-garbaruk-10-52/).

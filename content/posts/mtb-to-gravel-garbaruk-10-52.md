@@ -1,6 +1,7 @@
 ---
 title: 'Mountain Bike to Gravel Bike Conversion: Garbaruk 10-52 13-Speed Build'
 date: 2026-10-03
+lastmod: 2026-11-01
 description: I converted a Cannondale Scalpel HT hardtail into a drop-bar gravel bike with SRAM Rival XPLR and Garbaruk's 13-speed 10-52 cassette. Here's what an MTB to gravel conversion takes and what you give up.
 slug: mtb-to-gravel-garbaruk-10-52
 categories:
@@ -121,3 +122,5 @@ If you already have a hardtail sitting in the garage, yes. The extra tire cleara
 The part I'd recommend regardless of frame is the Garbaruk cassette. If you run XPLR and you've ever run out of gears on a steep climb, this gets you Eagle's range while keeping 13 speeds. No new derailleur, no switch to a mountain group, just a five-minute mod. If you're curious how 13-speed XPLR behaves at the other extreme, I ran it 1x on a road bike in my [SuperSix EVO build](/posts/cannondale-supersix-evo-2026-xplr-1x-build/).
 
 I'll keep riding this and post a full ride review once I've got real miles on it. If you want to catch that, [subscribe on YouTube](https://www.youtube.com/@mizubikes).
+
+This build started as two planning posts: [Hardtail Gravel Bike Conversion: My Cannondale Scalpel HT](/hardtail-gravel-bike-conversion/) and the original drop bar parts list. Since then I've tried [2.35" MTB tires on it](/posts/2-35-mtb-tires-drop-bar-gravel-bike/). If you'd rather buy than build, see [the best hardtail and drop bar full suspension gravel bikes of 2026](/posts/best-hardtail-drop-bar-gravel-bikes-2026/).

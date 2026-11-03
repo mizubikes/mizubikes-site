@@ -1,6 +1,7 @@
 ---
 title: 'XDS X-Lab: The Chinese Brand Racing in the WorldTour (And Now Selling to You)'
 date: 2026-05-10
+lastmod: 2026-11-01
 description: XDS just launched X-Lab globally with nine bikes, including the AD9 WorldTour racer. Here's what they offer, what they cost, and whether they're worth your attention.
 slug: xds-x-lab-worldtour-chinese-bike
 categories:
@@ -103,3 +104,5 @@ For now, the bikes look real. The prices are genuinely competitive. And the AD9 
 ---
 
 *X-Lab bikes are available in the US through [Jenson USA](https://www.jensonusa.com) and directly at [xds.co](https://xds.co). The AD9 frameset starts at $3,751; complete AD9 with Dura-Ace Di2 is $7,999.*
+
+**Update (November 2026):** X-Lab has since started selling bare framesets in the US, with the AD9 at $3,500, RT9 at $3,000 and GT8 gravel at $2,000. It also showed its first mountain bike, an XC race prototype. The background on why a factory brand going direct isn't new is in [The Factory Always Wins: Why XDS Selling Its Own Bikes Is Just Giant's Playbook](/posts/xds-giant-oem-manufacturer-goes-direct/). If the GT8 is on your list, compare clearance in the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/).

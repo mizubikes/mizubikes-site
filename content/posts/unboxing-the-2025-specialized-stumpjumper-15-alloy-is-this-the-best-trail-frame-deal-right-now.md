@@ -1,6 +1,8 @@
 ---
-title: Unboxing the 2025 Specialized Stumpjumper 15 Alloy – Is This the Best Trail Frame Deal Right Now?
+title: 'Specialized Stumpjumper 15 Alloy Frameset Unboxing: Is It the Best Trail Frame Deal?'
 date: '2025-03-27T04:44:38+00:00'
+lastmod: 2026-11-01
+description: 'Unboxing the Specialized Stumpjumper 15 Alloy frameset: what''s in the box, why the alloy frame beats carbon on value, drivetrain flexibility and the GENIE shock.'
 url: /unboxing-the-2025-specialized-stumpjumper-15-alloy-is-this-the-best-trail-frame-deal-right-now/
 categories:
 - Deals
@@ -8,7 +10,7 @@ categories:
 tags:
 - Buying Guide
 cover:
-  alt: Screenshot 2025-03-26 214519
+  alt: Specialized Stumpjumper 15 Alloy frameset
   image: /wp-content/uploads/2025/03/Screenshot-2025-03-26-214519.png
   relative: false
 ---
@@ -17,7 +19,7 @@ Today I’m unboxing a frame I’ve been genuinely excited to try — the **2025
 
 The real kicker? It’s **on sale right now**, marked down from **$2299 to $1499** for the **frame and shock**. At this price point, it’s easily one of the best values in the trail bike world today. To be honest, I’ve always had a hard time justifying alloy frames priced north of $2000, so this discount made the decision much easier.
 
-[https://www.specialized.com/us/en/stumpjumper-15-alloy-frameset/p/4221699?color=5366740-4221699](https://www.specialized.com/us/en/stumpjumper-15-alloy-frameset/p/4221699?color=5366740-4221699)
+[See the Stumpjumper 15 Alloy frameset on Specialized](https://www.specialized.com/us/en/stumpjumper-15-alloy-frameset/p/4221699?color=5366740-4221699). *Pricing was current in March 2025.*
 
 Let’s get into what you’re getting and why this might be the smart buy over its carbon counterpart.
 
@@ -33,12 +35,11 @@ Like the carbon version, the alloy frame ditches the single-sidearm design from 
 
 ## What’s in the Box?
 
-{{< figure src="/wp-content/uploads/2025/03/Screenshot-2025-03-26-214845.png" alt="" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/03/Screenshot-2025-03-26-214845.png" alt="Specialized Stumpjumper 15 Alloy frameset box contents" >}}
 
 Specialized didn’t skimp on the extras. Here’s everything that comes in the box:
 
-Printed manual (still no digital option — why not?)
-
+- Printed manual (still no digital option — why not?)
 - Headset
 - Right-handed water bottle cage
 - Volume spacers for the GENIE shock
@@ -111,4 +112,4 @@ I’ll be building mine up soon and will have a full review once I get it out on
 
 Have thoughts on the new Stumpy 15? Planning a build? Let me know in the comments — **Shimano or SRAM? Coil or air? Full 29 or mullet?** I’d love to hear what setup you’d run.
 
-And if you're into unboxings, builds, and honest ride reviews, **follow along — I’ll be posting the full build and first ride impressions soon**.
+**Update: the build is done.** I moved my parts over from the Stumpjumper EVO ([here's how I planned the frame swap](/how-to-plan-a-mountain-bike-frame-swap/)), and the finished bike and first ride impressions are in [Why I Chose the Stumpjumper 15 Alloy for My Trail Build](/posts/stumpjumper-15-alloy-build/). I went back to a mullet setup with the [Cascade Components 156mm mullet link](/posts/stumpjumper-15-cascade-mullet-link/).

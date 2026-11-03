@@ -1,6 +1,7 @@
 ---
 title: 'New Specialized Crux: Everything We Know Before Unbound'
 date: 2026-04-19
+lastmod: 2026-11-01
 description: A new Specialized Crux is coming — and it looks nothing like its cyclocross roots. Here's everything the rumor mill is saying ahead of an expected Unbound reveal.
 slug: new-specialized-crux-2027
 categories:
@@ -16,6 +17,8 @@ cover:
   caption: My 2024 Specialized Crux
   relative: false
 ---
+
+> **Update: it's official.** The new bike launched on May 28, 2026 as the **Crux 5**, and much of the speculation below turned out right: 55mm clearance, 1x only, aero shaping from the Tarmac. Full breakdown: [Specialized Crux 5: The Gravel Race Bike Goes Full Aero](/posts/specialized-crux-5-2026/). My take: [The Crux 5 Is the Gravel Bike We Knew Was Coming](/posts/specialized-crux-5-opinion/).
 
 The current Specialized Crux has been around in essentially the same form since 2021. That's a long time in a category that's been moving as fast as gravel. Aero gravel bikes have gone mainstream, tire clearance expectations have climbed, and integrated cockpits are now table stakes at the top end. The Crux, for all its strengths — and it's still one of the lightest gravel bikes you can buy — is showing its age.
 

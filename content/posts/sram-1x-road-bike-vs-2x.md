@@ -1,6 +1,7 @@
 ---
 title: 'SRAM 1x on a Road Bike: Is It Finally Worth It?'
 date: 2026-07-14
+lastmod: 2026-11-01
 description: 1x road drivetrains are showing up more in the pro peloton. Here's what those setups actually look like, what SRAM Force XPLR changes, and whether your bike can even run it.
 slug: sram-1x-road-bike-vs-2x
 categories:
@@ -69,3 +70,5 @@ For most riders, 2x is still the more complete answer. Force E1 2x with a 10-36T
 Where XPLR makes sense is if your riding doesn't demand sustained high-speed flat performance, if you want a mechanically simpler setup, or if you're building a bike that genuinely lives between road and gravel. The 13-speed cassette and purpose-built derailleur make it a real system rather than a workaround — but you need the right frame to run it, and you need to be honest about whether the top gear is enough for how you actually ride.
 
 What Vingegaard is doing is interesting to watch. It's also purpose-built for a flat stage at race pace, swapped off the bike before the mountains. The XPLR version is the one that makes sense for the rest of us — but only on the right bike.
+
+I ended up building one: my [SuperSix Evo with 13-speed Force XPLR 1x](/posts/cannondale-supersix-evo-2026-xplr-1x-build/). The cog-by-cog comparison is in [1x vs 2x Road Gearing: What You Actually Give Up](/posts/1x-vs-2x-road-gearing-sram-xplr-13-speed/), and [check your dropout](/posts/udh-sram-1x13-gravel-frame-compatibility/) before you buy a Full Mount derailleur.

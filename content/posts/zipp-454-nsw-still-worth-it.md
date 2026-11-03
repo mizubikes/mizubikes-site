@@ -1,6 +1,7 @@
 ---
-title: 'Zipp 454 NSW Review: Is the Aging Flagship Still Worth It in 2025?'
+title: 'Zipp 454 NSW Review: Is the Aging Flagship Still Worth It in 2026?'
 date: 2026-06-06
+lastmod: 2026-11-01
 description: The Zipp 454 NSW has been around a few years, but the sawtooth rim is still in production. Here's how it stacks up against today's best aero road wheels.
 slug: zipp-454-nsw-still-worth-it
 categories:
@@ -59,3 +60,5 @@ At $1,600 for a used pair of 454 NSW wheels, you're buying a current-spec rim wi
 The 454 is not the newest wheel on the market. It's not the lightest, and the Cognition hub doesn't have the serviceability reputation of a DT Swiss 180. But the sawtooth rim is still Zipp's flagship aero concept — the same one they're charging $4,450 for today — and the 23mm internal width means you're set up for the tire sizes that actually make sense for road and mixed-surface riding in 2025.
 
 The technology hasn't aged. The price just came down.
+
+Want to hear the hubs? My [freehub sound check](/freehub-sound-check/) puts a Zipp 303 next to ENVE and Roval. For gravel, see [ENVE G SES vs Zipp 303 XPLR](/posts/enve-g-ses-vs-zipp-303-xplr-gravel-wheels/). And the 454 NSWs fit right in on a build like the [2026 SuperSix Evo](/posts/cannondale-supersix-evo-2026-xplr-1x-build/).

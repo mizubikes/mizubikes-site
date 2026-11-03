@@ -1,6 +1,7 @@
 ---
 title: 'Specialized Tarmac SL9: What the Leaks Actually Show'
 date: 2026-06-06
+lastmod: 2026-11-01
 description: Leaked images and video of the Specialized Tarmac SL9 have been spreading since May. Here's what the spy shots actually tell us — and what they don't.
 slug: specialized-tarmac-sl9-leak
 categories:
@@ -18,6 +19,8 @@ cover:
   relative: false
 draft: false
 ---
+
+> **Update: the Tarmac SL9 is official.** It launched June 30, 2026 with a claimed 687g frame, 32mm tire clearance and a UDH hanger, in S-Works builds only at first. Everything that actually changed: [Specialized Tarmac SL9 Is Official: Here's What Actually Changed](/posts/specialized-tarmac-sl9-launch/).
 
 Something is coming from Specialized, and the cycling internet has been trying to figure out exactly what since May 12.
 

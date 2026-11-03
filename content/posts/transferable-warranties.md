@@ -1,12 +1,14 @@
 ---
 title: 'Save Money and Reduce Risk: Buying a Used Bike with Transferable Warranties'
 date: '2025-02-25T16:00:00+00:00'
+lastmod: 2026-11-01
+description: 'Which bike brands'' warranties transfer to a second owner? Trek, Specialized, Santa Cruz, Ibis and Cannondale compared, and how to lower the risk of buying used.'
 url: /transferable-warranties/
 categories: []
 tags:
 - Buying Guide
 cover:
-  alt: Image 2-20-25 at 1.53 PM
+  alt: Bike brand warranty policies for second owners compared
   image: /wp-content/uploads/2025/02/Image-2-20-25-at-1.53 PM.jpeg
   relative: false
 ---
@@ -29,31 +31,31 @@ Here’s a list of manufacturers that do and don't offer **transferable warranti
 
 Trek offers a **3-year warranty** on frames and forks for subsequent owners. If you purchase a used Trek bike, you’ll still be covered for up to 3 years from the original purchase date, as long as you have proof of the original receipt. This warranty is a great option for those buying used Trek models like the **Madone** or **Emonda**, ensuring you’re covered in case of defects in the frame or fork.
 
-{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-1.53 PM.jpeg" alt="" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-1.53 PM.jpeg" alt="Trek warranty policy for subsequent owners" >}}
 
 #### 2\. **Specialized: 2-Year Transferable Warranty**
 
 Specialized offers a **2-year warranty** for second-hand owners, which is based on the original retail purchase date. This warranty covers defects in materials and workmanship for both the frame and components. If you’re buying a used **Tarmac** or **Stumpjumper**, this warranty provides protection against potential issues, so you can ride with confidence. Just like with Trek, ensure you ask for the **original receipt** from the seller to activate the warranty.
 
-{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-2.06 PM.jpeg" alt="" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-2.06 PM.jpeg" alt="Specialized warranty policy for second owners" >}}
 
 #### 3\. **Santa Cruz Bicycles: Lifetime Warranty (Non-Transferable)**
 
 Santa Cruz offers a **lifetime warranty** on frames for the original owner. Unfortunately, this warranty is **non-transferable**, meaning if you buy a used Santa Cruz bike, you won’t be able to benefit from the lifetime frame coverage. However, Santa Cruz offers **reduced-cost replacements** for damaged frames in non-warranty situations (such as accidents or crashes), which still provides some value. If you’re considering a used **Bronson** or **Nomad**, be sure to confirm the warranty details with the seller.
 
-{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-2.10 PM.jpeg" alt="" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-2.10 PM.jpeg" alt="Santa Cruz Bicycles lifetime warranty policy" >}}
 
 #### 4\. **Ibis Cycles: Lifetime Non-Transferable Warranty**
 
 Ibis provides a **lifetime warranty** on frames, but it’s **non-transferable**. If you buy a used Ibis bike, the warranty will only apply to the original owner. For frames purchased after January 1, 2023, you’ll need to register the bike within 1 year of purchase. For older frames, the warranty lasts **7 years** for the original registered owner, with **2 years of coverage** for non-registered frames. Paint and finish are covered for **1 year**. If you’re buying a used Ibis, ask the seller for the **original receipt** and check the bike’s registration status to see if you can still claim any warranty benefits.
 
-{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-1.50 PM.jpeg" alt="" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-1.50 PM.jpeg" alt="Ibis Cycles lifetime warranty policy" >}}
 
 #### 5\. **Cannondale: Lifetime Non-Transferable Frame Warranty, Transferable Components Warranty**
 
 Cannondale offers a **lifetime warranty** on frames, but like Ibis, this warranty is **non-transferable**. However, Cannondale provides a **1-year transferable warranty** on components, which could be valuable when buying used bikes. If you’re interested in a used **SuperSix Evo** or **Jekyll**, be sure to ask the seller for the **original receipt** to ensure that the warranty for components can be transferred to you.
 
-{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-1.38 PM.jpeg" alt="" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/02/Image-2-20-25-at-1.38 PM.jpeg" alt="Cannondale warranty policy" >}}
 
 ### How Transferable Warranties Reduce Risk
 
@@ -66,3 +68,7 @@ A **transferable warranty** allows you to **mitigate the risks** of buying a use
 Buying a used bike is a smart way to save money without compromising on quality. Whether you’re purchasing a **Trek**, **Specialized**, or **Ibis**, the right **transferable warranty** can give you peace of mind knowing you’re covered if something goes wrong with the frame or components. Always ask the seller for the **original receipt**, and check the warranty details to ensure you’re fully protected. It’s also a good idea to **check the manufacturer’s current warranty policies**, as they may have updated terms that could affect your coverage. With a transferable warranty in place, you can confidently ride your new (used) bike, knowing that you’ve made a great investment while reducing potential risks.
 
 Take the plunge into buying a used bike and enjoy significant savings—just be sure to do your homework on warranties, verify the policy with the manufacturer, and keep the receipt handy!
+
+*Policy check: Specialized's global warranty policy still gives subsequent owners two years from the original retail purchase date as of November 2026 ([source](https://support.specialized.com/home/warranty/warranty-policies/global-warranty-policy)). The other brands' terms are as of February 2025. Warranty policies change, so confirm with the brand before you buy.*
+
+If you're shopping used right now, the Epic 9 launch put a lot of Epic 8s on the market. Here's [what changed between the Epic 8 and Epic 9](/posts/specialized-epic-8-vs-epic-9-should-you-upgrade/). And if you have parts to sell to fund the purchase, here's [what eBay takes when you sell bike parts](/make-extra-money-selling-bike-parts-on-ebay-fees-tips-explained/).

@@ -1,6 +1,7 @@
 ---
 title: ENVE Melee Frameset Unboxing & Weight Check — Is It Still Worth It in 2026?
 date: 2026-05-13
+lastmod: 2026-11-01
 description: The ENVE Melee is four years old and still $4,800 at retail. We unbox the Damascus colorway, weigh the frame and fork, and break down whether it still makes sense in 2026.
 categories:
 - Road
@@ -59,3 +60,5 @@ At full retail the frameset is around $4,800 — add the proprietary seatpost an
 But new frames are showing up in the $3,000–$3,500 range, and used ones go lower. At that price, the conversation changes a lot. You're getting a premium carbon frame from a brand that knows what they're doing, with a ride quality that honestly doesn't get talked about enough.
 
 If you're chasing the absolute latest aero performance, there are better options. But if you want something fast, well-balanced, and built to last — and you buy it at the right price — the Melee still makes a lot of sense in 2026.
+
+For more frame weigh-ins, see [CAAD13 vs SuperSix Evo Hi-Mod](/cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/) and the [Factor Ostro VAM V2 build](/posts/factor-ostro-vam-v2-build/). ENVE's gravel wheels are covered in [ENVE G SES: The 4.5 Pro and 6.7 Pro](/posts/enve-g-ses-gravel-wheels-2026/).

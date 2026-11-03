@@ -1,6 +1,7 @@
 ---
 title: 'Canyon Endurace CFR 2026 Review: Should You Buy It?'
 date: 2026-04-11
+lastmod: 2026-11-01
 description: The new Canyon Endurace CFR just launched with Aeroad geometry, Aeroad looks, and 35mm tire clearance. We break down who it's actually for and whether it's worth $10,499.
 categories:
 - Road
@@ -101,3 +102,5 @@ It's not really an endurance bike. The name is just what's left over from what i
 
 **Score: 8.5/10**
 A focused, well-executed bike for a specific rider. Canyon didn't try to make the Endurace CFR everything to everyone — and that's exactly why it works.
+
+The Endurace CFR's aero shaping carried straight over to gravel: [the Grail CFR prototype](/posts/canyon-grail-cfr-2026/) looked like its dirt twin, and the [third-generation Grail](/posts/canyon-grail-2027-launch/) launched in September. If you're cross-shopping endurance road bikes, the [Specialized Aethos](/specialized-aethos-review/) is the light, non-aero alternative, and [Crux 5 vs road bike](/posts/crux-5-quiver-killer-road-bike/) makes the case for one bike that does both.

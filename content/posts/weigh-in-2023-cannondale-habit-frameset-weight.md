@@ -1,16 +1,18 @@
 ---
-title: 'Weigh In: 2023 Cannondale Habit Frameset Weight'
+title: '2023 Cannondale Habit LT Frame Weight: Real Frameset Weigh-In'
 date: '2023-08-03T07:38:00+00:00'
+lastmod: 2026-11-01
+description: 'Real weight of the 2023 Cannondale Habit LT frame: 2.8kg without the shock, 3,363g complete with a Fox Float X shock, hardware, axle and seat clamp.'
 url: /weigh-in-2023-cannondale-habit-frameset-weight/
 categories:
 - Mountain
 cover:
-  alt: IMG_7936 (1)
+  alt: 2023 Cannondale Habit LT frame on a scale
   image: /wp-content/uploads/2025/02/IMG_7936-1.jpg
   relative: false
 ---
 
-{{< figure src="/wp-content/uploads/2025/02/IMG%5F7936-1.jpg" alt="" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/02/IMG_7936-1.jpg" alt="2023 Cannondale Habit LT frame weigh-in" >}}
 
 ## Weighing the frame and the frame components before building the 2023 Cannondale Habit LT
 
@@ -36,3 +38,5 @@ Seat Clamp: 15g
 - Rear Axle: 43g
 - Seat Clamp: 15g
 - Total Weight: 3363g
+
+The fork for this build was a 2022 Fox 36 Grip 2, and [I weighed that too](/weigh-in-2022-fox-36-grip-2-29-150mm-travel/). If you're comparing frame weights across bikes, I've also weighed the [ENVE Melee frameset](/posts/enve-melee-unboxing/) and compared [Cannondale's CAAD13 against the SuperSix Evo Hi-Mod](/cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/).

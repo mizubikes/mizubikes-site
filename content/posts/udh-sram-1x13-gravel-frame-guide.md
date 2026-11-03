@@ -1,6 +1,7 @@
 ---
 title: Buying a New or Used Gravel Bike? Check the Dropout Before You Commit to SRAM 1x13
 date: 2026-05-19
+lastmod: 2026-11-01
 description: If you want to run SRAM's 13-speed XPLR groupset, your frame needs a UDH dropout. Here's what to look for on popular gravel bikes — new and used.
 slug: udh-sram-1x13-gravel-frame-compatibility
 categories:
@@ -116,3 +117,5 @@ If you're building up a gravel bike around SRAM's 13-speed XPLR ecosystem, the r
 [![SRAM Force XPLR AXS Rear Derailleur](/images/sram-force-xplr-rear-derailleur.jpg)](https://amzn.to/4uXlGyD)
 
 [View on Amazon →](https://amzn.to/4uXlGyD)
+
+Builds that put this into practice: my [SuperSix Evo 13-speed XPLR road build](/posts/cannondale-supersix-evo-2026-xplr-1x-build/) and [Garbaruk 10-52 hardtail gravel conversion](/posts/mtb-to-gravel-garbaruk-10-52/). The gear math is in [SRAM Force E1 2x vs 1x vs XPLR](/posts/sram-force-e1-gearing-gear-jumps/).

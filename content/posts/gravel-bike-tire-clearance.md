@@ -1,6 +1,7 @@
 ---
 title: 'Gravel Bike Tire Clearance: What the Specs Don''t Tell You'
 date: 2026-04-11
+lastmod: 2026-11-01
 description: Manufacturer tire clearance specs are conservative by design. Here's what real-world clearance actually looks like on the Specialized Crux — and how it compares to the competition.
 categories:
 - Gravel
@@ -105,3 +106,5 @@ For now, the current Crux is still a genuinely capable race bike. But if you're 
 ---
 
 Full tire fit details and real-world clearance shots are in the video. **[Watch here.](https://youtu.be/Kh6dhfXV9ZI)**
+
+For published max tire sizes across the newest frames, see the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/). I put this to the test with [2.35" MTB tires on a drop bar gravel bike](/posts/2-35-mtb-tires-drop-bar-gravel-bike/), and if your frame has room, here are my picks for [gravel tires for mixed pavement and dirt](/posts/best-gravel-tires-mixed-pavement-dirt-2026/).

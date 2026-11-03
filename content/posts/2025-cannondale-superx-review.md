@@ -1,16 +1,18 @@
 ---
 title: '2025 Cannondale SuperX Review: The Ultimate Gravel and Cyclocross Race Bike'
 date: '2025-02-18T06:23:20+00:00'
+lastmod: 2026-11-01
+description: 'The 2025 Cannondale SuperX gets 50mm tire clearance, standard rear spacing, a threaded BB and aero tubes. What changed and whether it''s worth it for CX and gravel racing.'
 url: /2025-cannondale-superx-review/
 categories:
 - Gravel
 cover:
-  alt: Screenshot 2025-02-17 215023
+  alt: 2025 Cannondale SuperX gravel and cyclocross race bike
   image: /wp-content/uploads/2025/02/Screenshot-2025-02-17-215023-3.png
   relative: false
 ---
 
-{{< figure src="/wp-content/uploads/2025/02/Screenshot-2025-02-17-215023-3.png" alt="" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/02/Screenshot-2025-02-17-215023-3.png" alt="2025 Cannondale SuperX" caption="2025 Cannondale SuperX. Image: Cannondale" >}}
 
 **Why the 2025 Cannondale Super X Is the Ultimate Gravel Race Bike**
 
@@ -32,9 +34,9 @@ The fork and rear triangle have been optimized for improved airflow, helping rid
 
 The previous Super X was already generous with **45mm tire clearance**, but the **2025 model takes it further** by allowing tires up to **50mm**. This increased clearance makes it:
 
-✔️ **More comfortable on rough terrain**  
-✔️ **More capable for long-distance gravel rides**  
-✔️ **More stable on loose surfaces**
+- **More comfortable on rough terrain**
+- **More capable for long-distance gravel rides**
+- **More stable on loose surfaces**
 
 Whether you're racing cyclocross, tackling fast-paced gravel races, or exploring rugged backroads, the added clearance means **more grip, more control, and more confidence.**
 
@@ -46,9 +48,9 @@ A major complaint about previous Super X models was **Cannondale’s AI-offset r
 
 That issue is **gone in the 2025 model**—now featuring **standard rear wheel spacing**. This means:
 
-✅ **Easier wheel swaps** – Use any standard gravel or CX wheels.  
-✅ **More drivetrain compatibility** – No more worrying about AI-specific setups.  
-✅ **Simplified maintenance** – A more rider-friendly approach.
+- **Easier wheel swaps** – Use any standard gravel or CX wheels.
+- **More drivetrain compatibility** – No more worrying about AI-specific setups.
+- **Simplified maintenance** – A more rider-friendly approach.
 
 If you’ve ever struggled to find compatible wheels for an older Super X, this change alone makes the upgrade **100% worth it.**
 
@@ -60,9 +62,9 @@ Cannondale finally replaced the **PressFit BB30 bottom bracket** with a **68mm t
 
 ### **Why is this important?**
 
-🔹 **Less creaking** – No more annoying noises from the bottom bracket.  
-🔹 **Easier servicing** – A more mechanic-friendly design.  
-🔹 **Better long-term durability** – Threaded BBs are more robust for high-mileage riders.
+- **Less creaking** – No more annoying noises from the bottom bracket.
+- **Easier servicing** – A more mechanic-friendly design.
+- **Better long-term durability** – Threaded BBs are more robust for high-mileage riders.
 
 This is one of the **most significant upgrades** for anyone who’s had to deal with bottom bracket issues in the past.
 
@@ -74,9 +76,9 @@ The **new internal cable routing** gives the **Super X a sleeker, more modern ap
 
 Unlike older models where cables were partially exposed, the **2025 Super X tucks everything neatly inside the frame**, which means:
 
-✔️ **Less drag** for more speed.  
-✔️ **Better protection from mud and debris** in tough conditions.  
-✔️ **A cleaner, more premium look.**
+- **Less drag** for more speed.
+- **Better protection from mud and debris** in tough conditions.
+- **A cleaner, more premium look.**
 
 This is especially great for riders using **electronic shifting**, as it eliminates extra clutter and makes the bike look as high-end as it performs.
 
@@ -86,9 +88,9 @@ This is especially great for riders using **electronic shifting**, as it elimina
 
 The **Super X has always been a cyclocross-first bike**, but with these updates, it now has a **much wider range of use cases.**
 
-🔹 **Still a CX race machine** – With aggressive handling and fast acceleration.  
-🔹 **More stable for gravel** – With improved compliance and tire clearance.  
-🔹 **More comfortable for endurance riding** – Thanks to refined geometry and a more forgiving ride.
+- **Still a CX race machine** – With aggressive handling and fast acceleration.
+- **More stable for gravel** – With improved compliance and tire clearance.
+- **More comfortable for endurance riding** – Thanks to refined geometry and a more forgiving ride.
 
 For riders who want **one bike that can handle both cyclocross and gravel racing**, the **Super X is now the ultimate weapon.**
 
@@ -100,13 +102,18 @@ The **2025 Cannondale Super X** isn’t just a minor refresh—it’s a **major 
 
 ### **Key Upgrades That Make This Bike Special:**
 
-✔️ **Aero-enhanced frame inspired by the SuperSix EVO**  
-✔️ **50mm tire clearance for better off-road capability**  
-✔️ **Standard rear wheel compatibility (no more AI-offset!)**  
-✔️ **Threaded bottom bracket for easy maintenance**  
-✔️ **Internal cable routing for a cleaner, faster setup**
+- **Aero-enhanced frame inspired by the SuperSix EVO**
+- **50mm tire clearance for better off-road capability**
+- **Standard rear wheel compatibility (no more AI-offset!)**
+- **Threaded bottom bracket for easy maintenance**
+- **Internal cable routing for a cleaner, faster setup**
 
 If you’re looking for a **fast, race-ready bike** that can handle **everything from cyclocross to high-speed gravel**, the **2025 Super X is the best version yet.**
 
-🔗 **Check out the full details on Cannondale’s official website:**  
-👉 [2025 Cannondale Super X](https://www.cannondale.com/en-us/bikes/road/gravel/superx)
+Check out the full details on Cannondale's site: [2025 Cannondale SuperX](https://www.cannondale.com/en-us/bikes/road/gravel/superx).
+
+## How the SuperX Stacks Up in Late 2026
+
+Since this launch, the gravel race category has moved fast. The [Specialized Crux 5](/posts/specialized-crux-5-2026/) went to 55mm clearance and the [third-generation Canyon Grail](/posts/canyon-grail-2027-launch/) went to 57mm, but both are 1x only. The SuperX's 50mm clearance now sits in the middle of the pack, and it's still one of the few race frames that does both cyclocross and gravel without compromise. For frame-by-frame numbers, see the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/).
+
+If you're planning a 1x setup, check whether your frame has a UDH dropout first. [This guide](/posts/udh-sram-1x13-gravel-frame-compatibility/) explains why it matters for SRAM's 13-speed XPLR, and the [UDH gravel bike list](/posts/udh-compatible-gravel-bikes-2026/) includes the LAB71 SuperX and SuperX 1.

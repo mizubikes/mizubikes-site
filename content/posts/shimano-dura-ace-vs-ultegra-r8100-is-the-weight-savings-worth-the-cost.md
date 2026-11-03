@@ -1,6 +1,8 @@
 ---
 title: 'Shimano Dura-Ace vs. Ultegra R8100: Is the Weight Savings Worth the Cost?'
 date: '2025-03-07T06:36:06+00:00'
+lastmod: 2026-11-01
+description: 'Dura-Ace R9200 vs Ultegra R8100 part by part: weight saved, price difference and cost per gram. The cassette is the best-value upgrade; the crankset is the worst.'
 url: /shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/
 categories:
 - Deals
@@ -8,7 +10,7 @@ categories:
 tags:
 - Buying Guide
 cover:
-  alt: Screenshot 2025-03-06 223438
+  alt: Shimano Dura-Ace R9200 vs Ultegra R8100 groupset comparison
   image: /wp-content/uploads/2025/03/Screenshot-2025-03-06-223438-e1741329359805.png
   relative: false
 ---
@@ -21,7 +23,14 @@ Shimano’s Dura-Ace groupset is its **top-tier** offering, boasting lighter mat
 
 But how much **weight** does Dura-Ace actually save? And how much are you paying for each gram shaved off your bike? Here’s the breakdown:
 
-ComponentDura-Ace Weight (g)Ultegra Weight (g)Weight Saved (g)Cost per Gram Saved ($/g)**Cassette** (11-30T)223297**74****$3.35****Chain**242252**10****$4.20****Rear Derailleur**215262**47****$8.62****Front Derailleur**96116**20****$9.50****Shifters (Pair)**350391**41****$11.32****Crankset (52/36T)**690711**21****$14.76**
+| Component | Dura-Ace (g) | Ultegra (g) | Weight Saved (g) | Cost per Gram Saved |
+|---|---|---|---|---|
+| Cassette (11-30T) | 223 | 297 | **74** | **$3.35** |
+| Chain | 242 | 252 | **10** | **$4.20** |
+| Rear derailleur | 215 | 262 | **47** | **$8.62** |
+| Front derailleur | 96 | 116 | **20** | **$9.50** |
+| Shifters (pair) | 350 | 391 | **41** | **$11.32** |
+| Crankset (52/36T) | 690 | 711 | **21** | **$14.76** |
 
 > **Total Weight Savings:** **316g**  
 **Total Cost Difference:** **$1,711**  
@@ -57,4 +66,21 @@ Upgrading from **Ultegra R8100 to Dura-Ace R9200** offers **noticeable weight sa
 
 **Component Weight and Cost Comparison**
 
-ComponentDura-Ace Weight (g)Ultegra Weight (g)Weight Difference (g)Weight Difference (%)Dura-Ace Cost ($)Ultegra Cost ($)Cost Difference ($)Cost Difference (%)Cost per Gram Saved ($/g)Rear Derailleur2152624717.94%814.99409.99405.0098.76%8.62Front Derailleur961162017.24%449.99259.99190.0073.08%9.50Cassette (11-30T)2232977424.92%359.99111.99248.00221.52%3.35Crankset (52/36T)690711212.95%624.99314.99310.0098.41%14.76Shifters (Pair)3503914110.48%1,537.981,073.98464.0043.21%11.32Brake Calipers (Pair)2292825318.79%Included in ShiftersIncluded in ShiftersN/AN/AN/ARotors (Pair)21221200.00%163.98111.9852.0046.44%N/AChain242252103.97%86.9944.9942.0093.32%4.20Battery535300.00%184.99184.990.000.00%N/A**Total****2,310****2,626****316****12.03%****4,223.90****2,512.90****1,711.00****68.08%****5.42**
+| Component | Dura-Ace (g) | Ultegra (g) | Diff (g) | Diff (%) | Dura-Ace ($) | Ultegra ($) | Cost Diff ($) | Cost Diff (%) | $/g Saved |
+|---|---|---|---|---|---|---|---|---|---|
+| Rear derailleur | 215 | 262 | 47 | 17.94% | 814.99 | 409.99 | 405.00 | 98.76% | 8.62 |
+| Front derailleur | 96 | 116 | 20 | 17.24% | 449.99 | 259.99 | 190.00 | 73.08% | 9.50 |
+| Cassette (11-30T) | 223 | 297 | 74 | 24.92% | 359.99 | 111.99 | 248.00 | 221.52% | 3.35 |
+| Crankset (52/36T) | 690 | 711 | 21 | 2.95% | 624.99 | 314.99 | 310.00 | 98.41% | 14.76 |
+| Shifters (pair) | 350 | 391 | 41 | 10.48% | 1,537.98 | 1,073.98 | 464.00 | 43.21% | 11.32 |
+| Brake calipers (pair) | 229 | 282 | 53 | 18.79% | Incl. in shifters | Incl. in shifters | N/A | N/A | N/A |
+| Rotors (pair) | 212 | 212 | 0 | 0.00% | 163.98 | 111.98 | 52.00 | 46.44% | N/A |
+| Chain | 242 | 252 | 10 | 3.97% | 86.99 | 44.99 | 42.00 | 93.32% | 4.20 |
+| Battery | 53 | 53 | 0 | 0.00% | 184.99 | 184.99 | 0.00 | 0.00% | N/A |
+| **Total** | **2,310** | **2,626** | **316** | **12.03%** | **4,223.90** | **2,512.90** | **1,711.00** | **68.08%** | **5.42** |
+
+## Related Reading
+
+The same cost-per-gram math applies to frames and complete bikes. See [CAAD13 vs SuperSix Evo Hi-Mod](/cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/) and [buying the Tarmac SL8 complete vs building it up](/posts/specialized-sl8-complete-vs-custom-build-cost/). If you're open to switching brands, I wrote about [why I'm finally thinking about switching to SRAM](/posts/finally-trying-sram-force-e1/) and compared [SRAM Force E1 2x vs 1x gearing](/posts/sram-force-e1-gearing-gear-jumps/).
+
+*Prices are US MSRP from early 2025. Shimano road groups are often discounted, so check current prices.*

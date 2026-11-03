@@ -1,6 +1,7 @@
 ---
 title: 32-Inch Wheels Make More Sense for Gravel Than XC — And Scott Just Proved It
 date: 2026-05-26
+lastmod: 2026-11-01
 description: Scott's 32-inch gravel prototype headed to Unbound makes a compelling case that bigger wheels belong in gravel racing before they ever belong in XC.
 slug: 32-inch-wheels-gravel-not-xc
 categories:
@@ -56,3 +57,5 @@ Scott says these bikes will never be sold. "Emporia-only," they called them. The
 Jones and Gemperle are two of the most credible endurance athletes in the sport right now. If either of them finishes at the front on 32-inch wheels at Unbound, this stops being a prototype conversation. And unlike XC — where the infrastructure for a new standard is enormous and slow — the gravel world could turn this around in a season or two. New frames, new wheelsets, done.
 
 XC will probably get to 32-inch eventually. History says it will. But gravel might just beat it there — and Scott is making sure they're first to find out.
+
+The bigger-wheel argument is really a tire argument. I tested the opposite approach, wide MTB tires on 29-inch wheels, in [I Put 2.35" MTB Tires on My Drop Bar Gravel Bike](/posts/2-35-mtb-tires-drop-bar-gravel-bike/). For how far mainstream frames have pushed clearance, see the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/). And if you want the drop-bar-MTB option today, here are [the best hardtail and drop bar full suspension gravel bikes](/posts/best-hardtail-drop-bar-gravel-bikes-2026/).

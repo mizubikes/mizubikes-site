@@ -1,6 +1,7 @@
 ---
 title: Finding an E-Bike for My Wife (And Not Overthinking It)
 date: 2026-06-27
+lastmod: 2026-11-01
 description: How a cyclist who knows too much about bikes shopped for one his wife would actually ride.
 slug: finding-an-ebike-for-my-wife
 categories:
@@ -84,3 +85,5 @@ The ST5+ is available through Jenson USA and X-Lab dealers. If you're in the sam
 ---
 
 *Looking at the XDS X-Lab road and gravel lineup? Check out the full [X-Lab range overview](/posts/xds-x-lab-worldtour-chinese-bike/).*
+
+If you're shopping for yourself and want more power, start with [the best Avinox eMTBs of 2026](/posts/best-avinox-emtb-2026/) or the [Turbo Levo 4 lineup guide](/2025-specialized-turbo-levo-4-lineup-guide/).

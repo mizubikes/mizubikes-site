@@ -1,17 +1,21 @@
 ---
 title: 'How to Save Money on Bike Repairs: A Step-by-Step Guide to DIY Maintenance'
 date: '2025-02-20T17:19:08+00:00'
+lastmod: 2026-11-01
+description: 'A bike shop quoted $940 to fix my friend''s mountain bike. We did the essential repairs ourselves for $215 in parts. Here''s every step, tool and part.'
 url: /diy-bike-maintenance/
 categories:
 - Bike Repair
 - Mountain
 cover:
-  alt: EAE7684B-9BD9-48E6-8B9B-705ED1CDD181_Original
+  alt: Mountain bike in a repair stand for DIY maintenance
   image: /wp-content/uploads/2025/02/EAE7684B-9BD9-48E6-8B9B-705ED1CDD181_Original.jpg
   relative: false
 ---
 
 https://youtu.be/Fh0zcVl-7WA
+
+*Mizubikes may earn a commission from links in this post.*
 
 **Is your bike in need of some repairs, but you’re shocked by the high price tag from the bike shop?**  
 I recently came across a $940 repair quote to fix my friend’s bike, and I knew we could do it ourselves for a fraction of the cost. In this post, I’ll walk you through the steps we took to complete the necessary bike maintenance, save hundreds of dollars, and keep the bike running smoothly. Doing bike repairs yourself isn’t just about saving money—it's also a satisfying way to learn more about your bike and make sure everything is in top shape.
@@ -20,7 +24,24 @@ I recently came across a $940 repair quote to fix my friend’s bike, and I knew
 
 Looking at the original repair quote, here’s what the bike shop suggested and their estimated costs:
 
-**Repair Description****Part Cost****Labor Cost**Replace Rear Tire$25Add Tire Sealant$14$20Replace Chain$33$25Bleed Brakes (Front and Rear)$130Replace Brake Pads$27$20Replace Rear Rotor$40$20Tune Rear Derailleur$45Rebuild Headset$50Inflate Dropper Post$25Grease Frame Pivots$75Rebuild Fox Fork$30$115Rebuild Rear Shock$50$200**Sub Total****$194****$730****Total with Tax****$940**
+| Repair | Part Cost | Labor Cost |
+|---|---|---|
+| Replace rear tire | | $25 |
+| Add tire sealant | $14 | $20 |
+| Replace chain | $33 | $25 |
+| Bleed brakes (front and rear) | | $130 |
+| Replace brake pads | $27 | $20 |
+| Replace rear rotor | $40 | $20 |
+| Tune rear derailleur | | $45 |
+| Rebuild headset | | $50 |
+| Inflate dropper post | | $25 |
+| Grease frame pivots | | $75 |
+| Rebuild Fox fork | $30 | $115 |
+| Rebuild rear shock | $50 | $200 |
+| **Subtotal (as quoted)** | **$194** | **$730** |
+| **Total with tax** | | **$940** |
+
+*Numbers are as written on the shop's quote. The labor line items actually add up to $750, so the quote's own subtotal was off by $20.*
 
 #### Step 1: Evaluate the Bike & Determine Necessary Repairs
 
@@ -116,6 +137,8 @@ Shimano SLX 12 Speed Chain: https://amzn.to/412fkRb
 
 Park Tire Levers: https://amzn.to/4hIspGy
 
-Grease Gun: https://amzn.to/4b9FN4c
+- [Grease Gun](https://amzn.to/4b9FN4c)
 
-Park Grease: https://amzn.to/4gH32na
+- [Park Grease](https://amzn.to/4gH32na)
+
+Want to build up your own kit? Start with the [beginner bike repair tools](/beginner-bike-repair-tools/) I'd buy first, see [which budget tools are worth it and which to skip](/buy-this-not-that-budget-friendly-tools-for-beginner-bike-mechanics/), and add these [10 intermediate bike tools](/intermediate-bike-tools/) once you're doing jobs like the headset rebuild above.

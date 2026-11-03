@@ -1,6 +1,7 @@
 ---
 title: Why I'm Finally Thinking About Switching to SRAM
 date: 2026-06-16
+lastmod: 2026-11-01
 description: I've been on Shimano Ultegra since the R8100 launched. Here's why SRAM Force E1 is finally making me reconsider.
 slug: finally-trying-sram-force-e1
 categories:
@@ -36,3 +37,5 @@ On price: Force E1 comes in around $1,499 on Amazon right now — a significant 
 <a href="https://amzn.to/4v01LPr" target="_blank" rel="noopener">Check current pricing on the SRAM Force E1 AXS groupset on Amazon.</a>
 
 I'm planning a new build around this group. I'm not ready to disclose what it is yet, but more on that soon. Once I have real miles on it I'll report back on whether the improved braking and ergonomics hold up to what the reviews have been saying — and whether SRAM has finally won me over for good.
+
+**Update:** I went through with it. The gear-by-gear math is in [SRAM Force E1 2x vs 1x vs XPLR: Gearing and Gear Jumps Compared](/posts/sram-force-e1-gearing-gear-jumps/), and the finished bike is my [SuperSix Evo 2026 13-speed Force XPLR 1x build](/posts/cannondale-supersix-evo-2026-xplr-1x-build/). For the 1x vs 2x tradeoff on the road, see [1x vs 2x Road Gearing](/posts/1x-vs-2x-road-gearing-sram-xplr-13-speed/).

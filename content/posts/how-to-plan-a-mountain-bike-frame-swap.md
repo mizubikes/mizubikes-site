@@ -1,6 +1,7 @@
 ---
 title: How to Plan a Mountain Bike Frame Swap (Stumpjumper EVO to Stumpjumper 15 Alloy)
 date: '2025-04-21T15:28:00+00:00'
+lastmod: 2026-11-01
 description: Upgrading from a Stumpjumper EVO Alloy to a Stumpjumper 15 Alloy? Learn how to plan a mountain bike frame swap, what parts transfer, and what to replace—especially for mullet builds.
 url: /how-to-plan-a-mountain-bike-frame-swap/
 categories:
@@ -8,7 +9,7 @@ categories:
 - Bike Repair
 - Mountain
 cover:
-  alt: IMG_0855
+  alt: Stumpjumper EVO Alloy and Stumpjumper 15 Alloy frames for a frame swap
   image: /wp-content/uploads/2025/04/IMG_0855.jpg
   relative: false
 ---
@@ -20,6 +21,8 @@ cover:
 If you're considering a similar upgrade, this post will help you avoid surprises and plan the smoothest bike frame swap possible.
 
 * * *
+
+*Mizubikes may earn a commission from links in this post.*
 
 ### Why I’m Doing a Frame Swap
 
@@ -47,7 +50,14 @@ My EVO build has been dialed for trail riding, but the Stumpjumper 15 Alloy offe
 
 ### What Will Transfer to the New Frame
 
-ComponentCarries Over?Notes**Drivetrain**YesXT crankset fits the BSA 73mm threaded bottom bracket**Brakes**With modsSaint brakes work, but the rear hose may need to be replaced**Cockpit**YesBars, stem, and grips transfer directly**Dropper Post**Yes (with shim)30.9mm post works with a 34.9mm shim; a native 34.9mm post would be cleaner**Fork**YesStumpjumper 15 supports both 150mm and 160mm forks—my Lyrik is 160mm**Front Wheel**Yes29" RideFast carbon wheel fits perfectly in the new fork/frame
+| Component | Carries Over? | Notes |
+|---|---|---|
+| Drivetrain | Yes | XT crankset fits the BSA 73mm threaded bottom bracket |
+| Brakes | With mods | Saint brakes work, but the rear hose may need to be replaced |
+| Cockpit | Yes | Bars, stem and grips transfer directly |
+| Dropper post | Yes (with shim) | 30.9mm post works with a 34.9mm shim; a native 34.9mm post would be cleaner |
+| Fork | Yes | Stumpjumper 15 supports both 150mm and 160mm forks; my Lyrik is 160mm |
+| Front wheel | Yes | 29" RideFast carbon wheel fits the new fork and frame |
 
 * * *
 
@@ -65,7 +75,7 @@ Temporary plan: I’ll run a full 29” setup using a matching rear wheel until 
 
 - **Rear brake hose kit** – [Shimano SM-BH90-SB Brake Hose Kit (Saint-compatible)](https://amzn.to/3EiQXaQ)
 - **Shift cable and housing** – [Shimano MTB Optislick Derailleur Cable and Housing Set, Black](https://amzn.to/3RZ24J0)
-- **Dropper post cable kit** – [Shimano MTB Optislick Derailleur Cable and Housing Set, Black](https://amzn.to/3RZ24J0)
+- **Dropper post cable kit** – the same [Shimano Optislick cable and housing set](https://amzn.to/3RZ24J0) works for a cable-actuated dropper
 - **29" rear tire** – [MAXXIS Minion DHR II - 3C MaxxTerra](https://amzn.to/4jHv97B)
 - **Brake bleed kit** – [Shimano Hydraulic Brake Bleed Kit](https://www.amazon.com/dp/B01LX9T3F3?tag=mizubikes-web-20)
 - **Cable cutters** – [Park Tool CN-10 Cable and Housing Cutter](https://amzn.to/3S2OC6S)
@@ -90,4 +100,4 @@ Temporary plan: I’ll run a full 29” setup using a matching rear wheel until 
 
 Now you know how to plan a mountain bike frame swap from start to finish. With a little prep, most components from my EVO build will transfer to the Stumpjumper 15 Alloy. I’ll start with a full 29” setup and switch back to mullet as soon as the link is back in stock.
 
-Stay tuned for the full build reveal and ride impressions coming soon to [mizubikes.com](https://mizubikes.com).
+**Update:** the build is done. The finished bike, the parts I changed along the way and first ride impressions are in [Why I Chose the Stumpjumper 15 Alloy for My Trail Build](/posts/stumpjumper-15-alloy-build/), and the mullet link I was waiting on is covered in [Cascade Components 156mm Mullet Link: More Travel, More Progression](/posts/stumpjumper-15-cascade-mullet-link/).

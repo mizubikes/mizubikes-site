@@ -1,6 +1,7 @@
 ---
 title: Factor Ostro VAM V2 Build
 date: 2026-04-09
+lastmod: 2026-11-01
 description: A full custom build of the Factor Ostro VAM V2 — lightweight aero road bike with Shimano Di2, Quarq power meter, BTLos wheels, and a custom 3D printed headset spacer.
 categories:
 - Road
@@ -41,3 +42,5 @@ Full build walkthrough is on YouTube:
 | Cockpit | Tavelo Avro integrated bar/stem |
 | Rotors | 160mm front / 140mm rear |
 | Weight | 16 lbs 3 oz (size 54) |
+
+More road builds: my [2026 SuperSix Evo 13-speed 1x build](/posts/cannondale-supersix-evo-2026-xplr-1x-build/), and whether [the Zipp 454 NSW is still worth it](/posts/zipp-454-nsw-still-worth-it/) if you're shopping aero wheels instead of BTLos. If you're thinking about a used frame like this one, here's [the complete vs custom build cost math](/posts/specialized-sl8-complete-vs-custom-build-cost/) and how [Dura-Ace vs Ultegra](/shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/) pencils out per gram. I cover 3D printing projects like that headset spacer on my other site, [MizuMakes](https://mizumakes.com).

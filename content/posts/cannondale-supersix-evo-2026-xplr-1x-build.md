@@ -1,6 +1,7 @@
 ---
 title: 'Cannondale SuperSix Evo 2026 Build: 13-Speed SRAM Force XPLR 1x'
 date: 2026-09-10
+lastmod: 2026-11-01
 description: I built a 2026 Cannondale SuperSix Evo around SRAM's 13-speed Force XPLR 1x drivetrain — the full build, the gearing surprise, and whether 1x belongs on a road bike.
 slug: cannondale-supersix-evo-2026-xplr-1x-build
 categories:
@@ -52,3 +53,5 @@ Everything I used, with links. The complete list — sealant, rotors, and the re
 - **Cockpit:** Vision Metron 5D EVO integrated bar/stem, 120mm x 40cm
 
 So is 1x worth it on a road bike? After building it up and getting a few rides in, I'm convinced this is where road bikes are heading. On the road I'm giving up almost nothing — the gearing feels like a normal 2x, there's one less thing up front to fail, and the bike is as clean as I could make it. The shifting could still be sharper, and I'll keep at it. The real test comes when I get into proper climbing, up in the big cogs where the jumps widen — that's when I'll know whether I miss the tighter steps or forget the front derailleur was ever there. So tell me in the comments: does the road front derailleur go the way of the mountain bike's, or is it here to stay?
+
+The gearing math behind this build is in [1x vs 2x Road Gearing: What You Actually Give Up](/posts/1x-vs-2x-road-gearing-sram-xplr-13-speed/) and [SRAM Force E1 2x vs 1x vs XPLR](/posts/sram-force-e1-gearing-gear-jumps/). I started down this road in [Why I'm Finally Thinking About Switching to SRAM](/posts/finally-trying-sram-force-e1/). If you're putting XPLR on your own frame, [check the dropout first](/posts/udh-sram-1x13-gravel-frame-compatibility/). For the aluminum alternative in the same family, see [CAAD13 vs SuperSix Evo Hi-Mod](/cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/).

@@ -1,6 +1,7 @@
 ---
 title: 'ENVE G SES Gravel Wheels: The 4.5 Pro and 6.7 Pro Go Wider Than Ever'
 date: 2026-05-14
+lastmod: 2026-11-01
 description: ENVE's new G SES gravel wheels push rim widths to 35mm internal on the flagship 6.7 Pro. Here's what separates the three models and who they're actually for.
 slug: enve-g-ses-gravel-wheels-2026
 categories:
@@ -82,3 +83,5 @@ ENVE isn't hedging here. The G SES line is a direct bet that gravel racing is go
 For most riders though, the 4.5 Pro is probably the more compelling option. It's 100g lighter than the 6.7 Pro, works with tires from 40mm up, and shares the same ceramic Pro hub. You give up some aero at the very top end of race speeds, but you gain a wheel that actually fits a wider range of bikes and conditions. At the same $3,100 price, it's the easier choice to justify.
 
 The broader trend this confirms is that gravel is bifurcating. There's fast gravel racing, and there's everything else. ENVE just picked a side.
+
+For the head-to-head, see [ENVE G SES vs Zipp 303 XPLR](/posts/enve-g-ses-vs-zipp-303-xplr-gravel-wheels/). Before you buy wide rims, check your frame in the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/), and read [why measured tire width is bigger than the sidewall says](/posts/gravel-bike-tire-clearance/).

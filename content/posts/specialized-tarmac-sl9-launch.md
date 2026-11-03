@@ -1,6 +1,7 @@
 ---
 title: 'Specialized Tarmac SL9 Is Official: Here''s What Actually Changed'
 date: 2026-06-30
+lastmod: 2026-11-01
 description: Specialized has officially launched the S-Works Tarmac SL9, calling it the fastest road bike it's ever made. Here's what's real, what's marketing, and how it stacks up against the SL8.
 slug: specialized-tarmac-sl9-launch
 categories:
@@ -46,3 +47,5 @@ This is Remco Evenepoel's bike now, and Specialized clearly built the launch sto
 The bigger open question, and one we'll only get real answers to once independent reviewers put meaningful miles on production bikes, is whether the SL9 is actually as fast as Specialized's own model says it is, or just fast enough to keep the marketing claim technically defensible. Early first-ride impressions out of the Costa Brava launch camp have already been mixed on that front, with more than one outlet noting the on-road gains feel more marginal than the wind tunnel numbers suggest.
 
 For now, only the S-Works tier exists. Expect the range to extend into Pro and Expert-level builds at lower price points as the SL9 rolls out over the rest of the year — that's the version most of us will actually end up considering.
+
+How we got here: [what the SL9 leaks showed](/posts/specialized-tarmac-sl9-leak/). If you're weighing the SL9 against the outgoing model, see [the SL8 complete vs custom build cost math](/posts/specialized-sl8-complete-vs-custom-build-cost/), and if you want one bike for road and gravel, [the Crux 5 quiver-killer argument](/posts/crux-5-quiver-killer-road-bike/) is worth a read.

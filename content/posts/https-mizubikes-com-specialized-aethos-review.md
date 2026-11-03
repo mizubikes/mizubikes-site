@@ -1,6 +1,7 @@
 ---
 title: 'Specialized Aethos Review: A Lightweight Road Bike for Time-Crunched Cyclists'
 date: '2025-04-12T15:34:35+00:00'
+lastmod: 2026-11-01
 description: Looking for a road bike that feels fast and climbs like a dream? The Specialized Aethos is light, responsive, and perfect for time-crunched cyclists who still want top-tier performance.
 url: /specialized-aethos-review/
 categories:
@@ -60,3 +61,18 @@ The Aethos is for people who ride because they love it—not because they're cha
 If you're looking for a road bike that's light, responsive, and refreshingly low-profile, the **Specialized Aethos** deserves a serious look. It's not trendy, it's not loud, and it doesn't care what bike shop flexes are trending on social media.
 
 It's just an amazing bike for people who love to ride.
+
+## Update: The Aethos 2 (2026)
+
+Specialized has since replaced this bike with the **Aethos 2**, launched in late 2025. It keeps the same idea, a light, round-tubed, non-aero road bike, with a few practical updates: tire clearance goes up to 35mm, cable routing is cleaner and easier to service, and the frame gets refined tube shapes and layup.
+
+| | Claimed frame weight | US price |
+|---|---|---|
+| S-Works Aethos 2 (FACT 12r) | 595 g | $13,999 complete, $5,499 frameset |
+| Aethos 2 Pro (FACT 10r) | 705 g | $8,499 |
+| Aethos 2 Expert (FACT 10r) | 705 g | $6,599–$6,999 |
+| Aethos 2 frameset (FACT 10r) | 705 g | $3,499 |
+
+Everything above about who the Aethos is for still applies. The bigger tire clearance makes it a little more versatile, and first-generation Aethos frames should get cheaper on the used market. If you're weighing a light bike against an aero one, see [what changed with the Tarmac SL9](/posts/specialized-tarmac-sl9-launch/), and if price per gram is how you think about upgrades, [Dura-Ace vs Ultegra R8100](/shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/) runs the numbers for groupsets.
+
+*Source: [Bikerumor](https://bikerumor.com/specialized-launches-aethos-2/).*

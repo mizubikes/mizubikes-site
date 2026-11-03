@@ -2,7 +2,7 @@
 title: 'Hardtail Gravel Bike Conversion: My Cannondale Scalpel HT Gravel Build'
 date: '2025-04-19T05:29:44+00:00'
 lastmod: 2026-11-01
-description: 'Why a Cannondale Scalpel HT hardtail makes a great gravel bike: tire clearance, geometry, rigid fork and drivetrain options. Updated with how the finished build turned out.'
+description: 'Why a Cannondale Scalpel HT hardtail makes a great gravel bike: clearance, geometry, rigid fork and drivetrain. Updated with the finished build.'
 url: /hardtail-gravel-bike-conversion/
 categories:
 - Bike Builds

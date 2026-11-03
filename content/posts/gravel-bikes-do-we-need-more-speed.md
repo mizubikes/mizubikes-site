@@ -1,6 +1,7 @@
 ---
 title: Gravel Bikes Keep Getting Faster. I'm Not Sure Anyone Asked For That.
 date: 2026-09-17
+lastmod: 2026-11-01
 description: 'Every new gravel race bike claims more speed and more aero. At some point the honest question is: speed toward what, exactly?'
 slug: gravel-bikes-do-we-need-more-speed
 categories:
@@ -42,3 +43,5 @@ Here's the part that actually bothers me about the wind tunnel arms race: go sta
 Gravel doesn't have that same permission structure yet, and I think it's because the category grew out of road racing's marketing playbook instead of mountain biking's. Road culture is built around data — FTP, normalized power, aero watts — because road racing genuinely rewards steady-state efficiency and because computers and power meters have been standard road kit for over a decade. Gravel inherited that instrumentation and that framing by default, even though a huge share of the people actually buying these bikes are doing exactly what mountain bikers do: riding dirt for the adventure of it, not to shave time off an effort they're not actually racing. If you're one of the people who's never plugged a power meter into a gravel bike and has no plans to, you're not an edge case. You might be the actual center of this market, just not the one the press releases are written for.
 
 So here's where I've landed: the wider tire clearance on bikes like this Grail is a legitimate, real-world upgrade, independent of anything the wind tunnel claims. But the watts-saved number attached to it is mostly there for the small slice of people actually racing at the front of Unbound, not for the rest of us. If your gravel rides look more like a mountain biker's Saturday than a road racer's structured block — no computer, no power target, just picking a fun loop and seeing how the legs feel — you're not missing out on anything by ignoring the aero pitch entirely. That old Crux up top has none of the aero engineering in this year's model, and it didn't cost me a single good moment on the trail. Buy the tire clearance if you want it. Skip the marketing about what it's for.
+
+The bikes driving this conversation: the [Specialized Crux 5](/posts/specialized-crux-5-2026/), the [third-generation Canyon Grail](/posts/canyon-grail-2027-launch/) and the [XDS X-Lab GT8](/posts/xds-x-lab-worldtour-chinese-bike/). The counterpoint is going slower and wider, like my [hardtail gravel conversion](/posts/mtb-to-gravel-garbaruk-10-52/).

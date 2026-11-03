@@ -1,6 +1,7 @@
 ---
 title: Canyon's New Grail Is Here, and It Finally Fits Real Tires
 date: 2026-09-17
+lastmod: 2026-11-01
 description: Canyon just launched the third-generation Grail with 57mm tire clearance and a 1x-only design. Here's what actually changed after months of prototype sightings.
 slug: canyon-grail-2027-launch
 categories:
@@ -49,3 +50,5 @@ Canyon's also launching its own carbon gravel wheelset alongside the bike, the G
 Frame weights actually went up compared to the outgoing Grail — 989g claimed for a raw CFR frame, versus a lighter number on gen 2 — which Canyon isn't hiding, arguing the aero and clearance gains net out to a faster bike anyway. Six builds are available at launch, from the SRAM Red XPLR AXS-equipped CFR AXS at $8,999 with a claimed 7.9kg weight, down to the Shimano GRX mechanical CF 7 at $3,499. In between: the Shimano GRX Di2 CFR at $7,999, a SRAM Force XPLR AXS CF SLX 8 at $5,999, a GRX Di2 CF SLX 7 at $4,999, and a SRAM Rival XPLR AXS CF 7 at $4,299. Seven sizes are offered, said to fit riders from about 5'2" to 6'8".
 
 Where this lands for most people reading this: if you already own a 40mm-tire Grail and aren't racing at the pointy end, I wouldn't rush to upgrade on the aero numbers alone. But if you've been eyeing a Crux or an Aspero with real tire clearance and wanted Canyon's fit and price point instead, this is finally the bike that competes on the same terms. I'll have more once I've actually got tires on gravel with one — for now, this is what changed and why.
+
+Where this came from: the [Grail CFR prototype spotted at The Traka](/posts/canyon-grail-cfr-2026/) and the [Endurace CFR](/posts/canyon-endurace-cfr-2026/) it borrows from. Its closest rival is the [Specialized Crux 5](/posts/specialized-crux-5-2026/), and the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/) shows how 57mm stacks up. Planning a 1x build? [Check the UDH list](/posts/udh-compatible-gravel-bikes-2026/).

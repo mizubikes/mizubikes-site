@@ -1,6 +1,7 @@
 ---
 title: Why I Chose the Stumpjumper 15 Alloy for My Trail Build
 date: 2026-07-08
+lastmod: 2026-11-01
 description: 'Part one of my Stumpjumper 15 Alloy build series: why an alloy frameset on sale beat a carbon build, and what the GENIE platform actually gets you.'
 slug: stumpjumper-15-alloy-build
 categories:
@@ -77,3 +78,5 @@ Here's how the rest of the series breaks down:
 - **Part 5 — Final Assembly, Setup & Weight** *(coming soon)*: the finishing touches, sag, and the number on the scale.
 
 And once it's been out on the trail long enough to say something honest, a full ride review to close the loop. If you've built up a Stumpjumper 15 — alloy or carbon — I'd love to hear what you'd have done differently.
+
+How I got here: the [Stumpjumper 15 Alloy frameset unboxing](/unboxing-the-2025-specialized-stumpjumper-15-alloy-is-this-the-best-trail-frame-deal-right-now/), the [Stumpjumper EVO build](/how-i-set-up-my-specialized-stumpjumper-evo-alloy-mullet-custom-trail-bike-build/) the parts came from, and [how I planned the frame swap](/how-to-plan-a-mountain-bike-frame-swap/). Next step was the [Cascade 156mm mullet link](/posts/stumpjumper-15-cascade-mullet-link/).

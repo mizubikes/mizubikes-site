@@ -1,6 +1,7 @@
 ---
 title: The Crux 5 Is the Gravel Bike We Knew Was Coming
 date: 2026-05-28
+lastmod: 2026-11-01
 description: The Specialized Crux 5 goes full aero and leaves its cyclocross roots behind. Here's why that was inevitable — and what it might cost us down the road.
 slug: specialized-crux-5-opinion
 categories:
@@ -55,3 +56,5 @@ The Crux 5 is a great bike. It's the right bike for where gravel racing is in 20
 But it's also worth watching how the dropper post conversation evolves over the next few seasons. The aero seatpost is faster right now on current courses. Whether it's still the right call when courses get harder is a question nobody can answer yet — but it's the kind of decision that's a lot easier to make on a new platform than to retrofit later.
 
 The evolution was inevitable. The tradeoffs are real. And 55mm is the new 40mm.
+
+The full spec breakdown is in [Specialized Crux 5: The Gravel Race Bike Goes Full Aero](/posts/specialized-crux-5-2026/). Canyon answered in September with [a third-generation Grail that clears 57mm](/posts/canyon-grail-2027-launch/), and I wrote about whether all this speed is actually good for gravel in [Gravel Bikes Keep Getting Faster](/posts/gravel-bikes-do-we-need-more-speed/).

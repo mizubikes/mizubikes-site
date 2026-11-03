@@ -1,12 +1,14 @@
 ---
 title: 'How I Set Up My Specialized Stumpjumper EVO Alloy Mullet: Custom Trail Bike Build'
 date: '2025-04-03T07:46:05+00:00'
+lastmod: 2026-11-01
+description: 'My Specialized Stumpjumper EVO Alloy mullet build: RockShox Lyrik and Super Deluxe Ultimate, Shimano XT/SLX, Saint brakes, carbon wheels and the full parts list.'
 url: /how-i-set-up-my-specialized-stumpjumper-evo-alloy-mullet-custom-trail-bike-build/
 categories:
 - Bike Repair
 - Mountain
 cover:
-  alt: Screenshot 2025-04-02 181021
+  alt: Specialized Stumpjumper EVO Alloy mullet trail bike build
   image: /wp-content/uploads/2025/04/Screenshot-2025-04-02-181021.png
   relative: false
 ---
@@ -82,4 +84,20 @@ From big mountain rides to bike park days and post-work laps, this thing is read
 
 ### **Specs at a Glance**
 
-ComponentPart**Frame**Specialized Stumpjumper EVO Alloy**Fork**RockShox Lyrik Ultimate**Shock**RockShox Super Deluxe Ultimate**Drivetrain**Shimano XT (shifter, crankset and cassette), SLX (rear derailleur)**Brakes**Shimano Saint**Wheels**Mullet (29" front / 27.5" rear) Ride Fast Carbon Front 29" Wheel and a BTLOS Carbon 27.5 rim with DT 240s hub **Tires**Maxxis Assegai (F), Minion DHR II (R)**Handlebar**OneUp Carbon**Stem**Deity**Grips**ODI Elite**Pedals**OneUp Alloy
+| Component | Part |
+|---|---|
+| Frame | Specialized Stumpjumper EVO Alloy |
+| Fork | RockShox Lyrik Ultimate |
+| Shock | RockShox Super Deluxe Ultimate |
+| Drivetrain | Shimano XT (shifter, crankset and cassette), SLX (rear derailleur) |
+| Brakes | Shimano Saint |
+| Wheels | Mullet (29" front / 27.5" rear): Ride Fast carbon 29" front wheel, BTLOS carbon 27.5" rear rim on a DT 240s hub |
+| Tires | Maxxis Assegai (F), Minion DHR II (R) |
+| Handlebar | OneUp Carbon |
+| Stem | Deity |
+| Grips | ODI Elite |
+| Pedals | OneUp Alloy |
+
+## What Happened to This Build
+
+This EVO was the starting point for my next bike. I moved almost all of these parts to a new frame, and I walked through what transfers and what doesn't in [How to Plan a Mountain Bike Frame Swap](/how-to-plan-a-mountain-bike-frame-swap/). The finished bike is in [Why I Chose the Stumpjumper 15 Alloy for My Trail Build](/posts/stumpjumper-15-alloy-build/), and I got the mullet setup back with the [Cascade Components 156mm mullet link](/posts/stumpjumper-15-cascade-mullet-link/).
