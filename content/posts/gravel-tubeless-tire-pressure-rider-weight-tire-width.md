@@ -6,9 +6,9 @@ slug: gravel-tubeless-tire-pressure-rider-weight-tire-width
 categories: ["Gravel"]
 tags: ["tire pressure", "tubeless", "gravel", "hookless"]
 cover:
-  image: "/images/gravel-tubeless-tire-pressure-rider-weight-tire-width-cover.webp"
-  alt: "Cyclist riding a gravel bike on a dirt road through open countryside"
-  caption: "Photo: jdspixelworld / Pixabay"
+  image: "/images/specialized-crux-tire-clearance-test.webp"
+  alt: "Specialized Crux gravel bike with wide gravel tires in a home workshop"
+  caption: ""
   relative: false
 draft: false
 ---
