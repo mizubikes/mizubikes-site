@@ -1,6 +1,5 @@
 # One topic per line. The auto-drafter uses the top line, then deletes it.
 # When this list is empty, Claude picks a topic from recent cycling news.
-SRAM 13-speed vs Shimano GRX 12-speed for gravel: which drivetrain to buy in 2026
 Best gravel bikes under $2,000 in 2026
 How wide should your gravel tires be? 40mm vs 45mm vs 50mm compared
 Best gravel bike computers for navigation: Garmin Edge vs Wahoo vs Hammerhead
