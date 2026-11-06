@@ -5,7 +5,6 @@ lastmod: 2026-11-01
 description: 'Dura-Ace R9200 vs Ultegra R8100 part by part: weight, price and cost per gram saved. The cassette is the best-value upgrade, the crank the worst.'
 url: /shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/
 categories:
-- Deals
 - Road
 tags:
 - Buying Guide

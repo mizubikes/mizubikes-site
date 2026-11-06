@@ -6,8 +6,6 @@ description: 'Every part you need to put drop bars on a hardtail MTB: AXS shifte
 url: /hardtail-gravel-bike-dropbar-conversion/
 categories:
 - Bike Builds
-- Gravel
-- Mountain
 cover:
   alt: Cannondale Scalpel HT hardtail set up for a drop bar gravel conversion
   image: /wp-content/uploads/2025/04/IMG_1597.webp

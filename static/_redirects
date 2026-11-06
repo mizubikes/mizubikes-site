@@ -14,3 +14,4 @@
 /blog/*                   /posts/                    301
 /wp-admin/*               /                          301
 /wp-login.php             /                          301
+/categories/reviews/*    /categories/road/          301

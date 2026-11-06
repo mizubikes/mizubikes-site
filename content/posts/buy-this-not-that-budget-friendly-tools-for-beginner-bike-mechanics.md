@@ -5,8 +5,7 @@ lastmod: 2026-11-01
 description: 'Budget bike tools worth buying and pricey ones beginners can skip: hex keys, tire levers, cassette tools and the one not to cheap out on.'
 url: /buy-this-not-that-budget-friendly-tools-for-beginner-bike-mechanics/
 categories:
-- Mountain
-- Road
+- Bike Repair
 cover:
   alt: Budget bike tools for beginner home mechanics
   image: /wp-content/uploads/2025/02/admin-ajax.png

@@ -6,7 +6,6 @@ description: 'A bike shop quoted $940 to fix my friend''s mountain bike. We did 
 url: /diy-bike-maintenance/
 categories:
 - Bike Repair
-- Mountain
 cover:
   alt: Mountain bike in a repair stand for DIY maintenance
   image: /wp-content/uploads/2025/02/EAE7684B-9BD9-48E6-8B9B-705ED1CDD181_Original.webp

@@ -6,7 +6,6 @@ description: 'Hardtail conversions and purpose-built drop bar full suspension bi
 slug: best-hardtail-drop-bar-gravel-bikes-2026
 categories:
 - Gravel
-- Mountain
 tags:
 - gravel
 - hardtail

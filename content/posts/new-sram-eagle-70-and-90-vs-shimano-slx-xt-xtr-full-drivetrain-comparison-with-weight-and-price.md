@@ -6,7 +6,6 @@ description: 'SRAM Eagle 70 and 90 vs Shimano SLX, XT and XTR: weight, MSRP, UDH
 url: /new-sram-eagle-70-and-90-vs-shimano-slx-xt-xtr-full-drivetrain-comparison-with-weight-and-price/
 categories:
 - Mountain
-- Bike Repair
 tags:
 - Buying Guide
 - SRAM

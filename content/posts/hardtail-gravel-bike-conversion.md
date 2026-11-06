@@ -6,8 +6,6 @@ description: 'Why a Cannondale Scalpel HT hardtail makes a great gravel bike: cl
 url: /hardtail-gravel-bike-conversion/
 categories:
 - Bike Builds
-- Gravel
-- Mountain
 cover:
   alt: Cannondale Scalpel HT hardtail being converted into a gravel bike
   image: /wp-content/uploads/2025/04/IMG_1597-1.webp

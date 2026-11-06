@@ -5,7 +5,6 @@ lastmod: 2026-11-01
 description: 'The new Canyon Endurace CFR gets Aeroad looks, aero geometry and 35mm tire clearance. Who it''s actually for, and whether it''s worth $10,499.'
 categories:
 - Road
-- Reviews
 tags:
 - bike reviews
 - canyon

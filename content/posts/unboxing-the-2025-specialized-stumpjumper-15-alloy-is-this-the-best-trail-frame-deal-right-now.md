@@ -5,7 +5,6 @@ lastmod: 2026-11-01
 description: 'Unboxing the Specialized Stumpjumper 15 Alloy frameset: what''s in the box, why alloy beats carbon on value, drivetrain options and the GENIE shock.'
 url: /unboxing-the-2025-specialized-stumpjumper-15-alloy-is-this-the-best-trail-frame-deal-right-now/
 categories:
-- Deals
 - Mountain
 tags:
 - Buying Guide

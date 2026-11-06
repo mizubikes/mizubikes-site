@@ -4,7 +4,8 @@ date: '2025-02-25T16:00:00+00:00'
 lastmod: 2026-11-01
 description: 'Which bike brands'' warranties transfer to a second owner? Trek, Specialized, Santa Cruz, Ibis and Cannondale compared, and how to lower the risk of buying used.'
 url: /transferable-warranties/
-categories: []
+categories:
+- Deals
 tags:
 - Buying Guide
 cover:

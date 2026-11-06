@@ -6,7 +6,6 @@ description: 'The Specialized Aethos is light, responsive and climbs brilliantly
 url: /specialized-aethos-review/
 categories:
 - Road
-- Reviews
 cover:
   image: /wp-content/uploads/2025/04/Screenshot-2025-04-11-002541-1.webp
   alt: Specialized Aethos Review

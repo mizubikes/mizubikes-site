@@ -6,7 +6,6 @@ description: Explore the 2025 Specialized Turbo Levo 4 lineup. Compare motor pow
 url: /2025-specialized-turbo-levo-4-lineup-guide/
 categories:
 - E-Bike
-- Mountain
 tags:
 - Buying Guide
 ---

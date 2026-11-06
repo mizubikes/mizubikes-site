@@ -6,7 +6,6 @@ description: 'Part one of my Stumpjumper 15 Alloy build series: why an alloy fra
 slug: stumpjumper-15-alloy-build
 categories:
 - Bike Builds
-- Mountain
 tags:
 - Stumpjumper 15
 - Specialized

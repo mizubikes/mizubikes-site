@@ -5,7 +5,6 @@ lastmod: 2026-11-01
 description: Installing a Cascade Components 156mm mullet link on the Stumpjumper 15 Alloy, and the story of getting one made to fit an alloy frame.
 slug: stumpjumper-15-cascade-mullet-link
 categories:
-- Bike Builds
 - Mountain
 tags:
 - Stumpjumper 15

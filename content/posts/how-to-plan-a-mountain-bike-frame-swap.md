@@ -6,8 +6,6 @@ description: 'Moving from a Stumpjumper EVO Alloy to a Stumpjumper 15 Alloy: how
 url: /how-to-plan-a-mountain-bike-frame-swap/
 categories:
 - Bike Builds
-- Bike Repair
-- Mountain
 cover:
   alt: Stumpjumper EVO Alloy and Stumpjumper 15 Alloy frames for a frame swap
   image: /wp-content/uploads/2025/04/IMG_0855.webp

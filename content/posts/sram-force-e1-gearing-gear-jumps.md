@@ -5,7 +5,7 @@ lastmod: 2026-11-01
 description: SRAM Force E1 gearing compared cog by cog — 10-33 vs 10-36 vs 13-speed XPLR 10-46, with the actual gear jumps behind the range numbers.
 slug: sram-force-e1-gearing-gear-jumps
 categories:
-- Gravel
+- Road
 tags:
 - SRAM
 - Force E1

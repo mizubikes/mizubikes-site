@@ -4,7 +4,8 @@ date: '2023-09-27T06:35:00+00:00'
 lastmod: 2026-11-01
 description: 'Bike trailer or rear child seat for a 1-year-old? Pros and cons of each, frame compatibility on road bikes, and why we chose a trailer for our family.'
 url: /best-options-for-a-1-year-old-baby-a-bike-trailer-or-a-bike-baby-seat/
-categories: []
+categories:
+- Deals
 tags:
 - Kids Bikes
 cover:
