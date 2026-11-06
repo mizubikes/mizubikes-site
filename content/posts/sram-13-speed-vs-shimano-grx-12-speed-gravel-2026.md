@@ -7,8 +7,8 @@ categories: ["Gravel"]
 tags: ["gravel", "drivetrain", "SRAM XPLR", "Shimano GRX", "groupsets"]
 cover:
   image: "/images/sram-13-speed-vs-shimano-grx-12-speed-gravel-2026-cover.webp"
-  alt: "Cyclist riding a drop-bar gravel bike on a dirt road"
-  caption: "Photo: jdspixelworld / Pixabay"
+  alt: "Cannondale drop-bar bike running a Shimano Deore XT Di2 rear derailleur, wide-range cassette and Quarq power meter crank"
+  caption: "Photo: Mizubikes"
   relative: false
 draft: false
 ---
