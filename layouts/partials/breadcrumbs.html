@@ -1,0 +1,9 @@
+{{- /* Mizubikes: Home » Category, using the post's first category */ -}}
+{{- if and .IsPage (.Param "ShowBreadCrumbs") -}}
+{{- with .Params.categories }}{{ with index . 0 }}
+{{- $cat := site.GetPage (printf "/categories/%s" (urlize .)) -}}
+<div class="breadcrumbs">
+  <a href="{{ site.Home.RelPermalink }}">Home</a>&nbsp;»&nbsp;{{ with $cat }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+</div>
+{{- end }}{{ end }}
+{{- end -}}

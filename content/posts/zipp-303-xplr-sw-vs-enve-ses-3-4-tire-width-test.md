@@ -1,6 +1,7 @@
 ---
 title: 'Rim Width vs Tire Width: Zipp 303 XPLR SW vs ENVE 3.4'
 date: 2026-11-06T08:00:00-08:00
+videoDate: 2026-02-15
 description: 'I measured the same 50c tire on a 25mm and a 32.5mm internal rim at 25 and 50 psi. The wider Zipp 303 XPLR SW added 2.2 to 2.5mm of tire width.'
 slug: zipp-303-xplr-sw-vs-enve-ses-3-4-tire-width-test
 categories:

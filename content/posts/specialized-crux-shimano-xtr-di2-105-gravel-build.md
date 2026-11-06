@@ -1,6 +1,7 @@
 ---
 title: 'Specialized Crux Build: Shimano XTR Di2 + 105 Di2 1x'
 date: 2026-11-06T09:00:00-08:00
+videoDate: 2025-09-18
 description: 'My Specialized Crux 1x build with a wireless Shimano XTR Di2 derailleur, 105 Di2 levers and a 10-51 cassette. Full parts list, setup notes and weight.'
 slug: specialized-crux-shimano-xtr-di2-105-gravel-build
 categories:

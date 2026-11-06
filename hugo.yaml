@@ -22,7 +22,7 @@ params:
   showShareButtons: false
   showReadingTime: true
   showToc: false
-  showBreadCrumbs: false
+  showBreadCrumbs: true
   showCodeCopyButtons: false
   comments: false
   hideFoter: false

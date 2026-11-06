@@ -1,6 +1,7 @@
 ---
 title: '2026 Cannondale SuperSix Evo Build: SRAM Force XPLR 1x'
 date: 2026-09-10
+videoDate: 2026-09-10
 lastmod: 2026-11-01
 description: 'My 2026 Cannondale SuperSix Evo build with SRAM 13-speed Force XPLR 1x: the full parts list, the gearing surprise and whether 1x belongs on a road bike.'
 slug: cannondale-supersix-evo-2026-xplr-1x-build

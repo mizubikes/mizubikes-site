@@ -10,25 +10,37 @@
 }
 </script>
 {{- else if .IsPage }}
-{{- with .Section }}
+{{- with .Params.categories }}{{ with index . 0 }}
+{{- $cat := site.GetPage (printf "/categories/%s" (urlize .)) }}
+{{- with $cat }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": {{ . | humanize | title }},
-      "item": {{ absURL (printf "/%s/" .) }}
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": {{ $.Title }},
-      "item": {{ $.Permalink }}
-    }
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ site.Home.Permalink }} },
+    { "@type": "ListItem", "position": 2, "name": {{ .Title }}, "item": {{ .Permalink }} },
+    { "@type": "ListItem", "position": 3, "name": {{ $.Title }}, "item": {{ $.Permalink }} }
   ]
+}
+</script>
+{{- end }}
+{{- end }}{{ end }}
+{{- /* VideoObject for each embedded YouTube video */ -}}
+{{- $ids := slice }}
+{{- range findRESubmatch `\{\{<\s*youtube\s+(?:id=")?([A-Za-z0-9_-]{11})` .RawContent }}{{ $ids = $ids | append (index . 1) }}{{ end }}
+{{- range findRESubmatch `youtube(?:-nocookie)?\.com/embed/([A-Za-z0-9_-]{11})` .RawContent }}{{ $ids = $ids | append (index . 1) }}{{ end }}
+{{- range $i, $id := ($ids | uniq) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": {{ cond (eq $i 0) $.Title (printf "%s (video %d)" $.Title (add $i 1)) }},
+  "description": {{ $.Description | default ($.Summary | plainify | truncate 250) | default $.Title }},
+  "thumbnailUrl": {{ printf "https://i.ytimg.com/vi/%s/hqdefault.jpg" $id }},
+  "uploadDate": {{ (time ($.Params.videoDate | default $.Date)).Format "2006-01-02T15:04:05Z07:00" }},
+  "embedUrl": {{ printf "https://www.youtube.com/embed/%s" $id }},
+  "contentUrl": {{ printf "https://www.youtube.com/watch?v=%s" $id }}
 }
 </script>
 {{- end }}
@@ -55,14 +67,15 @@
   "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
   "author": {
     "@type": "Person",
-    "name": {{ site.Params.author | default site.Title }}
+    "name": {{ site.Params.author | default "Jared" }},
+    "url": {{ absURL "/about/" }}
   },
   "publisher": {
     "@type": "Organization",
     "name": {{ site.Title }},
     "logo": {
       "@type": "ImageObject",
-      "url": {{ absURL "/favicon.ico" }}
+      "url": {{ absURL "/android-chrome-512x512.png" }}
     }
   },
   "mainEntityOfPage": {
