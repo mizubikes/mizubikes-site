@@ -11,7 +11,7 @@
 {{- $workshop = where $workshop ".Params.categories" "intersect" (slice "Bike Repair" "Bike Builds") | first 3 }}
 
 {{- $reviews := where .Site.RegularPages "Type" "posts" }}
-{{- $reviews = where $reviews ".Params.categories" "intersect" (slice "Reviews") | first 3 }}
+{{- $reviews = where $reviews ".Params.categories" "intersect" (slice "Gravel") | first 3 }}
 
 {{- if $featured }}
 <div class="mb-hero">
@@ -104,8 +104,8 @@
 {{- if $reviews }}
 <div class="mb-section">
   <div class="mb-section-header">
-    <span class="mb-section-title">Latest Reviews</span>
-    <a href="/categories/reviews/" class="mb-section-more">View all &rarr;</a>
+    <span class="mb-section-title">Latest Gravel</span>
+    <a href="/categories/gravel/" class="mb-section-more">View all &rarr;</a>
   </div>
   <div class="mb-card-grid">
     {{- range $reviews }}
