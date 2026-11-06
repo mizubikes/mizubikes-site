@@ -86,17 +86,8 @@ Shopping for new tires to go with your new pressures? The [gravel tire price tra
 
 ## Sources
 
-- https://runbikecalc.com/blog/bike-tire-pressure-chart-by-rider-weight
-- https://www.dincalculator.com/bike/gravel-pressure
-- https://lecoach.app/gravel-bike-tire-pressure-calculator
-- https://psi.bike/pressure
-- https://bikepsi.com/sram-axs-calculator
-- https://bikepsi.com/silca-tire-pressure-guide
-- https://silpsi.com/
-- https://www.bikelabstudio.com/articles/psi-calculator-en.html
-- https://www.renehersecycles.com/the-science-behind-the-tire-pressure-calculator/
-- https://www.renehersecycles.com/unbound-tire-pressure/
-- https://www.renehersecycles.com/finding-the-perfect-tire-pressure/
-- https://www.renehersecycles.com/tech-info/tires/instructions/
-- https://cycleforchange.org/guides/tubeless-bike-tires/
-- https://infinitycalculator.com/sports/bike-tire-pressure-calculator
+- [Rene Herse: The science behind the tire pressure calculator](https://www.renehersecycles.com/the-science-behind-the-tire-pressure-calculator/)
+- [Rene Herse: Finding the perfect tire pressure](https://www.renehersecycles.com/finding-the-perfect-tire-pressure/)
+- [Rene Herse: Unbound tire pressure](https://www.renehersecycles.com/unbound-tire-pressure/)
+- [BikePSI: SRAM AXS-method pressure calculator](https://bikepsi.com/sram-axs-calculator)
+- [BikePSI: Silca tire pressure guide](https://bikepsi.com/silca-tire-pressure-guide)

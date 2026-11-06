@@ -97,9 +97,6 @@ Whatever you pick, the frame matters less than the tires you put on it. My [pick
 
 - [BikeRadar: Specialized Crux 5 S-Level first ride](https://bikeradar.com/reviews/bikes/gravel-bikes/specialized-crux-5-s-level-first-ride-review)
 - [BikeRadar: Ridley Kanzo Fast 2.0 review](https://www.bikeradar.com/reviews/bikes/gravel-bikes/ridley-kanzo-fast-2)
-- [Escape Collective: Ridley Kanzo Fast 2.0](https://escapecollective.com/ridley-kanzo-fast-2-0-58-mm-tyre-clearance-progressive-geo/)
 - [BikeRadar: BMC Kaius 01 One review](https://www.bikeradar.com/reviews/bikes/gravel-bikes/2027-bmc-kaius-01-one)
 - [Bikerumor: Trek Checkmate SLR](https://bikerumor.com/trek-checkmate-slr-checkpoint-sl-gen-3/)
-- [BIKE magazine: race gravel bike test](https://www.bike-magazin.de/en/bicycles/gravel-bikes/race-gravel-bike-test-test-victory-for-the-trek-checkmate/)
 - [Bikerumor: X-Lab GT8 first impressions](https://bikerumor.com/first-impressions-3199-x-lab-gt8-gravel-bike-is-value-packed/)
-- [Escape Collective: X-Lab framesets in the US](https://escapecollective.com/x-lab-will-sell-framesets-in-the-us/)

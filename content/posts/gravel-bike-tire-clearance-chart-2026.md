@@ -89,27 +89,8 @@ I'll update this chart as brands publish more official numbers, especially 650b 
 
 ## Sources
 
-- https://en.gravelpassion.fr/product/canyon-grail-2027/
-- https://bike-room.com/blogs/news/canyon-grail-2027-gravel-bike-explained
-- https://www.cyclingnews.com/bikes/gravel/new-specialized-crux-goes-all-in-on-aero-gravel-with-a-15-watt-improvement-new-geometry-and-lighter-builds/
-- https://nminus1bikes.substack.com/p/the-2025-cannondale-topstone-carbon
-- https://www.bikeradar.com/reviews/bikes/gravel-bikes/cannondale-topstone-alloy-2-review
-- https://www.bikeperfect.com/news/cannondales-new-topstone-gets-a-capability-boost-with-better-suspension-and-bigger-tires
-- https://velo.outsideonline.com/gravel/gravel-gear/review-new-trek-checkpoint-sl/
-- https://cyclingmagazine.ca/sections/gear-reviews/bikesframes/trek-checkpoint-sl-6-new-do-it-all-gravel-bike/
-- https://www.giant-bicycles.com/global/showcase/revolt-advanced
-- https://velo.outsideonline.com/road/road-racing/2022-giant-revolt-advanced-bucks-the-trend-going-longer-lower-and-steeper/
-- https://cyclingmagazine.ca/sections/gear-reviews/cervelo-aspero-5-intriguing-features/
-- https://mikesbikes.com/collections/cervelo-aspero
-- https://www.bikeradar.com/reviews/bikes/gravel-bikes/cervelo-aspero-5-review
-- https://contenderbicycles.com/blogs/blog/just-released-cervelo-aspero-5-all-new-sram-force-first-ride-review
-- https://www.excelsports.com/cervelo-aspero-5-frameset
-- https://velo.outsideonline.com/gravel/gravel-gear/first-ride-bmc-urs-gen-two/
-- https://www.cyclingweekly.com/products/refreshed-bmc-urs-blurs-the-line-between-gravel-and-mountain-bike-genres
-- https://www.feedthehabit.com/gear-reviews/2021-bmc-urs-01-one-review/
-- https://velo.outsideonline.com/road/road-racing/3t-exploro-racemax-review-a-one-bike-solution-with-one-big-downside/
-- https://www.feedthehabit.com/gear-reviews/3t-exploro-racemax-1x-and-2x-review/
-- https://www.cyclingnews.com/bikes/gravel/designed-to-deliver-maximum-speed-ridley-has-launched-its-latest-aero-gravel-race-machine/
-- https://www.bikeradar.com/reviews/bikes/gravel-bikes/ridley-kanzo-fast-2
-- https://blisterreview.com/gear-reviews/2024-santa-cruz-stigmata
-- https://www.trainerroad.com/forum/t/2025-giant-revolt-tire-clearance/102985
+- [Cyclingnews: New Specialized Crux](https://www.cyclingnews.com/bikes/gravel/new-specialized-crux-goes-all-in-on-aero-gravel-with-a-15-watt-improvement-new-geometry-and-lighter-builds/)
+- [BikeRadar: Ridley Kanzo Fast 2.0 review](https://www.bikeradar.com/reviews/bikes/gravel-bikes/ridley-kanzo-fast-2)
+- [BikeRadar: Cervélo Áspero-5 review](https://www.bikeradar.com/reviews/bikes/gravel-bikes/cervelo-aspero-5-review)
+- [Velo: New Trek Checkpoint SL review](https://velo.outsideonline.com/gravel/gravel-gear/review-new-trek-checkpoint-sl/)
+- [Bike Perfect: New Cannondale Topstone](https://www.bikeperfect.com/news/cannondales-new-topstone-gets-a-capability-boost-with-better-suspension-and-bigger-tires)

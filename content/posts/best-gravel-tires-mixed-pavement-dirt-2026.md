@@ -78,19 +78,8 @@ If my dirt were rougher, I'd move to the Rambler or Overland and accept the extr
 
 ## Sources
 
-- https://www.bikeradar.com/advice/buyers-guides/best-gravel-tyres
-- https://www.cyclingweekly.com/group-tests/best-gravel-bike-tyres-grip-and-volume-for-your-off-road-rides-462338
-- https://granfondo-cycling.com/best-gravel-tire-review/
-- https://granfondo-cycling.com/best-gravel-tire-review/race/
-- https://granfondo-cycling.com/continental-terra-speed/
-- https://granfondo-cycling.com/best-gravel-tire-review/maxxis/
-- https://velo.outsideonline.com/gravel/gravel-gear/seven-best-gravel-tires-2026/
-- https://www.bike-magazin.de/en/components/tyres-or-tubes/gravel-duel-10-tyres-for-gravel-bikes-on-the-fine-line-between-speed-and-grip/
-- https://dealgrid.de/gravel-reifen-test-2026/
-- https://www.specialized.com/us/en/pathfinder-pro-2bliss-ready/p/157870
-- https://www.bikeradar.com/news/panaracer-gravelking-zx
-- https://www.cyclingweekly.com/products/a-tyre-for-our-mixed-surface-go-anywhere-times-panaracer-launches-new-semi-slick-gravelking
-- https://www.biketiresdirect.com/product/continental-terra-speed-gravel-700c-tire
-- https://www.schwalbetires.com/Schwalbe-G-One-RS-PRO-11654647
-- https://velomine.com/products/pirelli-cinturato-gravel-h-tire-700-x-45-tubeless-folding-black-speedgrip-techwall-gravel-performance
-- https://velomine.com/products/maxxis-rambler-tire-700-x-45-tubeless-folding-black-tan-dual-exo
+- [Granfondo: Best gravel tire review](https://granfondo-cycling.com/best-gravel-tire-review/)
+- [BikeRadar: Best gravel tyres](https://www.bikeradar.com/advice/buyers-guides/best-gravel-tyres)
+- [Velo: Seven best gravel tires of 2026](https://velo.outsideonline.com/gravel/gravel-gear/seven-best-gravel-tires-2026/)
+- [BIKE magazine: 10 gravel tires tested](https://www.bike-magazin.de/en/components/tyres-or-tubes/gravel-duel-10-tyres-for-gravel-bikes-on-the-fine-line-between-speed-and-grip/)
+- [Cycling Weekly: Best gravel bike tyres](https://www.cyclingweekly.com/group-tests/best-gravel-bike-tyres-grip-and-volume-for-your-off-road-rides-462338)
