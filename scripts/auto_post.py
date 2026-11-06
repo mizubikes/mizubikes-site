@@ -103,7 +103,7 @@ Existing Mizubikes posts (avoid duplicates, use for internal links):
 {existing}
 
 Research with web search first, then respond with ONLY a JSON object (no code fence, no other text) with these keys:
-"title": post title, under 70 characters
+"title": post title, 55 characters or fewer with the main search keyword near the start (the site appends " | Mizubikes")
 "slug": lowercase-hyphenated slug
 "description": one-sentence SEO meta description, under 155 characters
 "category": exactly one of {CATEGORIES}
