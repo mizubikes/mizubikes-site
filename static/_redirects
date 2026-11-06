@@ -1,4 +1,9 @@
 # Old WordPress URL patterns -> Hugo equivalents (301)
+# Specific rules first; Netlify uses the first match
+/category/gravel-cx/*     /categories/gravel/        301
+/category/bike-build/*    /categories/bike-builds/   301
+/category/:cat/feed/      /categories/:cat/feed.xml  301
+/category/:cat/page/*     /categories/:cat/          301
 /category/*               /categories/:splat         301
 /tag/*                    /tags/:splat               301
 /author/*                 /about/                    301
