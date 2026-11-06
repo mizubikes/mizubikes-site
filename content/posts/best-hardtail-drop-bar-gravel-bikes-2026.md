@@ -14,7 +14,7 @@ tags:
 - bike build
 - leadville
 cover:
-  image: /images/scalpel-ht-drop-bar.jpg
+  image: /images/scalpel-ht-drop-bar.webp
   alt: Cannondale Scalpel HT with drop bars on Southern California trail
   relative: false
 ---

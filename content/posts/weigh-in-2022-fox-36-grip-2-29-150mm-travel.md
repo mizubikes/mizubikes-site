@@ -8,7 +8,7 @@ categories:
 - Mountain
 cover:
   alt: 2022 Fox 36 Factory Grip 2 fork on a scale
-  image: /wp-content/uploads/2025/02/Untitled-1.png
+  image: /wp-content/uploads/2025/02/Untitled-1.webp
   relative: false
 ---
 

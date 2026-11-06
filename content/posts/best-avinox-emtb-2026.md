@@ -12,7 +12,7 @@ tags:
 - avinox
 - buyer's guide
 cover:
-  image: /images/avinox-m2s-motor.png
+  image: /images/avinox-m2s-motor.webp
   alt: Avinox M2S motor
   caption: 'Image: Amflow'
   relative: false
@@ -32,7 +32,7 @@ The M2S is the flagship, delivering up to 1,500W and 150Nm of torque. The M2 sit
 
 New temperature sensors paired with a heat-dissipating gearing design reduce both motors' tendency to overheat — a real-world improvement that matters on long climbs.
 
-{{< figure src="/images/avinox-m2s-motor-2.png" caption="Avinox M2S motor. Image: Amflow" >}}
+{{< figure src="/images/avinox-m2s-motor-2.webp" caption="Avinox M2S motor. Image: Amflow" >}}
 
 The honest answer for most riders: the M2 is probably enough. For context, e-bike motors are generally considered "full power" at 85Nm and 600W. The M2 more than doubles that. The M2S is for riders who want the absolute ceiling — steep, technical, shuttle-free riding where every watt counts — or who just don't want to compromise.
 

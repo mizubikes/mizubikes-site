@@ -8,11 +8,11 @@ categories:
 - Mountain
 cover:
   alt: 2023 Cannondale Habit LT frame on a scale
-  image: /wp-content/uploads/2025/02/IMG_7936-1.jpg
+  image: /wp-content/uploads/2025/02/IMG_7936-1.webp
   relative: false
 ---
 
-{{< figure src="/wp-content/uploads/2025/02/IMG_7936-1.jpg" alt="2023 Cannondale Habit LT frame weigh-in" >}}
+{{< figure src="/wp-content/uploads/2025/02/IMG_7936-1.webp" alt="2023 Cannondale Habit LT frame weigh-in" >}}
 
 ## Weighing the frame and the frame components before building the 2023 Cannondale Habit LT
 

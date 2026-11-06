@@ -8,11 +8,11 @@ categories:
 - Gravel
 cover:
   alt: 2025 Cannondale SuperX gravel and cyclocross race bike
-  image: /wp-content/uploads/2025/02/Screenshot-2025-02-17-215023-3.png
+  image: /wp-content/uploads/2025/02/Screenshot-2025-02-17-215023-3.webp
   relative: false
 ---
 
-{{< figure src="/wp-content/uploads/2025/02/Screenshot-2025-02-17-215023-3.png" alt="2025 Cannondale SuperX" caption="2025 Cannondale SuperX. Image: Cannondale" >}}
+{{< figure src="/wp-content/uploads/2025/02/Screenshot-2025-02-17-215023-3.webp" alt="2025 Cannondale SuperX" caption="2025 Cannondale SuperX. Image: Cannondale" >}}
 
 **Why the 2025 Cannondale Super X Is the Ultimate Gravel Race Bike**
 

@@ -10,11 +10,11 @@ categories:
 - Mountain
 cover:
   alt: Stumpjumper EVO Alloy and Stumpjumper 15 Alloy frames for a frame swap
-  image: /wp-content/uploads/2025/04/IMG_0855.jpg
+  image: /wp-content/uploads/2025/04/IMG_0855.webp
   relative: false
 ---
 
-{{< figure src="/wp-content/uploads/2025/04/IMG%5F1613-1.jpg" alt="2025 Specialized Stumpjumper 15 Alloy frame in raw aluminum finish, ready for component swap in workshop setting" caption="2025 Specialized Stumpjumper 15 Alloy frame in raw aluminum finish, ready for component swap in workshop setting" >}}
+{{< figure src="/wp-content/uploads/2025/04/IMG%5F1613-1.webp" alt="2025 Specialized Stumpjumper 15 Alloy frame in raw aluminum finish, ready for component swap in workshop setting" caption="2025 Specialized Stumpjumper 15 Alloy frame in raw aluminum finish, ready for component swap in workshop setting" >}}
 
 **Wondering how to plan a mountain bike frame swap without replacing all your components?** I’m preparing to swap my Specialized Stumpjumper EVO Alloy over to the 2025 Stumpjumper 15 Alloy—and I’m sharing exactly what will carry over, what needs replacing, and what to look out for, especially if you're running a mullet setup.
 
@@ -28,7 +28,7 @@ If you're considering a similar upgrade, this post will help you avoid surprises
 
 My EVO build has been dialed for trail riding, but the Stumpjumper 15 Alloy offers a lighter frame, more efficient suspension, and modern geometry. Instead of starting from scratch, I’m swapping the frame and keeping most of my current setup—making this a budget-friendly upgrade path for anyone with solid components already in place.
 
-{{< figure src="/wp-content/uploads/2025/04/IMG%5F0855-1.jpg" alt="Specialized Stumpjumper EVO Alloy mullet setup with RideFast 29' front wheel and BTLOS 27.5' rear wheel in a home workshop setup" caption="Specialized Stumpjumper EVO Alloy mullet setup with RideFast 29' front wheel and BTLOS 27.5' rear wheel in a home workshop setup" >}}
+{{< figure src="/wp-content/uploads/2025/04/IMG%5F0855-1.webp" alt="Specialized Stumpjumper EVO Alloy mullet setup with RideFast 29' front wheel and BTLOS 27.5' rear wheel in a home workshop setup" caption="Specialized Stumpjumper EVO Alloy mullet setup with RideFast 29' front wheel and BTLOS 27.5' rear wheel in a home workshop setup" >}}
 
 * * *
 

@@ -37,7 +37,7 @@ But is it? Let's dig in.
 | Motor Efficiency | 82% | 83% | 84.5% |
 | Wire Type | Round | Round | Flat |
 
-{{< figure src="/images/avinox-m2s-motor-2.png" caption="Avinox M2S motor. Image: Amflow" >}}
+{{< figure src="/images/avinox-m2s-motor-2.webp" caption="Avinox M2S motor. Image: Amflow" >}}
 
 A few things jump out here. First, the weight is basically identical across all three — Avinox managed to stuff 50% more peak power into nearly the same package. That's impressive engineering. Second, there are now actually *two* new motors: the M2 and the M2S. The M2 is the more affordable option, sitting between the M1 and M2S in power. Most of the buzz (and most of the new bike launches) is around the M2S, so that's what we'll focus on.
 

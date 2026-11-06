@@ -8,7 +8,7 @@ categories:
 - Deals
 cover:
   alt: Road bike tires, mini pump and bike lights on sale
-  image: /wp-content/uploads/2025/02/Screenshot-2025-02-09-234441-e1739173520587.png
+  image: /wp-content/uploads/2025/02/Screenshot-2025-02-09-234441-e1739173520587.webp
   relative: false
 ---
 

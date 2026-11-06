@@ -12,7 +12,7 @@ tags:
 - mountain bike
 - xc
 cover:
-  image: /images/epic8-evo.png
+  image: /images/epic8-evo.webp
   alt: My Specialized Epic 8 Evo
   relative: false
 ---

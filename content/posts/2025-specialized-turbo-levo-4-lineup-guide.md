@@ -11,7 +11,7 @@ tags:
 - Buying Guide
 ---
 
-![2025 Specialized Turbo Levo 4](/wp-content/uploads/2025/04/Screenshot-2025-04-08-220800.png)
+![2025 Specialized Turbo Levo 4](/wp-content/uploads/2025/04/Screenshot-2025-04-08-220800.webp)
 *2025 Specialized Turbo Levo 4. Image: Specialized*
 
 **Quick answer:** All four Levo 4 models share the same carbon frame, 160mm travel and 840Wh battery. The S-Works gets the stronger motor (111Nm vs 101Nm). The **Expert** is the value pick: you get the same frame, the same battery and a FOX 38 for $4,000 less than the S-Works.
@@ -55,7 +55,7 @@ While all models offer impressive range and support, the **S-Works** version ste
 
 All Levo 4 models feature **FOX rear shocks with Specialized's Genie Technology**, improving mid-stroke support and small bump sensitivity across rough and technical terrain.
 
-{{< figure src="/wp-content/uploads/2025/04/image-7.png" alt="Close-up of Specialized Genie shock on 2025 Turbo Levo 4 rear suspension" caption="Close-up of Specialized Genie shock on 2025 Turbo Levo 4 rear suspension" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-7.webp" alt="Close-up of Specialized Genie shock on 2025 Turbo Levo 4 rear suspension" caption="Close-up of Specialized Genie shock on 2025 Turbo Levo 4 rear suspension" >}}
 
 Front suspension differs:
 

@@ -8,12 +8,12 @@ categories:
 - Road
 - Reviews
 cover:
-  image: /wp-content/uploads/2025/04/Screenshot-2025-04-11-002541-1.png
+  image: /wp-content/uploads/2025/04/Screenshot-2025-04-11-002541-1.webp
   alt: Specialized Aethos Review
   relative: false
 ---
 
-{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-11-002541-1.png" alt="Specialized Aethos" caption="Specialized Aethos" >}}
+{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-11-002541-1.webp" alt="Specialized Aethos" caption="Specialized Aethos" >}}
 
 The **Specialized Aethos** might be the most quietly brilliant road bike out there. It's not aero. It's not a race bike. And it's definitely _not_ one of those overhyped showcase bikes built to dazzle on Instagram more than real roads. But it _is_ light, smooth, and a blast to ride—especially if you're juggling work, family, and a tight training window.
 
@@ -21,7 +21,7 @@ The Aethos isn't trying to win races. It's built for riders who just want to enj
 
 ### A Time-Crunched Cyclist's Perspective: Limited Time, Still Want to Feel Fast
 
-{{< figure src="/wp-content/uploads/2025/04/IMG_1242.jpeg" alt="Specialized Aethos" caption="" >}}
+{{< figure src="/wp-content/uploads/2025/04/IMG_1242.webp" alt="Specialized Aethos" caption="" >}}
 
 I'm a father of two young kids. That means training is limited, and my fitness isn't what it used to be. But the Aethos makes up for that. It's the kind of bike that makes **every ride feel fast**, even if you're only squeezing in a quick spin during lunchtime.
 

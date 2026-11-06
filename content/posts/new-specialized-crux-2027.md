@@ -12,7 +12,7 @@ tags:
 - crux
 - bike rumors
 cover:
-  image: /images/crux-2024.jpg
+  image: /images/crux-2024.webp
   alt: 2024 Specialized Crux
   caption: My 2024 Specialized Crux
   relative: false

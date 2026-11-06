@@ -8,7 +8,7 @@ categories:
 - Road
 cover:
   alt: Zipp 303, ENVE SES 4.5 and Roval Rapide CLII carbon road wheels
-  image: /wp-content/uploads/2020/01/IMG_5524.jpeg
+  image: /wp-content/uploads/2020/01/IMG_5524.webp
   relative: false
 ---
 

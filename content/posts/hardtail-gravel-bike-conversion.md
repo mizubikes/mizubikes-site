@@ -10,13 +10,13 @@ categories:
 - Mountain
 cover:
   alt: Cannondale Scalpel HT hardtail being converted into a gravel bike
-  image: /wp-content/uploads/2025/04/IMG_1597-1.jpg
+  image: /wp-content/uploads/2025/04/IMG_1597-1.webp
   relative: false
 ---
 
 > **Update (October 2026): this build is finished.** The final bike ended up different from the plan below. It got drop bars right away, a Niner RDO rigid fork instead of the ENVE, and SRAM Rival XPLR AXS with Garbaruk's 13-speed 10-52 cassette instead of a GX Eagle mix. It weighs 18 lb 7 oz with pedals. The full parts list, weight and ride impressions are in **[Mountain Bike to Gravel Bike Conversion: Garbaruk 10-52 13-Speed Build](/posts/mtb-to-gravel-garbaruk-10-52/)**, and I later tested 2.35" tires on it in **[I Put 2.35" MTB Tires on My Drop Bar Gravel Bike](/posts/2-35-mtb-tires-drop-bar-gravel-bike/)**. The rest of this post is the original plan, and the reasoning still holds.
 
-{{< figure src="/wp-content/uploads/2025/04/IMG_1597-2.jpg" alt="Cannondale Scalpel HT hardtail gravel bike conversion" caption="The Scalpel HT at the start of the conversion" >}}
+{{< figure src="/wp-content/uploads/2025/04/IMG_1597-2.webp" alt="Cannondale Scalpel HT hardtail gravel bike conversion" caption="The Scalpel HT at the start of the conversion" >}}
 
 Gravel bikes are all the rage—but what if you already have a capable hardtail mountain bike frame sitting in your garage? That’s the question I asked before starting a **hardtail gravel bike conversion** using a **Cannondale Scalpel HT**.
 

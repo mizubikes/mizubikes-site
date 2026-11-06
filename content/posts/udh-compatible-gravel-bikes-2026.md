@@ -12,7 +12,7 @@ tags:
 - Gravel Bikes
 - Buying Guide
 cover:
-  image: /images/sram-bike-finder-udh-gravel.png
+  image: /images/sram-bike-finder-udh-gravel.webp
   alt: SRAM Bike Finder filtered by UDH and Gravel showing 84 results
   caption: 'Photo: SRAM'
   relative: false

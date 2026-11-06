@@ -13,7 +13,7 @@ tags:
 - mountain bike
 - comparison
 cover:
-  image: /images/epic9-sworks-hero.png
+  image: /images/epic9-sworks-hero.webp
   alt: 2026 Specialized S-Works Epic 9
   caption: 'Image credit: [Specialized](https://www.specialized.com)'
   relative: false

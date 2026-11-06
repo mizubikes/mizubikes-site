@@ -14,7 +14,7 @@ tags:
 - shimano
 - road bikes
 cover:
-  image: /images/factor-ostro-vam-v2-build.jpg
+  image: /images/factor-ostro-vam-v2-build.webp
   alt: Factor Ostro VAM V2 Build
   relative: false
 draft: false

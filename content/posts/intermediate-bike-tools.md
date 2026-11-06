@@ -10,11 +10,11 @@ tags:
 - Buying Guide
 cover:
   alt: Intermediate bike tools for home mechanics
-  image: /wp-content/uploads/2025/04/image-20.png
+  image: /wp-content/uploads/2025/04/image-20.webp
   relative: false
 ---
 
-{{< figure src="/wp-content/uploads/2025/04/image-20.png" alt="intermediate bike tools" caption="intermediate bike tools" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-20.webp" alt="intermediate bike tools" caption="intermediate bike tools" >}}
 
 Keeping a bicycle in top shape requires more than just basic know-how. Once past the beginner phase, investing in intermediate-level tools can make home repairs more efficient and help extend the life of any bike. The right intermediate bike tools allow cyclists to complete complex repairs, perform detailed adjustments, and maintain components that often require more finesse. Here’s a breakdown of the 10 most useful intermediate bike tools every cyclist should consider adding to their workshop.
 
@@ -26,7 +26,7 @@ Removing and replacing the rear cassette becomes straightforward with these two 
 
 [Cyclists Cassette Removal Tool Sets](https://amzn.to/4cYwZik)
 
-{{< figure src="/wp-content/uploads/2025/04/image-9.png" alt="Cassette lockring tool and chain whip" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-9.webp" alt="Cassette lockring tool and chain whip" >}}
 
 ### 2\. Torque Wrench
 
@@ -34,7 +34,7 @@ A torque wrench ensures bolts are tightened to the correct specification, preven
 
 [AmazonBasics 1/4-Inch Drive Click Torque Wrench - 35-200 in.-lb, 3.95-22.5 Nm](https://amzn.to/4cZqU5g)
 
-{{< figure src="/wp-content/uploads/2025/04/image-17.png" alt="Bike torque wrench" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-17.webp" alt="Bike torque wrench" >}}
 
 ### 3\. Chain Wear Indicator Tool
 
@@ -42,7 +42,7 @@ This small but powerful tool helps measure chain stretch, which affects drivetra
 
 [PARK TOOL Chain Checker](https://amzn.to/4lRvc2r)
 
-{{< figure src="/wp-content/uploads/2025/04/image-19.png" alt="Chain wear indicator tool" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-19.webp" alt="Chain wear indicator tool" >}}
 
 ### 4\. Cable and Housing Cutters
 
@@ -52,7 +52,7 @@ These specialized cutters ensure clean cuts on brake and shift cables, preventin
 
 [Brake Housing Cutter](https://amzn.to/42y04O6)
 
-{{< figure src="/wp-content/uploads/2025/04/image-15.png" alt="Cable and housing cutters" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-15.webp" alt="Cable and housing cutters" >}}
 
 ### 5\. Bottom Bracket Tool
 
@@ -60,7 +60,7 @@ For those who want to replace or service their bottom bracket, this tool is a mu
 
 [Park Bottom Bracket Tools](https://amzn.to/4lRv5E3)
 
-{{< figure src="/wp-content/uploads/2025/04/image-16.png" alt="Bottom bracket tool" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-16.webp" alt="Bottom bracket tool" >}}
 
 ### 6\. Brake Bleed Kit
 
@@ -68,7 +68,7 @@ A brake bleed kit is essential for maintaining hydraulic disc brake systems. It 
 
 [Shimano Workshop TL-BR002 Bleed kit](https://amzn.to/4jUAgBo)
 
-{{< figure src="/wp-content/uploads/2025/04/image-14.png" alt="Brake bleed kit" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-14.webp" alt="Brake bleed kit" >}}
 
 ### 7\. Spoke Wrench Nipple Set
 
@@ -76,7 +76,7 @@ A spoke wrench set allows for the tightening and loosening of individual spoke n
 
 [Park Tool Bicycle Spoke Wrench Set - SW-0, SW-1, SW-2, & SW-3](https://amzn.to/3RHIXTJ)
 
-{{< figure src="/wp-content/uploads/2025/04/image-22.png" alt="Spoke wrench set" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-22.webp" alt="Spoke wrench set" >}}
 
 ### 8\. Digital Caliper
 
@@ -92,7 +92,7 @@ For headset and bottom bracket bearings, a press kit allows smooth installation 
 
 [Wheels Manufacturing Pro Kit - Bottom Bracket Press](https://amzn.to/4iGnG7Z)
 
-{{< figure src="/wp-content/uploads/2025/04/image-11.png" alt="Bearing press kit" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-11.webp" alt="Bearing press kit" >}}
 
 ### 10\. Chain Link Pliers
 
@@ -100,7 +100,7 @@ Essential for removing and installing quick links on modern bike chains. Chain l
 
 [Park Tool Master Link Pliers MLP-1.2](https://amzn.to/4k0isFk)
 
-{{< figure src="/wp-content/uploads/2025/04/image-12.png" alt="Chain link pliers" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-12.webp" alt="Chain link pliers" >}}
 
 * * *
 

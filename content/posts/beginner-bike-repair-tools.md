@@ -8,7 +8,7 @@ categories:
 - Bike Repair
 cover:
   alt: Beginner bike repair tool kit
-  image: /wp-content/uploads/2025/04/Screenshot-2025-04-04-001635.png
+  image: /wp-content/uploads/2025/04/Screenshot-2025-04-04-001635.webp
   relative: false
 ---
 
@@ -26,11 +26,11 @@ Most bolts on your bike—like the ones on your **saddle**, **stem**, and **brak
 
 [Park Tool AWS-10 Fold-Up Hex Wrench Set](https://amzn.to/4cgwbVP)
 
-{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-04-001635.png" alt="Park Tool AWS-10 Fold-Up Hex Wrench Set" >}}
+{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-04-001635.webp" alt="Park Tool AWS-10 Fold-Up Hex Wrench Set" >}}
 
 [Allen Wrench Hex Key Set 1.5mm-10mm, 9PCS Metric Long Ball End Blue Allen Key Set](https://amzn.to/428V6qZ)
 
-{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-04-001850.png" alt="Allen Wrench Hex Key Set 1.5mm-10mm, 9PCS Metric Long Ball End Blue Allen Key Set" >}}
+{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-04-001850.webp" alt="Allen Wrench Hex Key Set 1.5mm-10mm, 9PCS Metric Long Ball End Blue Allen Key Set" >}}
 
 **Pro Tip:** Look for a set with ball ends for easier access in tight spots.
 
@@ -42,11 +42,11 @@ Fixing a flat tire? You’ll need **tire levers** to safely remove your tire fro
 
 [My Personal Favorite: Park Tool 2 Carded Tire Lever Set](https://amzn.to/4iUWDGM)
 
-{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-04-002038.png" alt="Park Tool 2 Carded Tire Lever Set" >}}
+{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-04-002038.webp" alt="Park Tool 2 Carded Tire Lever Set" >}}
 
 [Pedro's Tire Lever](https://amzn.to/42ifm8i)
 
-{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-04-002217.png" alt="Pedro's Tire Lever" >}}
+{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-04-002217.webp" alt="Pedro's Tire Lever" >}}
 
 * * *
 
@@ -60,7 +60,7 @@ Maintaining the right **tire pressure** improves ride quality, reduces flats, an
 
 [Topeak JoeBlow Bike Pump – High-Pressure Floor Pump](https://amzn.to/3E8EC8W)
 
-{{< figure src="/wp-content/uploads/2025/04/image.png" alt="Topeak JoeBlow Bike Pump – High-Pressure Floor Pump" >}}
+{{< figure src="/wp-content/uploads/2025/04/image.webp" alt="Topeak JoeBlow Bike Pump – High-Pressure Floor Pump" >}}
 
 * * *
 
@@ -70,11 +70,11 @@ A quiet, smooth, and efficient ride starts with a clean, lubricated chain. Use *
 
 [My favorite: Muc-Off Dry Lube (50-ml)](https://amzn.to/44akL3H)
 
-{{< figure src="/wp-content/uploads/2025/04/image-1.png" alt="Muc-Off Dry Lube (50-ml)" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-1.webp" alt="Muc-Off Dry Lube (50-ml)" >}}
 
 [Finish Line Dry Bike Lubricant](https://amzn.to/3E85QfM)
 
-{{< figure src="/wp-content/uploads/2025/04/image-2.png" alt="Finish Line Dry Bike Lubricant" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-2.webp" alt="Finish Line Dry Bike Lubricant" >}}
 
 * * *
 
@@ -84,7 +84,7 @@ Getting a flat mid-ride can ruin your day. Keep a **patch kit** or **extra tubes
 
 [Park Tool GP-2 Super Patch Kit](https://amzn.to/44bYrGR)  
 
-{{< figure src="/wp-content/uploads/2025/04/image-3.png" alt="Park Tool GP-2 Super Patch Kit" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-3.webp" alt="Park Tool GP-2 Super Patch Kit" >}}
 
 * * *
 
@@ -94,7 +94,7 @@ A **bike multi-tool** is your all-in-one solution for on-the-go adjustments. It 
 
 [Crank Brothers Multi Tool 19 Gold](https://amzn.to/3FSo9Gq)
 
-{{< figure src="/wp-content/uploads/2025/04/image-4.png" alt="Crank Brothers Multi Tool 19 Gold" >}}
+{{< figure src="/wp-content/uploads/2025/04/image-4.webp" alt="Crank Brothers Multi Tool 19 Gold" >}}
 
 * * *
 

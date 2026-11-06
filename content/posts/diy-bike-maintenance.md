@@ -9,7 +9,7 @@ categories:
 - Mountain
 cover:
   alt: Mountain bike in a repair stand for DIY maintenance
-  image: /wp-content/uploads/2025/02/EAE7684B-9BD9-48E6-8B9B-705ED1CDD181_Original.jpg
+  image: /wp-content/uploads/2025/02/EAE7684B-9BD9-48E6-8B9B-705ED1CDD181_Original.webp
   relative: false
 ---
 

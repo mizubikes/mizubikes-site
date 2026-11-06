@@ -9,7 +9,7 @@ categories:
 - Road
 cover:
   alt: Cannondale CAAD13 aluminum road bike
-  image: /wp-content/uploads/2025/02/IMG_0944.jpg
+  image: /wp-content/uploads/2025/02/IMG_0944.webp
   relative: false
 ---
 

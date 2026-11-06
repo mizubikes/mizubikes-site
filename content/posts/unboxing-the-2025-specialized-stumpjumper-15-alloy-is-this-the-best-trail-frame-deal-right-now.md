@@ -11,7 +11,7 @@ tags:
 - Buying Guide
 cover:
   alt: Specialized Stumpjumper 15 Alloy frameset
-  image: /wp-content/uploads/2025/03/Screenshot-2025-03-26-214519.png
+  image: /wp-content/uploads/2025/03/Screenshot-2025-03-26-214519.webp
   relative: false
 ---
 
@@ -35,7 +35,7 @@ Like the carbon version, the alloy frame ditches the single-sidearm design from 
 
 ## What’s in the Box?
 
-{{< figure src="/wp-content/uploads/2025/03/Screenshot-2025-03-26-214845.png" alt="Specialized Stumpjumper 15 Alloy frameset box contents" >}}
+{{< figure src="/wp-content/uploads/2025/03/Screenshot-2025-03-26-214845.webp" alt="Specialized Stumpjumper 15 Alloy frameset box contents" >}}
 
 Specialized didn’t skimp on the extras. Here’s everything that comes in the box:
 

@@ -9,7 +9,7 @@ categories:
 - Mountain
 cover:
   alt: Specialized Stumpjumper EVO Alloy mullet trail bike build
-  image: /wp-content/uploads/2025/04/Screenshot-2025-04-02-181021.png
+  image: /wp-content/uploads/2025/04/Screenshot-2025-04-02-181021.webp
   relative: false
 ---
 

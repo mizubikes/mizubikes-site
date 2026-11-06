@@ -9,7 +9,7 @@ tags:
 - Kids Bikes
 cover:
   alt: Child bike trailer and rear child bike seat compared
-  image: /wp-content/uploads/2025/02/admin-ajax-1.png
+  image: /wp-content/uploads/2025/02/admin-ajax-1.webp
   relative: false
 ---
 

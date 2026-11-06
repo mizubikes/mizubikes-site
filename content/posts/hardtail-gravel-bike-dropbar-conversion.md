@@ -10,7 +10,7 @@ categories:
 - Mountain
 cover:
   alt: Cannondale Scalpel HT hardtail set up for a drop bar gravel conversion
-  image: /wp-content/uploads/2025/04/IMG_1597.jpg
+  image: /wp-content/uploads/2025/04/IMG_1597.webp
   relative: false
 ---
 

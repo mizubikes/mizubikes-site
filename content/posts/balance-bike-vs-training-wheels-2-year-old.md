@@ -11,7 +11,7 @@ tags:
 - Kids Bikes
 cover:
   alt: Toddler balance bike next to a 12-inch bike with training wheels
-  image: /wp-content/uploads/2025/04/Screenshot-2025-04-11-000321.png
+  image: /wp-content/uploads/2025/04/Screenshot-2025-04-11-000321.webp
   relative: false
 ---
 
@@ -25,7 +25,7 @@ As a parent going through this decision right now for my own daughter, I spent t
 
 ## What’s a Balance Bike?
 
-{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-11-000321-1.png" alt="12-inch toddler balance bike" caption="A 12-inch balance bike" >}}
+{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-11-000321-1.webp" alt="12-inch toddler balance bike" caption="A 12-inch balance bike" >}}
 
 A **balance bike** is a pedal-free bike that helps toddlers learn balance and coordination first. Kids use their feet to scoot along, learning to steer and stay upright at their own pace.
 
@@ -47,7 +47,7 @@ A **balance bike** is a pedal-free bike that helps toddlers learn balance and co
 
 These bikes have pedals and two extra wheels in the back to prevent tipping. They’re more like a traditional bike, but the training wheels take care of the balance.
 
-{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-11-001139.png" alt="12-inch kids bike with training wheels" caption="A 12-inch pedal bike with training wheels" >}}
+{{< figure src="/wp-content/uploads/2025/04/Screenshot-2025-04-11-001139.webp" alt="12-inch kids bike with training wheels" caption="A 12-inch pedal bike with training wheels" >}}
 
 ### Pros:
 

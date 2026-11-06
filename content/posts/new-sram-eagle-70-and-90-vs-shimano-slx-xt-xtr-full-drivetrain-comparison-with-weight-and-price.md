@@ -15,7 +15,7 @@ tags:
 - Comparison
 cover:
   alt: SRAM Eagle Transmission 70 and 90 vs Shimano SLX, XT and XTR drivetrain components side by side
-  image: /wp-content/uploads/2025/03/Screenshot-2025-03-29-222108.png
+  image: /wp-content/uploads/2025/03/Screenshot-2025-03-29-222108.webp
   relative: false
 ---
 
