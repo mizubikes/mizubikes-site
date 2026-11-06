@@ -5,7 +5,7 @@ lastmod: 2026-11-01
 description: 'How much eBay takes when you sell used bike parts, what shipping really costs, and tips to price, pack and list parts so you keep more of the money.'
 url: /make-extra-money-selling-bike-parts-on-ebay-fees-tips-explained/
 categories:
-- Deals
+- Guides
 tags:
 - Buying Guide
 cover:

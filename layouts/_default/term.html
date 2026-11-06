@@ -23,6 +23,10 @@
   </div>
 </header>
 
+{{- if eq .RelPermalink "/categories/deals/" }}
+{{- partial "prices/home-strip.html" . }}
+{{- end }}
+
 {{- if $rest }}
 <div class="mb-card-grid mb-cat-grid">
   {{- range $rest }}

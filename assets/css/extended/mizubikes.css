@@ -465,3 +465,9 @@ body {
   .mb-cat-grid { grid-template-columns: 1fr; }
   .mb-cat-banner-lead { display: flex; }
 }
+
+/* ---------- Nav: keep logo and all tabs on one line on desktop ---------- */
+:root { --nav-width: 1240px; }
+@media (min-width: 769px) {
+  #menu li + li { margin-inline-start: 20px; }
+}

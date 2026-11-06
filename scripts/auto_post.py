@@ -29,7 +29,7 @@ PR_BODY_FILE = Path(os.environ.get("RUNNER_TEMP", "/tmp")) / "pr_body.md"
 
 MODEL = "claude-sonnet-5-5"
 AMAZON_TAG = "mizubikes-web-20"
-CATEGORIES = ["Road", "Mountain", "Gravel", "E-Bike", "Bike Repair", "Bike Builds", "Deals"]
+CATEGORIES = ["Road", "Mountain", "Gravel", "E-Bike", "Bike Repair", "Bike Builds", "Guides", "Deals"]
 COVER_MAX_BYTES = 150 * 1024
 
 

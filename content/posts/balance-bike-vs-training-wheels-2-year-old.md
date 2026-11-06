@@ -5,7 +5,7 @@ lastmod: 2026-11-01
 description: 'Balance bike vs training wheels for a 2-year-old: pros and cons of each, the best 12-inch balance bikes and pedal bikes, and which one we chose.'
 url: /balance-bike-vs-training-wheels-2-year-old/
 categories:
-- Deals
+- Guides
 tags:
 - Buying Guide
 - Kids Bikes

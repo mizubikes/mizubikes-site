@@ -78,11 +78,15 @@ menu:
       name: Bike Builds
       url: /categories/bike-builds/
       weight: 6
+    - identifier: menu-guides
+      name: Guides
+      url: /categories/guides/
+      weight: 7
     - identifier: menu-deals
       name: Deals
       url: /categories/deals/
-      weight: 7
+      weight: 8
     - identifier: menu-tire-prices
       name: Tire Prices
       url: /gravel-tire-prices/
-      weight: 8
+      weight: 9
