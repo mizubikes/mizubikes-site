@@ -8,10 +8,12 @@ categories:
 - E-Bike
 tags:
 - Buying Guide
+cover:
+  image: /wp-content/uploads/2025/04/Screenshot-2025-04-08-220800.webp
+  alt: 2025 Specialized S-Works Turbo Levo 4 electric mountain bike
+  caption: 'Photo: Specialized'
+  relative: false
 ---
-
-![2025 Specialized Turbo Levo 4](/wp-content/uploads/2025/04/Screenshot-2025-04-08-220800.webp)
-*2025 Specialized Turbo Levo 4. Image: Specialized*
 
 **Quick answer:** All four Levo 4 models share the same carbon frame, 160mm travel and 840Wh battery. The S-Works gets the stronger motor (111Nm vs 101Nm). The **Expert** is the value pick: you get the same frame, the same battery and a FOX 38 for $4,000 less than the S-Works.
 
