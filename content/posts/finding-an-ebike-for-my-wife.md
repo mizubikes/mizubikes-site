@@ -38,6 +38,9 @@ That's a pretty clear brief. Step-through frame, upright geometry, wider tires i
 
 My first instinct, naturally, was to look at the best options on the market. The Specialized Turbo Vado SL immediately caught my eye — around 44 lbs with their SL 1.1 motor, it rides closer to a regular bike than almost anything else in the category. The step-through version is genuinely elegant, and Specialized's dealer support is hard to argue with. At $3,599, it's priced like the premium product it is.
 
+![Specialized Turbo Vado SL e-bike](/images/vado-sl-2-4.webp)
+*Specialized Turbo Vado SL. Photo: Specialized*
+
 The Trek Verve+ also made a strong case. Bosch's mid-drive system is the benchmark for a reason — smooth, reliable, well-supported, and it handles hills and extra weight confidently. The Verve+ 3 Lowstep Gen 3 comes in around $2,999, and if you're going to ride daily for the next decade, that price is easy to justify.
 
 Both are genuinely excellent bikes. But I kept coming back to one question: how often is this bike actually going to get used?

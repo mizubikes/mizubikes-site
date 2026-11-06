@@ -47,6 +47,9 @@ The Specialized Crux is the clearest example of a popular gravel frame that exis
 
 The current Crux generation launched in 2021 as a significant redesign — it went from a cyclocross-leaning platform to a proper race gravel bike with wide tire clearance and aggressive geometry. That original 2021 design did not have UDH. Specialized then made rolling changes to the dropout design, and the 2025 model year brought UDH compatibility across the range: the alloy Crux DSW got it first, followed by the carbon S-Works Crux later that year. Specialized was explicit about it in their customer documentation, noting that 2025 and newer Crux models have been redesigned for the SRAM UDH and are compatible with SRAM Transmission.
 
+![Pre-2025 Specialized Crux frameset without UDH](/images/specialized-crux-2023-non-udh-dropout.webp)
+*A pre-2025 Crux frameset, before the UDH dropout. Photo: Specialized*
+
 ![2025 S-Works Crux with UDH](/images/specialized-crux-2025-udh.png)
 *2025 S-Works Crux — the first carbon Crux generation with UDH. Photo: Specialized*
 

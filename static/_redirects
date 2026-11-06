@@ -1,5 +1,29 @@
 # Old WordPress URL patterns -> Hugo equivalents (301)
 # Specific rules first; Netlify uses the first match
+# Old WordPress ?p= and ?page_id= links (from the WP export)
+/  p=3319  /buy-this-not-that-budget-friendly-tools-for-beginner-bike-mechanics/  301!
+/  p=3420  /diy-bike-maintenance/  301!
+/  p=3434  /shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/  301!
+/  p=3448  /new-sram-eagle-70-and-90-vs-shimano-slx-xt-xtr-full-drivetrain-comparison-with-weight-and-price/  301!
+/  p=3461  /beginner-bike-repair-tools/  301!
+/  p=3538  /hardtail-gravel-bike-dropbar-conversion/  301!
+/  p=3293  /posts/real-bike-weights/  301!
+/  p=3310  /5-road-bike-saddle-bag-essentials-for-tubeless-road-bikes/  301!
+/  p=3328  /posts/real-bike-weights/  301!
+/  p=3425  /transferable-warranties/  301!
+/  p=3456  /how-i-set-up-my-specialized-stumpjumper-evo-alloy-mullet-custom-trail-bike-build/  301!
+/  p=3519  /hardtail-gravel-bike-conversion/  301!
+/  p=3526  /how-to-plan-a-mountain-bike-frame-swap/  301!
+/  p=3380  /make-extra-money-selling-bike-parts-on-ebay-fees-tips-explained/  301!
+/  p=3398  /feb-deals/  301!
+/  p=3406  /2025-cannondale-superx-review/  301!
+/  p=3491  /balance-bike-vs-training-wheels-2-year-old/  301!
+/  p=3497  /specialized-aethos-review/  301!
+/  p=3322  /cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/  301!
+/  p=3325  /best-options-for-a-1-year-old-baby-a-bike-trailer-or-a-bike-baby-seat/  301!
+/  p=3438  /unboxing-the-2025-specialized-stumpjumper-15-alloy-is-this-the-best-trail-frame-deal-right-now/  301!
+/  p=3479  /2025-specialized-turbo-levo-4-lineup-guide/  301!
+/  p=3543  /intermediate-bike-tools/  301!
 /weigh-in-2023-cannondale-habit-frameset-weight/  /posts/real-bike-weights/  301!
 /weigh-in-2022-fox-36-grip-2-29-150mm-travel/     /posts/real-bike-weights/  301!
 /category/gravel-cx/*     /categories/gravel/        301

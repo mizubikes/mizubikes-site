@@ -61,6 +61,15 @@ No suspension, no SWAT storage, no fender mounts either. This is a race bike wit
 | S-Works Frameset | FACT 12r | — | $5,799 |
 | Crux 5 Frameset | FACT 10r | — | $3,499 |
 
+![Specialized Crux 5 S-Level](/images/specialized-crux-5-slevel.webp)
+*Crux 5 S-Level. Photo: Specialized*
+
+![Specialized Crux 5 Comp](/images/specialized-crux-5-comp.webp)
+*Crux 5 Comp. Photo: Specialized*
+
+![Specialized Crux 5 Sport](/images/specialized-crux-5-sport.webp)
+*Crux 5 Sport. Photo: Specialized*
+
 The Comp at $4,499 with SRAM Rival XPLR is likely where most people will land. The Sport at $3,999 with mechanical GRX is a solid entry point if you want the new FACT 10r frame without going wireless.
 
 The wheel spec difference between S-Works and S-Level is worth flagging: the S-Works gets the Terra CLX Aero (full carbon clincher), while the S-Level drops to the Terra Aero CL at $3,500 less. If you're buying the S-Level with the intent to upgrade wheels anyway, the FACT 12r frameset at $5,799 is worth a look.

@@ -33,6 +33,9 @@ This is a straight comparison of where both brands stand right now: specs, prici
 
 Zipp has two 303 XPLR variants. The SW is the flagship — dimpled carbon, Sapim CX-Ray bladed spokes, ZR1 hub with 66-point engagement, 1,496g claimed, $2,100. The S uses the same rim dimensions (32mm internal width, 54mm depth front and rear) but steps down to a plain carbon layup, Sapim CX-Sprint spokes, and the simpler 76/176 three-pawl hub, coming in at 1,642g for $1,400. Notably, both Zipps run the same depth front and rear — 54mm across the board.
 
+![Zipp 303 XPLR SW gravel wheels](/images/zipp-303-xplr-sw.webp)
+*Zipp 303 XPLR SW. Photo: Zipp*
+
 ENVE has three G SES variants. The base 4.5 is $2,800 a set, the 4.5 Pro is $3,100, and the 6.7 Pro is also $3,100. The 4.5 and 4.5 Pro share 30mm internal rims at asymmetric 49/55mm depths. The 6.7 Pro steps up to 35mm internal at 60/67mm depths. The base 4.5 runs Sapim CX-Ray spokes with a standard 326g Innerdrive hub; both Pro models get Alpina Ultralite spokes and the ceramic Innerdrive Pro hub at 281g.
 
 ## Specs head to head

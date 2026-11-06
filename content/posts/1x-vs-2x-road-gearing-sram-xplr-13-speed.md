@@ -25,6 +25,9 @@ The knock on running 1x on a road bike is always the same two things: you lose r
 
 Start with spacing, since that's the complaint you hear most. I lined my 10-46 XPLR cassette up against a standard 12-speed 10-36 road cassette, cog for cog. Eleven of my thirteen cogs are the exact same tooth counts — 10, 11, 12, 13, 15, 17, 19, 21, 24, 28, 32 — in the same order, with the same jumps between them.
 
+![SRAM XPLR 10-46 vs a standard 10-36 road cassette, cog by cog: 11 of 13 gears identical](/images/xplr-vs-road-cassette-cogs.webp)
+*Graphic: Mizu Bikes*
+
 ![SRAM Force XPLR 13-speed cassette, chain, and rear derailleur on the SuperSix Evo](/images/xplr-drivetrain-detail.webp)
 *Photo: Mizu Bikes*
 
