@@ -35,7 +35,7 @@ In practice, there's usually more room than the spec suggests.
 
 ## Real-World Clearance on the Specialized Crux
 
-The Crux frame (2022–2026) has the same stated 47mm / 650b x 2.1" clearance across all model years. I was running an ENVE SES 3.4 wheelset with a 25mm internal width — and that matters. Wider rims push tires outward, so a 50c tire on a wide rim measures wider than its nominal size.
+The Crux frame (2022–2026) has the same stated 47mm / 650b x 2.1" clearance across all model years. I was running an ENVE SES 3.4 wheelset with a 25mm internal width — and that matters ([here's how much a wider rim changes it](/posts/zipp-303-xplr-sw-vs-enve-ses-3-4-tire-width-test/)). Wider rims push tires outward, so a 50c tire on a wide rim measures wider than its nominal size.
 
 Results with that setup:
 
