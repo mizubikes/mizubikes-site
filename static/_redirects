@@ -1,0 +1,11 @@
+# Old WordPress URL patterns -> Hugo equivalents (301)
+/category/*               /categories/:splat         301
+/tag/*                    /tags/:splat               301
+/author/*                 /about/                    301
+/feed                     /feed.xml                  301
+/feed/                    /feed.xml                  301
+/comments/feed/           /feed.xml                  301
+/page/*                   /                          301
+/blog/*                   /posts/                    301
+/wp-admin/*               /                          301
+/wp-login.php             /                          301
