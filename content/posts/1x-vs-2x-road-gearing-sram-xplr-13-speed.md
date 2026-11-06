@@ -1,5 +1,5 @@
 ---
-title: '1x vs 2x Road Gearing: What You Actually Give Up with 13-Speed SRAM XPLR'
+title: '1x vs 2x Road Gearing: What 13-Speed XPLR Costs You'
 date: 2026-09-11
 description: I ran the numbers on SRAM's 13-speed Force XPLR 1x against a standard 2x road setup. The gaps and total range aren't what most people assume.
 slug: 1x-vs-2x-road-gearing-sram-xplr-13-speed

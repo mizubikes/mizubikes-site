@@ -2,7 +2,7 @@
 title: 'Avinox M2S vs M1: Is 1,500W Actually Better?'
 date: 2026-04-19
 lastmod: 2026-11-01
-description: The Avinox M2S doubles down on power with 1,500W and 150Nm of torque. But does more wattage actually make it a better motor — or is the M1 still the smarter buy?
+description: 'The Avinox M2S makes 1,500W and 150Nm of torque. Does more power make it a better eMTB motor, or is the M1 still the smarter buy?'
 slug: avinox-m2s-vs-m1
 categories:
 - E-Bike

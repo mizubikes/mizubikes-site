@@ -1,8 +1,8 @@
 ---
-title: 'The Factory Always Wins: Why XDS Selling Its Own Bikes Isn''t New — It''s Just Giant''s Playbook'
+title: 'XDS Selling Direct Is Just Giant''s Old Playbook'
 date: 2026-05-13
 lastmod: 2026-11-01
-description: 'XDS builds bikes for the industry and now sells its own X-Lab bikes direct. Giant did the same to Schwinn in the 1980s. Updated Nov 2026 with US frameset prices.'
+description: 'XDS builds bikes for the industry and now sells X-Lab bikes direct. Giant did the same to Schwinn in the 1980s. Updated with US frameset prices.'
 slug: xds-giant-oem-manufacturer-goes-direct
 categories:
 - Road

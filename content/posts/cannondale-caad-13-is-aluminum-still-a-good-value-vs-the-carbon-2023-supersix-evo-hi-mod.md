@@ -1,5 +1,5 @@
 ---
-title: 'Cannondale CAAD13 vs SuperSix Evo Hi-Mod: Is Aluminum Still a Good Value?'
+title: 'Cannondale CAAD13 vs SuperSix Evo: Is Aluminum Worth It?'
 date: '2023-11-01T06:27:25+00:00'
 lastmod: 2026-11-01
 description: 'Cannondale CAAD13 aluminum vs SuperSix Evo Hi-Mod carbon: frame and fork weights, price, and cost per gram saved. Is the 511g worth $3,500?'

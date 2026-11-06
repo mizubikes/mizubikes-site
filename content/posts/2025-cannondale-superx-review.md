@@ -1,8 +1,8 @@
 ---
-title: '2025 Cannondale SuperX Review: The Ultimate Gravel and Cyclocross Race Bike'
+title: '2025 Cannondale SuperX Review: Gravel and CX Race Bike'
 date: '2025-02-18T06:23:20+00:00'
 lastmod: 2026-11-01
-description: 'The 2025 Cannondale SuperX gets 50mm tire clearance, standard rear spacing, a threaded BB and aero tubes. What changed and whether it''s worth it for CX and gravel racing.'
+description: 'The 2025 Cannondale SuperX adds 50mm clearance, standard spacing, a threaded BB and aero tubes. What changed and who it''s for.'
 url: /2025-cannondale-superx-review/
 categories:
 - Gravel

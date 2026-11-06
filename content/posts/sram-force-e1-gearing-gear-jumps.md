@@ -1,5 +1,5 @@
 ---
-title: 'SRAM Force E1 2x vs 1x vs XPLR: Gearing and Gear Jumps Compared'
+title: 'SRAM Force 2x vs 1x vs XPLR: Gear Jumps Compared'
 date: 2026-07-20
 lastmod: 2026-11-01
 description: SRAM Force E1 gearing compared cog by cog — 10-33 vs 10-36 vs 13-speed XPLR 10-46, with the actual gear jumps behind the range numbers.

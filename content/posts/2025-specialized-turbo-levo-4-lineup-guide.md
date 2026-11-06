@@ -1,5 +1,5 @@
 ---
-title: '2025 Specialized Turbo Levo 4 Lineup: Buyer''s Guide and Comparison'
+title: 'Specialized Turbo Levo 4 Lineup: 2025 Buyer''s Guide'
 date: '2025-04-09T15:54:00+00:00'
 lastmod: 2026-11-01
 description: Explore the 2025 Specialized Turbo Levo 4 lineup. Compare motor power, components, and prices across the S-Works, Pro, Expert, and Comp models.

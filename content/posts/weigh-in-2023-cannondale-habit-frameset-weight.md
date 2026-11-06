@@ -1,5 +1,5 @@
 ---
-title: '2023 Cannondale Habit LT Frame Weight: Real Frameset Weigh-In'
+title: '2023 Cannondale Habit LT Frame Weight: Real Weigh-In'
 date: '2023-08-03T07:38:00+00:00'
 lastmod: 2026-11-01
 description: 'Real weight of the 2023 Cannondale Habit LT frame: 2.8kg without the shock, 3,363g complete with a Fox Float X shock, hardware, axle and seat clamp.'

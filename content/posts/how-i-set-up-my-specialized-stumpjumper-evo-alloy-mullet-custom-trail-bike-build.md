@@ -1,8 +1,8 @@
 ---
-title: 'How I Set Up My Specialized Stumpjumper EVO Alloy Mullet: Custom Trail Bike Build'
+title: 'Specialized Stumpjumper EVO Alloy Mullet Build'
 date: '2025-04-03T07:46:05+00:00'
 lastmod: 2026-11-01
-description: 'My Specialized Stumpjumper EVO Alloy mullet build: RockShox Lyrik and Super Deluxe Ultimate, Shimano XT/SLX, Saint brakes, carbon wheels and the full parts list.'
+description: 'My Stumpjumper EVO Alloy mullet build: RockShox Lyrik and Super Deluxe Ultimate, Shimano XT/SLX, Saint brakes, carbon wheels and parts list.'
 url: /how-i-set-up-my-specialized-stumpjumper-evo-alloy-mullet-custom-trail-bike-build/
 categories:
 - Bike Repair

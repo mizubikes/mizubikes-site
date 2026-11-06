@@ -1,5 +1,5 @@
 ---
-title: 5 Road Bike Saddle Bag Essentials For Tubeless Road Bikes
+title: 'Tubeless Road Bike Saddle Bag: 5 Essentials'
 date: '2023-12-14T05:41:00+00:00'
 lastmod: 2026-11-01
 description: 'The 5 things I carry in my saddle bag for a tubeless road bike: CO2 inflator, SWAT multi-tool, Dynaplug, tire lever and a lightweight Tubolito spare tube.'

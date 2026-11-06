@@ -1,8 +1,8 @@
 ---
-title: 'Shimano Dura-Ace vs. Ultegra R8100: Is the Weight Savings Worth the Cost?'
+title: 'Dura-Ace vs Ultegra R8100: Worth the Weight Savings?'
 date: '2025-03-07T06:36:06+00:00'
 lastmod: 2026-11-01
-description: 'Dura-Ace R9200 vs Ultegra R8100 part by part: weight saved, price difference and cost per gram. The cassette is the best-value upgrade; the crankset is the worst.'
+description: 'Dura-Ace R9200 vs Ultegra R8100 part by part: weight, price and cost per gram saved. The cassette is the best-value upgrade, the crank the worst.'
 url: /shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/
 categories:
 - Deals

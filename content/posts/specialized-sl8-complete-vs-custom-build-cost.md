@@ -1,8 +1,8 @@
 ---
-title: 'Complete or Custom Build Cost Comparison: Specialized SL8 Pro Di2'
+title: 'Tarmac SL8 Pro Di2: Complete vs Custom Build Cost'
 date: '2024-01-14T12:00:00+00:00'
 lastmod: 2026-11-01
-description: 'Is it cheaper to buy the Specialized Tarmac SL8 Pro Ultegra Di2 complete or build one from parts? Full MSRP parts list, the best deals I found, and the $215 answer.'
+description: 'Is it cheaper to buy a Specialized Tarmac SL8 Pro Ultegra Di2 complete or build one from parts? Full MSRP parts list, best deals and the answer.'
 url: /posts/specialized-sl8-complete-vs-custom-build-cost/
 aliases:
 - /malesuada-proin-libero-nunc-consequat-interdum/

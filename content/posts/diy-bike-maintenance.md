@@ -1,5 +1,5 @@
 ---
-title: 'How to Save Money on Bike Repairs: A Step-by-Step Guide to DIY Maintenance'
+title: 'DIY Bike Maintenance: How to Save Money on Repairs'
 date: '2025-02-20T17:19:08+00:00'
 lastmod: 2026-11-01
 description: 'A bike shop quoted $940 to fix my friend''s mountain bike. We did the essential repairs ourselves for $215 in parts. Here''s every step, tool and part.'

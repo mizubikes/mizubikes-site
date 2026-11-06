@@ -1,7 +1,7 @@
 ---
-title: 'Specialized Crux 5 vs the Field: Is Any Gravel Race Bike Better Right Now?'
+title: 'Specialized Crux 5 vs Grail, Kanzo Fast and Kaius'
 date: 2026-11-02
-description: 'Crux 5 vs Canyon Grail CFR, Ridley Kanzo Fast 2.0, BMC Kaius 01, Trek Checkmate SLR, Cervélo Áspero-5 and X-Lab GT8: weight, clearance, price and which one wins.'
+description: 'Crux 5 vs Canyon Grail CFR, Ridley Kanzo Fast 2.0, BMC Kaius 01, Trek Checkmate SLR and X-Lab GT8: weight, clearance, price and the winner.'
 slug: crux-5-vs-gravel-race-bikes-2026
 categories:
 - Gravel
@@ -91,7 +91,7 @@ At **$3,199** complete, the GT8 comes with Shimano GRX Di2, carbon wheels and a 
 
 If I were replacing my Crux today, it would come down to the Crux 5 Comp and the Kanzo Fast. I'd lean Crux for the threaded BB, the weight and being able to get it serviced locally. But if Ridley lands in the US at prices close to the euro numbers, that could change my answer.
 
-Whatever you pick, the frame matters less than the tires you put on it. My [picks for mixed pavement and dirt](/posts/best-gravel-tires-mixed-pavement-dirt-2026/) are a good place to start. If you're wondering whether one of these could also replace your road bike, I made that case in [Crux 5 vs Road Bike](/posts/crux-5-quiver-killer-road-bike/).
+Whatever you pick, the frame matters less than the tires you put on it. My [picks for mixed pavement and dirt](/posts/best-gravel-tires-mixed-pavement-dirt-2026/) are a good place to start. If you're wondering whether one of these could also replace your road bike, I made that case in [Crux 5 vs Road Bike](/posts/crux-5-quiver-killer-road-bike/). And if you want one bike for gravel races and cyclocross, my [2025 Cannondale SuperX review](/2025-cannondale-superx-review/) covers the other way to go.
 
 ## Sources
 

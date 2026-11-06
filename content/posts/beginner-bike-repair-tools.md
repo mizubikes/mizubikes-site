@@ -1,5 +1,5 @@
 ---
-title: 'Beginner Bike Repair Tools: The Essential Starter Kit for DIY Bike Maintenance'
+title: 'Beginner Bike Repair Tools: The Essential Starter Kit'
 date: '2025-04-04T07:32:38+00:00'
 lastmod: 2026-11-01
 description: 'The 7 beginner bike repair tools every cyclist should own, from hex keys and tire levers to a floor pump and repair stand, with my pick for each.'

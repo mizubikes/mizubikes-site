@@ -1,8 +1,8 @@
 ---
-title: Factor Ostro VAM V2 Build
+title: 'Factor Ostro VAM V2 Build: Parts List and Weight'
 date: 2026-04-09
 lastmod: 2026-11-01
-description: A full custom build of the Factor Ostro VAM V2 — lightweight aero road bike with Shimano Di2, Quarq power meter, BTLos wheels, and a custom 3D printed headset spacer.
+description: 'A custom Factor Ostro VAM V2 aero road build with Shimano Di2, a Quarq power meter, BTLos wheels and a 3D printed headset spacer.'
 categories:
 - Road
 - Bike Repair

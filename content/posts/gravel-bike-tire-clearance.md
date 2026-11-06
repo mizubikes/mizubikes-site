@@ -1,8 +1,8 @@
 ---
-title: 'Gravel Bike Tire Clearance: What the Specs Don''t Tell You'
+title: 'Gravel Bike Tire Clearance: Real-World vs Spec'
 date: 2026-04-11
 lastmod: 2026-11-01
-description: Manufacturer tire clearance specs are conservative by design. Here's what real-world clearance actually looks like on the Specialized Crux — and how it compares to the competition.
+description: 'Tire clearance specs are conservative. Here''s what actually fits on a Specialized Crux, tested with real tires, and how it compares.'
 categories:
 - Gravel
 tags:

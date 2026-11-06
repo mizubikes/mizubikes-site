@@ -1,5 +1,5 @@
 ---
-title: 'Save Money and Reduce Risk: Buying a Used Bike with Transferable Warranties'
+title: 'Buying a Used Bike? Brands with Transferable Warranties'
 date: '2025-02-25T16:00:00+00:00'
 lastmod: 2026-11-01
 description: 'Which bike brands'' warranties transfer to a second owner? Trek, Specialized, Santa Cruz, Ibis and Cannondale compared, and how to lower the risk of buying used.'

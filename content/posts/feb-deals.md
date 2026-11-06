@@ -1,8 +1,8 @@
 ---
-title: 'Road Bike Gear Worth Buying on Sale: GP5000 Tires, Fanttik Pump and Magicshine Lights'
+title: 'Road Bike Gear Worth Buying on Sale: Tires, Pump, Lights'
 date: '2025-02-11T07:24:38+00:00'
 lastmod: 2026-11-01
-description: 'Three road bike upgrades worth grabbing when they go on sale: Continental GP5000 S TR tires, the Fanttik X9 Ace electric mini pump, and Magicshine front and rear lights.'
+description: 'Road upgrades worth grabbing on sale: Continental GP5000 S TR tires, the Fanttik X9 Ace electric mini pump and Magicshine bike lights.'
 url: /feb-deals/
 categories:
 - Deals

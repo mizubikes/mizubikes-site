@@ -1,5 +1,5 @@
 ---
-title: Buying a New or Used Gravel Bike? Check the Dropout Before You Commit to SRAM 1x13
+title: 'Will SRAM 1x13 XPLR Fit Your Gravel Bike?'
 date: 2026-05-19
 lastmod: 2026-11-01
 description: If you want to run SRAM's 13-speed XPLR groupset, your frame needs a UDH dropout. Here's what to look for on popular gravel bikes — new and used.

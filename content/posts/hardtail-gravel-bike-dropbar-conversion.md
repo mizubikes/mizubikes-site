@@ -1,5 +1,5 @@
 ---
-title: 'Hardtail Gravel Bike Drop Bar Conversion: Complete Parts List'
+title: 'Hardtail Drop Bar Conversion: Complete Parts List'
 date: '2025-04-26T06:12:32+00:00'
 lastmod: 2026-11-01
 description: 'Every part you need to put drop bars on a hardtail MTB: AXS shifters, derailleur, cassette, post mount brakes and cockpit. Updated with my final build.'

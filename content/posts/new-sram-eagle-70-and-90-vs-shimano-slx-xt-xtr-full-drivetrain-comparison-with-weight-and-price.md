@@ -1,5 +1,5 @@
 ---
-title: 'SRAM Eagle 70 and 90 vs Shimano SLX, XT, XTR: Drivetrain Weight and Price Compared'
+title: 'SRAM Eagle 70/90 vs Shimano SLX/XT/XTR: Weight and Price'
 date: '2025-03-30T05:22:45+00:00'
 lastmod: 2026-11-01
 description: 'SRAM Eagle 70 and 90 vs Shimano SLX, XT and XTR: weight, MSRP, UDH compatibility and the best-value drivetrain. Updated for Shimano''s wireless Di2.'

@@ -1,5 +1,5 @@
 ---
-title: 'ENVE G SES Gravel Wheels: The 4.5 Pro and 6.7 Pro Go Wider Than Ever'
+title: 'ENVE G SES 4.5 Pro and 6.7 Pro Gravel Wheels (2026)'
 date: 2026-05-14
 lastmod: 2026-11-01
 description: ENVE's new G SES gravel wheels push rim widths to 35mm internal on the flagship 6.7 Pro. Here's what separates the three models and who they're actually for.

@@ -1,8 +1,8 @@
 ---
-title: 'XDS X-Lab: The Chinese Brand Racing in the WorldTour (And Now Selling to You)'
+title: 'XDS X-Lab: The Chinese WorldTour Brand Selling Direct'
 date: 2026-05-10
 lastmod: 2026-11-01
-description: XDS just launched X-Lab globally with nine bikes, including the AD9 WorldTour racer. Here's what they offer, what they cost, and whether they're worth your attention.
+description: 'XDS launched X-Lab globally with nine bikes, including the AD9 WorldTour racer. What they offer, what they cost and whether they''re worth a look.'
 slug: xds-x-lab-worldtour-chinese-bike
 categories:
 - Road

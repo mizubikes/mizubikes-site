@@ -2,7 +2,7 @@
 title: 'Canyon Endurace CFR 2026 Review: Should You Buy It?'
 date: 2026-04-11
 lastmod: 2026-11-01
-description: The new Canyon Endurace CFR just launched with Aeroad geometry, Aeroad looks, and 35mm tire clearance. We break down who it's actually for and whether it's worth $10,499.
+description: 'The new Canyon Endurace CFR gets Aeroad looks, aero geometry and 35mm tire clearance. Who it''s actually for, and whether it''s worth $10,499.'
 categories:
 - Road
 - Reviews

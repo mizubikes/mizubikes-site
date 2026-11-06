@@ -1,5 +1,5 @@
 ---
-title: The Specialized Epic 9 Is Here. My Epic 8 Evo Isn't Going Anywhere.
+title: 'Specialized Epic 9 vs Epic 8 Evo: Why I''m Keeping Mine'
 date: 2026-04-28
 lastmod: 2026-11-01
 description: 'Epic 9 vs Epic 8 Evo from an Epic 8 Evo owner: storage, headset routing, mechanical droppers, price, and why I''m keeping mine. Updated November 2026.'

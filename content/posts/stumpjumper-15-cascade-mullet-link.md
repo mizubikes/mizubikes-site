@@ -1,5 +1,5 @@
 ---
-title: 'Cascade Components 156mm Mullet Link: More Travel, More Progression'
+title: 'Cascade Components Stumpjumper 15 Mullet Link Review'
 date: 2026-07-15
 lastmod: 2026-11-01
 description: Installing a Cascade Components 156mm mullet link on the Stumpjumper 15 Alloy, and the story of getting one made to fit an alloy frame.

@@ -1,5 +1,5 @@
 ---
-title: Gravel Bikes Keep Getting Faster. I'm Not Sure Anyone Asked For That.
+title: 'Gravel Bikes Keep Getting Faster. Did Anyone Ask?'
 date: 2026-09-17
 lastmod: 2026-11-01
 description: 'Every new gravel race bike claims more speed and more aero. At some point the honest question is: speed toward what, exactly?'

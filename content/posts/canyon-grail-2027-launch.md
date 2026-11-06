@@ -1,5 +1,5 @@
 ---
-title: Canyon's New Grail Is Here, and It Finally Fits Real Tires
+title: 'New Canyon Grail (2027): 57mm Clearance and Aero'
 date: 2026-09-17
 lastmod: 2026-11-01
 description: Canyon just launched the third-generation Grail with 57mm tire clearance and a 1x-only design. Here's what actually changed after months of prototype sightings.

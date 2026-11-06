@@ -1,5 +1,5 @@
 ---
-title: 'Epic 8 vs Epic 9: What Actually Changed and Should You Upgrade?'
+title: 'Epic 8 vs Epic 9: What Changed and Should You Upgrade?'
 date: 2026-04-28
 lastmod: 2026-11-01
 description: 'Epic 8 vs Epic 9 compared: frame weight, suspension, storage, cable routing, pricing and who should actually upgrade. Side-by-side table included.'

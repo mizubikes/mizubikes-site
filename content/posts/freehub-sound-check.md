@@ -1,5 +1,5 @@
 ---
-title: 'Freehub Sound Check: Zipp 303, ENVE SES 4.5 and Roval Rapide CLII'
+title: 'Freehub Sound Test: Zipp 303 vs ENVE SES vs Roval'
 date: '2021-09-17T13:01:25+00:00'
 lastmod: 2026-11-01
 description: 'What do the Zipp 303, ENVE SES 4.5 and Roval Rapide CLII freehubs sound like? A back-to-back sound check of three popular carbon road wheel hubs.'

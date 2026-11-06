@@ -1,5 +1,5 @@
 ---
-title: 32-Inch Wheels Make More Sense for Gravel Than XC — And Scott Just Proved It
+title: '32-Inch Wheels Make More Sense for Gravel Than XC'
 date: 2026-05-26
 lastmod: 2026-11-01
 description: Scott's 32-inch gravel prototype headed to Unbound makes a compelling case that bigger wheels belong in gravel racing before they ever belong in XC.

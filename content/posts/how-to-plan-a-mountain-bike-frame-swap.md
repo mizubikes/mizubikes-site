@@ -1,8 +1,8 @@
 ---
-title: How to Plan a Mountain Bike Frame Swap (Stumpjumper EVO to Stumpjumper 15 Alloy)
+title: 'How to Plan a Mountain Bike Frame Swap'
 date: '2025-04-21T15:28:00+00:00'
 lastmod: 2026-11-01
-description: Upgrading from a Stumpjumper EVO Alloy to a Stumpjumper 15 Alloy? Learn how to plan a mountain bike frame swap, what parts transfer, and what to replace—especially for mullet builds.
+description: 'Moving from a Stumpjumper EVO Alloy to a Stumpjumper 15 Alloy: how to plan a frame swap, what parts transfer and what to replace on a mullet.'
 url: /how-to-plan-a-mountain-bike-frame-swap/
 categories:
 - Bike Builds

@@ -2,7 +2,7 @@
 title: 'New Specialized Crux: Everything We Know Before Unbound'
 date: 2026-04-19
 lastmod: 2026-11-01
-description: A new Specialized Crux is coming — and it looks nothing like its cyclocross roots. Here's everything the rumor mill is saying ahead of an expected Unbound reveal.
+description: 'A new Specialized Crux is coming, and it looks nothing like its cyclocross roots. Everything the rumor mill says ahead of an Unbound reveal.'
 slug: new-specialized-crux-2027
 categories:
 - Gravel

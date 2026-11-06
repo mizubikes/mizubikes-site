@@ -1,8 +1,8 @@
 ---
-title: ENVE Melee Frameset Unboxing & Weight Check — Is It Still Worth It in 2026?
+title: 'ENVE Melee Frameset Unboxing and Weight: Still Worth It?'
 date: 2026-05-13
 lastmod: 2026-11-01
-description: The ENVE Melee is four years old and still $4,800 at retail. We unbox the Damascus colorway, weigh the frame and fork, and break down whether it still makes sense in 2026.
+description: 'The ENVE Melee is four years old and still $4,800. I unbox the Damascus colorway, weigh the frame and fork, and ask if it still makes sense.'
 categories:
 - Road
 tags:

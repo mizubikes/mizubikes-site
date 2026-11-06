@@ -2,7 +2,7 @@
 title: 'SRAM 1x on a Road Bike: Is It Finally Worth It?'
 date: 2026-07-14
 lastmod: 2026-11-01
-description: 1x road drivetrains are showing up more in the pro peloton. Here's what those setups actually look like, what SRAM Force XPLR changes, and whether your bike can even run it.
+description: '1x road drivetrains are showing up in the pro peloton. What those setups look like, what SRAM Force XPLR changes and whether your bike can run it.'
 slug: sram-1x-road-bike-vs-2x
 categories:
 - Road

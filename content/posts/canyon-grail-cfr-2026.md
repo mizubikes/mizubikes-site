@@ -2,7 +2,7 @@
 title: Canyon's New Grail CFR Is the Aeroad of Gravel Bikes
 date: 2026-05-02
 lastmod: 2026-11-01
-description: Canyon's unreleased Grail CFR prototype was spotted at The Traka in Girona this week — and it looks exactly like what you'd expect if you've been watching the Aeroad family tree grow.
+description: 'Canyon''s Grail CFR prototype showed up at The Traka in Girona, and it looks like the Aeroad family tree has grown a gravel branch.'
 slug: canyon-grail-cfr-2026
 categories:
 - Gravel

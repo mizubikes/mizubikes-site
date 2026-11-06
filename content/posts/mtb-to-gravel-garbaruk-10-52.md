@@ -1,8 +1,8 @@
 ---
-title: 'Mountain Bike to Gravel Bike Conversion: Garbaruk 10-52 13-Speed Build'
+title: 'MTB to Gravel Conversion: Garbaruk 10-52 13-Speed Build'
 date: 2026-10-03
 lastmod: 2026-11-01
-description: I converted a Cannondale Scalpel HT hardtail into a drop-bar gravel bike with SRAM Rival XPLR and Garbaruk's 13-speed 10-52 cassette. Here's what an MTB to gravel conversion takes and what you give up.
+description: 'I turned a Cannondale Scalpel HT into a drop-bar gravel bike with SRAM Rival XPLR and a Garbaruk 13-speed 10-52 cassette. What it takes and costs.'
 slug: mtb-to-gravel-garbaruk-10-52
 categories:
 - Bike Builds

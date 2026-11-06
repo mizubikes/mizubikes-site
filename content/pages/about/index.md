@@ -2,7 +2,7 @@
 title: About Mizubikes
 date: 2020-07-29
 lastmod: 2026-11-01
-description: 'Mizubikes is run by Jared, an engineer in Southern California who builds, wrenches on and rides road, gravel and mountain bikes, and writes about what actually works.'
+description: 'Mizubikes is run by Jared, a Southern California engineer who builds, wrenches on and rides road, gravel and mountain bikes.'
 url: /about/
 ---
 

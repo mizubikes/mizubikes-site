@@ -1,5 +1,5 @@
 ---
-title: "Gravel Tubeless Tire Pressure by Rider Weight and Tire Width"
+title: 'Gravel Tire Pressure Chart by Rider Weight and Width'
 date: 2026-11-02
 description: "Starting tubeless gravel tire pressures by rider weight and tire width, plus how rim width, hookless limits, and terrain should shift your number."
 slug: gravel-tubeless-tire-pressure-rider-weight-tire-width
@@ -81,6 +81,8 @@ Going much wider has its own tradeoffs, which I covered in my post on [putting 2
 ## Bottom line
 
 For a typical 75 kg rider on 40mm tubeless tires, mixed gravel, expect somewhere in the mid-30s to low-40s psi, depending on which calculator you ask. Go a few psi lower for each size up in tire width and a few psi higher for every 15 to 20 lb of rider weight. Keep an eye on your hookless ceiling, run the rear a little firmer, and then go ride until the numbers stop mattering.
+
+Shopping for new tires to go with your new pressures? The [gravel tire price tracker](/gravel-tire-prices/) shows current prices and 90-day lows by size.
 
 ## Sources
 

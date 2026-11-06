@@ -1,5 +1,5 @@
 ---
-title: 'Bike Trailer vs Bike Seat for a 1-Year-Old: Which Is Better?'
+title: 'Bike Trailer vs Bike Seat for a 1-Year-Old'
 date: '2023-09-27T06:35:00+00:00'
 lastmod: 2026-11-01
 description: 'Bike trailer or rear child seat for a 1-year-old? Pros and cons of each, frame compatibility on road bikes, and why we chose a trailer for our family.'

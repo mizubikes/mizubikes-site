@@ -1,5 +1,5 @@
 ---
-title: 'Make Money Selling Old Bike Parts on eBay: Fees and Tips Explained'
+title: 'Selling Bike Parts on eBay: Fees and Tips Explained'
 date: '2025-02-10T06:46:56+00:00'
 lastmod: 2026-11-01
 description: 'How much eBay takes when you sell used bike parts, what shipping really costs, and tips to price, pack and list parts so you keep more of the money.'

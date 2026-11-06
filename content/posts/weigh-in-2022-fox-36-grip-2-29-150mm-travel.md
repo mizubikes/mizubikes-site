@@ -2,7 +2,7 @@
 title: 'Fox 36 Factory Grip 2 Weight: 2022 29" 150mm Fork Weigh-In'
 date: '2023-08-08T06:42:00+00:00'
 lastmod: 2026-11-01
-description: 'Real weight of a 2022 Fox 36 Factory Grip 2 29" fork with 150mm travel and 44mm offset: 2,076g, or 2,196g with the axle. Plus whether travel changes fork weight.'
+description: 'Real weight of a 2022 Fox 36 Factory Grip 2 29" 150mm fork with 44mm offset: 2,076g, or 2,196g with the axle. Plus: does travel change weight?'
 url: /weigh-in-2022-fox-36-grip-2-29-150mm-travel/
 categories:
 - Mountain

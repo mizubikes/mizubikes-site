@@ -1,5 +1,5 @@
 ---
-title: 10 Essential Intermediate Bike Tools Every Cyclist Should Own
+title: '10 Intermediate Bike Tools Every Home Mechanic Needs'
 date: '2025-04-30T06:17:24+00:00'
 lastmod: 2026-11-01
 description: Discover the top 10 intermediate bike tools every cyclist should have. Upgrade your toolkit and keep your ride in peak condition.

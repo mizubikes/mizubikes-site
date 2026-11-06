@@ -75,4 +75,4 @@ Whether those aero gains translate meaningfully to the rest of us — riders not
 
 Expect to see the Crux 5 in action at Unbound this weekend.
 
-My take on what it means: [The Crux 5 Is the Gravel Bike We Knew Was Coming](/posts/specialized-crux-5-opinion/), and whether it can replace a road bike: [Crux 5 vs Road Bike](/posts/crux-5-quiver-killer-road-bike/). For how its 55mm clearance compares, see the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/).
+My take on what it means: [The Crux 5 Is the Gravel Bike We Knew Was Coming](/posts/specialized-crux-5-opinion/), and whether it can replace a road bike: [Crux 5 vs Road Bike](/posts/crux-5-quiver-killer-road-bike/). For how its 55mm clearance compares, see the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/). And for what the rumor mill got right before launch, here's [everything we knew before Unbound](/posts/new-specialized-crux-2027/).

@@ -1,8 +1,8 @@
 ---
-title: Are Short Cranks Taking Over? What the Pro Peloton Data Actually Shows
+title: 'Are Pros Really Going Shorter on Crank Length?'
 date: 2026-04-19
 lastmod: 2026-11-01
-description: Every cycling headline says pros are going shorter on crank length. The data tells a more specific story — and it matters for what you should actually be riding.
+description: 'Every headline says pros are going shorter on cranks. The data tells a more specific story, and it matters for what you should ride.'
 slug: pro-crank-length-trend
 categories:
 - Road

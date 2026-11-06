@@ -1,5 +1,5 @@
 ---
-title: "SRAM 13-Speed vs Shimano GRX 12-Speed for Gravel in 2026"
+title: 'SRAM 13-Speed vs Shimano GRX 12-Speed for Gravel'
 date: 2026-11-04
 description: "SRAM XPLR 1x13 or Shimano GRX 12-speed? Compare gearing, frame requirements, weight and US prices to pick the right gravel drivetrain in 2026."
 slug: sram-13-speed-vs-shimano-grx-12-speed-gravel-2026

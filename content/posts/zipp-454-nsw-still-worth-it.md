@@ -1,5 +1,5 @@
 ---
-title: 'Zipp 454 NSW Review: Is the Aging Flagship Still Worth It in 2026?'
+title: 'Zipp 454 NSW Review: Is It Still Worth It in 2026?'
 date: 2026-06-06
 lastmod: 2026-11-01
 description: The Zipp 454 NSW has been around a few years, but the sawtooth rim is still in production. Here's how it stacks up against today's best aero road wheels.

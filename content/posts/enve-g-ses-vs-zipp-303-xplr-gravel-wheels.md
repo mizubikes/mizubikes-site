@@ -1,5 +1,5 @@
 ---
-title: 'ENVE G SES vs. Zipp 303 XPLR: Aero Gravel Wheels Compared'
+title: 'ENVE G SES vs Zipp 303 XPLR: Gravel Wheels Compared'
 date: 2026-05-14
 lastmod: 2026-11-01
 description: ENVE G SES 4.5, 4.5 Pro, and 6.7 Pro vs. Zipp 303 XPLR S and SW — specs, pricing, internal width, and who each wheel is actually for.
