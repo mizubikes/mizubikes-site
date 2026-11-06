@@ -63,3 +63,5 @@ But new frames are showing up in the $3,000–$3,500 range, and used ones go low
 If you're chasing the absolute latest aero performance, there are better options. But if you want something fast, well-balanced, and built to last — and you buy it at the right price — the Melee still makes a lot of sense in 2026.
 
 For more frame weigh-ins, see [CAAD13 vs SuperSix Evo Hi-Mod](/cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/) and the [Factor Ostro VAM V2 build](/posts/factor-ostro-vam-v2-build/). ENVE's gravel wheels are covered in [ENVE G SES: The 4.5 Pro and 6.7 Pro](/posts/enve-g-ses-gravel-wheels-2026/).
+
+*Every frame and complete bike I've weighed is collected in [Real Bike Weights](/posts/real-bike-weights/).*

@@ -87,6 +87,8 @@ The Giant Revolt Advanced and BMC URS sit in the middle. The Revolt gives you 53
 
 I'll update this chart as brands publish more official numbers, especially 650b figures for the newest frames.
 
+*Shopping for a gravel bike? Start with the [Gravel Bike Buying Guide](/posts/gravel-bike-buying-guide/), which links everything on frames, drivetrains, wheels and tires in one place.*
+
 ## Sources
 
 - [Cyclingnews: New Specialized Crux](https://www.cyclingnews.com/bikes/gravel/new-specialized-crux-goes-all-in-on-aero-gravel-with-a-15-watt-improvement-new-geometry-and-lighter-builds/)

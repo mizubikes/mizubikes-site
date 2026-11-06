@@ -1,5 +1,7 @@
 # Old WordPress URL patterns -> Hugo equivalents (301)
 # Specific rules first; Netlify uses the first match
+/weigh-in-2023-cannondale-habit-frameset-weight/  /posts/real-bike-weights/  301!
+/weigh-in-2022-fox-36-grip-2-29-150mm-travel/     /posts/real-bike-weights/  301!
 /category/gravel-cx/*     /categories/gravel/        301
 /category/bike-build/*    /categories/bike-builds/   301
 /category/:cat/feed/      /categories/:cat/feed.xml  301

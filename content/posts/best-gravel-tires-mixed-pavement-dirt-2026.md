@@ -76,6 +76,8 @@ For a mix of pavement and hardpack dirt in a dry climate like Southern Californi
 
 If my dirt were rougher, I'd move to the Rambler or Overland and accept the extra watts. A flat 30 miles from home costs more than a few watts. Tire choice is a tradeoff, and the right answer depends on your local roads.
 
+*Shopping for a gravel bike? Start with the [Gravel Bike Buying Guide](/posts/gravel-bike-buying-guide/), which links everything on frames, drivetrains, wheels and tires in one place.*
+
 ## Sources
 
 - [Granfondo: Best gravel tire review](https://granfondo-cycling.com/best-gravel-tire-review/)

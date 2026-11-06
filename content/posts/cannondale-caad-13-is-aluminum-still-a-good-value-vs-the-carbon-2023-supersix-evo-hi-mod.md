@@ -55,3 +55,5 @@ Buying the 2023 Cannondale SuperSix Evo Hi-Mod will cost an additional $3500 for
 I eventually built a 2026 SuperSix Evo, and the non-Hi-MOD frame is the interesting part for this comparison. That build came in at 15 lb 15 oz with pedals and a 1x drivetrain, so the cheaper carbon layup closes most of the gap without Hi-MOD pricing. The full build is in [Cannondale SuperSix Evo 2026 Build: 13-Speed SRAM Force XPLR 1x](/posts/cannondale-supersix-evo-2026-xplr-1x-build/).
 
 The $/gram logic in this post works the same way for components. I did the same math for groupsets in [Shimano Dura-Ace vs Ultegra R8100](/shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/), and for a complete bike in [buying the SL8 complete vs building it up](/posts/specialized-sl8-complete-vs-custom-build-cost/).
+
+*More frames, forks and complete builds on my scale: [Real Bike Weights](/posts/real-bike-weights/).*

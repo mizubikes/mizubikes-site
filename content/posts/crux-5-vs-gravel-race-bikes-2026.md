@@ -93,6 +93,8 @@ If I were replacing my Crux today, it would come down to the Crux 5 Comp and the
 
 Whatever you pick, the frame matters less than the tires you put on it. My [picks for mixed pavement and dirt](/posts/best-gravel-tires-mixed-pavement-dirt-2026/) are a good place to start. If you're wondering whether one of these could also replace your road bike, I made that case in [Crux 5 vs Road Bike](/posts/crux-5-quiver-killer-road-bike/). And if you want one bike for gravel races and cyclocross, my [2025 Cannondale SuperX review](/2025-cannondale-superx-review/) covers the other way to go.
 
+*Shopping for a gravel bike? Start with the [Gravel Bike Buying Guide](/posts/gravel-bike-buying-guide/), which links everything on frames, drivetrains, wheels and tires in one place.*
+
 ## Sources
 
 - [BikeRadar: Specialized Crux 5 S-Level first ride](https://bikeradar.com/reviews/bikes/gravel-bikes/specialized-crux-5-s-level-first-ride-review)

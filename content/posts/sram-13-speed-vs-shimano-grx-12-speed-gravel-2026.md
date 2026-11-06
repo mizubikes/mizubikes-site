@@ -87,6 +87,8 @@ There's chatter about it. One Italian site is speculating about a 13-speed GRX, 
 
 If you're still weighing single versus double chainrings, [1x vs 2x Road Gearing: What You Actually Give Up with 13-Speed SRAM XPLR](/posts/1x-vs-2x-road-gearing-sram-xplr-13-speed/) covers that in detail.
 
+*Shopping for a gravel bike? Start with the [Gravel Bike Buying Guide](/posts/gravel-bike-buying-guide/), which links everything on frames, drivetrains, wheels and tires in one place.*
+
 ## Sources
 
 - [BikeRadar: Gravel bike groupsets explained](https://www.bikeradar.com/advice/buyers-guides/gravel-bike-groupsets)
