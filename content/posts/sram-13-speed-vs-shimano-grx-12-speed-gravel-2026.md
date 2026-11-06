@@ -89,23 +89,8 @@ If you're still weighing single versus double chainrings, [1x vs 2x Road Gearing
 
 ## Sources
 
-- https://www.bikeradar.com/advice/buyers-guides/gravel-bike-groupsets
-- https://www.bikeradar.com/news/sram-force-and-rival-axs-xplr
-- https://www.bikeradar.com/news/shimano-1x-grx-di2-rx827-wireless
-- https://www.bikeradar.com/news/shimano-new-grx-rx717
-- https://www.cyclist.co.uk/news/sram-force-rival-xplr-axs
-- https://www.cyclist.co.uk/news/shimano-grx-mechanical-12-speed
-- https://velo.outsideonline.com/gravel/gravel-gear/sram-rival-axs-xplr-first-ride-review-13-speed-gets-cheaper/
-- https://velo.outsideonline.com/gravel/gravel-gear/first-ride-shimano-grx-di2-wireless
-- https://www.performancebike.com/sram-rival-axs-xplr-gravel-groupset-black-1-x-13-speed-10-46t-sramrival-e1grp2-bdl/p1644912
-- https://www.performancebike.com/sram-rival-xplr-axs-rear-derailleur-black-13-speed-00.7518.194.000/p1640104
-- https://www.rei.com/product/C04533/sram-force-xplr-xg-1371-cassette-13-speed
-- https://powermetercity.com/product/sram-rival-e1-xplr-axs-rear-derailleur/
-- https://powermetercity.com/product/shimano-grx-rd-rx827-12-speed-di2-wireless-rear-derailleur/
-- https://escapecollective.com/in-for-review-1x12-shimano-grx-di2-827-gravel-groupset/
-- https://escapecollective.com/shimano-grx-finally-gets-shorter-cranks-and-bigger-rings/
-- https://bikepacking.com/news/2026-shimano-grx-and-cues/
-- https://bike.shimano.com/stories/article/grx-12-speed-mechanical.html
-- https://flowmountainbike.com/tests/shimano-grx-di2-review-class-leading-gravel-shifting-missing-one-big-thing/
-- https://pedalpassion.cc/en-au/blogs/passion-brands-gear/shimano-grx-di2-vs-sram-rival-and-force-xplr-axs-which-gravel-groupset-is-best-for-a-custom-build
-- https://www.cyclonline.com/51-shimano-news-review-test/4582-shimano-grx-13-speed-2027-is-a-new-13-speed-gravel-groupset-on-the-way
+- [BikeRadar: Gravel bike groupsets explained](https://www.bikeradar.com/advice/buyers-guides/gravel-bike-groupsets)
+- [BikeRadar: SRAM Force and Rival AXS XPLR](https://www.bikeradar.com/news/sram-force-and-rival-axs-xplr)
+- [BikeRadar: Shimano 1x GRX Di2 RX827](https://www.bikeradar.com/news/shimano-1x-grx-di2-rx827-wireless)
+- [Velo: Shimano GRX Di2 wireless first ride](https://velo.outsideonline.com/gravel/gravel-gear/first-ride-shimano-grx-di2-wireless)
+- [Escape Collective: GRX gets shorter cranks and bigger rings](https://escapecollective.com/shimano-grx-finally-gets-shorter-cranks-and-bigger-rings/)

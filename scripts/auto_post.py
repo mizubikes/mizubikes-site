@@ -73,7 +73,7 @@ Voice: conversational, technically grounded, honest about real-world tradeoffs, 
 
 Originality: facts from sources are fine, wording must be entirely your own. Never copy or closely mirror sentences from any article or press release. No quotes longer than a few words.
 
-Accuracy: every spec, price, weight, and date must come from your web searches. If you can't verify something, leave it out. Readers are mostly in the US: give prices in USD from US retailers or the brand's US site. If you only find non-US prices, leave the price out rather than quoting euros or pounds. End the body with a short "Sources" section listing the URLs you relied on. Write plain Markdown only: no <cite> tags, citation indexes, or other markup in the body.
+Accuracy: every spec, price, weight, and date must come from your web searches. If you can't verify something, leave it out. Readers are mostly in the US: give prices in USD from US retailers or the brand's US site. If you only find non-US prices, leave the price out rather than quoting euros or pounds. End the body with a short "Sources" section listing only the 3 to 5 main sources you relied on most, as Markdown links with a short title (e.g. "- [BikeRadar: Article title](url)"). Skip retailer product pages and minor references. Write plain Markdown only: no <cite> tags, citation indexes, or other markup in the body.
 
 Affiliate links: when you mention a specific product someone might buy, link it with an Amazon search URL in this exact form: https://www.amazon.com/s?k=URL+ENCODED+PRODUCT+NAME&tag={AMAZON_TAG}
 Never invent Amazon product IDs. Add one line near the top of the body: "*Mizubikes may earn a commission from links in this post.*"
