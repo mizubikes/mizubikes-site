@@ -15,9 +15,9 @@
 
 {{- if $featured }}
 <div class="mb-hero">
-  <a href="{{ $featured.RelPermalink }}" class="mb-hero-main">
+  <a href="{{ $featured.RelPermalink }}" class="mb-hero-main{{ if not $featured.Params.cover.image }} mb-hero-main--noimg{{ end }}">
     {{- with $featured.Params.cover.image }}
-    <img src="{{ . }}" alt="{{ $featured.Title }}" loading="eager">
+    <img src="{{ . }}" alt="{{ $featured.Title }}" loading="eager" fetchpriority="high">
     {{- end }}
     <div class="mb-hero-overlay">
       <div class="mb-hero-cat">{{- with $featured.Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>

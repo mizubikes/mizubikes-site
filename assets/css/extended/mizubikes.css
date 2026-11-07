@@ -471,3 +471,14 @@ body {
 @media (min-width: 769px) {
   #menu li + li { margin-inline-start: 20px; }
 }
+
+/* Hero fallback when the featured post has no cover image */
+.mb-hero-main--noimg {
+  width: 100%;
+  min-height: 380px;
+  background: linear-gradient(135deg, #1B8FAB 0%, #0f3b47 100%);
+}
+.mb-hero-main--noimg .mb-hero-overlay { background: none; }
+@media (max-width: 768px) {
+  .mb-hero-main--noimg { min-height: 240px; }
+}
