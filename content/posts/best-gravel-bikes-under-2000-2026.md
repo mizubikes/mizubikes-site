@@ -40,6 +40,9 @@ The 2x10 CUES drivetrain is the clearest sign of where the money went. It's reli
 
 ## Giant Revolt 2: the value pick
 
+![Giant Revolt 2 aluminum gravel bike with Shimano CUES 2x drivetrain](/images/giant-revolt-2.webp)
+*Giant Revolt 2. Photo: Giant*
+
 Giant has quietly kept the Revolt's alloy entry point affordable. The 2026 Giant Revolt 2 is $1,500 at US dealers, with an ALUXX aluminum frame, a composite fork and 45c CrossCut Grip 1 tires. The drivetrain is Shimano 2x9 (CUES or Sora depending on availability) with 32/46T chainrings and an 11-36T cassette, which gives you a properly low climbing gear.
 
 The frame is the draw. It has a flip-chip rear dropout: in the long position it clears 53mm tires, and in the short position it clears 45mm with a slightly quicker feel. That's more clearance than anything else here except the Grizl. Reviewers also like the Revolt family's relaxed, upright fit, which suits long days better than a race position.
