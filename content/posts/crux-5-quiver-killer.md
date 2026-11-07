@@ -1,8 +1,8 @@
 ---
-title: 'Crux 5 vs Road Bike: Is the Quiver Killer Finally Here?'
+title: 'Crux 5 as a Road Bike: Is the Quiver Killer Here?'
 date: 2026-05-28
-lastmod: 2026-11-01
-description: The Crux 5 weighs 789g, clears 55mm tires, and borrows aero shaping from the Tarmac SL8. Here's the honest case for replacing your road bike with one.
+lastmod: 2026-11-06
+description: 'Can the Crux 5 work as a road bike? It weighs 789g, clears 55mm tires and runs 28mm road tires fine. When it can replace your road bike, and when it can’t.'
 slug: crux-5-quiver-killer-road-bike
 categories:
 - Gravel
@@ -23,6 +23,8 @@ draft: false
 The Crux 5 launched today, and most of the coverage is focused on what it means for gravel racing. Fair enough — that's what Specialized built it for. But I keep staring at the spec sheet thinking about a different question: at what point does a bike like this make a dedicated road bike redundant for most riders?
 
 I think we're getting close.
+
+**Quick answer:** Yes, the Crux 5 works as a road bike for most riders. With a second wheelset and 28 to 32mm road tires, it's lighter than most aero road frames and its geometry is still race-low. The exceptions are crit racers, who'll notice the slower handling, and riders on long mountain climbs, who may miss a 2x drivetrain.
 
 | | S-Works Crux 5 | S-Works Tarmac SL8 | S-Works Tarmac SL9 |
 |---|---|---|---|
@@ -56,6 +58,18 @@ The slacker head angle actually makes the Crux 5 more pleasant to ride on longer
 Some people look at 55mm clearance and think "that's too much bike for the road." I'd flip that around entirely. 55mm clearance means you can run 28mm, 30mm, or 32mm road tires without the frame feeling oversized. The Crux 5 isn't forced into fat tires — it just has the option. A 28mm road tire in a 55mm clearance frame is still a 28mm road tire.
 
 And running a slightly wider tire on pavement isn't a disadvantage anymore. The industry has moved on from the days of 23mm tires being the performance standard. Most WorldTour road racing now happens on 28mm rubber. A 30mm tire on smooth pavement at 90psi is faster and more comfortable than a 25mm tire at 110psi, and the Crux 5 handles that without any compromise.
+
+## How to Set Up the Crux 5 for the Road
+
+If you're going to use a Crux 5 as a road bike, the setup is simple, and almost all of it is wheels and tires.
+
+**Get a second wheelset.** This is the whole trick. Keep your gravel wheels set up tubeless with gravel tires, and put road tires on a second set so you can switch in a few minutes. Match the rotor sizes and cassette spacing between the two sets so the brakes and shifting don't need adjusting every time you swap.
+
+**Run 28 to 32mm road tires.** The 55mm clearance doesn't force you into big tires. A 28 or 30mm road tire fits like it would on any road frame, and on rough roads a 32mm is faster and more comfortable than it sounds.
+
+**Gear it for the road.** The Crux 5 is 1x only, but it takes up to a 52T chainring. A bigger ring for road days gives you a top gear that keeps up in fast group rides, at the cost of a harder bottom gear. If your road rides include long climbs, keep the smaller ring and accept spinning out on descents.
+
+**Leave the cockpit alone.** The stack is already race-low, so most riders won't need to change stem height between gravel and road. Note that the aero seatpost is fixed, so there's no dropper option either way.
 
 ## The Honest Tradeoffs
 

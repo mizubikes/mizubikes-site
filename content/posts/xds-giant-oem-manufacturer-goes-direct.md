@@ -1,8 +1,8 @@
 ---
-title: 'XDS Selling Direct Is Just Giant''s Old Playbook'
+title: 'Who Does XDS Make Bikes For? Giant’s Old Playbook'
 date: 2026-05-13
-lastmod: 2026-11-01
-description: 'XDS builds bikes for the industry and now sells X-Lab bikes direct. Giant did the same to Schwinn in the 1980s. Updated with US frameset prices.'
+lastmod: 2026-11-06
+description: 'Who does XDS make bikes for? XDS won’t name its OEM clients, but here’s what we know, and why a factory selling its own X-Lab bikes is Giant’s old playbook.'
 slug: xds-giant-oem-manufacturer-goes-direct
 categories:
 - Road
@@ -24,6 +24,10 @@ draft: false
 When XDS launched X-Lab globally last month and started showing up in WorldTour press coverage, a familiar complaint surfaced in cycling forums: isn't it unfair for a contract manufacturer to start selling its own bikes? Doesn't XDS benefit from years of R&D feedback, tooling knowledge, and production secrets developed in partnership with the Western brands it built bikes for?
 
 It's a reasonable question. It's also one the cycling industry answered about forty years ago, when a Taiwanese company called Giant did exactly the same thing — and in doing so, built the largest bicycle manufacturer on earth while helping drive its most famous client into bankruptcy.
+
+## Who does XDS make bikes for?
+
+XDS doesn't publicly name its OEM customers, and neither do the brands it builds for. That's normal in the bike industry, where most brands treat factory relationships as confidential. What XDS has said is that it has built carbon and aluminum bikes for well-known brands for more than two decades, and press visits to its factory describe frames for WorldTour-level brands on the same lines as X-Lab bikes. Most of its volume, around eight million bikes a year, is for the Chinese domestic market and other mass-market brands. So the honest answer is that XDS makes bikes for many brands you know, but none of them will confirm it.
 
 ## How Giant Actually Got Here
 

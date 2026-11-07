@@ -1,8 +1,8 @@
 ---
-title: 'Are Pros Really Going Shorter on Crank Length?'
+title: 'Pro Peloton Crank Lengths: Who’s Really Going Shorter'
 date: 2026-04-19
-lastmod: 2026-11-01
-description: 'Every headline says pros are going shorter on cranks. The data tells a more specific story, and it matters for what you should ride.'
+lastmod: 2026-11-06
+description: 'What crank length do pros run? Pogačar is on 165mm and Vingegaard has tried 150mm, but Van der Poel and most sprinters still run 172.5mm. Here’s why.'
 slug: pro-crank-length-trend
 categories:
 - Road

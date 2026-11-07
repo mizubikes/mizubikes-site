@@ -1,8 +1,8 @@
 ---
-title: 'Specialized Crux 5: The Gravel Race Bike Goes Full Aero'
+title: 'Specialized Crux 5: Full Aero With 55mm Tire Clearance'
 date: 2026-05-28
-lastmod: 2026-11-01
-description: Specialized officially launches the Crux 5 with aero tube shaping, 55mm tire clearance, and a FACT 12r frame under 790 grams.
+lastmod: 2026-11-06
+description: 'Crux 5 tire clearance is 55mm front and rear, up from 47mm, on an aero FACT 12r frame under 790 grams. Specs, 1x-only gearing and pricing.'
 slug: specialized-crux-5-2026
 categories:
 - Gravel
