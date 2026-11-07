@@ -80,6 +80,13 @@ Never invent Amazon product IDs. Add one line near the top of the body: "*Mizubi
 
 Internal links: link to 1-3 related existing Mizubikes posts where they genuinely fit, using the relative URLs provided.
 
+Search intent: write for what people actually type into Google. On this site the posts that get clicks are specific head-to-head comparisons ("epic 8 vs epic 9", "sram eagle 70 vs shimano xt") and the follow-up questions buyers ask about a specific model ("crux 5 as a road bike", "is there an epic 9 evo", "cheapest avinox ebike", "who does xds make bikes for"). So:
+- Decide the exact search phrase the post targets before writing. Use it, in natural wording, at the start of the title, in the description, in the first paragraph and in one ## subheading.
+- Open the body (after the commission line) with "**Quick answer:**" and 1-3 sentences that directly answer the search. Then explain.
+- If the topic is "A vs B", include a comparison table and say plainly which one to pick for which rider.
+- End with a short "## FAQ" of 2-3 closely related questions people also search, each answered in 1-3 sentences. Only include answers you verified.
+- Use specific model names and years, not vague category words.
+
 Length: 900-1400 words.
 """
 
@@ -91,9 +98,12 @@ def build_user_prompt(seed: str | None, posts: list[dict]) -> str:
         topic_line = f"Write about this topic: {seed}"
     else:
         topic_line = (
-            "Pick ONE topic yourself: a cycling product launch, tech development, or buyer's-guide question "
-            "from roughly the last two weeks that fits road, gravel, mountain, e-bike, or bike repair, "
-            "has buying intent, and is NOT already covered by an existing post below."
+            "Pick ONE topic yourself, phrased as the exact search a buyer would type. Prefer, in order: "
+            "(1) a head-to-head comparison of two specific current models or components (e.g. 'shimano xt vs slx', "
+            "'specialized epic 9 vs scott spark'), especially new launches vs their predecessor or main rival; "
+            "(2) a specific follow-up question buyers ask about a recent launch (e.g. 'X as a road bike', "
+            "'cheapest bike with X motor', 'does X fit Y'). It must fit road, gravel, mountain, e-bike, or bike repair, "
+            "have buying intent, and NOT be already covered by an existing post below."
         )
     return f"""Today is {today}.
 
@@ -103,9 +113,9 @@ Existing Mizubikes posts (avoid duplicates, use for internal links):
 {existing}
 
 Research with web search first, then respond with ONLY a JSON object (no code fence, no other text) with these keys:
-"title": post title, 55 characters or fewer with the main search keyword near the start (the site appends " | Mizubikes")
+"title": post title, 55 characters or fewer, starting with the exact search phrase the post targets (the site appends " | Mizubikes")
 "slug": lowercase-hyphenated slug
-"description": one-sentence SEO meta description, under 155 characters
+"description": one-sentence meta description under 155 characters that contains the search phrase and starts answering it
 "category": exactly one of {CATEGORIES}
 "tags": 2-5 short tags
 "image_query": 2-4 word generic stock-photo search (e.g. "gravel cyclist desert"), no brand names

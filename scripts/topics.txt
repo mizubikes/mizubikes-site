@@ -1,20 +1,26 @@
-# One topic per line. The auto-drafter uses the top line, then deletes it.
-# When this list is empty, Claude picks a topic from recent cycling news.
-Best gravel bikes under $2,000 in 2026
-How wide should your gravel tires be? 40mm vs 45mm vs 50mm compared
-Best gravel bike computers for navigation: Garmin Edge vs Wahoo vs Hammerhead
-Gravel bike vs endurance road bike: which one should you actually buy
-Best gravel tires for rocky, rough terrain in 2026
-Gravel suspension options compared: RockShox Rudy, Fox 32 Taper-Cast, Redshift ShockStop stem
-Best carbon gravel bikes under $3,500 in 2026
-700c vs 650b gravel wheels: which size makes sense for your riding
-Gravel gearing explained: choosing chainring and cassette sizes for climbing
-Best gravel handlebars in 2026: flare, width and aero options
-Are dropper posts worth it on a gravel bike?
-Tubeless sealant for gravel compared: Orange Seal vs Stan's vs Silca vs Muc-Off
-Best gravel race bikes of 2026 compared
-Gravel tire inserts explained: CushCore Gravel vs Vittoria Air-Liner vs Tannus
-Best bikepacking bags for your first gravel overnighter
-Gravel bike vs cyclocross bike: what's actually different in 2026
-Best gravel cycling shoes in 2026
-Best saddles for long gravel rides
+# One topic per line, phrased the way people search. The auto-drafter uses the top line, then deletes it.
+# Comparisons and specific buyer questions get the most clicks on this site, so keep them near the top.
+# When this list is empty, Claude picks a topic from recent launches the same way.
+Shimano XT vs SLX: which mountain bike groupset to buy
+SRAM Eagle 90 vs Shimano XT
+Specialized Epic 9 vs Scott Spark RC
+Specialized Crux 5 vs Diverge 4: race gravel or adventure gravel
+Specialized Epic 9 vs Cannondale Scalpel
+Gravel tire width: 40mm vs 45mm vs 50mm
+Specialized Turbo Levo 4 vs Amflow PX Carbon
+Garmin Edge 1050 vs Wahoo Elemnt Roam for gravel
+Gravel bike vs endurance road bike: which should you buy
+Stumpjumper 15 vs Epic 8 Evo: which trail bike
+Are dropper posts worth it on a gravel bike
+700c vs 650b gravel wheels
+Fox 32 Taper-Cast vs RockShox Rudy gravel fork
+Orange Seal vs Stan's tubeless sealant
+CushCore Gravel vs Vittoria Air-Liner
+Gravel bike vs cyclocross bike: what's different
+Best gravel tires for rough terrain 2026
+Best carbon gravel bike under $3,500
+Gravel gearing for climbing: what chainring and cassette to run
+Best gravel handlebars 2026
+Best saddle for long gravel rides
+Best gravel cycling shoes 2026
+Best bikepacking bags for beginners
