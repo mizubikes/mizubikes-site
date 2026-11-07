@@ -6,9 +6,9 @@ slug: best-gravel-bikes-under-2000-2026
 categories: ["Gravel"]
 tags: ["gravel bikes", "budget bikes", "buying guide", "aluminum"]
 cover:
-  image: "/images/best-gravel-bikes-under-2000-2026-cover.webp"
-  alt: "Cyclist riding a drop-bar gravel bike on a dirt road"
-  caption: "Photo: jdspixelworld / Pixabay"
+  image: "/images/canyon-grizl-6-al-2026.webp"
+  alt: "2026 Canyon Grizl 6 AL aluminum gravel bike in cream with SRAM Apex XPLR"
+  caption: "Canyon Grizl 6 AL. Photo: Canyon"
   relative: false
 draft: false
 ---
