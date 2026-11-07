@@ -31,6 +31,9 @@ The catch is the usual direct-sales one. You're sorting out sizing and fit witho
 
 ## Specialized Diverge E5: the road-friendly all-rounder
 
+![Specialized Diverge E5 alloy gravel bike with Shimano CUES 2x drivetrain](/images/specialized-diverge-e5-2026.webp)
+*Specialized Diverge E5. Photo: Specialized*
+
 The Specialized Diverge E5 is the bike I'd point road riders toward. It's listed at $1,499 on 99 Spokes, with retailers at $1,599. The build is a premium E5 alloy frame with a full carbon FACT fork, Shimano CUES 2x10, Axis alloy wheels and 40mm Pathfinder tires. Specialized rates the frame for 47mm of tire clearance on 700c wheels.
 
 The 2x10 CUES drivetrain is the clearest sign of where the money went. It's reliable and gives you a proper low gear, but it's heavier and less crisp than GRX or XPLR. The 40mm tires are a mixed-surface compromise, so if your routes are rougher than hardpack, budget for wider tubeless rubber. Our [best gravel tires guide](/posts/best-gravel-tires-mixed-pavement-dirt-2026/) covers that upgrade.
