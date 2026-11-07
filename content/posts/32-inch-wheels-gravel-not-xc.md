@@ -58,4 +58,6 @@ Jones and Gemperle are two of the most credible endurance athletes in the sport 
 
 XC will probably get to 32-inch eventually. History says it will. But gravel might just beat it there — and Scott is making sure they're first to find out.
 
+*Update (November 2026): XC got there faster than expected. Here's [who raced 32-inch XC bikes this season and what's coming](/posts/32-inch-xc-bikes-racing-coming/).*
+
 The bigger-wheel argument is really a tire argument. I tested the opposite approach, wide MTB tires on 29-inch wheels, in [I Put 2.35" MTB Tires on My Drop Bar Gravel Bike](/posts/2-35-mtb-tires-drop-bar-gravel-bike/). For how far mainstream frames have pushed clearance, see the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/). And if you want the drop-bar-MTB option today, here are [the best hardtail and drop bar full suspension gravel bikes](/posts/best-hardtail-drop-bar-gravel-bikes-2026/).
