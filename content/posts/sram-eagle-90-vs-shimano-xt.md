@@ -6,9 +6,9 @@ slug: sram-eagle-90-vs-shimano-xt
 categories: ["Mountain"]
 tags: ["SRAM Eagle 90", "Shimano XT", "MTB drivetrain", "mechanical groupset", "UDH"]
 cover:
-  image: "/images/sram-eagle-90-vs-shimano-xt-cover.webp"
-  alt: "Close-up of a mountain bike rear derailleur and cassette on a dirt trail"
-  caption: "Photo: renebonilla1991 / Pixabay"
+  image: "/images/shimano-xt-m8200-rear-derailleur.webp"
+  alt: "Shimano Deore XT 12-speed mechanical rear derailleur"
+  caption: "Shimano Deore XT rear derailleur. Photo: Shimano"
   relative: false
 draft: false
 ---
