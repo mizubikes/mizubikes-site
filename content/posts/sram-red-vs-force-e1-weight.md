@@ -12,8 +12,8 @@ tags:
 - Groupsets
 - Weight
 cover:
-  image: /images/sram-red-vs-force-e1-weight-chart.webp
-  alt: Chart of SRAM Red vs Force E1 weight saved per part and cost per gram saved
+  image: /images/sram-red-vs-force-e1-weight-table.webp
+  alt: SRAM Force E1 vs Red E1 weight and price for each part, with grams saved and cost per gram
   caption: 'Graphic: Mizubikes'
   relative: false
 draft: false
@@ -25,28 +25,44 @@ I did the same exercise for [Dura-Ace vs Ultegra](/shimano-dura-ace-vs-ultegra-r
 
 *Mizubikes may earn a commission from links in this post.*
 
-**Quick answer:** A full Red E1 group saves roughly 290 grams over Force E1 with power meters on both. Almost half of that comes from the crankset. The best value upgrades are the rotors, the chain and the power meter crankset. The shift-brake levers, front derailleur and rear derailleur save the least per dollar, at $13 to $18 for every gram.
+**Quick answer:** A full Red E1 group saves roughly 290 grams over Force E1 with power meters on both. Almost half of that comes from the crankset, and most of the crankset saving is the carbon crank arms alone (100g). The best value upgrades are the rotors, the chain and the power meter crankset. The shift-brake levers, front derailleur and rear derailleur save the least per dollar, at $13 to $18 for every gram.
 
 ## SRAM Red vs Force E1 weight, part by part
 
 These are published actual weights where I could find them, and claimed weights where I couldn't. Different reviewers weigh things slightly differently (with or without hoses, batteries, spacers), so treat each gap as accurate to within about 10 grams. Prices are SRAM's US launch MSRPs, so both groups are priced at the same point in time.
 
-| Part | Force E1 | Red E1 | Weight saved | Extra cost for Red | Cost per gram |
-|---|---|---|---|---|---|
-| Power meter crankset | 712 g (170mm, 48/35) | 574 g (172.5mm, 46/33) | **138 g** | $335 ($865 vs $1,200) | $2.43 |
-| Cassette | 267 g (10-33) | 226 g (10-36) | **41 g** | $175 ($215 vs $390) | $4.27 |
-| Shift-brake levers + calipers (pair) | 740 g | 708 g | **32 g** | $580 ($770 vs $1,350) | $18.13 |
-| Rotors (160mm pair) | 290 g | 264 g | **26 g** | $20 ($120 vs $140) | $0.77 |
-| Rear derailleur | 284 g | 260 g | **24 g** | $325 ($375 vs $700) | $13.54 |
-| Chain (114 links, claimed) | 250 g | 236 g | **14 g** | $24 ($65 vs $89) | $1.71 |
-| Front derailleur | 156 g | 144 g | **12 g** | $180 ($270 vs $450) | $15.00 |
-| **Total** | | | **About 287 g** | **About $1,640** | **$5.71** |
+| Part | Force E1 weight | Force E1 price | Red E1 weight | Red E1 price | Red saves | Red costs extra | Cost per gram |
+|---|---|---|---|---|---|---|---|
+| Power meter crankset | 712 g | $865 | 574 g | $1,200 | **138 g** | $335 | $2.43 |
+| Cassette | 267 g (10-33) | $215 | 226 g (10-36) | $390 | **41 g** | $175 | $4.27 |
+| Levers + calipers (pair) | 740 g | $770 | 708 g | $1,350 | **32 g** | $580 | $18.13 |
+| Rotors (160mm pair) | 290 g | $120 | 264 g | $140 | **26 g** | $20 | $0.77 |
+| Rear derailleur | 284 g | $375 | 260 g | $700 | **24 g** | $325 | $13.54 |
+| Chain (114 links, claimed) | 250 g | $65 | 236 g | $89 | **14 g** | $24 | $1.71 |
+| Front derailleur | 156 g | $270 | 144 g | $450 | **12 g** | $180 | $15.00 |
+| **Full group** | **2,699 g** | **$2,680** | **2,412 g** | **$4,319** | **287 g** | **$1,639** | **$5.71** |
 
-The bottom bracket and AXS batteries are the same on both groups, so they're left out.
+The Force crank is 170mm with 48/35 rings, and the Red crank is 172.5mm with 46/33 rings. The bottom bracket and AXS batteries are the same on both groups, so they're left out.
+
+## The crank arms are where the weight is
+
+The crankset is the biggest single gain, and almost all of it is the arms. SRAM sells E1 crank arms without chainrings, so you can split the crank into arms and power meter rings:
+
+| Crank part | Force E1 | Red E1 | Red saves |
+|---|---|---|---|
+| Crank arms (pair, 170mm, no rings) | 411 g, $180 | 311 g, $440 | **100 g** for $260 ($2.60/g) |
+| Power meter + chainrings (by subtraction) | about 300 g | about 260 g | **about 40 g** |
+| **Complete power meter crankset** | **712 g** | **574 g** | **138 g** |
+
+The arm weights are a matched pair at 170mm. The power meter and ring figures are the complete crank weight minus the arms, so treat them as estimates, especially since the Red crank here is 172.5mm.
+
+That means about 100 of the crankset's 138 grams come from Red's carbon arms. The power meter rings save only about 40 more. And because current SRAM DUB arms share the same 8-bolt direct mount interface, Red E1 arms work with the Force E1 power meter spider and rings. If you already own a Force power meter crank, swapping just the arms gets you most of the crank saving for $440, without paying $800 for Red power meter rings. Check with your shop that your exact spider is the current DUB 8-bolt version before you order.
+
+Arm prices are current US retail. The rest of this post uses launch MSRPs.
 
 ## Ranked by weight saved
 
-**1. Crankset (138g).** This is the whole story. Red's power meter crankset has carbon arms with the power meter built into the chainrings, while the Force power meter crankset is the heaviest single part of the Force group. Red wins by 138g even with longer 172.5mm arms in this comparison. If you only upgrade one part, this is the one.
+**1. Crankset (138g).** This is the whole story, and about 100g of it is the arms (see above). If you only upgrade one part, this is the one.
 
 **2. Cassette (41g).** Note that the Red figure here is a 10-36 and the Force figure is a smaller 10-33, so in a like-for-like range the gap is a little bigger than 41g.
 
@@ -64,6 +80,9 @@ The bottom bracket and AXS batteries are the same on both groups, so they're lef
 
 This is the ranking that matters if you're upgrading a Force group a piece at a time.
 
+![Chart of SRAM Red vs Force E1 weight saved per part and cost per gram saved](/images/sram-red-vs-force-e1-weight-chart.webp)
+*Graphic: Mizubikes*
+
 | Rank | Part | Cost per gram | Weight saved | Extra cost | Verdict |
 |---|---|---|---|---|---|
 | 1 | Rotors | $0.77 | 26 g | $20 | Do it now |
@@ -80,7 +99,7 @@ The rotors are the cheapest weight on the bike. Paceline X rotors cost about $10
 
 The rear derailleur, front derailleur and levers together cost about $1,085 more in Red and save about 68 grams. That's more than a thousand dollars for about the weight of a phone case. On the other hand, rotors, chain, crankset and cassette cost about $555 more and save about 219 grams. That's three quarters of the weight savings for a third of the money.
 
-So the smart upgrade path from Force is simple: put Paceline X rotors on now, swap to Red chains and cassettes as they wear, and buy the Red power meter crankset if you're going to spend real money. Leave the derailleurs and levers on Force. You'll end up within about 70 grams of a full Red bike and keep more than $1,000 in your pocket.
+So the smart upgrade path from Force is simple: put Paceline X rotors on now, swap to Red chains and cassettes as they wear, and put Red crank arms on your Force power meter spider if you're going to spend real money. Leave the derailleurs and levers on Force. You'll end up within about 70 grams of a full Red bike and keep more than $1,000 in your pocket.
 
 Prices have gone up since launch. US retailers now list several Red parts 10% or more above these launch MSRPs, but the gaps between Force and Red, and the ranking, stay about the same.
 
@@ -90,7 +109,7 @@ If you're still deciding between groups, I went through [why I finally switched 
 
 **How much lighter is SRAM Red than Force E1?** About 290 grams for a full 2x group with power meters. Most of that is the crankset.
 
-**Is SRAM Red worth it over Force?** For most riders, only partly. The crankset, cassette, chain and rotors are reasonable upgrades. The levers and derailleurs cost a lot for very little weight.
+**Is SRAM Red worth it over Force?** For most riders, only partly. The crank arms, cassette, chain and rotors are reasonable upgrades. The levers and derailleurs cost a lot for very little weight.
 
 **Are SRAM Red and Force E1 parts compatible?** Yes. They're the same 12-speed AXS system, so you can mix Red and Force parts freely.
 
@@ -100,3 +119,4 @@ If you're still deciding between groups, I went through [why I finally switched 
 - [Bikerumor: SRAM Red AXS pricing and details](https://bikerumor.com/new-sram-red-axs-unveiled-tech-details-those-brakes/)
 - [Bikerumor: SRAM Force AXS E1 prices and actual weights](https://bikerumor.com/sram-force-rival-12-axs-13-axs-xplr-prices-actual-weights/)
 - [CCACHE: SRAM Force E1 actual weights](https://www.ccache.cc/blogs/newsroom/sram-force-e1-groupset-actual-weight)
+- [Power Meter City: SRAM Red vs Force vs DZero crank arms](https://powermetercity.com/learn/what-is-the-difference-between-the-sram-red-force-and-quarq-dzero-crank-arms/)
