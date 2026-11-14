@@ -39,3 +39,5 @@ On price: Force E1 comes in around $1,499 on Amazon right now — a significant 
 I'm planning a new build around this group. I'm not ready to disclose what it is yet, but more on that soon. Once I have real miles on it I'll report back on whether the improved braking and ergonomics hold up to what the reviews have been saying — and whether SRAM has finally won me over for good.
 
 **Update:** I went through with it. The gear-by-gear math is in [SRAM Force E1 2x vs 1x vs XPLR: Gearing and Gear Jumps Compared](/posts/sram-force-e1-gearing-gear-jumps/), and the finished bike is my [SuperSix Evo 2026 13-speed Force XPLR 1x build](/posts/cannondale-supersix-evo-2026-xplr-1x-build/). For the 1x vs 2x tradeoff on the road, see [1x vs 2x Road Gearing](/posts/1x-vs-2x-road-gearing-sram-xplr-13-speed/).
+
+*Wondering whether to go a step up? Here's [SRAM Red vs Force E1 weight, part by part, and which upgrades are worth it](/posts/sram-red-vs-force-e1-weight/).*

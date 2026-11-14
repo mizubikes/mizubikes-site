@@ -83,3 +83,5 @@ Upgrading from **Ultegra R8100 to Dura-Ace R9200** offers **noticeable weight sa
 The same cost-per-gram math applies to frames and complete bikes. See [CAAD13 vs SuperSix Evo Hi-Mod](/cannondale-caad-13-is-aluminum-still-a-good-value-vs-the-carbon-2023-supersix-evo-hi-mod/) and [buying the Tarmac SL8 complete vs building it up](/posts/specialized-sl8-complete-vs-custom-build-cost/). If you're open to switching brands, I wrote about [why I'm finally thinking about switching to SRAM](/posts/finally-trying-sram-force-e1/) and compared [SRAM Force E1 2x vs 1x gearing](/posts/sram-force-e1-gearing-gear-jumps/).
 
 *Prices are US MSRP from early 2025. Shimano road groups are often discounted, so check current prices.*
+
+*On SRAM? Here's the same breakdown for [SRAM Red vs Force E1](/posts/sram-red-vs-force-e1-weight/).*
