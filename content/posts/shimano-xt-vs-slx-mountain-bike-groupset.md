@@ -61,7 +61,7 @@ XT M8200 brakes are $265 per brake per Singletracks. Shimano's new Deore M6220 f
 
 ## Which one to buy
 
-Buy XT M8200 if you ride aggressively, want the alloy-cage derailleur and mid-cage option, or are building a bike you'll keep for years. It's also considerably cheaper than SRAM's mechanical option. Vital MTB's table has the XT M8200 set at $640 against $710 for SRAM's 90 Transmission set. If you're weighing that decision, see our [SRAM Eagle 70/90 vs Shimano SLX/XT/XTR comparison](/posts/new-sram-eagle-70-and-90-vs-shimano-slx-xt-xtr-full-drivetrain-comparison-with-weight-and-price/) for earlier weight and price context.
+Buy XT M8200 if you ride aggressively, want the alloy-cage derailleur and mid-cage option, or are building a bike you'll keep for years. It's also considerably cheaper than SRAM's mechanical option. Vital MTB's table has the XT M8200 set at $640 against $710 for SRAM's 90 Transmission set. If you're weighing that decision, see our [SRAM Eagle 70 vs Shimano XT, SLX and XTR comparison](/new-sram-eagle-70-and-90-vs-shimano-slx-xt-xtr-full-drivetrain-comparison-with-weight-and-price/) for earlier weight and price context.
 
 Buy Deore M7200 if you want the SLX-style value pick. It has the same Shadow ES derailleur tech and the same Hyperglide+ shifting, at a lower price. BikeRadar's verdict is that most riders don't need to spend more.
 
