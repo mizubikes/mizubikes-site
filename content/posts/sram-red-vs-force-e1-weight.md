@@ -12,9 +12,9 @@ tags:
 - Groupsets
 - Weight
 cover:
-  image: /images/finally-trying-sram-force-e1.webp
-  alt: SRAM Force E1 AXS groupset components laid out
-  caption: 'Photo: SRAM'
+  image: /images/sram-red-vs-force-e1-weight-chart.webp
+  alt: Chart of SRAM Red vs Force E1 weight saved per part and cost per gram saved
+  caption: 'Graphic: Mizubikes'
   relative: false
 draft: false
 ---
@@ -64,13 +64,17 @@ The bottom bracket and AXS batteries are the same on both groups, so they're lef
 
 This is the ranking that matters if you're upgrading a Force group a piece at a time.
 
-1. **Rotors: $0.77 per gram.** Paceline X rotors cost about $10 more per rotor than standard Paceline, and any rotor works with Force calipers. The cheapest weight on the bike.
-2. **Chain: $1.71 per gram.** A Red chain costs $24 more than Force. Buy one next time your Force chain wears out.
-3. **Power meter crankset: $2.43 per gram.** It's a big check, but it's the only upgrade that saves a meaningful amount of weight, and the price per gram is still low. If you're buying a power meter crank anyway, buying Red instead of Force is the best money in this whole comparison.
-4. **Cassette: $4.27 per gram.** Worth it when your Force cassette wears out, less so as a standalone upgrade.
-5. **Rear derailleur: $13.54 per gram.** Only if you crash the Force one.
-6. **Front derailleur: $15.00 per gram.** Skip it.
-7. **Levers and calipers: $18.13 per gram.** Skip it for weight.
+| Rank | Part | Cost per gram | Weight saved | Extra cost | Verdict |
+|---|---|---|---|---|---|
+| 1 | Rotors | $0.77 | 26 g | $20 | Do it now |
+| 2 | Chain | $1.71 | 14 g | $24 | Next time it wears out |
+| 3 | Power meter crankset | $2.43 | 138 g | $335 | Best big upgrade |
+| 4 | Cassette | $4.27 | 41 g | $175 | Next time it wears out |
+| 5 | Rear derailleur | $13.54 | 24 g | $325 | Only if you break yours |
+| 6 | Front derailleur | $15.00 | 12 g | $180 | Skip |
+| 7 | Levers and calipers | $18.13 | 32 g | $580 | Skip for weight |
+
+The rotors are the cheapest weight on the bike. Paceline X rotors cost about $10 more per rotor than standard Paceline, and any rotor works with Force calipers. The crankset is the only upgrade that saves a meaningful amount of weight, and its price per gram is still low. If you're buying a power meter crank anyway, buying Red instead of Force is the best money in this whole comparison.
 
 ## Where it doesn't matter
 
