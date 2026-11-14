@@ -47,9 +47,12 @@ def existing_posts() -> list[dict]:
         text = p.read_text(encoding="utf-8", errors="ignore")
         title = re.search(r'^title:\s*"?(.+?)"?\s*$', text, re.M)
         slug = re.search(r"^slug:\s*\"?(.+?)\"?\s*$", text, re.M)
+        # Migrated WordPress posts set an explicit root-level `url:`; honor it
+        # so the drafter doesn't link to a /posts/... path that 404s.
+        url = re.search(r"^url:\s*['\"]?(/[^'\"\s]+)['\"]?\s*$", text, re.M)
         posts.append({
             "title": title.group(1) if title else p.stem,
-            "url": f"/posts/{slug.group(1) if slug else p.stem}/",
+            "url": url.group(1) if url else f"/posts/{slug.group(1) if slug else p.stem}/",
         })
     return posts
 

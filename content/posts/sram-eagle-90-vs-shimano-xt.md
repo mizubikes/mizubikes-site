@@ -19,7 +19,7 @@ draft: false
 
 This comparison changed in June 2026. Shimano launched the XT M8200 groupset with a Di2 derailleur and shifter, then added a cable-actuated version for 2026. So the old "Eagle 90 vs XT M8100" arguments are out of date. The right matchup now is Eagle 90 against the XT M8200 mechanical.
 
-If you want the older, broader price-and-weight picture across SLX, XT and XTR, I covered it in [SRAM Eagle 70/90 vs Shimano SLX/XT/XTR](/posts/new-sram-eagle-70-and-90-vs-shimano-slx-xt-xtr-full-drivetrain-comparison-with-weight-and-price/).
+If you want the older, broader price-and-weight picture across SLX, XT and XTR, I covered it in [SRAM Eagle 70 vs Shimano XT, SLX and XTR](/new-sram-eagle-70-and-90-vs-shimano-slx-xt-xtr-full-drivetrain-comparison-with-weight-and-price/).
 
 ## SRAM Eagle 90 vs Shimano XT at a glance
 
