@@ -6,9 +6,9 @@ slug: shimano-xt-vs-slx-mountain-bike-groupset
 categories: ["Mountain"]
 tags: ["Shimano XT", "Shimano SLX", "Deore M7200", "MTB drivetrain", "groupset"]
 cover:
-  image: "/images/shimano-xt-vs-slx-mountain-bike-groupset-cover.webp"
-  alt: "Close-up of a mountain bike rear derailleur and cassette on a dirt trail"
-  caption: "Photo: Hans / Pixabay"
+  image: "/images/shimano-xt-m8200-rear-derailleur.webp"
+  alt: "Shimano Deore XT 12-speed mechanical rear derailleur"
+  caption: "Shimano Deore XT rear derailleur. Photo: Shimano"
   relative: false
 draft: false
 ---
