@@ -1,7 +1,6 @@
 # One topic per line, phrased the way people search. The auto-drafter uses the top line, then deletes it.
 # Comparisons and specific buyer questions get the most clicks on this site, so keep them near the top.
 # When this list is empty, Claude picks a topic from recent launches the same way.
-Specialized Epic 9 vs Scott Spark RC
 Specialized Crux 5 vs Diverge 4: race gravel or adventure gravel
 Specialized Epic 9 vs Cannondale Scalpel
 Gravel tire width: 40mm vs 45mm vs 50mm
