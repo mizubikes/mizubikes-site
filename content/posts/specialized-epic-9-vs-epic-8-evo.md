@@ -51,3 +51,5 @@ Still no Epic 9 Evo that I can find, and my Epic 8 Evo is still the bike I grab 
 For the full spec-by-spec breakdown, see [Epic 8 vs Epic 9: What Actually Changed and Should You Upgrade?](/posts/specialized-epic-8-vs-epic-9-should-you-upgrade/). If buying used makes you nervous, [this guide to transferable warranties](/transferable-warranties/) covers which brands carry coverage over to a second owner.
 
 *Mizubikes may earn a commission from links in this post.*
+
+*Considering Flight Attendant? Here's [which XC bike with Flight Attendant to buy](/posts/xc-bikes-with-flight-attendant/), including used S-Works Epic 8s.*

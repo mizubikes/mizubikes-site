@@ -118,3 +118,5 @@ Here's the honest breakdown depending on your situation.
 Ultimately, the Epic 9 is a genuinely impressive step forward — Specialized didn't just reskin the Epic 8. But impressive and necessary aren't the same thing. Your Epic 8 is still an excellent bike.
 
 I'm on an Epic 8 Evo myself, and I wrote up why I'm keeping it in [The Specialized Epic 9 Is Here. My Epic 8 Evo Isn't Going Anywhere](/posts/specialized-epic-9-vs-epic-8-evo/). If the wireless-only requirement is what's holding you back, [SRAM's Eagle S-Series breakdown](/posts/sram-s-series-eagle-groupsets/) covers what a drivetrain swap actually costs. And if you're leaning toward a trail bike instead, here's [why I chose the Stumpjumper 15 Alloy](/posts/stumpjumper-15-alloy-build/).
+
+*Want automatic suspension? Here's [which XC bike with Flight Attendant to buy](/posts/xc-bikes-with-flight-attendant/).*
