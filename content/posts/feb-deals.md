@@ -65,3 +65,5 @@ I just picked up this combo last month and have been super happy with the bright
 - **Compact & Lightweight** – Easy to mount on any bike
 
 If you're putting together a saddle bag for those GP5000s, here's [what I carry for a tubeless road bike](/5-road-bike-saddle-bag-essentials-for-tubeless-road-bikes/).
+
+*Shopping now? Here are the [Black Friday bike deals for 2026](/posts/black-friday-bike-deals-2026/), updated through Cyber Monday.*
