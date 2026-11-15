@@ -64,6 +64,9 @@ The Comp-to-Expert step is the best value in the lineup by a wide margin. You ge
 
 **Tarmac SL9 Expert ($6,600 Di2 / $7,000 AXS): the one most people should buy.** It's the same aero frame shape as the S-Works, with carbon wheels and Ultegra Di2 or Force AXS. If you want to make it lighter later, upgrade the wheels first. On a Force AXS build, my [SRAM Red vs Force breakdown](/posts/sram-red-vs-force-e1-weight/) shows which Red parts are worth swapping in.
 
+![Specialized Tarmac SL9 Comp in red with SRAM Rival AXS and DT Swiss alloy wheels](/images/tarmac-sl9-comp-rival-axs.webp)
+*Tarmac SL9 Comp, Rival AXS. Photo: Specialized*
+
 **Tarmac SL9 Comp ($4,500): only if that's your budget.** It's the cheapest way into the SL9 frame, but the alloy wheels hold it back. Plan to upgrade them, which closes most of the gap to the Expert. Even a set like the [Zipp 454 NSW on the used market](/posts/zipp-454-nsw-still-worth-it/) would transform it.
 
 **Tarmac SL9 S-Level ($10,000 / $10,500): if you want a power meter and the good cockpit.** Dura-Ace or Red, a dual-sided power meter and the one-piece Rapide cockpit make it the "closest to S-Works" build. If you'd buy a power meter and an integrated cockpit anyway, the math looks a lot better.
