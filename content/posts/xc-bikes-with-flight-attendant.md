@@ -37,12 +37,13 @@ RockShox Flight Attendant reads the terrain, your pedaling and the gear you're i
 | Scott Spark RC Team Issue | $8,500 | SRAM GX Eagle AXS | 11.3 kg | 120 / 120mm |
 | Scott Spark RC World Cup | $10,000 | SRAM X0 Eagle AXS | 10.9 kg | 120 / 120mm |
 | Specialized Epic 9 Pro | $11,999.99 | SRAM X0 Transmission | Not published | 120 / 120mm |
+| Allied BC40 XX SL (Flight Attendant fork) | $9,750 sale ($13,000 regular) | SRAM XX SL Transmission | Not published | 120 / 120mm |
 | Scott Spark RC World Cup EVO | $13,000 | SRAM XX Eagle AXS | 10.5 kg | 120 / 120mm |
 | Pivot Mach 4 SL Team XX Flight Attendant | $13,899 | SRAM XX SL Transmission | Not published | 110-120mm rear |
 | Scott Spark RC SL | $15,000 | SRAM XX SL Eagle AXS | 9.9 kg | 120 / 120mm |
 | Specialized S-Works Epic 9 | $15,249.99 | SRAM XX SL Transmission | Not published | 120 / 120mm |
 
-Prices are US MSRP. Yeti offered a Flight Attendant build of the ASR in 2025 ($13,900), but there isn't one in the 2026 lineup. If you find a leftover 2025 ASR T5 Flight Attendant on sale this winter, it's worth a look.
+Prices are US MSRP. Allied's [BC40](/posts/allied-bc40-xc-bike/) XX SL build comes with a SID Ultimate Flight Attendant fork and is on sale for $9,750 through December 31. Allied's listing doesn't confirm a Flight Attendant shock, so check before you order. Yeti offered a Flight Attendant build of the ASR in 2025 ($13,900), but there isn't one in the 2026 lineup. If you find a leftover 2025 ASR T5 Flight Attendant on sale this winter, it's worth a look.
 
 ## How Flight Attendant works on an XC bike
 
