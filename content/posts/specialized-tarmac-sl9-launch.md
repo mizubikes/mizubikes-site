@@ -49,3 +49,5 @@ The bigger open question, and one we'll only get real answers to once independen
 For now, only the S-Works tier exists. Expect the range to extend into Pro and Expert-level builds at lower price points as the SL9 rolls out over the rest of the year — that's the version most of us will actually end up considering.
 
 How we got here: [what the SL9 leaks showed](/posts/specialized-tarmac-sl9-leak/). If you're weighing the SL9 against the outgoing model, see [the SL8 complete vs custom build cost math](/posts/specialized-sl8-complete-vs-custom-build-cost/), and if you want one bike for road and gravel, [the Crux 5 quiver-killer argument](/posts/crux-5-quiver-killer-road-bike/) is worth a read.
+
+*Deciding between models? Here's [Tarmac SL9 Comp vs Expert vs S-Level vs S-Works](/posts/tarmac-sl9-which-model-to-buy/), with what each step up costs per gram.*
