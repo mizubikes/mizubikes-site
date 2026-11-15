@@ -1,6 +1,6 @@
 ---
 title: 'XC Bikes With Flight Attendant: Which One to Buy'
-date: 2026-11-14T23:30:00-08:00
+date: 2026-11-14T22:30:00-08:00
 description: 'Which XC bike with RockShox Flight Attendant should you buy? Epic 9 Pro vs S-Works Epic 9 vs Pivot Mach 4 SL, plus adding Flight Attendant to your own bike.'
 slug: xc-bikes-with-flight-attendant
 categories:
