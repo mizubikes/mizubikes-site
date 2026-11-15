@@ -1,8 +1,8 @@
 ---
-title: 'SRAM Eagle 70/90 vs Shimano SLX/XT/XTR: Weight and Price'
+title: 'SRAM Eagle 70 vs Shimano XT, SLX, XTR: Weight and Price'
 date: '2025-03-30T05:22:45+00:00'
-lastmod: 2026-11-01
-description: 'SRAM Eagle 70 and 90 vs Shimano SLX, XT and XTR: weight, MSRP, UDH compatibility and the best-value drivetrain. Updated for Shimano''s wireless Di2.'
+lastmod: 2026-11-13
+description: 'SRAM Eagle 70 vs Shimano XT: XT is about 550g lighter for $130 more and fits any frame. Plus Eagle 90, SLX and XTR weights, prices and UDH fit.'
 url: /new-sram-eagle-70-and-90-vs-shimano-slx-xt-xtr-full-drivetrain-comparison-with-weight-and-price/
 categories:
 - Mountain
@@ -21,6 +21,8 @@ cover:
 If you're shopping for a new mechanical mountain bike drivetrain, you've likely come across **SRAM Eagle 70 and Eagle 90**. They're SRAM's mechanical versions of its Transmission groupsets, and they bring that hangerless, frame-mounted shifting to a much more accessible price. But how do they compare to Shimano's popular SLX, XT and XTR?
 
 In this post, I break down the major contenders by **weight, MSRP** and overall value: **SRAM SX, GX, X01, Eagle 70 and Eagle 90**, and **Shimano SLX, XT and XTR**.
+
+**SRAM Eagle 70 vs Shimano XT:** XT M8100 is about 550g lighter (1,743g vs 2,290g) for about $130 more ($621 vs $490 MSRP), and it fits any frame with a derailleur hanger. Eagle 70 is the cheaper, tougher hangerless option, but only if your frame is UDH.
 
 **Quick answer:** **Shimano SLX M7100** is still the best value: it's lighter than Eagle 70 and costs less. **Eagle 90** is the pick if your frame is UDH and you want Transmission-style shifting without paying for AXS. **XT M8100** is the sweet spot for mechanical weight savings. The only reason to buy **XTR M9100** is if you're chasing grams.
 
