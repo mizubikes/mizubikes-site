@@ -18,6 +18,15 @@
   <div class="post-content">
     {{ .Content }}
 
+    <div class="dp-search">
+      <input type="search" id="dp-q" autocomplete="off" spellcheck="false"
+             placeholder="Search {{ with $d.total_found }}all {{ lang.FormatNumber 0 . }} deals{{ else }}deals{{ end }}: try &ldquo;Fox 36&rdquo; or &ldquo;GX Eagle&rdquo;"
+             aria-label="Search all deals" aria-controls="dp-results">
+      <div id="dp-status" class="fp-updated" role="status" aria-live="polite"></div>
+    </div>
+    <div id="dp-results" hidden></div>
+
+    <div id="dp-main">
     {{- if not $cats }}
     <p class="fp-note">No deals to show yet. The first scan runs tomorrow morning.</p>
     {{- else }}
@@ -43,6 +52,8 @@
 
     {{- end }}
 
+    </div>{{/* #dp-main */}}
+
     <section class="fp-method">
       <h2>How this works</h2>
       <ul>
@@ -50,6 +61,7 @@
         <li>Only established brands are listed: the ones covered in articles on this site, plus the major names in bikes, parts and gear.</li>
         <li><strong>New today</strong> means the deal wasn't listed yesterday. <strong>Lower again</strong> means the price dropped below the lowest we'd seen for that deal.</li>
         <li>The crossed-out price is the store's own list price, not a price we verified elsewhere. Some shops set list prices high, so compare before you buy on big-ticket items.</li>
+        <li>The lists above show the most relevant deals. The search box covers every deal the scan found, including older standards and model years that are left off the main lists.</li>
         <li>Deals aren't ranked by discount alone. Current gear from brands and models this site covers ranks higher, and so do items with several sizes still in stock. Small spares, single front or rear parts and discounts over 60% rank lower. There's a cap per store so one shop can't fill the list. Prices can change during the day and don't include shipping or tax.</li>
         <li>The price shown is the store's price, and the store link under each button goes straight to it. <strong>Check Amazon</strong> searches Amazon for the same item. Amazon's price isn't listed because it changes through the day and can be higher or lower than the store's, so compare the two before you buy.</li>
         <li>Amazon links are affiliate links: as an Amazon Associate I earn from qualifying purchases, at no extra cost to you. It never changes which deals are listed or how they're ranked.</li>
@@ -61,4 +73,82 @@
     </section>
   </div>
 </article>
+
+<script>
+(function () {
+  var q = document.getElementById('dp-q'), out = document.getElementById('dp-results'),
+      main = document.getElementById('dp-main'), status = document.getElementById('dp-status');
+  if (!q || !out || !main) return;
+  var data = null, loading = null, timer = null, MAX = 60;
+
+  function load() {
+    if (data) return Promise.resolve(data);
+    if (!loading) {
+      loading = fetch('/deals-all.json').then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      }).then(function (j) {
+        j.items.forEach(function (it) {
+          it.hay = (it[1] + ' ' + it[0] + ' ' + it[2] + ' ' + it[3] + ' ' + (j.cats[it[7]] || '')).toLowerCase();
+        });
+        data = j; return j;
+      });
+    }
+    return loading;
+  }
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function money(n) {
+    return '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+  function row(it, cats) {
+    var title = it[0], brand = it[1];
+    if (brand && title.toLowerCase().indexOf(brand.toLowerCase() + ' ') === 0) title = title.slice(brand.length + 1);
+    var sub = (it[2] ? esc(it[2]) + ' · ' : '') + esc(it[3]) + (cats[it[7]] ? ' · ' + esc(cats[it[7]]) : '');
+    var rel = (it[10] ? 'sponsored ' : '') + 'nofollow noopener';
+    var buy = it[9]
+      ? '<a class="fp-btn fp-btn-primary fp-btn-sm" href="' + esc(it[9]) + '" target="_blank" rel="sponsored nofollow noopener"><span class="dp-long">Check </span>Amazon</a>' +
+        '<a class="fp-link dp-store" href="' + esc(it[8]) + '" target="_blank" rel="' + rel + '">' + esc(it[3]) + '</a>'
+      : '<a class="fp-btn fp-btn-primary fp-btn-sm" href="' + esc(it[8]) + '" target="_blank" rel="' + rel + '">View deal</a>';
+    return '<tr><th scope="row" class="dp-item"><span class="dp-title">' +
+      (brand ? '<span class="fp-brand">' + esc(brand) + '</span> ' : '') + esc(title) + '</span>' +
+      '<span class="fp-size">' + sub + '</span></th>' +
+      '<td class="fp-num"><strong>' + money(it[4]) + '</strong><br><s class="fp-was" title="Store list price">' + money(it[5]) + '</s></td>' +
+      '<td class="fp-num"><span class="dp-off">' + it[6] + '%</span></td>' +
+      '<td class="fp-buy dp-buy">' + buy + '</td></tr>';
+  }
+  function run() {
+    var words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!words.length) { out.hidden = true; out.innerHTML = ''; main.hidden = false; status.textContent = ''; return; }
+    status.textContent = 'Searching…';
+    load().then(function (j) {
+      if (q.value.toLowerCase().split(/\s+/).filter(Boolean).join(' ') !== words.join(' ')) return;
+      var hits = j.items.filter(function (it) {
+        for (var i = 0; i < words.length; i++) if (it.hay.indexOf(words[i]) < 0) return false;
+        return true;
+      });
+      main.hidden = true; out.hidden = false;
+      if (!hits.length) {
+        status.textContent = 'No deals match “' + q.value.trim() + '” today.';
+        out.innerHTML = ''; return;
+      }
+      status.textContent = hits.length > MAX
+        ? 'Showing the best ' + MAX + ' of ' + hits.length.toLocaleString('en-US') + ' matches. Add a word to narrow it down.'
+        : hits.length + (hits.length === 1 ? ' match' : ' matches');
+      out.innerHTML = '<div class="fp-table-wrap"><table class="fp-table dp-table"><thead><tr>' +
+        '<th scope="col">Item</th><th scope="col" class="fp-num">Price</th><th scope="col" class="fp-num">Off</th>' +
+        '<th scope="col"><span class="fp-sr">Buy</span></th></tr></thead><tbody>' +
+        hits.slice(0, MAX).map(function (it) { return row(it, j.cats); }).join('') + '</tbody></table></div>';
+    }).catch(function () {
+      status.textContent = 'Search isn’t available right now. The lists below still work.';
+      main.hidden = false; out.hidden = true;
+    });
+  }
+  q.addEventListener('focus', function () { load().catch(function () {}); }, { once: true });
+  q.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(run, 120); });
+})();
+</script>
 {{- end }}

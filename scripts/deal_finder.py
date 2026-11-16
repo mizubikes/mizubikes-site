@@ -4,6 +4,7 @@ Daily bike deal finder for mizubikes.com/bike-deals/
 
 Reads   data/deal_stores.yaml     (the store list + thresholds you edit)
 Writes  data/deals.json           (today's deals, grouped by category)
+        static/deals-all.json     (every deal found, for the page's search box)
         data/deal_history.json    (first-seen date + lowest price per deal)
 
 Each store is a Shopify shop. The script pages through the public
@@ -37,6 +38,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 STORES = ROOT / "data" / "deal_stores.yaml"
 DEALS = ROOT / "data" / "deals.json"
 HISTORY = ROOT / "data" / "deal_history.json"
+ALL = ROOT / "static" / "deals-all.json"    # every deal, for the page's search box
 
 TIMEOUT = 30
 PAGE_SIZE = 250                 # Shopify's maximum for products.json
@@ -430,11 +432,11 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
             continue
         if not brands.ok((p.get("vendor") or "").strip() or store["name"]):
             continue        # brand the site doesn't write about
-        if DATED.search(title) or NOBODY_WANTS.search(title):
-            continue        # old standards and parts nobody is shopping for
+        # old standards, old model years and parts nobody shops for stay
+        # searchable but never appear in the main lists
         years = [int(y) for y in MODEL_YEAR.findall(title)]
-        if years and max(years) < this_year - int(cfg["max_age_years"]):
-            continue        # too old
+        on_main = not (DATED.search(title) or NOBODY_WANTS.search(title)
+                       or (years and max(years) < this_year - int(cfg["max_age_years"])))
         price, was, pct, v = hit
         n_avail = sum(1 for x in p.get("variants") or []
                       if x.get("available") and (money(x.get("compare_at_price")) or 0)
@@ -466,6 +468,7 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
             "url": href,
             "sponsored": sponsored,
             "stale": False,
+            "main": on_main,
         })
         deals[-1]["score"] = relevance(deals[-1], n_avail, brands, this_year)
     return deals, len(products)
@@ -552,9 +555,10 @@ def main() -> int:
     cutoff = (today - dt.timedelta(days=HISTORY_KEEP_DAYS)).isoformat()
     history = {k: v for k, v in history.items() if v["last"] >= cutoff}
 
+    main_pool = [it for it in pool if it.get("main", True)]
     categories = []
     for key, title in CATEGORIES:
-        rows = pick([it for it in pool if it["category"] == key],
+        rows = pick([it for it in main_pool if it["category"] == key],
                     int(cfg["per_category"]), int(cfg["per_store_per_category"]))
         if rows:
             categories.append({"key": key, "title": title, "items": rows,
@@ -587,6 +591,15 @@ def main() -> int:
 
     write_json(DEALS, out)
     write_json(HISTORY, history)
+
+    # compact full list for the search box: one array per deal, best first
+    rows = [[it["title"], it["brand"], it["variant"], it["store_name"], it["price"], it["was"],
+             round(it["pct"] * 100), it["category"], it["url"], it.get("amazon", ""),
+             1 if it.get("sponsored") else 0]
+            for it in sorted(pool, key=score, reverse=True)]
+    ALL.parent.mkdir(parents=True, exist_ok=True)
+    ALL.write_text(json.dumps({"updated": out["updated"], "cats": dict(CATEGORIES), "items": rows},
+                              ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:

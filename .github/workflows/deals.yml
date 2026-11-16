@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/deals.json data/deal_history.json
+          git add data/deals.json data/deal_history.json static/deals-all.json
           if git diff --cached --quiet; then
             echo "No deal changes."
             exit 0
