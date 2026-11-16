@@ -230,13 +230,16 @@
       state.cat = cat;
       fillSizes();
       render();
-      if (push && history.replaceState) history.replaceState(null, '', cat === 'best' ? location.pathname : '#' + cat);
+
     }
     tabs.forEach(function (t) { t.addEventListener('click', function () { pick(t.dataset.cat, true); }); });
     if (sortSel) sortSel.addEventListener('change', function () { state.sort = sortSel.value; render(); });
     if (sizeSel) sizeSel.addEventListener('change', function () { state.size = sizeSel.value; render(); });
     window.addEventListener('hashchange', function () { pick(location.hash.slice(1), false); });
+    /* a #category link opens that tab once; the hash is then dropped so a
+       refresh or a saved link always comes back to "Best today" */
     pick(location.hash.slice(1) || 'best', false);
+    if (location.hash && history.replaceState) history.replaceState(null, '', location.pathname + location.search);
   }
 
   /* ---------- search across every deal ---------- */
