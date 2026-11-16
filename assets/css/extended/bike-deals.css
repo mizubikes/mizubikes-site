@@ -104,6 +104,9 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
   line-height: 1.5;
 }
 
+.dp-flag-rare { border-color: #d29b00; background: #fff6d6; }
+.dp-flag-gen { border-color: #1B8FAB; background: #e3f4f8; }
+
 .dp-card-body {
   display: flex;
   flex-direction: column;

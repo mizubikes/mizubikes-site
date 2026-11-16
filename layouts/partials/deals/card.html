@@ -10,7 +10,9 @@
     {{- with $it.image }}<img src="{{ . }}" alt="" loading="lazy" decoding="async" width="400" height="400" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('dp-noimg');this.remove()">{{ else }}<span class="dp-card-ph" aria-hidden="true">{{ $it.brand | default $it.store_name }}</span>{{ end }}
     <span class="dp-card-off">{{ math.Round (mul $it.pct 100) }}% off</span>
     {{- if $it.lower }}<span class="dp-card-flag">▼ Lower again</span>
-    {{- else if $it.new }}<span class="dp-card-flag">● New today</span>{{ end }}
+    {{- else if $it.new }}<span class="dp-card-flag">● New today</span>
+    {{- else if $it.rare }}<span class="dp-card-flag dp-flag-rare">★ Rarely on sale</span>
+    {{- else if $it.popular }}<span class="dp-card-flag dp-flag-gen">Current gen</span>{{ end }}
   </span>
   <span class="dp-card-body">
     <span class="dp-card-title" title="{{ $it.title }}">{{ with $it.brand }}<strong>{{ . }}</strong> {{ end }}{{ with $it.name }}{{ . }}{{ else }}{{ if $it.brand }}{{ strings.TrimPrefix (printf "%s " $it.brand) $it.title }}{{ else }}{{ $it.title }}{{ end }}{{ end }}</span>

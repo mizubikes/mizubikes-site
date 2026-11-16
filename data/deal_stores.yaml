@@ -33,7 +33,57 @@ settings:
   # tools, accessories.
   front_sections: [bikes, wheels, drivetrain, suspension, tires]
   front_per_section: 5        # 5 on desktop; tablets and phones show the first 4
-  min_discount: 0.20          # at least 20% under the store's list price
+  min_discount: 0.20          # the normal bar: 20% under the store's list price
+  # ...but not every deal has to be 20% off:
+  rare_min_discount: 0.10     # gear that rarely goes on sale counts from 10% off:
+  rare_sale_rate: 0.05        #   brands that discount under 5% of their products (measured each scan
+  rare_sale_min_products: 25  #   across all stores, over at least 25 products), plus this list:
+  rare_sale_brands: [ENVE, Chris King, Industry Nine, Silca, Factor, Wolf Tooth, Garbaruk, Zipp, Roval, Ohlins, Cane Creek, Reserve]
+  big_save_min_discount: 0.12 # and any deal 12%+ off that saves at least big_save_min dollars
+  big_save_min: 400
+
+  # Popularity. An item matches an entry when its brand + title contain every
+  # word of the entry, in any order ("SRAM E1" matches "SRAM Force E1 ...").
+  # A word ending in * matches any word starting with it ("R92*" = R9200, R9270).
+  # popular_terms: current generation people are shopping for. Ranked higher,
+  # and they count as deals from rare_min_discount.
+  popular_terms:
+    - Transmission            # SRAM Eagle Transmission (T-Type)
+    - T-Type
+    - SRAM E1
+    - Eagle 90
+    - Eagle 70
+    - XX SL
+    - SRAM Red AXS
+    - XPLR AXS
+    - Shimano R92*            # Dura-Ace 12-speed (R9200, R9250, R9270 ...)
+    - Shimano R81*            # Ultegra 12-speed
+    - Shimano R71*            # 105 12-speed
+    - Shimano M92*            # XTR, latest
+    - Shimano M82*            # XT, latest
+    - Shimano RX82*           # GRX 12-speed
+    - Shimano RX61*
+    - Epic 9
+    - Stumpjumper 15
+    - Tarmac SL8
+    - Aethos 2
+    - Turbo Levo 4
+  # older_gen_terms: previous generations. Ranked lower (not removed).
+  older_gen_terms:
+    - X01 Eagle
+    - XX1 Eagle
+    - GX Eagle
+    - NX Eagle
+    - SX Eagle
+    - 11 speed
+    - 11 spd
+    - Shimano R91*            # Dura-Ace 11-speed
+    - Shimano R80*            # Ultegra 11-speed
+    - Shimano R70*            # 105 11-speed
+    - Shimano M91*            # XTR, previous
+    - Shimano M81*            # XT, previous
+    - Shimano M80*
+
   max_discount: 0.80          # above this the "list price" is usually not real
   min_price: 20               # skip anything cheaper than this
   per_category: 25            # cards shown per category (5 rows of 5 on desktop)

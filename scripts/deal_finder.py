@@ -66,6 +66,15 @@ DEFAULTS = {
     "brands_block": [],         # never include these brands
     "brands_boost": [],         # favorite brands, ranked higher
     "max_age_years": 2,         # skip items whose model year is older than this
+    # not every deal has to be 20% off
+    "rare_min_discount": 0.10,  # brands/parts that rarely go on sale count from here
+    "rare_sale_rate": 0.05,     # a brand is "rarely on sale" when under 5% of its products are discounted
+    "rare_sale_brands": [],     # always treated as rarely on sale
+    "rare_sale_min_products": 25,  # ...measured over at least this many products
+    "big_save_min_discount": 0.12,
+    "big_save_min": 400,        # ...or at least $400 off, at 12%+ off
+    "popular_terms": [],        # current-generation parts: ranked higher, count from rare_min_discount
+    "older_gen_terms": [],      # previous generations: ranked lower
     "amazon_tag": "",           # Amazon Associates tag; empty = no Amazon buttons
     "amazon_skip": ["bikes", "framesets"],   # categories Amazon doesn't really sell
 }
@@ -368,6 +377,12 @@ def categorize(product: dict, price: float) -> str:
     return "accessories"
 
 
+def floor_discount(cfg: dict) -> float:
+    """Lowest markdown any rule accepts; the final cut happens after every
+    store has been read (see keep_deal)."""
+    return min(cfg["min_discount"], cfg["rare_min_discount"], cfg["big_save_min_discount"])
+
+
 def best_variant(product: dict, cfg: dict):
     """In-stock variant with the biggest real markdown, or None."""
     best = None
@@ -378,7 +393,7 @@ def best_variant(product: dict, cfg: dict):
         if not price or not was or was <= price:
             continue
         pct = 1 - price / was
-        if price < cfg["min_price"] or not (cfg["min_discount"] <= pct <= cfg["max_discount"]):
+        if price < cfg["min_price"] or not (floor_discount(cfg) <= pct <= cfg["max_discount"]):
             continue
         if best is None or pct > best[2] or (pct == best[2] and price < best[0]):
             best = (price, was, pct, v)
@@ -434,12 +449,39 @@ CATEGORY_WEIGHT = {"bikes": 1.10, "framesets": 1.10, "wheels": 1.15, "drivetrain
                    "electronics": 1.10, "apparel": 0.80, "tools": 0.90, "accessories": 0.75}
 
 
+def words(text: str) -> set[str]:
+    return set(re.findall(r"[a-z0-9]+", (text or "").lower()))
+
+
+def term_lists(entries) -> list[list[str]]:
+    """"SRAM E1" -> ["sram", "e1"]: an item matches when its brand + title
+    contain every word of an entry, in any order. A word ending in * matches
+    any word starting with it ("R92*" matches R9200, R9250, R9270)."""
+    out = []
+    for e in entries or []:
+        toks = re.findall(r"[a-z0-9]+\*?", str(e).lower())
+        if toks:
+            out.append(toks)
+    return out
+
+
+def matches(item_words: set[str], terms: list[list[str]]) -> bool:
+    for toks in terms:
+        if all((any(w.startswith(t[:-1]) for w in item_words) if t.endswith("*") else t in item_words)
+               for t in toks):
+            return True
+    return False
+
+
 def relevance(item: dict, n_available: int, brands: "SiteBrands", this_year: int) -> float:
     """Rank by how likely a reader is to want it, not by discount alone."""
     pct, price, title = item["pct"], item["price"], item["title"]
     # discount: full credit up to 45% off, little extra beyond, and a penalty
-    # past 60% where the list price is usually inflated or the item is obsolete
+    # past 60% where the list price is usually inflated or the item is obsolete.
+    # Gear that rarely goes on sale gets double credit: 12% off ENVE is news.
     d = pct if pct <= 0.45 else 0.45 + (pct - 0.45) * 0.2
+    if item.get("rare") or item.get("popular"):
+        d = max(d, min(pct * 2, 0.45))
     if pct > 0.60:
         d -= (pct - 0.60) * 0.8
     s = d * (1 + math.log10(min(max(price, 10), 3000)) / 2)
@@ -447,6 +489,10 @@ def relevance(item: dict, n_available: int, brands: "SiteBrands", this_year: int
     s *= 1 + 0.15 * brands.topic_hits(item["brand"], title)  # models the site writes about
     s *= 1 + 0.10 * min(max(n_available - 1, 0), 3)          # several sizes/colors still in stock
     s *= CATEGORY_WEIGHT.get(item["category"], 1.0)
+    if item.get("popular"):
+        s *= 1.35                                           # current generation people are shopping for
+    elif item.get("older_gen"):
+        s *= 0.7                                            # previous generation
     if SMALL_PARTS.search(title):
         s *= 0.35
     if HALF_SET.search(title):
@@ -649,7 +695,7 @@ def score(item: dict) -> float:
     return item.get("score") or item["pct"] * (1 + math.log10(max(item["price"], 10)) / 2) * 0.5
 
 
-def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict], int]:
+def scan_store(store: dict, cfg: dict, brands: "SiteBrands", seen: dict) -> tuple[list[dict], int]:
     base = store["base"].rstrip("/")
     products = fetch_specialized(store, cfg) if store.get("type") == "specialized" \
         else fetch_catalog(store, cfg)
@@ -660,6 +706,13 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
         label = f"{title} {p.get('product_type') or ''}"
         if not title or SKIP.search(label) or USED.search(label):
             continue        # new gear only: used, demo and pre-owned are left out
+        vkey = SiteBrands.norm((p.get("vendor") or "").strip())
+        if vkey:                                     # how often does this brand go on sale?
+            st = seen.setdefault(vkey, [0, 0])
+            st[0] += 1
+            if any((money(x.get("compare_at_price")) or 0) > (money(x.get("price")) or 0) > 0
+                   for x in p.get("variants") or []):
+                st[1] += 1
         hit = best_variant(p, cfg)
         if not hit:
             continue
@@ -709,7 +762,9 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
             "url": href,
             "sponsored": sponsored,
             "image": image_for(p),
-            "sizes": sizes_on_sale(p, cfg),
+            "sizes": sizes_on_sale(p, {**cfg, "min_discount": floor_discount(cfg)}),
+            "vendor_key": vkey,
+            "stock": n_avail,
             "stale": False,
             "main": on_main,
         })
@@ -770,11 +825,12 @@ def main() -> int:
                  and not DATED.search(it.get("title", ""))
                  and not NOBODY_WANTS.search(it.get("title", ""))]
     pool, status, ok_count = [], [], 0
+    seen: dict[str, list[int]] = {}          # brand -> [products, products on sale]
 
     for s in stores:
         rec = {"id": s["id"], "name": s["name"], "home": s["base"].rstrip("/")}
         try:
-            deals, scanned = scan_store(s, cfg, brands)
+            deals, scanned = scan_store(s, cfg, brands, seen)
             pool.extend(deals)
             rec.update({"ok": True, "scanned": scanned, "deals": len(deals)})
             ok_count += 1
@@ -793,6 +849,40 @@ def main() -> int:
     if ok_count == 0:
         print("No store could be scanned — leaving yesterday's data in place.")
         return 1
+
+    # ---- which deals make the cut ----
+    # 20%+ off as before, OR 10%+ off gear that rarely goes on sale (brands
+    # that discount under 8% of their catalog, the rare_sale_brands list, or
+    # current-generation parts on popular_terms), OR 12%+ off with $400+ saved.
+    rare_brands = {SiteBrands.norm(b) for b in cfg.get("rare_sale_brands") or []}
+    for k, (n, on_sale) in seen.items():
+        if n >= int(cfg["rare_sale_min_products"]) and on_sale / n < float(cfg["rare_sale_rate"]):
+            rare_brands.add(k)
+    popular, older = term_lists(cfg.get("popular_terms")), term_lists(cfg.get("older_gen_terms"))
+    this_year = today.year
+    kept = []
+    for it in pool:
+        if it.get("stale"):
+            kept.append(it)
+            continue
+        w = words(f"{it.get('brand', '')} {it['title']}")
+        bkey = it.get("vendor_key") or SiteBrands.norm(it.get("brand", ""))
+        it["rare"] = bkey in rare_brands or SiteBrands.listed(bkey, rare_brands)
+        it["popular"] = matches(w, popular)
+        it["older_gen"] = not it["popular"] and matches(w, older)
+        pct = it["pct"]
+        ok = (pct >= cfg["min_discount"]
+              or ((it["rare"] or it["popular"]) and pct >= cfg["rare_min_discount"])
+              or (pct >= cfg["big_save_min_discount"] and it["save"] >= float(cfg["big_save_min"])))
+        if ok:
+            it["score"] = relevance(it, int(it.get("stock") or 1), brands, this_year)
+            kept.append(it)
+    print(f"Deal cut: {len(kept)} of {len(pool)} candidates kept; "
+          f"{sum(1 for i in kept if i.get('rare'))} rarely-on-sale, "
+          f"{sum(1 for i in kept if i.get('popular'))} current-gen, "
+          f"{sum(1 for i in kept if i.get('pct', 1) < cfg['min_discount'])} under {cfg['min_discount']:.0%} off")
+    print("Rarely-on-sale brands: " + ", ".join(sorted(b for b in rare_brands if b in seen)[:80]))
+    pool = kept
 
     # history: first-seen date and lowest price per deal
     for it in pool:
