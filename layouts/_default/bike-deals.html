@@ -43,6 +43,12 @@
         {{- end }}
         <button type="button" class="dp-tab" data-cat="all" aria-pressed="false">All</button>
       </div>
+      <div class="dp-controls">
+      <label class="dp-sort" id="dp-size-wrap" hidden>Size
+        <select id="dp-size" aria-label="Filter deals by size in stock">
+          <option value="">Any size</option>
+        </select>
+      </label>
       <label class="dp-sort">Sort
         <select id="dp-sort" aria-label="Sort deals">
           <option value="best">Best match</option>
@@ -52,6 +58,7 @@
           <option value="new">Newest</option>
         </select>
       </label>
+      </div>
     </div>
 
     {{- /* Without JavaScript every card shows, grouped by category. The script
@@ -71,7 +78,7 @@
       </section>
       {{- end }}
     </div>
-    <p id="dp-empty" class="fp-note" hidden>No deals in this category right now.</p>
+    <p id="dp-empty" class="fp-note" hidden>No deals match here right now. Try another category or size.</p>
 
     {{- end }}
 
@@ -117,7 +124,7 @@
         <li><strong>Best today</strong> isn't ranked by discount alone. Current gear from brands and models this site covers ranks higher, and so do items with several sizes still in stock. Small spares, single front or rear parts and discounts over 60% rank lower. Use the sort menu to order by discount or price instead.</li>
         <li>The cards show the most relevant deals. The search box covers every deal the scan found, including older standards (10-speed and below, rim brake, 26-inch) and model years that are left off the cards.</li>
         <li><strong>New today</strong> means the deal wasn't listed yesterday. <strong>Lower again</strong> means the price dropped below the lowest we'd seen for that deal. <strong>Recently ended</strong> lists deals that were here in the last week and have since sold out or gone back up.</li>
-        <li>For bikes, frames, shoes and clothing, <strong>In stock</strong> lists the sizes still available at the deal price when the page was last checked.</li>
+        <li>For bikes, frames, shoes and clothing, <strong>In stock</strong> lists the sizes still available at the deal price when the page was last checked. Pick a category and use the Size menu to see only deals in your size.</li>
         <li>The crossed-out price is the store's own list price, not a price we verified elsewhere. Prices can change during the day and don't include shipping or tax. Product photos come from the stores.</li>
         <li>Every card goes straight to the store that has the deal. Some store links may be affiliate links, which support the site at no extra cost to you and never change which deals are listed or how they're ranked.</li>
         {{- with $okStores }}
@@ -156,13 +163,57 @@
       high: function (a, b) { return num(b, 'price') - num(a, 'price'); },
       new:  function (a, b) { return a.dataset.since < b.dataset.since ? 1 : a.dataset.since > b.dataset.since ? -1 : num(b, 'score') - num(a, 'score'); }
     };
-    var state = { cat: 'best', sort: 'best' };
+    var state = { cat: 'best', sort: 'best', size: '' };
+    var sizeSel = document.getElementById('dp-size'), sizeWrap = document.getElementById('dp-size-wrap');
+
+    /* stores label sizes differently ("Medium", "MD", "54cm"): fold them together */
+    var ALIAS = { 'X-SMALL': 'XS', 'XSMALL': 'XS', 'EXTRA SMALL': 'XS', 'SMALL': 'S', 'SM': 'S',
+                  'MEDIUM': 'M', 'MED': 'M', 'MD': 'M', 'LARGE': 'L', 'LG': 'L',
+                  'X-LARGE': 'XL', 'XLARGE': 'XL', 'EXTRA LARGE': 'XL',
+                  'XX-LARGE': 'XXL', 'XXLARGE': 'XXL', '2XL': 'XXL', '2X-LARGE': 'XXL' };
+    var LETTERS = ['XXS', 'XS', 'S', 'S/M', 'M', 'M/L', 'L', 'L/XL', 'XL', 'XXL', 'XXXL'];
+    function normSize(s) {
+      var t = String(s).trim().toUpperCase().replace(/\s*CM$/, '').replace(/\s+/g, ' ');
+      return ALIAS[t] || t.replace(/(\d)\s*MM$/, '$1mm');
+    }
+    cards.forEach(function (c) {
+      c._sizes = (c.dataset.sizes || '').split('|').filter(Boolean).map(normSize);
+    });
+    function sizeOrder(a, b) {
+      var ia = LETTERS.indexOf(a), ib = LETTERS.indexOf(b);
+      if (ia >= 0 || ib >= 0) return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+      var na = parseFloat(a), nb = parseFloat(b);
+      if (!isNaN(na) && !isNaN(nb)) return na - nb || (a < b ? -1 : 1);
+      if (!isNaN(na) || !isNaN(nb)) return isNaN(na) ? 1 : -1;
+      return a < b ? -1 : a > b ? 1 : 0;
+    }
+    function inCat(c) {
+      if (state.cat === 'all') return true;
+      if (state.cat === 'best') return num(c, 'rank') > 0;
+      return c.dataset.cat === state.cat;
+    }
+    /* rebuild the size menu from whatever sizes the current tab has */
+    function fillSizes() {
+      if (!sizeSel) return;
+      var counts = {};
+      /* sizes only mean something inside one category: a 56 frame is not a 56 shoe */
+      var mixed = state.cat === 'best' || state.cat === 'all';
+      if (mixed) state.size = '';
+      cards.filter(inCat).forEach(function (c) {
+        c._sizes.forEach(function (z) { counts[z] = (counts[z] || 0) + 1; });
+      });
+      var list = Object.keys(counts).sort(sizeOrder);
+      if (list.indexOf(state.size) < 0) state.size = '';
+      sizeSel.innerHTML = '<option value="">Any size</option>' + list.map(function (z) {
+        return '<option value="' + z.replace(/"/g, '&quot;') + '">' + z.replace(/</g, '&lt;') + ' (' + counts[z] + ')</option>';
+      }).join('');
+      sizeSel.value = state.size;
+      sizeWrap.hidden = mixed || list.length < 2;
+    }
 
     function render() {
       var list = cards.filter(function (c) {
-        if (state.cat === 'all') return true;
-        if (state.cat === 'best') return num(c, 'rank') > 0;
-        return c.dataset.cat === state.cat;
+        return inCat(c) && (!state.size || c._sizes.indexOf(state.size) >= 0);
       });
       if (state.cat === 'best' && state.sort === 'best') {
         list.sort(function (a, b) { return num(a, 'rank') - num(b, 'rank'); });
@@ -177,11 +228,13 @@
     function pick(cat, push) {
       if (keys.indexOf(cat) < 0) cat = 'best';
       state.cat = cat;
+      fillSizes();
       render();
       if (push && history.replaceState) history.replaceState(null, '', cat === 'best' ? location.pathname : '#' + cat);
     }
     tabs.forEach(function (t) { t.addEventListener('click', function () { pick(t.dataset.cat, true); }); });
     if (sortSel) sortSel.addEventListener('change', function () { state.sort = sortSel.value; render(); });
+    if (sizeSel) sizeSel.addEventListener('change', function () { state.size = sizeSel.value; render(); });
     window.addEventListener('hashchange', function () { pick(location.hash.slice(1), false); });
     pick(location.hash.slice(1) || 'best', false);
   }

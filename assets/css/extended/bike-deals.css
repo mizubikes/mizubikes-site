@@ -155,6 +155,8 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
 .dp-tab:hover { border-color: var(--fp-accent); }
 .dp-tab[aria-pressed="true"] { background: var(--fp-accent); border-color: var(--fp-accent); color: #fff; }
 .dp-tab:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2px; }
+.dp-controls { flex: none; display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: flex-end; }
+.dp-sort[hidden] { display: none; }
 .dp-sort {
   flex: none;
   display: flex;
