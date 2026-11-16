@@ -67,7 +67,7 @@
     {{- /* "Best today": a short row from each front-page category */ -}}
     {{- $set := (site.Data.deal_stores | default dict).settings | default dict -}}
     {{- $frontKeys := $set.front_sections | default (slice "bikes" "wheels" "drivetrain" "suspension" "tires") -}}
-    {{- $perRow := int ($set.front_per_section | default 4) -}}
+    {{- $perRow := int ($set.front_per_section | default 5) -}}
     <div id="dp-front" class="dp-front">
       {{- range $k := $frontKeys }}
       {{- range where $cats "key" $k }}
@@ -80,7 +80,7 @@
           </div>
           <button type="button" class="dp-seeall" data-goto="{{ .key }}">See all &rarr;</button>
         </div>
-        <div class="dp-grid">
+        <div class="dp-grid dp-row">
           {{- /* one card per brand, so a favorite brand can't fill the row */ -}}
           {{- $row := slice -}}
           {{- $brands := slice -}}

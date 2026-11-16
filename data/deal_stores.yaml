@@ -32,11 +32,11 @@ settings:
   # drivetrain, brakes, suspension, cockpit, tires, electronics, apparel,
   # tools, accessories.
   front_sections: [bikes, wheels, drivetrain, suspension, tires]
-  front_per_section: 4
+  front_per_section: 5        # 5 on desktop; tablets and phones show the first 4
   min_discount: 0.20          # at least 20% under the store's list price
   max_discount: 0.80          # above this the "list price" is usually not real
   min_price: 20               # skip anything cheaper than this
-  per_category: 24            # cards shown per category
+  per_category: 25            # cards shown per category (5 rows of 5 on desktop)
   per_store_per_category: 8   # cap per store inside one category
   top_count: 12               # cards in the "Best" tab
   max_pages: 100              # 100 pages x 250 = 25,000 products per store

@@ -7,8 +7,8 @@ body:has(article.dp) { background: var(--code-bg); }
 /* ----- card grid ----- */
 .dp-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
   margin: 16px 0 8px;
 }
 .dp-grid[hidden] { display: none; }
@@ -296,8 +296,13 @@ a.dp-home-btn:hover { background: #157a93; }
 .dp-home-foot { font-size: 12px; color: var(--secondary); }
 
 /* ----- smaller screens ----- */
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
+  .dp-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .dp-row > .dp-card:nth-child(n+5) { display: none; }   /* rows of five drop to four */
+}
+@media (max-width: 760px) {
   .dp-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .dp-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 640px) {
   .dp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
