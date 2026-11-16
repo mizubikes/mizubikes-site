@@ -1,0 +1,19 @@
+name: Probe shops 3 (temporary)
+on:
+  push:
+    branches: [probe-shops-3]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - run: |
+          set +e
+          UA="Mozilla/5.0 (compatible; MizubikesPriceBot/1.0; +https://mizubikes.com/bike-deals/)"
+          BUA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+          for base in https://www.backcountry.com https://cycling.favero.com; do
+            echo "=== $base"
+            echo "home: $(curl -s -L -m 25 -o h.html -w '%{http_code} %{url_effective}' -A "$BUA" "$base/")  $(wc -c < h.html) bytes"
+            for sig in cdn.shopify.com Shopify.theme demandware bigcommerce __NEXT_DATA__ woocommerce wp-content challenge-platform "Just a moment"; do grep -q "$sig" h.html && echo "  has: $sig"; done
+            echo "products.json: $(curl -s -L -m 25 -o p.json -w '%{http_code}' -A "$UA" "$base/products.json?limit=2")  $(head -c 140 p.json | tr '\n' ' ')"
+          done
