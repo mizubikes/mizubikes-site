@@ -273,7 +273,7 @@ GENERIC = {"bike", "bikes", "road", "mountain", "gravel", "disc", "brake", "brak
            "size", "small", "medium", "large", "new", "pro", "comp", "expert", "sport"}
 
 # Older standards most riders aren't shopping for
-DATED = re.compile(r"tubular|rim brake|\b(7|8|9|10)[ -]?(spd|speed|sp|s)\b|\b26 ?(\"|in|inch|er)\b|"
+DATED = re.compile(r"tubular|rim brake|\b[123] ?x ?(7|8|9|10)\b|\b(7|8|9|10)[ -]?s\b|\b(7|8|9|10)[ -]?(spd|speed|sp|s)\b|\b26 ?(\"|in|inch|er)\b|"
                    r"\b26 ?x|quick release|\bqr\b|straight steerer|1[ -]1/8 straight|"
                    r"\b(pf30|bb30)\b|\b9x100|\b10x135|non-?boost", re.I)
 HALF_SET = re.compile(r"[-–,(] ?(front|rear)\b(?! (and|&|\+))|\b(front|rear) (wheel|only)\b|"
