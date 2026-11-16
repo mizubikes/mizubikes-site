@@ -421,7 +421,7 @@
      "pct": 0.2,
      "price": 4799.99,
      "save": 1200.0,
-     "score": 1.5967,
+     "score": 1.5273,
      "since": "2026-11-16",
      "sizes": [
       "S1",
@@ -449,7 +449,7 @@
      "pct": 0.256,
      "price": 5949.99,
      "save": 2050.0,
-     "score": 1.5722,
+     "score": 1.5038,
      "since": "2026-11-16",
      "sizes": [
       "52"
@@ -520,6 +520,33 @@
      "url": "https://www.fanatikbike.com/products/specialized-turbo-levo-r-s-works-complete-e-bike-2026?variant=42092922208302",
      "variant": "Gloss Shadow Silver Blended Speckle Over Carbon / Silver Dust / S2",
      "was": 11499.0
+    },
+    {
+     "amazon": "",
+     "brand": "Specialized",
+     "category": "bikes",
+     "image": "https://cdn.shopify.com/s/files/1/0335/2166/4131/files/94926-50_TARMAC-SL8-COMP-DI2-CARB-WHT_HERO-PDP.jpg?v=1774026899&width=400",
+     "key": "incycle:8677298372739",
+     "lower": false,
+     "main": true,
+     "name": "Tarmac SL8 Comp - Shimano 105 Di2 (2026)",
+     "new": false,
+     "pct": 0.2,
+     "price": 3759.99,
+     "save": 940.0,
+     "score": 1.1748,
+     "since": "2026-11-16",
+     "sizes": [
+      "54"
+     ],
+     "sponsored": false,
+     "stale": false,
+     "store": "incycle",
+     "store_name": "inCycle",
+     "title": "2026 Specialized Tarmac SL8 Comp - Shimano 105 Di2",
+     "url": "https://www.incycle.com/products/2026-specialized-tarmac-sl8-comp-shimano-105-di2?variant=45571684237443",
+     "variant": "Gloss Red Tint Over Silver Dust / Silver Dust / 54",
+     "was": 4699.99
     },
     {
      "amazon": "",
@@ -629,62 +656,35 @@
     },
     {
      "amazon": "",
-     "brand": "Cervelo",
+     "brand": "Santa Cruz",
      "category": "bikes",
-     "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/Cervelo-Soloist-Force-AXS-AZ-2T.png?v=1755698301&width=400",
-     "key": "planet-cyclery:8286007165100",
+     "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/SantaCruzMegatowerCarbon29-GXAXS-MattBlack-2025.jpg?v=1724706281&width=400",
+     "key": "planet-cyclery:8044700795052",
      "lower": false,
      "main": true,
-     "name": "Soloist 700c - Force AXS - Serpentine",
+     "name": "Megatower Carbon 29 - GX AXS - Matt Black - 2025",
      "new": false,
      "pct": 0.2,
-     "price": 5999.95,
-     "save": 1500.05,
-     "score": 0.8581,
+     "price": 5799.0,
+     "save": 1450.0,
+     "score": 0.9014,
      "since": "2026-11-16",
      "sizes": [
-      "56cm (22\")"
+      "Large"
      ],
      "sponsored": false,
      "stale": false,
      "store": "planet-cyclery",
      "store_name": "Planet Cyclery",
-     "title": "Cervelo Soloist 700c - Force AXS - Serpentine",
-     "url": "https://www.planetcyclery.com/products/cervelo-soloist-700c-force-axs-serpentine?variant=44592216703148",
-     "variant": "Serpentine / 56cm (22\")",
-     "was": 7500.0
-    },
-    {
-     "amazon": "",
-     "brand": "Orbea",
-     "category": "bikes",
-     "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/S144TTCC-DG-SIDE-TERRA_H30_1X_over.jpg?v=1754913873&width=400",
-     "key": "planet-cyclery:8279741137068",
-     "lower": false,
-     "main": true,
-     "name": "Terra H30 1X 700c - Infinity Green-Ivory White - 2026",
-     "new": false,
-     "pct": 0.203,
-     "price": 2149.99,
-     "save": 549.01,
-     "score": 0.766,
-     "since": "2026-11-16",
-     "sizes": [
-      "Medium"
-     ],
-     "sponsored": false,
-     "stale": false,
-     "store": "planet-cyclery",
-     "store_name": "Planet Cyclery",
-     "title": "Orbea Terra H30 1X 700c - Infinity Green-Ivory White - 2026",
-     "url": "https://www.planetcyclery.com/products/orbea-terra-h30-1x-700c-infinity-green-ivory-white-2026?variant=44565873229996",
-     "variant": "Infinity Green - Ivory White / Medium",
-     "was": 2699.0
+     "title": "Santa Cruz Megatower Carbon 29 - GX AXS - Matt Black - 2025",
+     "url": "https://www.planetcyclery.com/products/santa-cruz-megatower-carbon-29-gx-axs-matt-black-2025?variant=43770581811372",
+     "variant": "Matt Black / Large",
+     "was": 7249.0
     }
    ],
    "key": "bikes",
    "title": "Complete bikes",
-   "total": 151
+   "total": 157
   },
   {
    "items": [
@@ -1901,35 +1901,6 @@
     },
     {
      "amazon": "",
-     "brand": "Shimano",
-     "category": "drivetrain",
-     "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/Shimano_Ultegra_R8000_11_Speed_Chainring_Black.jpg?v=1724693188&width=400",
-     "key": "planet-cyclery:8042796843180",
-     "lower": false,
-     "main": true,
-     "name": "Ultegra R8000 11 Spd Chainring",
-     "new": true,
-     "pct": 0.5,
-     "price": 99.99,
-     "save": 100.01,
-     "score": 2.0631,
-     "since": "2026-11-16",
-     "sizes": [
-      "52t - 110mm",
-      "53t - 110mm",
-      "46t - 110mm"
-     ],
-     "sponsored": false,
-     "stale": false,
-     "store": "planet-cyclery",
-     "store_name": "Planet Cyclery",
-     "title": "Shimano Ultegra R8000 11 Spd Chainring",
-     "url": "https://www.planetcyclery.com/products/shimano-ultegra-r8000-11-spd-chainring?variant=43765622440108",
-     "variant": "Black / 46t - 110mm / Inner - MT",
-     "was": 200.0
-    },
-    {
-     "amazon": "",
      "brand": "SRAM",
      "category": "drivetrain",
      "image": "https://cdn.shopify.com/s/files/1/0904/4132/products/gx-eagle-alloy_2932b7ad-1ee3-436a-8434-b08a998acd4d.jpg?v=1591899725&width=400",
@@ -2424,11 +2395,91 @@
      "url": "https://contenderbicycles.com/products/shimano-di2-charger-with-cord-e-tube?variant=39942832390312",
      "variant": "",
      "was": 160.0
+    },
+    {
+     "amazon": "",
+     "brand": "Shimano",
+     "category": "drivetrain",
+     "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/image_8e55a46e-b399-48ca-91b6-f2ab89b2f3bf.png?v=1724701240&width=400",
+     "key": "planet-cyclery:8044022595756",
+     "lower": false,
+     "main": true,
+     "name": "XTR M9100-1 12 Spd Crank Arms - Gray",
+     "new": true,
+     "pct": 0.292,
+     "price": 399.99,
+     "save": 165.01,
+     "score": 1.4662,
+     "since": "2026-11-16",
+     "sizes": [
+      "170mm",
+      "175mm"
+     ],
+     "sponsored": false,
+     "stale": false,
+     "store": "planet-cyclery",
+     "store_name": "Planet Cyclery",
+     "title": "Shimano XTR M9100-1 12 Spd Crank Arms - Gray",
+     "url": "https://www.planetcyclery.com/products/shimano-xtr-m9100-1-12-spd-crank-arm-gray?variant=43768836423852",
+     "variant": "Gray / 170mm",
+     "was": 565.0
+    },
+    {
+     "amazon": "",
+     "brand": "Shimano",
+     "category": "drivetrain",
+     "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/Shimano-XTR-M9020-Trail-11-Speed-Double-Crankset_Silver_5156e920-775b-4afc-b031-e0a16b1fa87a.jpg?v=1724701248&width=400",
+     "key": "planet-cyclery:8044023120044",
+     "lower": false,
+     "main": true,
+     "name": "XTR M9020 Trail 11 Spd Double Crankset - Silver",
+     "new": false,
+     "pct": 0.362,
+     "price": 369.99,
+     "save": 210.0,
+     "score": 1.4263,
+     "since": "2026-11-16",
+     "sizes": [
+      "175mm - 38-28t - 96mm"
+     ],
+     "sponsored": false,
+     "stale": false,
+     "store": "planet-cyclery",
+     "store_name": "Planet Cyclery",
+     "title": "Shimano XTR M9020 Trail 11 Spd Double Crankset - Silver",
+     "url": "https://www.planetcyclery.com/products/shimano-xtr-m9020-trail-11-spd-double-crankset-silver?variant=43768837636268",
+     "variant": "Silver / 175mm - 38-28t - 96mm",
+     "was": 579.99
+    },
+    {
+     "amazon": "",
+     "brand": "Specialized",
+     "category": "drivetrain",
+     "image": "https://cdn.shopify.com/s/files/1/0335/2166/4131/products/212786_5c06435e-bc5f-464d-b197-304e13944657.jpg?v=1665628254&width=400",
+     "key": "incycle:4642035859587",
+     "lower": false,
+     "main": true,
+     "name": "MY16 Fuse/Ruze Expert SAmox Crank 170mm",
+     "new": true,
+     "pct": 0.695,
+     "price": 60.97,
+     "save": 139.02,
+     "score": 1.381,
+     "since": "2026-11-16",
+     "sizes": [],
+     "sponsored": false,
+     "stale": false,
+     "store": "incycle",
+     "store_name": "inCycle",
+     "title": "Specialized MY16 Fuse/Ruze Expert SAmox Crank 170mm",
+     "url": "https://www.incycle.com/products/specialized-my16-fuse-ruze-expert-samox-crank-170mm?variant=32632918212739",
+     "variant": "",
+     "was": 199.99
     }
    ],
    "key": "drivetrain",
    "title": "Drivetrain",
-   "total": 311
+   "total": 304
   },
   {
    "items": [
@@ -2664,6 +2715,34 @@
      "amazon": "",
      "brand": "SRAM",
      "category": "brakes",
+     "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/SRAM_Centerline_6-Bolt_Rotor_-_Rounded_Edge.jpg?v=1724693245&width=400",
+     "key": "planet-cyclery:8042806902956",
+     "lower": false,
+     "main": true,
+     "name": "Centerline 6-Bolt Rotor - Rounded Edge",
+     "new": false,
+     "pct": 0.354,
+     "price": 41.99,
+     "save": 23.01,
+     "score": 1.111,
+     "since": "2026-11-16",
+     "sizes": [
+      "160mm",
+      "203mm"
+     ],
+     "sponsored": false,
+     "stale": false,
+     "store": "planet-cyclery",
+     "store_name": "Planet Cyclery",
+     "title": "SRAM Centerline 6-Bolt Rotor - Rounded Edge",
+     "url": "https://www.planetcyclery.com/products/sram-centerline-6-bolt-rotor-rounded-edge?variant=43765639741612",
+     "variant": "Silver / 203mm",
+     "was": 65.0
+    },
+    {
+     "amazon": "",
+     "brand": "SRAM",
+     "category": "brakes",
      "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/SRAMGuideTDiscBrake-Front-OE.jpg?v=1727690903&width=400",
      "key": "planet-cyclery:8058277494956",
      "lower": false,
@@ -2709,31 +2788,6 @@
      "url": "https://www.planetcyclery.com/products/sram-guide-re-disc-brake-front-oe?variant=43799553867948",
      "variant": "Black / 850mm Hose - Met Pads - 20PM",
      "was": 146.0
-    },
-    {
-     "amazon": "",
-     "brand": "SRAM",
-     "category": "brakes",
-     "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/crw_3c0e77c6-968e-44f7-9384-afe1bcea33e6.jpg?v=1724700795&width=400",
-     "key": "planet-cyclery:8043942477996",
-     "lower": false,
-     "main": true,
-     "name": "Ride-On Professional Brake Cable System - White",
-     "new": true,
-     "pct": 0.4,
-     "price": 26.99,
-     "save": 18.01,
-     "score": 1.0808,
-     "since": "2026-11-16",
-     "sizes": [],
-     "sponsored": false,
-     "stale": false,
-     "store": "planet-cyclery",
-     "store_name": "Planet Cyclery",
-     "title": "SRAM Ride-On Professional Brake Cable System - White",
-     "url": "https://www.planetcyclery.com/products/sram-ride-on-professional-brake-cable-system-white?variant=43768672518316",
-     "variant": "White",
-     "was": 45.0
     },
     {
      "amazon": "",
@@ -2991,6 +3045,31 @@
      "amazon": "",
      "brand": "SRAM",
      "category": "brakes",
+     "image": "https://cdn.shopify.com/s/files/1/0904/4132/products/sram-ti-rainbow-rotor-bolts.jpg?v=1651783795&width=400",
+     "key": "fanatik:6747454406702",
+     "lower": false,
+     "main": true,
+     "name": "Titanium Rainbow Rotor Bolt Kit",
+     "new": false,
+     "pct": 0.251,
+     "price": 44.95,
+     "save": 15.05,
+     "score": 0.722,
+     "since": "2026-11-16",
+     "sizes": [],
+     "sponsored": false,
+     "stale": false,
+     "store": "fanatik",
+     "store_name": "Fanatik Bike Co",
+     "title": "Titanium Rainbow Rotor Bolt Kit",
+     "url": "https://www.fanatikbike.com/products/sram-titanium-rainbow-rotor-bolt-kit?variant=39708363489326",
+     "variant": "",
+     "was": 60.0
+    },
+    {
+     "amazon": "",
+     "brand": "SRAM",
+     "category": "brakes",
      "image": "https://cdn.shopify.com/s/files/1/0018/1374/1668/products/sram-g2-ultimate-sram-the-lost-co-005018120002-710845832390-872532.jpg?v=1599688419&width=400",
      "key": "the-lost-co:3292188082276",
      "lower": false,
@@ -3011,33 +3090,6 @@
      "url": "https://www.thelostco.com/products/sram-g2-ultimate-a1?variant=29581503594561",
      "variant": "Front/Left / Gloss Black",
      "was": 302.0
-    },
-    {
-     "amazon": "",
-     "brand": "SRAM",
-     "category": "brakes",
-     "image": "https://cdn.shopify.com/s/files/1/0904/4132/products/centerline-x-v2.jpg?v=1547142656&width=400",
-     "key": "fanatik:516660756526",
-     "lower": false,
-     "main": true,
-     "name": "Centerline X Rounded Rotor",
-     "new": false,
-     "pct": 0.223,
-     "price": 69.95,
-     "save": 20.05,
-     "score": 0.6752,
-     "since": "2026-11-16",
-     "sizes": [
-      "180mm"
-     ],
-     "sponsored": false,
-     "stale": false,
-     "store": "fanatik",
-     "store_name": "Fanatik Bike Co",
-     "title": "Centerline X Rounded Rotor",
-     "url": "https://www.fanatikbike.com/products/sram-centerline-x-rounded-rotor?variant=6966628319278",
-     "variant": "180mm",
-     "was": 90.0
     }
    ],
    "key": "brakes",
@@ -3677,7 +3729,7 @@
    ],
    "key": "suspension",
    "title": "Suspension and droppers",
-   "total": 106
+   "total": 105
   },
   {
    "items": [
@@ -7644,5 +7696,5 @@
   }
  ],
  "total_found": 2532,
- "updated": "2026-11-16T12:48:07-08:00"
+ "updated": "2026-11-16T12:55:41-08:00"
 }

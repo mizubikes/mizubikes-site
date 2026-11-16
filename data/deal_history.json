@@ -4256,6 +4256,19 @@
  },
  "fanatik:6747454406702": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.251,
+   "price": 44.95,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Titanium Rainbow Rotor Bolt Kit",
+   "url": "https://www.fanatikbike.com/products/sram-titanium-rainbow-rotor-bolt-kit?variant=39708363489326",
+   "variant": "",
+   "was": 60.0
+  },
   "last": "2026-11-16",
   "low": 44.95,
   "seed": true
@@ -5863,6 +5876,19 @@
  },
  "incycle:4642035859587": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "drivetrain",
+   "pct": 0.695,
+   "price": 60.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "MY16 Fuse/Ruze Expert SAmox Crank 170mm",
+   "url": "https://www.incycle.com/products/specialized-my16-fuse-ruze-expert-samox-crank-170mm?variant=32632918212739",
+   "variant": "",
+   "was": 199.99
+  },
   "last": "2026-11-16",
   "low": 60.97
  },
@@ -7441,7 +7467,7 @@
   "first": "2026-11-16",
   "info": {
    "brand": "Specialized",
-   "category": "drivetrain",
+   "category": "bikes",
    "pct": 0.2,
    "price": 4799.99,
    "sponsored": false,
@@ -8187,7 +8213,7 @@
   "first": "2026-11-16",
   "info": {
    "brand": "Specialized",
-   "category": "drivetrain",
+   "category": "bikes",
    "pct": 0.256,
    "price": 5949.99,
    "sponsored": false,
@@ -8383,6 +8409,19 @@
  },
  "incycle:8677298372739": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.2,
+   "price": 3759.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Tarmac SL8 Comp - Shimano 105 Di2 (2026)",
+   "url": "https://www.incycle.com/products/2026-specialized-tarmac-sl8-comp-shimano-105-di2?variant=45571684237443",
+   "variant": "Gloss Red Tint Over Silver Dust / Silver Dust / 54",
+   "was": 4699.99
+  },
   "last": "2026-11-16",
   "low": 3759.99,
   "seed": true
@@ -10686,6 +10725,19 @@
  },
  "planet-cyclery:8042806902956": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.354,
+   "price": 41.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Centerline 6-Bolt Rotor - Rounded Edge",
+   "url": "https://www.planetcyclery.com/products/sram-centerline-6-bolt-rotor-rounded-edge?variant=43765639741612",
+   "variant": "Silver / 203mm",
+   "was": 65.0
+  },
   "last": "2026-11-16",
   "low": 41.99,
   "seed": true
@@ -14935,6 +14987,19 @@
  },
  "planet-cyclery:8044022595756": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "drivetrain",
+   "pct": 0.292,
+   "price": 399.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "XTR M9100-1 12 Spd Crank Arms - Gray",
+   "url": "https://www.planetcyclery.com/products/shimano-xtr-m9100-1-12-spd-crank-arm-gray?variant=43768836423852",
+   "variant": "Gray / 170mm",
+   "was": 565.0
+  },
   "last": "2026-11-16",
   "low": 399.99
  },
@@ -14945,6 +15010,19 @@
  },
  "planet-cyclery:8044023120044": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "drivetrain",
+   "pct": 0.362,
+   "price": 369.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "XTR M9020 Trail 11 Spd Double Crankset - Silver",
+   "url": "https://www.planetcyclery.com/products/shimano-xtr-m9020-trail-11-spd-double-crankset-silver?variant=43768837636268",
+   "variant": "Silver / 175mm - 38-28t - 96mm",
+   "was": 579.99
+  },
   "last": "2026-11-16",
   "low": 369.99,
   "seed": true
@@ -19548,6 +19626,19 @@
  },
  "planet-cyclery:8044700795052": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Santa Cruz",
+   "category": "bikes",
+   "pct": 0.2,
+   "price": 5799.0,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Megatower Carbon 29 - GX AXS - Matt Black - 2025",
+   "url": "https://www.planetcyclery.com/products/santa-cruz-megatower-carbon-29-gx-axs-matt-black-2025?variant=43770581811372",
+   "variant": "Matt Black / Large",
+   "was": 7249.0
+  },
   "last": "2026-11-16",
   "low": 5799.0,
   "seed": true
