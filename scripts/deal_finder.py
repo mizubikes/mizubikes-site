@@ -429,6 +429,39 @@ def image_for(product: dict, width: int = 400) -> str:
     return src
 
 
+SIZE_OPTION = re.compile(r"size|length", re.I)
+
+
+def sizes_on_sale(product: dict, cfg: dict) -> list[str]:
+    """Sizes still in stock at a deal price, in the store's own order.
+    Empty when the product has no size option (or only one size exists)."""
+    opts = product.get("options") or []
+    pos = None
+    for i, o in enumerate(opts):
+        name = o.get("name") if isinstance(o, dict) else str(o)
+        if name and SIZE_OPTION.search(name):
+            pos = (o.get("position") if isinstance(o, dict) else None) or i + 1
+            order = [str(v) for v in (o.get("values") or [])] if isinstance(o, dict) else []
+            break
+    if pos is None:
+        return []
+    all_sizes, live = [], []
+    for v in product.get("variants") or []:
+        size = str(v.get(f"option{pos}") or "").strip()
+        if not size:
+            continue
+        if size not in all_sizes:
+            all_sizes.append(size)
+        price, was = money(v.get("price")), money(v.get("compare_at_price"))
+        if v.get("available") and price and was and was > price \
+                and 1 - price / was >= cfg["min_discount"] and size not in live:
+            live.append(size)
+    if len(all_sizes) < 2:
+        return []                       # one-size product: nothing useful to show
+    rank = {s: i for i, s in enumerate(order or all_sizes)}
+    return sorted(live, key=lambda s: rank.get(s, 999))
+
+
 def family(item: dict) -> str:
     """Store + brand + first two words of the model, so "URS 01 ONE" and
     "URS 01 TWO" count as one family and don't stack up in a list."""
@@ -499,6 +532,7 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
             "url": href,
             "sponsored": sponsored,
             "image": image_for(p),
+            "sizes": sizes_on_sale(p, cfg),
             "stale": False,
             "main": on_main,
         })
@@ -660,7 +694,8 @@ def main() -> int:
     # compact full list for the search box: one array per deal, best first
     rows = [[it["title"], it["brand"], it["variant"], it["store_name"], it["price"], it["was"],
              round(it["pct"] * 100), it["category"], it["url"], it.get("amazon", ""),
-             1 if it.get("sponsored") else 0, it.get("image", "")]
+             1 if it.get("sponsored") else 0, it.get("image", ""),
+             " · ".join(it.get("sizes") or [])]
             for it in sorted(pool, key=score, reverse=True)]
     ALL.parent.mkdir(parents=True, exist_ok=True)
     ALL.write_text(json.dumps({"updated": out["updated"], "cats": dict(CATEGORIES), "items": rows},
