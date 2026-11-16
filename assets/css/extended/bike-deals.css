@@ -144,11 +144,11 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
 
 /* ----- toolbar: category tabs + sort ----- */
 .dp-toolbar { display: none; }           /* tabs need the script; without it every group shows */
+/* categories first, then the size/sort row, then the deals */
 .dp-js .dp-toolbar {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px 20px;
+  flex-direction: column;
+  gap: 12px;
   margin: 18px 0 4px;
 }
 .dp-tabs { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -168,7 +168,18 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
 .dp-tab:hover { border-color: var(--fp-accent); }
 .dp-tab[aria-pressed="true"] { background: var(--fp-accent); border-color: var(--fp-accent); color: #fff; }
 .dp-tab:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2px; }
-.dp-controls { flex: none; display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: flex-end; }
+.dp-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+.dp-controls[hidden] { display: none; }
+.dp-controls-right { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-left: auto; }
+.dp-count { font-size: 14px; font-weight: 600; color: var(--primary); }
 .dp-sort[hidden] { display: none; }
 .dp-sort {
   flex: none;
@@ -180,6 +191,8 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
   white-space: nowrap;
 }
 .dp-sort select {
+  max-width: 190px;
+  text-overflow: ellipsis;
   padding: 6px 8px;
   font: inherit;
   font-size: 14px;
@@ -314,7 +327,7 @@ a.dp-home-btn:hover { background: #157a93; }
   .dp-card-title { font-size: 13px; -webkit-line-clamp: 4; min-height: 5.4em; }
   .dp-card-price strong { font-size: 17px; }
   .dp-card-price s { display: block; margin: 2px 0 0; }
-  .dp-js .dp-toolbar { flex-direction: column; }
+  .dp-controls-right { margin-left: 0; width: 100%; justify-content: space-between; }
   /* one swipeable row of tabs instead of four wrapped rows */
   .dp-tabs { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; padding-bottom: 6px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
   .dp-tabs::-webkit-scrollbar { display: none; }
