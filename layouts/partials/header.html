@@ -12,6 +12,7 @@
             <li>
                 <a href="{{ .URL | absURL }}"
                    title="{{ .Title }}"
+                   {{- if eq .Identifier "menu-deals" }} class="mb-nav-cta"{{- end }}
                    {{- if $.IsMenuCurrent "main" . }} aria-current="page"{{- end }}>
                     {{- .Name -}}
                 </a>

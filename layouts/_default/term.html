@@ -1,35 +1,23 @@
 {{- define "main" }}
 {{- $posts := .Pages.ByDate.Reverse }}
-{{- $lead := index $posts 0 }}
-{{- $rest := $posts | after 1 }}
 
-<header class="mb-cat-banner{{ if not (and $lead $lead.Params.cover.image) }} mb-cat-banner--plain{{ end }}">
-  {{- with $lead }}{{ with .Params.cover.image }}
-  <img src="{{ . }}" alt="" loading="eager" fetchpriority="high">
-  {{- end }}{{ end }}
+<header class="mb-cat-banner mb-cat-banner--plain">
   <div class="mb-cat-banner-overlay">
-    <div class="mb-cat-banner-kicker">{{ len $posts }} {{ cond (eq (len $posts) 1) "post" "posts" }}</div>
+    <div class="mb-cat-banner-kicker">Category &middot; {{ len $posts }} {{ cond (eq (len $posts) 1) "post" "posts" }}</div>
     <h1 class="mb-cat-banner-title">{{ .Title }}</h1>
     {{- with .Description }}
     <p class="mb-cat-banner-desc">{{ . }}</p>
-    {{- end }}
-    {{- with $lead }}
-    <a class="mb-cat-banner-lead" href="{{ .RelPermalink }}">
-      <span class="mb-cat-banner-lead-label">Latest</span>
-      <span class="mb-cat-banner-lead-title">{{ .Title | safeHTML }}</span>
-      <span class="mb-cat-banner-lead-arrow" aria-hidden="true">&rarr;</span>
-    </a>
     {{- end }}
   </div>
 </header>
 
 {{- if eq .RelPermalink "/categories/deals/" }}
-{{- partial "prices/home-strip.html" . }}
+{{- partial "deals/home-strip.html" . }}
 {{- end }}
 
-{{- if $rest }}
+{{- if $posts }}
 <div class="mb-card-grid mb-cat-grid">
-  {{- range $rest }}
+  {{- range $posts }}
   {{- $p := . }}
   <a href="{{ .RelPermalink }}" class="mb-card">
     {{- with .Params.cover.image }}
