@@ -428,13 +428,17 @@ GENERIC = {"bike", "bikes", "road", "mountain", "gravel", "disc", "brake", "brak
            "size", "small", "medium", "large", "new", "pro", "comp", "expert", "sport"}
 
 # Older standards most riders aren't shopping for
-DATED = re.compile(r"tubular|rim brake|\b[123] ?x ?(7|8|9|10)\b|\b(7|8|9|10)[ -]?s\b|\b(7|8|9|10)[ -]?(spd|speed|sp|s)\b|\b26 ?(\"|in|inch|er)\b|"
+DATED = re.compile(r"octalink|square taper|\bisis\b|\bes5[0-9]\b|\bun[0-9]{2}\b|v-?brake|"
+                   r"cantilever|quill|threaded headset|\btriple\b|\b[123] ?x ?(7|8|9|10)\b|\b(7|8|9|10)[ -]?s\b|\b(7|8|9|10)[ -]?(spd|speed|sp|s)\b|\b26 ?(\"|in|inch|er)\b|"
                    r"\b26 ?x|quick release|\bqr\b|straight steerer|1[ -]1/8 straight|"
                    r"\b(pf30|bb30)\b|\b9x100|\b10x135|non-?boost", re.I)
 HALF_SET = re.compile(r"[-–,(] ?(front|rear)\b(?! (and|&|\+))|\b(front|rear) (wheel|only)\b|"
                       r"\b(left|right) (only|side)\b|\bleft\b ?\(|lever only", re.I)
 # Parts almost nobody is shopping for: left out completely
-NOBODY_WANTS = re.compile(r"front derailleur|\bmetrea\b|\bfd-\w+|display unit|junction ?box|"
+NOBODY_WANTS = re.compile(r"front derailleur|\bmetrea\b|"
+                          r"(shock|coil|air|fork) springs?\b|\bsprings?\b.*\b(lb|lbs|n/mm)\b|"
+                          r"spacer kit|volume spacer|bottomless token|\btokens?\b|band ?aid|"
+                          r"\b(spacer|spacers)\b.*\b(kit|pack|set)\b|\bfd-\w+|display unit|junction ?box|"
                           r"\b(cable|housing) (set|kit)\b|\bferrules?\b|decals?\b(?! kit)|"
                           r"chain ?catcher|braze-?on|clamp adapter|direct mount adapter", re.I)
 # Small spares: listed, but ranked well below real upgrades
