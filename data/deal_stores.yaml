@@ -68,6 +68,19 @@ settings:
     - Tarmac SL8
     - Aethos 2
     - Turbo Levo 4
+    # Jared's favorites
+    - Grand Prix 5000 S TR    # Continental GP5000 S TR, however the store spells it
+    - GP5000 S TR
+    - GP5000 STR
+    - GP 5000 STR
+    - Minion DHR II
+    - Minion DHRII
+    - Minion DHF
+    - Favero Assioma          # Favero power meter pedals
+    # power meters are popular
+    - power meter
+    - powermeter
+    - Quarq
   # older_gen_terms: previous generations. Ranked lower (not removed).
   older_gen_terms:
     - X01 Eagle
