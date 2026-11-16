@@ -31,7 +31,7 @@ settings:
   # of these categories, in this order. Keys: bikes, framesets, wheels,
   # drivetrain, brakes, suspension, cockpit, tires, electronics, apparel,
   # tools, accessories.
-  front_sections: [bikes, wheels, drivetrain, suspension, tires]
+  front_sections: [bikes, wheels, drivetrain, electronics, tires]
   front_per_section: 5        # 5 on desktop; tablets and phones show the first 4
   min_discount: 0.20          # the normal bar: 20% under the store's list price
   # ...but not every deal has to be 20% off:

@@ -85,7 +85,7 @@
 
     {{- /* "Best today": a short row from each front-page category */ -}}
     {{- $set := (site.Data.deal_stores | default dict).settings | default dict -}}
-    {{- $frontKeys := $set.front_sections | default (slice "bikes" "wheels" "drivetrain" "suspension" "tires") -}}
+    {{- $frontKeys := $set.front_sections | default (slice "bikes" "wheels" "drivetrain" "electronics" "tires") -}}
     {{- $perRow := int ($set.front_per_section | default 5) -}}
     {{- if not $catKey }}
     <div id="dp-front" class="dp-front">
