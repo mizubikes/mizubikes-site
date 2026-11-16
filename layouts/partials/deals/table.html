@@ -34,7 +34,14 @@
           <br><s class="fp-was" title="Store list price">${{ lang.FormatNumber 2 .was }}</s>
         </td>
         <td class="fp-num"><span class="dp-off">{{ math.Round (mul .pct 100) }}%</span><br><span class="fp-was dp-save">save ${{ lang.FormatNumber 0 .save }}</span></td>
-        <td class="fp-buy"><a class="fp-btn fp-btn-primary fp-btn-sm" href="{{ .url }}" target="_blank" rel="{{ if .sponsored }}sponsored {{ end }}nofollow noopener">View deal</a></td>
+        <td class="fp-buy dp-buy">
+          {{- if .amazon }}
+          <a class="fp-btn fp-btn-primary fp-btn-sm" href="{{ .amazon }}" target="_blank" rel="sponsored nofollow noopener"><span class="dp-long">Check </span>Amazon</a>
+          <a class="fp-link dp-store" href="{{ .url }}" target="_blank" rel="{{ if .sponsored }}sponsored {{ end }}nofollow noopener">{{ .store_name }}</a>
+          {{- else }}
+          <a class="fp-btn fp-btn-primary fp-btn-sm" href="{{ .url }}" target="_blank" rel="{{ if .sponsored }}sponsored {{ end }}nofollow noopener">View deal</a>
+          {{- end }}
+        </td>
       </tr>
     {{- end }}
     </tbody>

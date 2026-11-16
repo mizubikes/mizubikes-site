@@ -9,7 +9,8 @@ Writes  data/deals.json           (today's deals, grouped by category)
 Each store is a Shopify shop. The script pages through the public
 /products.json catalog (or specific collections), keeps new, in-stock items
 marked down from the store's own list price (used gear is left out), sorts them into categories,
-and ranks them. No Amazon prices are fetched or shown.
+and ranks them. Each row can carry an Amazon search link with your Associates
+tag; Amazon prices are never fetched or shown.
 
 Run locally:   python scripts/deal_finder.py
 Dry run:       python scripts/deal_finder.py --dry-run   (prints, writes nothing)
@@ -55,6 +56,8 @@ DEFAULTS = {
     "top_count": 10,            # rows in "Best deals today"
     "max_pages": 100,           # 100 x 250 = 25,000 products per store
     "delay_seconds": 1.0,       # pause between requests to the same store
+    "amazon_tag": "",           # Amazon Associates tag; empty = no Amazon buttons
+    "amazon_skip": ["bikes", "framesets"],   # categories Amazon doesn't really sell
 }
 
 # Display order on the page. Keys are used as anchors.
@@ -235,6 +238,17 @@ def link_for(store: dict, url: str) -> tuple[str, bool]:
                .replace("{url}", url)), True
 
 
+def amazon_link(brand: str, title: str, tag: str) -> str:
+    """Amazon search link carrying the Associates tag. Never a price: Amazon
+    only allows prices pulled from its own API, so this is a "check it" link."""
+    words = re.sub(r"\[[^\]]*\]|\([^)]*\)", " ", title)       # drop [notes] and (notes)
+    words = re.sub(r"[^\w\s.\-/+]", " ", words)
+    if brand and not words.lower().lstrip().startswith(brand.lower()):
+        words = f"{brand} {words}"
+    query = " ".join(words.split()[:10])
+    return f"https://www.amazon.com/s?k={urllib.parse.quote_plus(query)}&tag={tag}"
+
+
 def score(item: dict) -> float:
     """Bigger discount first, with a nudge toward higher-ticket items."""
     return item["pct"] * (1 + math.log10(max(item["price"], 10)) / 2)
@@ -258,18 +272,23 @@ def scan_store(store: dict, cfg: dict) -> tuple[list[dict], int]:
             url += f"?variant={v['id']}"
         href, sponsored = link_for(store, url)
         vtitle = (v.get("title") or "").strip()
+        brand = (p.get("vendor") or "").strip()
+        category = categorize(p, price)
+        tag = (cfg.get("amazon_tag") or "").strip()
         deals.append({
             "key": f"{store['id']}:{p.get('id')}",
             "store": store["id"],
             "store_name": store["name"],
             "title": title,
-            "brand": (p.get("vendor") or "").strip(),
+            "brand": brand,
             "variant": "" if vtitle.lower() == "default title" else vtitle,
             "price": price,
             "was": was,
             "pct": round(pct, 3),
             "save": round(was - price, 2),
-            "category": categorize(p, price),
+            "category": category,
+            "amazon": amazon_link(brand, title, tag)
+                      if tag and category not in (cfg.get("amazon_skip") or []) else "",
             "url": href,
             "sponsored": sponsored,
             "stale": False,
