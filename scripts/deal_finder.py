@@ -7,8 +7,8 @@ Writes  data/deals.json           (today's deals, grouped by category)
         data/deal_history.json    (first-seen date + lowest price per deal)
 
 Each store is a Shopify shop. The script pages through the public
-/products.json catalog (or specific collections), keeps in-stock items
-marked down from the store's own list price, sorts them into categories,
+/products.json catalog (or specific collections), keeps new, in-stock items
+marked down from the store's own list price (used gear is left out), sorts them into categories,
 and ranks them. No Amazon prices are fetched or shown.
 
 Run locally:   python scripts/deal_finder.py
@@ -71,7 +71,6 @@ CATEGORIES = [
     ("apparel", "Helmets, shoes and clothing"),
     ("tools", "Tools and maintenance"),
     ("accessories", "Accessories"),
-    ("used", "Used and pre-owned"),
 ]
 
 USED = re.compile(r"pre-?owned|\bused\b|certified|second ?hand|\bdemo\b|open box|blemish|\bblem\b", re.I)
@@ -247,8 +246,9 @@ def scan_store(store: dict, cfg: dict) -> tuple[list[dict], int]:
     deals = []
     for p in products:
         title = (p.get("title") or "").strip()
-        if not title or SKIP.search(f"{title} {p.get('product_type') or ''}"):
-            continue
+        label = f"{title} {p.get('product_type') or ''}"
+        if not title or SKIP.search(label) or USED.search(label):
+            continue        # new gear only: used, demo and pre-owned are left out
         hit = best_variant(p, cfg)
         if not hit:
             continue
@@ -269,8 +269,7 @@ def scan_store(store: dict, cfg: dict) -> tuple[list[dict], int]:
             "was": was,
             "pct": round(pct, 3),
             "save": round(was - price, 2),
-            "category": "used" if (store.get("used") or USED.search(
-                f"{title} {p.get('product_type') or ''}")) else categorize(p, price),
+            "category": categorize(p, price),
             "url": href,
             "sponsored": sponsored,
             "stale": False,
@@ -303,7 +302,9 @@ def main() -> int:
 
     raw = yaml.safe_load(STORES.read_text(encoding="utf-8")) or {}
     cfg = {**DEFAULTS, **(raw.get("settings") or {})}
-    stores = [s for s in raw.get("stores", []) if s.get("enabled", True)]
+    # stores flagged `used: true` sell mostly second-hand gear and are skipped
+    stores = [s for s in raw.get("stores", [])
+              if s.get("enabled", True) and not s.get("used")]
 
     old = load_json(DEALS, {})
     history = load_json(HISTORY, {})
@@ -313,7 +314,8 @@ def main() -> int:
     today = now.astimezone(ZoneInfo("America/Los_Angeles")).date()
     today_s = today.isoformat()
 
-    old_items = [it for c in old.get("categories", []) for it in c.get("items", [])]
+    old_items = [it for c in old.get("categories", []) for it in c.get("items", [])
+                 if not USED.search(it.get("title", ""))]
     pool, status, ok_count = [], [], 0
 
     for s in stores:
@@ -362,8 +364,7 @@ def main() -> int:
                                "total": sum(1 for it in pool if it["category"] == key)})
 
     shown = [it for c in categories for it in c["items"]]
-    top = pick([it for it in shown if it["category"] != "used"],
-               int(cfg["top_count"]), per_store=3, per_category=2)
+    top = pick(shown, int(cfg["top_count"]), per_store=3, per_category=2)
 
     out = {
         "updated": now.astimezone(ZoneInfo("America/Los_Angeles")).isoformat(),

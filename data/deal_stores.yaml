@@ -16,9 +16,9 @@
 #   collections optional list of collection handles to scan instead of the
 #               whole catalog (the part after /collections/ in the URL,
 #               e.g. ["sale", "clearance"]). Much faster on big stores.
-#   used        true if the store sells mostly used gear. Its items go in the
-#               "Used and pre-owned" section and stay out of "Best deals today",
-#               because the crossed-out price is the original retail price.
+#   used        true if the store sells mostly used gear. The whole store is
+#               skipped: this page lists new gear only. Used, demo and
+#               pre-owned items at other stores are filtered out by title.
 #   max_pages   optional override of settings.max_pages (250 products/page)
 #   affiliate   optional link template once the store approves you.
 #               {url} = product URL, {url_encoded} = URL-encoded product URL.
@@ -46,13 +46,6 @@ stores:
     name: inCycle
     base: "https://www.incycle.com"
     enabled: true
-    affiliate: ""
-
-  - id: the-pros-closet
-    name: The Pro's Closet
-    base: "https://www.theproscloset.com"
-    enabled: true
-    used: true
     affiliate: ""
 
   - id: the-lost-co

@@ -37,7 +37,6 @@
     {{- range $cats }}
     <section class="fp-material" id="{{ .key }}">
       <h2>{{ .title }} <span class="fp-h-sub">{{ len .items }}{{ if gt (int .total) (len .items) }} of {{ .total }}{{ end }} {{ if eq (int .total) 1 }}deal{{ else }}deals{{ end }}</span></h2>
-      {{- if eq .key "used" }}<p class="fp-blurb">Used, demo and pre-owned gear. The crossed-out price here is what the item cost new, so the discount reflects age and wear, not a sale.</p>{{ end }}
       {{ partial "deals/table.html" (dict "items" .items "showCat" false) }}
     </section>
     {{- end }}
@@ -47,7 +46,7 @@
     <section class="fp-method">
       <h2>How this works</h2>
       <ul>
-        <li>A script reads each store's public product catalog once a day and keeps in-stock items priced at least {{ $d.min_discount_pct | default 20 }}% under that store's list price. Anything under $20, and anything claiming more than 80% off, is left out.</li>
+        <li>A script reads each store's public product catalog once a day and keeps in-stock items priced at least {{ $d.min_discount_pct | default 20 }}% under that store's list price. Anything under $20, and anything claiming more than 80% off, is left out. New gear only: used, demo and pre-owned items aren't listed.</li>
         <li>The crossed-out price is the store's own list price, not a price we verified elsewhere. Some shops set list prices high, so compare before you buy on big-ticket items.</li>
         <li>Each category shows the strongest deals first, with a cap per store so one shop can't fill the list. Prices can change during the day and don't include shipping or tax.</li>
         <li>Some links are affiliate links. Buying through them supports the site at no extra cost to you, and it never changes which deals are listed or how they're ranked.</li>
