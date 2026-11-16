@@ -116,23 +116,6 @@
 
     </div>{{/* #dp-main */}}
 
-    <section class="fp-method">
-      <h2>How this works</h2>
-      <ul>
-        <li>A script reads each store's public product catalog once a day and keeps in-stock items priced at least {{ $d.min_discount_pct | default 20 }}% under that store's list price. Anything under $20, and anything claiming more than 80% off, is left out. New gear only: used, demo and pre-owned items aren't listed.</li>
-        <li>Only established brands are listed: the ones covered in articles on this site, plus the major names in bikes, parts and gear.</li>
-        <li><strong>Best today</strong> isn't ranked by discount alone. Current gear from brands and models this site covers ranks higher, and so do items with several sizes still in stock. Small spares, single front or rear parts and discounts over 60% rank lower. Use the sort menu to order by discount or price instead.</li>
-        <li>The cards show the most relevant deals. The search box covers every deal the scan found, including older standards (10-speed and below, rim brake, 26-inch) and model years that are left off the cards.</li>
-        <li><strong>New today</strong> means the deal wasn't listed yesterday. <strong>Lower again</strong> means the price dropped below the lowest we'd seen for that deal. <strong>Recently ended</strong> lists deals that were here in the last week and have since sold out or gone back up.</li>
-        <li>For bikes, frames, shoes and clothing, <strong>In stock</strong> lists the sizes still available at the deal price when the page was last checked. Pick a category and use the Size menu to see only deals in your size.</li>
-        <li>The crossed-out price is the store's own list price, not a price we verified elsewhere. Prices can change during the day and don't include shipping or tax. Product photos come from the stores.</li>
-        <li>Every card goes straight to the store that has the deal. Some store links may be affiliate links, which support the site at no extra cost to you and never change which deals are listed or how they're ranked.</li>
-        {{- with $okStores }}
-        <li>Stores scanned today: {{ range $i, $s := . }}{{ if $i }}, {{ end }}<a href="{{ $s.home }}" target="_blank" rel="nofollow noopener">{{ $s.name }}</a>{{ end }}.</li>
-        {{- end }}
-        <li>Looking for write-ups on specific sales? See the <a href="/categories/deals/">deal articles</a>, or the <a href="/gravel-tire-prices/">gravel tire price tracker</a> for 90-day price history.</li>
-      </ul>
-    </section>
   </div>
 </article>
 
