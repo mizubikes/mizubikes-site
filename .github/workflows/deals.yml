@@ -26,6 +26,8 @@ jobs:
     steps:
       - name: Check out site
         uses: actions/checkout@v5
+        with:
+          ref: main      # always the latest main, even for a run that sat in the queue
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -48,5 +50,6 @@ jobs:
             exit 0
           fi
           git commit -m "Update bike deals $(date -u +%Y-%m-%d)"
-          git pull --rebase origin main
+          # if another run committed data meanwhile, this run's fresher data wins
+          git pull --rebase -X theirs origin main
           git push origin HEAD:main
