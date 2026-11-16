@@ -1,8 +1,8 @@
 ---
-title: 'UDH Gravel Bikes: Every Frame on SRAM''s List (2026)'
+title: 'SRAM UDH Compatibility Chart: Gravel Bikes (2026)'
 date: 2026-05-19
 lastmod: 2026-11-01
-description: A full list of UDH-compatible gravel bikes pulled from SRAM's official Bike Finder, updated May 2026.
+description: 'SRAM UDH compatibility chart for gravel bikes: every UDH-compatible gravel frame from SRAM''s Bike Finder, so you can check before buying XPLR or Transmission.'
 slug: udh-compatible-gravel-bikes-2026
 categories:
 - Gravel

@@ -48,6 +48,48 @@ The real headline isn't "short cranks are taking over." It's: **the riders most 
 
 ---
 
+## Pro crank lengths, rider by rider
+
+The same data as the chart above, as a table. Heights are listed heights, and crank lengths are what each rider has been reported or seen running. Riders change setups, so treat this as a snapshot.
+
+| Rider | Type | Height | Crank length |
+|---|---|---|---|
+| Juan Ayuso | GC / climber | 183 cm (6'0") | 170mm |
+| Egan Bernal | GC / climber | 175 cm (5'9") | 165mm |
+| Richard Carapaz | GC / climber | 170 cm (5'7") | 165mm |
+| Remco Evenepoel | GC / climber | 171 cm (5'7") | 165mm |
+| Jai Hindley | GC / climber | 175 cm (5'9") | 165mm |
+| Tom Pidcock | GC / climber | 170 cm (5'7") | 165mm |
+| Tadej Pogačar | GC / climber | 176 cm (5'9") | 165mm |
+| Primož Roglič | GC / climber | 177 cm (5'10") | 165mm |
+| Jonas Vingegaard | GC / climber | 175 cm (5'9") | 160mm |
+| Kasper Asgreen | Classics | 191 cm (6'3") | 172.5mm |
+| Arnaud De Lie | Classics | 182 cm (6'0") | 172.5mm |
+| Christophe Laporte | Classics | 181 cm (5'11") | 172.5mm |
+| Nils Politt | Classics | 192 cm (6'4") | 175mm |
+| Jasper Stuyven | Classics | 186 cm (6'1") | 172.5mm |
+| Wout van Aert | Classics | 188 cm (6'2") | 170mm |
+| Mathieu van der Poel | Classics | 184 cm (6'0") | 172.5mm |
+| Stefan Bissegger | Time trial | 188 cm (6'2") | 170mm |
+| Mikkel Bjerg | Time trial | 182 cm (6'0") | 170mm |
+| Rohan Dennis | Time trial | 182 cm (6'0") | 170mm |
+| Filippo Ganna | Time trial | 193 cm (6'4") | 167.5mm |
+| Stefan Küng | Time trial | 193 cm (6'4") | 172.5mm |
+| Pascal Ackermann | Sprinter | 182 cm (6'0") | 172.5mm |
+| Phil Bauhaus | Sprinter | 184 cm (6'0") | 172.5mm |
+| Sam Bennett | Sprinter | 178 cm (5'10") | 172.5mm |
+| Mark Cavendish | Sprinter | 175 cm (5'9") | 170mm |
+| Caleb Ewan | Sprinter | 167 cm (5'6") | 165mm |
+| Biniam Girmay | Sprinter | 184 cm (6'0") | 172.5mm |
+| Dylan Groenewegen | Sprinter | 177 cm (5'10") | 172.5mm |
+| Fabio Jakobsen | Sprinter | 181 cm (5'11") | 172.5mm |
+| Olav Kooij | Sprinter | 184 cm (6'0") | 172.5mm |
+| Alexander Kristoff | Sprinter | 183 cm (6'0") | 172.5mm |
+| Tim Merlier | Sprinter | 188 cm (6'2") | 172.5mm |
+| Jonathan Milan | Sprinter | 194 cm (6'4") | 175mm |
+| Mads Pedersen | Sprinter | 180 cm (5'11") | 172.5mm |
+| Jasper Philipsen | Sprinter | 176 cm (5'9") | 170mm |
+
 ## Why GC riders are going shorter
 
 The biomechanics case for shorter cranks is well-established at this point:

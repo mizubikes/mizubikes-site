@@ -24,7 +24,7 @@ I'm still not buying one.
 
 ## Is there an Epic 9 Evo?
 
-Not as of November 2026. Specialized launched the Epic 9 in April as a single race bike, with no Evo version. The closest you can get is running the Epic 9 with a 130mm fork, but the bike is still built and specced for XC racing. Reviewers have speculated that an Evo could come later, but Specialized hasn't announced one. If you want a trail-oriented Epic today, the Epic 8 Evo is still the bike, new old stock or used.
+Not as of November 2026. There's no Epic 9 Evo (or "Epic Evo 9") yet. Specialized launched the Epic 9 in April as a single race bike, with no Evo version. The closest you can get is running the Epic 9 with a 130mm fork, but the bike is still built and specced for XC racing. Reviewers have speculated that an Evo could come later, but Specialized hasn't announced one. If you want a trail-oriented Epic today, the Epic 8 Evo is still the bike, new old stock or used.
 
 I've been riding my Epic 8 Evo for a while now and it's genuinely one of my favorite bikes I've owned. Around 26 lbs with my setup — Fox Float SL fork, Fox Float rear shock, OneUp V3 dropper, and tires with enough meat on them to actually handle trail riding. It's not a race build. It's not trying to be. It's a lightweight XC platform that I've set up to ride real terrain, and it does that really well.
 

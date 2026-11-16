@@ -39,6 +39,12 @@ The S-Works FACT 12r frame weighs 789 grams at size 56, up modestly from 727g on
 
 That tire clearance is the other headline number. The Crux 4 cleared 47mm; the Crux 5 handles 55mm front and rear with room to spare for mud and tread. That's a meaningful jump, and it puts the bike right in line with where gravel racing is heading. For reference, even the new Diverge 4 — Specialized's adventure-focused gravel bike — only goes to 50mm. The Crux 5 is going bigger while keeping the same 425mm chainstay length across all sizes, which required serious work in the rear triangle.
 
+## Crux 5 tire clearance
+
+**The Crux 5 clears 55mm tires front and rear**, up from 47mm on the Crux 4. To fit that much tire without lengthening the chainstays, Specialized made the Crux 5 1x only, with a maximum 52T chainring. In practice, most riders will run 45-50mm tires and keep the extra room for mud. If you run wide internal rims, remember that [a wider rim makes your tire measure wider](/posts/zipp-303-xplr-sw-vs-enve-ses-3-4-tire-width-test/) than the number on the sidewall. For how the Crux 5 compares with other frames, see the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/).
+
+## Crux 5 geometry
+
 Geometry has been nudged in the right places. The head tube angle slackened by half a degree (72° to 71.5° on a size 56), reach got slightly longer on larger sizes to work better with shorter stems, and the bottom bracket sits lower than before. None of this is a dramatic departure from the Crux 4, but the combined effect should produce more confidence at speed on technical terrain.
 
 Rider First Engineered means each size from 49 to 61cm gets its own carbon layup, so ride characteristics should stay consistent across the range rather than the ultra-stiff small / noodly large phenomenon you get with one-layup-fits-all approaches. Threaded BSA bottom bracket and UDH dropout are both retained — good calls.
