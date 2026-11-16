@@ -34,6 +34,100 @@ settings:
   per_store_per_category: 8   # cap per store inside one category
   top_count: 10               # rows in "Best deals today"
   max_pages: 100              # 100 pages x 250 = 25,000 products per store
+
+  # --- Which brands get listed ---
+  # A deal is shown only if its brand is (1) written about in the site's own
+  # articles at least brand_min_mentions times, or (2) in brands_allow below.
+  # brands_block always wins. The run log prints "Brands kept" and
+  # "Brands skipped" so you can see what the filter did.
+  site_brands_only: true
+  brand_min_mentions: 2
+  brands_block: [Vaast, Superior, Forestal, Mercury, Token]
+  brands_boost: [OneUp]       # favorite brands: ranked higher. Add more here.
+  max_age_years: 2            # skip anything whose model year is more than 2 years old
+  brands_allow:
+    # bikes and frames
+    - Trek
+    - Giant
+    - Cannondale
+    - Canyon
+    - Santa Cruz
+    - Yeti
+    - Ibis
+    - Pivot
+    - Orbea
+    - Cervelo
+    - Colnago
+    - Pinarello
+    - Bianchi
+    - BMC
+    - Scott
+    - Ventum
+    # drivetrain, brakes, suspension, cockpit
+    - Shimano
+    - SRAM
+    - Campagnolo
+    - Fox
+    - Fox Racing Shox
+    - RockShox
+    - Marzocchi
+    - Ohlins
+    - Cane Creek
+    - Race Face
+    - Easton
+    - FSA
+    - Thomson
+    - Renthal
+    - Crankbrothers
+    - Magura
+    - Hope
+    - TRP
+    - Chris King
+    - Wolf Tooth
+    - OneUp
+    - Garbaruk
+    - Fizik
+    - Selle Italia
+    - Ergon
+    # wheels and tires
+    - ENVE
+    - Zipp
+    - Roval
+    - Bontrager
+    - DT Swiss
+    - Industry Nine
+    - Mavic
+    - Reserve
+    - Hunt
+    - Maxxis
+    - Continental
+    - Schwalbe
+    - Vittoria
+    - Pirelli
+    - Michelin
+    - Panaracer
+    - WTB
+    - Kenda
+    # electronics, tools, gear
+    - Garmin
+    - Wahoo
+    - Hammerhead
+    - Quarq
+    - Favero
+    - Lezyne
+    - Park Tool
+    - Silca
+    - Topeak
+    - Muc-Off
+    - Giro
+    - POC
+    - Kask
+    - Smith
+    - Pearl Izumi
+    - Troy Lee Designs
+    - CamelBak
+    - Thule
+
   amazon_tag: "mizubikes-web-20"   # adds a "Check Amazon" button to each row; "" turns it off
   amazon_skip: [bikes, framesets]  # no Amazon button here: Amazon doesn't sell these brands' bikes
 
