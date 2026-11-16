@@ -81,7 +81,175 @@ settings:
     - power meter
     - powermeter
     - Quarq
-  # older_gen_terms: previous generations. Ranked lower (not removed).
+  # wanted_terms: product lines people talk about and buy. The main lists and
+  # homepage only show deals that match popular_terms or wanted_terms, come
+  # from a rarely-on-sale brand, or are current bikes/framesets. Everything
+  # else stays searchable.
+  wanted_terms:
+    # suspension and droppers
+    - Fox 34
+    - Fox 36
+    - Fox 38
+    - Fox 40
+    - Float X
+    - Fox DHX
+    - Fox Transfer
+    - Fox Podium
+    - RockShox Pike
+    - RockShox Lyrik
+    - RockShox Zeb
+    - RockShox SID
+    - RockShox Super Deluxe
+    - RockShox Vivid
+    - Reverb AXS
+    - OneUp Dropper
+    - BikeYoke
+    - PNW Loam
+    - PNW Rainier
+    # wheels
+    - Zipp 303
+    - Zipp 353
+    - Zipp 404
+    - Zipp 454
+    - Roval Rapide
+    - Roval Alpinist
+    - Roval Terra
+    - Roval Traverse
+    - Roval Control
+    - DT Swiss 1400
+    - DT Swiss 1450
+    - DT Swiss 1501
+    - DT Swiss 1700
+    - DT Swiss 1800
+    - DT Swiss 240
+    - DT Swiss 350
+    - DT Swiss 180
+    - DT Swiss XRC
+    - DT Swiss ERC
+    - DT Swiss XMC
+    - DT Swiss EXC
+    - DT Swiss ARC
+    - DT Swiss GRC
+    - DT Swiss PRC
+    - Aeolus
+    - Hunt
+    - Industry Nine
+    # tires
+    - Maxxis Minion
+    - Maxxis Assegai
+    - Maxxis Dissector
+    - Maxxis Rekon
+    - Maxxis Aspen
+    - Maxxis Reaver
+    - Maxxis Ardent Race
+    - Grand Prix 5000
+    - GP5000
+    - Terra Speed
+    - Terra Trail
+    - Race King
+    - Kryptotal
+    - Dubnital
+    - P Zero Race
+    - Cinturato
+    - Pirelli Scorpion
+    - Schwalbe Pro One
+    - G-One
+    - Thunder Burt
+    - Racing Ray
+    - Racing Ralph
+    - Magic Mary
+    - Specialized Turbo
+    - Pathfinder
+    - Tracer
+    - Butcher
+    - Eliminator
+    - Ground Control
+    - Corsa Pro
+    - Terreno
+    - tire insert
+    - CushCore
+    # drivetrain
+    - Shimano XTR
+    - Shimano XT
+    - Shimano SLX
+    - Dura-Ace
+    - Ultegra
+    - Shimano 105 Di2
+    - GRX Di2
+    - SRAM Red
+    - SRAM Force AXS
+    - SRAM Rival AXS
+    - SRAM XX
+    - SRAM X0
+    - Garbaruk
+    - Quarq
+    # brakes
+    - SRAM Code
+    - SRAM Maven
+    - SRAM Level
+    - SRAM Motive
+    - Hope Tech
+    - Magura MT7
+    - Magura MT5
+    - TRP DH-R
+    - Hayes Dominion
+    - Shimano XTR Brake
+    # cockpit
+    - OneUp
+    - Wolf Tooth
+    - Chris King
+    - S-Works Power
+    - Specialized Power
+    - Fizik Vento
+    - Fizik Antares
+    - Ergon
+    - Renthal
+    - Deity
+    - Zipp SL-70
+    - Zipp Service Course
+    - Roval Rapide Cockpit
+    # electronics
+    - Garmin Edge
+    - Garmin Varia
+    - Wahoo Elemnt
+    - Wahoo Kickr
+    - Hammerhead Karoo
+    - Karoo
+    - SRM
+    - 4iiii
+    # helmets, shoes, apparel
+    - Prevail
+    - Evade
+    - Ambush
+    - Tactic
+    - Ventral
+    - Kortal
+    - Kask Utopia
+    - Kask Protone
+    - Giro Aries
+    - Giro Manifest
+    - Speedframe
+    - Proframe
+    - S-Works Shoes
+    - S-Works Ares
+    - S-Works Torch
+    - S-Works Recon
+    - Specialized Torch
+    - Specialized Recon
+    - S-Phyre
+    - Shimano RC9
+    - Shimano XC9
+    - Giro Imperial
+    - Sidi
+    # tools
+    - Park Tool
+    - Silca
+    - Abbey Bike Tools
+    - Wera
+    - Feedback Sports
+    - OneUp EDC
+
+  # older_gen_terms: previous generations. Left off the main lists (still searchable).
   older_gen_terms:
     - X01 Eagle
     - XX1 Eagle
@@ -94,7 +262,6 @@ settings:
     - Shimano R80*            # Ultegra 11-speed
     - Shimano R70*            # 105 11-speed
     - Shimano M91*            # XTR, previous
-    - Shimano M81*            # XT, previous
     - Shimano M80*
 
   max_discount: 0.80          # above this the "list price" is usually not real
