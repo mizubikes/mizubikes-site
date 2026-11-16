@@ -74,7 +74,8 @@ DEFAULTS = {
     "big_save_min_discount": 0.12,
     "big_save_min": 400,        # ...or at least $400 off, at 12%+ off
     "popular_terms": [],        # current-generation parts: ranked higher, count from rare_min_discount
-    "older_gen_terms": [],      # previous generations: ranked lower
+    "older_gen_terms": [],      # previous generations: left off the main lists
+    "wanted_terms": [],         # product lines people buy; the main lists need a match (see keep_main)
     "amazon_tag": "",           # Amazon Associates tag; empty = no Amazon buttons
     "amazon_skip": ["bikes", "framesets"],   # categories Amazon doesn't really sell
 }
@@ -95,7 +96,7 @@ CATEGORIES = [
     ("accessories", "Accessories"),
 ]
 
-USED = re.compile(r"pre-?owned|\bused\b|certified|second ?hand|\bdemo\b|open box|blemish|\bblem\b", re.I)
+USED = re.compile(r"scratch (and|&) dent|cosmetic(ally)? (blem|damage)|pre-?owned|\bused\b|certified|second ?hand|\bdemo\b|open box|blemish|\bblem\b", re.I)
 
 SKIP = re.compile(r"gift ?card|e-?gift|warranty|protection plan|shipping protection|"
                   r"route package|donation|labor|service fee|deposit", re.I)
@@ -863,6 +864,7 @@ def main() -> int:
         if n >= int(cfg["rare_sale_min_products"]) and on_sale / n < float(cfg["rare_sale_rate"]):
             rare_brands.add(k)
     popular, older = term_lists(cfg.get("popular_terms")), term_lists(cfg.get("older_gen_terms"))
+    wanted = term_lists(cfg.get("wanted_terms"))
     this_year = today.year
     kept = []
     for it in pool:
@@ -880,7 +882,16 @@ def main() -> int:
               or (pct >= cfg["big_save_min_discount"] and it["save"] >= float(cfg["big_save_min"])))
         if ok:
             it["score"] = relevance(it, int(it.get("stock") or 1), brands, this_year)
+            # main lists and homepage: only gear with a reason to be there.
+            # Everything else stays in search.
+            years = [int(y) for y in MODEL_YEAR.findall(it["title"])]
+            current_bike = it["category"] in ("bikes", "framesets") and \
+                (not years or max(years) >= this_year - 1)
+            reason = it["popular"] or it["rare"] or matches(w, wanted) or current_bike
+            it["main"] = bool(it.get("main", True) and not it["older_gen"] and reason)
             kept.append(it)
+    print(f"Main lists: {sum(1 for i in kept if i.get('main'))} of {len(kept)} deals qualify "
+          f"(current gen, wanted lines, rarely-on-sale brands, current bikes)")
     print(f"Deal cut: {len(kept)} of {len(pool)} candidates kept; "
           f"{sum(1 for i in kept if i.get('rare'))} rarely-on-sale, "
           f"{sum(1 for i in kept if i.get('popular'))} current-gen, "
