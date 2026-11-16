@@ -34,8 +34,11 @@ settings:
   per_store_per_category: 8   # cap per store inside one category
   top_count: 10               # rows in "Best deals today"
   max_pages: 100              # 100 pages x 250 = 25,000 products per store
+  amazon_tag: "mizubikes-web-20"   # adds a "Check Amazon" button to each row; "" turns it off
+  amazon_skip: [bikes, framesets]  # no Amazon button here: Amazon doesn't sell these brands' bikes
 
 stores:
+  # ---------------- Bike shops (all confirmed working on the first run) ----------------
   - id: worldwide-cyclery
     name: Worldwide Cyclery
     base: "https://worldwidecyclery.com"
@@ -77,3 +80,36 @@ stores:
     base: "https://contenderbicycles.com"
     enabled: true
     affiliate: ""
+
+  # ---------------- Brand-direct stores ----------------
+  # Untested guesses that these brands sell through a Shopify store. The run
+  # summary (Actions > Bike deals > latest run) shows which ones respond; set
+  # enabled: false on any that fail. Specialized, Trek, Giant, Cannondale and
+  # Canyon are not here: their sites don't offer a catalog this script can read.
+
+  # Bikes and frames
+  - {id: yeti, name: Yeti Cycles, base: "https://yeticycles.com", enabled: true, affiliate: ""}
+  - {id: ibis, name: Ibis Cycles, base: "https://www.ibiscycles.com", enabled: true, affiliate: ""}
+  - {id: niner, name: Niner Bikes, base: "https://ninerbikes.com", enabled: true, affiliate: ""}
+  - {id: evil, name: Evil Bikes, base: "https://www.evil-bikes.com", enabled: true, affiliate: ""}
+  - {id: revel, name: Revel Bikes, base: "https://revelbikes.com", enabled: true, affiliate: ""}
+  - {id: ventum, name: Ventum, base: "https://ventumracing.com", enabled: true, affiliate: ""}
+  - {id: lauf, name: Lauf Cycles, base: "https://www.laufcycles.com", enabled: true, affiliate: ""}
+  - {id: state, name: State Bicycle Co, base: "https://www.statebicycle.com", enabled: true, affiliate: ""}
+  - {id: diamondback, name: Diamondback, base: "https://www.diamondback.com", enabled: true, affiliate: ""}
+  - {id: aventon, name: Aventon, base: "https://www.aventon.com", enabled: true, affiliate: ""}
+
+  # Wheels and components
+  - {id: enve, name: ENVE, base: "https://www.enve.com", enabled: true, affiliate: ""}
+  - {id: hunt, name: Hunt Bike Wheels, base: "https://us.huntbikewheels.com", enabled: true, affiliate: ""}
+  - {id: chris-king, name: Chris King, base: "https://chrisking.com", enabled: true, affiliate: ""}
+  - {id: wolf-tooth, name: Wolf Tooth Components, base: "https://www.wolftoothcomponents.com", enabled: true, affiliate: ""}
+  - {id: oneup, name: OneUp Components, base: "https://www.oneupcomponents.com", enabled: true, affiliate: ""}
+  - {id: pnw, name: PNW Components, base: "https://www.pnwcomponents.com", enabled: true, affiliate: ""}
+
+  # Tires, electronics, tools and clothing
+  - {id: wtb, name: WTB, base: "https://www.wtb.com", enabled: true, affiliate: ""}
+  - {id: schwalbe, name: Schwalbe, base: "https://www.schwalbetires.com", enabled: true, affiliate: ""}
+  - {id: hammerhead, name: Hammerhead, base: "https://www.hammerhead.io", enabled: true, affiliate: ""}
+  - {id: silca, name: Silca, base: "https://silca.cc", enabled: true, affiliate: ""}
+  - {id: pearl-izumi, name: Pearl Izumi, base: "https://www.pearlizumi.com", enabled: true, affiliate: ""}

@@ -49,7 +49,8 @@
         <li>A script reads each store's public product catalog once a day and keeps in-stock items priced at least {{ $d.min_discount_pct | default 20 }}% under that store's list price. Anything under $20, and anything claiming more than 80% off, is left out. New gear only: used, demo and pre-owned items aren't listed.</li>
         <li>The crossed-out price is the store's own list price, not a price we verified elsewhere. Some shops set list prices high, so compare before you buy on big-ticket items.</li>
         <li>Each category shows the strongest deals first, with a cap per store so one shop can't fill the list. Prices can change during the day and don't include shipping or tax.</li>
-        <li>Some links are affiliate links. Buying through them supports the site at no extra cost to you, and it never changes which deals are listed or how they're ranked.</li>
+        <li>The price shown is the store's price, and the store link under each button goes straight to it. <strong>Check Amazon</strong> searches Amazon for the same item. Amazon's price isn't listed because it changes through the day and can be higher or lower than the store's, so compare the two before you buy.</li>
+        <li>Amazon links are affiliate links: as an Amazon Associate I earn from qualifying purchases, at no extra cost to you. It never changes which deals are listed or how they're ranked.</li>
         {{- with $okStores }}
         <li>Stores scanned today: {{ range $i, $s := . }}{{ if $i }}, {{ end }}<a href="{{ $s.home }}" target="_blank" rel="nofollow noopener">{{ $s.name }}</a>{{ end }}.</li>
         {{- end }}
