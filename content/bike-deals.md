@@ -7,5 +7,3 @@ aliases: ["/deals/"]
 ShowReadingTime: false
 ShowToc: false
 ---
-
-Every link goes straight to the store with the deal, at the price shown.

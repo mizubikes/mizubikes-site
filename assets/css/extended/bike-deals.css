@@ -34,18 +34,26 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
 .dp-card-img {
   position: relative;
   display: block;
+  flex: none;
+  overflow: hidden;
   aspect-ratio: 1 / 1;
   background: #fff;
   border-bottom: 1px solid var(--border);
 }
+/* the photo is pinned inside the square, so a tall or wide photo can't
+   stretch the card */
 .post-content .dp-card-img img,
 .dp-card-img img {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
   height: 100%;
+  max-width: none;
   margin: 0;
-  padding: 10px;
-  object-fit: contain;
+  padding: 0;
+  object-fit: cover;          /* fill the square; trim what doesn't fit */
+  object-position: center;
   border-radius: 0;
 }
 .dp-card-ph {
@@ -311,3 +319,8 @@ a.dp-home-btn:hover { background: #157a93; }
   a.dp-card { transition: none; }
   a.dp-card:hover { transform: none; }
 }
+
+/* ----- page banner (same teal band as category pages) ----- */
+.dp .dp-banner { margin-top: 0.5rem; }
+.dp .dp-banner .mb-cat-banner-kicker { text-transform: none; letter-spacing: 0.02em; font-size: 12.5px; }
+.dp .post-content > .dp-search:first-child { margin-top: 0; }
