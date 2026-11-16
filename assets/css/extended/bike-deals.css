@@ -1,5 +1,9 @@
 /* ===== Bike deals (/bike-deals/ + home page strip) — builds on the .fp tracker styles ===== */
 
+/* ----- page background: same light grey as the home page, white cards on top ----- */
+body:has(article.dp) { background: var(--code-bg); }
+[data-theme="dark"] body:has(article.dp) { background: var(--theme); }
+
 /* ----- card grid ----- */
 .dp-grid {
   display: grid;
@@ -144,7 +148,7 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
   padding: 5px 14px;
   border: 1px solid var(--tertiary);
   border-radius: 999px;
-  background: transparent;
+  background: var(--entry);
   color: var(--primary);
   font: inherit;
   font-size: 14px;
@@ -182,14 +186,37 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
 .dp-front { display: none; }                 /* needs the script; groups show without it */
 .dp-js .dp-front { display: block; }
 .dp-js .dp-front[hidden] { display: none; }
-.dp-front-sec { margin-top: 26px; }
-.dp-front-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
-.dp-front-head .dp-group-title { margin: 0; }
+/* each row gets a clear header band so categories don't run together */
+.dp-front-sec { margin-top: 44px; }
+.dp-front-sec:first-child { margin-top: 22px; }
+.dp-front-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px 12px 16px;
+  border-left: 5px solid var(--fp-accent);
+  border-radius: 6px;
+  background: rgba(27, 143, 171, 0.11);
+}
+[data-theme="dark"] .dp-front-head { background: rgba(27, 143, 171, 0.22); }
+.dp-front-name { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.post-content .dp-front-head .dp-group-title,
+.dp-front-head .dp-group-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+.dp-front-count { font-size: 13px; color: var(--secondary); }
+.dp-front-sec .dp-grid { margin-top: 14px; }
 .dp-seeall {
   flex: none;
-  padding: 0;
-  border: 0;
-  background: none;
+  padding: 6px 14px;
+  border: 1px solid var(--fp-accent);
+  border-radius: 999px;
+  background: var(--entry);
   color: var(--fp-accent);
   font: inherit;
   font-size: 14px;
@@ -197,7 +224,7 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
   cursor: pointer;
   white-space: nowrap;
 }
-.dp-seeall:hover { text-decoration: underline; text-underline-offset: 3px; }
+.dp-seeall:hover { background: var(--fp-accent); color: #fff; }
 .dp-seeall:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2px; border-radius: 4px; }
 .dp-grid[hidden], .dp-sort[hidden] { display: none; }
 .dp-group-title { display: flex; align-items: baseline; gap: 10px; }
@@ -240,6 +267,10 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
 @media (max-width: 640px) {
   .dp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .dp-card-body { padding: 8px 9px 10px; }
+  .post-content .dp-front-head .dp-group-title,
+  .dp-front-head .dp-group-title { font-size: 20px; }
+  .dp-front-head { padding: 10px 10px 10px 12px; }
+  .dp-seeall { padding: 5px 11px; font-size: 13px; }
   .dp-card-title { font-size: 13px; -webkit-line-clamp: 4; min-height: 5.4em; }
   .dp-card-price strong { font-size: 17px; }
   .dp-card-price s { display: block; margin: 2px 0 0; }
