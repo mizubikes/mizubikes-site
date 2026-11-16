@@ -8,13 +8,20 @@
 {{- range $cats }}{{ $titles = merge $titles (dict .key .title) }}{{ end -}}
 {{- $topKeys := slice -}}
 {{- range $top }}{{ $topKeys = $topKeys | append .key }}{{ end -}}
+{{- /* a category page (/bike-deals/wheels/ etc.) sets deal_category */ -}}
+{{- $allCats := $cats -}}
+{{- $catKey := .Params.deal_category -}}
+{{- $thisCat := dict -}}
+{{- if $catKey }}{{ $cats = where $allCats "key" $catKey }}{{ with index $cats 0 }}{{ $thisCat = . }}{{ end }}{{ end -}}
+{{- $short := dict "suspension" "Suspension" "cockpit" "Cockpit" "tires" "Tires" "electronics" "Electronics" "apparel" "Apparel" "tools" "Tools" -}}
 
 <article class="post-single fp dp">
   <header class="mb-cat-banner mb-cat-banner--plain dp-banner">
     <div class="mb-cat-banner-overlay">
       <div class="mb-cat-banner-kicker">
         {{- with $d.updated }}Checked <time datetime="{{ . }}">{{ time.Format "Jan 2" . }}</time> &middot; {{ end -}}
-        {{- with $d.total_found }}{{ lang.FormatNumber 0 . }} deals &middot; {{ len $okStores }} stores{{ else }}Updated every morning{{ end -}}
+        {{- if $catKey }}{{ with $thisCat.total }}{{ lang.FormatNumber 0 . }} deals in this category &middot; {{ end }}{{ len $okStores }} stores
+        {{- else }}{{ with $d.total_found }}{{ lang.FormatNumber 0 . }} deals &middot; {{ len $okStores }} stores{{ else }}Updated every morning{{ end }}{{ end -}}
       </div>
       <h1 class="mb-cat-banner-title">{{ .Title }}</h1>
       {{- with .Description }}
@@ -39,14 +46,22 @@
     {{- else }}
 
     <div class="dp-toolbar">
+      {{- if $catKey }}
+      <nav class="dp-tabs" aria-label="Deal categories">
+        <a class="dp-tab" href="/bike-deals/">All deals</a>
+        {{- range $allCats }}
+        <a class="dp-tab" href="/bike-deals/{{ .key }}/" title="{{ .title }}"{{ if eq .key $catKey }} aria-current="page"{{ end }}>{{ index $short .key | default .title }}</a>
+        {{- end }}
+      </nav>
+      {{- else }}
       <div class="dp-tabs" role="group" aria-label="Filter deals by category">
         <button type="button" class="dp-tab" data-cat="best" aria-pressed="true">Best today</button>
-        {{- $short := dict "suspension" "Suspension" "cockpit" "Cockpit" "tires" "Tires" "electronics" "Electronics" "apparel" "Apparel" "tools" "Tools" -}}
         {{- range $cats }}
         <button type="button" class="dp-tab" data-cat="{{ .key }}" aria-pressed="false" title="{{ .title }}">{{ index $short .key | default .title }}</button>
         {{- end }}
         <button type="button" class="dp-tab" data-cat="all" aria-pressed="false">All</button>
       </div>
+      {{- end }}
       <div class="dp-controls" id="dp-controls">
       <span class="dp-count" id="dp-count" aria-live="polite"></span>
       <div class="dp-controls-right">
@@ -72,6 +87,7 @@
     {{- $set := (site.Data.deal_stores | default dict).settings | default dict -}}
     {{- $frontKeys := $set.front_sections | default (slice "bikes" "wheels" "drivetrain" "suspension" "tires") -}}
     {{- $perRow := int ($set.front_per_section | default 5) -}}
+    {{- if not $catKey }}
     <div id="dp-front" class="dp-front">
       {{- range $k := $frontKeys }}
       {{- range where $cats "key" $k }}
@@ -82,7 +98,7 @@
             <h2 class="dp-group-title">{{ .title }}</h2>
             <span class="dp-front-count">{{ .total }} {{ if eq (int .total) 1 }}deal{{ else }}deals{{ end }} today</span>
           </div>
-          <button type="button" class="dp-seeall" data-goto="{{ .key }}">See all &rarr;</button>
+          <a class="dp-seeall" href="/bike-deals/{{ .key }}/">See all {{ .total }} &rarr;</a>
         </div>
         <div class="dp-grid dp-row">
           {{- /* one card per brand, so a favorite brand can't fill the row */ -}}
@@ -108,9 +124,11 @@
       {{- end }}
     </div>
 
+    {{- end }}
+
     {{- /* Without JavaScript every card shows, grouped by category. The script
            turns the groups into one filterable, sortable grid. */ -}}
-    <div id="dp-grid">
+    <div id="dp-grid"{{ if $catKey }} data-mode="category"{{ end }}>
       {{- range $c := $cats }}
       <section class="dp-group" id="{{ $c.key }}" data-cat="{{ $c.key }}">
         <h2 class="dp-group-title">{{ $c.title }} <span class="fp-h-sub">{{ len $c.items }}{{ if gt (int $c.total) (len $c.items) }} of {{ $c.total }}{{ end }} {{ if eq (int $c.total) 1 }}deal{{ else }}deals{{ end }}</span></h2>
@@ -129,7 +147,9 @@
 
     {{- end }}
 
-    {{- with $d.ended }}
+    {{- $ended := $d.ended | default slice -}}
+    {{- if $catKey }}{{ $ended = where $ended "category" $catKey }}{{ end -}}
+    {{- with $ended }}
     <details class="dp-ended" id="ended">
       <summary>Recently ended <span class="fp-h-sub">{{ len . }} {{ if eq (len .) 1 }}deal{{ else }}deals{{ end }} gone in the last 7 days</span></summary>
       <p class="fp-blurb">These were listed above and have since sold out or gone back to full price. The price shown is what the deal was, not what the item costs now.</p>
@@ -161,6 +181,17 @@
     </details>
     {{- end }}
 
+    {{- if and (not $catKey) $allCats }}
+    <nav class="dp-browse" aria-label="Browse deals by category">
+      <h2 class="dp-browse-title">Browse deals by category</h2>
+      <ul>
+        {{- range $allCats }}
+        <li><a href="/bike-deals/{{ .key }}/">{{ .title }}</a> <span>{{ .total }}</span></li>
+        {{- end }}
+      </ul>
+    </nav>
+    {{- end }}
+
     </div>{{/* #dp-main */}}
 
   </div>
@@ -175,9 +206,10 @@
 
   /* ---------- category tabs + sorting ---------- */
   if (wrap) {
-    var tabs = [].slice.call(document.querySelectorAll('.dp-tab'));
+    var tabs = [].slice.call(document.querySelectorAll('button.dp-tab'));
     var cards = [].slice.call(wrap.querySelectorAll('.dp-card'));
     var keys = tabs.map(function (t) { return t.dataset.cat; });
+    if (!keys.length) keys = ['all'];        /* a category page: one list, no tabs */
     var flat = document.createElement('div');
     flat.className = 'dp-grid';
     cards.forEach(function (c, i) { c.dataset.i = i; });
@@ -223,14 +255,12 @@
       if (state.cat === 'best') return num(c, 'rank') > 0;
       return c.dataset.cat === state.cat;
     }
-    /* rebuild the size menu from whatever sizes the current tab has */
+    /* rebuild the size menu from the sizes in view ("Best today" uses every deal,
+       since picking a size there switches to all deals) */
     function fillSizes() {
       if (!sizeSel) return;
       var counts = {};
-      /* sizes only mean something inside one category: a 56 frame is not a 56 shoe */
-      var mixed = state.cat === 'best' || state.cat === 'all';
-      if (mixed) state.size = '';
-      cards.filter(inCat).forEach(function (c) {
+      cards.filter(function (c) { return state.cat === 'best' || inCat(c); }).forEach(function (c) {
         c._sizes.forEach(function (z) { counts[z] = (counts[z] || 0) + 1; });
       });
       var list = Object.keys(counts).sort(sizeOrder);
@@ -239,7 +269,7 @@
         return '<option value="' + z.replace(/"/g, '&quot;') + '">' + z.replace(/</g, '&lt;') + ' (' + counts[z] + ')</option>';
       }).join('');
       sizeSel.value = state.size;
-      sizeWrap.hidden = mixed || list.length < 2;
+      sizeWrap.hidden = list.length < 2;
     }
 
     function render() {
@@ -247,10 +277,12 @@
       var onFront = state.cat === 'best' && front && front.children.length > 0;
       if (front) front.hidden = !onFront;
       flat.hidden = onFront;
-      if (sortWrap) sortWrap.hidden = onFront;
-      var controls = document.getElementById('dp-controls'), countEl = document.getElementById('dp-count');
-      if (controls) controls.hidden = onFront;
-      if (onFront) { if (empty) empty.hidden = true; return; }
+      var countEl = document.getElementById('dp-count');
+      if (onFront) {
+        if (empty) empty.hidden = true;
+        if (countEl) countEl.textContent = 'Top picks by category';
+        return;
+      }
       var list = cards.filter(function (c) {
         return inCat(c) && (!state.size || c._sizes.indexOf(state.size) >= 0);
       });
@@ -267,32 +299,37 @@
       tabs.forEach(function (t) { t.setAttribute('aria-pressed', t.dataset.cat === state.cat ? 'true' : 'false'); });
     }
     function pick(cat, push) {
-      if (keys.indexOf(cat) < 0) cat = 'best';
+      if (keys.indexOf(cat) < 0) cat = keys[0];
       state.cat = cat;
+      if (cat === 'best') {              /* back to the top picks: clear filters */
+        state.sort = 'best'; state.size = '';
+        if (sortSel) sortSel.value = 'best';
+      }
       fillSizes();
       render();
-
+    }
+    /* sorting or picking a size on "Best today" shows every deal, filtered */
+    function leaveBest() {
+      if (state.cat !== 'best') return;
+      state.cat = keys.indexOf('all') >= 0 ? 'all' : state.cat;
     }
     tabs.forEach(function (t) { t.addEventListener('click', function () { pick(t.dataset.cat, true); }); });
-    [].slice.call(document.querySelectorAll('.dp-seeall')).forEach(function (b) {
-      b.addEventListener('click', function () {
-        pick(b.dataset.goto, true);
-        var bar = document.querySelector('.dp-toolbar');
-        if (bar) bar.scrollIntoView({ block: 'start', behavior: 'smooth' });
-      });
+    if (sortSel) sortSel.addEventListener('change', function () {
+      state.sort = sortSel.value; leaveBest(); fillSizes(); render();
     });
-    if (sortSel) sortSel.addEventListener('change', function () { state.sort = sortSel.value; render(); });
-    if (sizeSel) sizeSel.addEventListener('change', function () { state.size = sizeSel.value; render(); });
+    if (sizeSel) sizeSel.addEventListener('change', function () {
+      state.size = sizeSel.value; leaveBest(); render();
+    });
     window.addEventListener('hashchange', function () { pick(location.hash.slice(1), false); });
     /* a #category link opens that tab once; the hash is then dropped so a
        refresh or a saved link always comes back to "Best today" */
-    pick(location.hash.slice(1) || 'best', false);
+    pick(location.hash.slice(1) || keys[0], false);
     if (location.hash && history.replaceState) history.replaceState(null, '', location.pathname + location.search);
   }
 
   /* ---------- search across every deal ---------- */
   if (!q || !out || !main) return;
-  var data = null, loading = null, timer = null, MAX = 60;
+  var data = null, loading = null, timer = null, searchTimer = null, MAX = 60;
 
   function load() {
     if (data) return Promise.resolve(data);
@@ -324,7 +361,9 @@
     var pic = img
       ? '<img src="' + esc(img) + '" alt="" loading="lazy" decoding="async" width="400" height="400" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add(\'dp-noimg\');this.remove()">'
       : '<span class="dp-card-ph" aria-hidden="true">' + esc(brand || it[3]) + '</span>';
-    return '<a class="dp-card" href="' + esc(it[8]) + '" target="_blank" rel="' + rel + '">' +
+    return '<a class="dp-card" href="' + esc(it[8]) + '" target="_blank" rel="' + rel + '"' +
+      ' data-cat="' + esc(it[7]) + '" data-pct="' + it[6] + '" data-price="' + it[4] + '"' +
+      ' data-store="' + esc(it[3]) + '" data-brand="' + esc(brand) + '" data-name="' + esc(title) + '">' +
       '<span class="dp-card-img">' + pic + '<span class="dp-card-off">' + it[6] + '% off</span></span>' +
       '<span class="dp-card-body"><span class="dp-card-title">' + (brand ? '<strong>' + esc(brand) + '</strong> ' : '') + esc(title) + '</span>' +
       '<span class="dp-card-price"><strong>' + money(it[4]) + '</strong> <s title="Store list price">' + money(it[5]) + '</s></span>' +
@@ -346,6 +385,10 @@
         status.textContent = 'No deals match “' + q.value.trim() + '” today.';
         out.innerHTML = ''; return;
       }
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(function () {       /* one event per finished search, not per keystroke */
+        if (typeof gtag === 'function') gtag('event', 'search', { search_term: q.value.trim().slice(0, 100), results: hits.length });
+      }, 1500);
       status.textContent = hits.length > MAX
         ? 'Showing the best ' + MAX + ' of ' + hits.length.toLocaleString('en-US') + ' matches. Add a word to narrow it down.'
         : hits.length + (hits.length === 1 ? ' match' : ' matches');
