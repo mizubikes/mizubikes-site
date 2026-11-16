@@ -207,6 +207,127 @@ def fetch_catalog(store: dict, cfg: dict) -> list[dict]:
     return out
 
 
+# ---------------------------------------------------------------- Specialized
+
+PAGE_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/131.0 Safari/537.36 MizubikesPriceBot/1.0",
+    "Accept": "text/html,application/xhtml+xml",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+NEXT_PUSH = re.compile(r'self\.__next_f\.push\(\[1,("(?:[^"\\]|\\.)*")\]\)', re.S)
+
+
+def get_html(url: str) -> str:
+    for attempt in range(3):
+        try:
+            r = requests.get(url, headers=PAGE_HEADERS, timeout=TIMEOUT)
+            if r.status_code == 200:
+                return r.text
+            if r.status_code in (429, 500, 502, 503, 504):
+                time.sleep(8 * (attempt + 1))
+                continue
+            raise RuntimeError(f"HTTP {r.status_code}")
+        except requests.RequestException as e:
+            if attempt == 2:
+                raise RuntimeError(type(e).__name__) from e
+            time.sleep(8 * (attempt + 1))
+    raise RuntimeError("gave up after 3 tries (rate limited or server errors)")
+
+
+def next_listing(html: str) -> tuple[list[dict], dict]:
+    """Pull the product list and pagination out of a Next.js page. The data
+    sits in self.__next_f.push([1,"..."]) chunks as JSON inside JS strings."""
+    stream = "".join(json.loads(m.group(1)) for m in NEXT_PUSH.finditer(html))
+    if not stream:
+        stream = html
+    dec = json.JSONDecoder()
+
+    def value_after(key: str, start: int = 0, want: str = "{"):
+        for m in re.finditer(r'"%s"\s*:\s*' % key, stream[start:]):
+            pos = start + m.end()
+            if stream[pos:pos + 1] != want:
+                continue
+            try:
+                val, end = dec.raw_decode(stream, pos)
+                return val, end
+            except ValueError:
+                continue
+        return None, -1
+
+    pagination, end = value_after("pagination")
+    results, _ = value_after("results", max(end, 0), "[")
+    if results is None:
+        results, _ = value_after("results", 0, "[")
+    results = results or []
+    pagination = pagination or {}
+    return [r for r in results if isinstance(r, dict)], pagination if isinstance(pagination, dict) else {}
+
+
+def specialized_product(r: dict) -> dict | None:
+    """One Specialized listing result -> the Shopify-like dict the rest of the
+    script expects."""
+    pid = str(r.get("uid") or (r.get("productData") or {}).get("id") or "")
+    name = (r.get("name") or r.get("title") or "").strip()
+    if not pid or not name:
+        return None
+    sale = was = None
+    image = r.get("imageUrl") or ""
+    for sw in r.get("swatchesJSON") or []:
+        cp = sw.get("colorPrices") or {}
+        d, f = cp.get("minDiscountPrice"), cp.get("minPrice")
+        if d and f and f > d and (sale is None or d / f < sale / was):
+            sale, was = d, f
+            image = sw.get("plpImageId") or image
+    if sale is None:
+        return None
+    path = (r.get("productData") or {}).get("list") or ""
+    sub = (r.get("subhead") or "").strip()
+    name = re.sub(r"(?i)\bframesetset\b", "Frameset", name)
+    title = name
+    if r.get("isBike") and sub and " - " not in name and sub.lower() not in name.lower() \
+            and not re.search(r"\d+\s*(nm|w|wh)\b", sub, re.I):
+        title = f"{name} - {sub}"
+    year = str(r.get("modelYear") or "")
+    if re.fullmatch(r"20[12]\d", year) and year not in title:
+        title = f"{year} {title}"
+    image = re.sub(r"([?&])w=\d+&h=\d+", r"\1w=400&h=400", image.replace("&amp;", "&"))
+    return {
+        "id": pid,
+        "title": title,
+        "vendor": "Specialized",
+        "product_type": "Bikes" if r.get("isBike") else path.replace("|", " | "),
+        "tags": path.split("|"),
+        "url_path": r.get("url") or f"/us/en/p/{pid}",
+        "images": [{"src": image}] if image else [],
+        "options": [],
+        "variants": [{"id": None, "title": "Default Title", "available": True,
+                      "price": f"{sale:.2f}", "compare_at_price": f"{was:.2f}"}],
+    }
+
+
+def fetch_specialized(store: dict, cfg: dict) -> list[dict]:
+    """Products shown on Specialized's public sale listing page(s). Each page
+    carries its first 96 products in the HTML; we read only what a visitor's
+    page shows, not the site's internal search service."""
+    base = store["base"].rstrip("/")
+    listings = store.get("listings") or [store.get("listing", "/us/en/shop/black-friday")]
+    out, seen, total = [], set(), 0
+    for path in listings:
+        results, pag = next_listing(get_html(f"{base}{path}"))
+        total += int(pag.get("totalResults") or 0)
+        for r in results:
+            prod = specialized_product(r)
+            if prod and prod["id"] not in seen:
+                seen.add(prod["id"])
+                out.append(prod)
+        time.sleep(float(cfg["delay_seconds"]) * 2)
+    if not out:
+        raise RuntimeError("no product data found on the listing page")
+    print(f"      specialized: {len(out)} products read ({total} listed in total on the site)")
+    return out
+
+
 def categorize(product: dict, price: float) -> str:
     ptype = (product.get("product_type") or "").lower()
     title = (product.get("title") or "").lower()
@@ -219,7 +340,7 @@ def categorize(product: dict, price: float) -> str:
     is_bike = (re.search(r"\bbikes?\b|bicycles?", ptype) and price >= 500) or \
               (BIKE_TITLE.search(title) and price >= 800)
     # a frameset is a frameset even when the store files it under "Bikes"
-    if re.search(r"frameset|frame set|frame only|\bframe\b(?!.*\bbike\b)", title) and price >= 300 \
+    if re.search(r"frameset|frame set|frame only|\bframe\b(?!.*\bbike\b)|\b(disc|tt|frame) module\b", title) and price >= 300 \
             and not NOT_A_FRAME.search(head):
         return "framesets"
     if is_bike and not NOT_A_BIKE.search(head):
@@ -530,7 +651,8 @@ def score(item: dict) -> float:
 
 def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict], int]:
     base = store["base"].rstrip("/")
-    products = fetch_catalog(store, cfg)
+    products = fetch_specialized(store, cfg) if store.get("type") == "specialized" \
+        else fetch_catalog(store, cfg)
     this_year = dt.date.today().year
     deals = []
     for p in products:
@@ -552,9 +674,12 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
         n_avail = sum(1 for x in p.get("variants") or []
                       if x.get("available") and (money(x.get("compare_at_price")) or 0)
                       > (money(x.get("price")) or 0) > 0)
-        url = f"{base}/products/{p.get('handle')}"
-        if v.get("id"):
-            url += f"?variant={v['id']}"
+        if p.get("url_path"):
+            url = f"{base}{p['url_path']}"
+        else:
+            url = f"{base}/products/{p.get('handle')}"
+            if v.get("id"):
+                url += f"?variant={v['id']}"
         href, sponsored = link_for(store, url)
         vtitle = (v.get("title") or "").strip()
         brand = (p.get("vendor") or "").strip()
@@ -619,6 +744,7 @@ def pick(pool: list[dict], limit: int, per_store: int, per_category: int | None 
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="print results, write nothing")
+    ap.add_argument("--only", help="scan just these store ids (comma-separated), for testing")
     args = ap.parse_args()
 
     raw = yaml.safe_load(STORES.read_text(encoding="utf-8")) or {}
@@ -626,6 +752,9 @@ def main() -> int:
     # stores flagged `used: true` sell mostly second-hand gear and are skipped
     stores = [s for s in raw.get("stores", [])
               if s.get("enabled", True) and not s.get("used")]
+    if args.only:
+        wanted = {x.strip() for x in args.only.split(",")}
+        stores = [s for s in raw.get("stores", []) if s["id"] in wanted]
 
     brands = SiteBrands(cfg)
     old = load_json(DEALS, {})
@@ -651,7 +780,11 @@ def main() -> int:
             ok_count += 1
             print(f"OK    {s['id']:24s} {scanned:6d} products  {len(deals):5d} deals")
         except Exception as e:  # keep yesterday's rows for this store, flagged stale
-            carried = [dict(it, stale=True) for it in old_items if it.get("store") == s["id"]]
+            # keep yesterday's rows while a store is briefly down, but not for
+            # more than two days (e.g. a sale page that has been taken down)
+            stale_cutoff = (today - dt.timedelta(days=2)).isoformat()
+            carried = [dict(it, stale=True) for it in old_items if it.get("store") == s["id"]
+                       and history.get(it.get("key"), {}).get("last", "") >= stale_cutoff]
             pool.extend(carried)
             rec.update({"ok": False, "error": str(e)[:200], "deals": len(carried)})
             print(f"FAIL  {s['id']:24s} {e}  (kept {len(carried)} from last run)")
@@ -738,6 +871,11 @@ def main() -> int:
     if args.dry_run:
         for it in top:
             print(f"  {it['pct']*100:4.0f}%  ${it['price']:>8.2f}  {it['store_name']}: {it['title']}")
+        for c in categories:
+            print(f"  [{c['key']}] {c['total']} found")
+            for it in c["items"][:5]:
+                print(f"      {it['pct']*100:3.0f}%  ${it['price']:>8.2f}  {it.get('name') or it['title']}"
+                      f"  {it['url']}  img={'y' if it.get('image') else 'n'}")
         return 0
 
     write_json(DEALS, out)

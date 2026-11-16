@@ -183,6 +183,19 @@ stores:
     enabled: true
     affiliate: ""
 
+  # ---------------- Specialized (not Shopify) ----------------
+  # Reads the products shown on specialized.com's public sale page (the first
+  # 96 of the sale, in the site's own order). Add more public pages under
+  # `listings` to cover more. When the sale page goes away, its deals drop off
+  # after two days; point `listings` at the new sale page.
+  - id: specialized
+    name: Specialized
+    type: specialized
+    base: "https://www.specialized.com"
+    listings: ["/us/en/shop/black-friday"]
+    enabled: true
+    affiliate: ""
+
   # ---------------- Brand-direct stores ----------------
   # Brands that sell through a Shopify store. Entries with enabled: false did
   # not respond on the first scan (their sites don't expose a readable catalog).
