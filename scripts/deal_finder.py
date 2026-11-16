@@ -283,8 +283,10 @@ def specialized_product(r: dict) -> dict | None:
         return None
     path = (r.get("productData") or {}).get("list") or ""
     sub = (r.get("subhead") or "").strip()
+    name = re.sub(r"(?i)\bframesetset\b", "Frameset", name)
     title = name
-    if r.get("isBike") and sub and " - " not in name:
+    if r.get("isBike") and sub and " - " not in name and sub.lower() not in name.lower() \
+            and not re.search(r"\d+\s*(nm|w|wh)\b", sub, re.I):
         title = f"{name} - {sub}"
     year = str(r.get("modelYear") or "")
     if re.fullmatch(r"20[12]\d", year) and year not in title:
@@ -305,29 +307,24 @@ def specialized_product(r: dict) -> dict | None:
 
 
 def fetch_specialized(store: dict, cfg: dict) -> list[dict]:
-    """Every product on a Specialized sale listing (server-rendered, 96 a page)."""
+    """Products shown on Specialized's public sale listing page(s). Each page
+    carries its first 96 products in the HTML; we read only what a visitor's
+    page shows, not the site's internal search service."""
     base = store["base"].rstrip("/")
-    listing = store.get("listing", "/us/en/shop/black-friday")
-    max_pages = int(store.get("max_pages", 20))
-    out, seen, page, total = [], set(), None, None
-    for _ in range(max_pages):
-        url = f"{base}{listing}" + (f"?page={page}" if page else "")
-        results, pag = next_listing(get_html(url))
-        if not results and not out:
-            raise RuntimeError("no product data found on the listing page")
-        total = pag.get("totalResults", total)
-        new = 0
+    listings = store.get("listings") or [store.get("listing", "/us/en/shop/black-friday")]
+    out, seen, total = [], set(), 0
+    for path in listings:
+        results, pag = next_listing(get_html(f"{base}{path}"))
+        total += int(pag.get("totalResults") or 0)
         for r in results:
             prod = specialized_product(r)
             if prod and prod["id"] not in seen:
                 seen.add(prod["id"])
                 out.append(prod)
-                new += 1
-        page = pag.get("nextPage")
-        if not page or not new:
-            break
         time.sleep(float(cfg["delay_seconds"]) * 2)
-    print(f"      specialized: {len(out)} of {total} listed products read")
+    if not out:
+        raise RuntimeError("no product data found on the listing page")
+    print(f"      specialized: {len(out)} products read ({total} listed in total on the site)")
     return out
 
 
@@ -343,7 +340,7 @@ def categorize(product: dict, price: float) -> str:
     is_bike = (re.search(r"\bbikes?\b|bicycles?", ptype) and price >= 500) or \
               (BIKE_TITLE.search(title) and price >= 800)
     # a frameset is a frameset even when the store files it under "Bikes"
-    if re.search(r"frameset|frame set|frame only|\bframe\b(?!.*\bbike\b)", title) and price >= 300 \
+    if re.search(r"frameset|frame set|frame only|\bframe\b(?!.*\bbike\b)|\b(disc|tt|frame) module\b", title) and price >= 300 \
             and not NOT_A_FRAME.search(head):
         return "framesets"
     if is_bike and not NOT_A_BIKE.search(head):
@@ -783,7 +780,11 @@ def main() -> int:
             ok_count += 1
             print(f"OK    {s['id']:24s} {scanned:6d} products  {len(deals):5d} deals")
         except Exception as e:  # keep yesterday's rows for this store, flagged stale
-            carried = [dict(it, stale=True) for it in old_items if it.get("store") == s["id"]]
+            # keep yesterday's rows while a store is briefly down, but not for
+            # more than two days (e.g. a sale page that has been taken down)
+            stale_cutoff = (today - dt.timedelta(days=2)).isoformat()
+            carried = [dict(it, stale=True) for it in old_items if it.get("store") == s["id"]
+                       and history.get(it.get("key"), {}).get("last", "") >= stale_cutoff]
             pool.extend(carried)
             rec.update({"ok": False, "error": str(e)[:200], "deals": len(carried)})
             print(f"FAIL  {s['id']:24s} {e}  (kept {len(carried)} from last run)")

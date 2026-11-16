@@ -184,15 +184,15 @@ stores:
     affiliate: ""
 
   # ---------------- Specialized (not Shopify) ----------------
-  # Reads the product list embedded in specialized.com's sale listing page.
-  # `listing` is the sale page to read; change it when the sale changes
-  # (e.g. /us/en/shop/sale after Black Friday). If the page is gone, the
-  # store is skipped for that day and yesterday's Specialized deals stay up.
+  # Reads the products shown on specialized.com's public sale page (the first
+  # 96 of the sale, in the site's own order). Add more public pages under
+  # `listings` to cover more. When the sale page goes away, its deals drop off
+  # after two days; point `listings` at the new sale page.
   - id: specialized
     name: Specialized
     type: specialized
     base: "https://www.specialized.com"
-    listing: "/us/en/shop/black-friday"
+    listings: ["/us/en/shop/black-friday"]
     enabled: true
     affiliate: ""
 
