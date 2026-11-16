@@ -267,6 +267,7 @@ settings:
   max_discount: 0.80          # above this the "list price" is usually not real
   min_price: 20               # skip anything cheaper than this
   per_category: 25            # cards shown per category (5 rows of 5 on desktop)
+  per_category_page: 120      # deals on each category's own page (/bike-deals/wheels/ ...)
   per_store_per_category: 8   # cap per store inside one category
   top_count: 12               # cards in the "Best" tab
   max_pages: 100              # 100 pages x 250 = 25,000 products per store
