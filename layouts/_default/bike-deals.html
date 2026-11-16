@@ -71,8 +71,11 @@
       {{- if ge (len .items) 2 }}
       <section class="dp-front-sec">
         <div class="dp-front-head">
-          <h2 class="dp-group-title">{{ .title }}</h2>
-          <button type="button" class="dp-seeall" data-goto="{{ .key }}">See all {{ len .items }} &rarr;</button>
+          <div class="dp-front-name">
+            <h2 class="dp-group-title">{{ .title }}</h2>
+            <span class="dp-front-count">{{ .total }} {{ if eq (int .total) 1 }}deal{{ else }}deals{{ end }} today</span>
+          </div>
+          <button type="button" class="dp-seeall" data-goto="{{ .key }}">See all &rarr;</button>
         </div>
         <div class="dp-grid">
           {{- /* one card per brand, so a favorite brand can't fill the row */ -}}
