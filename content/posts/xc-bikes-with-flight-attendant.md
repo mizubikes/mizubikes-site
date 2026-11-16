@@ -47,6 +47,9 @@ Prices are US MSRP. Allied's [BC40](/posts/allied-bc40-xc-bike/) XX SL build com
 
 ## How Flight Attendant works on an XC bike
 
+![RockShox Flight Attendant XC system: SID fork control module, SIDLuxe shock motor module, AXS rear derailleur, pedaling sensor or power meter, and Reverb AXS dropper](/images/rockshox-flight-attendant-xc-system.webp)
+*The XC Flight Attendant system. Image: RockShox*
+
 The XC version uses a SID or SID SL fork and a SIDLuxe shock, each with its own sensor module and AXS battery. It switches between three modes, Open, Pedal and Lock. It can also run a split state, with the shock firm and the fork open, which is great for seated climbing on rough ground. You can bias it from -2 (more open) to +2 (firmer), and RockShox claims 20 to 30 hours of riding per charge. If the batteries die, it fails to Open, so you're never stuck locked out.
 
 It works best with an AXS power meter, which lets the system learn your effort levels from your last few rides. Without one, it uses a pedal sensor instead. It also uses an AXS derailleur to know what gear you're in.

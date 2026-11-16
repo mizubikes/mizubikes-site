@@ -24,6 +24,9 @@ After writing up [which XC bike with Flight Attendant to buy](/posts/xc-bikes-wi
 
 **Quick answer:** Probably not by much, and nobody has measured it for trail riding. RockShox's only speed claim is that its internal test team averaged 1.8% faster in XC race testing. Independent reviewers haven't measured a gain, and MBR concluded regular riders won't see a measurable advantage, just a bike that feels more efficient. For everyday trail riding, Flight Attendant is a comfort and convenience upgrade, not a speed upgrade. The same money spent on tires, wheels or fitness will make you faster.
 
+![RockShox Flight Attendant XC system: SID fork control module, SIDLuxe shock motor module, AXS rear derailleur, pedaling sensor or power meter, and Reverb AXS dropper](/images/rockshox-flight-attendant-xc-system.webp)
+*Flight Attendant uses sensors in the fork, the shock, the derailleur and a pedal sensor or power meter. Image: RockShox*
+
 ## Where the 1.8% number comes from
 
 RockShox says riders on its internal test team were 1.8% faster on average with Flight Attendant than the same riders using manual lockouts. It calculates that as up to 96 seconds over a 90-minute XC World Cup race. That's a real number for a racer, where the gap between 5th and 15th can be a minute.
@@ -35,6 +38,9 @@ If the 1.8% did carry over to a two-hour trail ride, it would be about two minut
 ## What reviewers actually felt
 
 The reviews agree on the feel, if not the numbers.
+
+![RockShox Flight Attendant control module on a SID fork crown, showing Open, Pedal and Lock positions](/images/rockshox-flight-attendant-control-module.webp)
+*The fork's control module switches between Open, Pedal and Lock. Photo: RockShox*
 
 **It's more efficient when you're pushing.** Flight Attendant firms up the suspension when you put down power and opens it the moment you coast or hit something. Flow called the pedaling improvement noticeable. MBR said it boosted pedaling performance but found no "real, measurable performance advantage" for regular riders.
 
