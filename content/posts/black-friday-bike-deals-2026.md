@@ -1,7 +1,7 @@
 ---
 title: 'Black Friday Bike Deals 2026: Best Sales Live Now'
 date: 2026-11-14T22:00:00-08:00
-lastmod: 2026-11-14T22:00:00-08:00
+lastmod: 2026-11-15T20:00:00-08:00
 description: 'Black Friday bike deals 2026: the cycling sales live now at Jenson, Performance, Worldwide Cyclery, Specialized, Canyon and more, with codes and end dates.'
 slug: black-friday-bike-deals-2026
 weight: 1
@@ -24,7 +24,7 @@ draft: false
 
 **Quick answer:** Black Friday 2026 is November 27 and Cyber Monday is November 30, but most of the big cycling sales are already live. Jenson USA, Performance Bicycle, Backcountry and BikeTiresDirect are all running early Black Friday sales now. Worldwide Cyclery has 15% off with code **BlowOut2026**, and Specialized has its Black Friday sale up. I'm updating this page through Cyber Monday.
 
-*Last updated: November 14, 2026. Sales and codes change fast, so always confirm the final price in your cart.*
+*Last updated: November 15, 2026. Sales and codes change fast, so always confirm the final price in your cart.*
 
 ## Black Friday bike sales live now
 
@@ -75,7 +75,66 @@ The full list, sorted by size from 40mm to 2.25-inch, is on the [gravel tire pri
 
 **Complete bikes, carefully.** Big discounts on bikes are usually on outgoing models. That's fine if you know your size and the spec is what you want. If you're shopping for a gravel bike, start with my [best gravel bikes under $2,000](/posts/best-gravel-bikes-under-2000-2026/) and the [gravel bike buying guide](/posts/gravel-bike-buying-guide/). For mountain drivetrains, see [Shimano XT vs SLX](/posts/shimano-xt-vs-slx-mountain-bike-groupset/) and [SRAM Eagle 90 vs Shimano XT](/posts/sram-eagle-90-vs-shimano-xt/).
 
-**Amazon.** Amazon's Black Friday deals cover a lot of cycling basics, like pumps, lights, tubes, tools and tires. You can [browse current cycling deals on Amazon](https://www.amazon.com/s?k=cycling+deals&tag=mizubikes-web-20).
+**Amazon.** Here's the cycling gear on Amazon I'd look at this Black Friday, mostly parts I run or similar-tier alternatives. Amazon prices change by the hour leading into Black Friday, so I'm linking the products rather than quoting prices. Click through for today's price, and compare it with the bike retailers above.
+
+
+**Tires and sealant**
+
+| Product | Why | |
+|---|---|---|
+| Continental Grand Prix 5000 S TR, 700x28 | The default fast road tire. Often cheaper on Amazon than at bike retailers. | [Check price](https://www.amazon.com/dp/B09HS48S1T?tag=mizubikes-web-20) |
+| Continental GP5000 S TR 700x28, 2-pack | Better per-tire price if you're replacing both. | [Check price](https://www.amazon.com/dp/B0C7QVZZ7G?tag=mizubikes-web-20) |
+| Continental GP5000 AS TR, 700x32 | The all-season version, in a wider 32mm. | [Check price](https://www.amazon.com/dp/B0BM13WRVZ?tag=mizubikes-web-20) |
+| Pirelli P Zero Race TLR 4S, 700x28 | Fast tubeless race tire, usually discounted on Amazon. | [Check price](https://www.amazon.com/dp/B0BHDP5WSJ?tag=mizubikes-web-20) |
+| Orange Seal Endurance sealant, 8oz with injector | Sealant that lasts longer between top-ups. | [Check price](https://www.amazon.com/dp/B07YF3JQF8?tag=mizubikes-web-20) |
+| Orange Seal Subzero sealant, 8oz refill | Works in cold weather. | [Check price](https://www.amazon.com/dp/B07ZHSGGHB?tag=mizubikes-web-20) |
+
+**Drivetrain**
+
+| Product | Why | |
+|---|---|---|
+| Shimano Deore XT CN-M8100 chain, 12-speed, 126 links | Wear part you'll need anyway. Check the link count. | [Check price](https://www.amazon.com/dp/B07SVMGP4C?tag=mizubikes-web-20) |
+| SRAM GX Eagle chain, 12-speed, 126 links | Budget Eagle chain for non-Transmission drivetrains. | [Check price](https://www.amazon.com/dp/B07218K493?tag=mizubikes-web-20) |
+| Shimano GRX FC-RX600-1 crankset, 1x, 40T | Affordable 1x gravel crank. | [Check price](https://www.amazon.com/dp/B07VQZFWPT?tag=mizubikes-web-20) |
+
+**Trainers and power**
+
+| Product | Why | |
+|---|---|---|
+| Garmin Tacx Neo 2T smart trainer | Top-tier direct-drive trainer, often heavily discounted. | [Check price](https://www.amazon.com/dp/B07W6QTHM9?tag=mizubikes-web-20) |
+| Wahoo Kickr v6 smart trainer | The other benchmark smart trainer. | [Check price](https://www.amazon.com/dp/B0BFF3KH98?tag=mizubikes-web-20) |
+| Favero Assioma Duo power meter pedals | The easiest way to add dual-sided power to any bike. | [Check price](https://www.amazon.com/dp/B071JRXDKT?tag=mizubikes-web-20) |
+
+**Cockpit and components**
+
+| Product | Why | |
+|---|---|---|
+| Fizik Tempo Microtex Classic 2mm bar tape | Good-value bar tape I'd buy again. | [Check price](https://www.amazon.com/dp/B07HXVVJ7L?tag=mizubikes-web-20) |
+| TranzX Kitsuma Air dropper post | Budget dropper. Check diameter and travel. | [Check price](https://www.amazon.com/dp/B0912M79BH?tag=mizubikes-web-20) |
+| RaceFace Chester composite flat pedals | Durable, cheap flat pedals. | [Check price](https://www.amazon.com/dp/B06XKV7VH5?tag=mizubikes-web-20) |
+| Cane Creek 40 headset, IS42/IS52 tapered | Solid replacement headset. Confirm your frame's fit. | [Check price](https://www.amazon.com/dp/B08JRZQ99N?tag=mizubikes-web-20) |
+| Funn Crossfire stem, 35mm clamp | Trail stem for 35mm bars. | [Check price](https://www.amazon.com/dp/B07GBQMYS8?tag=mizubikes-web-20) |
+
+**Lights, locks and helmets**
+
+| Product | Why | |
+|---|---|---|
+| NiteRider Lumina OLED Boost 1200 front light | Bright, rechargeable front light. | [Check price](https://www.amazon.com/dp/B07DGF5P23?tag=mizubikes-web-20) |
+| Cygolite Hotshot Pro 200 tail light | Daytime-visible rear light. | [Check price](https://www.amazon.com/dp/B07YFF4857?tag=mizubikes-web-20) |
+| Kryptonite Evolution Mini-7 U-lock | Compact lock that's actually secure. | [Check price](https://www.amazon.com/dp/B06XZT8KZ1?tag=mizubikes-web-20) |
+| Apple AirTag (2nd generation) | Hide one on your bike in case it's stolen. | [Check price](https://www.amazon.com/dp/B0GJTFXNRX?tag=mizubikes-web-20) |
+| Giro Register MIPS II helmet | Affordable helmet with MIPS. | [Check price](https://www.amazon.com/dp/B0GGF1RZH2?tag=mizubikes-web-20) |
+| Thousand Heritage 2.0 helmet | Commuter helmet that looks good off the bike. | [Check price](https://www.amazon.com/dp/B0BSVNX9JF?tag=mizubikes-web-20) |
+
+**Tools and pumps**
+
+| Product | Why | |
+|---|---|---|
+| Park Tool SK-4 home mechanic starter kit | The tools to do most of your own maintenance. | [Check price](https://www.amazon.com/dp/B08DWPMHK8?tag=mizubikes-web-20) |
+| Topeak JoeBlow Sport III floor pump | Reliable floor pump for road and gravel pressures. | [Check price](https://www.amazon.com/dp/B077KXQ995?tag=mizubikes-web-20) |
+| GICB fork seal driver, 34mm | The seal driver I bought for fork service. Sizes from 30 to 40mm. | [Check price](https://www.amazon.com/dp/B08Y5HZHSF?tag=mizubikes-web-20) |
+
+You can also [browse all cycling deals on Amazon](https://www.amazon.com/s?k=cycling+deals&tag=mizubikes-web-20).
 
 ## How to tell if a Black Friday bike deal is real
 
