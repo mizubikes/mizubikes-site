@@ -507,3 +507,28 @@ body {
   .mb-cat-banner--plain .mb-cat-banner-title { font-size: 25px; }
   .mb-cat-banner--plain .mb-cat-banner-desc { font-size: 14px; line-height: 1.45; }
 }
+
+/* ---------- Phones: homepage section cards as compact rows (like Latest Posts) ---------- */
+@media (max-width: 768px) {
+  .mb-section .mb-card-grid:not(.mb-cat-grid) { gap: 0; }
+  .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-rows: auto auto 1fr;
+    column-gap: 0.75rem;
+    row-gap: 0.15rem;
+    padding: 0.75rem 0;
+  }
+  .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card:hover { transform: none; }
+  .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card img {
+    grid-row: 1 / span 3;
+    width: 110px;
+    aspect-ratio: 4 / 3;
+    margin: 0;
+    border-radius: 4px;
+  }
+  .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card .mb-cat { font-size: 11px; }
+  .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card-title { font-size: 15px; line-height: 1.35; margin: 0; }
+  .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card-excerpt { display: none; }
+  .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card-date { margin: 0; }
+}
