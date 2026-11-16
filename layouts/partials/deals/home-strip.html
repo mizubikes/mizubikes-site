@@ -1,0 +1,24 @@
+{{- /* Home page strip: today's strongest deals, linking to /bike-deals/ */ -}}
+{{- $d := site.Data.deals | default dict -}}
+{{- $top := first 6 ($d.top | default slice) -}}
+{{- if ge (len $top) 3 }}
+{{- $titles := dict -}}
+{{- range $d.categories }}{{ $titles = merge $titles (dict .key .title) }}{{ end -}}
+<div class="mb-section fp fp-home dp-home">
+  <div class="mb-section-header">
+    <span class="mb-section-title">Best Bike Deals Today</span>
+    <a href="/bike-deals/" class="mb-section-more">All {{ with $d.total_found }}{{ lang.FormatNumber 0 . }} {{ end }}deals &rarr;</a>
+  </div>
+  <div class="fp-home-grid">
+    {{- range $top }}
+    <a href="/bike-deals/#{{ .category }}" class="fp-home-tile dp-home-tile">
+      <div class="mb-cat">{{ index $titles .category | default "Deal" }}</div>
+      <div class="fp-home-price">{{ math.Round (mul .pct 100) }}% off</div>
+      <div class="fp-home-name"><span>{{ with .brand }}<strong>{{ . }}</strong> {{ end }}{{ if .brand }}{{ strings.TrimPrefix (printf "%s " .brand) .title }}{{ else }}{{ .title }}{{ end }}</span></div>
+      <div class="fp-home-meta">${{ lang.FormatNumber 2 .price }} <s>${{ lang.FormatNumber 2 .was }}</s> · {{ .store_name }}</div>
+    </a>
+    {{- end }}
+  </div>
+  <div class="dp-home-foot">Checked every morning{{ with $d.updated }} · last run {{ time.Format "Jan 2" . }}{{ end }}{{ with where ($d.stores | default slice) "ok" true }} · {{ len . }} stores scanned{{ end }}</div>
+</div>
+{{- end }}
