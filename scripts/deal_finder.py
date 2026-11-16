@@ -218,6 +218,10 @@ def categorize(product: dict, price: float) -> str:
 
     is_bike = (re.search(r"\bbikes?\b|bicycles?", ptype) and price >= 500) or \
               (BIKE_TITLE.search(title) and price >= 800)
+    # a frameset is a frameset even when the store files it under "Bikes"
+    if re.search(r"frameset|frame set|frame only|\bframe\b(?!.*\bbike\b)", title) and price >= 300 \
+            and not NOT_A_FRAME.search(head):
+        return "framesets"
     if is_bike and not NOT_A_BIKE.search(head):
         return "bikes"
     if re.search(r"frameset|frame set|\bframes?\b", head) and price >= 300 \
