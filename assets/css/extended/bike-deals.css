@@ -61,3 +61,16 @@
 .dp-search input::placeholder { color: var(--secondary); }
 .dp-search input:focus { outline: 2px solid var(--fp-accent); outline-offset: 1px; border-color: var(--fp-accent); }
 #dp-status:empty { display: none; }
+
+/* ----- recently ended ----- */
+.dp-ended { margin-top: 44px; padding-top: 18px; border-top: 1px solid var(--border); }
+.dp-ended summary {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+}
+.dp-ended summary .fp-h-sub { margin-left: 8px; }
+.dp-ended .fp-blurb { margin-top: 10px; }
+.dp-ended table.dp-table { color: var(--secondary); }
+.dp-ended .fp-brand, .dp-ended .dp-title { color: var(--primary); }

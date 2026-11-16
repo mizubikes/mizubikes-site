@@ -52,6 +52,38 @@
 
     {{- end }}
 
+    {{- with $d.ended }}
+    <details class="dp-ended" id="ended">
+      <summary>Recently ended <span class="fp-h-sub">{{ len . }} {{ if eq (len .) 1 }}deal{{ else }}deals{{ end }} gone in the last 7 days</span></summary>
+      <p class="fp-blurb">These were listed above and have since sold out or gone back to full price. The price shown is what the deal was, not what the item costs now.</p>
+      <div class="fp-table-wrap">
+        <table class="fp-table dp-table">
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col" class="fp-num">Deal price was</th>
+              <th scope="col" class="fp-num">Last seen</th>
+              <th scope="col"><span class="fp-sr">Store</span></th>
+            </tr>
+          </thead>
+          <tbody>
+          {{- range . }}
+            <tr>
+              <th scope="row" class="dp-item">
+                <span class="dp-title">{{ with .brand }}<span class="fp-brand">{{ . }}</span> {{ end }}{{ if .brand }}{{ strings.TrimPrefix (printf "%s " .brand) .title }}{{ else }}{{ .title }}{{ end }}</span>
+                <span class="fp-size">{{ with .variant }}{{ . }} · {{ end }}{{ .store_name }}</span>
+              </th>
+              <td class="fp-num">${{ lang.FormatNumber 2 .price }}<br><span class="fp-was">{{ math.Round (mul .pct 100) }}% off</span></td>
+              <td class="fp-num">{{ time.Format "Jan 2" .last_seen }}</td>
+              <td class="fp-buy"><a class="fp-link" href="{{ .url }}" target="_blank" rel="{{ if .sponsored }}sponsored {{ end }}nofollow noopener">Check store</a></td>
+            </tr>
+          {{- end }}
+          </tbody>
+        </table>
+      </div>
+    </details>
+    {{- end }}
+
     </div>{{/* #dp-main */}}
 
     <section class="fp-method">
@@ -59,6 +91,7 @@
       <ul>
         <li>A script reads each store's public product catalog once a day and keeps in-stock items priced at least {{ $d.min_discount_pct | default 20 }}% under that store's list price. Anything under $20, and anything claiming more than 80% off, is left out. New gear only: used, demo and pre-owned items aren't listed, and neither are old standards (tubular, rim brake, 10-speed and below, 26-inch) or model years more than two years back.</li>
         <li>Only established brands are listed: the ones covered in articles on this site, plus the major names in bikes, parts and gear.</li>
+        <li><strong>Recently ended</strong> lists deals that were on this page in the last week and have since dropped out of the scan, either because they sold out or the price went back up.</li>
         <li><strong>New today</strong> means the deal wasn't listed yesterday. <strong>Lower again</strong> means the price dropped below the lowest we'd seen for that deal.</li>
         <li>The crossed-out price is the store's own list price, not a price we verified elsewhere. Some shops set list prices high, so compare before you buy on big-ticket items.</li>
         <li>The lists above show the most relevant deals. The search box covers every deal the scan found, including older standards and model years that are left off the main lists.</li>

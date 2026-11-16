@@ -43,6 +43,8 @@ ALL = ROOT / "static" / "deals-all.json"    # every deal, for the page's search 
 TIMEOUT = 30
 PAGE_SIZE = 250                 # Shopify's maximum for products.json
 HISTORY_KEEP_DAYS = 45          # forget deals not seen for this long
+ENDED_DAYS = 7                  # "Recently ended" shows deals that left in the last week
+ENDED_MAX = 30                  # ...and at most this many
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; MizubikesPriceBot/1.0; "
                   "+https://mizubikes.com/bike-deals/)",
@@ -565,6 +567,32 @@ def main() -> int:
                                "total": sum(1 for it in pool if it["category"] == key)})
 
     shown = [it for c in categories for it in c["items"]]
+
+    # remember what each listed deal looked like, so it can be shown as
+    # "recently ended" once it drops out of the scan
+    for it in shown:
+        history[it["key"]]["info"] = {
+            "title": it["title"], "brand": it["brand"], "variant": it["variant"],
+            "store": it["store"], "store_name": it["store_name"], "category": it["category"],
+            "price": it["price"], "was": it["was"], "pct": it["pct"], "url": it["url"],
+            "sponsored": it.get("sponsored", False),
+        }
+    live = {it["key"] for it in pool}
+    ok_stores = {r["id"] for r in status if r["ok"]}
+    ended_cutoff = (today - dt.timedelta(days=ENDED_DAYS)).isoformat()
+    ended = []
+    for key, h in history.items():
+        info = h.get("info")
+        if not info or key in live:
+            continue
+        if h["last"] < ended_cutoff:
+            del h["info"]               # too long ago: stop carrying the details
+            continue
+        # only call it ended if its store was actually scanned today
+        if h["last"] < today_s and info["store"] in ok_stores:
+            ended.append({**info, "last_seen": h["last"], "since": h["first"]})
+    ended.sort(key=lambda e: (e["last_seen"], e["pct"]), reverse=True)
+    ended = ended[:ENDED_MAX]
     top = pick(shown, int(cfg["top_count"]), per_store=3, per_category=2)
 
     out = {
@@ -574,10 +602,11 @@ def main() -> int:
         "stores": status,
         "top": top,
         "categories": categories,
+        "ended": ended,
     }
 
     summary = (f"{ok_count}/{len(stores)} stores scanned, {len(pool)} deals found, "
-               f"{len(shown)} shown")
+               f"{len(shown)} shown, {len(ended)} recently ended")
     if brands.on:
         kept = sorted(k for k, v in brands.cache.items() if v)
         dropped = sorted(k for k, v in brands.cache.items() if not v)
