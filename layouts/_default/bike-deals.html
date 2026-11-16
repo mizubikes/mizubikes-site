@@ -122,6 +122,33 @@
       {{- end }}
       {{- end }}
       {{- end }}
+
+      {{- /* "Everything else": the best deal from each category without its own row */ -}}
+      {{- $rest := slice -}}
+      {{- $restTotal := 0 -}}
+      {{- range $cats }}
+        {{- if not (in $frontKeys .key) }}
+          {{- $restTotal = add $restTotal (int .total) -}}
+          {{- with index .items 0 }}{{ $rest = $rest | append . }}{{ end -}}
+        {{- end }}
+      {{- end }}
+      {{- $rest = first $perRow (sort $rest "score" "desc") -}}
+      {{- if ge (len $rest) 2 }}
+      <section class="dp-front-sec">
+        <div class="dp-front-head">
+          <div class="dp-front-name">
+            <h2 class="dp-group-title">More deals</h2>
+            <span class="dp-front-count">Brakes, cockpit, apparel, frames, suspension and more &middot; {{ $restTotal }} deals today</span>
+          </div>
+          <button type="button" class="dp-seeall" data-goto="all">See all &rarr;</button>
+        </div>
+        <div class="dp-grid dp-row">
+          {{- range $rest }}
+          {{ partial "deals/card.html" (dict "it" . "cat" (index $titles .category)) }}
+          {{- end }}
+        </div>
+      </section>
+      {{- end }}
     </div>
 
     {{- end }}
@@ -314,6 +341,13 @@
       state.cat = keys.indexOf('all') >= 0 ? 'all' : state.cat;
     }
     tabs.forEach(function (t) { t.addEventListener('click', function () { pick(t.dataset.cat, true); }); });
+    [].slice.call(document.querySelectorAll('button.dp-seeall')).forEach(function (b) {
+      b.addEventListener('click', function () {
+        pick(b.dataset.goto);
+        var bar = document.querySelector('.dp-toolbar');
+        if (bar) bar.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      });
+    });
     if (sortSel) sortSel.addEventListener('change', function () {
       state.sort = sortSel.value; leaveBest(); fillSizes(); render();
     });
