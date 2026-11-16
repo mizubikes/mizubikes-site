@@ -69,6 +69,8 @@ settings:
     - BMC
     - Scott
     - Ventum
+    - Factor
+    - OBED
     # drivetrain, brakes, suspension, cockpit
     - Shimano
     - SRAM
@@ -183,6 +185,18 @@ stores:
     enabled: true
     affiliate: ""
 
+  - id: mikes-bikes
+    name: Mike's Bikes
+    base: "https://mikesbikes.com"
+    enabled: true
+    affiliate: ""
+
+  - id: sierra-bicycle-supply
+    name: Sierra Bicycle Supply
+    base: "https://shopbikesupply.com"
+    enabled: true
+    affiliate: ""
+
   # ---------------- Specialized (not Shopify) ----------------
   # Reads the products shown on specialized.com's public sale page (the first
   # 96 of the sale, in the site's own order). Add more public pages under
@@ -207,11 +221,14 @@ stores:
   - {id: niner, name: Niner Bikes, base: "https://ninerbikes.com", enabled: false, affiliate: ""}
   - {id: evil, name: Evil Bikes, base: "https://www.evil-bikes.com", enabled: true, affiliate: ""}
   - {id: revel, name: Revel Bikes, base: "https://revelbikes.com", enabled: true, affiliate: ""}
-  - {id: ventum, name: Ventum, base: "https://ventumracing.com", enabled: false, affiliate: ""}
+  - {id: ventum, name: Ventum, base: "https://ventumracing.com", enabled: false, affiliate: ""}   # BigCommerce, not Shopify
   - {id: lauf, name: Lauf Cycles, base: "https://www.laufcycles.com", enabled: false, affiliate: ""}
   - {id: state, name: State Bicycle Co, base: "https://www.statebicycle.com", enabled: true, affiliate: ""}
   - {id: diamondback, name: Diamondback, base: "https://www.diamondback.com", enabled: true, affiliate: ""}
   - {id: aventon, name: Aventon, base: "https://www.aventon.com", enabled: true, affiliate: ""}
+
+  - {id: factor, name: Factor Bikes, base: "https://www.factorbikes.com", enabled: true, affiliate: ""}
+  - {id: obed, name: OBED, base: "https://obedbikes.com", enabled: true, affiliate: ""}
 
   # Wheels and components
   - {id: enve, name: ENVE, base: "https://www.enve.com", enabled: true, affiliate: ""}
