@@ -1060,6 +1060,19 @@
  },
  "contender:6121609887912": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Giro",
+   "category": "apparel",
+   "pct": 0.405,
+   "price": 166.59,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Manifest Spherical Helmet",
+   "url": "https://contenderbicycles.com/products/giro-manifest-spherical-helmet?variant=37378614952104",
+   "variant": "Matte Black / S",
+   "was": 279.95
+  },
   "last": "2026-11-16",
   "low": 166.59,
   "seed": true
@@ -3575,6 +3588,19 @@
  },
  "fanatik:10332129923": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.201,
+   "price": 27.95,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Code / Guide Lever Blade V2",
+   "url": "https://www.fanatikbike.com/products/sram-code-rsc-guide-lever-blade-v2?variant=39145740867",
+   "variant": "RS",
+   "was": 35.0
+  },
   "last": "2026-11-16",
   "low": 27.95,
   "seed": true
@@ -3746,6 +3772,19 @@
  },
  "fanatik:1817760563246": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "OneUp Components",
+   "category": "brakes",
+   "pct": 0.2,
+   "price": 75.99,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "ISCG05 Bash Guide - V2",
+   "url": "https://www.fanatikbike.com/products/oneup-iscg05-bash-guide-v2?variant=16561328422958",
+   "variant": "Black",
+   "was": 94.99
+  },
   "last": "2026-11-16",
   "low": 75.99,
   "seed": true
@@ -4476,6 +4515,19 @@
  },
  "fanatik:6553584238638": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Fox Racing Shox",
+   "category": "suspension",
+   "pct": 0.331,
+   "price": 219.95,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Transfer SL Performance Elite Dropper Post",
+   "url": "https://www.fanatikbike.com/products/fox-transfer-sl-performance-elite-dropper-post?variant=39310728986670",
+   "variant": "30.9mm / 75mm",
+   "was": 329.0
+  },
   "last": "2026-11-16",
   "low": 219.95,
   "seed": true
@@ -4494,6 +4546,19 @@
  },
  "fanatik:6624052936750": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "TRP",
+   "category": "brakes",
+   "pct": 0.2,
+   "price": 219.99,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "DH-R EVO Disc Brake",
+   "url": "https://www.fanatikbike.com/products/trp-dh-r-evo-disc-brake?variant=39754723721262",
+   "variant": "Matte Black / Left / Front",
+   "was": 274.99
+  },
   "last": "2026-11-16",
   "low": 219.99,
   "seed": true
@@ -4642,6 +4707,19 @@
  },
  "fanatik:6753981431854": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Hope",
+   "category": "brakes",
+   "pct": 0.199,
+   "price": 235.95,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Tech 4 E4 Disc Brake",
+   "url": "https://www.fanatikbike.com/products/hope-tech-4-e4-disc-brake?variant=39731991969838",
+   "variant": "Black/Silver / Right / Rear",
+   "was": 294.4
+  },
   "last": "2026-11-16",
   "low": 235.95
  },
@@ -4665,6 +4743,19 @@
  },
  "fanatik:6785590034478": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.286,
+   "price": 25.0,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "SID Decal Kit - Gloss Finish",
+   "url": "https://www.fanatikbike.com/products/rockshox-sid-decal-kit-gloss-finish?variant=39840415678510",
+   "variant": "Woodland Camo",
+   "was": 35.0
+  },
   "last": "2026-11-16",
   "low": 25.0,
   "seed": true
@@ -5116,6 +5207,19 @@
  },
  "fanatik:7008810532910": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "tires",
+   "pct": 0.333,
+   "price": 49.99,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Ground Control Grid 2BR T7 Tire 29\" x 2.35\"",
+   "url": "https://www.fanatikbike.com/products/specialized-ground-control-grid-2br-t7-tire-29-x-2-35?variant=40811376574510",
+   "variant": "",
+   "was": 74.99
+  },
   "last": "2026-11-16",
   "low": 49.99,
   "seed": true
@@ -6881,6 +6985,19 @@
  },
  "incycle:6729303588995": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.401,
+   "price": 32.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Mattone Grande Pack",
+   "url": "https://www.incycle.com/products/silca-mattone-grande-pack?variant=39656444592259",
+   "variant": "",
+   "was": 55.0
+  },
   "last": "2026-11-16",
   "low": 32.97,
   "seed": true
@@ -7386,6 +7503,19 @@
  },
  "incycle:7746969010307": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.741,
+   "price": 21.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Women's Power Grid™ Short Sleeve Baselayer",
+   "url": "https://www.incycle.com/products/specialized-powergrid-baselayer-short-sleeve-womens?variant=42833323065475",
+   "variant": "Dove Grey / XXS",
+   "was": 84.99
+  },
   "last": "2026-11-16",
   "low": 21.97
  },
@@ -8355,6 +8485,19 @@
  },
  "incycle:8053559722115": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.4,
+   "price": 113.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Men's Prime Power Grid Long Sleeve Jersey",
+   "url": "https://www.incycle.com/products/specialized-prime-powergrid-jersey-ls-mens?variant=43689060827267",
+   "variant": "Harvest Gold / XL",
+   "was": 189.99
+  },
   "last": "2026-11-16",
   "low": 113.97,
   "seed": true
@@ -8433,6 +8576,19 @@
  },
  "incycle:8190197530755": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.333,
+   "price": 149.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Recon ADV Shoe",
+   "url": "https://www.incycle.com/products/specialized-recon-adv-mtb-shoe?variant=45545053782147",
+   "variant": "Taupe / Dark Moss Green / Fiery Red / Purple Orchid / 45 / Regular",
+   "was": 224.99
+  },
   "last": "2026-11-16",
   "low": 149.97,
   "seed": true
@@ -8552,6 +8708,19 @@
  },
  "incycle:8357033705603": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.6,
+   "price": 71.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Ambush 2",
+   "url": "https://www.incycle.com/products/specialized-ambush-2-helmet?variant=44493462569091",
+   "variant": "Deep Marine / S / Classic",
+   "was": 179.99
+  },
   "last": "2026-11-16",
   "low": 71.97,
   "seed": true
@@ -8678,6 +8847,19 @@
  },
  "incycle:8409435177091": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.5,
+   "price": 114.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Recon 3.0 Gravel & Mountain Bike Shoe",
+   "url": "https://www.incycle.com/products/specialized-recon-3-0-mtb-shoe-cctsblm-blk?variant=44651308810371",
+   "variant": "Cactus Bloom / Black / 36 / Regular",
+   "was": 229.99
+  },
   "last": "2026-11-16",
   "low": 114.97,
   "seed": true
@@ -9372,6 +9554,19 @@
  },
  "incycle:8585927884931": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.25,
+   "price": 209.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Torch 3.0 Road Shoes",
+   "url": "https://www.incycle.com/products/specialized-torch-3-0-road-shoes?variant=45261547241603",
+   "variant": "Black / 36 Regular",
+   "was": 279.99
+  },
   "last": "2026-11-16",
   "low": 209.99
  },
@@ -10075,6 +10270,19 @@
  },
  "incycle:8736903856259": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.5,
+   "price": 84.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Torch 2.0 Road Shoes",
+   "url": "https://www.incycle.com/products/specialized-torch-2-0-shoe-1?variant=45757725835395",
+   "variant": "Black / 38 / Regular",
+   "was": 169.99
+  },
   "last": "2026-11-16",
   "low": 84.97,
   "seed": true
@@ -11218,6 +11426,19 @@
  },
  "mikes-bikes:6845498982469": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.299,
+   "price": 184.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Code RSC Disc Brake",
+   "url": "https://mikesbikes.com/products/sram-code-rsc-brake-set?variant=40410161152069",
+   "variant": "Black / Front",
+   "was": 264.0
+  },
   "last": "2026-11-16",
   "low": 184.95
  },
@@ -12043,6 +12264,19 @@
  },
  "mikes-bikes:7455285051461": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Giro",
+   "category": "apparel",
+   "pct": 0.464,
+   "price": 149.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Manifest Spherical Helmet",
+   "url": "https://mikesbikes.com/products/giro-manifest-spherical-mips-helmet?variant=42537942777925",
+   "variant": "Matte Black / Small",
+   "was": 279.99
+  },
   "last": "2026-11-16",
   "low": 149.95
  },
@@ -12610,6 +12844,19 @@
  },
  "mikes-bikes:7808889749573": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Reserve",
+   "category": "wheels",
+   "pct": 0.2,
+   "price": 1759.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "30|HD Sidekick Wheelset (29)",
+   "url": "https://mikesbikes.com/products/reserve-30-hd-sidekick-29?variant=43881389129797",
+   "variant": "",
+   "was": 2199.99
+  },
   "last": "2026-11-16",
   "low": 1759.95
  },
@@ -13036,6 +13283,19 @@
  },
  "oneup:6994282741857": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "OneUp Components",
+   "category": "accessories",
+   "pct": 0.294,
+   "price": 90.99,
+   "sponsored": false,
+   "store": "oneup",
+   "store_name": "OneUp Components",
+   "title": "EDC Threaded Top Cap Bundle",
+   "url": "https://www.oneupcomponents.com/products/edc-threaded-top-cap-bundle?variant=41826492711009",
+   "variant": "Dark Green",
+   "was": 128.97
+  },
   "last": "2026-11-16",
   "low": 90.99
  },
@@ -13269,6 +13529,19 @@
  },
  "oneup:759877468257": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "OneUp Components",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 31.99,
+   "sponsored": false,
+   "store": "oneup",
+   "store_name": "OneUp Components",
+   "title": "EDC Plug & Pliers Kit",
+   "url": "https://www.oneupcomponents.com/products/edc-plug-pliers-kit?variant=8191219007585",
+   "variant": "",
+   "was": 39.99
+  },
   "last": "2026-11-16",
   "low": 31.99
  },
@@ -15013,6 +15286,19 @@
  },
  "planet-cyclery:8042825547948": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Topeak",
+   "category": "tools",
+   "pct": 0.167,
+   "price": 24.95,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Mini Dual G Mini Pump",
+   "url": "https://www.planetcyclery.com/products/topeak-mini-dual-g-mini-pump?variant=43765679325356",
+   "variant": "Black - Silver / Presta / Schrader / Dunlop",
+   "was": 29.95
+  },
   "last": "2026-11-16",
   "low": 24.95
  },
@@ -17059,6 +17345,19 @@
  },
  "planet-cyclery:8043472781484": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "apparel",
+   "pct": 0.444,
+   "price": 49.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "S-PHYRE Thermal Glove - Black",
+   "url": "https://www.planetcyclery.com/products/shimano-s-phyre-thermal-glove-black?variant=43767606575276",
+   "variant": "Black / 2X-Large",
+   "was": 89.99
+  },
   "last": "2026-11-16",
   "low": 49.99
  },
@@ -18208,6 +18507,19 @@
  },
  "planet-cyclery:8043777982636": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Schwalbe",
+   "category": "tires",
+   "pct": 0.352,
+   "price": 69.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Magic Mary Evolution 27.5\" Folding MTB Tire - Super Gravity",
+   "url": "https://www.planetcyclery.com/products/schwalbe-magic-mary-evolution-27-5-folding-mtb-tire-super-gravity?variant=43768308433068",
+   "variant": "Black / 2.4\" / Addix Soft",
+   "was": 108.0
+  },
   "last": "2026-11-16",
   "low": 69.99,
   "seed": true
@@ -19545,6 +19857,19 @@
  },
  "planet-cyclery:8044086788268": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Topeak",
+   "category": "accessories",
+   "pct": 0.158,
+   "price": 31.95,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "VersaCage Rack Mount - Black",
+   "url": "https://www.planetcyclery.com/products/topeak-versacage-rack-mount-black?variant=43768932663468",
+   "variant": "Black",
+   "was": 37.95
+  },
   "last": "2026-11-16",
   "low": 31.95
  },
@@ -19623,6 +19948,19 @@
  },
  "planet-cyclery:8044106514604": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Fox Suspension",
+   "category": "suspension",
+   "pct": 0.248,
+   "price": 299.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Transfer SL Factory Dropper Seatpost - 27.2 - Internal",
+   "url": "https://www.planetcyclery.com/products/fox-suspension-transfer-sl-factory-dropper-seatpost-27-2-internal?variant=43768965726380",
+   "variant": "Black / 350mm - 50mm Drop",
+   "was": 399.0
+  },
   "last": "2026-11-16",
   "low": 299.99
  },
@@ -23625,6 +23963,19 @@
  },
  "planet-cyclery:8044629131436": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.252,
+   "price": 574.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Vivid Ultimate RC2T Rear Shock",
+   "url": "https://www.planetcyclery.com/products/rockshox-vivid-ultimate-rc2t-rear-shock?variant=43770401652908",
+   "variant": "Black / 230mm x 57.5mm / C1",
+   "was": 769.0
+  },
   "last": "2026-11-16",
   "low": 574.99,
   "seed": true
@@ -23692,6 +24043,19 @@
  },
  "planet-cyclery:8044641976492": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Wolf Tooth Components",
+   "category": "suspension",
+   "pct": 0.131,
+   "price": 329.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Resolve Dropper Post - 30.9mm",
+   "url": "https://www.planetcyclery.com/products/wolf-tooth-components-resolve-dropper-post-30-9mm?variant=43770423509164",
+   "variant": "Black / 30.9mm - 515mm / 200mm Travel",
+   "was": 379.95
+  },
   "last": "2026-11-16",
   "low": 329.99
  },
@@ -23738,6 +24102,19 @@
  },
  "planet-cyclery:8044644958380": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Troy Lee Designs",
+   "category": "apparel",
+   "pct": 0.4,
+   "price": 176.4,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "A3 MIPS MTB Helmet - SRAM - Red",
+   "url": "https://www.planetcyclery.com/products/troy-lee-designs-a3-mips-mtb-helmet-sram-red?variant=43770430029996",
+   "variant": "Red / X-Small/Small",
+   "was": 294.0
+  },
   "last": "2026-11-16",
   "low": 176.4,
   "seed": true
@@ -24346,6 +24723,19 @@
  },
  "planet-cyclery:8058277396652": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.672,
+   "price": 59.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Level 2 Disc Brake - Rear - OE",
+   "url": "https://www.planetcyclery.com/products/sram-level-2-disc-brake-rear-oe?variant=43799554916524",
+   "variant": "Black / 1650mm Hose - Org Pads - DM",
+   "was": 183.0
+  },
   "last": "2026-11-16",
   "low": 59.99,
   "seed": true
@@ -24625,6 +25015,19 @@
  },
  "planet-cyclery:8074217259180": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Fox Racing",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 179.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Podium Bag - Black",
+   "url": "https://www.planetcyclery.com/products/fox-racing-podium-bag-black?variant=43850545004716",
+   "variant": "Black",
+   "was": 224.95
+  },
   "last": "2026-11-16",
   "low": 179.99
  },
@@ -24946,6 +25349,19 @@
  },
  "planet-cyclery:8102104694956": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Wolf Tooth Components",
+   "category": "accessories",
+   "pct": 0.111,
+   "price": 39.95,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Morse Cargo Cage - Black",
+   "url": "https://www.planetcyclery.com/products/wolf-tooth-components-morse-cargo-cage-black?variant=43949078708396",
+   "variant": "Black / Each",
+   "was": 44.95
+  },
   "last": "2026-11-16",
   "low": 39.95
  },
@@ -26417,6 +26833,19 @@
  },
  "planet-cyclery:8263901937836": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "apparel",
+   "pct": 0.257,
+   "price": 389.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "XC903S S-Phyre MTB Shoe - Wide - Silver",
+   "url": "https://www.planetcyclery.com/products/shimano-xc903s-s-phyre-mtb-shoe-wide-silver?variant=44497581703340",
+   "variant": "Silver / EU 43",
+   "was": 525.0
+  },
   "last": "2026-11-16",
   "low": 389.99,
   "seed": true
@@ -27087,6 +27516,19 @@
  },
  "planet-cyclery:8444298264748": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Yeti",
+   "category": "apparel",
+   "pct": 0.4,
+   "price": 47.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Tolland Short Sleeve MTB Jersey - Black",
+   "url": "https://www.planetcyclery.com/products/yeti-tolland-short-sleeve-mtb-jersey-black?variant=45217545715884",
+   "variant": "Black / Medium",
+   "was": 80.0
+  },
   "last": "2026-11-16",
   "low": 47.99,
   "seed": true
@@ -27099,6 +27541,19 @@
  },
  "planet-cyclery:8444298494124": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Yeti",
+   "category": "apparel",
+   "pct": 0.4,
+   "price": 44.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Longhorn Short Seeve MTB Jersey - Turq Halftone",
+   "url": "https://www.planetcyclery.com/products/yeti-longhorn-short-seeve-mtb-jersey-turq-halftone?variant=45217546862764",
+   "variant": "Turq Halftone / Small",
+   "was": 75.0
+  },
   "last": "2026-11-16",
   "low": 44.99,
   "seed": true
@@ -27733,6 +28188,19 @@
  },
  "planet-cyclery:8760649187500": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.353,
+   "price": 110.0,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Level TLM Disc Brake - Front - OE",
+   "url": "https://www.planetcyclery.com/products/sram-level-tlm-disc-brake-front-oe?variant=47205625692332",
+   "variant": "Black / 800mm Hose - 20mm PM",
+   "was": 170.0
+  },
   "last": "2026-11-16",
   "low": 110.0,
   "seed": true
@@ -27764,12 +28232,38 @@
  },
  "planet-cyclery:8760649285804": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.401,
+   "price": 44.95,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Level Disc Brake - Front - Black - OE",
+   "url": "https://www.planetcyclery.com/products/sram-level-disc-brake-front-black-oe?variant=47205625790636",
+   "variant": "Black / 800mm Hose - 20mm PM",
+   "was": 75.0
+  },
   "last": "2026-11-16",
   "low": 44.95,
   "seed": true
  },
  "planet-cyclery:8760649351340": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.5,
+   "price": 49.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Level T Disc Brake - Front - Black - OE",
+   "url": "https://www.planetcyclery.com/products/sram-level-t-disc-brake-front-black-oe?variant=47205625888940",
+   "variant": "Black / 800mm Hose - 20mm PM",
+   "was": 100.0
+  },
   "last": "2026-11-16",
   "low": 49.99,
   "seed": true
@@ -27974,6 +28468,19 @@
  },
  "sierra-bicycle-supply:6229423554745": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.335,
+   "price": 152.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Recon 3.0 Gravel & Mountain Bike Shoe",
+   "url": "https://shopbikesupply.com/products/specialized-recon-3-0-mountain-bike-shoes-black?variant=38689161838777",
+   "variant": "Black / 36",
+   "was": 230.0
+  },
   "last": "2026-11-16",
   "low": 152.99
  },
@@ -28218,7 +28725,7 @@
   "first": "2026-11-16",
   "info": {
    "brand": "Specialized",
-   "category": "drivetrain",
+   "category": "bikes",
    "pct": 0.159,
    "price": 9499.99,
    "sponsored": false,
@@ -28763,6 +29270,19 @@
  },
  "sierra-bicycle-supply:9144265638136": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.489,
+   "price": 22.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Polartec® Power Grid™ Dickey",
+   "url": "https://shopbikesupply.com/products/polartec-r-power-grid-dickey?variant=46623851643128",
+   "variant": "Black / L/XL",
+   "was": 45.0
+  },
   "last": "2026-11-16",
   "low": 22.99
  },
@@ -28846,6 +29366,19 @@
  },
  "sierra-bicycle-supply:9175721836792": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.143,
+   "price": 30.0,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Eagle 70 T-Type Trigger Shifter",
+   "url": "https://shopbikesupply.com/products/eagle-70-t-type-trigger-shifter?variant=46704505192696",
+   "variant": "Eagle 70 T-Type Single Click Trigger Shifter - Rear, 12-Speed, Integrated Clamp, Black",
+   "was": 35.0
+  },
   "last": "2026-11-16",
   "low": 30.0
  },
@@ -29472,6 +30005,19 @@
  },
  "sierra-bicycle-supply:9239720231160": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.693,
+   "price": 22.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Women's Power Grid™ Sleeveless Baselayer",
+   "url": "https://shopbikesupply.com/products/womens-power-grid-sleeveless-baselayer-1?variant=46943456067832",
+   "variant": "XL / Dove Grey",
+   "was": 75.0
+  },
   "last": "2026-11-16",
   "low": 22.99
  },
@@ -29555,6 +30101,19 @@
  },
  "sierra-bicycle-supply:9239924965624": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "tires",
+   "pct": 0.333,
+   "price": 49.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Ground Control Control 2Bliss Ready T5",
+   "url": "https://shopbikesupply.com/products/ground-control-control-2bliss-ready-t5-1?variant=46943854919928",
+   "variant": "29 x 2.2 / Black",
+   "was": 75.0
+  },
   "last": "2026-11-16",
   "low": 49.99
  },
@@ -29671,6 +30230,19 @@
  },
  "sierra-bicycle-supply:9332061503736": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.4,
+   "price": 119.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Torch 2.0 Road Shoes",
+   "url": "https://shopbikesupply.com/products/torch-2-0-road-shoes?variant=47614409998584",
+   "variant": "40 / Deep Marine/Terra Cotta",
+   "was": 200.0
+  },
   "last": "2026-11-16",
   "low": 119.99
  },
@@ -29706,11 +30278,37 @@
  },
  "sierra-bicycle-supply:9357128958200": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 78.0,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Dissector",
+   "url": "https://shopbikesupply.com/products/dissector-tire?variant=47724173394168",
+   "variant": "Dissector, Tire, 27.5''x2.60, Folding, Tubeless Ready, 3C Maxx Terra, EXO, 60TPI, Black",
+   "was": 104.0
+  },
   "last": "2026-11-16",
   "low": 78.0
  },
  "sierra-bicycle-supply:9357129187576": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 78.0,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Rekon Tire",
+   "url": "https://shopbikesupply.com/products/rekon-tire?variant=47724174803192",
+   "variant": "Rekon Tire - 27.5 x 2.6, Tubeless, Folding, Black, 3C MaxxTerra, EXO",
+   "was": 104.0
+  },
   "last": "2026-11-16",
   "low": 78.0
  },
@@ -29814,6 +30412,19 @@
  },
  "sierra-bicycle-supply:9843369672952": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.667,
+   "price": 49.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Men's Prime Power Grid™ LS Jersey",
+   "url": "https://shopbikesupply.com/products/mens-prime-power-grid™-ls-jersey?variant=48789230649592",
+   "variant": "Black / S",
+   "was": 150.0
+  },
   "last": "2026-11-16",
   "low": 49.99
  },
@@ -29961,6 +30572,19 @@
  },
  "silca:6697460924514": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.505,
+   "price": 49.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Chisela Computer Mount",
+   "url": "https://silca.cc/products/chisela-computer-mount?variant=39741121953890",
+   "variant": "Madone V1 Aero",
+   "was": 99.0
+  },
   "last": "2026-11-16",
   "low": 49.0
  },
@@ -30079,6 +30703,19 @@
  },
  "specialized:1000208967": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.4,
+   "price": 179.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "S-Works Prevail 3 (2024)",
+   "url": "https://www.specialized.com/us/en/p/1000208967",
+   "variant": "",
+   "was": 299.99
+  },
   "last": "2026-11-16",
   "low": 179.99
  },
@@ -30988,6 +31625,19 @@
  },
  "the-lost-co:1958854197348": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.2,
+   "price": 28.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Code / Guide RE Brake Pads",
+   "url": "https://www.thelostco.com/products/sram-code-r-rsc-new-guide-re-brake-pads-metallic?variant=18467929948260",
+   "variant": "Metallic",
+   "was": 35.0
+  },
   "last": "2026-11-16",
   "low": 28.0
  },
@@ -31130,6 +31780,19 @@
  },
  "the-lost-co:4646309068881": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 20.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "ZEB / Domain Fender",
+   "url": "https://www.thelostco.com/products/rockshox-zeb-fender?variant=32437798830161",
+   "variant": "",
+   "was": 25.0
+  },
   "last": "2026-11-16",
   "low": 20.0
  },
@@ -31237,6 +31900,19 @@
  },
  "the-lost-co:7253498003654": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.2,
+   "price": 228.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Level Ultimate",
+   "url": "https://www.thelostco.com/products/sram-level-ultimate?variant=41785971507398",
+   "variant": "Black/Black / Front/Left",
+   "was": 285.0
+  },
   "last": "2026-11-16",
   "low": 228.0
  },
@@ -31260,6 +31936,19 @@
  },
  "the-lost-co:7414815064262": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 20.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Pike / Lyrik Bolt-On Fender",
+   "url": "https://www.thelostco.com/products/copy-of-rockshox-zeb-domain-fender?variant=42004472725702",
+   "variant": "",
+   "was": 25.0
+  },
   "last": "2026-11-16",
   "low": 20.0
  },
@@ -31282,6 +31971,19 @@
  },
  "the-lost-co:7768808358086": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.2,
+   "price": 212.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Code Silver Stealth Brake",
+   "url": "https://www.thelostco.com/products/sram-code-silver-stealth-brake?variant=42619983593670",
+   "variant": "Front",
+   "was": 265.0
+  },
   "last": "2026-11-16",
   "low": 212.0
  },
@@ -31500,6 +32202,19 @@
  },
  "the-lost-co:7813616828614": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.25,
+   "price": 576.75,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Vivid Ultimate DH - 225X70 - C1",
+   "url": "https://www.thelostco.com/products/rockshox-vivid-ultimate-dh-rc2-225x70-adj-hbo-c1?variant=42772260421830",
+   "variant": "",
+   "was": 769.0
+  },
   "last": "2026-11-16",
   "low": 576.75,
   "seed": true
@@ -31671,6 +32386,19 @@
  },
  "the-lost-co:8227208855750": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.2,
+   "price": 527.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Super Deluxe Ultimate RC2T w/ HBO - 185x47.5 - C2",
+   "url": "https://www.thelostco.com/products/rockshox-super-deluxe-ultimate-rc2t-w-hbo-185x47-5-c2?variant=43845718704326",
+   "variant": "",
+   "was": 659.0
+  },
   "last": "2026-11-16",
   "low": 527.0,
   "seed": true
@@ -31761,6 +32489,19 @@
  },
  "the-lost-co:8472293736646": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Fox Racing Shox",
+   "category": "suspension",
+   "pct": 0.2,
+   "price": 647.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Factory Float X2 Shock w/ Climb Switch - 205 x 60/62.5/65 mm (2026)",
+   "url": "https://www.thelostco.com/products/2026-fox-factory-float-x2-shock-w-climb-switch-205-x-60-62-5-65-mm?variant=44487127695558",
+   "variant": "205 x 60 mm",
+   "was": 809.0
+  },
   "last": "2026-11-16",
   "low": 647.0,
   "seed": true
@@ -32018,6 +32759,19 @@
  },
  "the-lost-co:8899377791174": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "POC",
+   "category": "apparel",
+   "pct": 0.367,
+   "price": 190.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Kortal Race MIPS Helmet - Pargasite Green / Hydrogen White",
+   "url": "https://www.thelostco.com/products/poc-kortal-race-mips-helmet-pargasite-green-hydrogen-white?variant=45898352263366",
+   "variant": "Small",
+   "was": 300.0
+  },
   "last": "2026-11-16",
   "low": 190.0,
   "seed": true
@@ -40485,6 +41239,19 @@
  },
  "wolf-tooth:3816690117": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Wolf Tooth",
+   "category": "cockpit",
+   "pct": 0.25,
+   "price": 21.72,
+   "sponsored": false,
+   "store": "wolf-tooth",
+   "store_name": "Wolf Tooth Components",
+   "title": "Fat Paw Grips",
+   "url": "https://www.wolftoothcomponents.com/products/fatpawgrips?variant=19604041157",
+   "variant": "Red",
+   "was": 28.95
+  },
   "last": "2026-11-16",
   "low": 21.72
  },
@@ -40628,6 +41395,19 @@
  },
  "wolf-tooth:7109082644515": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Wolf Tooth",
+   "category": "accessories",
+   "pct": 0.1,
+   "price": 104.25,
+   "sponsored": false,
+   "store": "wolf-tooth",
+   "store_name": "Wolf Tooth Components",
+   "title": "Clik Valve Starter Kit",
+   "url": "https://www.wolftoothcomponents.com/products/clik-valve-starter-kit?variant=40823395614755",
+   "variant": "",
+   "was": 115.85
+  },
   "last": "2026-11-16",
   "low": 104.25
  },
