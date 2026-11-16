@@ -125,7 +125,7 @@ RULES = [
     ("wheels", re.compile(r"wheelset|\bwheels?\b|\bhubs?\b|\brims?\b(?! brake)|\bspokes?\b|"
                           r"freehub")),
     ("brakes", re.compile(r"\bbrakes?\b|\brotors?\b|brake pads?|caliper")),
-    ("drivetrain", re.compile(r"groupset|drivetrain|derailleur|cassette|crank|chainring|"
+    ("drivetrain", re.compile(r"groupset|drivetrain|transmission|t-type|derailleur|cassette|crank|chainring|"
                               r"\bchains?\b|shifter|bottom bracket|\bpedals?\b|\baxs\b|\bdi2\b|"
                               r"upgrade kit")),
     ("cockpit", re.compile(r"handlebar|\bbars?\b|\bstems?\b|seatpost|seat post|saddle|\bgrips?\b|"
@@ -138,7 +138,7 @@ def RIM_ONLY(title: str) -> bool:
                 and not re.search(r"wheel", title, re.I))
 
 
-COMPONENT_NOUN = re.compile(r"transmission|collection|derailleur|cassette|crank|chainring|shifter|lever|groupset|group ?set|"
+COMPONENT_NOUN = re.compile(r"derailleur|cassette|crank|chainring|shifter|lever|groupset|group ?set|"
                             r"upgrade kit|\bkit\b|wheelset|\bwheels?\b|\brims?\b|\bhubs?\b|\bforks?\b|"
                             r"\bshocks?\b|power ?meter|\bbrakes?\b|caliper|\brotors?\b|seatpost|dropper|"
                             r"handlebar|\bstem\b|cockpit|saddle|\bmotor\b|battery|computer|trainer|"
