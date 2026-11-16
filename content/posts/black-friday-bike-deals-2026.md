@@ -32,13 +32,7 @@ These update every morning from my [bike deal finder](/bike-deals/), which check
 
 {{< deals-picks n="10" >}}
 
-### Which stores have the most on sale
-
-Counted from the same daily scan: items marked down at least 10% and in stock.
-
-{{< deals-stores n="12" >}}
-
-On November 16, Planet Cyclery, inCycle, Sierra Bicycle Supply, Mike's Bikes and Fanatik had the deepest sale catalogs. Browse by category on the [deals page](/bike-deals/): [complete bikes](/bike-deals/bikes/), [wheels](/bike-deals/wheels/), [drivetrain](/bike-deals/drivetrain/), [tires](/bike-deals/tires/) and [power meters and computers](/bike-deals/electronics/).
+Browse by category on the [deals page](/bike-deals/): [complete bikes](/bike-deals/bikes/), [wheels](/bike-deals/wheels/), [drivetrain](/bike-deals/drivetrain/), [tires](/bike-deals/tires/) and [power meters and computers](/bike-deals/electronics/).
 
 ## Black Friday bike sales live now
 
