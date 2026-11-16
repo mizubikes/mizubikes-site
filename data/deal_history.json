@@ -2087,6 +2087,19 @@
  },
  "contender:9066028138741": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "CamelBak",
+   "category": "accessories",
+   "pct": 0.25,
+   "price": 49.49,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Mini M.U.L.E. 50 oz",
+   "url": "https://contenderbicycles.com/products/camelbak-mini-m-u-l-e-50-oz?variant=46501451530485",
+   "variant": "Pink/Flowers",
+   "was": 65.99
+  },
   "last": "2026-11-16",
   "low": 49.49,
   "seed": true
@@ -3222,6 +3235,19 @@
  },
  "evil:6923330715713": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Works Components",
+   "category": "cockpit",
+   "pct": 0.4,
+   "price": 65.4,
+   "sponsored": false,
+   "store": "evil",
+   "store_name": "Evil Bikes",
+   "title": "1.5 Degree Angle Headset",
+   "url": "https://www.evil-bikes.com/products/works-components-1-5-degree-angle-headset-1?variant=40286825742401",
+   "variant": "Works Components 1.5 Degree 130-139mm Angle Headset",
+   "was": 109.0
+  },
   "last": "2026-11-16",
   "low": 65.4
  },
@@ -5324,6 +5350,19 @@
  },
  "fanatik:7189214953518": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Fox",
+   "category": "apparel",
+   "pct": 0.378,
+   "price": 55.99,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Flexair Pro Jersey",
+   "url": "https://www.fanatikbike.com/products/fox-flexair-pro-jersey?variant=41507687923758",
+   "variant": "Pale Blue / MD",
+   "was": 89.95
+  },
   "last": "2026-11-16",
   "low": 55.99,
   "seed": true
@@ -6032,6 +6071,19 @@
  },
  "incycle:6739637239939": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "drivetrain",
+   "pct": 0.299,
+   "price": 311.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "CASSETTE SPROCKET CS-M9001 11-40T XTR FOR 3X11-SPEED 11-13-15-17-19-21-24-27-31-35-40T",
+   "url": "https://www.incycle.com/products/shimano-xtr-cs-m9000-9001-cassette?variant=39674972307587",
+   "variant": "",
+   "was": 445.0
+  },
   "last": "2026-11-16",
   "low": 311.97
  },
@@ -6232,6 +6284,19 @@
  },
  "incycle:6753010253955": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "DT Swiss",
+   "category": "wheels",
+   "pct": 0.299,
+   "price": 630.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "PRC 1450 Spline Carbon 12x142 Centerlock Rear Wheel w/opkge",
+   "url": "https://www.incycle.com/products/dt-swiss-prc-1450-spline-carbon-12x142-centerlock-rear-wheel-w-opkge?variant=39695587082371",
+   "variant": "",
+   "was": 900.0
+  },
   "last": "2026-11-16",
   "low": 630.97,
   "seed": true
@@ -7441,6 +7506,19 @@
  },
  "incycle:8344659460227": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "tires",
+   "pct": 0.333,
+   "price": 59.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Cannibal Grid Gravity 2Bliss Ready T9",
+   "url": "https://www.incycle.com/products/specialized-cannibal-grid-gravity-2br-t9-tire?variant=44440107909251",
+   "variant": "Black / 27.5 / 650B x 2.4",
+   "was": 89.99
+  },
   "last": "2026-11-16",
   "low": 59.99,
   "seed": true
@@ -17525,6 +17603,19 @@
  },
  "planet-cyclery:8044426756268": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.334,
+   "price": 29.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Metric Coil Rear Shock Spring - 151mm - Black",
+   "url": "https://www.planetcyclery.com/products/rockshox-metric-coil-rear-shock-spring-151mm-black?variant=43769777586348",
+   "variant": "Black / 151mm - 57.5-65mm / 450 lbs",
+   "was": 45.0
+  },
   "last": "2026-11-16",
   "low": 29.99,
   "seed": true
@@ -23094,6 +23185,19 @@
  },
  "specialized:4221352": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.241,
+   "price": 6599.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "Turbo Levo SL 2 Comp (2026)",
+   "url": "https://www.specialized.com/us/en/p/4221352",
+   "variant": "",
+   "was": 8699.99
+  },
   "last": "2026-11-16",
   "low": 6599.99
  },
@@ -23665,6 +23769,19 @@
  },
  "the-lost-co:1398863921252": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "OneUp Components",
+   "category": "tools",
+   "pct": 0.25,
+   "price": 44.99,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "EDC V2 Tool",
+   "url": "https://www.thelostco.com/products/oneup-components-edc-tool-system-v2?variant=12516449222756",
+   "variant": "",
+   "was": 59.99
+  },
   "last": "2026-11-16",
   "low": 44.99,
   "seed": true
@@ -24468,7 +24585,7 @@
  "the-lost-co:8899375661254": {
   "first": "2026-11-16",
   "last": "2026-11-16",
-  "low": 105.0,
+  "low": 98.0,
   "seed": true
  },
  "the-lost-co:8899375792326": {
@@ -24486,7 +24603,7 @@
  "the-lost-co:8899377791174": {
   "first": "2026-11-16",
   "last": "2026-11-16",
-  "low": 225.0,
+  "low": 190.0,
   "seed": true
  },
  "the-lost-co:8899381199046": {
