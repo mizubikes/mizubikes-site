@@ -138,7 +138,7 @@ def RIM_ONLY(title: str) -> bool:
                 and not re.search(r"wheel", title, re.I))
 
 
-COMPONENT_NOUN = re.compile(r"derailleur|cassette|crank|chainring|shifter|lever|groupset|group ?set|"
+COMPONENT_NOUN = re.compile(r"transmission|collection|derailleur|cassette|crank|chainring|shifter|lever|groupset|group ?set|"
                             r"upgrade kit|\bkit\b|wheelset|\bwheels?\b|\brims?\b|\bhubs?\b|\bforks?\b|"
                             r"\bshocks?\b|power ?meter|\bbrakes?\b|caliper|\brotors?\b|seatpost|dropper|"
                             r"handlebar|\bstem\b|cockpit|saddle|\bmotor\b|battery|computer|trainer|"
@@ -349,6 +349,15 @@ def fetch_specialized(store: dict, cfg: dict) -> list[dict]:
     return out
 
 
+# brands that make parts, not bikes: their products are never "complete bikes"
+PARTS_BRANDS = re.compile(r"^(sram|shimano|campagnolo|fox|fox racing|fox factory|rockshox|zipp|dt swiss|"
+                          r"quarq|garbaruk|wolf tooth|oneup|chris king|industry nine|hunt|roval|"
+                          r"reserve|race ?face|easton|fsa|e\*?thirteen|ohlins|cane creek|magura|hope|"
+                          r"trp|hayes|praxis|rotor|power2max|4iiii|stages|garmin|wahoo|hammerhead|"
+                          r"maxxis|continental|schwalbe|pirelli|vittoria|wtb|silca|park tool|"
+                          r"renthal|deity|thomson|pnw|bikeyoke|ergon|fizik|crankbrothers)\b", re.I)
+
+
 def categorize(product: dict, price: float) -> str:
     ptype = (product.get("product_type") or "").lower()
     title = (product.get("title") or "").lower()
@@ -357,6 +366,8 @@ def categorize(product: dict, price: float) -> str:
         tags = tags.split(",")
     text = " | ".join([ptype, title, " ".join(t.strip().lower() for t in tags[:25])])
     head = f"{ptype} | {title}"
+    parts_brand = bool(PARTS_BRANDS.search((product.get("vendor") or "").strip())) or \
+        bool(PARTS_BRANDS.search(title))
 
     is_bike = (re.search(r"\bbikes?\b|bicycles?", ptype) and price >= 500) or \
               (BIKE_TITLE.search(title) and price >= 800)
@@ -364,20 +375,20 @@ def categorize(product: dict, price: float) -> str:
     if re.search(r"frameset|frame set|frame only|\bframe\b(?!.*\bbike\b)|\b(disc|tt|frame) module\b", title) and price >= 300 \
             and not NOT_A_FRAME.search(head):
         return "framesets"
-    if is_bike and not NOT_A_BIKE.search(head):
+    if is_bike and not NOT_A_BIKE.search(head) and not parts_brand:
         return "bikes"
     if re.search(r"frameset|frame set|\bframes?\b", head) and price >= 300 \
             and not NOT_A_FRAME.search(head):
         return "framesets"
     # bike money and no component word in the name ("S-Works Stumpjumper 15
     # EVO Di2"): Di2/AXS/Transmission are the bike's spec, not the product
-    if price >= 2500 and not COMPONENT_NOUN.search(title) and not NOT_A_BIKE.search(head) \
+    if price >= 2500 and not parts_brand and not COMPONENT_NOUN.search(title) and not NOT_A_BIKE.search(head) \
             and not re.search(r"frameset|frame set|\bframe\b|\bmodule\b", title):
         return "bikes"
     # "Model - SRAM GX AXS, FOX ..." at bike money: the parts after the dash are
     # the bike's spec, not what is being sold
     model_part = re.split(r"\s[-–|]\s", title, maxsplit=1)[0]
-    if price >= 2500 and model_part != title and not NOT_A_BIKE.search(head) \
+    if price >= 2500 and not parts_brand and model_part != title and not NOT_A_BIKE.search(head) \
             and not any(rx.search(model_part) for _, rx in RULES) \
             and not re.search(r"groupset|wheelset|wheel|fork|frame|kit\b", model_part):
         return "bikes"
@@ -386,7 +397,7 @@ def categorize(product: dict, price: float) -> str:
             return key
     # nothing in the name says "component": at this price it is a complete bike
     # (e.g. "Turbo Vado SL 2 4.0"), whatever the store's tags say
-    if price >= 1500 and not NOT_A_BIKE.search(head):
+    if price >= 1500 and not parts_brand and not NOT_A_BIKE.search(head):
         return "bikes"
     for key, rx in RULES:
         if rx.search(text):
