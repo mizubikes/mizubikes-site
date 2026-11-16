@@ -141,6 +141,10 @@ def RIM_ONLY(title: str) -> bool:
 
 def HUB_ONLY(title: str) -> bool:
     """A bare hub or freehub body (not a built wheel): few readers build wheels."""
+    if re.search(r"thru ?axle|\baxle\b|end ?caps?|hub ?shell|\bbearings?\b|\bspokes?\b|"
+                 r"\bnipples?\b|\bpawls?\b|\bskewers?\b", title, re.I) \
+            and not re.search(r"wheel|grease|\btool|\boil\b|\bpress\b", title, re.I):
+        return True     # hub and wheel spares
     return bool(re.search(r"\b(free)?hubs?\b", title, re.I)
                 and not re.search(r"wheel|grease|\btool|\boil\b", title, re.I))
 
