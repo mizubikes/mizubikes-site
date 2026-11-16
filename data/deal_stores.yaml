@@ -16,6 +16,9 @@
 #   collections optional list of collection handles to scan instead of the
 #               whole catalog (the part after /collections/ in the URL,
 #               e.g. ["sale", "clearance"]). Much faster on big stores.
+#   used        true if the store sells mostly used gear. The whole store is
+#               skipped: this page lists new gear only. Used, demo and
+#               pre-owned items at other stores are filtered out by title.
 #   max_pages   optional override of settings.max_pages (250 products/page)
 #   affiliate   optional link template once the store approves you.
 #               {url} = product URL, {url_encoded} = URL-encoded product URL.
@@ -30,10 +33,9 @@ settings:
   per_category: 20            # rows shown per category
   per_store_per_category: 8   # cap per store inside one category
   top_count: 10               # rows in "Best deals today"
-  max_pages: 40               # 40 pages x 250 = 10,000 products per store
+  max_pages: 100              # 100 pages x 250 = 25,000 products per store
 
 stores:
-  # --- Known to work: the tire tracker already reads these two daily ---
   - id: worldwide-cyclery
     name: Worldwide Cyclery
     base: "https://worldwidecyclery.com"
@@ -43,13 +45,6 @@ stores:
   - id: incycle
     name: inCycle
     base: "https://www.incycle.com"
-    enabled: true
-    affiliate: ""
-
-  # --- Untested candidates: the first run's summary shows which respond ---
-  - id: the-pros-closet
-    name: The Pro's Closet
-    base: "https://www.theproscloset.com"
     enabled: true
     affiliate: ""
 

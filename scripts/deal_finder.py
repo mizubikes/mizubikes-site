@@ -7,8 +7,8 @@ Writes  data/deals.json           (today's deals, grouped by category)
         data/deal_history.json    (first-seen date + lowest price per deal)
 
 Each store is a Shopify shop. The script pages through the public
-/products.json catalog (or specific collections), keeps in-stock items
-marked down from the store's own list price, sorts them into categories,
+/products.json catalog (or specific collections), keeps new, in-stock items
+marked down from the store's own list price (used gear is left out), sorts them into categories,
 and ranks them. No Amazon prices are fetched or shown.
 
 Run locally:   python scripts/deal_finder.py
@@ -53,7 +53,7 @@ DEFAULTS = {
     "per_category": 20,         # rows shown per category
     "per_store_per_category": 8,  # stop one store from filling a category
     "top_count": 10,            # rows in "Best deals today"
-    "max_pages": 40,            # 40 x 250 = 10,000 products per store
+    "max_pages": 100,           # 100 x 250 = 25,000 products per store
     "delay_seconds": 1.0,       # pause between requests to the same store
 }
 
@@ -72,6 +72,8 @@ CATEGORIES = [
     ("tools", "Tools and maintenance"),
     ("accessories", "Accessories"),
 ]
+
+USED = re.compile(r"pre-?owned|\bused\b|certified|second ?hand|\bdemo\b|open box|blemish|\bblem\b", re.I)
 
 SKIP = re.compile(r"gift ?card|e-?gift|warranty|protection plan|shipping protection|"
                   r"route package|donation|labor|service fee|deposit", re.I)
@@ -107,7 +109,8 @@ RULES = [
                            r"bar tape|headset|cockpit")),
 ]
 
-BIKE_TITLE = re.compile(r"\b(road|mountain|gravel|cyclocross|triathlon|tt|electric|e)[ -]?bike\b")
+BIKE_TITLE = re.compile(r"\b(road|mountain|gravel|cyclocross|triathlon|tt|fat|electric|e|"
+                        r"enduro|trail|xc|commuter|hybrid|kids)[ -]?bike\b|\bbike\b ?[-|,] ?(19|20)\d\d")
 
 
 # ---------------------------------------------------------------- helpers
@@ -164,7 +167,12 @@ def fetch_catalog(store: dict, cfg: dict) -> list[dict]:
     for coll in collections:
         path = f"/collections/{coll}/products.json" if coll else "/products.json"
         for page in range(1, max_pages + 1):
-            data = get_json(f"{base}{path}?limit={PAGE_SIZE}&page={page}")
+            try:
+                data = get_json(f"{base}{path}?limit={PAGE_SIZE}&page={page}")
+            except RuntimeError:
+                if page == 1:
+                    raise
+                break       # store stops serving deep pages: keep what we have
             products = data.get("products") or []
             for p in products:
                 if p.get("id") not in seen:
@@ -238,8 +246,9 @@ def scan_store(store: dict, cfg: dict) -> tuple[list[dict], int]:
     deals = []
     for p in products:
         title = (p.get("title") or "").strip()
-        if not title or SKIP.search(f"{title} {p.get('product_type') or ''}"):
-            continue
+        label = f"{title} {p.get('product_type') or ''}"
+        if not title or SKIP.search(label) or USED.search(label):
+            continue        # new gear only: used, demo and pre-owned are left out
         hit = best_variant(p, cfg)
         if not hit:
             continue
@@ -293,7 +302,9 @@ def main() -> int:
 
     raw = yaml.safe_load(STORES.read_text(encoding="utf-8")) or {}
     cfg = {**DEFAULTS, **(raw.get("settings") or {})}
-    stores = [s for s in raw.get("stores", []) if s.get("enabled", True)]
+    # stores flagged `used: true` sell mostly second-hand gear and are skipped
+    stores = [s for s in raw.get("stores", [])
+              if s.get("enabled", True) and not s.get("used")]
 
     old = load_json(DEALS, {})
     history = load_json(HISTORY, {})
@@ -303,7 +314,8 @@ def main() -> int:
     today = now.astimezone(ZoneInfo("America/Los_Angeles")).date()
     today_s = today.isoformat()
 
-    old_items = [it for c in old.get("categories", []) for it in c.get("items", [])]
+    old_items = [it for c in old.get("categories", []) for it in c.get("items", [])
+                 if not USED.search(it.get("title", ""))]
     pool, status, ok_count = [], [], 0
 
     for s in stores:
