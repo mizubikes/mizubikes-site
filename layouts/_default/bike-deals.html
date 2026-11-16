@@ -117,6 +117,7 @@
         <li><strong>Best today</strong> isn't ranked by discount alone. Current gear from brands and models this site covers ranks higher, and so do items with several sizes still in stock. Small spares, single front or rear parts and discounts over 60% rank lower. Use the sort menu to order by discount or price instead.</li>
         <li>The cards show the most relevant deals. The search box covers every deal the scan found, including older standards (10-speed and below, rim brake, 26-inch) and model years that are left off the cards.</li>
         <li><strong>New today</strong> means the deal wasn't listed yesterday. <strong>Lower again</strong> means the price dropped below the lowest we'd seen for that deal. <strong>Recently ended</strong> lists deals that were here in the last week and have since sold out or gone back up.</li>
+        <li>For bikes, frames, shoes and clothing, <strong>In stock</strong> lists the sizes still available at the deal price when the page was last checked.</li>
         <li>The crossed-out price is the store's own list price, not a price we verified elsewhere. Prices can change during the day and don't include shipping or tax. Product photos come from the stores.</li>
         <li>Every card goes straight to the store that has the deal. Some store links may be affiliate links, which support the site at no extra cost to you and never change which deals are listed or how they're ranked.</li>
         {{- with $okStores }}
@@ -223,6 +224,7 @@
       '<span class="dp-card-img">' + pic + '<span class="dp-card-off">' + it[6] + '% off</span></span>' +
       '<span class="dp-card-body"><span class="dp-card-title">' + (brand ? '<strong>' + esc(brand) + '</strong> ' : '') + esc(title) + '</span>' +
       '<span class="dp-card-price"><strong>' + money(it[4]) + '</strong> <s title="Store list price">' + money(it[5]) + '</s></span>' +
+      (it[12] ? '<span class="dp-card-sizes"><span class="dp-card-sizes-label">In stock:</span> ' + esc(it[12]) + '</span>' : '') +
       '<span class="dp-card-meta">' + esc(it[3]) + (cats[it[7]] ? ' · ' + esc(cats[it[7]]) : '') + '</span></span></a>';
   }
   function run() {
