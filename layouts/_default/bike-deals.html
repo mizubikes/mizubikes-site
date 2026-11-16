@@ -96,8 +96,7 @@
         <li>The crossed-out price is the store's own list price, not a price we verified elsewhere. Some shops set list prices high, so compare before you buy on big-ticket items.</li>
         <li>The lists above show the most relevant deals. The search box covers every deal the scan found, including older standards and model years that are left off the main lists.</li>
         <li>Deals aren't ranked by discount alone. Current gear from brands and models this site covers ranks higher, and so do items with several sizes still in stock. Small spares, single front or rear parts and discounts over 60% rank lower. There's a cap per store so one shop can't fill the list. Prices can change during the day and don't include shipping or tax.</li>
-        <li>The price shown is the store's price, and the store link under each button goes straight to it. <strong>Check Amazon</strong> searches Amazon for the same item. Amazon's price isn't listed because it changes through the day and can be higher or lower than the store's, so compare the two before you buy.</li>
-        <li>Amazon links are affiliate links: as an Amazon Associate I earn from qualifying purchases, at no extra cost to you. It never changes which deals are listed or how they're ranked.</li>
+        <li>Every button goes straight to the store that has the deal. Some store links may be affiliate links, which support the site at no extra cost to you and never change which deals are listed or how they're ranked.</li>
         {{- with $okStores }}
         <li>Stores scanned today: {{ range $i, $s := . }}{{ if $i }}, {{ end }}<a href="{{ $s.home }}" target="_blank" rel="nofollow noopener">{{ $s.name }}</a>{{ end }}.</li>
         {{- end }}
