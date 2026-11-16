@@ -32,9 +32,7 @@
         {{- else }}{{ with $d.total_found }}{{ lang.FormatNumber 0 . }} deals &middot; {{ len $okStores }} stores{{ else }}Updated every morning{{ end }}{{ end -}}
       </div>
       <h1 class="mb-cat-banner-title">{{ .Title }}</h1>
-      {{- with .Description }}
-      <p class="mb-cat-banner-desc">{{ . }} Every link goes straight to the store.</p>
-      {{- end }}
+      <p class="mb-cat-banner-desc">Deals checked daily.</p>
     </div>
   </header>
 
