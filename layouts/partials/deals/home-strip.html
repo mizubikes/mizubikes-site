@@ -1,9 +1,9 @@
-{{- /* Home page strip: three of today's best deals, one per category, linking to /bike-deals/ */ -}}
+{{- /* Home page strip: four of today's best deals, one per category, linking to /bike-deals/ */ -}}
 {{- $d := site.Data.deals | default dict -}}
 {{- $picks := slice -}}
 {{- $seen := slice -}}
 {{- range ($d.top | default slice) -}}
-  {{- if and (lt (len $picks) 3) (not (in $seen .category)) -}}
+  {{- if and (lt (len $picks) 4) (not (in $seen .category)) -}}
     {{- $picks = $picks | append . -}}
     {{- $seen = $seen | append .category -}}
   {{- end -}}
@@ -11,19 +11,14 @@
 {{- if ge (len $picks) 3 }}
 {{- $titles := dict -}}
 {{- range $d.categories }}{{ $titles = merge $titles (dict .key .title) }}{{ end -}}
-<div class="mb-section fp fp-home dp-home">
+<div class="mb-section fp dp dp-home">
   <div class="mb-section-header">
     <span class="mb-section-title">Best Deals Today</span>
     <a href="/bike-deals/" class="mb-section-more">More deals &rarr;</a>
   </div>
-  <div class="fp-home-grid">
+  <div class="dp-grid">
     {{- range $picks }}
-    <a href="/bike-deals/#{{ .category }}" class="fp-home-tile dp-home-tile">
-      <div class="mb-cat">{{ index $titles .category | default "Deal" }}</div>
-      <div class="fp-home-price">{{ math.Round (mul .pct 100) }}% off</div>
-      <div class="fp-home-name"><span>{{ with .brand }}<strong>{{ . }}</strong> {{ end }}{{ if .brand }}{{ strings.TrimPrefix (printf "%s " .brand) .title }}{{ else }}{{ .title }}{{ end }}</span></div>
-      <div class="fp-home-meta">${{ lang.FormatNumber 2 .price }} <s>${{ lang.FormatNumber 2 .was }}</s> · {{ .store_name }}</div>
-    </a>
+    {{ partial "deals/card.html" (dict "it" . "cat" (index $titles .category) "href" (printf "/bike-deals/#%s" .category)) }}
     {{- end }}
   </div>
   <div class="dp-home-more">
