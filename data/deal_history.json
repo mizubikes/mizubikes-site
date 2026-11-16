@@ -4372,6 +4372,19 @@
  },
  "fanatik:4755790787": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 72.0,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Minion DHF 27.5\" x 2.5\" WT Tire",
+   "url": "https://www.fanatikbike.com/products/maxxis-minion-dhf-27-5-x-2-5-wt-tire?variant=14610412611",
+   "variant": "EXO - 3C MaxxGrip",
+   "was": 96.0
+  },
   "last": "2026-11-16",
   "low": 72.0,
   "seed": true
@@ -5359,6 +5372,11 @@
   "last": "2026-11-16",
   "low": 89.95,
   "seed": true
+ },
+ "fanatik:7079324778542": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 81.0
  },
  "fanatik:7083102994478": {
   "first": "2026-11-16",
@@ -6866,6 +6884,24 @@
   "last": "2026-11-16",
   "low": 32.97,
   "seed": true
+ },
+ "incycle:6739363659907": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "electronics",
+   "pct": 0.184,
+   "price": 48.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "SPIDER RED/FORCE D1 107BCD (NO POWER METER, INCLUDING 8 TORX MOUNTING BOLTS, 4 CHAINRING BOLTS AND COVERS)",
+   "url": "https://www.incycle.com/products/spider-107bcd-nopm?variant=39674277986435",
+   "variant": "",
+   "was": 60.0
+  },
+  "last": "2026-11-16",
+  "low": 48.97
  },
  "incycle:6739501383811": {
   "first": "2026-11-16",
@@ -12289,6 +12325,19 @@
  },
  "mikes-bikes:7632642703429": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "drivetrain",
+   "pct": 0.15,
+   "price": 730.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "XT M8250 Di2 Upgrade Kit",
+   "url": "https://mikesbikes.com/products/shimano-xt-m8250-di2-upgrade-kit?variant=42839401005125",
+   "variant": "GS Derailleur / I-Spec",
+   "was": 859.99
+  },
   "last": "2026-11-16",
   "low": 730.99
  },
@@ -12871,6 +12920,19 @@
  },
  "obed:8694552363183": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "OBED Bikes",
+   "category": "suspension",
+   "pct": 0.571,
+   "price": 225.0,
+   "sponsored": false,
+   "store": "obed",
+   "store_name": "OBED",
+   "title": "Carbon Adventure Fork (Gen 1)",
+   "url": "https://obedbikes.com/products/carbon-adventure-fork-gen-1?variant=47474753667247",
+   "variant": "",
+   "was": 525.0
+  },
   "last": "2026-11-16",
   "low": 225.0
  },
@@ -15434,6 +15496,11 @@
   "last": "2026-11-16",
   "low": 299.99
  },
+ "planet-cyclery:8042970120364": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 324.99
+ },
  "planet-cyclery:8042970349740": {
   "first": "2026-11-16",
   "info": {
@@ -17893,11 +17960,21 @@
   "low": 94.99,
   "seed": true
  },
+ "planet-cyclery:8043751342252": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 71.99
+ },
  "planet-cyclery:8043751997612": {
   "first": "2026-11-16",
   "last": "2026-11-16",
   "low": 79.99,
   "seed": true
+ },
+ "planet-cyclery:8043752587436": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.99
  },
  "planet-cyclery:8043752784044": {
   "first": "2026-11-16",
@@ -17917,8 +17994,36 @@
   "low": 64.0,
   "seed": true
  },
+ "planet-cyclery:8043753767084": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 79.99
+ },
+ "planet-cyclery:8043754061996": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 94.99
+ },
+ "planet-cyclery:8043754225836": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 94.99
+ },
  "planet-cyclery:8043754913964": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.231,
+   "price": 79.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Minion DHF 27.5\" Folding MTB Tire - WT Wide Trail - EXO",
+   "url": "https://www.planetcyclery.com/products/maxxis-minion-dhf-27-5-folding-mtb-tire-wt-wide-trail-exo?variant=43768271077548",
+   "variant": "Black / 2.6\" / (3C)MaxxTerra - (TR)Tubeless Ready - (EXO)EXO Sidewall - 120TPI",
+   "was": 104.0
+  },
   "last": "2026-11-16",
   "low": 79.99
  },
@@ -17926,6 +18031,16 @@
   "first": "2026-11-16",
   "last": "2026-11-16",
   "low": 84.99
+ },
+ "planet-cyclery:8043755045036": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 84.99
+ },
+ "planet-cyclery:8043756847276": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 79.99
  },
  "planet-cyclery:8043761795244": {
   "first": "2026-11-16",
@@ -18234,6 +18349,19 @@
  },
  "planet-cyclery:8043824611500": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "brakes",
+   "pct": 0.4,
+   "price": 143.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Ultegra Di2 R8150 2 Spd Road Shift/Brake Lever - Rim Brake",
+   "url": "https://www.planetcyclery.com/products/shimano-ultegra-di2-r8150-2-spd-road-shift-brake-lever-rim-brake?variant=43768392286380",
+   "variant": "Black / Left Hand - Front",
+   "was": 240.0
+  },
   "last": "2026-11-16",
   "low": 143.99,
   "seed": true
@@ -27171,6 +27299,19 @@
  },
  "planet-cyclery:8543655362732": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 78.0,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Minion DHR II 29\" Folding MTB Tire - EXO",
+   "url": "https://www.planetcyclery.com/products/maxxis-minion-dhr-ii-29-folding-mtb-tire-exo?variant=46209664876716",
+   "variant": "Black / 2.6\" / MaxxTerra - TR - EXO - 60tpi",
+   "was": 104.0
+  },
   "last": "2026-11-16",
   "low": 78.0,
   "seed": true
@@ -27800,6 +27941,19 @@
  },
  "sierra-bicycle-supply:5601256046741": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 72.0,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Minion DHF",
+   "url": "https://shopbikesupply.com/products/maxxis-minion-dhf-tire-29-x-2-6-tubeless-folding-black-3c-maxx-terra-exo?variant=48245094711544",
+   "variant": "Minion DHF, Mountain Tire, 27.5''x2.30, Folding, Tubeless Ready, 3C Maxx Terra, EXO, 60TPI, Black",
+   "was": 96.0
+  },
   "last": "2026-11-16",
   "low": 72.0
  },
@@ -30851,12 +31005,38 @@
  },
  "the-lost-co:2960614752356": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 72.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Minion DHF",
+   "url": "https://www.thelostco.com/products/maxxis-minion-dhf?variant=24863838863460",
+   "variant": "27.5 x 2.5\" WT / 3C MaxxGrip / EXO",
+   "was": 96.0
+  },
   "last": "2026-11-16",
   "low": 72.0,
   "seed": true
  },
  "the-lost-co:2960886399076": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.2,
+   "price": 92.8,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Minion DHR II",
+   "url": "https://www.thelostco.com/products/maxxis-minion-dhr2?variant=32461271892049",
+   "variant": "3C Maxx Grip / DH / 27.5 x 2.4\" WT",
+   "was": 116.0
+  },
   "last": "2026-11-16",
   "low": 92.8,
   "seed": true
