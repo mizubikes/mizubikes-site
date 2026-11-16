@@ -896,7 +896,7 @@
   "first": "2026-11-16",
   "info": {
    "brand": "OPEN",
-   "category": "bikes",
+   "category": "framesets",
    "pct": 0.579,
    "price": 1895.99,
    "sponsored": false,
@@ -915,7 +915,7 @@
   "first": "2026-11-16",
   "info": {
    "brand": "OPEN",
-   "category": "bikes",
+   "category": "framesets",
    "pct": 0.533,
    "price": 1495.99,
    "sponsored": false,
@@ -934,7 +934,7 @@
   "first": "2026-11-16",
   "info": {
    "brand": "OPEN",
-   "category": "bikes",
+   "category": "framesets",
    "pct": 0.573,
    "price": 1495.99,
    "sponsored": false,
@@ -951,6 +951,19 @@
  },
  "contender:6100589183144": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "OPEN",
+   "category": "framesets",
+   "pct": 0.564,
+   "price": 1699.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "OPEN MIND Frameset",
+   "url": "https://contenderbicycles.com/products/open-mind-frameset?variant=37272023204008",
+   "variant": "Midnight Blue / L",
+   "was": 3900.0
+  },
   "last": "2026-11-16",
   "low": 1699.0,
   "seed": true
@@ -1321,7 +1334,7 @@
   "first": "2026-11-16",
   "info": {
    "brand": "ENVE",
-   "category": "bikes",
+   "category": "framesets",
    "pct": 0.458,
    "price": 2599.99,
    "sponsored": false,
@@ -1338,6 +1351,19 @@
  },
  "contender:7859986989301": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "OPEN",
+   "category": "framesets",
+   "pct": 0.471,
+   "price": 1799.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "OPEN UP Rapha Limited Edition Frameset",
+   "url": "https://contenderbicycles.com/products/open-up-rapha-frameset?variant=43266977104117",
+   "variant": "Rapha Limited Edition / XL",
+   "was": 3400.0
+  },
   "last": "2026-11-16",
   "low": 1799.0,
   "seed": true
@@ -1950,6 +1976,19 @@
  },
  "contender:9001547825397": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SCOTT",
+   "category": "bikes",
+   "pct": 0.28,
+   "price": 6479.99,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "SCOTT Addict RC Pro 2026",
+   "url": "https://contenderbicycles.com/products/scott-addict-rc-pro-2026?variant=46311402897653",
+   "variant": "Cumulus White/Carbon Black / M",
+   "was": 8999.99
+  },
   "last": "2026-11-16",
   "low": 6479.99,
   "seed": true
@@ -1981,8 +2020,8 @@
  "contender:9040384164085": {
   "first": "2026-11-16",
   "info": {
-   "brand": "BMC Bikes",
-   "category": "bikes",
+   "brand": "BMC",
+   "category": "framesets",
    "pct": 0.4,
    "price": 2699.99,
    "sponsored": false,
@@ -2256,12 +2295,38 @@
  },
  "contender:9282004549877": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Orbea",
+   "category": "bikes",
+   "pct": 0.25,
+   "price": 4724.25,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Orbea Oiz M10 AXS 2026",
+   "url": "https://contenderbicycles.com/products/orbea-oiz-m10-axs-2026?variant=46903990550773",
+   "variant": "Ivory White (Gloss) - Bumblebee Yellow (Matt) / M",
+   "was": 6298.95
+  },
   "last": "2026-11-16",
   "low": 4724.25,
   "seed": true
  },
  "contender:9282031452405": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Orbea",
+   "category": "bikes",
+   "pct": 0.25,
+   "price": 5748.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Orbea Oiz M-Team AXS 2026",
+   "url": "https://contenderbicycles.com/products/orbea-oiz-m-team-axs-2026?variant=46904008474869",
+   "variant": "Cobalt Blue (Gloss) - Carbon Raw (Matt) / S",
+   "was": 7663.95
+  },
   "last": "2026-11-16",
   "low": 5748.0,
   "seed": true
@@ -2364,6 +2429,19 @@
  },
  "contender:9343338709237": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "BMC",
+   "category": "bikes",
+   "pct": 0.546,
+   "price": 4995.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "BMC Fourstroke 01 ONE 2024",
+   "url": "https://contenderbicycles.com/products/bmc-fourstroke-01-one-2024?variant=47029254619381",
+   "variant": "Flashfire Orange / Black / XL",
+   "was": 10999.0
+  },
   "last": "2026-11-16",
   "low": 4995.0,
   "seed": true
@@ -2749,6 +2827,19 @@
  },
  "contender:9517068353781": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SCOTT",
+   "category": "framesets",
+   "pct": 0.25,
+   "price": 4499.99,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "SCOTT Spark RC World Cup HMX Frame and Fork 2026",
+   "url": "https://contenderbicycles.com/products/scott-spark-rc-world-cup-hmx-frame-and-fork-2026?variant=47609800884469",
+   "variant": "Hush Purple / M",
+   "was": 5999.99
+  },
   "last": "2026-11-16",
   "low": 4499.99,
   "seed": true
