@@ -227,6 +227,13 @@ def categorize(product: dict, price: float) -> str:
     if re.search(r"frameset|frame set|\bframes?\b", head) and price >= 300 \
             and not NOT_A_FRAME.search(head):
         return "framesets"
+    # "Model - SRAM GX AXS, FOX ..." at bike money: the parts after the dash are
+    # the bike's spec, not what is being sold
+    model_part = re.split(r"\s[-–|]\s", title, maxsplit=1)[0]
+    if price >= 2500 and model_part != title and not NOT_A_BIKE.search(head) \
+            and not any(rx.search(model_part) for _, rx in RULES) \
+            and not re.search(r"groupset|wheelset|wheel|fork|frame|kit\b", model_part):
+        return "bikes"
     for key, rx in RULES:
         if rx.search(head):
             return key
@@ -295,7 +302,7 @@ NOBODY_WANTS = re.compile(r"front derailleur|\bmetrea\b|\bfd-\w+|display unit|ju
                           r"\b(cable|housing) (set|kit)\b|\bferrules?\b|decals?\b(?! kit)|"
                           r"chain ?catcher|braze-?on|clamp adapter|direct mount adapter", re.I)
 # Small spares: listed, but ranked well below real upgrades
-SMALL_PARTS = re.compile(r"\b(bolts?|spacers?|shims?|adapters?|hangers?|bearings?|bushings?|"
+SMALL_PARTS = re.compile(r"\b(chainrings?|spacers?|shims?|adapters?|hangers?|bearings?|bushings?|"
                          r"seal kit|service kit|rebuild kit|spare|replacement|end ?caps?|"
                          r"mounts?|top cap|valve stems?|cleats?|barrel adjuster)\b", re.I)
 MODEL_YEAR = re.compile(r"\b(20[12]\d)\b")

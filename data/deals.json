@@ -406,6 +406,61 @@
     },
     {
      "amazon": "",
+     "brand": "Specialized",
+     "category": "bikes",
+     "image": "https://cdn.shopify.com/s/files/1/0335/2166/4131/files/93325-31_SJ-15-EXPERT-GUN-WHTMTN_HERO-PDP.jpg?v=1755829823&width=400",
+     "key": "incycle:8375877009539",
+     "lower": false,
+     "main": true,
+     "name": "Stumpjumper 15 Expert  - SRAM GX AXS, FOX Performance Elite (2025)",
+     "new": false,
+     "pct": 0.2,
+     "price": 4799.99,
+     "save": 1200.0,
+     "score": 1.5967,
+     "since": "2026-11-16",
+     "sizes": [
+      "S1",
+      "S6"
+     ],
+     "sponsored": false,
+     "stale": false,
+     "store": "incycle",
+     "store_name": "inCycle",
+     "title": "2025 Specialized Stumpjumper 15 Expert  - SRAM GX AXS, FOX Performance Elite",
+     "url": "https://www.incycle.com/products/2025-specialized-stumpjumper-15-expert?variant=44549931925635",
+     "variant": "Satin Electric Green / Satin Forest Green / S1",
+     "was": 5999.99
+    },
+    {
+     "amazon": "",
+     "brand": "Specialized",
+     "category": "bikes",
+     "image": "https://cdn.shopify.com/s/files/1/0335/2166/4131/files/91426-10_CRUX-PRO-NBLMET-SHDWSIL-SMK_HERO-PDP.jpg?v=1760058208&width=400",
+     "key": "incycle:8633448759427",
+     "lower": false,
+     "main": true,
+     "name": "Crux Pro - SRAM Force XPLR AXS (2026)",
+     "new": false,
+     "pct": 0.256,
+     "price": 5949.99,
+     "save": 2050.0,
+     "score": 1.5722,
+     "since": "2026-11-16",
+     "sizes": [
+      "52"
+     ],
+     "sponsored": false,
+     "stale": false,
+     "store": "incycle",
+     "store_name": "inCycle",
+     "title": "2026 Specialized Crux Pro - SRAM Force XPLR AXS",
+     "url": "https://www.incycle.com/products/2026-specialized-crux-pro-sram-force-xplr-axs?variant=45421242122371",
+     "variant": "Nebula Metallic / Shadow Silver / Laurel Green / Smoke / 52",
+     "was": 7999.99
+    },
+    {
+     "amazon": "",
      "brand": "Bianchi",
      "category": "bikes",
      "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/arcadex-4-dk.jpg?v=1775126945&width=400",
@@ -625,7 +680,7 @@
    ],
    "key": "bikes",
    "title": "Complete bikes",
-   "total": 149
+   "total": 151
   },
   {
    "items": [
@@ -2229,61 +2284,6 @@
      "url": "https://www.fanatikbike.com/products/shimano-deore-m6120-crankset?variant=32163540926510",
      "variant": "170mm / 30T",
      "was": 125.0
-    },
-    {
-     "amazon": "",
-     "brand": "Specialized",
-     "category": "drivetrain",
-     "image": "https://cdn.shopify.com/s/files/1/0335/2166/4131/files/93325-31_SJ-15-EXPERT-GUN-WHTMTN_HERO-PDP.jpg?v=1755829823&width=400",
-     "key": "incycle:8375877009539",
-     "lower": false,
-     "main": true,
-     "name": "Stumpjumper 15 Expert  - SRAM GX AXS, FOX Performance Elite (2025)",
-     "new": false,
-     "pct": 0.2,
-     "price": 4799.99,
-     "save": 1200.0,
-     "score": 1.5967,
-     "since": "2026-11-16",
-     "sizes": [
-      "S1",
-      "S6"
-     ],
-     "sponsored": false,
-     "stale": false,
-     "store": "incycle",
-     "store_name": "inCycle",
-     "title": "2025 Specialized Stumpjumper 15 Expert  - SRAM GX AXS, FOX Performance Elite",
-     "url": "https://www.incycle.com/products/2025-specialized-stumpjumper-15-expert?variant=44549931925635",
-     "variant": "Satin Electric Green / Satin Forest Green / S1",
-     "was": 5999.99
-    },
-    {
-     "amazon": "",
-     "brand": "Specialized",
-     "category": "drivetrain",
-     "image": "https://cdn.shopify.com/s/files/1/0335/2166/4131/files/91426-10_CRUX-PRO-NBLMET-SHDWSIL-SMK_HERO-PDP.jpg?v=1760058208&width=400",
-     "key": "incycle:8633448759427",
-     "lower": false,
-     "main": true,
-     "name": "Crux Pro - SRAM Force XPLR AXS (2026)",
-     "new": false,
-     "pct": 0.256,
-     "price": 5949.99,
-     "save": 2050.0,
-     "score": 1.5722,
-     "since": "2026-11-16",
-     "sizes": [
-      "52"
-     ],
-     "sponsored": false,
-     "stale": false,
-     "store": "incycle",
-     "store_name": "inCycle",
-     "title": "2026 Specialized Crux Pro - SRAM Force XPLR AXS",
-     "url": "https://www.incycle.com/products/2026-specialized-crux-pro-sram-force-xplr-axs?variant=45421242122371",
-     "variant": "Nebula Metallic / Shadow Silver / Laurel Green / Smoke / 52",
-     "was": 7999.99
     },
     {
      "amazon": "",

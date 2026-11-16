@@ -27,6 +27,12 @@
 #               Leave empty for a plain (non-affiliate) link.
 
 settings:
+  # "Best today" (the page's default view): a short row of top deals from each
+  # of these categories, in this order. Keys: bikes, framesets, wheels,
+  # drivetrain, brakes, suspension, cockpit, tires, electronics, apparel,
+  # tools, accessories.
+  front_sections: [bikes, wheels, drivetrain, suspension, tires]
+  front_per_section: 4
   min_discount: 0.20          # at least 20% under the store's list price
   max_discount: 0.80          # above this the "list price" is usually not real
   min_price: 20               # skip anything cheaper than this
