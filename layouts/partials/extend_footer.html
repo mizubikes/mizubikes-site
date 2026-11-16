@@ -1,0 +1,31 @@
+{{- /* Mizubikes: GA4 event when a reader clicks through to a deal. Works for the
+       deals page, category deal pages, search results and the homepage strip. */ -}}
+<script>
+(function () {
+  function where(a) {
+    if (a.closest('#dp-results')) return 'search';
+    if (a.closest('#dp-front')) return 'best_today';
+    if (a.closest('.dp-home')) return location.pathname === '/' ? 'home' : 'category_page_strip';
+    return location.pathname.replace(/^\/bike-deals\/?/, '').replace(/\/$/, '') || 'all_deals';
+  }
+  function track(e) {
+    var a = e.target.closest && e.target.closest('a.dp-card');
+    if (!a || typeof gtag !== 'function') return;
+    if (e.type === 'auxclick' && e.button !== 1) return;     /* middle click only */
+    var d = a.dataset;
+    gtag('event', 'deal_click', {
+      deal_store: d.store || '',
+      deal_category: d.cat || '',
+      deal_brand: d.brand || '',
+      deal_name: (d.name || '').slice(0, 100),
+      deal_discount: parseFloat(d.pct) || 0,
+      deal_location: where(a),
+      value: parseFloat(d.price) || 0,
+      currency: 'USD',
+      transport_type: 'beacon'
+    });
+  }
+  document.addEventListener('click', track, true);
+  document.addEventListener('auxclick', track, true);
+})();
+</script>
