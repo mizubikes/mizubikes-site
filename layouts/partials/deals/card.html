@@ -12,7 +12,7 @@
     {{- else if $it.new }}<span class="dp-card-flag">● New today</span>{{ end }}
   </span>
   <span class="dp-card-body">
-    <span class="dp-card-title">{{ with $it.brand }}<strong>{{ . }}</strong> {{ end }}{{ if $it.brand }}{{ strings.TrimPrefix (printf "%s " $it.brand) $it.title }}{{ else }}{{ $it.title }}{{ end }}</span>
+    <span class="dp-card-title" title="{{ $it.title }}">{{ with $it.brand }}<strong>{{ . }}</strong> {{ end }}{{ with $it.name }}{{ . }}{{ else }}{{ if $it.brand }}{{ strings.TrimPrefix (printf "%s " $it.brand) $it.title }}{{ else }}{{ $it.title }}{{ end }}{{ end }}</span>
     <span class="dp-card-price"><strong>${{ lang.FormatNumber 2 $it.price }}</strong> <s title="Store list price">${{ lang.FormatNumber 2 $it.was }}</s></span>
     {{- with $it.sizes }}
     <span class="dp-card-sizes" title="Sizes in stock at this price: {{ delimit . ", " }}"><span class="dp-card-sizes-label">In stock:</span> {{ delimit (first 8 .) " · " }}{{ if gt (len .) 8 }} +{{ sub (len .) 8 }}{{ end }}</span>

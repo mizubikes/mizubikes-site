@@ -101,12 +101,13 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
 }
 .dp-card-title {
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  min-height: 2.7em;
+  min-height: 4.05em;          /* three lines, so prices line up across a row */
   font-size: 14px;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 .dp-card-price { font-variant-numeric: tabular-nums; line-height: 1.2; }
 .dp-card-price strong { font-size: 19px; font-weight: 700; }
@@ -216,7 +217,7 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
 @media (max-width: 640px) {
   .dp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .dp-card-body { padding: 8px 9px 10px; }
-  .dp-card-title { font-size: 13px; }
+  .dp-card-title { font-size: 13px; -webkit-line-clamp: 4; min-height: 5.4em; }
   .dp-card-price strong { font-size: 17px; }
   .dp-card-price s { display: block; margin: 2px 0 0; }
   .dp-js .dp-toolbar { flex-direction: column; }

@@ -466,6 +466,45 @@ def sizes_on_sale(product: dict, cfg: dict) -> list[str]:
     return sorted(live, key=lambda s: rank.get(s, 999))
 
 
+KEEP_CAPS = {"SRAM", "ENVE", "WTB", "BMC", "FSA", "TRP", "POC", "KMC", "DT", "MRP", "KS", "PNW",
+             "HED", "MET", "SQ", "CADEX", "GT", "YT", "NS", "OPEN", "PRO", "ODI", "CEP", "USWE"}
+
+
+def tidy_brand(brand: str) -> str:
+    """SPECIALIZED -> Specialized, ROCKSHOX -> RockShox stays as the store wrote
+    it only when it is a real acronym."""
+    if not brand or not brand.isupper() or len(brand) <= 3:
+        return brand
+    fixed = {"ROCKSHOX": "RockShox", "ONEUP": "OneUp", "RACEFACE": "RaceFace",
+             "CRANKBROTHERS": "Crankbrothers", "CAMELBAK": "CamelBak"}
+    if brand in fixed:
+        return fixed[brand]
+    return " ".join(w if w in KEEP_CAPS else w.capitalize() for w in brand.split())
+
+
+def display_name(brand: str, title: str) -> str:
+    """Card title without the repeated brand or a leading model year, so the
+    model name is what shows first: "2026 Specialized S-Works Crux Frameset"
+    under brand Specialized becomes "S-Works Crux Frameset (2026)"."""
+    t = re.sub(r"^\s*(\[[^\]]*\]\s*)+", "", title or "").strip()
+    year = ""
+    m = re.match(r"(20[12]\d)\s+(.*)", t)
+    if m:
+        year, t = m.group(1), m.group(2)
+    for cut in filter(None, [brand, (brand or "").split()[0] if brand else ""]):
+        if len(cut) >= 2 and t.lower().startswith(cut.lower() + " "):
+            t = t[len(cut):].lstrip(" -:")
+            break
+    if not year:                                  # brand first, then the year
+        m = re.match(r"(20[12]\d)\s+(.*)", t)
+        if m:
+            year, t = m.group(1), m.group(2)
+    t = t.strip() or title
+    if year and year not in t:
+        t = f"{t} ({year})"
+    return t
+
+
 def family(item: dict) -> str:
     """Store + brand + first two words of the model, so "URS 01 ONE" and
     "URS 01 TWO" count as one family and don't stack up in a list."""
@@ -517,6 +556,7 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
         elif brand and len(brand.split()[0]) >= 3 and \
                 title.lower().startswith(brand.split()[0].lower() + " "):
             brand = title[:len(brand.split()[0])]   # "BMC Bikes" + "BMC URS 01" -> "BMC"
+        brand = tidy_brand(brand)
         category = categorize(p, price)
         tag = (cfg.get("amazon_tag") or "").strip()
         deals.append({
@@ -524,6 +564,7 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
             "store": store["id"],
             "store_name": store["name"],
             "title": title,
+            "name": display_name(brand, title),
             "brand": brand,
             "variant": "" if vtitle.lower() == "default title" else vtitle,
             "price": price,
@@ -646,7 +687,7 @@ def main() -> int:
     # "recently ended" once it drops out of the scan
     for it in shown:
         history[it["key"]]["info"] = {
-            "title": it["title"], "brand": it["brand"], "variant": it["variant"],
+            "title": it.get("name") or it["title"], "brand": it["brand"], "variant": it["variant"],
             "store": it["store"], "store_name": it["store_name"], "category": it["category"],
             "price": it["price"], "was": it["was"], "pct": it["pct"], "url": it["url"],
             "sponsored": it.get("sponsored", False),
@@ -696,7 +737,7 @@ def main() -> int:
     write_json(HISTORY, history)
 
     # compact full list for the search box: one array per deal, best first
-    rows = [[it["title"], it["brand"], it["variant"], it["store_name"], it["price"], it["was"],
+    rows = [[it.get("name") or it["title"], it["brand"], it["variant"], it["store_name"], it["price"], it["was"],
              round(it["pct"] * 100), it["category"], it["url"], it.get("amazon", ""),
              1 if it.get("sponsored") else 0, it.get("image", ""),
              " · ".join(it.get("sizes") or [])]
