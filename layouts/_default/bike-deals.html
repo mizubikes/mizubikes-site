@@ -49,7 +49,7 @@
           <option value="">Any size</option>
         </select>
       </label>
-      <label class="dp-sort">Sort
+      <label class="dp-sort" id="dp-sort-wrap">Sort
         <select id="dp-sort" aria-label="Sort deals">
           <option value="best">Best match</option>
           <option value="pct">Biggest discount</option>
@@ -59,6 +59,43 @@
         </select>
       </label>
       </div>
+    </div>
+
+    {{- /* "Best today": a short row from each front-page category */ -}}
+    {{- $set := (site.Data.deal_stores | default dict).settings | default dict -}}
+    {{- $frontKeys := $set.front_sections | default (slice "bikes" "wheels" "drivetrain" "suspension" "tires") -}}
+    {{- $perRow := int ($set.front_per_section | default 4) -}}
+    <div id="dp-front" class="dp-front">
+      {{- range $k := $frontKeys }}
+      {{- range where $cats "key" $k }}
+      {{- if ge (len .items) 2 }}
+      <section class="dp-front-sec">
+        <div class="dp-front-head">
+          <h2 class="dp-group-title">{{ .title }}</h2>
+          <button type="button" class="dp-seeall" data-goto="{{ .key }}">See all {{ len .items }} &rarr;</button>
+        </div>
+        <div class="dp-grid">
+          {{- /* one card per brand, so a favorite brand can't fill the row */ -}}
+          {{- $row := slice -}}
+          {{- $brands := slice -}}
+          {{- range .items -}}
+            {{- $b := lower (index (split (.brand | default .store_name) " ") 0) -}}
+            {{- if and (lt (len $row) $perRow) (not (in $brands $b)) -}}
+              {{- $row = $row | append . -}}
+              {{- $brands = $brands | append $b -}}
+            {{- end -}}
+          {{- end -}}
+          {{- range .items -}}
+            {{- if and (lt (len $row) $perRow) (not (in $row .)) }}{{ $row = $row | append . }}{{ end -}}
+          {{- end -}}
+          {{- range $row }}
+          {{ partial "deals/card.html" (dict "it" .) }}
+          {{- end }}
+        </div>
+      </section>
+      {{- end }}
+      {{- end }}
+      {{- end }}
     </div>
 
     {{- /* Without JavaScript every card shows, grouped by category. The script
@@ -147,6 +184,7 @@
       new:  function (a, b) { return a.dataset.since < b.dataset.since ? 1 : a.dataset.since > b.dataset.since ? -1 : num(b, 'score') - num(a, 'score'); }
     };
     var state = { cat: 'best', sort: 'best', size: '' };
+    var front = document.getElementById('dp-front'), sortWrap = document.getElementById('dp-sort-wrap');
     var sizeSel = document.getElementById('dp-size'), sizeWrap = document.getElementById('dp-size-wrap');
 
     /* stores label sizes differently ("Medium", "MD", "54cm"): fold them together */
@@ -195,6 +233,12 @@
     }
 
     function render() {
+      tabs.forEach(function (t) { t.setAttribute('aria-pressed', t.dataset.cat === state.cat ? 'true' : 'false'); });
+      var onFront = state.cat === 'best' && front && front.children.length > 0;
+      if (front) front.hidden = !onFront;
+      flat.hidden = onFront;
+      if (sortWrap) sortWrap.hidden = onFront;
+      if (onFront) { if (empty) empty.hidden = true; return; }
       var list = cards.filter(function (c) {
         return inCat(c) && (!state.size || c._sizes.indexOf(state.size) >= 0);
       });
@@ -216,6 +260,13 @@
 
     }
     tabs.forEach(function (t) { t.addEventListener('click', function () { pick(t.dataset.cat, true); }); });
+    [].slice.call(document.querySelectorAll('.dp-seeall')).forEach(function (b) {
+      b.addEventListener('click', function () {
+        pick(b.dataset.goto, true);
+        var bar = document.querySelector('.dp-toolbar');
+        if (bar) bar.scrollIntoView({ block: 'start', behavior: 'smooth' });
+      });
+    });
     if (sortSel) sortSel.addEventListener('change', function () { state.sort = sortSel.value; render(); });
     if (sizeSel) sizeSel.addEventListener('change', function () { state.size = sizeSel.value; render(); });
     window.addEventListener('hashchange', function () { pick(location.hash.slice(1), false); });

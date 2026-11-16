@@ -177,6 +177,29 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
   border-radius: 6px;
 }
 .dp-group { margin-top: 36px; }
+
+/* ----- "Best today" rows ----- */
+.dp-front { display: none; }                 /* needs the script; groups show without it */
+.dp-js .dp-front { display: block; }
+.dp-js .dp-front[hidden] { display: none; }
+.dp-front-sec { margin-top: 26px; }
+.dp-front-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.dp-front-head .dp-group-title { margin: 0; }
+.dp-seeall {
+  flex: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--fp-accent);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.dp-seeall:hover { text-decoration: underline; text-underline-offset: 3px; }
+.dp-seeall:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2px; border-radius: 4px; }
+.dp-grid[hidden], .dp-sort[hidden] { display: none; }
 .dp-group-title { display: flex; align-items: baseline; gap: 10px; }
 
 /* ----- search ----- */
