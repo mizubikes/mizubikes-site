@@ -41,12 +41,15 @@
     <div class="dp-toolbar">
       <div class="dp-tabs" role="group" aria-label="Filter deals by category">
         <button type="button" class="dp-tab" data-cat="best" aria-pressed="true">Best today</button>
+        {{- $short := dict "suspension" "Suspension" "cockpit" "Cockpit" "tires" "Tires" "electronics" "Electronics" "apparel" "Apparel" "tools" "Tools" -}}
         {{- range $cats }}
-        <button type="button" class="dp-tab" data-cat="{{ .key }}" aria-pressed="false">{{ .title }}</button>
+        <button type="button" class="dp-tab" data-cat="{{ .key }}" aria-pressed="false" title="{{ .title }}">{{ index $short .key | default .title }}</button>
         {{- end }}
         <button type="button" class="dp-tab" data-cat="all" aria-pressed="false">All</button>
       </div>
-      <div class="dp-controls">
+      <div class="dp-controls" id="dp-controls">
+      <span class="dp-count" id="dp-count" aria-live="polite"></span>
+      <div class="dp-controls-right">
       <label class="dp-sort" id="dp-size-wrap" hidden>Size
         <select id="dp-size" aria-label="Filter deals by size in stock">
           <option value="">Any size</option>
@@ -61,6 +64,7 @@
           <option value="new">Newest</option>
         </select>
       </label>
+      </div>
       </div>
     </div>
 
@@ -244,6 +248,8 @@
       if (front) front.hidden = !onFront;
       flat.hidden = onFront;
       if (sortWrap) sortWrap.hidden = onFront;
+      var controls = document.getElementById('dp-controls'), countEl = document.getElementById('dp-count');
+      if (controls) controls.hidden = onFront;
       if (onFront) { if (empty) empty.hidden = true; return; }
       var list = cards.filter(function (c) {
         return inCat(c) && (!state.size || c._sizes.indexOf(state.size) >= 0);
@@ -255,6 +261,8 @@
       }
       flat.innerHTML = '';
       list.forEach(function (c) { flat.appendChild(c); });
+      if (countEl) countEl.textContent = list.length + (list.length === 1 ? ' deal' : ' deals') +
+        (state.size ? ' in size ' + state.size : '');
       if (empty) empty.hidden = list.length > 0;
       tabs.forEach(function (t) { t.setAttribute('aria-pressed', t.dataset.cat === state.cat ? 'true' : 'false'); });
     }
