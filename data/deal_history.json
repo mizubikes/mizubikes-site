@@ -3261,6 +3261,11 @@
   "last": "2026-11-16",
   "low": 25.0
  },
+ "factor:8308689600795": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3999.0
+ },
  "fanatik:10307519619": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -5165,6 +5170,24 @@
   "low": 35.99,
   "seed": true
  },
+ "fanatik:7161476087854": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "framesets",
+   "pct": 0.283,
+   "price": 4299.99,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Turbo Levo 4 S-Works Carbon Frameset",
+   "url": "https://www.fanatikbike.com/products/specialized-turbo-levo-4-s-works-carbon-frameset?variant=41362722848814",
+   "variant": "Taupe/Gunmetal Strata / S2",
+   "was": 5999.99
+  },
+  "last": "2026-11-16",
+  "low": 4299.99
+ },
  "fanatik:7161483722798": {
   "first": "2026-11-16",
   "info": {
@@ -5246,6 +5269,24 @@
   "last": "2026-11-16",
   "low": 119.99,
   "seed": true
+ },
+ "fanatik:7174317998126": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.274,
+   "price": 8199.99,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Stumpjumper 15 EVO S-Works Complete Bike - 2026",
+   "url": "https://www.fanatikbike.com/products/specialized-stumpjumper-15-evo-s-works-complete-bike-2026?variant=41435501527086",
+   "variant": "Gloss Solidity Metallic / S1 (MX)",
+   "was": 11299.99
+  },
+  "last": "2026-11-16",
+  "low": 8199.99
  },
  "fanatik:7179776098350": {
   "first": "2026-11-16",
@@ -5438,8 +5479,8 @@
   "info": {
    "brand": "Specialized",
    "category": "bikes",
-   "pct": 0.217,
-   "price": 8999.99,
+   "pct": 0.27,
+   "price": 8399.99,
    "sponsored": false,
    "store": "fanatik",
    "store_name": "Fanatik Bike Co",
@@ -5449,8 +5490,13 @@
    "was": 11499.0
   },
   "last": "2026-11-16",
-  "low": 8999.99,
+  "low": 8399.99,
   "seed": true
+ },
+ "fanatik:7557213159470": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6559.99
  },
  "fanatik:7580390916142": {
   "first": "2026-11-16",
@@ -5978,6 +6024,11 @@
   "low": 117.97,
   "seed": true
  },
+ "incycle:6618877919363": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
  "incycle:6644536475779": {
   "first": "2026-11-16",
   "info": {
@@ -6257,7 +6308,7 @@
  "incycle:6743947346051": {
   "first": "2026-11-16",
   "last": "2026-11-16",
-  "low": 749.99
+  "low": 699.99
  },
  "incycle:6748420538499": {
   "first": "2026-11-16",
@@ -6359,6 +6410,16 @@
   "last": "2026-11-16",
   "low": 59.97
  },
+ "incycle:6770896732291": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 744.99
+ },
+ "incycle:6770896863363": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 534.99
+ },
  "incycle:7698386911363": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -6401,6 +6462,11 @@
   "first": "2026-11-16",
   "last": "2026-11-16",
   "low": 209.99
+ },
+ "incycle:7719567753347": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 224.99
  },
  "incycle:7734131589251": {
   "first": "2026-11-16",
@@ -6815,6 +6881,11 @@
   "low": 37.97,
   "seed": true
  },
+ "incycle:7881886924931": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 144.99
+ },
  "incycle:7883101274243": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -6924,6 +6995,11 @@
   "last": "2026-11-16",
   "low": 22.97,
   "seed": true
+ },
+ "incycle:7894200844419": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 374.99
  },
  "incycle:7895808835715": {
   "first": "2026-11-16",
@@ -7120,6 +7196,11 @@
   "low": 799.97,
   "seed": true
  },
+ "incycle:8023353000067": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
  "incycle:8038159941763": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -7181,6 +7262,11 @@
   "last": "2026-11-16",
   "low": 54.97,
   "seed": true
+ },
+ "incycle:8053238497411": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
  },
  "incycle:8053239611523": {
   "first": "2026-11-16",
@@ -7310,6 +7396,11 @@
   "low": 33.97,
   "seed": true
  },
+ "incycle:8053253374083": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.99
+ },
  "incycle:8053256421507": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -7327,6 +7418,11 @@
   "last": "2026-11-16",
   "low": 27.99,
   "seed": true
+ },
+ "incycle:8053257535619": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.99
  },
  "incycle:8053258223747": {
   "first": "2026-11-16",
@@ -7504,6 +7600,21 @@
   "low": 64.97,
   "seed": true
  },
+ "incycle:8343098785923": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2199.99
+ },
+ "incycle:8344588320899": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.99
+ },
+ "incycle:8344659427459": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.99
+ },
  "incycle:8344659460227": {
   "first": "2026-11-16",
   "info": {
@@ -7541,6 +7652,24 @@
   "low": 6399.99,
   "seed": true
  },
+ "incycle:8375876944003": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.5,
+   "price": 3999.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Stumpjumper 15 Öhlins Coil (2025)",
+   "url": "https://www.incycle.com/products/2025-specialized-stumpjumper-15-ohlins-edition?variant=44549931237507",
+   "variant": "Satin Copper Speckle / Satin Silver Dust / S3",
+   "was": 7999.99
+  },
+  "last": "2026-11-16",
+  "low": 3999.99
+ },
  "incycle:8375877009539": {
   "first": "2026-11-16",
   "info": {
@@ -7559,6 +7688,29 @@
   "last": "2026-11-16",
   "low": 4799.99,
   "seed": true
+ },
+ "incycle:8378675560579": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "wheels",
+   "pct": 0.247,
+   "price": 714.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "TRAVERSE HD i9 1/1",
+   "url": "https://www.incycle.com/products/specialized-traverse-hd-1-1?variant=44557594132611",
+   "variant": "Satin Carbon / Gloss Black / 29 Rear 32H",
+   "was": 949.99
+  },
+  "last": "2026-11-16",
+  "low": 714.99
+ },
+ "incycle:8378675593347": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 714.99
  },
  "incycle:8395749752963": {
   "first": "2026-11-16",
@@ -7668,7 +7820,7 @@
  "incycle:8425036218499": {
   "first": "2026-11-16",
   "last": "2026-11-16",
-  "low": 699.99,
+  "low": 599.99,
   "seed": true
  },
  "incycle:8441027264643": {
@@ -7871,13 +8023,18 @@
   "low": 47.97,
   "seed": true
  },
+ "incycle:8503993073795": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 174.99
+ },
  "incycle:8503993335939": {
   "first": "2026-11-16",
   "info": {
    "brand": "Specialized",
    "category": "accessories",
-   "pct": 0.3,
-   "price": 769.97,
+   "pct": 0.364,
+   "price": 699.99,
    "sponsored": false,
    "store": "incycle",
    "store_name": "inCycle",
@@ -7887,7 +8044,7 @@
    "was": 1099.99
   },
   "last": "2026-11-16",
-  "low": 769.97,
+  "low": 699.99,
   "seed": true
  },
  "incycle:8506516603011": {
@@ -7944,6 +8101,24 @@
   "last": "2026-11-16",
   "low": 7199.99,
   "seed": true
+ },
+ "incycle:8520557396099": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "framesets",
+   "pct": 0.398,
+   "price": 3699.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "S-Works Shiv TT Disc Module - FACT 11r Carbon (2025)",
+   "url": "https://www.incycle.com/products/2025-specialized-s-works-shiv-tt-module?variant=45031790444675",
+   "variant": "Gloss Glacial Metallic / Red To Gold Pearl Edge Fade / Metallic White Silver / XS",
+   "was": 6149.99
+  },
+  "last": "2026-11-16",
+  "low": 3699.99
  },
  "incycle:8525206126723": {
   "first": "2026-11-16",
@@ -8123,6 +8298,11 @@
   "low": 76.99,
   "seed": true
  },
+ "incycle:8570934493315": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
  "incycle:8577517846659": {
   "first": "2026-11-16",
   "info": {
@@ -8172,6 +8352,11 @@
   "low": 55.97,
   "seed": true
  },
+ "incycle:8585927884931": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 209.99
+ },
  "incycle:8586021404803": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -8208,6 +8393,39 @@
   "last": "2026-11-16",
   "low": 5999.99,
   "seed": true
+ },
+ "incycle:8589713899651": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 7649.99
+ },
+ "incycle:8589713932419": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6749.99
+ },
+ "incycle:8589713965187": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 9099.99
+ },
+ "incycle:8592083419267": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "wheels",
+   "pct": 0.25,
+   "price": 749.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Traverse SL II Hydra2",
+   "url": "https://www.incycle.com/products/specialized-traverse-sl-hydra2?variant=45282458140803",
+   "variant": "29 FRONT 28H",
+   "was": 999.99
+  },
+  "last": "2026-11-16",
+  "low": 749.99
  },
  "incycle:8601124798595": {
   "first": "2026-11-16",
@@ -8275,6 +8493,11 @@
   "low": 48.99,
   "seed": true
  },
+ "incycle:8624893001859": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4299.99
+ },
  "incycle:8626418974851": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -8311,6 +8534,11 @@
   "last": "2026-11-16",
   "low": 69.97,
   "seed": true
+ },
+ "incycle:8657586061443": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
  },
  "incycle:8658076827779": {
   "first": "2026-11-16",
@@ -8504,6 +8732,11 @@
   "low": 3759.99,
   "seed": true
  },
+ "incycle:8677299290243": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2199.99
+ },
  "incycle:8682481156227": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -8657,6 +8890,11 @@
   "low": 6599.99,
   "seed": true
  },
+ "incycle:8688077635715": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 9099.99
+ },
  "incycle:8688079569027": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -8680,6 +8918,29 @@
   "last": "2026-11-16",
   "low": 24.97,
   "seed": true
+ },
+ "incycle:8717981614211": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "wheels",
+   "pct": 0.25,
+   "price": 1049.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Roval Alpinist CLX III",
+   "url": "https://www.incycle.com/products/specialized-roval-alpinist-clx-iii?variant=45698622750851",
+   "variant": "Satin Carbon / Gloss Black / 700c Front",
+   "was": 1399.99
+  },
+  "last": "2026-11-16",
+  "low": 1049.99
+ },
+ "incycle:8736903463043": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 149.99
  },
  "incycle:8736903692419": {
   "first": "2026-11-16",
@@ -8740,20 +9001,20 @@
  "incycle:8940051071107": {
   "first": "2026-11-16",
   "info": {
-   "brand": "SPECIALIZED",
-   "category": "accessories",
-   "pct": 0.217,
-   "price": 8999.99,
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.27,
+   "price": 8399.99,
    "sponsored": false,
    "store": "incycle",
    "store_name": "inCycle",
-   "title": "2026 Specialized S-Works Turbo Levo R",
+   "title": "S-Works Turbo Levo R (2026)",
    "url": "https://www.incycle.com/products/2026-specialized-levo-r-s-works?variant=46594175762563",
    "variant": "Gloss Shadow Silver Blended Speckle Over Carbon / Silver Dust / S3",
    "was": 11499.99
   },
   "last": "2026-11-16",
-  "low": 8999.99,
+  "low": 8399.99,
   "seed": true
  },
  "incycle:8951961157763": {
@@ -8761,6 +9022,21 @@
   "last": "2026-11-16",
   "low": 24.97,
   "seed": true
+ },
+ "incycle:9003685871747": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 54.99
+ },
+ "incycle:9003685970051": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 54.99
+ },
+ "incycle:9003686166659": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6559.99
  },
  "incycle:9077387296899": {
   "first": "2026-11-16",
@@ -8858,6 +9134,16 @@
   "low": 5999.97,
   "seed": true
  },
+ "incycle:9259774476419": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6399.99
+ },
+ "incycle:9261278953603": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2199.99
+ },
  "incycle:9263465693315": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -8894,6 +9180,2232 @@
   "last": "2026-11-16",
   "low": 41.99,
   "seed": true
+ },
+ "mikes-bikes:2089297674307": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 64.95
+ },
+ "mikes-bikes:2089323495491": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 43.95
+ },
+ "mikes-bikes:2089346465859": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 31.99
+ },
+ "mikes-bikes:2089723363395": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "brakes",
+   "pct": 0.472,
+   "price": 44.89,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Alivio M4050 Disc Brake",
+   "url": "https://mikesbikes.com/products/shimano-alivio-br-m4050-st-m4050-hydraulic-disc-brake?variant=19150288322627",
+   "variant": "Front",
+   "was": 84.99
+  },
+  "last": "2026-11-16",
+  "low": 44.89
+ },
+ "mikes-bikes:2090070507587": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "EVO",
+   "category": "drivetrain",
+   "pct": 0.429,
+   "price": 39.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "386 EVO Adaptor for Shimano Hollowtech II Cranks",
+   "url": "https://mikesbikes.com/products/evo-adptr-for-shim-cr1259-386?variant=19153693343811",
+   "variant": "",
+   "was": 69.99
+  },
+  "last": "2026-11-16",
+  "low": 39.95
+ },
+ "mikes-bikes:2090114940995": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 39.95
+ },
+ "mikes-bikes:2090747691075": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.77
+ },
+ "mikes-bikes:2090750083139": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.1
+ },
+ "mikes-bikes:2090761486403": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 224.95
+ },
+ "mikes-bikes:2090775052355": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.77
+ },
+ "mikes-bikes:2090867392579": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 164.77
+ },
+ "mikes-bikes:2091727618115": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.95
+ },
+ "mikes-bikes:2091737514051": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.13
+ },
+ "mikes-bikes:2091743445059": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 64.95
+ },
+ "mikes-bikes:2092252037187": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 65.77
+ },
+ "mikes-bikes:2108327755843": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "drivetrain",
+   "pct": 0.492,
+   "price": 23.36,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "ES51 Octalink V2 Spline English Bottom Bracket",
+   "url": "https://mikesbikes.com/products/shimano-es51-octalink-v2-spline-english-bottom-bracket?variant=31175520026693",
+   "variant": "68x121",
+   "was": 45.99
+  },
+  "last": "2026-11-16",
+  "low": 23.36
+ },
+ "mikes-bikes:3947621613635": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 104.99
+ },
+ "mikes-bikes:4111268741189": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 112.49
+ },
+ "mikes-bikes:4163909976133": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 274.95
+ },
+ "mikes-bikes:4347141390405": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 115.5
+ },
+ "mikes-bikes:4347708440645": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 33.03
+ },
+ "mikes-bikes:4348371271749": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 39.77
+ },
+ "mikes-bikes:4350490116165": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.95
+ },
+ "mikes-bikes:4353413087301": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 52.53
+ },
+ "mikes-bikes:4354764275781": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 360.46
+ },
+ "mikes-bikes:4523592220741": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 223.95
+ },
+ "mikes-bikes:4523593105477": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.95
+ },
+ "mikes-bikes:4529558945861": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 50.0
+ },
+ "mikes-bikes:4539505705029": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.99
+ },
+ "mikes-bikes:4601936248901": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.534,
+   "price": 199.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Reverb Stealth Dropper (30.9, 200mm)",
+   "url": "https://mikesbikes.com/products/rockshox-reverb-stealth-dropper-30-9mm-200mm-blk?variant=31930231783493",
+   "variant": "",
+   "was": 429.0
+  },
+  "last": "2026-11-16",
+  "low": 199.95
+ },
+ "mikes-bikes:4630402203717": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 74.95
+ },
+ "mikes-bikes:4644414292037": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.445,
+   "price": 29.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Paceline Disc Brake Rotor",
+   "url": "https://mikesbikes.com/products/sram-paceline-disc-brake-rotor?variant=32017074847813",
+   "variant": "Centerlock / 140mm",
+   "was": 54.0
+  },
+  "last": "2026-11-16",
+  "low": 29.95
+ },
+ "mikes-bikes:4676855660613": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 31.99
+ },
+ "mikes-bikes:6535662075973": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.455,
+   "price": 199.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Crown-steerer Unit (Revelation A5)",
+   "url": "https://mikesbikes.com/products/rockshox-revelation-csu?variant=39246498103365",
+   "variant": "",
+   "was": 367.0
+  },
+  "last": "2026-11-16",
+  "low": 199.95
+ },
+ "mikes-bikes:6554575798341": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 38.77
+ },
+ "mikes-bikes:6579248070725": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Garmin",
+   "category": "electronics",
+   "pct": 0.25,
+   "price": 149.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Varia RTL515 Radar Taillight",
+   "url": "https://mikesbikes.com/products/garmin-varia-rtl515-rearview-radar-taillight?variant=39314765447237",
+   "variant": "",
+   "was": 199.99
+  },
+  "last": "2026-11-16",
+  "low": 149.99
+ },
+ "mikes-bikes:6589940629573": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.459,
+   "price": 104.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "G2 RSC Disc Brake",
+   "url": "https://mikesbikes.com/products/sram-g2-rsc-disc-brake-2026?variant=39336017002565",
+   "variant": "Diffusion Black / Front",
+   "was": 194.0
+  },
+  "last": "2026-11-16",
+  "low": 104.95
+ },
+ "mikes-bikes:6594412806213": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 134.77
+ },
+ "mikes-bikes:6604274270277": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Zipp Speed Weaponry",
+   "category": "wheels",
+   "pct": 0.354,
+   "price": 1499.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "353 NSW Tubeless Disc Wheels",
+   "url": "https://mikesbikes.com/products/zipp-353-disc?variant=39385945571397",
+   "variant": "Rear 12x142 / HG / 700c",
+   "was": 2321.0
+  },
+  "last": "2026-11-16",
+  "low": 1499.95
+ },
+ "mikes-bikes:6608065822789": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 21.95
+ },
+ "mikes-bikes:6608688611397": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 76.99
+ },
+ "mikes-bikes:6617674154053": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.77
+ },
+ "mikes-bikes:6631842873413": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 101.99
+ },
+ "mikes-bikes:6631843037253": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 101.99
+ },
+ "mikes-bikes:6637802520645": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 114.77
+ },
+ "mikes-bikes:6637802586181": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 149.77
+ },
+ "mikes-bikes:6637802618949": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 95.95
+ },
+ "mikes-bikes:6637802651717": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 114.77
+ },
+ "mikes-bikes:6637802717253": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 95.95
+ },
+ "mikes-bikes:6637802782789": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 139.95
+ },
+ "mikes-bikes:6638415904837": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 43.95
+ },
+ "mikes-bikes:6640709140549": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "mikes-bikes:6640709369925": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 20.99
+ },
+ "mikes-bikes:6640709697605": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "mikes-bikes:6640709763141": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 115.99
+ },
+ "mikes-bikes:6640710221893": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 52.99
+ },
+ "mikes-bikes:6640710877253": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.99
+ },
+ "mikes-bikes:6640710910021": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 31.99
+ },
+ "mikes-bikes:6640711106629": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 45.99
+ },
+ "mikes-bikes:6650522566725": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 229.95
+ },
+ "mikes-bikes:6650624901189": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Giant",
+   "category": "accessories",
+   "pct": 0.397,
+   "price": 39.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Rack-It Metro-E Rear Rack",
+   "url": "https://mikesbikes.com/products/giant-rack-it-metro-e-rear-rack-1?variant=39580370600005",
+   "variant": "Black",
+   "was": 65.99
+  },
+  "last": "2026-11-16",
+  "low": 39.77
+ },
+ "mikes-bikes:6653092036677": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.77
+ },
+ "mikes-bikes:6653092823109": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 90.77
+ },
+ "mikes-bikes:6653093052485": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 120.77
+ },
+ "mikes-bikes:6653093609541": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 45.77
+ },
+ "mikes-bikes:6653100949573": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 89.77
+ },
+ "mikes-bikes:6653102358597": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 89.77
+ },
+ "mikes-bikes:6653102751813": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 89.77
+ },
+ "mikes-bikes:6653103079493": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.77
+ },
+ "mikes-bikes:6653103472709": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 94.77
+ },
+ "mikes-bikes:6679292674117": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 699.95
+ },
+ "mikes-bikes:6679292706885": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 598.95
+ },
+ "mikes-bikes:6679299063877": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Cannondale",
+   "category": "bikes",
+   "pct": 0.364,
+   "price": 6998.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Scalpel HT Hi-MOD Ultimate",
+   "url": "https://mikesbikes.com/products/cannondale-scalpel-ht-hi-mod-ultimate?variant=39700285554757",
+   "variant": "Tinted Red / Small",
+   "was": 11000.0
+  },
+  "last": "2026-11-16",
+  "low": 6998.95
+ },
+ "mikes-bikes:6684433481797": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 66.99
+ },
+ "mikes-bikes:6685767696453": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.422,
+   "price": 54.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Centerline XR Disc Brake Rotor",
+   "url": "https://mikesbikes.com/products/sram-centerline-xr-disc-brake-rotors?variant=39732611219525",
+   "variant": "160mm / 6-Bolt",
+   "was": 95.0
+  },
+  "last": "2026-11-16",
+  "low": 54.95
+ },
+ "mikes-bikes:6690268086341": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.77
+ },
+ "mikes-bikes:6691291267141": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 66.77
+ },
+ "mikes-bikes:6691291299909": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.77
+ },
+ "mikes-bikes:6691291365445": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 111.99
+ },
+ "mikes-bikes:6691291496517": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 45.99
+ },
+ "mikes-bikes:6691291791429": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 45.99
+ },
+ "mikes-bikes:6691292020805": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 45.77
+ },
+ "mikes-bikes:6696278458437": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 30.0
+ },
+ "mikes-bikes:6696761753669": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 23.73
+ },
+ "mikes-bikes:6698742677573": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 71.99
+ },
+ "mikes-bikes:6702230470725": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 143.95
+ },
+ "mikes-bikes:6721556709445": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Cannondale",
+   "category": "bikes",
+   "pct": 0.387,
+   "price": 4599.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Moterra Neo Carbon 2",
+   "url": "https://mikesbikes.com/products/cannondale-moterra-neo-carbon-2?variant=42175677235269",
+   "variant": "Highlighter / Large",
+   "was": 7500.0
+  },
+  "last": "2026-11-16",
+  "low": 4599.95
+ },
+ "mikes-bikes:6733822918725": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Fizik",
+   "category": "cockpit",
+   "pct": 0.395,
+   "price": 199.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Vento Argo 00 Saddle",
+   "url": "https://mikesbikes.com/products/fizik-vento-argo-00-saddle?variant=39985262035013",
+   "variant": "Black / 140mm / 140mm",
+   "was": 329.99
+  },
+  "last": "2026-11-16",
+  "low": 199.77
+ },
+ "mikes-bikes:6733824360517": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 279.95
+ },
+ "mikes-bikes:6733867876421": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 179.77
+ },
+ "mikes-bikes:6733880918085": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 319.95
+ },
+ "mikes-bikes:6736636444741": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 146.77
+ },
+ "mikes-bikes:6736655155269": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 74.77
+ },
+ "mikes-bikes:6737889034309": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 199.77
+ },
+ "mikes-bikes:6737904435269": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 319.95
+ },
+ "mikes-bikes:6737925439557": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 183.95
+ },
+ "mikes-bikes:6738420432965": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.95
+ },
+ "mikes-bikes:6740732444741": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "One-Up Components",
+   "category": "tools",
+   "pct": 0.4,
+   "price": 23.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "EDC Lite Tool",
+   "url": "https://mikesbikes.com/products/oneup-edc-lite-tool?variant=40017458004037",
+   "variant": "Black",
+   "was": 39.99
+  },
+  "last": "2026-11-16",
+  "low": 23.99
+ },
+ "mikes-bikes:6740732739653": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 71.99
+ },
+ "mikes-bikes:6740784676933": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 127.95
+ },
+ "mikes-bikes:6746330562629": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Garmin",
+   "category": "electronics",
+   "pct": 0.25,
+   "price": 299.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Varia RCT715 Rearview Camera and Taillight",
+   "url": "https://mikesbikes.com/products/garmin-varia-rct715-rearview-camera-and-taillight?variant=40044204556357",
+   "variant": "",
+   "was": 399.99
+  },
+  "last": "2026-11-16",
+  "low": 299.99
+ },
+ "mikes-bikes:6755760242757": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 23.73
+ },
+ "mikes-bikes:6777158172741": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 263.95
+ },
+ "mikes-bikes:6778086064197": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 112.49
+ },
+ "mikes-bikes:6799000371269": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.77
+ },
+ "mikes-bikes:6799002828869": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 79.77
+ },
+ "mikes-bikes:6799004500037": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 83.77
+ },
+ "mikes-bikes:6799005122629": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 83.77
+ },
+ "mikes-bikes:6799005450309": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.99
+ },
+ "mikes-bikes:6799005810757": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "mikes-bikes:6799252291653": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "One-Up Components",
+   "category": "tools",
+   "pct": 0.25,
+   "price": 44.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "EDC Tool V2",
+   "url": "https://mikesbikes.com/products/oneup-components-edc-tool-v2-black?variant=40241626251333",
+   "variant": "",
+   "was": 59.99
+  },
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "mikes-bikes:6807433216069": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.99
+ },
+ "mikes-bikes:6812699492421": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.99
+ },
+ "mikes-bikes:6820405477445": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 21.74
+ },
+ "mikes-bikes:6839951753285": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.99
+ },
+ "mikes-bikes:6839952900165": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 174.99
+ },
+ "mikes-bikes:6839960764485": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 38.99
+ },
+ "mikes-bikes:6839964139589": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 174.99
+ },
+ "mikes-bikes:6839977508933": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 48.99
+ },
+ "mikes-bikes:6845498982469": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 184.95
+ },
+ "mikes-bikes:6845893607493": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 28.99
+ },
+ "mikes-bikes:6848711229509": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 117.0
+ },
+ "mikes-bikes:6850036039749": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 61.81
+ },
+ "mikes-bikes:6850075623493": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 121.77
+ },
+ "mikes-bikes:6850080047173": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.397,
+   "price": 219.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Rival 22 DoubleTap Brake Lever (Left)",
+   "url": "https://mikesbikes.com/products/sram-rival-22-doubletap-brake-lever-left?variant=40424006418501",
+   "variant": "",
+   "was": 365.0
+  },
+  "last": "2026-11-16",
+  "low": 219.95
+ },
+ "mikes-bikes:6850727379013": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 127.95
+ },
+ "mikes-bikes:6851031826501": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.46,
+   "price": 99.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "G2 RS Disc Brake",
+   "url": "https://mikesbikes.com/products/sram-g2-rs-disc-brake?variant=40426319609925",
+   "variant": "Front / Hydraulic / Black",
+   "was": 185.0
+  },
+  "last": "2026-11-16",
+  "low": 99.95
+ },
+ "mikes-bikes:6854431244357": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Cannondale",
+   "category": "cockpit",
+   "pct": 0.308,
+   "price": 103.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "HollowGram KNOT Stem",
+   "url": "https://mikesbikes.com/products/cannondale-hollowgram-knot-stem?variant=40435157401669",
+   "variant": "Black / 80mm / -17 Degree",
+   "was": 149.99
+  },
+  "last": "2026-11-16",
+  "low": 103.77
+ },
+ "mikes-bikes:6856991735877": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 79.77
+ },
+ "mikes-bikes:6859840913477": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 21.45
+ },
+ "mikes-bikes:6863074263109": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 64.95
+ },
+ "mikes-bikes:6864101179461": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 50.77
+ },
+ "mikes-bikes:6865086513221": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.391,
+   "price": 209.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Force 1 Hydraulic Brake (Left)",
+   "url": "https://mikesbikes.com/products/sram-force-1-hydraulic-brake-left?variant=40468971487301",
+   "variant": "",
+   "was": 345.0
+  },
+  "last": "2026-11-16",
+  "low": 209.95
+ },
+ "mikes-bikes:6865091526725": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 299.95
+ },
+ "mikes-bikes:6865168072773": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 95.95
+ },
+ "mikes-bikes:6865170399301": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 224.95
+ },
+ "mikes-bikes:6865186095173": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6499.95
+ },
+ "mikes-bikes:6865186553925": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.95
+ },
+ "mikes-bikes:6865363402821": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 171.77
+ },
+ "mikes-bikes:6865784275013": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 162.77
+ },
+ "mikes-bikes:6867816513605": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2398.95
+ },
+ "mikes-bikes:6869958426693": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 179.95
+ },
+ "mikes-bikes:6882787917893": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 90.77
+ },
+ "mikes-bikes:6888655519813": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 51.77
+ },
+ "mikes-bikes:6890462216261": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.475,
+   "price": 62.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Level TL Disc Brakes",
+   "url": "https://mikesbikes.com/products/sram-level-tl-disc-brakes?variant=40564416643141",
+   "variant": "Black / Front",
+   "was": 120.0
+  },
+  "last": "2026-11-16",
+  "low": 62.95
+ },
+ "mikes-bikes:6892156715077": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Pivot Cycles",
+   "category": "framesets",
+   "pct": 0.273,
+   "price": 7999.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Shuttle SL Pro X0 Transmission",
+   "url": "https://mikesbikes.com/products/pivot-shuttle-sl-pro-x0-transmission?variant=40677027184709",
+   "variant": "Black Lime / Large",
+   "was": 11000.0
+  },
+  "last": "2026-11-16",
+  "low": 7999.95
+ },
+ "mikes-bikes:6895431876677": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 183.95
+ },
+ "mikes-bikes:6895431909445": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 139.95
+ },
+ "mikes-bikes:6900383023173": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Santa Cruz",
+   "category": "bikes",
+   "pct": 0.565,
+   "price": 2999.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "5010 5 C GX AXS (2024)",
+   "url": "https://mikesbikes.com/products/santa-cruz-5010-5-c-gx-axs-2024?variant=40602859110469",
+   "variant": "Gloss Black / XX-Large",
+   "was": 6899.99
+  },
+  "last": "2026-11-16",
+  "low": 2999.77
+ },
+ "mikes-bikes:6903352524869": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.95
+ },
+ "mikes-bikes:6904597643333": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2999.77
+ },
+ "mikes-bikes:6904689328197": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2999.77
+ },
+ "mikes-bikes:6904689393733": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4499.77
+ },
+ "mikes-bikes:6905292324933": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3499.77
+ },
+ "mikes-bikes:6905292587077": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Santa Cruz",
+   "category": "framesets",
+   "pct": 0.615,
+   "price": 4499.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Heckler SL CC X0 Transmission Reserve",
+   "url": "https://mikesbikes.com/products/santa-cruz-heckler-sl-cc-x0-transmission-reserve-2024?variant=44649480618053",
+   "variant": "Silver / XX-Large",
+   "was": 11699.99
+  },
+  "last": "2026-11-16",
+  "low": 4499.77
+ },
+ "mikes-bikes:6906676838469": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 32.99
+ },
+ "mikes-bikes:6909282025541": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 79.77
+ },
+ "mikes-bikes:6909282058309": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 79.77
+ },
+ "mikes-bikes:6909892296773": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 48.74
+ },
+ "mikes-bikes:6910974787653": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 223.95
+ },
+ "mikes-bikes:6910994972741": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3119.95
+ },
+ "mikes-bikes:6911494422597": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Pro Components",
+   "category": "cockpit",
+   "pct": 0.414,
+   "price": 49.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Discover Stem",
+   "url": "https://mikesbikes.com/products/pro-discover-stem?variant=40640212795461",
+   "variant": "Black / 70mm / 6 Deg",
+   "was": 84.99
+  },
+  "last": "2026-11-16",
+  "low": 49.77
+ },
+ "mikes-bikes:6911494586437": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.77
+ },
+ "mikes-bikes:6913821474885": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 97.99
+ },
+ "mikes-bikes:6913821507653": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
+ "mikes-bikes:6913821573189": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 94.77
+ },
+ "mikes-bikes:6913821638725": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 77.77
+ },
+ "mikes-bikes:6913821671493": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 87.77
+ },
+ "mikes-bikes:6913821737029": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 66.99
+ },
+ "mikes-bikes:6913821769797": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 66.99
+ },
+ "mikes-bikes:6913821835333": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.77
+ },
+ "mikes-bikes:6913821900869": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 115.99
+ },
+ "mikes-bikes:6913821933637": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.77
+ },
+ "mikes-bikes:6913821966405": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.77
+ },
+ "mikes-bikes:6913822031941": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 25.99
+ },
+ "mikes-bikes:6913822097477": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.77
+ },
+ "mikes-bikes:6913822130245": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
+ "mikes-bikes:6913822425157": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.77
+ },
+ "mikes-bikes:6913822523461": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.77
+ },
+ "mikes-bikes:6913822588997": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 41.99
+ },
+ "mikes-bikes:6913822720069": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 33.77
+ },
+ "mikes-bikes:6913822785605": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.77
+ },
+ "mikes-bikes:6919980548165": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 21.59
+ },
+ "mikes-bikes:6925586661445": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "One-Up Components",
+   "category": "suspension",
+   "pct": 0.25,
+   "price": 202.49,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "V3 Dropper Post",
+   "url": "https://mikesbikes.com/products/oneup-v3-dropper-post?variant=40684055232581",
+   "variant": "90mm / 27.2mm",
+   "was": 269.99
+  },
+  "last": "2026-11-16",
+  "low": 202.49
+ },
+ "mikes-bikes:6931818348613": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 66.99
+ },
+ "mikes-bikes:6963065225285": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 50.77
+ },
+ "mikes-bikes:6963066372165": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 39.77
+ },
+ "mikes-bikes:6980434559045": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Cervelo",
+   "category": "bikes",
+   "pct": 0.467,
+   "price": 3999.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Rouvida Rival XPLR AXS 1",
+   "url": "https://mikesbikes.com/products/cervelo-rouvida-rival-xplr-axs-1-2024?variant=42537715138629",
+   "variant": "Plasma Blue / X-Large",
+   "was": 7499.99
+  },
+  "last": "2026-11-16",
+  "low": 3999.95
+ },
+ "mikes-bikes:6992225992773": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 199.77
+ },
+ "mikes-bikes:7001706987589": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 175.95
+ },
+ "mikes-bikes:7005859971141": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 42.77
+ },
+ "mikes-bikes:7005860167749": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.77
+ },
+ "mikes-bikes:7005860266053": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 64.77
+ },
+ "mikes-bikes:7005860462661": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 23.77
+ },
+ "mikes-bikes:7005860757573": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.77
+ },
+ "mikes-bikes:7005860790341": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 64.77
+ },
+ "mikes-bikes:7010960834629": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 87.99
+ },
+ "mikes-bikes:7010961162309": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 87.99
+ },
+ "mikes-bikes:7011048161349": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 83.99
+ },
+ "mikes-bikes:7011048751173": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "mikes-bikes:7011049472069": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
+ "mikes-bikes:7011049832517": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 83.99
+ },
+ "mikes-bikes:7011050356805": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "mikes-bikes:7091942490181": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 199.77
+ },
+ "mikes-bikes:7116062261317": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2998.95
+ },
+ "mikes-bikes:7133011247173": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 58.77
+ },
+ "mikes-bikes:7223075766341": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 79.95
+ },
+ "mikes-bikes:7223076061253": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 79.95
+ },
+ "mikes-bikes:7329061077061": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1439.99
+ },
+ "mikes-bikes:7333976211525": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2498.95
+ },
+ "mikes-bikes:7338862510149": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4849.0
+ },
+ "mikes-bikes:7338862936133": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5649.0
+ },
+ "mikes-bikes:7353250152517": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5149.0
+ },
+ "mikes-bikes:7353250381893": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5199.0
+ },
+ "mikes-bikes:7353251364933": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6999.0
+ },
+ "mikes-bikes:7353251954757": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 8749.0
+ },
+ "mikes-bikes:7353256902725": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5799.0
+ },
+ "mikes-bikes:7353257787461": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5449.0
+ },
+ "mikes-bikes:7356509454405": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5999.95
+ },
+ "mikes-bikes:7356510011461": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 7999.95
+ },
+ "mikes-bikes:7358842568773": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 138.77
+ },
+ "mikes-bikes:7359535579205": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
+ "mikes-bikes:7368881143877": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 58.77
+ },
+ "mikes-bikes:7401356034117": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 71.99
+ },
+ "mikes-bikes:7401436151877": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 38.77
+ },
+ "mikes-bikes:7401436250181": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 38.77
+ },
+ "mikes-bikes:7408975380549": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
+ "mikes-bikes:7408975446085": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 132.99
+ },
+ "mikes-bikes:7408975544389": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 101.99
+ },
+ "mikes-bikes:7408975642693": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 104.99
+ },
+ "mikes-bikes:7408975675461": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 89.77
+ },
+ "mikes-bikes:7408975839301": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 41.99
+ },
+ "mikes-bikes:7408975937605": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 162.77
+ },
+ "mikes-bikes:7413405843525": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2498.95
+ },
+ "mikes-bikes:7424077365317": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Lezyne",
+   "category": "electronics",
+   "pct": 0.294,
+   "price": 31.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "KTV Pro+ Ai Alert Rear Light",
+   "url": "https://mikesbikes.com/products/lezyne-ktv-pro-ai-alert-rear-light?variant=42033367580741",
+   "variant": "",
+   "was": 44.99
+  },
+  "last": "2026-11-16",
+  "low": 31.77
+ },
+ "mikes-bikes:7427577839685": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Wahoo Fitness",
+   "category": "electronics",
+   "pct": 0.2,
+   "price": 499.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Elemnt Ace GPS Bike Computer",
+   "url": "https://mikesbikes.com/products/wahoo-elemnt-ace-gps-computer?variant=42044769796165",
+   "variant": "",
+   "was": 624.99
+  },
+  "last": "2026-11-16",
+  "low": 499.99
+ },
+ "mikes-bikes:7430584729669": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 32.77
+ },
+ "mikes-bikes:7430587187269": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 90.77
+ },
+ "mikes-bikes:7430587777093": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 90.77
+ },
+ "mikes-bikes:7430588203077": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 77.77
+ },
+ "mikes-bikes:7430766100549": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.77
+ },
+ "mikes-bikes:7430766788677": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.77
+ },
+ "mikes-bikes:7455285051461": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 149.95
+ },
+ "mikes-bikes:7468146491461": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3799.95
+ },
+ "mikes-bikes:7468531220549": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2998.95
+ },
+ "mikes-bikes:7473828528197": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.99
+ },
+ "mikes-bikes:7490170224709": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3599.95
+ },
+ "mikes-bikes:7495490797637": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 180.77
+ },
+ "mikes-bikes:7499443765317": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.77
+ },
+ "mikes-bikes:7507254149189": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 148.77
+ },
+ "mikes-bikes:7509899804741": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "mikes-bikes:7509900132421": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
+ "mikes-bikes:7509946335301": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.77
+ },
+ "mikes-bikes:7509946368069": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.77
+ },
+ "mikes-bikes:7509946761285": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 108.99
+ },
+ "mikes-bikes:7509947449413": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 108.99
+ },
+ "mikes-bikes:7509947547717": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 90.99
+ },
+ "mikes-bikes:7515087306821": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.77
+ },
+ "mikes-bikes:7516964257861": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.99
+ },
+ "mikes-bikes:7521553023045": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 90.99
+ },
+ "mikes-bikes:7521599651909": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 20.99
+ },
+ "mikes-bikes:7523576938565": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Garmin",
+   "category": "electronics",
+   "pct": 0.222,
+   "price": 699.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Enduro 3",
+   "url": "https://mikesbikes.com/products/garmin-enduro-3?variant=42416168042565",
+   "variant": "",
+   "was": 899.99
+  },
+  "last": "2026-11-16",
+  "low": 699.99
+ },
+ "mikes-bikes:7523576971333": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Garmin",
+   "category": "electronics",
+   "pct": 0.25,
+   "price": 449.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Forerunner 965",
+   "url": "https://mikesbikes.com/products/garmin-forerunner-965?variant=42416168239173",
+   "variant": "",
+   "was": 599.99
+  },
+  "last": "2026-11-16",
+  "low": 449.99
+ },
+ "mikes-bikes:7583922290757": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3999.77
+ },
+ "mikes-bikes:7583922847813": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4999.77
+ },
+ "mikes-bikes:7583927730245": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4249.0
+ },
+ "mikes-bikes:7590305955909": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Garmin",
+   "category": "electronics",
+   "pct": 0.273,
+   "price": 399.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Varia Vue",
+   "url": "https://mikesbikes.com/products/garmin-varia-vue?variant=42614251454533",
+   "variant": "",
+   "was": 549.99
+  },
+  "last": "2026-11-16",
+  "low": 399.99
+ },
+ "mikes-bikes:7599819718725": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Cervelo",
+   "category": "bikes",
+   "pct": 0.435,
+   "price": 3499.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Rouvida GRX RX 610 1x",
+   "url": "https://mikesbikes.com/products/cervelo-rouvida-grx-rx-610-1?variant=42660961583173",
+   "variant": "Expedition Green / X-Large",
+   "was": 6199.99
+  },
+  "last": "2026-11-16",
+  "low": 3499.95
+ },
+ "mikes-bikes:7605005123653": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.99
+ },
+ "mikes-bikes:7617814495301": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 549.95
+ },
+ "mikes-bikes:7620617011269": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 375.95
+ },
+ "mikes-bikes:7626649108549": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6079.95
+ },
+ "mikes-bikes:7626649600069": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5999.95
+ },
+ "mikes-bikes:7626650386501": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5359.95
+ },
+ "mikes-bikes:7627485610053": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 60.0
+ },
+ "mikes-bikes:7627492720709": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 30.0
+ },
+ "mikes-bikes:7627496030277": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 20.0
+ },
+ "mikes-bikes:7627498291269": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 30.0
+ },
+ "mikes-bikes:7627501371461": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 20.0
+ },
+ "mikes-bikes:7627508777029": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 40.0
+ },
+ "mikes-bikes:7627510808645": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 30.0
+ },
+ "mikes-bikes:7637257584709": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 23.99
+ },
+ "mikes-bikes:7644269445189": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 38.77
+ },
+ "mikes-bikes:7652695310405": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4649.0
+ },
+ "mikes-bikes:7652771561541": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5299.0
+ },
+ "mikes-bikes:7668568162373": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 10612.95
+ },
+ "mikes-bikes:7668568490053": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 8199.95
+ },
+ "mikes-bikes:7668569440325": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 11519.95
+ },
+ "mikes-bikes:7668569604165": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 11519.95
+ },
+ "mikes-bikes:7668569866309": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 7574.95
+ },
+ "mikes-bikes:7699233734725": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4279.95
+ },
+ "mikes-bikes:7727819980869": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 199.95
+ },
+ "mikes-bikes:7729926307909": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1199.77
+ },
+ "mikes-bikes:7733194489925": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 224.95
+ },
+ "mikes-bikes:7733269200965": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.99
+ },
+ "mikes-bikes:7738187677765": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1199.77
+ },
+ "mikes-bikes:7739107868741": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 143.95
+ },
+ "mikes-bikes:7739112783941": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 143.95
+ },
+ "mikes-bikes:7739113799749": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 199.95
+ },
+ "mikes-bikes:7739116126277": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 263.95
+ },
+ "mikes-bikes:7739126939717": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 143.95
+ },
+ "mikes-bikes:7741791797317": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Garmin",
+   "category": "electronics",
+   "pct": 0.2,
+   "price": 399.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Edge 550 GPS Cycling Computer",
+   "url": "https://mikesbikes.com/products/garmin-edge-550-gps-cycling-computer?variant=43463246512197",
+   "variant": "",
+   "was": 499.99
+  },
+  "last": "2026-11-16",
+  "low": 399.99
+ },
+ "mikes-bikes:7783717830725": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5879.95
+ },
+ "mikes-bikes:7784168816709": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3589.95
+ },
+ "mikes-bikes:7785621684293": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 489.77
+ },
+ "mikes-bikes:7785621880901": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 181.77
+ },
+ "mikes-bikes:7785622110277": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 146.77
+ },
+ "mikes-bikes:7794297372741": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 63.99
+ },
+ "mikes-bikes:7800831770693": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4049.95
+ },
+ "mikes-bikes:7808889749573": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1759.95
+ },
+ "mikes-bikes:7862709977157": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3119.95
+ },
+ "mikes-bikes:7931149221957": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 74.25
+ },
+ "mikes-bikes:7931149418565": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 82.5
+ },
+ "mikes-bikes:7931149615173": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 74.99
+ },
+ "mikes-bikes:7931149713477": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 124.5
+ },
+ "mikes-bikes:7931149811781": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 94.5
+ },
+ "mikes-bikes:7931149942853": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 94.5
+ },
+ "mikes-bikes:7936886603845": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6999.0
+ },
+ "mikes-bikes:7936886964293": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 9999.0
+ },
+ "mikes-bikes:7936887095365": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 11999.0
+ },
+ "mikes-bikes:7941030379589": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 76.77
+ },
+ "mikes-bikes:7941031067717": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 41.77
+ },
+ "mikes-bikes:7941031428165": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 90.77
+ },
+ "mikes-bikes:7957706145861": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.99
+ },
+ "mikes-bikes:7959893803077": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "mikes-bikes:7959894032453": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "mikes-bikes:7959939252293": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 102.77
+ },
+ "mikes-bikes:7960955879493": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.77
+ },
+ "mikes-bikes:7978625531973": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 37.49
+ },
+ "mikes-bikes:8026876117061": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 117.77
+ },
+ "mikes-bikes:8026876182597": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 210.77
+ },
+ "mikes-bikes:8026876248133": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 180.77
+ },
+ "mikes-bikes:8029575905349": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Schwalbe North America",
+   "category": "tires",
+   "pct": 0.501,
+   "price": 43.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "G-One Ultrabite Tire",
+   "url": "https://mikesbikes.com/products/schwalbe-g-one-ultrabite-tire?variant=44808987279429",
+   "variant": "Black / ADDIX EVO SpeedGrip SuperGround / 700x38/40",
+   "was": 87.99
+  },
+  "last": "2026-11-16",
+  "low": 43.95
+ },
+ "mikes-bikes:8034558312517": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 148.77
+ },
+ "mikes-bikes:8050380603461": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1349.95
+ },
+ "mikes-bikes:8105924165701": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 63.99
+ },
+ "mikes-bikes:8121877495877": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 143.95
+ },
+ "mikes-bikes:8129284309061": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6600.77
+ },
+ "mikes-bikes:8129284833349": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4950.77
+ },
+ "mikes-bikes:8129285390405": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Cannondale",
+   "category": "framesets",
+   "pct": 0.45,
+   "price": 3850.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Habit Neo 3",
+   "url": "https://mikesbikes.com/products/cannondale-habit-neo-3-2026?variant=45163835883589",
+   "variant": "Storm Cloud / X-Large",
+   "was": 6998.99
+  },
+  "last": "2026-11-16",
+  "low": 3850.77
+ },
+ "mikes-bikes:8209351802949": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1499.0
+ },
+ "mikes-bikes:8284762734661": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 20.99
+ },
+ "mikes-bikes:8293865259077": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.99
+ },
+ "mikes-bikes:8293865783365": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 34.99
+ },
+ "mikes-bikes:8350966382661": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1599.0
+ },
+ "mikes-bikes:8350966448197": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1599.0
+ },
+ "obed:8602216104111": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "obed:8602216530095": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "obed:8694552363183": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 225.0
  },
  "oneup:2057472606305": {
   "first": "2026-11-16",
@@ -22971,6 +25483,1809 @@
   "first": "2026-11-16",
   "last": "2026-11-16",
   "low": 3899.0
+ },
+ "sierra-bicycle-supply:10009376391416": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "wheels",
+   "pct": 0.294,
+   "price": 1199.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Roval Alpinist CL II Wheelset - Take-Off, Front & Rear",
+   "url": "https://shopbikesupply.com/products/roval-alpinist-cl-ii-wheelset-take-off-front-rear?variant=49682357715192",
+   "variant": "",
+   "was": 1699.98
+  },
+  "last": "2026-11-16",
+  "low": 1199.99
+ },
+ "sierra-bicycle-supply:10273484669176": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 42.39
+ },
+ "sierra-bicycle-supply:10305353187576": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "cockpit",
+   "pct": 0.347,
+   "price": 309.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "S-Works Romin EVO with Mirror - Size 155, Take-Off",
+   "url": "https://shopbikesupply.com/products/s-works-romin-evo-with-mirror-155-take-off?variant=50432332890360",
+   "variant": "Black / 155mm",
+   "was": 474.99
+  },
+  "last": "2026-11-16",
+  "low": 309.99
+ },
+ "sierra-bicycle-supply:10320360440056": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 71.95
+ },
+ "sierra-bicycle-supply:4789235777674": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 449.95
+ },
+ "sierra-bicycle-supply:4821041348746": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 38.95
+ },
+ "sierra-bicycle-supply:5601256046741": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 72.0
+ },
+ "sierra-bicycle-supply:6203617542329": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 104.99
+ },
+ "sierra-bicycle-supply:6207786713273": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.99
+ },
+ "sierra-bicycle-supply:6216629813433": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.99
+ },
+ "sierra-bicycle-supply:6229423554745": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 152.99
+ },
+ "sierra-bicycle-supply:6547087294649": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 299.99
+ },
+ "sierra-bicycle-supply:6669347225785": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 72.0,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Minion DHR II Tire",
+   "url": "https://shopbikesupply.com/products/maxxis-minion-dhr-ii-tire-27-5-x-2-6-tubeless-folding-black-3c-maxx-terra-exo?variant=49690501251320",
+   "variant": "Minion DHR II Tire - 27.5 x 2.3, Tubeless, Folding, Black, 3C MaxxTerra, EXO",
+   "was": 96.0
+  },
+  "last": "2026-11-16",
+  "low": 72.0
+ },
+ "sierra-bicycle-supply:7560481374456": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Muc-Off",
+   "category": "tools",
+   "pct": 0.385,
+   "price": 39.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Ludicrous AF Lube - 50ml",
+   "url": "https://shopbikesupply.com/products/muc-off-ludicrous-af-lube-50ml?variant=42396005564664",
+   "variant": "",
+   "was": 64.99
+  },
+  "last": "2026-11-16",
+  "low": 39.99
+ },
+ "sierra-bicycle-supply:7806929731832": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "tires",
+   "pct": 0.412,
+   "price": 49.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Hillbilly Grid Trail 2Bliss Ready T9",
+   "url": "https://shopbikesupply.com/products/2023-specialized-hillbilly-grid-trail-2bliss-ready-t9-mountain-bike-tire?variant=43247990964472",
+   "variant": "Black / 29 x 2.4",
+   "was": 85.0
+  },
+  "last": "2026-11-16",
+  "low": 49.99
+ },
+ "sierra-bicycle-supply:7876739694840": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.99
+ },
+ "sierra-bicycle-supply:7894122234104": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
+ "sierra-bicycle-supply:7988410056952": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:7989950546168": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "tires",
+   "pct": 0.438,
+   "price": 44.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "S-Works Turbo 2Bliss Ready T2/T5",
+   "url": "https://shopbikesupply.com/products/2023-specialized-s-works-turbo-2bliss-ready-t2-t5-tan-wall-road-tire?variant=47962383909112",
+   "variant": "Black / 700 x 26",
+   "was": 80.0
+  },
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:8018662260984": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 25.99
+ },
+ "sierra-bicycle-supply:8044762104056": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "wheels",
+   "pct": 0.397,
+   "price": 557.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Roval Traverse HD 240 6B",
+   "url": "https://shopbikesupply.com/products/roval-traverse-hd-350-6b-1?variant=43989074116856",
+   "variant": "Satin Carbon/Gloss Black / 29 Front 28H",
+   "was": 925.0
+  },
+  "last": "2026-11-16",
+  "low": 557.99
+ },
+ "sierra-bicycle-supply:8188767011064": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 45.99
+ },
+ "sierra-bicycle-supply:8200364491000": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:8263210139896": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 83.99
+ },
+ "sierra-bicycle-supply:8674155659512": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3899.99
+ },
+ "sierra-bicycle-supply:8722329370872": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:8841126314232": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "framesets",
+   "pct": 0.4,
+   "price": 4799.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "S-Works Turbo Levo SL 2 Framesetset",
+   "url": "https://shopbikesupply.com/products/2025-specialized-s-works-turbo-levo-sl-frameset?variant=45939113033976",
+   "variant": "Team Yellow Tint / Pearl Impasto / Dark Moss Green / Metallic White Silver / S3",
+   "was": 8000.0
+  },
+  "last": "2026-11-16",
+  "low": 4799.99
+ },
+ "sierra-bicycle-supply:9036076024056": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5999.99
+ },
+ "sierra-bicycle-supply:9086319821048": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6399.99
+ },
+ "sierra-bicycle-supply:9097100755192": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3299.99
+ },
+ "sierra-bicycle-supply:9097100787960": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.275,
+   "price": 2899.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Turbo Vado SL 2 4.0",
+   "url": "https://shopbikesupply.com/products/turbo-vado-sl-2-4-0?variant=46513330422008",
+   "variant": "Satin Gunmetal / Smoke Frost / S",
+   "was": 3999.99
+  },
+  "last": "2026-11-16",
+  "low": 2899.99
+ },
+ "sierra-bicycle-supply:9097101672696": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2999.99
+ },
+ "sierra-bicycle-supply:9114195558648": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 76.99
+ },
+ "sierra-bicycle-supply:9130758340856": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 58.99
+ },
+ "sierra-bicycle-supply:9130758930680": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 799.99
+ },
+ "sierra-bicycle-supply:9144208326904": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 40.99
+ },
+ "sierra-bicycle-supply:9144208883960": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.99
+ },
+ "sierra-bicycle-supply:9144210784504": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 43.95
+ },
+ "sierra-bicycle-supply:9144212160760": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9144212226296": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9144212947192": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9144213012728": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:9144213635320": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 20.99
+ },
+ "sierra-bicycle-supply:9144214323448": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9144215175416": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9144215765240": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9144216453368": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 81.99
+ },
+ "sierra-bicycle-supply:9144217239800": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.99
+ },
+ "sierra-bicycle-supply:9144219271416": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.99
+ },
+ "sierra-bicycle-supply:9144219566328": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.97
+ },
+ "sierra-bicycle-supply:9144221008120": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 53.99
+ },
+ "sierra-bicycle-supply:9144221368568": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:9144221696248": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 549.99
+ },
+ "sierra-bicycle-supply:9144222941432": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 23.99
+ },
+ "sierra-bicycle-supply:9144223695096": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2749.99
+ },
+ "sierra-bicycle-supply:9144224252152": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9144224874744": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.99
+ },
+ "sierra-bicycle-supply:9144227234040": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9144227889400": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 7199.99
+ },
+ "sierra-bicycle-supply:9144229036280": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 31.99
+ },
+ "sierra-bicycle-supply:9144229298424": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9144229462264": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "suspension",
+   "pct": 0.642,
+   "price": 33.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Öhlins Stumpjumper Spring",
+   "url": "https://shopbikesupply.com/products/ohlins-stumpjumper-spring?variant=46623736561912",
+   "variant": "Yellow / 100N/mm - 571lbs/in",
+   "was": 95.0
+  },
+  "last": "2026-11-16",
+  "low": 33.99
+ },
+ "sierra-bicycle-supply:9144229789944": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.99
+ },
+ "sierra-bicycle-supply:9144230150392": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5699.99
+ },
+ "sierra-bicycle-supply:9144230412536": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 699.99
+ },
+ "sierra-bicycle-supply:9144230445304": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 103.99
+ },
+ "sierra-bicycle-supply:9144230641912": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.99
+ },
+ "sierra-bicycle-supply:9144231461112": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9144232149240": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9144232837368": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 60.99
+ },
+ "sierra-bicycle-supply:9144233033976": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
+ "sierra-bicycle-supply:9144233165048": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9144233197816": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.99
+ },
+ "sierra-bicycle-supply:9144233591032": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4799.99
+ },
+ "sierra-bicycle-supply:9144235131128": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.99
+ },
+ "sierra-bicycle-supply:9144235327736": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "cockpit",
+   "pct": 0.55,
+   "price": 26.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Trail Stem",
+   "url": "https://shopbikesupply.com/products/trail-stem?variant=46623769002232",
+   "variant": "Black / 31.8mm x 60mm, 6 Degree",
+   "was": 60.0
+  },
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9144235589880": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9144235720952": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
+ "sierra-bicycle-supply:9144237097208": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 20.99
+ },
+ "sierra-bicycle-supply:9144237359352": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9144237523192": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9144237654264": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 80.99
+ },
+ "sierra-bicycle-supply:9144237752568": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 97.99
+ },
+ "sierra-bicycle-supply:9144237818104": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.471,
+   "price": 89.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Rime 2.0 Hydroguard Mountain Bike Shoe",
+   "url": "https://shopbikesupply.com/products/rime-2-0-hydroguard-mountain-bike-shoe?variant=46623779684600",
+   "variant": "Black/Cast Battleship/Blaze / 36",
+   "was": 170.0
+  },
+  "last": "2026-11-16",
+  "low": 89.99
+ },
+ "sierra-bicycle-supply:9144238571768": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.99
+ },
+ "sierra-bicycle-supply:9144238866680": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9144239554808": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9144239718648": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 75.99
+ },
+ "sierra-bicycle-supply:9144240013560": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 55.99
+ },
+ "sierra-bicycle-supply:9144241783032": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 53.99
+ },
+ "sierra-bicycle-supply:9144241946872": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:9144242995448": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9144244175096": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9144244338936": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "accessories",
+   "pct": 0.55,
+   "price": 26.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Plug + Play Fender Set v2",
+   "url": "https://shopbikesupply.com/products/plug-play-fender-set-v2?variant=46623804129528",
+   "variant": "",
+   "was": 60.0
+  },
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9144245682424": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 125.99
+ },
+ "sierra-bicycle-supply:9144246075640": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9144246862072": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 80.99
+ },
+ "sierra-bicycle-supply:9144247386360": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
+ "sierra-bicycle-supply:9144251154680": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.99
+ },
+ "sierra-bicycle-supply:9144251613432": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 56.99
+ },
+ "sierra-bicycle-supply:9144251941112": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9144252236024": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.99
+ },
+ "sierra-bicycle-supply:9144253808888": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 38.99
+ },
+ "sierra-bicycle-supply:9144254169336": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 38.99
+ },
+ "sierra-bicycle-supply:9144254726392": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.99
+ },
+ "sierra-bicycle-supply:9144255676664": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
+ "sierra-bicycle-supply:9144256430328": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
+ "sierra-bicycle-supply:9144256987384": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 104.99
+ },
+ "sierra-bicycle-supply:9144257347832": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "accessories",
+   "pct": 0.3,
+   "price": 769.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Sirrus X 3.0 Step-Through",
+   "url": "https://shopbikesupply.com/products/sirrus-x-3-0-step-through?variant=46623839289592",
+   "variant": "Gls Refl Ashgry Blklqdmet / XS",
+   "was": 1100.0
+  },
+  "last": "2026-11-16",
+  "low": 769.99
+ },
+ "sierra-bicycle-supply:9144258199800": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.54,
+   "price": 22.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Stoke Long Sleeve T-Shirt",
+   "url": "https://shopbikesupply.com/products/stoke-long-sleeve-t-shirt?variant=46623840927992",
+   "variant": "Dove Grey / XS",
+   "was": 50.0
+  },
+  "last": "2026-11-16",
+  "low": 22.99
+ },
+ "sierra-bicycle-supply:9144260165880": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 88.99
+ },
+ "sierra-bicycle-supply:9144260722936": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9144264786168": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9144265146616": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9144265638136": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 22.99
+ },
+ "sierra-bicycle-supply:9144270094584": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 45.99
+ },
+ "sierra-bicycle-supply:9144270684408": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 22.99
+ },
+ "sierra-bicycle-supply:9144273305848": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 529.99
+ },
+ "sierra-bicycle-supply:9144320819448": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9158219006200": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1249.99
+ },
+ "sierra-bicycle-supply:9167400141048": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.4,
+   "price": 4799.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Turbo Levo SL 2 Comp Carbon",
+   "url": "https://shopbikesupply.com/products/turbo-levo-sl-2-comp-carbon?variant=46682267255032",
+   "variant": "Satin Mystic Blue / Mystic Blue Metallic / Silver Dust / S6",
+   "was": 8000.0
+  },
+  "last": "2026-11-16",
+  "low": 4799.99
+ },
+ "sierra-bicycle-supply:9167400534264": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2899.99
+ },
+ "sierra-bicycle-supply:9167400763640": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1199.99
+ },
+ "sierra-bicycle-supply:9175606198520": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 75.59
+ },
+ "sierra-bicycle-supply:9175619600632": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 75.99
+ },
+ "sierra-bicycle-supply:9175672258808": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 46.39
+ },
+ "sierra-bicycle-supply:9175679631608": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 95.89
+ },
+ "sierra-bicycle-supply:9180036890872": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2249.99
+ },
+ "sierra-bicycle-supply:9180037251320": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 89.99
+ },
+ "sierra-bicycle-supply:9180037447928": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9180037546232": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 138.99
+ },
+ "sierra-bicycle-supply:9180037906680": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3699.99
+ },
+ "sierra-bicycle-supply:9180038332664": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 40.99
+ },
+ "sierra-bicycle-supply:9180039119096": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3349.99
+ },
+ "sierra-bicycle-supply:9180039184632": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.427,
+   "price": 62.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "RIME 1.0 Mountain Bike Shoes",
+   "url": "https://shopbikesupply.com/products/rime-1-0-mountain-bike-shoes-1?variant=46719008342264",
+   "variant": "Black / 36",
+   "was": 110.0
+  },
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9180039512312": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.551,
+   "price": 145.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "S-Works Recon Lace Gravel Shoes",
+   "url": "https://shopbikesupply.com/products/s-works-recon-lace-gravel-shoes-1?variant=46719010275576",
+   "variant": "Oak Green / 36",
+   "was": 325.0
+  },
+  "last": "2026-11-16",
+  "low": 145.99
+ },
+ "sierra-bicycle-supply:9180039774456": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 78.99
+ },
+ "sierra-bicycle-supply:9180039807224": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9180040724728": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.95
+ },
+ "sierra-bicycle-supply:9180041412856": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9180041609464": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 88.99
+ },
+ "sierra-bicycle-supply:9180041838840": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 78.99
+ },
+ "sierra-bicycle-supply:9180042330360": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 113.99
+ },
+ "sierra-bicycle-supply:9180042723576": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9180043084024": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 28.99
+ },
+ "sierra-bicycle-supply:9180043575544": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9180043608312": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 23.99
+ },
+ "sierra-bicycle-supply:9180044427512": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 157.99
+ },
+ "sierra-bicycle-supply:9180044689656": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 94.99
+ },
+ "sierra-bicycle-supply:9180044820728": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.6,
+   "price": 99.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Women's Prime Alpha Jacket",
+   "url": "https://shopbikesupply.com/products/womens-prime-alpha-jacket?variant=46719077187832",
+   "variant": "Gunmetal/Dark Moss Green / XXL",
+   "was": 250.0
+  },
+  "last": "2026-11-16",
+  "low": 99.99
+ },
+ "sierra-bicycle-supply:9180488335608": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "electronics",
+   "pct": 0.3,
+   "price": 27.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Flat Brim Hat",
+   "url": "https://shopbikesupply.com/products/flat-brim-hat?variant=46720227246328",
+   "variant": "Black/White / One Size",
+   "was": 40.0
+  },
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9181432742136": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 155.19
+ },
+ "sierra-bicycle-supply:9181434020088": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9185610891512": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5999.99
+ },
+ "sierra-bicycle-supply:9188093001976": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9188093526264": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 157.99
+ },
+ "sierra-bicycle-supply:9188096016632": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9188097818872": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 45.99
+ },
+ "sierra-bicycle-supply:9189665472760": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 89.99
+ },
+ "sierra-bicycle-supply:9189665734904": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 43.99
+ },
+ "sierra-bicycle-supply:9189665833208": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9189666062584": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.99
+ },
+ "sierra-bicycle-supply:9189666128120": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 39.99
+ },
+ "sierra-bicycle-supply:9189666193656": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 157.99
+ },
+ "sierra-bicycle-supply:9189666423032": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 37.99
+ },
+ "sierra-bicycle-supply:9189666455800": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 75.99
+ },
+ "sierra-bicycle-supply:9189666586872": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6599.99
+ },
+ "sierra-bicycle-supply:9189666717944": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 22.95
+ },
+ "sierra-bicycle-supply:9189666783480": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 58.99
+ },
+ "sierra-bicycle-supply:9189667668216": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 23.99
+ },
+ "sierra-bicycle-supply:9189668356344": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.99
+ },
+ "sierra-bicycle-supply:9189668749560": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 89.99
+ },
+ "sierra-bicycle-supply:9189668978936": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9189669470456": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 98.99
+ },
+ "sierra-bicycle-supply:9189669732600": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 48.99
+ },
+ "sierra-bicycle-supply:9189670322424": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 151.99
+ },
+ "sierra-bicycle-supply:9189670420728": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 89.95
+ },
+ "sierra-bicycle-supply:9194482663672": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.412,
+   "price": 2499.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Turbo Como 4.0 IGH",
+   "url": "https://shopbikesupply.com/products/turbo-como-4-0-igh-1?variant=46779602370808",
+   "variant": "Cast Black / Silver Reflective / S",
+   "was": 4250.0
+  },
+  "last": "2026-11-16",
+  "low": 2499.99
+ },
+ "sierra-bicycle-supply:9194483286264": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2699.99
+ },
+ "sierra-bicycle-supply:9194483581176": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4199.99
+ },
+ "sierra-bicycle-supply:9194483646712": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2999.99
+ },
+ "sierra-bicycle-supply:9194483843320": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 80.99
+ },
+ "sierra-bicycle-supply:9194484138232": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "accessories",
+   "pct": 0.5,
+   "price": 799.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Sirrus 4.0",
+   "url": "https://shopbikesupply.com/products/sirrus-4-1?variant=46779610923256",
+   "variant": "Gloss Cactus Bloom / Satin Mystic Blue Reflective / XXS",
+   "was": 1600.0
+  },
+  "last": "2026-11-16",
+  "low": 799.99
+ },
+ "sierra-bicycle-supply:9195673682168": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.4
+ },
+ "sierra-bicycle-supply:9195706351864": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Elite",
+   "category": "electronics",
+   "pct": 0.25,
+   "price": 29.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Su-sta Adjustable Riser Block",
+   "url": "https://shopbikesupply.com/products/su-sta-adjustable-riser-block?variant=46793238905080",
+   "variant": "",
+   "was": 39.99
+  },
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9195860230392": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 878.95
+ },
+ "sierra-bicycle-supply:9214662803704": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.99
+ },
+ "sierra-bicycle-supply:9218915270904": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 53.99
+ },
+ "sierra-bicycle-supply:9218919760120": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9218920349944": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 107.99
+ },
+ "sierra-bicycle-supply:9218920513784": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 146.99
+ },
+ "sierra-bicycle-supply:9218928083192": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9218933850360": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2999.99
+ },
+ "sierra-bicycle-supply:9218933948664": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9218934898936": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 35.99
+ },
+ "sierra-bicycle-supply:9218935161080": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 399.99
+ },
+ "sierra-bicycle-supply:9218941747448": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "cockpit",
+   "pct": 0.5,
+   "price": 22.49,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Supacaz Super Sticky Kush Galaxy Tape",
+   "url": "https://shopbikesupply.com/products/supacaz-super-sticky-kush-galaxy-tape?variant=46862575763704",
+   "variant": "One Size / White/Black Print/Ano Black",
+   "was": 45.0
+  },
+  "last": "2026-11-16",
+  "low": 22.49
+ },
+ "sierra-bicycle-supply:9227375214840": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 37.99
+ },
+ "sierra-bicycle-supply:9227379736824": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.614,
+   "price": 26.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Men's Trail Long Sleeve Jersey",
+   "url": "https://shopbikesupply.com/products/mens-trail-long-sleeve-jersey-1?variant=46889304129784",
+   "variant": "L / Harvest Gold",
+   "was": 70.0
+  },
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9239602528504": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:9239602823416": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9239602888952": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "suspension",
+   "pct": 0.663,
+   "price": 31.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Öhlins RXF 36 Coil Fork Spring",
+   "url": "https://shopbikesupply.com/products/ohlins-rxf-36-coil-fork-spring-1?variant=46943066423544",
+   "variant": "10.6N/mm - 60lbs/in / Black",
+   "was": 95.0
+  },
+  "last": "2026-11-16",
+  "low": 31.99
+ },
+ "sierra-bicycle-supply:9239603085560": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 33.99
+ },
+ "sierra-bicycle-supply:9239604330744": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:9239605182712": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 43.99
+ },
+ "sierra-bicycle-supply:9239719608568": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 54.99
+ },
+ "sierra-bicycle-supply:9239719739640": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 239.99
+ },
+ "sierra-bicycle-supply:9239719837944": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:9239720165624": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 44.99
+ },
+ "sierra-bicycle-supply:9239720198392": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 209.99
+ },
+ "sierra-bicycle-supply:9239720231160": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 22.99
+ },
+ "sierra-bicycle-supply:9239720329464": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9239720493304": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9239720755448": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.49
+ },
+ "sierra-bicycle-supply:9239721115896": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 124.99
+ },
+ "sierra-bicycle-supply:9239721378040": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 28.99
+ },
+ "sierra-bicycle-supply:9239721541880": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 40.99
+ },
+ "sierra-bicycle-supply:9239913529592": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 25.99
+ },
+ "sierra-bicycle-supply:9239913627896": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.6,
+   "price": 71.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Ambush 2",
+   "url": "https://shopbikesupply.com/products/ambush-3?variant=46943825101048",
+   "variant": "White Sage / L",
+   "was": 180.0
+  },
+  "last": "2026-11-16",
+  "low": 71.99
+ },
+ "sierra-bicycle-supply:9239915397368": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 179.95
+ },
+ "sierra-bicycle-supply:9239920738552": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 62.99
+ },
+ "sierra-bicycle-supply:9239920935160": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 22.99
+ },
+ "sierra-bicycle-supply:9239923654904": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 80.99
+ },
+ "sierra-bicycle-supply:9239924572408": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9239924965624": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.99
+ },
+ "sierra-bicycle-supply:9239925260536": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "framesets",
+   "pct": 0.6,
+   "price": 1079.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Stumpjumper Frameset",
+   "url": "https://shopbikesupply.com/products/stumpjumper-frameset-1?variant=46943857344760",
+   "variant": "S1 / Satin Copper / Black",
+   "was": 2700.0
+  },
+  "last": "2026-11-16",
+  "low": 1079.99
+ },
+ "sierra-bicycle-supply:9239925326072": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 125.99
+ },
+ "sierra-bicycle-supply:9241453396216": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.99
+ },
+ "sierra-bicycle-supply:9254288982264": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 53.99
+ },
+ "sierra-bicycle-supply:9254289441016": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 8949.99
+ },
+ "sierra-bicycle-supply:9254289932536": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9254290850040": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 21.99
+ },
+ "sierra-bicycle-supply:9254291144952": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 79.99
+ },
+ "sierra-bicycle-supply:9254291243256": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "accessories",
+   "pct": 0.25,
+   "price": 749.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Roll 3.0",
+   "url": "https://shopbikesupply.com/products/roll-3-1?variant=47144887058680",
+   "variant": "M / Satin Redwood / Smoke / Black Reflective",
+   "was": 1000.0
+  },
+  "last": "2026-11-16",
+  "low": 749.99
+ },
+ "sierra-bicycle-supply:9254291341560": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 73.99
+ },
+ "sierra-bicycle-supply:9254291734776": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 73.99
+ },
+ "sierra-bicycle-supply:9254370640120": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 29.99
+ },
+ "sierra-bicycle-supply:9254419726584": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 67.49
+ },
+ "sierra-bicycle-supply:9254428967160": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 60.99
+ },
+ "sierra-bicycle-supply:9254429032696": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 74.99
+ },
+ "sierra-bicycle-supply:9255011844344": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2299.99
+ },
+ "sierra-bicycle-supply:9332061503736": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 119.99
+ },
+ "sierra-bicycle-supply:9332061569272": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 125.99
+ },
+ "sierra-bicycle-supply:9333222277368": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 72.0
+ },
+ "sierra-bicycle-supply:9333246361848": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 100.99
+ },
+ "sierra-bicycle-supply:9352151761144": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 26.99
+ },
+ "sierra-bicycle-supply:9357128564984": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 72.0
+ },
+ "sierra-bicycle-supply:9357128630520": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 54.0
+ },
+ "sierra-bicycle-supply:9357128958200": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 78.0
+ },
+ "sierra-bicycle-supply:9357129187576": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 78.0
+ },
+ "sierra-bicycle-supply:9357129679096": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 54.0
+ },
+ "sierra-bicycle-supply:9367335141624": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 74.99
+ },
+ "sierra-bicycle-supply:9367367516408": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 72.0
+ },
+ "sierra-bicycle-supply:9367369351416": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
+ "sierra-bicycle-supply:9369322258680": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 74.99
+ },
+ "sierra-bicycle-supply:9369327665400": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 36.99
+ },
+ "sierra-bicycle-supply:9396189724920": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 23.99
+ },
+ "sierra-bicycle-supply:9481695461624": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5999.99
+ },
+ "sierra-bicycle-supply:9490937086200": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
+ "sierra-bicycle-supply:9567642878200": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 999.99
+ },
+ "sierra-bicycle-supply:9811653394680": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "cockpit",
+   "pct": 0.5,
+   "price": 299.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Roval Alpinist SL Carbon Cockpit",
+   "url": "https://shopbikesupply.com/products/roval-alpinist-sl-cockpit?variant=48750974271736",
+   "variant": "Matte Carbon/Gloss Black / 130mm x 440mm",
+   "was": 600.0
+  },
+  "last": "2026-11-16",
+  "low": 299.99
+ },
+ "sierra-bicycle-supply:9843342835960": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 169.99
+ },
+ "sierra-bicycle-supply:9843352797432": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 27.99
+ },
+ "sierra-bicycle-supply:9843360596216": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 169.99
+ },
+ "sierra-bicycle-supply:9843369672952": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 49.99
+ },
+ "sierra-bicycle-supply:9843371966712": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.6,
+   "price": 23.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Youth Trail Long Sleeve Jersey",
+   "url": "https://shopbikesupply.com/products/youth-trail-long-sleeve-jersey-1?variant=48789239365880",
+   "variant": "Dusk Spindrift / L",
+   "was": 60.0
+  },
+  "last": "2026-11-16",
+  "low": 23.99
+ },
+ "sierra-bicycle-supply:9843374391544": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 89.99
+ },
+ "sierra-bicycle-supply:9843381731576": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 48.99
+ },
+ "sierra-bicycle-supply:9843385630968": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.99
+ },
+ "sierra-bicycle-supply:9843396804856": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.99
+ },
+ "sierra-bicycle-supply:9843397001464": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
+ "sierra-bicycle-supply:9843397198072": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.99
+ },
+ "sierra-bicycle-supply:9843398213880": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 39.99
+ },
+ "sierra-bicycle-supply:9843403096312": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 104.99
+ },
+ "sierra-bicycle-supply:9843406176504": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.99
+ },
+ "sierra-bicycle-supply:9843418497272": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 39.99
+ },
+ "sierra-bicycle-supply:9843437633784": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 59.99
+ },
+ "sierra-bicycle-supply:9843437732088": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 48.99
+ },
+ "sierra-bicycle-supply:9843446612216": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 104.99
+ },
+ "sierra-bicycle-supply:9843459850488": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.99
  },
  "silca:1523671748": {
   "first": "2026-11-16",
