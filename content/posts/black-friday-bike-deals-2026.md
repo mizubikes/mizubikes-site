@@ -1,8 +1,8 @@
 ---
 title: 'Black Friday Bike Deals 2026: Best Sales Live Now'
 date: 2026-11-14T22:00:00-08:00
-lastmod: 2026-11-15T20:00:00-08:00
-description: 'Black Friday bike deals 2026: the cycling sales live now at Jenson, Performance, Worldwide Cyclery, Specialized, Canyon and more, with codes and end dates.'
+lastmod: 2026-11-16T16:00:00-08:00
+description: 'Black Friday bike deals 2026: today''s best markdowns from 26 bike shops and brand stores, checked daily, plus the sales at Jenson, Performance, Specialized, OneUp and more.'
 slug: black-friday-bike-deals-2026
 weight: 1
 categories:
@@ -22,9 +22,23 @@ draft: false
 
 *Mizubikes may earn a commission from links in this post.*
 
-**Quick answer:** Black Friday 2026 is November 27 and Cyber Monday is November 30, but most of the big cycling sales are already live. Jenson USA, Performance Bicycle, Backcountry and BikeTiresDirect are all running early Black Friday sales now. Worldwide Cyclery has 15% off with code **BlowOut2026**, and Specialized has its Black Friday sale up. I'm updating this page through Cyber Monday.
+**Quick answer:** Black Friday 2026 is November 27 and Cyber Monday is November 30, but most of the big cycling sales are already live. Jenson USA, Performance Bicycle, Backcountry and BikeTiresDirect are all running early Black Friday sales now. Worldwide Cyclery has 15% off with code **BlowOut2026**, and Specialized, OneUp and Hunt all have Black Friday markdowns on their own sites. My deal finder checks 26 bike shops and brand stores every morning, and the best of what it finds is right below. I'm updating this page through Cyber Monday.
 
-*Last updated: November 15, 2026. Sales and codes change fast, so always confirm the final price in your cart.*
+*Last updated: November 16, 2026. Sales and codes change fast, so always confirm the final price in your cart.*
+
+## Today's best Black Friday bike deals
+
+These update every morning from my [bike deal finder](/bike-deals/), which checks 26 bike shops and brand stores for real markdowns. I pick for gear people actually ride (current SRAM Transmission and E1, Maxxis Minions, Roval wheels, power meters), not just the biggest percentage. Every card goes straight to the store.
+
+{{< deals-picks n="10" >}}
+
+### Which stores have the most on sale
+
+Counted from the same daily scan: items marked down at least 10% and in stock.
+
+{{< deals-stores n="12" >}}
+
+On November 16, Planet Cyclery, inCycle, Sierra Bicycle Supply, Mike's Bikes and Fanatik had the deepest sale catalogs. Browse by category on the [deals page](/bike-deals/): [complete bikes](/bike-deals/bikes/), [wheels](/bike-deals/wheels/), [drivetrain](/bike-deals/drivetrain/), [tires](/bike-deals/tires/) and [power meters and computers](/bike-deals/electronics/).
 
 ## Black Friday bike sales live now
 
@@ -41,17 +55,21 @@ Discounts are as advertised by each retailer on November 14.
 
 ## Brand-direct deals
 
-**Specialized.** The [Specialized Black Friday sale](https://www.specialized.com/us/en/shop/black-friday) is live with more than 600 items, including complete bikes, components and apparel. Specialized sells through dealers too, so check your local shop. Many match brand-direct sale prices.
+**Specialized.** The [Specialized Black Friday sale](https://www.specialized.com/us/en/shop/black-friday) is live with more than 600 items, including complete bikes, components and apparel. The standouts on November 16 are mountain bikes: a 2025 Stumpjumper 15 Öhlins Coil at $3,999.99, half off its $7,999.99 list, and an S-Works Turbo Levo SL 2 frameset at $4,799.99 (was $7,999.99). Specialized sells through dealers too, so check your local shop. Many match brand-direct sale prices.
 
 **Canyon outlet.** Canyon doesn't run a big Black Friday sale, but its [US outlet](https://www.canyon.com/en-us/outlet-bikes/) has real discounts on past-season and cosmetic-blemish bikes. As an example, an Ultimate CF SL frameset was $1,399, down from $1,999. Read the condition notes before you buy, though. Many outlet bikes are listed as "visual imperfections" with scratches or paint flaws, and that frameset was final sale with no returns.
 
-**OneUp Components.** [OneUp's Black Friday sale at Fanatik](https://www.fanatikbike.com/pages/sale/one-up-black-friday-sale-2026) has 25% off droppers, bars and EDC tools, 30% off pedals and 40% off colored hubs, through December 1. If you need a dropper, this is the time. A OneUp V3 is the dropper I run on my [Epic 8 Evo](/posts/specialized-epic-9-vs-epic-8-evo/).
+**OneUp Components.** OneUp's Black Friday prices are live [direct on oneupcomponents.com](https://www.oneupcomponents.com/) (20-47% off, including the V3 Dropper Bundle at $227.99) and in [OneUp's Black Friday sale at Fanatik](https://www.fanatikbike.com/pages/sale/one-up-black-friday-sale-2026), which has 25% off droppers, bars and EDC tools, 30% off pedals and 40% off colored hubs, through December 1. If you need a dropper, this is the time. A OneUp V3 is the dropper I run on my [Epic 8 Evo](/posts/specialized-epic-9-vs-epic-8-evo/).
 
 **Panda Podium.** [Panda Podium](https://www.pandapodium.cc/black-friday-2026/) is running daily drops on Tavelo frames, CRW wheelsets and cockpits through Black Friday week.
 
-**Wolf Tooth.** No direct Wolf Tooth sale yet. [Planet Cyclery](https://planetcyclery.com/collections/wolf-tooth-components) has an extra 10% off Wolf Tooth parts.
+**Wolf Tooth.** No site-wide Wolf Tooth sale yet, but [wolftoothcomponents.com](https://www.wolftoothcomponents.com/) has a handful of closeouts, like GeoShift angle headsets at about 45% off. [Planet Cyclery](https://planetcyclery.com/collections/wolf-tooth-components) has an extra 10% off Wolf Tooth parts.
 
-**ENVE.** No ENVE Black Friday sale on enve.com yet. Right now the best way to get ENVE wheels and cockpit parts on sale is Worldwide Cyclery with the 15% **BlowOut2026** code.
+**Hunt.** [Hunt](https://us.huntbikewheels.com/) has its carbon disc wheelsets marked down direct: the 50 Carbon Disc is $749.40 (was $1,249) and the 40 Carbon Disc is $860.30 (was $1,229).
+
+**Silca.** [Silca](https://silca.cc/) has 20-50% off select items, including the Pocket Impero II pump at $59.40 and the Grinta Roll Top Bag at $96.
+
+**ENVE.** Still no ENVE Black Friday sale on enve.com as of November 16. Right now the best way to get ENVE wheels and cockpit parts on sale is Worldwide Cyclery with the 15% **BlowOut2026** code.
 
 ## Gravel tire deals, tracked daily
 

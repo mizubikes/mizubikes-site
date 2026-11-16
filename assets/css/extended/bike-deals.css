@@ -383,3 +383,6 @@ a.dp-home-btn:hover { background: #157a93; }
 .dp-browse li { margin: 0; font-size: 15px; }
 .dp-browse li span { color: var(--secondary); font-size: 13px; }
 @media (max-width: 640px) { .dp-browse ul { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* ----- deal picks inside a blog post (shortcode deals-picks) ----- */
+.post-content .dp-post-foot { margin: 6px 0 0; font-size: 14px; color: var(--secondary); }

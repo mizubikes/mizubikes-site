@@ -1,0 +1,25 @@
+{{- /* Today's top deals from the daily scan, for use inside posts.
+       {{< deals-picks n="9" >}}  — at most 2 per category, cards go to the store. */ -}}
+{{- $n := int (.Get "n" | default 9) -}}
+{{- $d := site.Data.deals | default dict -}}
+{{- $titles := dict -}}
+{{- range $d.categories }}{{ $titles = merge $titles (dict .key .title) }}{{ end -}}
+{{- $picks := slice -}}
+{{- $per := dict -}}
+{{- range ($d.top | default slice) -}}
+  {{- $c := index $per .category | default 0 -}}
+  {{- if and (lt (len $picks) $n) (lt $c 2) -}}
+    {{- $picks = $picks | append . -}}
+    {{- $per = merge $per (dict .category (add $c 1)) -}}
+  {{- end -}}
+{{- end -}}
+{{- if $picks }}
+<div class="fp dp dp-post">
+  <div class="dp-grid">
+    {{- range $picks }}
+    {{ partial "deals/card.html" (dict "it" . "cat" (index $titles .category)) }}
+    {{- end }}
+  </div>
+  <p class="dp-post-foot">{{ with $d.updated }}Checked {{ time.Format "January 2" . }} · {{ end }}<a href="/bike-deals/">See all {{ with $d.total_found }}{{ lang.FormatNumber 0 . }} {{ end }}deals, by category &rarr;</a></p>
+</div>
+{{- end -}}
