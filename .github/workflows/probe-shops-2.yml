@@ -1,0 +1,27 @@
+name: Probe shops 2 (temporary)
+on:
+  push:
+    branches: [probe-shops-2]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check each store
+        run: |
+          set +e
+          UA="Mozilla/5.0 (compatible; MizubikesPriceBot/1.0; +https://mizubikes.com/bike-deals/)"
+          BUA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+          for base in https://www.biketiresdirect.com https://www.competitivecyclist.com https://www.canyon.com https://www.btlos.com https://btlos.com https://www.btlosbike.com https://garbaruk.com https://www.garbaruk.com; do
+            echo "=== $base"
+            code=$(curl -s -L -m 25 -o home.html -w "%{http_code} %{url_effective}" -A "$BUA" "$base/")
+            echo "home: $code  $(wc -c < home.html) bytes"
+            for sig in cdn.shopify.com Shopify.theme demandware salesforce bigcommerce __NEXT_DATA__ __next_f magento woocommerce wp-content PrestaShop prestashop cf-chl challenge-platform "Just a moment"; do
+              grep -q "$sig" home.html && echo "  has: $sig"
+            done
+            grep -o "<title>[^<]*" home.html | head -1
+            code=$(curl -s -L -m 25 -o p.json -w "%{http_code}" -A "$UA" "$base/products.json?limit=2")
+            echo "products.json: $code  $(head -c 140 p.json | tr '\n' ' ')"
+            code=$(curl -s -L -m 25 -o w.json -w "%{http_code}" -A "$UA" "$base/wp-json/wc/store/v1/products?per_page=2")
+            echo "woo store api: $code  $(head -c 100 w.json | tr '\n' ' ')"
+          done
