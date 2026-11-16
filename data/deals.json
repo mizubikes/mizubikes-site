@@ -2286,6 +2286,36 @@
     },
     {
      "amazon": "",
+     "brand": "Reserve Wheels",
+     "category": "wheels",
+     "image": "https://cdn.shopify.com/s/files/1/0656/8319/4028/files/ReserveWheelsReserve31DH-DT35029CarbonMTBWheelset.jpg?v=1734083612&width=400",
+     "key": "planet-cyclery:8116860584108",
+     "lower": false,
+     "main": true,
+     "name": "Reserve 31 DH/DT350 29\" Carbon MTB Wheelset",
+     "new": false,
+     "older_gen": false,
+     "pct": 0.3,
+     "popular": false,
+     "price": 1259.0,
+     "rare": true,
+     "save": 539.99,
+     "score": 1.4189,
+     "since": "2026-11-16",
+     "sizes": [],
+     "sponsored": false,
+     "stale": false,
+     "stock": 1,
+     "store": "planet-cyclery",
+     "store_name": "Planet Cyclery",
+     "title": "Reserve Wheels Reserve 31 DH/DT350 29\" Carbon MTB Wheelset",
+     "url": "https://www.planetcyclery.com/products/reserve-wheels-reserve-31-dh-dt350-29-carbon-mtb-wheelset?variant=44005529419948",
+     "variant": "15x110mm Front & 12x157mm Rear - XD",
+     "vendor_key": "reserve",
+     "was": 1798.99
+    },
+    {
+     "amazon": "",
      "brand": "Reserve",
      "category": "wheels",
      "image": "https://cdn.shopify.com/s/files/1/0016/3856/3907/files/Reserve-31DH-Wheelset_d84576b2-f470-4042-8207-2908b3a9a16e.jpg?v=1775683855&width=400",
@@ -9167,7 +9197,7 @@
    "scanned": 4502
   },
   {
-   "deals": 408,
+   "deals": 409,
    "home": "https://shopbikesupply.com",
    "id": "sierra-bicycle-supply",
    "name": "Sierra Bicycle Supply",
@@ -9696,5 +9726,5 @@
   }
  ],
  "total_found": 3650,
- "updated": "2026-11-16T15:13:57-08:00"
+ "updated": "2026-11-16T15:23:54-08:00"
 }

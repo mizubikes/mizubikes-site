@@ -25441,6 +25441,19 @@
  },
  "planet-cyclery:8116860584108": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Reserve Wheels",
+   "category": "wheels",
+   "pct": 0.3,
+   "price": 1259.0,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Reserve 31 DH/DT350 29\" Carbon MTB Wheelset",
+   "url": "https://www.planetcyclery.com/products/reserve-wheels-reserve-31-dh-dt350-29-carbon-mtb-wheelset?variant=44005529419948",
+   "variant": "15x110mm Front & 12x157mm Rear - XD",
+   "was": 1798.99
+  },
   "last": "2026-11-16",
   "low": 1259.0,
   "seed": true
