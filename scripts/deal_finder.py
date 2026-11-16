@@ -53,7 +53,7 @@ DEFAULTS = {
     "per_category": 20,         # rows shown per category
     "per_store_per_category": 8,  # stop one store from filling a category
     "top_count": 10,            # rows in "Best deals today"
-    "max_pages": 40,            # 40 x 250 = 10,000 products per store
+    "max_pages": 100,           # 100 x 250 = 25,000 products per store
     "delay_seconds": 1.0,       # pause between requests to the same store
 }
 
@@ -71,7 +71,10 @@ CATEGORIES = [
     ("apparel", "Helmets, shoes and clothing"),
     ("tools", "Tools and maintenance"),
     ("accessories", "Accessories"),
+    ("used", "Used and pre-owned"),
 ]
+
+USED = re.compile(r"pre-?owned|\bused\b|certified|second ?hand|\bdemo\b|open box|blemish|\bblem\b", re.I)
 
 SKIP = re.compile(r"gift ?card|e-?gift|warranty|protection plan|shipping protection|"
                   r"route package|donation|labor|service fee|deposit", re.I)
@@ -107,7 +110,8 @@ RULES = [
                            r"bar tape|headset|cockpit")),
 ]
 
-BIKE_TITLE = re.compile(r"\b(road|mountain|gravel|cyclocross|triathlon|tt|electric|e)[ -]?bike\b")
+BIKE_TITLE = re.compile(r"\b(road|mountain|gravel|cyclocross|triathlon|tt|fat|electric|e|"
+                        r"enduro|trail|xc|commuter|hybrid|kids)[ -]?bike\b|\bbike\b ?[-|,] ?(19|20)\d\d")
 
 
 # ---------------------------------------------------------------- helpers
@@ -164,7 +168,12 @@ def fetch_catalog(store: dict, cfg: dict) -> list[dict]:
     for coll in collections:
         path = f"/collections/{coll}/products.json" if coll else "/products.json"
         for page in range(1, max_pages + 1):
-            data = get_json(f"{base}{path}?limit={PAGE_SIZE}&page={page}")
+            try:
+                data = get_json(f"{base}{path}?limit={PAGE_SIZE}&page={page}")
+            except RuntimeError:
+                if page == 1:
+                    raise
+                break       # store stops serving deep pages: keep what we have
             products = data.get("products") or []
             for p in products:
                 if p.get("id") not in seen:
@@ -260,7 +269,8 @@ def scan_store(store: dict, cfg: dict) -> tuple[list[dict], int]:
             "was": was,
             "pct": round(pct, 3),
             "save": round(was - price, 2),
-            "category": categorize(p, price),
+            "category": "used" if (store.get("used") or USED.search(
+                f"{title} {p.get('product_type') or ''}")) else categorize(p, price),
             "url": href,
             "sponsored": sponsored,
             "stale": False,
@@ -352,7 +362,8 @@ def main() -> int:
                                "total": sum(1 for it in pool if it["category"] == key)})
 
     shown = [it for c in categories for it in c["items"]]
-    top = pick(shown, int(cfg["top_count"]), per_store=3, per_category=2)
+    top = pick([it for it in shown if it["category"] != "used"],
+               int(cfg["top_count"]), per_store=3, per_category=2)
 
     out = {
         "updated": now.astimezone(ZoneInfo("America/Los_Angeles")).isoformat(),

@@ -37,6 +37,7 @@
     {{- range $cats }}
     <section class="fp-material" id="{{ .key }}">
       <h2>{{ .title }} <span class="fp-h-sub">{{ len .items }}{{ if gt (int .total) (len .items) }} of {{ .total }}{{ end }} {{ if eq (int .total) 1 }}deal{{ else }}deals{{ end }}</span></h2>
+      {{- if eq .key "used" }}<p class="fp-blurb">Used, demo and pre-owned gear. The crossed-out price here is what the item cost new, so the discount reflects age and wear, not a sale.</p>{{ end }}
       {{ partial "deals/table.html" (dict "items" .items "showCat" false) }}
     </section>
     {{- end }}
