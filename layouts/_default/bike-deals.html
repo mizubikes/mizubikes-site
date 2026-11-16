@@ -13,6 +13,14 @@
 {{- $catKey := .Params.deal_category -}}
 {{- $thisCat := dict -}}
 {{- if $catKey }}{{ $cats = where $allCats "key" $catKey }}{{ with index $cats 0 }}{{ $thisCat = . }}{{ end }}{{ end -}}
+{{- /* shop-style groups for the tabs (categories stay fine-grained underneath) */ -}}
+{{- $groups := slice
+      (dict "key" "bikes-frames" "title" "Bikes & Frames" "cats" (slice "bikes" "framesets"))
+      (dict "key" "clothing" "title" "Clothing" "cats" (slice "apparel"))
+      (dict "key" "parts" "title" "Parts" "cats" (slice "wheels" "drivetrain" "brakes" "suspension" "cockpit"))
+      (dict "key" "tires-tubes" "title" "Tires & Tubes" "cats" (slice "tires"))
+      (dict "key" "accessories-all" "title" "Accessories" "cats" (slice "electronics" "accessories"))
+      (dict "key" "maintenance" "title" "Maintenance" "cats" (slice "tools")) -}}
 {{- $short := dict "suspension" "Suspension" "cockpit" "Cockpit" "tires" "Tires" "electronics" "Electronics" "apparel" "Apparel" "tools" "Tools" -}}
 
 <article class="post-single fp dp">
@@ -48,16 +56,16 @@
     <div class="dp-toolbar">
       {{- if $catKey }}
       <nav class="dp-tabs" aria-label="Deal categories">
-        <a class="dp-tab" href="/bike-deals/">All deals</a>
-        {{- range $allCats }}
-        <a class="dp-tab" href="/bike-deals/{{ .key }}/" title="{{ .title }}"{{ if eq .key $catKey }} aria-current="page"{{ end }}>{{ index $short .key | default .title }}</a>
+        <a class="dp-tab" href="/bike-deals/">Best today</a>
+        {{- range $groups }}
+        <a class="dp-tab" href="/bike-deals/#{{ .key }}"{{ if in .cats $catKey }} aria-current="page"{{ end }}>{{ .title }}</a>
         {{- end }}
       </nav>
       {{- else }}
       <div class="dp-tabs" role="group" aria-label="Filter deals by category">
         <button type="button" class="dp-tab" data-cat="best" aria-pressed="true">Best today</button>
-        {{- range $cats }}
-        <button type="button" class="dp-tab" data-cat="{{ .key }}" aria-pressed="false" title="{{ .title }}">{{ index $short .key | default .title }}</button>
+        {{- range $groups }}
+        <button type="button" class="dp-tab" data-cat="{{ .key }}" data-cats="{{ delimit .cats " " }}" aria-pressed="false">{{ .title }}</button>
         {{- end }}
         <button type="button" class="dp-tab" data-cat="all" aria-pressed="false">All</button>
       </div>
@@ -277,9 +285,12 @@
       if (!isNaN(na) || !isNaN(nb)) return isNaN(na) ? 1 : -1;
       return a < b ? -1 : a > b ? 1 : 0;
     }
+    var groupCats = {};
+    tabs.forEach(function (t) { if (t.dataset.cats) groupCats[t.dataset.cat] = t.dataset.cats.split(' '); });
     function inCat(c) {
       if (state.cat === 'all') return true;
       if (state.cat === 'best') return num(c, 'rank') > 0;
+      if (groupCats[state.cat]) return groupCats[state.cat].indexOf(c.dataset.cat) >= 0;
       return c.dataset.cat === state.cat;
     }
     /* rebuild the size menu from the sizes in view ("Best today" uses every deal,
@@ -326,6 +337,9 @@
       tabs.forEach(function (t) { t.setAttribute('aria-pressed', t.dataset.cat === state.cat ? 'true' : 'false'); });
     }
     function pick(cat, push) {
+      if (keys.indexOf(cat) < 0) {
+        for (var g in groupCats) if (groupCats[g].indexOf(cat) >= 0) { cat = g; break; }
+      }
       if (keys.indexOf(cat) < 0) cat = keys[0];
       state.cat = cat;
       if (cat === 'best') {              /* back to the top picks: clear filters */
