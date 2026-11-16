@@ -1,16 +1,23 @@
-{{- /* Home page strip: today's strongest deals, linking to /bike-deals/ */ -}}
+{{- /* Home page strip: three of today's best deals, one per category, linking to /bike-deals/ */ -}}
 {{- $d := site.Data.deals | default dict -}}
-{{- $top := first 6 ($d.top | default slice) -}}
-{{- if ge (len $top) 3 }}
+{{- $picks := slice -}}
+{{- $seen := slice -}}
+{{- range ($d.top | default slice) -}}
+  {{- if and (lt (len $picks) 3) (not (in $seen .category)) -}}
+    {{- $picks = $picks | append . -}}
+    {{- $seen = $seen | append .category -}}
+  {{- end -}}
+{{- end -}}
+{{- if ge (len $picks) 3 }}
 {{- $titles := dict -}}
 {{- range $d.categories }}{{ $titles = merge $titles (dict .key .title) }}{{ end -}}
 <div class="mb-section fp fp-home dp-home">
   <div class="mb-section-header">
-    <span class="mb-section-title">Best Bike Deals Today</span>
-    <a href="/bike-deals/" class="mb-section-more">All {{ with $d.total_found }}{{ lang.FormatNumber 0 . }} {{ end }}deals &rarr;</a>
+    <span class="mb-section-title">Best Deals Today</span>
+    <a href="/bike-deals/" class="mb-section-more">More deals &rarr;</a>
   </div>
   <div class="fp-home-grid">
-    {{- range $top }}
+    {{- range $picks }}
     <a href="/bike-deals/#{{ .category }}" class="fp-home-tile dp-home-tile">
       <div class="mb-cat">{{ index $titles .category | default "Deal" }}</div>
       <div class="fp-home-price">{{ math.Round (mul .pct 100) }}% off</div>
@@ -19,6 +26,9 @@
     </a>
     {{- end }}
   </div>
-  <div class="dp-home-foot">Checked every morning{{ with $d.updated }} · last run {{ time.Format "Jan 2" . }}{{ end }}{{ with where ($d.stores | default slice) "ok" true }} · {{ len . }} stores scanned{{ end }}</div>
+  <div class="dp-home-more">
+    <a class="fp-btn fp-btn-primary" href="/bike-deals/">See {{ with $d.total_found }}all {{ lang.FormatNumber 0 . }}{{ else }}more{{ end }} deals</a>
+    <span class="dp-home-foot">Bikes, wheels, parts and gear · checked every morning{{ with $d.updated }} · last run {{ time.Format "Jan 2" . }}{{ end }}</span>
+  </div>
 </div>
 {{- end }}
