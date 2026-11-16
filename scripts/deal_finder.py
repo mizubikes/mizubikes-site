@@ -273,6 +273,8 @@ def scan_store(store: dict, cfg: dict) -> tuple[list[dict], int]:
         href, sponsored = link_for(store, url)
         vtitle = (v.get("title") or "").strip()
         brand = (p.get("vendor") or "").strip()
+        if brand and title.lower().startswith(brand.lower()):
+            brand = title[:len(brand)]      # use the title's spelling, e.g. SPECIALIZED -> Specialized
         category = categorize(p, price)
         tag = (cfg.get("amazon_tag") or "").strip()
         deals.append({

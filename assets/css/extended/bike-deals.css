@@ -39,9 +39,9 @@
   overflow: hidden;
 }
 .dp-home .fp-home-meta s { color: var(--secondary); }
-.dp-home-foot { margin-top: 10px; font-size: 12px; color: var(--secondary); }
+.dp-home-more { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 14px; }
+.dp-home-foot { font-size: 12px; color: var(--secondary); }
 
 @media (max-width: 768px) {
   .dp-home .fp-home-tile .fp-home-price { font-size: 20px; white-space: nowrap; }
-  .dp-home .fp-home-tile:nth-child(n+4) { display: none; }   /* three tiles on phones */
 }
