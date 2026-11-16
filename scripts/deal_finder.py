@@ -55,7 +55,8 @@ DEFAULTS = {
     "min_discount": 0.20,       # at least 20% under the store's list price
     "max_discount": 0.80,       # above this the "list price" is usually bogus
     "min_price": 20.0,          # skip small parts and consumables
-    "per_category": 20,         # rows shown per category
+    "per_category": 20,
+    "per_category_page": 120,   # deals listed on each category's own page         # rows shown per category
     "per_store_per_category": 8,  # stop one store from filling a category
     "top_count": 10,            # rows in "Best deals today"
     "max_pages": 100,           # 100 x 250 = 25,000 products per store
@@ -947,13 +948,20 @@ def main() -> int:
     main_pool = [it for it in pool if it.get("main", True)]
     categories = []
     for key, title in CATEGORIES:
-        rows = pick([it for it in main_pool if it["category"] == key],
-                    int(cfg["per_category"]), int(cfg["per_store_per_category"]))
+        cand = [it for it in main_pool if it["category"] == key]
+        # first per_category: the balanced top picks the main page shows;
+        # then the rest, up to per_category_page, for the category's own page
+        rows = pick(cand, int(cfg["per_category"]), int(cfg["per_store_per_category"]))
+        chosen = {it["key"] for it in rows}
+        more_n = max(int(cfg["per_category_page"]) - len(rows), 0)
+        rows += pick([it for it in cand if it["key"] not in chosen], more_n,
+                     max(int(cfg["per_category_page"]) // 3, 1))
         if rows:
             categories.append({"key": key, "title": title, "items": rows,
+                               "main_total": len(cand),
                                "total": sum(1 for it in pool if it["category"] == key)})
 
-    shown = [it for c in categories for it in c["items"]]
+    shown = [it for c in categories for it in c["items"][:int(cfg["per_category"])]]
 
     # remember what each listed deal looked like, so it can be shown as
     # "recently ended" once it drops out of the scan

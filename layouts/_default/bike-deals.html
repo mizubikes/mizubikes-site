@@ -28,7 +28,7 @@
     <div class="mb-cat-banner-overlay">
       <div class="mb-cat-banner-kicker">
         {{- with $d.updated }}Checked <time datetime="{{ . }}">{{ time.Format "Jan 2" . }}</time> &middot; {{ end -}}
-        {{- if $catKey }}{{ with $thisCat.total }}{{ lang.FormatNumber 0 . }} deals in this category &middot; {{ end }}{{ len $okStores }} stores
+        {{- if $catKey }}{{ with ($thisCat.main_total | default (len ($thisCat.items | default slice))) }}{{ lang.FormatNumber 0 . }} deals in this category &middot; {{ end }}{{ len $okStores }} stores
         {{- else }}{{ with $d.total_found }}{{ lang.FormatNumber 0 . }} deals &middot; {{ len $okStores }} stores{{ else }}Updated every morning{{ end }}{{ end -}}
       </div>
       <h1 class="mb-cat-banner-title">{{ .Title }}</h1>
@@ -102,9 +102,10 @@
         <div class="dp-front-head">
           <div class="dp-front-name">
             <h2 class="dp-group-title">{{ .title }}</h2>
-            <span class="dp-front-count">{{ .total }} {{ if eq (int .total) 1 }}deal{{ else }}deals{{ end }} today</span>
+            {{- $n := .main_total | default (len .items) }}
+            <span class="dp-front-count">{{ $n }} {{ if eq (int $n) 1 }}deal{{ else }}deals{{ end }} today</span>
           </div>
-          <a class="dp-seeall" href="/bike-deals/{{ .key }}/">See all {{ .total }} &rarr;</a>
+          <a class="dp-seeall" href="/bike-deals/{{ .key }}/">See all {{ .main_total | default (len .items) }} &rarr;</a>
         </div>
         <div class="dp-grid dp-row">
           {{- /* one card per brand, so a favorite brand can't fill the row */ -}}
@@ -134,7 +135,7 @@
       {{- $restTotal := 0 -}}
       {{- range $cats }}
         {{- if not (in $frontKeys .key) }}
-          {{- $restTotal = add $restTotal (int .total) -}}
+          {{- $restTotal = add $restTotal (int (.main_total | default (len .items))) -}}
           {{- with index .items 0 }}{{ $rest = $rest | append . }}{{ end -}}
         {{- end }}
       {{- end }}
@@ -166,7 +167,10 @@
       <section class="dp-group" id="{{ $c.key }}" data-cat="{{ $c.key }}">
         <h2 class="dp-group-title">{{ $c.title }} <span class="fp-h-sub">{{ len $c.items }}{{ if gt (int $c.total) (len $c.items) }} of {{ $c.total }}{{ end }} {{ if eq (int $c.total) 1 }}deal{{ else }}deals{{ end }}</span></h2>
         <div class="dp-grid">
-          {{- range $c.items }}
+          {{- $perCat := int ((site.Data.deal_stores | default dict).settings.per_category | default 25) -}}
+          {{- $list := $c.items -}}
+          {{- if not $catKey }}{{ $list = first $perCat $c.items }}{{ end -}}
+          {{- range $list }}
           {{- $rank := 0 -}}
           {{- $me := .key -}}
           {{- range $i, $k := $topKeys }}{{ if eq $k $me }}{{ $rank = add $i 1 }}{{ end }}{{ end -}}
@@ -219,7 +223,7 @@
       <h2 class="dp-browse-title">Browse deals by category</h2>
       <ul>
         {{- range $allCats }}
-        <li><a href="/bike-deals/{{ .key }}/">{{ .title }}</a> <span>{{ .total }}</span></li>
+        <li><a href="/bike-deals/{{ .key }}/">{{ .title }}</a> <span>{{ .main_total | default (len .items) }}</span></li>
         {{- end }}
       </ul>
     </nav>
