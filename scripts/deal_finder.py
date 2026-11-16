@@ -132,6 +132,11 @@ RULES = [
                            r"bar tape|headset|cockpit")),
 ]
 
+COMPONENT_NOUN = re.compile(r"derailleur|cassette|crank|chainring|shifter|lever|groupset|group ?set|"
+                            r"upgrade kit|\bkit\b|wheelset|\bwheels?\b|\brims?\b|\bhubs?\b|\bforks?\b|"
+                            r"\bshocks?\b|power ?meter|\bbrakes?\b|caliper|\brotors?\b|seatpost|dropper|"
+                            r"handlebar|\bstem\b|cockpit|saddle|\bmotor\b|battery|computer|trainer|"
+                            r"\btires?\b|\bpedals?\b|\bchain\b", re.I)
 BIKE_TITLE = re.compile(r"\b(road|mountain|gravel|cyclocross|triathlon|tt|fat|electric|e|"
                         r"enduro|trail|xc|commuter|hybrid|kids)[ -]?bike\b|\bbike\b ?[-|,] ?(19|20)\d\d")
 
@@ -358,6 +363,11 @@ def categorize(product: dict, price: float) -> str:
     if re.search(r"frameset|frame set|\bframes?\b", head) and price >= 300 \
             and not NOT_A_FRAME.search(head):
         return "framesets"
+    # bike money and no component word in the name ("S-Works Stumpjumper 15
+    # EVO Di2"): Di2/AXS/Transmission are the bike's spec, not the product
+    if price >= 2500 and not COMPONENT_NOUN.search(title) and not NOT_A_BIKE.search(head) \
+            and not re.search(r"frameset|frame set|\bframe\b|\bmodule\b", title):
+        return "bikes"
     # "Model - SRAM GX AXS, FOX ..." at bike money: the parts after the dash are
     # the bike's spec, not what is being sold
     model_part = re.split(r"\s[-–|]\s", title, maxsplit=1)[0]
