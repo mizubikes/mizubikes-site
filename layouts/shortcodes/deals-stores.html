@@ -1,0 +1,14 @@
+{{- /* Stores with the most markdowns in today's scan: {{< deals-stores n="12" >}} */ -}}
+{{- $n := int (.Get "n" | default 12) -}}
+{{- $d := site.Data.deals | default dict -}}
+{{- $stores := where ($d.stores | default slice) "deals" "gt" 0 -}}
+{{- if $stores }}
+<table>
+  <thead><tr><th>Store</th><th>Items marked down today</th></tr></thead>
+  <tbody>
+  {{- range first $n (sort $stores "deals" "desc") }}
+    <tr><td><a href="{{ .home }}" target="_blank" rel="nofollow noopener">{{ .name }}</a></td><td>{{ lang.FormatNumber 0 .deals }}</td></tr>
+  {{- end }}
+  </tbody>
+</table>
+{{- end -}}
