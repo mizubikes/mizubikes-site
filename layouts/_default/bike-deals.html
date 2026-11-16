@@ -10,17 +10,20 @@
 {{- range $top }}{{ $topKeys = $topKeys | append .key }}{{ end -}}
 
 <article class="post-single fp dp">
-  <header class="post-header">
-    {{- if .Param "ShowBreadCrumbs" }}{{ partial "breadcrumbs.html" . }}{{ end }}
-    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
-    {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
-    {{- with $d.updated }}
-    <div class="fp-updated">Deals checked <time datetime="{{ . }}">{{ time.Format "Jan 2, 2006" . }}</time> · updated every morning{{ with $d.total_found }} · {{ lang.FormatNumber 0 . }} markdowns found across {{ len $okStores }} {{ if eq (len $okStores) 1 }}store{{ else }}stores{{ end }}{{ end }}</div>
-    {{- end }}
+  <header class="mb-cat-banner mb-cat-banner--plain dp-banner">
+    <div class="mb-cat-banner-overlay">
+      <div class="mb-cat-banner-kicker">
+        {{- with $d.updated }}Checked <time datetime="{{ . }}">{{ time.Format "Jan 2" . }}</time> &middot; {{ end -}}
+        {{- with $d.total_found }}{{ lang.FormatNumber 0 . }} deals &middot; {{ len $okStores }} stores{{ else }}Updated every morning{{ end -}}
+      </div>
+      <h1 class="mb-cat-banner-title">{{ .Title }}</h1>
+      {{- with .Description }}
+      <p class="mb-cat-banner-desc">{{ . }} Every link goes straight to the store.</p>
+      {{- end }}
+    </div>
   </header>
 
   <div class="post-content">
-    {{ .Content }}
 
     <div class="dp-search">
       <input type="search" id="dp-q" autocomplete="off" spellcheck="false"
