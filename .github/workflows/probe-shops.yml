@@ -9,9 +9,10 @@ jobs:
     steps:
       - name: Check each store
         run: |
+          set +e
           UA="Mozilla/5.0 (compatible; MizubikesPriceBot/1.0; +https://mizubikes.com/bike-deals/)"
           BUA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
-          for base in https://www.mikesbikes.com https://mikesbikes.com https://www.jensonusa.com https://www.performancebike.com https://performancebike.com https://www.sierrabicycle.com https://sierrabicycle.com https://www.sierrabicycles.com https://www.sierrabicycleco.com https://sierracycle.com; do
+          for base in https://shopbikesupply.com https://www.cannondale.com https://www.factorbikes.com https://factorbikes.com https://www.obedbikes.com https://obedbikes.com https://ventumracing.com https://www.ventumracing.com https://bicyclewarehouse.com; do
             echo "=== $base"
             code=$(curl -s -L -m 25 -o home.html -w "%{http_code} %{url_effective}" -A "$BUA" "$base/")
             echo "home: $code  $(wc -c < home.html) bytes"
