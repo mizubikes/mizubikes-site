@@ -1,0 +1,24 @@
+name: Probe shops (temporary)
+on:
+  push:
+    branches: [probe-new-shops]
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check each store
+        run: |
+          UA="Mozilla/5.0 (compatible; MizubikesPriceBot/1.0; +https://mizubikes.com/bike-deals/)"
+          BUA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
+          for base in https://www.mikesbikes.com https://mikesbikes.com https://www.jensonusa.com https://www.performancebike.com https://performancebike.com https://www.sierrabicycle.com https://sierrabicycle.com https://www.sierrabicycles.com https://www.sierrabicycleco.com https://sierracycle.com; do
+            echo "=== $base"
+            code=$(curl -s -L -m 25 -o home.html -w "%{http_code} %{url_effective}" -A "$BUA" "$base/")
+            echo "home: $code  $(wc -c < home.html) bytes"
+            for sig in cdn.shopify.com Shopify.theme demandware salesforce bigcommerce __NEXT_DATA__ __next_f magento woocommerce cf-chl challenge-platform; do
+              grep -q "$sig" home.html && echo "  has: $sig"
+            done
+            grep -o "<title>[^<]*" home.html | head -1
+            code=$(curl -s -L -m 25 -o p.json -w "%{http_code}" -A "$UA" "$base/products.json?limit=2")
+            echo "products.json: $code  $(head -c 160 p.json | tr '\n' ' ')"
+          done
