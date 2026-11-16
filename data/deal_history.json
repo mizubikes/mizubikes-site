@@ -2907,14 +2907,14 @@
  "contender:9589073936629": {
   "first": "2026-11-16",
   "info": {
-   "brand": "BMC Bikes",
+   "brand": "BMC",
    "category": "bikes",
    "pct": 0.4,
    "price": 6899.4,
    "sponsored": false,
    "store": "contender",
    "store_name": "Contender Bicycles",
-   "title": "BMC Kaius 01 ONE 2026",
+   "title": "Kaius 01 ONE 2026",
    "url": "https://contenderbicycles.com/products/bmc-kaius-01-one-2026?variant=47963272347893",
    "variant": "Acid Yellow / River Blue / 54",
    "was": 11499.0
@@ -9049,8 +9049,8 @@
    "store": "oneup",
    "store_name": "OneUp Components",
    "title": "110x15 Front Hub",
-   "url": "https://www.oneupcomponents.com/products/front-hub?variant=41611009327201",
-   "variant": "Boost (15x110) / 28H / Dark Green",
+   "url": "https://www.oneupcomponents.com/products/front-hub?variant=41611009359969",
+   "variant": "Boost (15x110) / 32H / Dark Green",
    "was": 99.99
   },
   "last": "2026-11-16",
@@ -10987,6 +10987,11 @@
   "first": "2026-11-16",
   "last": "2026-11-16",
   "low": 49.99
+ },
+ "planet-cyclery:8042862379180": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 22.99
  },
  "planet-cyclery:8042865328300": {
   "first": "2026-11-16",
@@ -19085,6 +19090,11 @@
   "low": 202.49,
   "seed": true
  },
+ "planet-cyclery:8044642271404": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 220.49
+ },
  "planet-cyclery:8044642664620": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -22983,6 +22993,312 @@
   },
   "last": "2026-11-16",
   "low": 129.0
+ },
+ "specialized:1000195145": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 99.99
+ },
+ "specialized:1000208967": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 179.99
+ },
+ "specialized:1000233947": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 54.99
+ },
+ "specialized:1000234118": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 54.99
+ },
+ "specialized:1000237789": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 749.99
+ },
+ "specialized:1000256320": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 1049.99
+ },
+ "specialized:1000267861": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 69.99
+ },
+ "specialized:199019": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 24.99
+ },
+ "specialized:200598": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 374.99
+ },
+ "specialized:216878": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 699.99
+ },
+ "specialized:223562": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 349.99
+ },
+ "specialized:4218698": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 9099.99
+ },
+ "specialized:4218700": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4299.99
+ },
+ "specialized:4218702": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 7649.99
+ },
+ "specialized:4218708": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5999.99
+ },
+ "specialized:4221331": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5999.99
+ },
+ "specialized:4221334": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.333,
+   "price": 5999.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "Turbo Kenevo SL 2 Comp (2026)",
+   "url": "https://www.specialized.com/us/en/p/4221334",
+   "variant": "",
+   "was": 8999.99
+  },
+  "last": "2026-11-16",
+  "low": 5999.99
+ },
+ "specialized:4221352": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6599.99
+ },
+ "specialized:4221401": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 4799.99
+ },
+ "specialized:4221403": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6399.99
+ },
+ "specialized:4221405": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.5,
+   "price": 3999.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "Stumpjumper 15 Öhlins Coil (2025)",
+   "url": "https://www.specialized.com/us/en/p/4221405",
+   "variant": "",
+   "was": 7999.99
+  },
+  "last": "2026-11-16",
+  "low": 3999.99
+ },
+ "specialized:4221549": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3699.99
+ },
+ "specialized:4221802": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2199.99
+ },
+ "specialized:4221804": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2199.99
+ },
+ "specialized:4223486": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3699.99
+ },
+ "specialized:4223520": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 8399.99
+ },
+ "specialized:4257786": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3999.99
+ },
+ "specialized:4277413": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "framesets",
+   "pct": 0.4,
+   "price": 4799.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "S-Works Turbo Levo SL 2 Frameset (2025)",
+   "url": "https://www.specialized.com/us/en/p/4277413",
+   "variant": "",
+   "was": 7999.99
+  },
+  "last": "2026-11-16",
+  "low": 4799.99
+ },
+ "specialized:4277418": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.348,
+   "price": 2999.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "Turbo Como 4.0 IGH (2025)",
+   "url": "https://www.specialized.com/us/en/p/4277418",
+   "variant": "",
+   "was": 4599.99
+  },
+  "last": "2026-11-16",
+  "low": 2999.99
+ },
+ "specialized:4277442": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.317,
+   "price": 2799.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "Turbo Vado 2 4.0 Step-Through (2025)",
+   "url": "https://www.specialized.com/us/en/p/4277442",
+   "variant": "",
+   "was": 4099.99
+  },
+  "last": "2026-11-16",
+  "low": 2799.99
+ },
+ "specialized:4277467": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 5599.99
+ },
+ "specialized:4277661": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 629.99
+ },
+ "specialized:4277662": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 799.99
+ },
+ "specialized:4277663": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 599.99
+ },
+ "specialized:4278243": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2999.99
+ },
+ "specialized:4278244": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 3299.99
+ },
+ "specialized:4278245": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2999.99
+ },
+ "specialized:4278560": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 549.99
+ },
+ "specialized:4278904": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.364,
+   "price": 699.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "Sirrus X 3.0 Step-Through (2025)",
+   "url": "https://www.specialized.com/us/en/p/4278904",
+   "variant": "",
+   "was": 1099.99
+  },
+  "last": "2026-11-16",
+  "low": 699.99
+ },
+ "specialized:4291508": {
+  "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.274,
+   "price": 8199.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "S-Works Stumpjumper 15 EVO  - Shimano XTR Di2, FOX Factory (2026)",
+   "url": "https://www.specialized.com/us/en/p/4291508",
+   "variant": "",
+   "was": 11299.99
+  },
+  "last": "2026-11-16",
+  "low": 8199.99
+ },
+ "specialized:4291509": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 9099.99
+ },
+ "specialized:4294787": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 6559.99
+ },
+ "specialized:4295562": {
+  "first": "2026-11-16",
+  "last": "2026-11-16",
+  "low": 2199.99
  },
  "state:4653946044503": {
   "first": "2026-11-16",
