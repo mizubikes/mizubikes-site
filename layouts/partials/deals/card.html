@@ -2,6 +2,12 @@
 {{- $it := .it -}}
 {{- $internal := .href -}}
 {{- $href := .href | default $it.url -}}
+{{- $flag := "" -}}
+{{- if $it.lower }}{{ $flag = `<span class="dp-card-flag">▼ Lower again</span>` }}
+{{- else if $it.new }}{{ $flag = `<span class="dp-card-flag">● New today</span>` }}
+{{- else if $it.rare }}{{ $flag = `<span class="dp-card-flag dp-flag-rare">★ Rarely on sale</span>` }}
+{{- else if $it.popular }}{{ $flag = `<span class="dp-card-flag dp-flag-gen">Current gen</span>` }}{{ end -}}
+{{- $flag = $flag | safeHTML -}}
 <a class="dp-card" href="{{ $href }}"
    {{- if not $internal }} target="_blank" rel="{{ if $it.sponsored }}sponsored {{ end }}nofollow noopener"{{ end }}
    data-cat="{{ $it.category }}" data-pct="{{ math.Round (mul $it.pct 100) }}" data-price="{{ $it.price }}" data-score="{{ $it.score | default 0 }}" data-since="{{ $it.since }}" data-rank="{{ .rank | default 0 }}" data-sizes="{{ with $it.sizes }}{{ delimit . "|" }}{{ end }}"
@@ -9,10 +15,7 @@
   <span class="dp-card-img">
     {{- with $it.image }}<img src="{{ . }}" alt="" loading="lazy" decoding="async" width="400" height="400" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('dp-noimg');this.remove()">{{ else }}<span class="dp-card-ph" aria-hidden="true">{{ $it.brand | default $it.store_name }}</span>{{ end }}
     <span class="dp-card-off">{{ math.Round (mul $it.pct 100) }}% off</span>
-    {{- if $it.lower }}<span class="dp-card-flag">▼ Lower again</span>
-    {{- else if $it.new }}<span class="dp-card-flag">● New today</span>
-    {{- else if $it.rare }}<span class="dp-card-flag dp-flag-rare">★ Rarely on sale</span>
-    {{- else if $it.popular }}<span class="dp-card-flag dp-flag-gen">Current gen</span>{{ end }}
+    {{- $flag }}
   </span>
   <span class="dp-card-body">
     <span class="dp-card-title" title="{{ $it.title }}">{{ with $it.brand }}<strong>{{ . }}</strong> {{ end }}{{ with $it.name }}{{ . }}{{ else }}{{ if $it.brand }}{{ strings.TrimPrefix (printf "%s " $it.brand) $it.title }}{{ else }}{{ $it.title }}{{ end }}{{ end }}</span>
@@ -20,6 +23,7 @@
     {{- with $it.sizes }}
     <span class="dp-card-sizes" title="Sizes in stock at this price: {{ delimit . ", " }}"><span class="dp-card-sizes-label">In stock:</span> {{ delimit (first 8 .) " · " }}{{ if gt (len .) 8 }} +{{ sub (len .) 8 }}{{ end }}</span>
     {{- end }}
+    {{- with $flag }}<span class="dp-card-tag">{{ . }}</span>{{ end }}
     <span class="dp-card-meta">{{ $it.store_name }}{{ with .cat }} · {{ . }}{{ end }}{{ if $it.stale }} · not rechecked today{{ end }}</span>
   </span>
 </a>

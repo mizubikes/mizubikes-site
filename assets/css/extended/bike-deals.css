@@ -104,6 +104,7 @@ a.dp-card:focus-visible { outline: 2px solid var(--fp-accent); outline-offset: 2
   line-height: 1.5;
 }
 
+.dp-card-tag { display: none; }   /* phone rows show the flag under the price */
 .dp-flag-rare { border-color: #d29b00; background: #fff6d6; }
 .dp-flag-gen { border-color: #1B8FAB; background: #e3f4f8; }
 
@@ -341,6 +342,28 @@ a.dp-home-btn:hover { background: #157a93; }
   .dp-tabs { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; padding-bottom: 6px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
   .dp-tabs::-webkit-scrollbar { display: none; }
   .post-content table.dp-table { font-size: 14px; }
+}
+/* ----- phones: one deal per row, photo left, details right (like Slickdeals) ----- */
+@media (max-width: 640px) {
+  .dp-grid, .dp-row { grid-template-columns: 1fr; gap: 8px; }
+  .post-content a.dp-card,
+  a.dp-card { flex-direction: row; align-items: flex-start; }
+  a.dp-card:hover { transform: none; }
+  .dp-card-img {
+    width: 118px;
+    margin: 10px 0 10px 10px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .dp-card-off { top: 5px; left: 5px; padding: 2px 6px; font-size: 11.5px; }
+  .dp-card-img .dp-card-flag { display: none; }
+  .dp-card-tag { display: block; }
+  .dp-card-tag .dp-card-flag { position: static; display: inline-block; font-size: 11.5px; }
+  .dp-card-body { flex: 1; gap: 4px; padding: 10px 12px 10px 12px; }
+  .dp-card-title { font-size: 15px; -webkit-line-clamp: 3; min-height: 0; }
+  .dp-card-price strong { font-size: 20px; }
+  .dp-card-price s { display: inline; margin: 0 0 0 6px; font-size: 14px; }
+  .dp-card-ph { font-size: 12px; padding: 6px; }
 }
 @media (prefers-reduced-motion: reduce) {
   a.dp-card { transition: none; }
