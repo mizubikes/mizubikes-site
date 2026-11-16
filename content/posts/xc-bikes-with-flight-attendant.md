@@ -121,3 +121,5 @@ And if Flight Attendant isn't a must, every bike here also comes in a cheaper no
 - [BikeRadar: RockShox Flight Attendant for XC](https://www.bikeradar.com/news/rockshox-cross-country-flight-attendant)
 - [BikeRadar: 2026 Pivot Mach 4 SL](https://www.bikeradar.com/news/2026-pivot-mach-4-sl)
 - [Pinkbike: Specialized Epic 9 first ride](https://www.pinkbike.com/news/first-ride-specialized-epic-9-unapologetically-race-focused.html)
+
+*Not racing? Here's [whether Flight Attendant will actually make you faster on everyday trail rides](/posts/flight-attendant-faster-trail-riding/).*
