@@ -8,4 +8,4 @@ ShowReadingTime: false
 ShowToc: false
 ---
 
-Prices are each store's own. **Check Amazon** looks up the same item there, where the price may differ.
+Every link goes straight to the store with the deal, at the price shown.

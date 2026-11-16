@@ -128,7 +128,9 @@ settings:
     - CamelBak
     - Thule
 
-  amazon_tag: "mizubikes-web-20"   # adds a "Check Amazon" button to each row; "" turns it off
+  # Amazon buttons are off: they were search links, not the deal itself.
+  # Only set a tag here if a store in this list is Amazon (needs Amazon's product API).
+  amazon_tag: ""
   amazon_skip: [bikes, framesets]  # no Amazon button here: Amazon doesn't sell these brands' bikes
 
 stores:
