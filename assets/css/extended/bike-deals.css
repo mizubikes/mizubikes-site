@@ -1,0 +1,25 @@
+/* ===== Bike deals page (/bike-deals/) — builds on the .fp tracker styles ===== */
+
+.post-content table.dp-table tbody th.dp-item {
+  display: table-cell;
+  line-height: 1.35;
+}
+.dp-title { display: block; }
+.dp-item .fp-size { display: block; margin-top: 2px; }
+.dp-flags { display: block; margin-top: 4px; }
+
+.dp-off {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .post-content table.dp-table { font-size: 14px; }
+  .post-content table.dp-table th,
+  .post-content table.dp-table td { padding: 10px 5px; }
+  .dp-off { font-size: 15px; }
+  .dp-save { display: none; }
+  .post-content .dp-table a.fp-btn-sm { padding: 5px 8px; font-size: 12px; }
+  .post-content table.dp-table .fp-num { white-space: normal; }
+  .post-content table.dp-table .fp-num strong { white-space: nowrap; }
+}

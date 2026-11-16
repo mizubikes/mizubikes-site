@@ -1,0 +1,61 @@
+{{- define "main" }}
+{{- $d := site.Data.deals | default dict -}}
+{{- $cats := $d.categories | default slice -}}
+{{- $top := $d.top | default slice -}}
+{{- $stores := $d.stores | default slice -}}
+{{- $okStores := where $stores "ok" true -}}
+
+<article class="post-single fp dp">
+  <header class="post-header">
+    {{- if .Param "ShowBreadCrumbs" }}{{ partial "breadcrumbs.html" . }}{{ end }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+    {{- with $d.updated }}
+    <div class="fp-updated">Deals checked <time datetime="{{ . }}">{{ time.Format "Jan 2, 2006" . }}</time> · updated every morning{{ with $d.total_found }} · {{ lang.FormatNumber 0 . }} markdowns found across {{ len $okStores }} {{ if eq (len $okStores) 1 }}store{{ else }}stores{{ end }}{{ end }}</div>
+    {{- end }}
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+
+    {{- if not $cats }}
+    <p class="fp-note">No deals to show yet. The first scan runs tomorrow morning.</p>
+    {{- else }}
+
+    <nav class="fp-jump" aria-label="Jump to category">
+      {{- if $top }}<a href="#best">Best today</a>{{ end }}
+      {{- range $cats }}<a href="#{{ .key }}">{{ .title }}</a>{{ end -}}
+    </nav>
+
+    {{- with $top }}
+    <section class="fp-material" id="best">
+      <h2>Best deals today <span class="fp-h-sub">biggest markdowns across every category</span></h2>
+      {{ partial "deals/table.html" (dict "items" . "showCat" true "cats" $cats) }}
+    </section>
+    {{- end }}
+
+    {{- range $cats }}
+    <section class="fp-material" id="{{ .key }}">
+      <h2>{{ .title }} <span class="fp-h-sub">{{ len .items }}{{ if gt (int .total) (len .items) }} of {{ .total }}{{ end }} {{ if eq (int .total) 1 }}deal{{ else }}deals{{ end }}</span></h2>
+      {{ partial "deals/table.html" (dict "items" .items "showCat" false) }}
+    </section>
+    {{- end }}
+
+    {{- end }}
+
+    <section class="fp-method">
+      <h2>How this works</h2>
+      <ul>
+        <li>A script reads each store's public product catalog once a day and keeps in-stock items priced at least {{ $d.min_discount_pct | default 20 }}% under that store's list price. Anything under $20, and anything claiming more than 80% off, is left out.</li>
+        <li>The crossed-out price is the store's own list price, not a price we verified elsewhere. Some shops set list prices high, so compare before you buy on big-ticket items.</li>
+        <li>Each category shows the strongest deals first, with a cap per store so one shop can't fill the list. Prices can change during the day and don't include shipping or tax.</li>
+        <li>Some links are affiliate links. Buying through them supports the site at no extra cost to you, and it never changes which deals are listed or how they're ranked.</li>
+        {{- with $okStores }}
+        <li>Stores scanned today: {{ range $i, $s := . }}{{ if $i }}, {{ end }}<a href="{{ $s.home }}" target="_blank" rel="nofollow noopener">{{ $s.name }}</a>{{ end }}.</li>
+        {{- end }}
+        <li>Looking for write-ups on specific sales? See the <a href="/categories/deals/">deal articles</a>, or the <a href="/gravel-tire-prices/">gravel tire price tracker</a> for 90-day price history.</li>
+      </ul>
+    </section>
+  </div>
+</article>
+{{- end }}
