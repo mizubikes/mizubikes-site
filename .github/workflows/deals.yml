@@ -1,0 +1,52 @@
+name: Bike deals
+
+on:
+  schedule:
+    # Daily at 13:47 UTC (6:47am PDT / 5:47am PST), after the tire price run
+    - cron: "47 13 * * *"
+  workflow_dispatch:
+  # Re-run whenever the store list or script changes
+  push:
+    branches: [main]
+    paths:
+      - data/deal_stores.yaml
+      - scripts/deal_finder.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bike-deals
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Find deals
+        run: python scripts/deal_finder.py
+
+      - name: Commit updated deal data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/deals.json data/deal_history.json
+          if git diff --cached --quiet; then
+            echo "No deal changes."
+            exit 0
+          fi
+          git commit -m "Update bike deals $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
+          git push origin HEAD:main

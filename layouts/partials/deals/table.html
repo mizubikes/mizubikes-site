@@ -1,0 +1,42 @@
+{{- /* One deals table. Context: dict "items" (slice of deal dicts) "showCat" (bool) "cats" (optional, for category titles). */ -}}
+{{- $titles := dict -}}
+{{- range .cats }}{{ $titles = merge $titles (dict .key .title) }}{{ end -}}
+{{- $showCat := .showCat -}}
+<div class="fp-table-wrap">
+  <table class="fp-table dp-table">
+    <thead>
+      <tr>
+        <th scope="col">Item</th>
+        <th scope="col" class="fp-num">Price</th>
+        <th scope="col" class="fp-num">Off</th>
+        <th scope="col"><span class="fp-sr">Buy</span></th>
+      </tr>
+    </thead>
+    <tbody>
+    {{- range .items }}
+      <tr>
+        <th scope="row" class="dp-item">
+          <span class="dp-title">{{ with .brand }}<span class="fp-brand">{{ . }}</span> {{ end }}{{ if .brand }}{{ strings.TrimPrefix (printf "%s " .brand) .title }}{{ else }}{{ .title }}{{ end }}</span>
+          <span class="fp-size">
+            {{- with .variant }}{{ . }} · {{ end }}{{ .store_name }}
+            {{- if $showCat }}{{ with index $titles .category }} · {{ . }}{{ end }}{{ end -}}
+          </span>
+          {{- if or .new .lower .stale }}
+          <span class="dp-flags">
+            {{- if .lower }}<span class="fp-badge fp-badge-good" title="Below the lowest price we'd seen for this deal">▼ Lower again</span>{{ end -}}
+            {{- if and .new (not .lower) }}<span class="fp-badge fp-badge-good" title="This deal wasn't listed yesterday">● New today</span>{{ end -}}
+            {{- if .stale }}<span class="fp-badge fp-badge-muted" title="Couldn't reach this store today — showing the last price we saw">Not rechecked today</span>{{ end -}}
+          </span>
+          {{- end }}
+        </th>
+        <td class="fp-num">
+          <strong>${{ lang.FormatNumber 2 .price }}</strong>
+          <br><s class="fp-was" title="Store list price">${{ lang.FormatNumber 2 .was }}</s>
+        </td>
+        <td class="fp-num"><span class="dp-off">{{ math.Round (mul .pct 100) }}%</span><br><span class="fp-was dp-save">save ${{ lang.FormatNumber 0 .save }}</span></td>
+        <td class="fp-buy"><a class="fp-btn fp-btn-primary fp-btn-sm" href="{{ .url }}" target="_blank" rel="{{ if .sponsored }}sponsored {{ end }}nofollow noopener">View deal</a></td>
+      </tr>
+    {{- end }}
+    </tbody>
+  </table>
+</div>

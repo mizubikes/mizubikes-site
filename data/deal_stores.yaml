@@ -1,0 +1,84 @@
+# Bike deal finder — store list
+# -----------------------------
+# The daily GitHub Action (scripts/deal_finder.py) scans every enabled store
+# below and writes data/deals.json + data/deal_history.json, which the
+# /bike-deals/ page renders.
+#
+# Every store here must be a Shopify shop: the script reads the public
+# <base>/products.json catalog. To test whether a store works, open
+# <base>/products.json in a browser — if you see JSON, it will scan.
+#
+# Fields
+#   id          unique slug
+#   name        display name on the page
+#   base        store root URL, no trailing slash
+#   enabled     false to skip without deleting the entry
+#   collections optional list of collection handles to scan instead of the
+#               whole catalog (the part after /collections/ in the URL,
+#               e.g. ["sale", "clearance"]). Much faster on big stores.
+#   max_pages   optional override of settings.max_pages (250 products/page)
+#   affiliate   optional link template once the store approves you.
+#               {url} = product URL, {url_encoded} = URL-encoded product URL.
+#               AvantLink example:
+#               "https://www.avantlink.com/click.php?tt=cl&merchant_id=MERCHANT&website_id=WEBSITE&url={url_encoded}"
+#               Leave empty for a plain (non-affiliate) link.
+
+settings:
+  min_discount: 0.20          # at least 20% under the store's list price
+  max_discount: 0.80          # above this the "list price" is usually not real
+  min_price: 20               # skip anything cheaper than this
+  per_category: 20            # rows shown per category
+  per_store_per_category: 8   # cap per store inside one category
+  top_count: 10               # rows in "Best deals today"
+  max_pages: 40               # 40 pages x 250 = 10,000 products per store
+
+stores:
+  # --- Known to work: the tire tracker already reads these two daily ---
+  - id: worldwide-cyclery
+    name: Worldwide Cyclery
+    base: "https://worldwidecyclery.com"
+    enabled: true
+    affiliate: ""
+
+  - id: incycle
+    name: inCycle
+    base: "https://www.incycle.com"
+    enabled: true
+    affiliate: ""
+
+  # --- Untested candidates: the first run's summary shows which respond ---
+  - id: the-pros-closet
+    name: The Pro's Closet
+    base: "https://www.theproscloset.com"
+    enabled: true
+    affiliate: ""
+
+  - id: the-lost-co
+    name: The Lost Co
+    base: "https://www.thelostco.com"
+    enabled: true
+    affiliate: ""
+
+  - id: fanatik
+    name: Fanatik Bike Co
+    base: "https://www.fanatikbike.com"
+    enabled: true
+    affiliate: ""
+
+  - id: planet-cyclery
+    name: Planet Cyclery
+    base: "https://www.planetcyclery.com"
+    enabled: true
+    affiliate: ""
+
+  - id: bikes-online
+    name: Bikes Online
+    base: "https://www.bikesonline.com"
+    enabled: true
+    affiliate: ""
+
+  - id: contender
+    name: Contender Bicycles
+    base: "https://contenderbicycles.com"
+    enabled: true
+    affiliate: ""
