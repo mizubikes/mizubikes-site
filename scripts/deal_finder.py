@@ -132,6 +132,12 @@ RULES = [
                            r"bar tape|headset|cockpit")),
 ]
 
+def RIM_ONLY(title: str) -> bool:
+    """A bare rim (not a wheel or wheelset): few readers build wheels."""
+    return bool(re.search(r"\brims?\b(?!\s*(tape|strip|brake|liner))", title, re.I)
+                and not re.search(r"wheel", title, re.I))
+
+
 COMPONENT_NOUN = re.compile(r"derailleur|cassette|crank|chainring|shifter|lever|groupset|group ?set|"
                             r"upgrade kit|\bkit\b|wheelset|\bwheels?\b|\brims?\b|\bhubs?\b|\bforks?\b|"
                             r"\bshocks?\b|power ?meter|\bbrakes?\b|caliper|\brotors?\b|seatpost|dropper|"
@@ -736,7 +742,7 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands", seen: dict) -> tupl
         # old standards, old model years and parts nobody shops for stay
         # searchable but never appear in the main lists
         years = [int(y) for y in MODEL_YEAR.findall(title)]
-        on_main = not (DATED.search(title) or NOBODY_WANTS.search(title)
+        on_main = not (DATED.search(title) or NOBODY_WANTS.search(title) or RIM_ONLY(title)
                        or (years and max(years) < this_year - int(cfg["max_age_years"])))
         price, was, pct, v = hit
         n_avail = sum(1 for x in p.get("variants") or []
