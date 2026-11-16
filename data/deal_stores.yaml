@@ -30,9 +30,9 @@ settings:
   min_discount: 0.20          # at least 20% under the store's list price
   max_discount: 0.80          # above this the "list price" is usually not real
   min_price: 20               # skip anything cheaper than this
-  per_category: 20            # rows shown per category
+  per_category: 24            # cards shown per category
   per_store_per_category: 8   # cap per store inside one category
-  top_count: 10               # rows in "Best deals today"
+  top_count: 12               # cards in the "Best" tab
   max_pages: 100              # 100 pages x 250 = 25,000 products per store
 
   # --- Which brands get listed ---

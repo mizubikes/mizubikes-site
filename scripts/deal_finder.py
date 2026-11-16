@@ -226,6 +226,10 @@ def categorize(product: dict, price: float) -> str:
     for key, rx in RULES:
         if rx.search(head):
             return key
+    # nothing in the name says "component": at this price it is a complete bike
+    # (e.g. "Turbo Vado SL 2 4.0"), whatever the store's tags say
+    if price >= 1500 and not NOT_A_BIKE.search(head):
+        return "bikes"
     for key, rx in RULES:
         if rx.search(text):
             return key
@@ -283,7 +287,7 @@ DATED = re.compile(r"tubular|rim brake|\b[123] ?x ?(7|8|9|10)\b|\b(7|8|9|10)[ -]
 HALF_SET = re.compile(r"[-–,(] ?(front|rear)\b(?! (and|&|\+))|\b(front|rear) (wheel|only)\b|"
                       r"\b(left|right) (only|side)\b|\bleft\b ?\(|lever only", re.I)
 # Parts almost nobody is shopping for: left out completely
-NOBODY_WANTS = re.compile(r"front derailleur|\bfd-\w+|display unit|junction ?box|"
+NOBODY_WANTS = re.compile(r"front derailleur|\bmetrea\b|\bfd-\w+|display unit|junction ?box|"
                           r"\b(cable|housing) (set|kit)\b|\bferrules?\b|decals?\b(?! kit)|"
                           r"chain ?catcher|braze-?on|clamp adapter|direct mount adapter", re.I)
 # Small spares: listed, but ranked well below real upgrades
@@ -414,6 +418,28 @@ class SiteBrands:
         return hits
 
 
+def image_for(product: dict, width: int = 400) -> str:
+    """First product photo, sized down when it comes from Shopify's image CDN."""
+    imgs = product.get("images") or []
+    src = (imgs[0].get("src") if imgs and isinstance(imgs[0], dict) else "") or ""
+    if not src.startswith("http"):
+        return ""
+    if "cdn.shopify.com" in src or "/cdn/shop/" in src:
+        src += ("&" if "?" in src else "?") + f"width={width}"
+    return src
+
+
+def family(item: dict) -> str:
+    """Store + brand + first two words of the model, so "URS 01 ONE" and
+    "URS 01 TWO" count as one family and don't stack up in a list."""
+    brand = (item.get("brand") or "").lower()
+    title = (item.get("title") or "").lower()
+    if brand and title.startswith(brand):
+        title = title[len(brand):]
+    words = [w for w in re.findall(r"[a-z0-9]+", title) if not re.fullmatch(r"20[12]\d", w)]
+    return f"{item.get('store')}|{brand}|{' '.join(words[:2])}"
+
+
 def score(item: dict) -> float:
     """Relevance score set in scan_store (rows carried over from an older run fall back)."""
     return item.get("score") or item["pct"] * (1 + math.log10(max(item["price"], 10)) / 2) * 0.5
@@ -451,6 +477,9 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
         brand = (p.get("vendor") or "").strip()
         if brand and title.lower().startswith(brand.lower()):
             brand = title[:len(brand)]      # use the title's spelling, e.g. SPECIALIZED -> Specialized
+        elif brand and len(brand.split()[0]) >= 3 and \
+                title.lower().startswith(brand.split()[0].lower() + " "):
+            brand = title[:len(brand.split()[0])]   # "BMC Bikes" + "BMC URS 01" -> "BMC"
         category = categorize(p, price)
         tag = (cfg.get("amazon_tag") or "").strip()
         deals.append({
@@ -469,6 +498,7 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
                       if tag and category not in (cfg.get("amazon_skip") or []) else "",
             "url": href,
             "sponsored": sponsored,
+            "image": image_for(p),
             "stale": False,
             "main": on_main,
         })
@@ -476,17 +506,23 @@ def scan_store(store: dict, cfg: dict, brands: "SiteBrands") -> tuple[list[dict]
     return deals, len(products)
 
 
-def pick(pool: list[dict], limit: int, per_store: int, per_category: int | None = None):
-    """Top `limit` by score with caps so one store or category can't dominate."""
-    out, by_store, by_cat = [], {}, {}
+def pick(pool: list[dict], limit: int, per_store: int, per_category: int | None = None,
+         per_family: int = 1):
+    """Top `limit` by score, capped per store, per category and per model
+    family so one shop, category or product line can't dominate."""
+    out, by_store, by_cat, by_fam = [], {}, {}, {}
     for it in sorted(pool, key=score, reverse=True):
+        fam = family(it)
         if by_store.get(it["store"], 0) >= per_store:
             continue
         if per_category is not None and by_cat.get(it["category"], 0) >= per_category:
             continue
+        if by_fam.get(fam, 0) >= per_family:
+            continue
         out.append(it)
         by_store[it["store"]] = by_store.get(it["store"], 0) + 1
         by_cat[it["category"]] = by_cat.get(it["category"], 0) + 1
+        by_fam[fam] = by_fam.get(fam, 0) + 1
         if len(out) >= limit:
             break
     return out
@@ -624,7 +660,7 @@ def main() -> int:
     # compact full list for the search box: one array per deal, best first
     rows = [[it["title"], it["brand"], it["variant"], it["store_name"], it["price"], it["was"],
              round(it["pct"] * 100), it["category"], it["url"], it.get("amazon", ""),
-             1 if it.get("sponsored") else 0]
+             1 if it.get("sponsored") else 0, it.get("image", "")]
             for it in sorted(pool, key=score, reverse=True)]
     ALL.parent.mkdir(parents=True, exist_ok=True)
     ALL.write_text(json.dumps({"updated": out["updated"], "cats": dict(CATEGORIES), "items": rows},

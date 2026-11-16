@@ -1,0 +1,19 @@
+{{- /* One deal card. Context: dict "it" (deal) "cat" (category title, optional) "href" (optional override) "rank" (int, optional). */ -}}
+{{- $it := .it -}}
+{{- $internal := .href -}}
+{{- $href := .href | default $it.url -}}
+<a class="dp-card" href="{{ $href }}"
+   {{- if not $internal }} target="_blank" rel="{{ if $it.sponsored }}sponsored {{ end }}nofollow noopener"{{ end }}
+   data-cat="{{ $it.category }}" data-pct="{{ math.Round (mul $it.pct 100) }}" data-price="{{ $it.price }}" data-score="{{ $it.score | default 0 }}" data-since="{{ $it.since }}" data-rank="{{ .rank | default 0 }}">
+  <span class="dp-card-img">
+    {{- with $it.image }}<img src="{{ . }}" alt="" loading="lazy" decoding="async" width="400" height="400" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add('dp-noimg');this.remove()">{{ else }}<span class="dp-card-ph" aria-hidden="true">{{ $it.brand | default $it.store_name }}</span>{{ end }}
+    <span class="dp-card-off">{{ math.Round (mul $it.pct 100) }}% off</span>
+    {{- if $it.lower }}<span class="dp-card-flag">▼ Lower again</span>
+    {{- else if $it.new }}<span class="dp-card-flag">● New today</span>{{ end }}
+  </span>
+  <span class="dp-card-body">
+    <span class="dp-card-title">{{ with $it.brand }}<strong>{{ . }}</strong> {{ end }}{{ if $it.brand }}{{ strings.TrimPrefix (printf "%s " $it.brand) $it.title }}{{ else }}{{ $it.title }}{{ end }}</span>
+    <span class="dp-card-price"><strong>${{ lang.FormatNumber 2 $it.price }}</strong> <s title="Store list price">${{ lang.FormatNumber 2 $it.was }}</s></span>
+    <span class="dp-card-meta">{{ $it.store_name }}{{ with .cat }} · {{ . }}{{ end }}{{ if $it.stale }} · not rechecked today{{ end }}</span>
+  </span>
+</a>
