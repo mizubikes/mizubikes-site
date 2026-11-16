@@ -85,7 +85,7 @@ menu:
     - identifier: menu-deals
       name: Deals
       url: /bike-deals/
-      weight: 8
+      weight: -1      # first in the menu (Hugo treats 0 as "no weight")
     - identifier: menu-tire-prices
       name: Tire Prices
       url: /gravel-tire-prices/

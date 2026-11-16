@@ -14,7 +14,7 @@
 <div class="mb-section fp dp dp-home">
   <div class="mb-section-header">
     <span class="mb-section-title">Best Deals Today</span>
-    <a href="/bike-deals/" class="mb-section-more">More deals &rarr;</a>
+    <a href="/bike-deals/" class="dp-home-cta">All deals &rarr;</a>
   </div>
   <div class="dp-grid">
     {{- range $picks }}
@@ -22,7 +22,7 @@
     {{- end }}
   </div>
   <div class="dp-home-more">
-    <a class="fp-btn fp-btn-primary" href="/bike-deals/">See {{ with $d.total_found }}all {{ lang.FormatNumber 0 . }}{{ else }}more{{ end }} deals</a>
+    <a class="dp-home-btn" href="/bike-deals/">See {{ with $d.total_found }}all {{ lang.FormatNumber 0 . }}{{ else }}more{{ end }} deals today &rarr;</a>
     <span class="dp-home-foot">Bikes, wheels, parts and gear · checked every morning{{ with $d.updated }} · last run {{ time.Format "Jan 2" . }}{{ end }}</span>
   </div>
 </div>
