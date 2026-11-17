@@ -1,0 +1,30 @@
+{{- define "main" }}
+{{- /* Topic hub: curated groups of posts (front matter `groups`: title, intro,
+       posts = list of URL slugs), then every other post in `hub_category`. */ -}}
+{{- $posts := where site.RegularPages "Type" "posts" -}}
+{{- $bySlug := dict -}}
+{{- range $posts }}{{ $bySlug = merge $bySlug (dict (path.Base (strings.TrimSuffix "/" .RelPermalink)) .) }}{{ end -}}
+{{- $used := slice -}}
+<article class="post-single">
+  <header class="mb-cat-banner mb-cat-banner--plain">
+    <div class="mb-cat-banner-overlay">
+      <div class="mb-cat-banner-kicker">Start here</div>
+      <h1 class="mb-cat-banner-title">{{ .Title }}</h1>
+      {{- with .Description }}<p class="mb-cat-banner-desc">{{ . }}</p>{{ end }}
+    </div>
+  </header>
+  <div class="post-content">{{ .Content }}</div>
+  {{- range .Params.groups }}
+    {{- $pages := slice -}}
+    {{- range .posts }}{{ with index $bySlug . }}{{ $pages = $pages | append . }}{{ $used = $used | append . }}{{ end }}{{ end -}}
+    {{- if $pages }}
+    {{ partial "home-section.html" (dict "title" .title "more" "" "pages" $pages "intro" .intro) }}
+    {{- end }}
+  {{- end }}
+  {{- with .Params.hub_category }}
+  {{- $rest := slice -}}
+  {{- range $posts.ByDate.Reverse }}{{ if and (in (.Params.categories | default slice) $.Params.hub_category) (not (in $used .)) }}{{ $rest = $rest | append . }}{{ end }}{{ end -}}
+  {{ partial "home-section.html" (dict "title" (printf "More %s posts" (lower $.Params.hub_category)) "more" (printf "/categories/%s/" (urlize (lower $.Params.hub_category))) "pages" $rest) }}
+  {{- end }}
+</article>
+{{- end }}

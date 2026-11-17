@@ -1,0 +1,12 @@
+{{- /* Brand links for the deals pages. Context: dict byBrand (optional), current (slug, optional) */ -}}
+{{- $byBrand := .byBrand | default (partialCached "deals/brand-rows.html" "all") -}}
+<nav class="dp-browse" aria-label="Browse deals by brand">
+  <h2 class="dp-browse-title">Browse deals by brand</h2>
+  <ul>
+    {{- range site.Data.deal_brands.brands }}
+    {{- if ne .slug $.current }}
+    <li><a href="/bike-deals/{{ .slug }}/">{{ .name }}</a> <span>{{ len (index $byBrand .key | default slice) }}</span></li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</nav>

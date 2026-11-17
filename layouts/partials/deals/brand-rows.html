@@ -1,0 +1,22 @@
+{{- /* Returns a dict: brand key -> list of deal dicts (best first), for the brands
+       in data/deal_brands.yaml. Reads static/deals-all.json, which has every deal
+       from the morning scan. Call with partialCached "deals/brand-rows.html" "all". */ -}}
+{{- $out := dict -}}
+{{- $keys := slice -}}
+{{- range site.Data.deal_brands.brands }}{{ $keys = $keys | append .key }}{{ end -}}
+{{- if fileExists "static/deals-all.json" -}}
+  {{- $all := os.ReadFile "static/deals-all.json" | transform.Unmarshal -}}
+  {{- range $all.items -}}
+    {{- $brand := index . 1 -}}
+    {{- $k := lower (index (split (strings.TrimSpace (string $brand)) " ") 0) -}}
+    {{- if in $keys $k -}}
+      {{- $sizes := slice -}}
+      {{- with index . 12 }}{{ $sizes = split . " · " }}{{ end -}}
+      {{- $it := dict "name" (index . 0) "title" (index . 0) "brand" $brand "variant" (index . 2)
+            "store_name" (index . 3) "price" (index . 4) "was" (index . 5) "pct" (div (float (index . 6)) 100)
+            "category" (index . 7) "url" (index . 8) "sponsored" (eq (index . 10) 1) "image" (index . 11) "sizes" $sizes -}}
+      {{- $out = merge $out (dict $k ((index $out $k | default slice) | append $it)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

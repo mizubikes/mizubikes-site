@@ -7,6 +7,7 @@
     <a href="{{ . }}" class="mb-section-more">View all &rarr;</a>
     {{- end }}
   </div>
+  {{- with .intro }}<p class="mb-section-intro">{{ . | markdownify }}</p>{{ end }}
   <div class="mb-card-grid">
     {{- range .pages }}
     {{- $p := . }}

@@ -1,0 +1,28 @@
+# Brand deal pages: /bike-deals/<slug>/. `key` is the first word of the brand
+# name, lowercased (how scripts/deal_finder.py groups brands). `tag` links the
+# page to Mizubikes posts with that tag. Content files: content/bike-deals-brand-<slug>.md
+brands:
+  - {slug: specialized, name: Specialized, key: specialized, tag: Specialized, kind: "bikes, framesets, wheels, tires and apparel"}
+  - {slug: santa-cruz, name: Santa Cruz, key: santa, tag: Santa Cruz, kind: "mountain bikes and framesets"}
+  - {slug: cervelo, name: Cervélo, key: cervelo, tag: Cervelo, kind: "road and gravel bikes"}
+  - {slug: bmc, name: BMC, key: bmc, tag: BMC, kind: "road, gravel and mountain bikes"}
+  - {slug: cannondale, name: Cannondale, key: cannondale, tag: Cannondale, kind: "road, gravel and mountain bikes"}
+  - {slug: orbea, name: Orbea, key: orbea, tag: Orbea, kind: "road, gravel and mountain bikes"}
+  - {slug: scott, name: Scott, key: scott, tag: Scott, kind: "road, gravel and mountain bikes"}
+  - {slug: yeti, name: Yeti, key: yeti, tag: Yeti, kind: "mountain bikes and apparel"}
+  - {slug: pivot, name: Pivot, key: pivot, tag: Pivot, kind: "mountain and gravel bikes"}
+  - {slug: sram, name: SRAM, key: sram, tag: SRAM, kind: "groupsets, drivetrain parts, brakes and power meters"}
+  - {slug: shimano, name: Shimano, key: shimano, tag: Shimano, kind: "groupsets, drivetrain parts, brakes and shoes"}
+  - {slug: rockshox, name: RockShox, key: rockshox, tag: RockShox, kind: "forks, shocks and dropper posts"}
+  - {slug: fox, name: Fox, key: fox, tag: Fox, kind: "forks, shocks, dropper posts and apparel"}
+  - {slug: oneup, name: OneUp Components, key: oneup, tag: OneUp, kind: "dropper posts, bars, pedals and tools"}
+  - {slug: wolf-tooth, name: Wolf Tooth, key: wolf, tag: Wolf Tooth, kind: "chainrings, cockpit parts and tools"}
+  - {slug: maxxis, name: Maxxis, key: maxxis, tag: Maxxis, kind: "mountain and gravel tires"}
+  - {slug: schwalbe, name: Schwalbe, key: schwalbe, tag: Schwalbe, kind: "road, gravel and mountain tires"}
+  - {slug: zipp, name: Zipp, key: zipp, tag: Zipp, kind: "wheels and cockpit parts"}
+  - {slug: reserve, name: Reserve, key: reserve, tag: Reserve, kind: "carbon wheels"}
+  - {slug: silca, name: Silca, key: silca, tag: Silca, kind: "pumps, tools and accessories"}
+  - {slug: garmin, name: Garmin, key: garmin, tag: Garmin, kind: "bike computers, radar and power meters"}
+  - {slug: hope, name: Hope, key: hope, tag: Hope, kind: "brakes, hubs and drivetrain parts"}
+  - {slug: cane-creek, name: Cane Creek, key: cane, tag: Cane Creek, kind: "headsets, suspension and cockpit parts"}
+  - {slug: fizik, name: Fizik, key: fizik, tag: Fizik, kind: "saddles, bar tape and shoes"}

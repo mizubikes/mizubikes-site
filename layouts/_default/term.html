@@ -8,6 +8,10 @@
     {{- with .Description }}
     <p class="mb-cat-banner-desc">{{ . }}</p>
     {{- end }}
+    {{- $hubs := dict "/categories/gravel/" "/gravel-bikes/" "/categories/mountain/" "/mountain-bikes/" "/categories/e-bike/" "/mountain-bikes/" "/categories/road/" "/road-bikes/" }}
+    {{- with index $hubs .RelPermalink }}
+    <a class="mb-cat-banner-hub" href="{{ . }}">Every guide, sorted by topic &rarr;</a>
+    {{- end }}
   </div>
 </header>
 

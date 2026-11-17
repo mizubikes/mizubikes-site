@@ -1,5 +1,9 @@
 # Old WordPress URL patterns -> Hugo equivalents (301)
 # Specific rules first; Netlify uses the first match
+# Merged posts (Nov 2026)
+/posts/specialized-crux-5-opinion/   /posts/specialized-crux-5-2026/   301!
+/posts/new-specialized-crux-2027/    /posts/specialized-crux-5-2026/   301!
+/posts/specialized-tarmac-sl9-leak/  /posts/specialized-tarmac-sl9-launch/   301!
 # Old WordPress ?p= and ?page_id= links (from the WP export)
 /  p=3319  /buy-this-not-that-budget-friendly-tools-for-beginner-bike-mechanics/  301!
 /  p=3420  /diy-bike-maintenance/  301!

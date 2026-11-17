@@ -13,8 +13,8 @@ tags:
 - Shimano GRX
 - One Bike
 cover:
-  image: /images/gravel-bike-road-1x-gear-range.webp
-  alt: Chart comparing gear range in mph for SRAM 1x13, Shimano GRX 1x12 and 2x12, and road 2x12 drivetrains
+  image: /images/gravel-bike-road-1x-cover.webp
+  alt: Top speed at 90 rpm, 29.5 mph for a gravel 1x with 40T and 10-46 vs 34.9 mph for a road 2x in 52x11
   caption: 'Graphic: Mizubikes'
   relative: false
 draft: false
@@ -29,6 +29,9 @@ Almost every gravel bike now comes 1x. And 1x is great. It's simple, quiet, ther
 **Quick answer:** A gravel bike can work as a road bike, but a 1x drivetrain can't give you both a low climbing gear and a road top end. A typical gravel setup, a 40T ring with SRAM's 10-46 cassette, tops out at about 29.5 mph at 90 rpm. A road 52x11 gets you about 35 mph. Going up to a 46T ring fixes the top end, but your lowest gear becomes 1:1. A second wheelset with a different cassette doesn't fully solve it either. If you really want one bike for everything, a 2x gravel drivetrain gets closest.
 
 ## The numbers
+
+![Chart comparing gear range in mph for SRAM 1x13, Shimano GRX 1x12 and 2x12, and road 2x12 drivetrains](/images/gravel-bike-road-1x-gear-range.webp)
+*Graphic: Mizubikes*
 
 Here's what common drivetrains give you, from the lowest gear to the highest, as speed at 90 rpm on a 700x40 tire:
 

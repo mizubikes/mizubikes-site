@@ -1,9 +1,11 @@
 ---
 title: 'Specialized Tarmac SL9: What Actually Changed vs SL8'
 date: 2026-06-30
-lastmod: 2026-11-01
+lastmod: 2026-11-16
 description: 'Specialized calls the S-Works Tarmac SL9 its fastest road bike ever. What''s real, what''s marketing and how it compares to the SL8.'
 slug: specialized-tarmac-sl9-launch
+aliases:
+- /posts/specialized-tarmac-sl9-leak/
 categories:
 - Road
 tags:
@@ -20,7 +22,7 @@ cover:
 draft: false
 ---
 
-Three weeks ago we walked through the leaked images of a new Tarmac and made the case that Specialized wasn't about to blow up a proven formula. That call held up. The S-Works Tarmac SL9 is now official, and it's exactly the kind of update the leaks suggested: real, measurable, and nowhere near as dramatic as the marketing copy wants it to sound.
+Before launch, the leaked images pointed to a careful update, not a reinvention of a proven formula. That held up. The S-Works Tarmac SL9 is now official, and it's exactly the kind of update the leaks suggested: real, measurable, and nowhere near as dramatic as the marketing copy wants it to sound.
 
 ## The headline numbers
 
@@ -48,6 +50,6 @@ The bigger open question, and one we'll only get real answers to once independen
 
 For now, only the S-Works tier exists. Expect the range to extend into Pro and Expert-level builds at lower price points as the SL9 rolls out over the rest of the year — that's the version most of us will actually end up considering.
 
-How we got here: [what the SL9 leaks showed](/posts/specialized-tarmac-sl9-leak/). If you're weighing the SL9 against the outgoing model, see [the SL8 complete vs custom build cost math](/posts/specialized-sl8-complete-vs-custom-build-cost/), and if you want one bike for road and gravel, [the Crux 5 quiver-killer argument](/posts/crux-5-quiver-killer-road-bike/) is worth a read.
+If you're weighing the SL9 against the outgoing model, see [the SL8 complete vs custom build cost math](/posts/specialized-sl8-complete-vs-custom-build-cost/), and if you want one bike for road and gravel, [the Crux 5 quiver-killer argument](/posts/crux-5-quiver-killer-road-bike/) is worth a read.
 
 *Deciding between models? Here's [Tarmac SL9 Comp vs Expert vs S-Level vs S-Works](/posts/tarmac-sl9-which-model-to-buy/), with what each step up costs per gram.*

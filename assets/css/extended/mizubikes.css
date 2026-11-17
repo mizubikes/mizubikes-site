@@ -547,3 +547,8 @@ body {
   .mb-hero-overlay { padding: 2rem 1rem 0.85rem; }
   .mb-hero-title { font-size: 19px; }
 }
+
+/* ---------- Hub pages and section intros ---------- */
+.mb-section-intro { margin: -0.25rem 0 1rem; color: var(--secondary); font-size: 16px; line-height: 1.55; max-width: 760px; }
+.mb-cat-banner-hub { display: inline-block; margin-top: 12px; padding: 7px 14px; border-radius: 999px; background: #fff; color: #0f3b47 !important; font-weight: 700; font-size: 15px; text-decoration: none !important; }
+.mb-cat-banner-hub:hover { background: #e8f5f8; }
