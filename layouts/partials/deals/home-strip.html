@@ -1,4 +1,4 @@
-{{- /* Home page strip: five of today's best deals, one per category. Cards go to the store; the button goes to /bike-deals/ */ -}}
+{{- /* Home page strip: five of today's best deals, one per category. Cards go to the store; one button at the bottom goes to /bike-deals/ (the nav has the other link) */ -}}
 {{- $d := site.Data.deals | default dict -}}
 {{- $picks := slice -}}
 {{- $seen := slice -}}
@@ -14,7 +14,6 @@
 <div class="mb-section fp dp dp-home">
   <div class="mb-section-header">
     <span class="mb-section-title">Best Deals Today</span>
-    <a href="/bike-deals/" class="dp-home-cta">All deals &rarr;</a>
   </div>
   <div class="dp-grid dp-row">
     {{- range $picks }}
