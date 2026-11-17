@@ -29824,6 +29824,19 @@
  },
  "sierra-bicycle-supply:9181428613368": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Wolf Tooth",
+   "category": "cockpit",
+   "pct": 0.179,
+   "price": 86.2,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "GeoShift Performance Angle Headset",
+   "url": "https://shopbikesupply.com/products/geoshift-performance-angle-headset-1?variant=46723655401720",
+   "variant": "Wolf Tooth GeoShift Performance Angle Headset - 2 Deg, Short, EC44/ZS56, Black",
+   "was": 104.95
+  },
   "last": "2026-11-16",
   "low": 86.2
  },
@@ -32140,6 +32153,19 @@
  },
  "the-lost-co:3859242156097": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 72.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Assegai",
+   "url": "https://www.thelostco.com/products/maxxis-assegai?variant=29163862097985",
+   "variant": "27.5 x 2.5\" WT / 3C MaxxTerra V1 / EXO",
+   "was": 96.0
+  },
   "last": "2026-11-16",
   "low": 72.0,
   "seed": true
