@@ -1,7 +1,7 @@
 ---
 title: 'Black Friday Bike Deals 2026: Best Sales Live Now'
 date: 2026-11-14T22:00:00-08:00
-lastmod: 2026-11-16T16:00:00-08:00
+lastmod: 2026-11-17T07:20:00-08:00
 description: 'Black Friday bike deals 2026: today''s best markdowns from 26 bike shops and brand stores, checked daily, plus the sales at Jenson, Performance, Specialized, OneUp and more.'
 slug: black-friday-bike-deals-2026
 weight: 1
@@ -24,7 +24,7 @@ draft: false
 
 **Quick answer:** Black Friday 2026 is November 27 and Cyber Monday is November 30, but most of the big cycling sales are already live. Jenson USA, Performance Bicycle, Backcountry and BikeTiresDirect are all running early Black Friday sales now. Worldwide Cyclery has 15% off with code **BlowOut2026**, and Specialized, OneUp and Hunt all have Black Friday markdowns on their own sites. My deal finder checks 26 bike shops and brand stores every morning, and the best of what it finds is right below. I'm updating this page through Cyber Monday.
 
-*Last updated: November 16, 2026. Sales and codes change fast, so always confirm the final price in your cart.*
+*Last updated: November 17, 2026. Sales and codes change fast, so always confirm the final price in your cart.*
 
 ## Today's best Black Friday bike deals
 
@@ -43,6 +43,7 @@ Browse by category on the [deals page](/bike-deals/): [complete bikes](/bike-dea
 | [Worldwide Cyclery](https://www.worldwidecyclery.com/) | November Blow Out | 15% off thousands of products, free US shipping | **BlowOut2026** | Not stated |
 | [Backcountry](https://www.backcountry.com/rc/black-friday-sale) | Big Brands Sale | Up to 70% off | None needed | Nov 19 |
 | [BikeTiresDirect](https://www.biketiresdirect.com/black-friday-deals) | Black Friday / Cyber Monday | SRAM, Shimano, ENVE, Continental, Schwalbe, plus 25-75% off closeouts | None needed | Not stated |
+| [BikeTiresDirect: Schwalbe](https://www.biketiresdirect.com/search?sale=1120SCH26) | Schwalbe Holiday Savings | 25-30% off Schwalbe tires, including Thunder Burt | None needed | Not stated |
 | [Competitive Cyclist](https://www.competitivecyclist.com/) | No Black Friday page yet | Up to 55% off wheels and tires | Varies | Check back |
 
 Discounts are as advertised by each retailer on November 14.
@@ -64,6 +65,10 @@ Discounts are as advertised by each retailer on November 14.
 **Silca.** [Silca](https://silca.cc/) has 20-50% off select items, including the Pocket Impero II pump at $59.40 and the Grinta Roll Top Bag at $96.
 
 **ENVE.** Still no ENVE Black Friday sale on enve.com as of November 16. Right now the best way to get ENVE wheels and cockpit parts on sale is Worldwide Cyclery with the 15% **BlowOut2026** code.
+
+## Schwalbe tire sale at BikeTiresDirect
+
+BikeTiresDirect has 25 to 30% off a big range of [Schwalbe tires](https://www.biketiresdirect.com/search?sale=1120SCH26). The standout is the **Thunder Burt Super Race 29**, the fast-rolling XC race tire, at [$76.50 instead of $102](https://www.biketiresdirect.com/product/schwalbe-thunder-burt-super-race-29-inch-mtb-tire) in 2.1, 2.25 and 2.35 widths, with free shipping. It sells out fast whenever it's on sale, and it's already out of stock at some other shops. Racing Ralph and Pro One TLE are 25% off too, and the Albert, Tacky Chan and Magic Mary gravity tires are 30% off. No end date is posted.
 
 ## Gravel tire deals, tracked daily
 
