@@ -2,8 +2,8 @@ name: Tire prices
 
 on:
   schedule:
-    # Daily at 13:23 UTC (6:23am PDT / 5:23am PST)
-    - cron: "23 13 * * *"
+    # Daily at 09:23 UTC (1:23am PST / 2:23am PDT), before the deal run
+    - cron: "23 9 * * *"
   workflow_dispatch:
   # Re-run whenever the watchlist or script changes, so new tires get prices right away
   push:
