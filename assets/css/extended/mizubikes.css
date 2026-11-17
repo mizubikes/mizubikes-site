@@ -572,3 +572,22 @@ body {
 .mb-catb--guides      { background: #1B8FAB; }
 .mb-catb--deals       { background: #dc2626; }
 .mb-hero-cat .mb-catb { font-size: 12px; padding: 4px 10px; }
+
+/* ---------- Phones: every post in a list sits on its own white panel with a
+   thin gap of page background between (matches the deals lists) ---------- */
+@media (max-width: 768px) {
+  .mb-mobile-card,
+  .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card,
+  .mb-cat-grid .mb-card {
+    background: var(--entry);
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 6px;
+  }
+  .mb-section .mb-card-grid:not(.mb-cat-grid) { gap: 0; }
+  .mb-cat-grid { row-gap: 6px; }
+  .mb-cat-grid .mb-card { margin-bottom: 0; }
+  .mb-cat-grid .mb-card img { border-radius: 6px; }
+  .mb-mobile-card img { border-radius: 6px; }
+}
