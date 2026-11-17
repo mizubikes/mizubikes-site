@@ -83,9 +83,9 @@
 </div>
 {{- end }}
 
-{{- partial "home-section.html" (dict "title" "More Posts" "more" "/posts/" "pages" $more) }}
-
 {{- partial "deals/home-strip.html" . }}
+
+{{- partial "home-section.html" (dict "title" "More Posts" "more" "/posts/" "pages" $more) }}
 
 {{- partial "home-section.html" (index $built 0) }}
 
