@@ -21,11 +21,6 @@
   {{- if $b.key }}
   {{- $items := index $byBrand $b.key | default slice -}}
   {{- if $items }}
-  {{- $stores := slice }}{{ range $items }}{{ if not (in $stores .store_name) }}{{ $stores = $stores | append .store_name }}{{ end }}{{ end -}}
-  {{- $best := index (sort $items "pct" "desc") 0 -}}
-  {{- $low := index (sort $items "price" "asc") 0 -}}
-  <p class="fp-blurb">Today's {{ $b.name }} deals: {{ len $items }} {{ $b.kind }} on sale at {{ len $stores }} {{ if eq (len $stores) 1 }}store{{ else }}stores{{ end }}. The biggest discount right now is {{ math.Round (mul $best.pct 100) }}% off the {{ $best.name }} (${{ lang.FormatNumber 2 $best.price }} at {{ $best.store_name }}). Every price here is marked down from the store's own list price, and the list is rebuilt every morning, so a deal that sells out drops off the next day. Always confirm the final price in your cart.</p>
-  <p class="fp-blurb"><em>Mizubikes may earn a commission from links on this page.</em></p>
 
   {{- range $d.categories }}
   {{- $ck := .key -}}
