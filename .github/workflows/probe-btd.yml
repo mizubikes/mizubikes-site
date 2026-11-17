@@ -6,23 +6,20 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch pages
+      - name: Fetch
         run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36 MizubikesPriceBot/1.0"
-          for u in "https://www.biketiresdirect.com/product/schwalbe-thunder-burt-super-race-29-inch-mtb-tire" "https://www.biketiresdirect.com/search?sale=1120SCH26" "https://www.biketiresdirect.com/robots.txt" "https://www.biketiresdirect.com/sitemap.xml" "https://www.biketiresdirect.com/products.json"; do
-            echo "=================== $u"
-            curl -sSL -A "$UA" -o page.html -w "HTTP %{http_code} %{size_download} bytes %{content_type}\n" "$u" || true
-            echo "--- scripts/apis"
-            grep -oiE '(src|href)="[^"]*(\.js|api|search|json|graphql)[^"]*"' page.html | sort -u | head -40
-            echo "--- ld+json"
-            grep -o 'application/ld+json' page.html | head -3
-            python3 - <<'PY'
+          curl -sSL -A "$UA" -o list.html "https://www.biketiresdirect.com/search?sale=CSTLBF26"
+          echo "--- product links in listing:"; grep -o 'href="[^"]*/product/[^"]*"' list.html | sort -u | head -20; grep -c '/product/' list.html
+          echo "--- inline scripts mentioning search/ajax:"
+          python3 - <<'PY'
           import re
-          h=open('page.html',errors='ignore').read()
-          for m in re.finditer(r'<script[^>]*ld\+json[^>]*>(.*?)</script>',h,re.S): print(m.group(1)[:1500])
-          for k in ['76.50','102.00','price','Price','sale_price','msrp','MSRP','__NEXT_DATA__','window.__','dataLayer','productId','sku']:
-              i=h.find(k)
-              if i>=0: print('['+k+']', h[max(0,i-200):i+300].replace('\n',' '))
-          print('LEN',len(h)); print(h[:1500] if 'xml' in h[:200] or 'Sitemap' in h or 'User-agent' in h else '')
+          h=open('list.html',errors='ignore').read()
+          for m in re.finditer(r'<script(?![^>]*src)[^>]*>(.*?)</script>',h,re.S):
+              t=m.group(1)
+              if re.search(r'ajax|\.aspx|\.ashx|/api|search|sale=|\.php|getJSON|\$\.post|\$\.get',t,re.I): print('SCRIPT:',t[:2500].replace('\n',' ')); print()
+          i=h.find('ts_search'); print('TS:',h[i-300:i+2500].replace('\n',' ') if i>0 else 'none')
           PY
-          done
+          curl -sSL -A "$UA" -o site.js "https://static.biketiresdirect.com/js/BTD-site-min510.js?v=20261024153534"
+          echo "--- endpoints in site js:"; grep -oE '["'"'"'][^"'"'"' ]*(\.aspx|\.ashx|\.php|/api/|/ajax|search[A-Za-z]*\.)[^"'"'"' ]*["'"'"']' site.js | sort -u | head -40
+          grep -oE '.{150}(url:|\$\.ajax|\$\.get|\$\.post|getJSON).{250}' site.js | grep -i search | head -8
