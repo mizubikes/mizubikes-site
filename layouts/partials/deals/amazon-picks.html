@@ -1,0 +1,25 @@
+{{- /* Hand-picked Amazon sections from data/amazon_picks.yaml. Context: dict where ("main" or a category key) */ -}}
+{{- $where := .where -}}
+{{- range (site.Data.amazon_picks | default dict).sections }}
+{{- if in .show_on $where }}
+<section class="dp-front-sec dp-amz" id="{{ .key }}">
+  <div class="dp-front-head">
+    <div class="dp-front-name">
+      <h2 class="dp-group-title">{{ .title }}</h2>
+      <span class="dp-front-count">Hand-picked &middot; prices change daily</span>
+    </div>
+  </div>
+  {{- with .blurb }}<p class="dp-amz-blurb">{{ . }}</p>{{ end }}
+  <div class="dp-amz-grid">
+    {{- range .items }}
+    <a class="dp-amz-card" href="{{ .url }}" target="_blank" rel="sponsored nofollow noopener">
+      <span class="dp-amz-name"><strong>{{ .brand }}</strong> {{ .name }}</span>
+      <span class="dp-amz-why">{{ .why }}</span>
+      <span class="dp-amz-btn">Check today's price on Amazon &rarr;</span>
+    </a>
+    {{- end }}
+  </div>
+  <p class="dp-amz-note">As an Amazon Associate I earn from qualifying purchases.</p>
+</section>
+{{- end }}
+{{- end }}

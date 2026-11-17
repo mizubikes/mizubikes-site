@@ -1,0 +1,34 @@
+# Hand-picked Amazon sections for the deals pages (tag mizubikes-web-20).
+# Amazon's affiliate rules don't allow showing prices that don't come from its
+# Product Advertising API, so these show no prices, just a "Check today's
+# price" link. Only add an ASIN you've confirmed; otherwise use a search link.
+sections:
+  - key: action-cameras
+    title: Action cameras on Amazon
+    blurb: "GoPro, DJI and Insta360 cameras for filming rides. These are often discounted on Amazon around Black Friday; tap through for today's price."
+    show_on: [main, electronics]
+    items:
+      - brand: GoPro
+        name: HERO13 Black
+        why: "The standard helmet or bar cam. Great stabilization, works with GoPro's huge mount ecosystem."
+        url: "https://www.amazon.com/dp/B0DCM34GXX?tag=mizubikes-web-20"
+      - brand: DJI
+        name: Osmo Action 5 Pro
+        why: "Bigger sensor than the GoPro, better in low light and under trees, long battery life."
+        url: "https://www.amazon.com/s?k=DJI+Osmo+Action+5+Pro&tag=mizubikes-web-20"
+      - brand: Insta360
+        name: X5
+        why: "360 camera: film everything, pick the angle later. The go-to for MTB and gravel edits."
+        url: "https://www.amazon.com/s?k=Insta360+X5&tag=mizubikes-web-20"
+      - brand: GoPro
+        name: MAX2
+        why: "GoPro's 360 camera, with GoPro mounts. Usually cheaper than the X5."
+        url: "https://www.amazon.com/dp/B0FP5SVBHK?tag=mizubikes-web-20"
+      - brand: DJI
+        name: Osmo 360
+        why: "DJI's 360 camera with a large sensor, a strong rival to the Insta360 X5."
+        url: "https://www.amazon.com/dp/B0FXGWJNNZ?tag=mizubikes-web-20"
+      - brand: Insta360
+        name: Ace Pro 2
+        why: "Flip-screen action cam with a big sensor, good for vlogging on the bike."
+        url: "https://www.amazon.com/s?k=Insta360+Ace+Pro+2&tag=mizubikes-web-20"

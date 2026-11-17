@@ -122,6 +122,16 @@ The full list, sorted by size from 40mm to 2.25-inch, is on the [gravel tire pri
 | Fizik Tempo Microtex Classic 2mm bar tape | Grippy, comfortable tape at a good price. | [Check price](https://www.amazon.com/dp/B07HXVVJ7L?tag=mizubikes-web-20) |
 | Cane Creek 40 headset, IS42/IS52 tapered | Solid replacement headset. Confirm your frame's fit. | [Check price](https://www.amazon.com/dp/B08JRZQ99N?tag=mizubikes-web-20) |
 
+**Action cameras**
+
+| Product | Why | |
+|---|---|---|
+| GoPro HERO13 Black | The standard helmet or bar cam, with GoPro's huge mount ecosystem. | [Check price](https://www.amazon.com/dp/B0DCM34GXX?tag=mizubikes-web-20) |
+| DJI Osmo Action 5 Pro | Bigger sensor than the GoPro, better under trees and in low light. | [Check price](https://www.amazon.com/s?k=DJI+Osmo+Action+5+Pro&tag=mizubikes-web-20) |
+| Insta360 X5 | 360 camera: film everything, pick the angle later. | [Check price](https://www.amazon.com/s?k=Insta360+X5&tag=mizubikes-web-20) |
+| GoPro MAX2 | GoPro's 360 camera, usually cheaper than the X5. | [Check price](https://www.amazon.com/dp/B0FP5SVBHK?tag=mizubikes-web-20) |
+| DJI Osmo 360 | DJI's 360 camera, a strong rival to the X5. | [Check price](https://www.amazon.com/dp/B0FXGWJNNZ?tag=mizubikes-web-20) |
+
 **Lights and security**
 
 | Product | Why | |

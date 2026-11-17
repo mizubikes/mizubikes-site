@@ -495,3 +495,18 @@ a.dp-home-btn:hover { background: #157a93; }
   .post-content a.dp-card:hover, a.dp-card:hover,
   .post-content a.dp-card:focus, a.dp-card:focus { border: 0; box-shadow: none; }
 }
+
+/* ----- hand-picked Amazon sections (no prices: Amazon's rules) ----- */
+.dp-amz-blurb { margin: 8px 0 0; font-size: 14px; color: var(--secondary); }
+.dp-amz-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 10px; }
+.post-content a.dp-amz-card, a.dp-amz-card { display: flex; flex-direction: column; gap: 6px; padding: 12px 14px; border: 1px solid var(--border); border-radius: 10px; background: var(--entry); color: var(--primary); text-decoration: none; box-shadow: none; }
+a.dp-amz-card:hover { border-color: #1B8FAB; }
+.dp-amz-name { font-size: 16px; line-height: 1.3; }
+.dp-amz-why { font-size: 13.5px; color: var(--secondary); line-height: 1.4; flex: 1; }
+.dp-amz-btn { font-size: 13.5px; font-weight: 700; color: #c2410c; }
+.dp-amz-note { margin: 6px 0 0; font-size: 12px; color: var(--secondary); }
+@media (max-width: 900px) { .dp-amz-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) {
+  .dp-amz-grid { grid-template-columns: 1fr; gap: 6px; }
+  .post-content a.dp-amz-card, a.dp-amz-card { border: 0; padding: 10px 12px; }
+}

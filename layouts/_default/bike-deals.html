@@ -157,9 +157,11 @@
         </div>
       </section>
       {{- end }}
+      {{ partial "deals/amazon-picks.html" (dict "where" "main") }}
     </div>
 
     {{- end }}
+    {{- if $catKey }}{{ partial "deals/amazon-picks.html" (dict "where" $catKey) }}{{ end }}
 
     {{- /* Without JavaScript every card shows, grouped by category. The script
            turns the groups into one filterable, sortable grid. */ -}}
