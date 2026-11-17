@@ -403,3 +403,24 @@ a.dp-home-btn:hover { background: #157a93; }
   .dp-brands { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
   .dp-brands::-webkit-scrollbar { display: none; }
 }
+
+/* ----- homepage strip on tablet/desktop: compact rows (photo left, details right) ----- */
+@media (min-width: 641px) {
+  .dp-home a.dp-card { flex-direction: row; align-items: center; }
+  .dp-home .dp-card-img {
+    width: 120px;
+    flex-shrink: 0;
+    margin: 10px 0 10px 10px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .dp-home .dp-card-off { top: 5px; left: 5px; padding: 1px 6px; font-size: 11px; }
+  .dp-home .dp-card-img .dp-card-flag { bottom: 5px; left: 5px; padding: 0 6px; font-size: 10px; white-space: nowrap; }
+  .dp-home .dp-card-tag { display: none; }
+  .dp-home .dp-card-body { flex: 1; min-width: 0; gap: 3px; padding: 10px 12px; }
+  .dp-home .dp-card-title { font-size: 14.5px; line-height: 1.3; -webkit-line-clamp: 2; min-height: 0; }
+  .dp-home .dp-card-price strong { font-size: 18px; }
+  .dp-home .dp-card-price s { display: inline; margin: 0 0 0 5px; font-size: 13px; }
+  .dp-home .dp-card-sizes { font-size: 13px; -webkit-line-clamp: 1; }
+  .dp-home .dp-card-meta { font-size: 12.5px; }
+}
