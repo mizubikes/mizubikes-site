@@ -23,8 +23,6 @@ draft: false
 
 RockShox Flight Attendant reads the terrain, your pedaling and the gear you're in, then switches your fork and shock between open, pedal and lock on its own, faster than you could reach for a lever. It's genuinely good on an XC bike. For a long time it was only on a couple of very expensive bikes. That changed with the 2027 Scott Spark RC, which puts Flight Attendant on four builds, starting at $8,500.
 
-*Mizubikes may earn a commission from links in this post.*
-
 **Quick answer:** The cheapest XC bike with factory Flight Attendant is the Scott Spark RC Team Issue at $8,500. The best value is the Spark RC World Cup at $10,000, which gets you SRAM X0 for about $2,000 less than the Specialized Epic 9 Pro. Pick the Pivot Mach 4 SL Team XX Flight Attendant ($13,899) if descending matters most to you. A used S-Works Epic 8, which came with Flight Attendant as standard, is the budget option.
 
 ![XC bikes with Flight Attendant compared: Scott Spark RC Team Issue and World Cup, Specialized Epic 9 Pro, Pivot Mach 4 SL Team XX](/images/xc-bikes-flight-attendant.webp)

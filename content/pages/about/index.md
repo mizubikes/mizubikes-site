@@ -29,6 +29,6 @@ Most builds have a companion video on the [@mizubikes YouTube channel](https://w
 
 ## Affiliate disclosure
 
-Mizubikes is reader-supported. Some links on this site are affiliate links, including links to Amazon, Canyon (through AvantLink) and Worldwide Cyclery. If you buy through them, I may earn a commission at no extra cost to you. As an Amazon Associate I earn from qualifying purchases. Affiliate relationships never decide what I recommend, and when a brand provides a product or a discount, I say so in the post.
+Mizubikes is reader-supported. Some links to Amazon on this site are affiliate links. If you buy through them, I may earn a commission at no extra cost to you. Links to other stores, including the deals pages, are regular links. As an Amazon Associate I earn from qualifying purchases. Affiliate relationships never decide what I recommend, and when a brand provides a product or a discount, I say so in the post.
 
 Questions or corrections? [Get in touch](/contact/).

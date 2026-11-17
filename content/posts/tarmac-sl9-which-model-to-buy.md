@@ -20,8 +20,6 @@ draft: false
 
 When the Tarmac SL9 launched in June, it was S-Works only, at $13,500 and up. In August, Specialized filled in the lineup with S-Level, Expert and Comp models built on a cheaper FACT 10r frame, starting at $4,500. All of them use the same aero tube shapes as the S-Works. So which one should you actually buy?
 
-*Mizubikes may earn a commission from links in this post.*
-
 **Quick answer:** The Tarmac SL9 Expert is the one to buy for most riders. At $6,600 with Ultegra Di2 (or $7,000 with SRAM Force AXS), it gets you the SL9 frame shape, carbon Roval wheels and a claimed 7.55 kg. Going up to S-Level or S-Works saves weight, but each gram costs about twice as much as it does going from Comp to Expert.
 
 ![Tarmac SL9 Comp, Expert, S-Level and S-Works compared on price, weight and cost per gram saved](/images/tarmac-sl9-which-to-buy.webp)

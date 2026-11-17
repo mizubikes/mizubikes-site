@@ -23,8 +23,6 @@ SRAM Force and Red E1 use the same 12-speed AXS shifting and the same gearing op
 
 I did the same exercise for [Dura-Ace vs Ultegra](/shimano-dura-ace-vs-ultegra-r8100-is-the-weight-savings-worth-the-cost/), and the answer was similar: one or two parts do most of the work, and the rest barely move the scale.
 
-*Mizubikes may earn a commission from links in this post.*
-
 **Quick answer:** A full Red E1 group saves roughly 290 grams over Force E1 with power meters on both. Almost half of that comes from the crankset, and most of the crankset saving is the carbon crank arms alone (100g). The best value upgrades are the rotors, the chain and the power meter crankset. The shift-brake levers, front derailleur and rear derailleur save the least per dollar, at $13 to $18 for every gram.
 
 ## SRAM Red vs Force E1 weight, part by part

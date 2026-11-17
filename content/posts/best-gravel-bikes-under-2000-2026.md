@@ -13,8 +13,6 @@ cover:
 draft: false
 ---
 
-*Mizubikes may earn a commission from links in this post.*
-
 **Quick answer:** The best gravel bike under $2,000 for most riders is the Canyon Grizl 6 at $1,999, with 12-speed SRAM Apex XPLR and room for 29 x 2.1" tires. The Specialized Diverge E5 ($1,499) is the better pick for mixed pavement, and the Giant Revolt 2 ($1,500) is the value choice.
 
 Two grand buys a lot more gravel bike than it used to. Aluminum frames with carbon forks, hydraulic brakes, tubeless-ready wheels and 45mm-plus tire clearance are now normal at this price. The compromises are mostly in weight, wheels and drivetrain refinement, and those are the parts you can upgrade later.

@@ -79,13 +79,13 @@ Originality: facts from sources are fine, wording must be entirely your own. Nev
 Accuracy: every spec, price, weight, and date must come from your web searches. If you can't verify something, leave it out. Readers are mostly in the US: give prices in USD from US retailers or the brand's US site. If you only find non-US prices, leave the price out rather than quoting euros or pounds. End the body with a short "Sources" section listing only the main sources you relied on most (never more than 5), as Markdown links with a short title (e.g. "- [BikeRadar: Article title](url)"). Skip retailer product pages and minor references. Write plain Markdown only: no <cite> tags, citation indexes, or other markup in the body.
 
 Affiliate links: when you mention a specific product someone might buy, link it with an Amazon search URL in this exact form: https://www.amazon.com/s?k=URL+ENCODED+PRODUCT+NAME&tag={AMAZON_TAG}
-Never invent Amazon product IDs. Add one line near the top of the body: "*Mizubikes may earn a commission from links in this post.*"
+Never invent Amazon product IDs. Only if the post includes Amazon links, add one line near the top of the body: "*Mizubikes may earn a commission from links in this post.*" Leave it out when there are no Amazon links.
 
 Internal links: link to 1-3 related existing Mizubikes posts where they genuinely fit, using the relative URLs provided.
 
 Search intent: write for what people actually type into Google. On this site the posts that get clicks are specific head-to-head comparisons ("epic 8 vs epic 9", "sram eagle 70 vs shimano xt") and the follow-up questions buyers ask about a specific model ("crux 5 as a road bike", "is there an epic 9 evo", "cheapest avinox ebike", "who does xds make bikes for"). So:
 - Decide the exact search phrase the post targets before writing. Use it, in natural wording, at the start of the title, in the description, in the first paragraph and in one ## subheading.
-- Open the body (after the commission line) with "**Quick answer:**" and 1-3 sentences that directly answer the search. Then explain.
+- Open the body (after the commission line, if there is one) with "**Quick answer:**" and 1-3 sentences that directly answer the search. Then explain.
 - If the topic is "A vs B", include a comparison table and say plainly which one to pick for which rider.
 - End with a short "## FAQ" of 2-3 closely related questions people also search, each answered in 1-3 sentences. Only include answers you verified.
 - Use specific model names and years, not vague category words.

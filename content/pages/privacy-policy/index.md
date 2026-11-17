@@ -21,7 +21,7 @@ This policy explains what information mizubikes.com ("Mizubikes," "I," "me") col
 
 ## Affiliate links
 
-Some links on this site are affiliate links, including links to Amazon, Canyon (through AvantLink) and Worldwide Cyclery. If you click one and make a purchase, the retailer or affiliate network may use cookies to record that the sale came from this site so I can earn a commission. Those cookies are set by the retailer or network, not by Mizubikes, and are governed by their privacy policies.
+Some links to Amazon on this site are affiliate links. If you click one and make a purchase, Amazon may use cookies to record that the sale came from this site so I can earn a commission. Those cookies are set by Amazon, not by Mizubikes, and are governed by Amazon's privacy policy.
 
 Mizubikes is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate I earn from qualifying purchases.
 

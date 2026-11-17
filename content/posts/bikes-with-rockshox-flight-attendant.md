@@ -18,8 +18,6 @@ cover:
 draft: false
 ---
 
-*Mizubikes may earn a commission from links in this post.*
-
 **Quick answer:** for 2026, RockShox Flight Attendant comes stock only on XC bikes. The cheapest is the Orbea Oiz M10 AXS Flight Attendant at $7,499, followed by the Scott Spark RC World Cup at $8,499.99. Specialized, Trek, and Pivot all have Flight Attendant builds between $9,999.99 and $15,249.99. No 2026 trail, enduro, or e-MTB builds ship with it, so for longer travel you're looking at older models on the used market or the aftermarket upgrade.
 
 Flight Attendant is RockShox's automatic suspension. Sensors in the fork and shock read terrain, pitch, pedaling, and gear, then switch between Open, Pedal, and Lock on their own. I covered how it rides and which XC bike I'd pick in [XC bikes with Flight Attendant: which one to buy](/posts/xc-bikes-with-flight-attendant/). This post is the full list.
