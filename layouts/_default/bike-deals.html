@@ -256,7 +256,7 @@
 
     var num = function (c, k) { return parseFloat(c.dataset[k]) || 0; };
     var sorters = {
-      best: function (a, b) { return num(b, 'score') - num(a, 'score'); },
+      best: function (a, b) { return a._i - b._i; },   /* page order: best first, brands mixed */
       pct:  function (a, b) { return num(b, 'pct') - num(a, 'pct'); },
       low:  function (a, b) { return num(a, 'price') - num(b, 'price'); },
       high: function (a, b) { return num(b, 'price') - num(a, 'price'); },
@@ -276,7 +276,8 @@
       var t = String(s).trim().toUpperCase().replace(/\s*CM$/, '').replace(/\s+/g, ' ');
       return ALIAS[t] || t.replace(/(\d)\s*MM$/, '$1mm');
     }
-    cards.forEach(function (c) {
+    cards.forEach(function (c, i) {
+      c._i = i;
       c._sizes = (c.dataset.sizes || '').split('|').filter(Boolean).map(normSize);
     });
     function sizeOrder(a, b) {

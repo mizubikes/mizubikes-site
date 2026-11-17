@@ -837,6 +837,25 @@ def pick(pool: list[dict], limit: int, per_store: int, per_category: int | None 
     return out
 
 
+def brand_key(it: dict) -> str:
+    """First word of the brand, so "Wolf Tooth Components" and "Wolf Tooth" match."""
+    b = (it.get("brand") or it.get("store_name") or "").strip().lower()
+    return b.split()[0] if b else ""
+
+
+def mix_brands(items: list[dict], window: int = 3) -> list[dict]:
+    """Keep the best-first order, but don't show the same brand again until
+    `window` other cards have gone by (when there's anything else left to show).
+    Stops one brand, like a brand's own store, filling a whole row."""
+    left, out = list(items), []
+    while left:
+        recent = {brand_key(x) for x in out[-window:]}
+        nxt = next((x for x in left if brand_key(x) not in recent), left[0])
+        out.append(nxt)
+        left.remove(nxt)
+    return out
+
+
 # ---------------------------------------------------------------- main
 
 def main() -> int:
@@ -964,8 +983,9 @@ def main() -> int:
         rows = pick(cand, int(cfg["per_category"]), int(cfg["per_store_per_category"]))
         chosen = {it["key"] for it in rows}
         more_n = max(int(cfg["per_category_page"]) - len(rows), 0)
-        rows += pick([it for it in cand if it["key"] not in chosen], more_n,
-                     max(int(cfg["per_category_page"]) // 3, 1))
+        rest = pick([it for it in cand if it["key"] not in chosen], more_n,
+                    max(int(cfg["per_category_page"]) // 3, 1))
+        rows = mix_brands(rows) + mix_brands(rest)
         if rows:
             categories.append({"key": key, "title": title, "items": rows,
                                "main_total": len(cand),
@@ -998,7 +1018,7 @@ def main() -> int:
             ended.append({**info, "last_seen": h["last"], "since": h["first"]})
     ended.sort(key=lambda e: (e["last_seen"], e["pct"]), reverse=True)
     ended = ended[:ENDED_MAX]
-    top = pick(shown, int(cfg["top_count"]), per_store=3, per_category=2)
+    top = mix_brands(pick(shown, int(cfg["top_count"]), per_store=3, per_category=2))
 
     out = {
         "updated": now.astimezone(ZoneInfo("America/Los_Angeles")).isoformat(),
