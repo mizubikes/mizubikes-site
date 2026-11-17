@@ -1,0 +1,13 @@
+name: Probe BTD scan
+on:
+  push:
+    branches: [probe-btd2]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install requests pyyaml
+      - run: python scripts/deal_finder.py --dry-run --only btd 2>&1 | tail -60
