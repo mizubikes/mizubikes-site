@@ -85,6 +85,8 @@ Swapping wheels to go from gravel to road is easy on a 2x bike. On a 1x bike, yo
 
 **Run 2x on a gravel bike.** If you really want one bike for everything, 2x is still the answer. Shimano GRX 48/31 with an 11-36 has about the same 6.4 mph low gear as a 40x46, and its 32.2 mph top gear is much closer to a road bike. The steps between gears are tighter too, since the two rings split the range. You give up some simplicity, a front derailleur and a little mud tolerance, but no 1x setup gets you both ends like this. Check before you buy, because plenty of new gravel frames don't take a front derailleur anymore.
 
+**Or put the second chainring in the hub.** Classified's Powershift hub adds a 2x-style low range inside the rear wheel, with a single ring up front. It's heavier and proprietary, but it's the only way to get both ends on a 1x-looking bike. I went through it on the [Cannondale SuperX LTD Classified](/posts/cannondale-superx-ltd-classified-powershift/).
+
 **Or just have two bikes.** If you ride road hard, group rides, races, fast descents, a dedicated road bike with a 2x is still better at it. A gravel bike with a 1x is better at gravel. The one-bike setup works best for people who ride a mix at moderate speed and don't mind running out of gears now and then.
 
 ## My take

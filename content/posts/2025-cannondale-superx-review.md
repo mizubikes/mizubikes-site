@@ -117,3 +117,5 @@ Check out the full details on Cannondale's site: [2025 Cannondale SuperX](https:
 Since this launch, the gravel race category has moved fast. The [Specialized Crux 5](/posts/specialized-crux-5-2026/) went to 55mm clearance and the [third-generation Canyon Grail](/posts/canyon-grail-2027-launch/) went to 57mm, but both are 1x only. The SuperX's 50mm clearance now sits in the middle of the pack, and it's still one of the few race frames that does both cyclocross and gravel without compromise. For frame-by-frame numbers, see the [2026 gravel bike tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/).
 
 If you're planning a 1x setup, check whether your frame has a UDH dropout first. [This guide](/posts/udh-sram-1x13-gravel-frame-compatibility/) explains why it matters for SRAM's 13-speed XPLR, and the [UDH gravel bike list](/posts/udh-compatible-gravel-bikes-2026/) includes the LAB71 SuperX and SuperX 1.
+
+*New for late 2026: the [SuperX LTD Classified](/posts/cannondale-superx-ltd-classified-powershift/) adds a Classified two-speed hub for 2x range with a single chainring.*
