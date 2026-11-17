@@ -8,18 +8,29 @@ jobs:
     steps:
       - name: Fetch
         run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36 MizubikesPriceBot/1.0"
-          curl -sSL -A "$UA" -o list.html "https://www.biketiresdirect.com/search?sale=CSTLBF26"
-          echo "--- product links in listing:"; grep -o 'href="[^"]*/product/[^"]*"' list.html | sort -u | head -20; grep -c '/product/' list.html
-          echo "--- inline scripts mentioning search/ajax:"
+          pip install requests >/dev/null
           python3 - <<'PY'
-          import re
-          h=open('list.html',errors='ignore').read()
-          for m in re.finditer(r'<script(?![^>]*src)[^>]*>(.*?)</script>',h,re.S):
-              t=m.group(1)
-              if re.search(r'ajax|\.aspx|\.ashx|/api|search|sale=|\.php|getJSON|\$\.post|\$\.get',t,re.I): print('SCRIPT:',t[:2500].replace('\n',' ')); print()
-          i=h.find('ts_search'); print('TS:',h[i-300:i+2500].replace('\n',' ') if i>0 else 'none')
+          import re, requests, json, time
+          S=requests.Session(); S.headers['User-Agent']="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36 MizubikesPriceBot/1.0"
+          B="https://www.biketiresdirect.com"
+          h=S.get(B+"/search?sale=CSTLBF26").text
+          for k in ['filtered_results','searchParams']:
+              m=re.search(r'<[^>]*id=["\']%s["\'][^>]*>'%k,h); print(k, m.group(0) if m else None)
+          sn=re.search(r'data-sn=["\']([^"\']*)',h); bstk=re.search(r'data-bstk=["\']([^"\']*)',h); fc=re.search(r'data-fcache=["\']([^"\']*)',h); clr=re.search(r'data-clrfc=["\']([^"\']*)',h)
+          g=lambda m: m.group(1) if m else ''
+          u=f"{B}/json/searchfilters?sn={g(sn)}&bstk={g(bstk)}&fcache={g(fc)}&clrfc={g(clr)}"
+          print('URL',u); time.sleep(3)
+          r=S.get(u); print(r.status_code, r.headers.get('content-type')); t=r.text; print(t[:3000])
+          try:
+              j=r.json(); print('KEYS', list(j.keys()))
+              for k,v in j.items():
+                  if isinstance(v,list): print(k,len(v), json.dumps(v[:3])[:800])
+                  else: print(k, str(v)[:300])
+          except Exception as e: print('notjson',e)
+          mp=re.findall(r'\b([A-Z0-9]{4,8})\b', t)[:5]
+          time.sleep(3)
+          r2=S.get(f"{B}/ajax/searchprod?mpc="+" ".join(mp[:3])+"&bstk="+g(bstk)); print('SEARCHPROD',r2.status_code); print(r2.text[:3000])
+          time.sleep(3)
+          for q in ['/search?sale=1120SCH26','/search?sale=CSTLBF26&pg=2','/black-friday-deals']:
+              hh=S.get(B+q).text; print(q, 'sn=',g(re.search(r'data-sn=["\']([^"\']*)',hh)), 'len',len(hh)); time.sleep(3)
           PY
-          curl -sSL -A "$UA" -o site.js "https://static.biketiresdirect.com/js/BTD-site-min510.js?v=20261024153534"
-          echo "--- endpoints in site js:"; grep -oE '["'"'"'][^"'"'"' ]*(\.aspx|\.ashx|\.php|/api/|/ajax|search[A-Za-z]*\.)[^"'"'"' ]*["'"'"']' site.js | sort -u | head -40
-          grep -oE '.{150}(url:|\$\.ajax|\$\.get|\$\.post|getJSON).{250}' site.js | grep -i search | head -8
