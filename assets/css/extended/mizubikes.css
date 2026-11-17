@@ -532,3 +532,14 @@ body {
   .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card-excerpt { display: none; }
   .mb-section .mb-card-grid:not(.mb-cat-grid) .mb-card-date { margin: 0; }
 }
+
+/* ---------- Smaller homepage hero ---------- */
+.mb-hero-main { max-height: 400px; }
+.mb-hero-main img { min-height: 0; aspect-ratio: 16 / 9; }
+.mb-hero-overlay { padding: 2.5rem 1.25rem 1.1rem; }
+@media (max-width: 768px) {
+  .mb-hero { padding-bottom: 1rem; margin-bottom: 1rem; }
+  .mb-hero-main { max-height: 230px; }
+  .mb-hero-overlay { padding: 2rem 1rem 0.85rem; }
+  .mb-hero-title { font-size: 19px; }
+}
