@@ -1,9 +1,9 @@
-{{- /* Home page strip: five of today's best deals, one per category. Cards go to the store; one button at the bottom goes to /bike-deals/ (the nav has the other link) */ -}}
+{{- /* Home page strip: three of today's best deals, one per category. Cards go to the store; one button at the bottom goes to /bike-deals/ (the nav has the other link) */ -}}
 {{- $d := site.Data.deals | default dict -}}
 {{- $picks := slice -}}
 {{- $seen := slice -}}
 {{- range ($d.top | default slice) -}}
-  {{- if and (lt (len $picks) 5) (not (in $seen .category)) -}}
+  {{- if and (lt (len $picks) 3) (not (in $seen .category)) -}}
     {{- $picks = $picks | append . -}}
     {{- $seen = $seen | append .category -}}
   {{- end -}}

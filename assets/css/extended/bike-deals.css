@@ -386,3 +386,9 @@ a.dp-home-btn:hover { background: #157a93; }
 
 /* ----- deal picks inside a blog post (shortcode deals-picks) ----- */
 .post-content .dp-post-foot { margin: 6px 0 0; font-size: 14px; color: var(--secondary); }
+
+/* ----- homepage strip shows 3 picks: fill the row on tablet and desktop ----- */
+@media (min-width: 641px) {
+  .dp-home .dp-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .dp-home .dp-row > .dp-card:nth-child(n+4) { display: none; }
+}

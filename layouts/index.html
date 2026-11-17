@@ -9,11 +9,27 @@
 {{- range ($pinned | append $unpinned) }}{{ if ne . $featured }}{{ $rest = $rest | append . }}{{ end }}{{ end }}
 {{- $secondary := $rest | first 4 }}
 
-{{- $workshop := where .Site.RegularPages "Type" "posts" }}
-{{- $workshop = where $workshop ".Params.categories" "intersect" (slice "Bike Repair" "Bike Builds") | first 3 }}
-
-{{- $reviews := where .Site.RegularPages "Type" "posts" }}
-{{- $reviews = where $reviews ".Params.categories" "intersect" (slice "Gravel") | first 3 }}
+{{- /* sections below never repeat a post already shown higher up */ -}}
+{{- $shown := slice $featured }}
+{{- range $secondary }}{{ $shown = $shown | append . }}{{ end }}
+{{- $more := slice }}
+{{- range $rest }}{{ if and (lt (len $more) 6) (not (in $shown .)) }}{{ $more = $more | append . }}{{ end }}{{ end }}
+{{- range $more }}{{ $shown = $shown | append . }}{{ end }}
+{{- $sections := slice
+    (dict "title" "Latest from the Workshop" "more" "/categories/bike-builds/" "cats" (slice "Bike Repair" "Bike Builds"))
+    (dict "title" "Latest Gravel" "more" "/categories/gravel/" "cats" (slice "Gravel"))
+    (dict "title" "Latest Road" "more" "/categories/road/" "cats" (slice "Road"))
+    (dict "title" "Latest Mountain" "more" "/categories/mountain/" "cats" (slice "Mountain")) }}
+{{- $built := slice }}
+{{- range $sections }}
+  {{- $cats := .cats }}
+  {{- $picks := slice }}
+  {{- range $allPosts }}
+    {{- if and (lt (len $picks) 3) (not (in $shown .)) (intersect $cats (.Params.categories | default slice)) }}{{ $picks = $picks | append . }}{{ end }}
+  {{- end }}
+  {{- range $picks }}{{ $shown = $shown | append . }}{{ end }}
+  {{- $built = $built | append (dict "title" .title "more" .more "pages" $picks) }}
+{{- end }}
 
 {{- if $featured }}
 <div class="mb-hero">
@@ -46,8 +62,6 @@
 </div>
 {{- end }}
 
-{{- partial "deals/home-strip.html" . }}
-
 {{- if $secondary }}
 <div class="mb-mobile-latest">
   <div class="mb-section-header">
@@ -69,28 +83,11 @@
 </div>
 {{- end }}
 
-{{- if $workshop }}
-<div class="mb-section">
-  <div class="mb-section-header">
-    <span class="mb-section-title">Latest from the Workshop</span>
-    <a href="/categories/bike-repair/" class="mb-section-more">View all &rarr;</a>
-  </div>
-  <div class="mb-card-grid">
-    {{- range $workshop }}
-    {{- $p := . }}
-    <a href="{{ .RelPermalink }}" class="mb-card">
-      {{- with .Params.cover.image }}
-      <img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">
-      {{- end }}
-      <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
-      <div class="mb-card-title">{{ .Title | safeHTML }}</div>
-      <div class="mb-card-excerpt">{{ .Summary | plainify | truncate 100 }}</div>
-      <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
-    </a>
-    {{- end }}
-  </div>
-</div>
-{{- end }}
+{{- partial "home-section.html" (dict "title" "More Posts" "more" "/posts/" "pages" $more) }}
+
+{{- partial "deals/home-strip.html" . }}
+
+{{- partial "home-section.html" (index $built 0) }}
 
 <div class="mb-follow-band">
   <div class="mb-follow-text">
@@ -103,27 +100,10 @@
   </a>
 </div>
 
-{{- if $reviews }}
-<div class="mb-section">
-  <div class="mb-section-header">
-    <span class="mb-section-title">Latest Gravel</span>
-    <a href="/categories/gravel/" class="mb-section-more">View all &rarr;</a>
-  </div>
-  <div class="mb-card-grid">
-    {{- range $reviews }}
-    {{- $p := . }}
-    <a href="{{ .RelPermalink }}" class="mb-card">
-      {{- with .Params.cover.image }}
-      <img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">
-      {{- end }}
-      <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
-      <div class="mb-card-title">{{ .Title | safeHTML }}</div>
-      <div class="mb-card-excerpt">{{ .Summary | plainify | truncate 100 }}</div>
-      <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
-    </a>
-    {{- end }}
-  </div>
-</div>
-{{- end }}
+{{- partial "home-section.html" (index $built 1) }}
+
+{{- partial "home-section.html" (index $built 2) }}
+
+{{- partial "home-section.html" (index $built 3) }}
 
 {{- end }}

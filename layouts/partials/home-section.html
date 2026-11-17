@@ -1,0 +1,25 @@
+{{- /* Homepage card section. Args: title, more (url or ""), pages */ -}}
+{{- if .pages }}
+<div class="mb-section">
+  <div class="mb-section-header">
+    <span class="mb-section-title">{{ .title }}</span>
+    {{- with .more }}
+    <a href="{{ . }}" class="mb-section-more">View all &rarr;</a>
+    {{- end }}
+  </div>
+  <div class="mb-card-grid">
+    {{- range .pages }}
+    {{- $p := . }}
+    <a href="{{ .RelPermalink }}" class="mb-card">
+      {{- with .Params.cover.image }}
+      <img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">
+      {{- end }}
+      <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
+      <div class="mb-card-title">{{ .Title | safeHTML }}</div>
+      <div class="mb-card-excerpt">{{ .Description | default (.Summary | plainify) | truncate 110 }}</div>
+      <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+    </a>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
