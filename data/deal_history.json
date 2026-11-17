@@ -880,6 +880,740 @@
   "low": 1299.99,
   "seed": true
  },
+ "btd:sc1ue": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 41.3
+ },
+ "btd:scaav": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 36.75
+ },
+ "btd:scabb": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scavd": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.25
+ },
+ "btd:scave": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 69.0
+ },
+ "btd:scbag": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 41.25
+ },
+ "btd:scbba": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 26.25
+ },
+ "btd:scbbh": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 36.75
+ },
+ "btd:scbbp": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.25
+ },
+ "btd:scdcf": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 56.7
+ },
+ "btd:scdfj": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 36.75
+ },
+ "btd:scdki": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:sceer": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 26.25
+ },
+ "btd:sceli": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 26.25
+ },
+ "btd:scfde": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Schwalbe",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 76.5,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Racing Ralph Super Race 29 Inch MTB Tire",
+   "url": "https://www.biketiresdirect.com/product/schwalbe-racing-ralph-super-race-29-inch-mtb-tire",
+   "variant": "",
+   "was": 102.0
+  },
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scfdg": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scgge": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 60.75
+ },
+ "btd:schjw": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scije": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 36.75
+ },
+ "btd:scijf": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 21.75
+ },
+ "btd:scikc": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:sciue": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:sciut": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Schwalbe",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 76.5,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Thunder Burt Super Race 29 Inch MTB Tire",
+   "url": "https://www.biketiresdirect.com/product/schwalbe-thunder-burt-super-race-29-inch-mtb-tire",
+   "variant": "",
+   "was": 102.0
+  },
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scjjd": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scjju": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.25
+ },
+ "btd:scjsu": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scjuh": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:sckif": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 69.0
+ },
+ "btd:sckih": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 27.99
+ },
+ "btd:sckjk": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 41.25
+ },
+ "btd:sckms": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 78.0
+ },
+ "btd:scllo": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scmar": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scmjh": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scmmp": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 45.0
+ },
+ "btd:scmp6": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scmpm": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 45.0
+ },
+ "btd:scnji": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scnne": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 60.0
+ },
+ "btd:scnng": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.25
+ },
+ "btd:scnnj": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 60.75
+ },
+ "btd:scnnk": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 78.75
+ },
+ "btd:scnnr": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scnvc": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scoik": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scoiu": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scoku": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.1
+ },
+ "btd:scolx": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 61.5
+ },
+ "btd:scooe": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 96.75
+ },
+ "btd:scpke": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 23.94
+ },
+ "btd:scppl": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 48.75
+ },
+ "btd:scpye": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scqqt": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scs01": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scs02": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scs06": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scs10": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scs12": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scs27": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scs29": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 21.75
+ },
+ "btd:scsa1": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scsa3": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 71.4
+ },
+ "btd:scsa4": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsab": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 41.25
+ },
+ "btd:scsal": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scsar": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scsat": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 75.6
+ },
+ "btd:scsbb": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 41.25
+ },
+ "btd:scsch": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.25
+ },
+ "btd:scscm": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 41.25
+ },
+ "btd:scscs": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 22.4
+ },
+ "btd:scsec": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scseg": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scsg1": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 48.0
+ },
+ "btd:scsg2": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 48.0
+ },
+ "btd:scsg3": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 48.75
+ },
+ "btd:scsg4": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 36.75
+ },
+ "btd:scsg5": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsg7": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 36.75
+ },
+ "btd:scsg8": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsg9": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsgm": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 28.5
+ },
+ "btd:scsm0": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsm2": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 36.75
+ },
+ "btd:scsm7": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scsmb": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.25
+ },
+ "btd:scsme": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 55.5
+ },
+ "btd:scsmi": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 31.5
+ },
+ "btd:scsml": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 56.25
+ },
+ "btd:scsmm": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 56.25
+ },
+ "btd:scsmo": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scsmp": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsms": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 41.25
+ },
+ "btd:scsmt": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 28.5
+ },
+ "btd:scsn1": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scsnm": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scso4": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 33.75
+ },
+ "btd:scsop": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsov": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsp2": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scspa": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scspe": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scspm": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scspo": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scsr1": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scsr2": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scsr5": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsr6": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsra": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scsrb": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 23.25
+ },
+ "btd:scsrc": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 27.3
+ },
+ "btd:scsrh": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scsro": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scsrr": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scsrt": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scsrx": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scssh": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scssm": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.25
+ },
+ "btd:scssu": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.25
+ },
+ "btd:scst1": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 75.6
+ },
+ "btd:scst3": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 75.6
+ },
+ "btd:scsta": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scstc": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scstg": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 81.0
+ },
+ "btd:scsto": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 48.3
+ },
+ "btd:scstr": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scsx1": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 63.7
+ },
+ "btd:scsxa": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 48.0
+ },
+ "btd:scsxr": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.25
+ },
+ "btd:scsye": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Schwalbe",
+   "category": "tires",
+   "pct": 0.3,
+   "price": 75.6,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Magic Mary Super Gravity 29 Inch MTB Tire (2025)",
+   "url": "https://www.biketiresdirect.com/product/schwalbe-magic-mary-super-gravity-29-inch-mtb-tire-2025",
+   "variant": "",
+   "was": 108.0
+  },
+  "last": "2026-11-17",
+  "low": 75.6
+ },
+ "btd:scuhe": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scujh": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 111.75
+ },
+ "btd:scuju": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 55.5
+ },
+ "btd:scvvn": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 26.25
+ },
+ "btd:scvvw": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 26.25
+ },
+ "btd:scw35": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.25
+ },
+ "btd:scyeu": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.75
+ },
+ "btd:scyhn": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 76.5
+ },
+ "btd:scyyh": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 29.4
+ },
  "contender:15399759216885": {
   "first": "2026-11-16",
   "last": "2026-11-16",
