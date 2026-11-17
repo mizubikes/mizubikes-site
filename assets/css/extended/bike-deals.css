@@ -424,3 +424,54 @@ a.dp-home-btn:hover { background: #157a93; }
   .dp-home .dp-card-sizes { font-size: 13px; -webkit-line-clamp: 1; }
   .dp-home .dp-card-meta { font-size: 12.5px; }
 }
+
+/* ----- tighter category headers and spacing so more deals fit on screen ----- */
+.dp-front-sec { margin-top: 26px; }
+.dp-front-sec:first-child { margin-top: 14px; }
+.dp-front-head { padding: 8px 12px 8px 14px; border-left-width: 4px; }
+.dp-front-name { flex-direction: row; align-items: baseline; flex-wrap: wrap; column-gap: 10px; row-gap: 0; }
+.post-content .dp-front-head .dp-group-title,
+.dp-front-head .dp-group-title { font-size: 20px; }
+.dp-front-sec .dp-grid { margin-top: 8px; }
+.dp-group { margin-top: 24px; }
+@media (max-width: 640px) {
+  .dp-front-sec { margin-top: 18px; }
+  .dp-front-head { padding: 6px 8px 6px 10px; }
+  .post-content .dp-front-head .dp-group-title,
+  .dp-front-head .dp-group-title { font-size: 17px; }
+  .dp-front-count { font-size: 12px; }
+  .dp-seeall { padding: 3px 10px; font-size: 12.5px; }
+  .dp-front-sec .dp-grid { margin-top: 6px; }
+  .dp-card-img { width: 80px; margin: 6px 0 6px 6px; }
+  .dp-card-body { padding: 5px 9px 5px 9px; gap: 1px; }
+  .dp-card-title { font-size: 14px; }
+  .dp-card-price strong { font-size: 16.5px; }
+  .dp-card-sizes { font-size: 12px; }
+  .dp-card-meta { font-size: 12px; }
+  .dp-card-img .dp-card-flag { left: 3px; bottom: 3px; padding: 0 4px; font-size: 8.5px; letter-spacing: -0.01em; max-width: calc(100% - 6px); overflow: hidden; text-overflow: clip; }
+  .dp-card-off { font-size: 10px; }
+}
+
+/* ----- phones: Slickdeals-style list. No card boxes, full-width rows with thin
+   dividers, bigger photo, green sale price, red struck-through list price ----- */
+@media (max-width: 640px) {
+  .dp-grid, .dp-row { gap: 0; }
+  .post-content a.dp-card, a.dp-card {
+    border: 0;
+    border-bottom: 1px solid var(--border);
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    padding: 10px 0;
+    align-items: flex-start;
+  }
+  .dp-grid > a.dp-card:last-child, .dp-row > a.dp-card:last-child { border-bottom: 0; }
+  .dp-card-img { width: 96px; margin: 0; border: 0; border-radius: 8px; background: #fff; }
+  .dp-card-body { padding: 0 0 0 12px; gap: 2px; }
+  .dp-card-title { font-size: 15px; line-height: 1.3; font-weight: 400; }
+  .dp-card-price strong { font-size: 19px; color: #15803d; }
+  .dp-card-price s { color: #c2410c; font-size: 14px; margin-left: 6px; }
+  .dp-card-sizes, .dp-card-meta { font-size: 12.5px; }
+  .dp-card-off { top: 4px; left: 4px; }
+  .dp-card-img .dp-card-flag { font-size: 9px; padding: 1px 5px; }
+}
