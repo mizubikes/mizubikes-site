@@ -2,9 +2,11 @@ name: Bike deals
 
 on:
   schedule:
-    # Daily at 09:47 UTC (1:47am PST / 2:47am PDT). GitHub often starts scheduled
-    # runs hours late, so this leaves room to still finish before morning.
+    # Twice a day: 09:47 UTC (1:47am PST / 2:47am PDT) and 21:47 UTC (1:47pm PST /
+    # 2:47pm PDT). GitHub often starts scheduled runs hours late, so the overnight
+    # run still lands before morning and the midday run picks up afternoon sales.
     - cron: "47 9 * * *"
+    - cron: "47 21 * * *"
   workflow_dispatch:
   # Re-run whenever the store list or script changes
   push:
