@@ -441,6 +441,21 @@ stores:
     enabled: true
     affiliate: ""
 
+  # ---------------- BikeTiresDirect (not Shopify) ----------------
+  # Reads BikeTiresDirect's public sale pages (search?sale=CODE). Sale codes
+  # come from their emails and change often: add new ones to `listings`. The
+  # scanner also follows every sale link on the pages under `discover`.
+  # Sale pages that have ended just come back empty and are skipped.
+  - id: btd
+    name: BikeTiresDirect
+    type: btd
+    base: "https://www.biketiresdirect.com"
+    listings: ["/search?sale=1120SCH26", "/search?sale=CSTLBF26"]
+    discover: ["/black-friday-deals"]
+    max_products_per_sale: 400
+    enabled: true
+    affiliate: ""
+
   # ---------------- Brand-direct stores ----------------
   # Brands that sell through a Shopify store. Entries with enabled: false did
   # not respond on the first scan (their sites don't expose a readable catalog).

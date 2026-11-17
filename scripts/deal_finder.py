@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import html as html_lib
 import json
 import math
 import os
@@ -236,6 +237,91 @@ def fetch_catalog(store: dict, cfg: dict) -> list[dict]:
             if len(products) < PAGE_SIZE:
                 break
             time.sleep(float(cfg["delay_seconds"]))
+    return out
+
+
+# ---------------------------------------------------------------- BikeTiresDirect
+
+BTD_CARD = re.compile(r"<a class='dpproduct[^']*'[^>]*data-mpc='([^']+)'[^>]*href='([^']+)'>(.*?)<!--end--></a>", re.S)
+BTD_SALE_LINK = re.compile(r"""href=['"](/search\?(?:sale|list)=[A-Za-z0-9]+)['"]""", re.I)
+
+
+def btd_cards(html: str) -> dict:
+    """Product cards on a BikeTiresDirect listing -> {mpc: Shopify-like dict}."""
+    out = {}
+    for mpc, href, body in BTD_CARD.findall(html):
+        head = re.search(r"class='dpheading2 dpheading'>(.*?)</div>", body, re.S)
+        sale = re.search(r"dpsaleprice2'>\$([\d,.]+)", body)
+        was = re.search(r"dpregprice2'>\$([\d,.]+)", body)
+        if not (head and sale and was):
+            continue
+        brand_m = re.search(r"<span class='bolder'>(.*?)</span>", head.group(1))
+        brand = html_lib.unescape(brand_m.group(1)).strip() if brand_m else ""
+        title = html_lib.unescape(re.sub(r"<[^>]+>", "", head.group(1))).strip()
+        title = " ".join(title.split())
+        img = re.search(r"<img class='dpimg2 dpmainimg' src='([^']+)'", body)
+        sale_v, was_v = sale.group(1).replace(",", ""), was.group(1).replace(",", "")
+        out[mpc] = {
+            "id": mpc,
+            "title": title,
+            "vendor": brand,
+            "product_type": "",
+            "tags": [],
+            "url_path": href,
+            "images": [{"src": img.group(1)}] if img else [],
+            "options": [],
+            "variants": [{"id": None, "title": "Default Title", "available": True,
+                          "price": sale_v, "compare_at_price": was_v}],
+        }
+    return out
+
+
+def fetch_btd(store: dict, cfg: dict) -> list[dict]:
+    """Products on BikeTiresDirect's public sale pages. A sale page carries its
+    first 32 cards plus the full list of product codes; the rest load in
+    batches the same way the page's "See more" button does. robots.txt asks
+    for 3 seconds between requests, so we wait at least that long."""
+    base = store["base"].rstrip("/")
+    wait = max(3.0, float(cfg["delay_seconds"]))
+    listings = list(store.get("listings") or [])
+    for page in store.get("discover") or []:          # e.g. the Black Friday landing page
+        try:
+            html = get_html(f"{base}{page}")
+            listings += [m for m in BTD_SALE_LINK.findall(html) if m not in listings]
+        except RuntimeError as e:
+            print(f"      btd: couldn't read {page}: {e}")
+        time.sleep(wait)
+    cap = int(store.get("max_products_per_sale", 400))
+    out, seen = [], set()
+    for path in listings:
+        try:
+            html = get_html(f"{base}{path}")
+        except RuntimeError as e:
+            print(f"      btd: {path} failed: {e}")
+            continue
+        cards = btd_cards(html)
+        m = re.search(r"var mpcSort\s*=\s*(\[.*?\]);", html, re.S)
+        codes = json.loads(m.group(1)) if m else list(cards)
+        codes = codes[:cap]
+        todo = [c for c in codes if c not in cards]
+        for i in range(0, len(todo), 32):
+            time.sleep(wait)
+            try:
+                more = get_html(f"{base}/ajax/searchprod?mpc={'%20'.join(todo[i:i + 32])}&bstk=false")
+                cards.update(btd_cards(more))
+            except RuntimeError as e:
+                print(f"      btd: batch failed on {path}: {e}")
+                break
+        n = 0
+        for c in codes:
+            if c in cards and c not in seen:
+                seen.add(c)
+                out.append(cards[c])
+                n += 1
+        print(f"      btd: {path}: {n} products read ({len(codes)} listed)")
+        time.sleep(wait)
+    if not out:
+        raise RuntimeError("no products found on the sale pages")
     return out
 
 
@@ -740,7 +826,9 @@ def score(item: dict) -> float:
 
 def scan_store(store: dict, cfg: dict, brands: "SiteBrands", seen: dict) -> tuple[list[dict], int]:
     base = store["base"].rstrip("/")
-    products = fetch_specialized(store, cfg) if store.get("type") == "specialized" \
+    kind = store.get("type")
+    products = fetch_specialized(store, cfg) if kind == "specialized" \
+        else fetch_btd(store, cfg) if kind == "btd" \
         else fetch_catalog(store, cfg)
     this_year = dt.date.today().year
     deals = []
