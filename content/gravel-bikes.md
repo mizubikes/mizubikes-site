@@ -9,7 +9,7 @@ ShowToc: false
 groups:
   - title: Buying a gravel bike
     intro: "New to gravel or shopping for the next one? Start with the buying guide, then narrow it down by budget or by race bike."
-    posts: [gravel-bike-buying-guide, best-gravel-bikes-under-2000-2026, crux-5-vs-gravel-race-bikes-2026, best-hardtail-drop-bar-gravel-bikes-2026, 2025-cannondale-superx-review, crux-5-quiver-killer-road-bike]
+    posts: [gravel-bike-buying-guide, best-gravel-bikes-under-2000-2026, specialized-crux-5-vs-diverge-4, crux-5-vs-gravel-race-bikes-2026, best-hardtail-drop-bar-gravel-bikes-2026, 2025-cannondale-superx-review, crux-5-quiver-killer-road-bike]
   - title: Tires, clearance and pressure
     intro: "The biggest change you can make to how a gravel bike rides. Clearance charts, real measurements and pressure by rider weight. Prices on the popular tires are tracked daily on the [gravel tire price tracker](/gravel-tire-prices/)."
     posts: [gravel-bike-tire-clearance-chart-2026, gravel-bike-tire-clearance, gravel-tubeless-tire-pressure-rider-weight-tire-width, best-gravel-tires-mixed-pavement-dirt-2026, 2-35-mtb-tires-drop-bar-gravel-bike, zipp-303-xplr-sw-vs-enve-ses-3-4-tire-width-test]
