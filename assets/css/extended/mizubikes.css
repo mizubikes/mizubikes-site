@@ -128,19 +128,20 @@
   position: absolute;
   bottom: -2px;
   left: 0;
-  width: 44px;
-  height: 3px;
+  width: 56px;
+  height: 4px;
   background: #1B8FAB;
   border-radius: 2px;
 }
 .mb-section-title {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
 }
 .mb-section-more {
-  font-size: 11px;
+  font-size: 14px;
+  font-weight: 600;
   color: var(--secondary);
   text-decoration: none;
   transition: color 0.15s ease;
