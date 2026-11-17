@@ -475,3 +475,9 @@ a.dp-home-btn:hover { background: #157a93; }
   .dp-card-off { top: 4px; left: 4px; }
   .dp-card-img .dp-card-flag { font-size: 9px; padding: 1px 5px; }
 }
+
+/* phones list deals one per row, so show all 5 per category (tablets keep a row of 4) */
+@media (max-width: 640px) {
+  .dp-row > .dp-card:nth-child(n+5) { display: flex; }
+  .dp-home .dp-row > .dp-card:nth-child(n+4) { display: none; }
+}

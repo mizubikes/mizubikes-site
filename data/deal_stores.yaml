@@ -32,7 +32,7 @@ settings:
   # drivetrain, brakes, suspension, cockpit, tires, electronics, apparel,
   # tools, accessories.
   front_sections: [bikes, wheels, drivetrain, electronics, tires]
-  front_per_section: 5        # 5 on desktop; tablets and phones show the first 4
+  front_per_section: 5        # 5 on desktop and phones; tablets show the first 4
   min_discount: 0.20          # the normal bar: 20% under the store's list price
   # ...but not every deal has to be 20% off:
   rare_min_discount: 0.10     # gear that rarely goes on sale counts from 10% off:
