@@ -481,3 +481,17 @@ a.dp-home-btn:hover { background: #157a93; }
   .dp-row > .dp-card:nth-child(n+5) { display: flex; }
   .dp-home .dp-row > .dp-card:nth-child(n+4) { display: none; }
 }
+
+/* ----- phones: each deal on its own white band, separated by a thin strip of
+   page background (subtle, like Slickdeals) ----- */
+@media (max-width: 640px) {
+  .dp-grid, .dp-row { gap: 6px; }
+  .post-content a.dp-card, a.dp-card {
+    background: var(--entry);
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .post-content a.dp-card:hover, a.dp-card:hover,
+  .post-content a.dp-card:focus, a.dp-card:focus { border: 0; box-shadow: none; }
+}
