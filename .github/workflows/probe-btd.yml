@@ -27,10 +27,12 @@ jobs:
                   if isinstance(v,list): print(k,len(v), json.dumps(v[:3])[:800])
                   else: print(k, str(v)[:300])
           except Exception as e: print('notjson',e)
-          mp=re.findall(r'\b([A-Z0-9]{4,8})\b', t)[:5]
+          mp=j['svtFilters']['mpc'][:4]
           time.sleep(3)
-          r2=S.get(f"{B}/ajax/searchprod?mpc="+" ".join(mp[:3])+"&bstk="+g(bstk)); print('SEARCHPROD',r2.status_code); print(r2.text[:3000])
+          r2=S.get(f"{B}/ajax/searchprod?mpc="+" ".join(mp)+"&bstk="+g(bstk)); print('SEARCHPROD',r2.status_code); print(r2.text[:6000])
           time.sleep(3)
+          h2=S.get(B+"/search?sale=1120SCH26").text
+          i=h2.find("ts_search_results"); print("SCH LIST HTML:", h2[i:i+5000])
           for q in ['/search?sale=1120SCH26','/search?sale=CSTLBF26&pg=2','/black-friday-deals']:
               hh=S.get(B+q).text; print(q, 'sn=',g(re.search(r'data-sn=["\']([^"\']*)',hh)), 'len',len(hh)); time.sleep(3)
           PY
