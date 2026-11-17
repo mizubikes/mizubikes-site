@@ -489,17 +489,21 @@ body {
 }
 
 /* ---------- Deals button in the main menu ---------- */
+/* Outlined so it stands out without looking like the selected tab; fills only on /bike-deals/ */
 #menu a.mb-nav-cta {
   display: inline-block;
   line-height: 1.3;
-  padding: 6px 15px;
+  padding: 5px 14px;
   border-radius: 999px;
-  background: #1B8FAB;
-  color: #fff;
+  border: 1.5px solid #1B8FAB;
+  background: transparent;
+  color: #1B8FAB;
   font-weight: 600;
 }
-#menu a.mb-nav-cta:hover { background: #157a93; color: #fff; }
-#menu a.mb-nav-cta[aria-current="page"] { background: #0f3b47; color: #fff; border-bottom: 0; }
+#menu a.mb-nav-cta:hover { background: #e8f5f8; color: #157a93; }
+#menu a.mb-nav-cta[aria-current="page"] { background: #1B8FAB; color: #fff; }
+/* Current tab for the regular menu items */
+#menu a[aria-current="page"]:not(.mb-nav-cta) { color: #1B8FAB; font-weight: 600; }
 #menu a.mb-nav-cta span { border-bottom: 0; }
 @media (max-width: 768px) {
   .mb-cat-banner.mb-cat-banner--plain { min-height: 0; }
