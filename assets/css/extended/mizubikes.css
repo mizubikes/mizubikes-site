@@ -552,3 +552,22 @@ body {
 .mb-section-intro { margin: -0.25rem 0 1rem; color: var(--secondary); font-size: 16px; line-height: 1.55; max-width: 760px; }
 .mb-cat-banner-hub { display: inline-block; margin-top: 12px; padding: 7px 14px; border-radius: 999px; background: #fff; color: #0f3b47 !important; font-weight: 700; font-size: 15px; text-decoration: none !important; }
 .mb-cat-banner-hub:hover { background: #e8f5f8; }
+
+/* ---------- End-of-post links to today's brand deals ---------- */
+.mb-post-deals { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 28px 0 8px; padding: 14px 16px; border-radius: 12px; background: #e8f5f8; }
+.mb-post-deals-label { font-weight: 800; color: #0f3b47; margin-right: 4px; }
+.mb-post-deals a { display: inline-block; padding: 6px 12px; border-radius: 999px; background: #1B8FAB; color: #fff !important; font-weight: 600; font-size: 15px; text-decoration: none !important; box-shadow: none !important; }
+.mb-post-deals a:hover { background: #157a93; }
+.mb-post-deals a span { opacity: .8; font-weight: 500; margin-left: 4px; }
+
+/* ---------- Colored category labels on post cards ---------- */
+.mb-catb { display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; line-height: 1.3; color: #fff; background: #1B8FAB; }
+.mb-catb--road        { background: #2563eb; }
+.mb-catb--mountain    { background: #2f855a; }
+.mb-catb--gravel      { background: #b45309; }
+.mb-catb--e-bike      { background: #7c3aed; }
+.mb-catb--bike-repair { background: #c2410c; }
+.mb-catb--bike-builds { background: #334155; }
+.mb-catb--guides      { background: #1B8FAB; }
+.mb-catb--deals       { background: #dc2626; }
+.mb-hero-cat .mb-catb { font-size: 12px; padding: 4px 10px; }

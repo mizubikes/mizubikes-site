@@ -17,6 +17,7 @@
     </div>
   </header>
   <div class="post-content">
+  {{ partial "deals/brand-chips.html" (dict) }}
 
   {{- if $b.key }}
   {{- $items := index $byBrand $b.key | default slice -}}

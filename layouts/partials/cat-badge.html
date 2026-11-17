@@ -1,0 +1,2 @@
+{{- /* Colored category label for post cards. Context: page. */ -}}
+{{- with .Params.categories }}{{ with index . 0 }}<span class="mb-catb mb-catb--{{ urlize (lower .) }}">{{ . }}</span>{{ end }}{{ end -}}

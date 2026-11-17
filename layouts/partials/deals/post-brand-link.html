@@ -1,0 +1,21 @@
+{{- /* End of a post: links to today's deals for brands the post is tagged with.
+       Only brands in data/deal_brands.yaml that have deals today. Up to 3. */ -}}
+{{- $byBrand := partialCached "deals/brand-rows.html" "all" -}}
+{{- $tags := slice -}}
+{{- $first := slice -}}
+{{- range .Params.tags }}{{ $tags = $tags | append (lower .) }}{{ $first = $first | append (lower (index (split . " ") 0)) }}{{ end -}}
+{{- $hits := slice -}}
+{{- range site.Data.deal_brands.brands -}}
+  {{- $n := len (index $byBrand .key | default slice) -}}
+  {{- if and (lt (len $hits) 3) (gt $n 0) (or (in $tags (lower .tag)) (in $tags (lower .name)) (in $first .key)) -}}
+    {{- $hits = $hits | append (dict "slug" .slug "name" .name "n" $n) -}}
+  {{- end -}}
+{{- end -}}
+{{- with $hits }}
+<aside class="mb-post-deals" aria-label="Today's deals">
+  <span class="mb-post-deals-label">Shopping?</span>
+  {{- range . }}
+  <a href="/bike-deals/{{ .slug }}/">Today's {{ .name }} deals <span>{{ .n }}</span></a>
+  {{- end }}
+</aside>
+{{- end }}

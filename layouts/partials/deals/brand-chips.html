@@ -1,0 +1,18 @@
+{{- /* Row of brand buttons for the top of the deals pages. Context: dict cat (category key, optional) */ -}}
+{{- $byBrand := partialCached "deals/brand-rows.html" "all" -}}
+{{- $cat := .cat -}}
+{{- $chips := slice -}}
+{{- range site.Data.deal_brands.brands -}}
+  {{- $rows := index $byBrand .key | default slice -}}
+  {{- if $cat }}{{ $rows = where $rows "category" $cat }}{{ end -}}
+  {{- if gt (len $rows) 0 }}{{ $chips = $chips | append (dict "slug" .slug "name" .name "n" (len $rows)) }}{{ end -}}
+{{- end -}}
+{{- with $chips }}
+<nav class="dp-brands" aria-label="Shop deals by brand">
+  <span class="dp-brands-label">Brands</span>
+  {{- range . }}
+  <a class="dp-brand-chip" href="/bike-deals/{{ .slug }}/">{{ .name }}</a>
+  {{- end }}
+  <a class="dp-brand-chip dp-brand-all" href="/bike-deals/brands/">All brands &rarr;</a>
+</nav>
+{{- end }}

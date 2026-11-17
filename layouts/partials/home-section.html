@@ -15,7 +15,7 @@
       {{- with .Params.cover.image }}
       <img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">
       {{- end }}
-      <div class="mb-cat">{{- with .Params.tags }}{{ range first 1 . }}{{ . | upper }}{{ end }}{{- end }}</div>
+      <div class="mb-cat">{{ partial "cat-badge.html" . }}</div>
       <div class="mb-card-title">{{ .Title | safeHTML }}</div>
       <div class="mb-card-excerpt">{{ .Description | default (.Summary | plainify) | truncate 110 }}</div>
       <div class="mb-card-date">{{ .Date.Format "Jan 2, 2006" }}</div>

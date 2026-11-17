@@ -45,6 +45,7 @@
       <div id="dp-status" class="fp-updated" role="status" aria-live="polite"></div>
     </div>
     <div id="dp-results" class="dp-grid" hidden></div>
+    {{ partial "deals/brand-chips.html" (dict "cat" $catKey) }}
 
     <div id="dp-main">
     {{- if not $cats }}

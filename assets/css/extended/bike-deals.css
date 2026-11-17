@@ -392,3 +392,14 @@ a.dp-home-btn:hover { background: #157a93; }
   .dp-home .dp-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .dp-home .dp-row > .dp-card:nth-child(n+4) { display: none; }
 }
+
+/* ----- brand buttons at the top of the deals pages ----- */
+.dp-brands { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 4px 0 18px; }
+.dp-brands-label { flex-shrink: 0; white-space: nowrap; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--secondary); margin-right: 2px; }
+.post-content a.dp-brand-chip, a.dp-brand-chip { flex-shrink: 0; display: inline-block; padding: 5px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--entry); color: var(--primary); font-size: 14px; font-weight: 600; text-decoration: none; box-shadow: none; white-space: nowrap; }
+.post-content a.dp-brand-chip:hover, a.dp-brand-chip:hover { border-color: #1B8FAB; color: #1B8FAB; }
+.post-content a.dp-brand-all, a.dp-brand-all { border-color: transparent; background: none; color: #1B8FAB; }
+@media (max-width: 640px) {
+  .dp-brands { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .dp-brands::-webkit-scrollbar { display: none; }
+}
