@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import html as html_lib
 import json
 import math
@@ -908,7 +909,7 @@ def pick(pool: list[dict], limit: int, per_store: int, per_category: int | None 
     """Top `limit` by score, capped per store, per category and per model
     family so one shop, category or product line can't dominate."""
     out, by_store, by_cat, by_fam = [], {}, {}, {}
-    for it in sorted(pool, key=score, reverse=True):
+    for it in sorted(pool, key=lambda x: x.get("rot") or score(x), reverse=True):
         fam = family(it)
         if by_store.get(it["store"], 0) >= per_store:
             continue
@@ -1061,6 +1062,14 @@ def main() -> int:
         it["since"] = history[it["key"]]["first"]
     cutoff = (today - dt.timedelta(days=HISTORY_KEEP_DAYS)).isoformat()
     history = {k: v for k, v in history.items() if v["last"] >= cutoff}
+
+    # Rotate the picks: each scan (morning and afternoon) shuffles the order
+    # among similarly good deals, and deals new today get a bump, so the front
+    # of the page changes from run to run instead of showing the same cards.
+    run_id = f"{today_s}-{now.astimezone(ZoneInfo('America/Los_Angeles')).hour // 12}"
+    for it in pool:
+        r = int(hashlib.sha1(f"{run_id}:{it['key']}".encode()).hexdigest()[:8], 16) / 0xFFFFFFFF
+        it["rot"] = round(score(it) * (0.7 + 0.6 * r) * (1.35 if it.get("new") else 1.0), 4)
 
     main_pool = [it for it in pool if it.get("main", True)]
     categories = []
