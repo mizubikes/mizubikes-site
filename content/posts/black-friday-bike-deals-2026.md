@@ -68,7 +68,7 @@ Discounts are as advertised by each retailer on November 14.
 
 ## Schwalbe tire sale at BikeTiresDirect
 
-BikeTiresDirect has 25 to 30% off a big range of [Schwalbe tires](https://www.biketiresdirect.com/search?sale=1120SCH26). The standout is the **Thunder Burt Super Race 29**, the fast-rolling XC race tire, at [$76.50 instead of $102](https://www.biketiresdirect.com/product/schwalbe-thunder-burt-super-race-29-inch-mtb-tire) in 2.1, 2.25 and 2.35 widths, with free shipping. It sells out fast whenever it's on sale, and it's already out of stock at some other shops. Racing Ralph and Pro One TLE are 25% off too, and the Albert, Tacky Chan and Magic Mary gravity tires are 30% off. No end date is posted.
+BikeTiresDirect has 25 to 30% off a big range of [Schwalbe tires](https://www.biketiresdirect.com/search?sale=1120SCH26). The standout is the **Thunder Burt Super Race 29**, the fast-rolling XC race tire, at [$76.50 instead of $102](https://www.biketiresdirect.com/product/schwalbe-thunder-burt-super-race-29-inch-mtb-tire) in 2.1, 2.25 and 2.35 widths, with free shipping. It's one of the most popular XC and fast trail tires around, and the 2.1 is already out of stock at Worldwide Cyclery. Racing Ralph and Pro One TLE are 25% off too, and the Albert, Tacky Chan and Magic Mary gravity tires are 30% off. No end date is posted.
 
 ## Gravel tire deals, tracked daily
 
