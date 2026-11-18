@@ -1051,6 +1051,19 @@
  },
  "btd:scjuh": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Schwalbe",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 68.25,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "G-One RS PRO 700c Gravel Tire",
+   "url": "https://www.biketiresdirect.com/product/schwalbe-g-one-rs-pro-700c-gravel-tire",
+   "variant": "",
+   "was": 91.0
+  },
   "last": "2026-11-17",
   "low": 68.25
  },
@@ -1232,6 +1245,19 @@
  },
  "btd:scs12": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Schwalbe",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 81.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Magic Mary Gravity PRO 29 Inch MTB Tire",
+   "url": "https://www.biketiresdirect.com/product/schwalbe-magic-mary-gravity-pro-29-inch-mtb-tire",
+   "variant": "",
+   "was": 108.0
+  },
   "last": "2026-11-17",
   "low": 81.0
  },
@@ -1442,6 +1468,19 @@
  },
  "btd:scsp2": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Schwalbe",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 68.25,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Pro One TLE 20 Inch Road Tire",
+   "url": "https://www.biketiresdirect.com/product/schwalbe-pro-one-tle-20-inch-road-tire",
+   "variant": "",
+   "was": 91.0
+  },
   "last": "2026-11-17",
   "low": 68.25
  },
@@ -1702,6 +1741,11 @@
   "last": "2026-11-16",
   "low": 3895.0,
   "seed": true
+ },
+ "contender:15549021880565": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 21.59
  },
  "contender:6082050228392": {
   "first": "2026-11-16",
@@ -3277,6 +3321,19 @@
  },
  "contender:9231201337589": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "BMC",
+   "category": "framesets",
+   "pct": 0.25,
+   "price": 4124.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Teammachine SLR 01 Frameset DI 2026",
+   "url": "https://contenderbicycles.com/products/bmc-teammachine-slr-01-frameset-di-2026?variant=46859316134133",
+   "variant": "VAR0 / 47",
+   "was": 5499.0
+  },
   "last": "2026-11-17",
   "low": 4124.0,
   "seed": true
@@ -3591,6 +3648,11 @@
   "last": "2026-11-17",
   "low": 3149.0,
   "seed": true
+ },
+ "contender:9369119555829": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 2999.99
  },
  "contender:9369918439669": {
   "first": "2026-11-16",
@@ -4223,14 +4285,14 @@
  "contender:9706577133813": {
   "first": "2026-11-16",
   "info": {
-   "brand": "BMC Bikes",
+   "brand": "BMC",
    "category": "bikes",
    "pct": 0.4,
    "price": 3599.4,
    "sponsored": false,
    "store": "contender",
    "store_name": "Contender Bicycles",
-   "title": "BMC URS 01 TWO 2026",
+   "title": "URS 01 TWO 2026",
    "url": "https://contenderbicycles.com/products/bmc-urs-01-two-2026?variant=48234709287157",
    "variant": "Metallic Green / Pearl White / XS",
    "was": 5999.0
@@ -4661,6 +4723,19 @@
  },
  "fanatik:1775416573998": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Renthal",
+   "category": "cockpit",
+   "pct": 0.211,
+   "price": 145.95,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Fatbar 35 Carbon Handlebar",
+   "url": "https://www.fanatikbike.com/products/renthal-fatbar-35-carbon-handlebar?variant=16358449676334",
+   "variant": "30mm",
+   "was": 184.95
+  },
   "last": "2026-11-17",
   "low": 145.95,
   "seed": true
@@ -5433,6 +5508,19 @@
  },
  "fanatik:5290052995": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.225,
+   "price": 89.95,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Minion DHR II WT 27.5\" x 2.4\" Tire",
+   "url": "https://www.fanatikbike.com/products/maxxis-minion-dhr-ii-27-5-wt-tire?variant=17526551674926",
+   "variant": "DH - 3C MaxxGrip",
+   "was": 116.0
+  },
   "last": "2026-11-17",
   "low": 89.95,
   "seed": true
@@ -6818,7 +6906,7 @@
   "first": "2026-11-16",
   "info": {
    "brand": "Specialized",
-   "category": "accessories",
+   "category": "bikes",
    "pct": 0.333,
    "price": 2999.99,
    "sponsored": false,
@@ -7334,6 +7422,19 @@
  },
  "fanatik:7648205570094": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.25,
+   "price": 450.0,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Vivid Coil Select+ Rear Shock - 250mm x 75mm - Fanatik Outlet",
+   "url": "https://www.fanatikbike.com/products/rockshox-vivid-coil-select-rear-shock-250mm-x-75mm-fanatik-outlet?variant=42641825988654",
+   "variant": "",
+   "was": 600.0
+  },
   "last": "2026-11-17",
   "low": 450.0,
   "seed": true
@@ -8308,10 +8409,20 @@
   "last": "2026-11-16",
   "low": 54.97
  },
+ "incycle:6743903404163": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 299.97
+ },
  "incycle:6743947346051": {
   "first": "2026-11-16",
   "last": "2026-11-17",
   "low": 699.99
+ },
+ "incycle:6743960092803": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 98.97
  },
  "incycle:6743965270147": {
   "first": "2026-11-16",
@@ -8354,8 +8465,31 @@
   "last": "2026-11-17",
   "low": 429.97
  },
+ "incycle:6748419752067": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Quality Wheels",
+   "category": "wheels",
+   "pct": 0.191,
+   "price": 71.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Value Double Wall Series Rear Wheel",
+   "url": "https://www.incycle.com/products/quality-wheels-value-double-wall-series-rear-wheel?variant=39690899947651",
+   "variant": "26\" 10 x 1 x 135mm Rim Brake HG 10 Black Clincher",
+   "was": 89.0
+  },
+  "last": "2026-11-17",
+  "low": 71.97
+ },
  "incycle:6748420538499": {
   "first": "2026-11-16",
+  "last": "2026-11-17",
+  "low": 111.97
+ },
+ "incycle:6748446916739": {
+  "first": "2026-11-17",
   "last": "2026-11-17",
   "low": 111.97
  },
@@ -8474,6 +8608,11 @@
   "last": "2026-11-17",
   "low": 264.95
  },
+ "incycle:7709959192707": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 27.97
+ },
  "incycle:7709959225475": {
   "first": "2026-11-16",
   "info": {
@@ -8510,7 +8649,7 @@
  "incycle:7719567753347": {
   "first": "2026-11-16",
   "last": "2026-11-17",
-  "low": 224.99
+  "low": 149.97
  },
  "incycle:7723883364483": {
   "first": "2026-11-16",
@@ -9028,6 +9167,24 @@
   "last": "2026-11-17",
   "low": 144.99
  },
+ "incycle:7883100979331": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.478,
+   "price": 234.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "S-Works Recon SL Shoe",
+   "url": "https://www.incycle.com/products/specialized-s-works-recon-sl-shoe?variant=43669719646339",
+   "variant": "Oak Green / Dark Moss Green / 45 / Regular",
+   "was": 449.99
+  },
+  "last": "2026-11-17",
+  "low": 234.97
+ },
  "incycle:7883101274243": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -9095,6 +9252,11 @@
   "last": "2026-11-17",
   "low": 25.97,
   "seed": true
+ },
+ "incycle:7885682737283": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 59.97
  },
  "incycle:7885682802819": {
   "first": "2026-11-16",
@@ -9928,6 +10090,11 @@
   "low": 66.97,
   "seed": true
  },
+ "incycle:8402075287683": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 29.97
+ },
  "incycle:8403058950275": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -10039,6 +10206,11 @@
   "last": "2026-11-17",
   "low": 599.99,
   "seed": true
+ },
+ "incycle:8425036611715": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 699.99
  },
  "incycle:8441027264643": {
   "first": "2026-11-16",
@@ -10189,6 +10361,11 @@
   "last": "2026-11-17",
   "low": 880.97
  },
+ "incycle:8470554378371": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 199.99
+ },
  "incycle:8474785448067": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -10239,6 +10416,11 @@
   "last": "2026-11-17",
   "low": 49.99,
   "seed": true
+ },
+ "incycle:8495080800387": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 29.97
  },
  "incycle:8495081554051": {
   "first": "2026-11-16",
@@ -10483,6 +10665,11 @@
   "last": "2026-11-16",
   "low": 59.97,
   "seed": true
+ },
+ "incycle:8555492114563": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 1749.97
  },
  "incycle:8561582997635": {
   "first": "2026-11-16",
@@ -11313,6 +11500,11 @@
   "low": 74.97,
   "seed": true
  },
+ "incycle:8712503656579": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 61.97
+ },
  "incycle:8713232580739": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -11414,6 +11606,24 @@
   "low": 84.97,
   "seed": true
  },
+ "incycle:8760224645251": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Specialized",
+   "category": "wheels",
+   "pct": 0.567,
+   "price": 259.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Roval Traverse SL II 350 6B",
+   "url": "https://www.incycle.com/products/specialized-roval-traverse-sl-ii-350-6b?variant=45834600087683",
+   "variant": "Satin Carbon / Gloss Black / 29 Front 28H",
+   "was": 599.99
+  },
+  "last": "2026-11-17",
+  "low": 259.97
+ },
  "incycle:8760225005699": {
   "first": "2026-11-16",
   "info": {
@@ -11432,6 +11642,11 @@
   "last": "2026-11-17",
   "low": 554.97,
   "seed": true
+ },
+ "incycle:8762605338755": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 359.97
  },
  "incycle:8762605404291": {
   "first": "2026-11-16",
@@ -11724,6 +11939,16 @@
   "last": "2026-11-17",
   "low": 44.89
  },
+ "mikes-bikes:2089742434371": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 52.5
+ },
+ "mikes-bikes:2089750790211": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 27.75
+ },
  "mikes-bikes:2090070507587": {
   "first": "2026-11-16",
   "info": {
@@ -11747,6 +11972,21 @@
   "last": "2026-11-17",
   "low": 39.95
  },
+ "mikes-bikes:2090264592451": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 127.5
+ },
+ "mikes-bikes:2090332422211": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 104.99
+ },
+ "mikes-bikes:2090508255299": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 80.25
+ },
  "mikes-bikes:2090747691075": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -11766,6 +12006,11 @@
   "first": "2026-11-16",
   "last": "2026-11-17",
   "low": 59.77
+ },
+ "mikes-bikes:2090784784451": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 191.25
  },
  "mikes-bikes:2090867392579": {
   "first": "2026-11-16",
@@ -11800,6 +12045,11 @@
   "last": "2026-11-17",
   "low": 64.95
  },
+ "mikes-bikes:2091743641667": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 27.0
+ },
  "mikes-bikes:2092252037187": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -11823,6 +12073,16 @@
   "last": "2026-11-17",
   "low": 23.36
  },
+ "mikes-bikes:2108329656387": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 37.5
+ },
+ "mikes-bikes:3825779343427": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 397.5
+ },
  "mikes-bikes:3947621613635": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -11835,6 +12095,19 @@
  },
  "mikes-bikes:4163909976133": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Fox Racing Shox",
+   "category": "suspension",
+   "pct": 0.236,
+   "price": 274.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Transfer Factory Dropper Seatpost (Internal)",
+   "url": "https://mikesbikes.com/products/transfer-factory-dropper-internal?variant=39271559987269",
+   "variant": "30.9 / 200mm",
+   "was": 359.99
+  },
   "last": "2026-11-17",
   "low": 274.95
  },
@@ -11855,6 +12128,11 @@
   },
   "last": "2026-11-17",
   "low": 115.5
+ },
+ "mikes-bikes:4347143913541": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 75.0
  },
  "mikes-bikes:4347708440645": {
   "first": "2026-11-16",
@@ -11901,6 +12179,11 @@
   "last": "2026-11-17",
   "low": 34.99
  },
+ "mikes-bikes:4586652303429": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 59.99
+ },
  "mikes-bikes:4601936248901": {
   "first": "2026-11-16",
   "info": {
@@ -11918,6 +12201,16 @@
   },
   "last": "2026-11-17",
   "low": 199.95
+ },
+ "mikes-bikes:4601937920069": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 191.25
+ },
+ "mikes-bikes:4604579446853": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 364.0
  },
  "mikes-bikes:4630402203717": {
   "first": "2026-11-16",
@@ -11982,6 +12275,29 @@
   },
   "last": "2026-11-17",
   "low": 38.77
+ },
+ "mikes-bikes:6574473642053": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "SRAM",
+   "category": "electronics",
+   "pct": 0.25,
+   "price": 303.75,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Rival AXS Power Meter Crankset",
+   "url": "https://mikesbikes.com/products/sram-rival-dub-quarq-road-power-meter?variant=39304967487557",
+   "variant": "175mm / 46-33t",
+   "was": 405.0
+  },
+  "last": "2026-11-17",
+  "low": 303.75
+ },
+ "mikes-bikes:6574474559557": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 116.0
  },
  "mikes-bikes:6579248070725": {
   "first": "2026-11-16",
@@ -12056,6 +12372,16 @@
   "first": "2026-11-16",
   "last": "2026-11-17",
   "low": 49.77
+ },
+ "mikes-bikes:6627731669061": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 183.75
+ },
+ "mikes-bikes:6627731701829": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 140.0
  },
  "mikes-bikes:6631842873413": {
   "first": "2026-11-16",
@@ -12329,6 +12655,11 @@
   "last": "2026-11-17",
   "low": 143.95
  },
+ "mikes-bikes:6702231879749": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 89.77
+ },
  "mikes-bikes:6721556709445": {
   "first": "2026-11-16",
   "info": {
@@ -12532,6 +12863,11 @@
   "last": "2026-11-17",
   "low": 44.99
  },
+ "mikes-bikes:6799326904389": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 174.77
+ },
  "mikes-bikes:6807433216069": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -12542,8 +12878,8 @@
   "info": {
    "brand": "Wahoo Fitness",
    "category": "electronics",
-   "pct": 0.19,
-   "price": 849.99,
+   "pct": 0.352,
+   "price": 679.99,
    "sponsored": false,
    "store": "mikes-bikes",
    "store_name": "Mike's Bikes",
@@ -12553,7 +12889,7 @@
    "was": 1049.99
   },
   "last": "2026-11-17",
-  "low": 849.99
+  "low": 679.99
  },
  "mikes-bikes:6812699492421": {
   "first": "2026-11-16",
@@ -12608,10 +12944,33 @@
   "last": "2026-11-17",
   "low": 184.95
  },
+ "mikes-bikes:6845847863365": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 90.0
+ },
  "mikes-bikes:6845893607493": {
   "first": "2026-11-16",
   "last": "2026-11-17",
   "low": 28.99
+ },
+ "mikes-bikes:6846473076805": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "POC",
+   "category": "apparel",
+   "pct": 0.346,
+   "price": 179.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Ventral Lite MIPS Helmet",
+   "url": "https://mikesbikes.com/products/poc-ventral-lite-mips-helmet?variant=40413632036933",
+   "variant": "Granite Grey Matt / Small / 50-56cm",
+   "was": 275.0
+  },
+  "last": "2026-11-17",
+  "low": 179.77
  },
  "mikes-bikes:6848711229509": {
   "first": "2026-11-16",
@@ -12649,7 +13008,7 @@
  "mikes-bikes:6850727379013": {
   "first": "2026-11-16",
   "last": "2026-11-17",
-  "low": 127.95
+  "low": 108.76
  },
  "mikes-bikes:6851031826501": {
   "first": "2026-11-16",
@@ -12700,7 +13059,7 @@
  "mikes-bikes:6863074263109": {
   "first": "2026-11-16",
   "last": "2026-11-17",
-  "low": 64.95
+  "low": 55.21
  },
  "mikes-bikes:6864101179461": {
   "first": "2026-11-16",
@@ -12765,6 +13124,24 @@
   "last": "2026-11-17",
   "low": 2398.95
  },
+ "mikes-bikes:6869895413829": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Giro",
+   "category": "apparel",
+   "pct": 0.486,
+   "price": 179.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Aries Spherical MIPS Helmet",
+   "url": "https://mikesbikes.com/products/giro-aries-spherical-mips-helmet?variant=40492688179269",
+   "variant": "Matte Black / Small",
+   "was": 349.99
+  },
+  "last": "2026-11-17",
+  "low": 179.95
+ },
  "mikes-bikes:6869958426693": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -12787,6 +13164,29 @@
   },
   "last": "2026-11-17",
   "low": 594.99
+ },
+ "mikes-bikes:6878573363269": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 330.0
+ },
+ "mikes-bikes:6882777464901": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.25,
+   "price": 282.75,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Red AXS XG-1290 Cassette",
+   "url": "https://mikesbikes.com/products/sram-red-axs-xg-1290-cassette?variant=40539034091589",
+   "variant": "Silver / 10-28t / 10-28t",
+   "was": 377.0
+  },
+  "last": "2026-11-17",
+  "low": 282.75
  },
  "mikes-bikes:6882787917893": {
   "first": "2026-11-16",
@@ -12815,6 +13215,24 @@
   },
   "last": "2026-11-17",
   "low": 62.95
+ },
+ "mikes-bikes:6890844946501": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.3,
+   "price": 143.5,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Level Silver Stealth Disc Brakes",
+   "url": "https://mikesbikes.com/products/sram-level-stealth-disc-brakes?variant=40565685518405",
+   "variant": "Black / Front",
+   "was": 205.0
+  },
+  "last": "2026-11-17",
+  "low": 143.5
  },
  "mikes-bikes:6892156715077": {
   "first": "2026-11-16",
@@ -12867,6 +13285,24 @@
   "last": "2026-11-17",
   "low": 35.95
  },
+ "mikes-bikes:6904132173893": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 31.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Secret Chain Blend Hot Melt Wax",
+   "url": "https://mikesbikes.com/products/silca-secret-chain-blend-hot-melt-wax?variant=40612735254597",
+   "variant": "",
+   "was": 39.99
+  },
+  "last": "2026-11-17",
+  "low": 31.99
+ },
  "mikes-bikes:6904597643333": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -12911,8 +13347,8 @@
    "store": "mikes-bikes",
    "store_name": "Mike's Bikes",
    "title": "Heckler SL CC X0 Transmission Reserve",
-   "url": "https://mikesbikes.com/products/santa-cruz-heckler-sl-cc-x0-transmission-reserve-2024?variant=44649480618053",
-   "variant": "Silver / XX-Large",
+   "url": "https://mikesbikes.com/products/santa-cruz-heckler-sl-cc-x0-transmission-reserve-2024?variant=44649480650821",
+   "variant": "Gloss Magenta / XX-Large",
    "was": 11699.99
   },
   "last": "2026-11-17",
@@ -13122,6 +13558,11 @@
   "last": "2026-11-17",
   "low": 3999.95
  },
+ "mikes-bikes:6987333992517": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 45.0
+ },
  "mikes-bikes:6992225992773": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -13197,6 +13638,24 @@
   "last": "2026-11-17",
   "low": 62.99
  },
+ "mikes-bikes:7071676366917": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.33,
+   "price": 221.21,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Maven Ultimate Stealth Disc Brake",
+   "url": "https://mikesbikes.com/products/sram-maven-ultimate-stealth-disc-brake?variant=41111352606789",
+   "variant": "Black/Silver / Front",
+   "was": 330.0
+  },
+  "last": "2026-11-17",
+  "low": 221.21
+ },
  "mikes-bikes:7091942490181": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -13221,6 +13680,11 @@
   "first": "2026-11-16",
   "last": "2026-11-17",
   "low": 79.95
+ },
+ "mikes-bikes:7242436640837": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 247.5
  },
  "mikes-bikes:7329061077061": {
   "first": "2026-11-16",
@@ -13375,6 +13839,19 @@
  },
  "mikes-bikes:7413405843525": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Cannondale",
+   "category": "bikes",
+   "pct": 0.334,
+   "price": 2498.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Tesoro X 2 StepThru",
+   "url": "https://mikesbikes.com/products/cannondale-tesoro-x-2-stepthru?variant=42002372264005",
+   "variant": "Mantis / Small",
+   "was": 3750.0
+  },
   "last": "2026-11-17",
   "low": 2498.95
  },
@@ -13412,17 +13889,17 @@
    "brand": "Wahoo Fitness",
    "category": "electronics",
    "pct": 0.2,
-   "price": 499.99,
+   "price": 399.99,
    "sponsored": false,
    "store": "mikes-bikes",
    "store_name": "Mike's Bikes",
    "title": "Elemnt Ace GPS Bike Computer",
    "url": "https://mikesbikes.com/products/wahoo-elemnt-ace-gps-computer?variant=42044769796165",
    "variant": "",
-   "was": 624.99
+   "was": 499.99
   },
   "last": "2026-11-17",
-  "low": 499.99
+  "low": 399.99
  },
  "mikes-bikes:7430584729669": {
   "first": "2026-11-16",
@@ -13486,6 +13963,24 @@
   "first": "2026-11-16",
   "last": "2026-11-17",
   "low": 119.99
+ },
+ "mikes-bikes:7488938180677": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.31,
+   "price": 68.31,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Chain Waxing System",
+   "url": "https://mikesbikes.com/products/silca-chain-waxing-system?variant=42263528702021",
+   "variant": "",
+   "was": 99.0
+  },
+  "last": "2026-11-17",
+  "low": 68.31
  },
  "mikes-bikes:7490168848453": {
   "first": "2026-11-16",
@@ -13603,6 +14098,11 @@
   "last": "2026-11-17",
   "low": 449.99
  },
+ "mikes-bikes:7552718340165": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 124.77
+ },
  "mikes-bikes:7583922290757": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -13637,6 +14137,42 @@
   "first": "2026-11-16",
   "last": "2026-11-17",
   "low": 4249.0
+ },
+ "mikes-bikes:7584653475909": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.15,
+   "price": 29.75,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Eagle 70 Transmission Trigger",
+   "url": "https://mikesbikes.com/products/sram-eagle-70-transmission-trigger?variant=42578062213189",
+   "variant": "Multi Click",
+   "was": 35.0
+  },
+  "last": "2026-11-17",
+  "low": 29.75
+ },
+ "mikes-bikes:7587328786501": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Wahoo Fitness",
+   "category": "electronics",
+   "pct": 0.2,
+   "price": 279.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Elemnt Bolt 3 GPS Bike Computer",
+   "url": "https://mikesbikes.com/products/wahoo-elemnt-bolt-3-gps-bike-computer?variant=42594984362053",
+   "variant": "",
+   "was": 349.99
+  },
+  "last": "2026-11-17",
+  "low": 279.99
  },
  "mikes-bikes:7590305955909": {
   "first": "2026-11-16",
@@ -13766,6 +14302,24 @@
   },
   "last": "2026-11-17",
   "low": 730.99
+ },
+ "mikes-bikes:7635296452677": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.25,
+   "price": 1566.75,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Force AXS E1 2X Hammerhead Groupset",
+   "url": "https://mikesbikes.com/products/sram-force-axs-2x-hammerhead-groupset?variant=42877373448261",
+   "variant": "",
+   "was": 2089.0
+  },
+  "last": "2026-11-17",
+  "low": 1566.75
  },
  "mikes-bikes:7637257584709": {
   "first": "2026-11-16",
@@ -14085,6 +14639,24 @@
   "last": "2026-11-17",
   "low": 3119.95
  },
+ "mikes-bikes:7879735312453": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 28.79,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Super Secret Wax Starter Pack",
+   "url": "https://mikesbikes.com/products/silca-super-secret-wax-starter-pack?variant=44221437608005",
+   "variant": "",
+   "was": 35.99
+  },
+  "last": "2026-11-17",
+  "low": 28.79
+ },
  "mikes-bikes:7925647802437": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -14114,6 +14686,101 @@
   "first": "2026-11-16",
   "last": "2026-11-17",
   "low": 4749.95
+ },
+ "mikes-bikes:7931029258309": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 127.2,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Electtrico Ultimate Inflator",
+   "url": "https://mikesbikes.com/products/silca-electtrico-ultimate-inflator?variant=44546577498181",
+   "variant": "",
+   "was": 159.0
+  },
+  "last": "2026-11-17",
+  "low": 127.2
+ },
+ "mikes-bikes:7931031289925": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 40.0,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Mattone Seat Pack",
+   "url": "https://mikesbikes.com/products/silca-mattone-seat-bag-black-41l?variant=44546595029061",
+   "variant": "",
+   "was": 50.0
+  },
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "mikes-bikes:7931031388229": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 103.99
+ },
+ "mikes-bikes:7931148173381": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 59.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Gravelero Mini-Pump",
+   "url": "https://mikesbikes.com/products/silca-gravelero-mini-pump?variant=44547122954309",
+   "variant": "Black",
+   "was": 74.99
+  },
+  "last": "2026-11-17",
+  "low": 59.99
+ },
+ "mikes-bikes:7931148271685": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 55.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Tattico Mini-Pump",
+   "url": "https://mikesbikes.com/products/silca-tattico-mini-pump?variant=44547124658245",
+   "variant": "Black",
+   "was": 69.99
+  },
+  "last": "2026-11-17",
+  "low": 55.99
+ },
+ "mikes-bikes:7931148402757": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 127.2,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Terra Floor Pump",
+   "url": "https://mikesbikes.com/products/silca-terra-floor-pump?variant=44547126100037",
+   "variant": "Olive",
+   "was": 159.0
+  },
+  "last": "2026-11-17",
+  "low": 127.2
  },
  "mikes-bikes:7931149221957": {
   "first": "2026-11-16",
@@ -14147,6 +14814,19 @@
  },
  "mikes-bikes:7936886603845": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Pivot Cycles",
+   "category": "bikes",
+   "pct": 0.222,
+   "price": 6999.0,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Shuttle LT Ride 70/90 Eagle Transmission",
+   "url": "https://mikesbikes.com/products/pivot-shuttle-lt-ride-70-90-eagle-transmission-2027?variant=44559824748613",
+   "variant": "Stone Cold White / Small",
+   "was": 8999.0
+  },
   "last": "2026-11-17",
   "low": 6999.0
  },
@@ -14218,6 +14898,11 @@
   "last": "2026-11-17",
   "low": 37.49
  },
+ "mikes-bikes:8019520553029": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 28.79
+ },
  "mikes-bikes:8026876117061": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -14256,10 +14941,66 @@
   "last": "2026-11-17",
   "low": 148.77
  },
+ "mikes-bikes:8042607902789": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 39.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Nastro Cuscino Bar Tape (2.5mm)",
+   "url": "https://mikesbikes.com/products/silca-nastro-cuscino-bar-tape?variant=44853657206853",
+   "variant": "Black / 2.5mm",
+   "was": 49.99
+  },
+  "last": "2026-11-17",
+  "low": 39.99
+ },
+ "mikes-bikes:8045800947781": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 24.0
+ },
  "mikes-bikes:8050380603461": {
   "first": "2026-11-16",
   "last": "2026-11-17",
   "low": 1349.95
+ },
+ "mikes-bikes:8071390036037": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "SRAM",
+   "category": "suspension",
+   "pct": 0.25,
+   "price": 521.25,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Reverb AXS XPLR (27.2)",
+   "url": "https://mikesbikes.com/products/sram-reverb-axs-xplr-27-2?variant=44955093172293",
+   "variant": "50mm / 350mm",
+   "was": 695.0
+  },
+  "last": "2026-11-17",
+  "low": 521.25
+ },
+ "mikes-bikes:8091116535877": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 449.25
+ },
+ "mikes-bikes:8092018704453": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 102.0
+ },
+ "mikes-bikes:8092018737221": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 102.0
  },
  "mikes-bikes:8105924165701": {
   "first": "2026-11-16",
@@ -14279,7 +15020,7 @@
  "mikes-bikes:8129284833349": {
   "first": "2026-11-16",
   "last": "2026-11-17",
-  "low": 4950.77
+  "low": 4049.77
  },
  "mikes-bikes:8129285390405": {
   "first": "2026-11-16",
@@ -14331,6 +15072,24 @@
    "store_name": "Mike's Bikes",
    "title": "40|44 GR Wheelset + Vittoria Terreno T40 Tire Bundle",
    "url": "https://mikesbikes.com/products/reserve-40-44-gr-terreno-t40-wheelset-bundle?variant=46090098966597",
+   "variant": "",
+   "was": 1999.0
+  },
+  "last": "2026-11-17",
+  "low": 1599.0
+ },
+ "mikes-bikes:8350966415429": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Reserve",
+   "category": "tires",
+   "pct": 0.2,
+   "price": 1599.0,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "57|64 TA Wheelset + Vittoria Corsa Pro 2.0 Tire Bundle",
+   "url": "https://mikesbikes.com/products/reserve-57-64-cosa-pro-2-0-wheelset-bundle?variant=46090099130437",
    "variant": "",
    "was": 1999.0
   },
@@ -15449,6 +16208,11 @@
   "last": "2026-11-17",
   "low": 187.5
  },
+ "pearl-izumi:7382468264107": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 54.0
+ },
  "pearl-izumi:7382468296875": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -15765,7 +16529,7 @@
  "pearl-izumi:7872034668715": {
   "first": "2026-11-16",
   "last": "2026-11-17",
-  "low": 45.0
+  "low": 27.0
  },
  "pearl-izumi:7872067403947": {
   "first": "2026-11-16",
@@ -16138,6 +16902,11 @@
   "last": "2026-11-17",
   "low": 229.99,
   "seed": true
+ },
+ "planet-cyclery:8042726359212": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 109.99
  },
  "planet-cyclery:8042733600940": {
   "first": "2026-11-16",
@@ -19987,6 +20756,19 @@
  },
  "planet-cyclery:8043825529004": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "brakes",
+   "pct": 0.4,
+   "price": 143.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Ultegra Di2 R8150 12 Spd Road Shift/Brake Lever - Rim Brake",
+   "url": "https://www.planetcyclery.com/products/shimano-ultegra-di2-r8150-12-spd-road-shift-brake-lever-rim-brake?variant=43768394416300",
+   "variant": "Black / Right Hand - Rear",
+   "was": 240.0
+  },
   "last": "2026-11-17",
   "low": 143.99
  },
@@ -20647,7 +21429,7 @@
  },
  "planet-cyclery:8043901157548": {
   "first": "2026-11-16",
-  "last": "2026-11-16",
+  "last": "2026-11-17",
   "low": 29.49,
   "seed": true
  },
@@ -21262,6 +22044,19 @@
  },
  "planet-cyclery:8044108611756": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Fox Suspension",
+   "category": "suspension",
+   "pct": 0.21,
+   "price": 259.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Transfer SL Performance Dropper Seatpost - 27.2 - Internal",
+   "url": "https://www.planetcyclery.com/products/fox-suspension-transfer-sl-performance-dropper-seatpost-27-2-internal?variant=43768968216748",
+   "variant": "Black / 400mm / 50mm Drop",
+   "was": 329.0
+  },
   "last": "2026-11-17",
   "low": 259.99
  },
@@ -22270,7 +23065,7 @@
    "sponsored": false,
    "store": "planet-cyclery",
    "store_name": "Planet Cyclery",
-   "title": "OneUp EDC Light Tool System - Blue",
+   "title": "EDC Light Tool System - Blue",
    "url": "https://www.planetcyclery.com/products/oneup-edc-light-tool-system-blue?variant=43769217351852",
    "variant": "Blue",
    "was": 39.99
@@ -25316,6 +26111,19 @@
  },
  "planet-cyclery:8044638077100": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "OneUp",
+   "category": "suspension",
+   "pct": 0.25,
+   "price": 202.49,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Dropper Post V3 - 180mm",
+   "url": "https://www.planetcyclery.com/products/oneup-dropper-post-v3-180mm?variant=43770417217708",
+   "variant": "Black / 30.9mm - 480mm / 180mm Drop",
+   "was": 269.99
+  },
   "last": "2026-11-17",
   "low": 202.49,
   "seed": true
@@ -25996,6 +26804,19 @@
  },
  "planet-cyclery:8044703121580": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Wolf Tooth Components",
+   "category": "cockpit",
+   "pct": 0.204,
+   "price": 174.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "EC44 Premium Complete Headset - Gold",
+   "url": "https://www.planetcyclery.com/products/wolf-tooth-components-ec44-premium-complete-headset-gold?variant=43770586464428",
+   "variant": "Gold",
+   "was": 219.95
+  },
   "last": "2026-11-17",
   "low": 174.99,
   "seed": true
@@ -27258,6 +28079,19 @@
  },
  "planet-cyclery:8199754514604": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.2,
+   "price": 79.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Eagle 70 T-Type Wide 12 Spd Crankset",
+   "url": "https://www.planetcyclery.com/products/sram-eagle-70-t-type-wide-12-spd-crankset?variant=44271499247788",
+   "variant": "Black / 175mm - 32t / Spacers/BB Not Included",
+   "was": 100.0
+  },
   "last": "2026-11-17",
   "low": 79.99,
   "seed": true
@@ -27826,6 +28660,11 @@
   "low": 49.99,
   "seed": true
  },
+ "planet-cyclery:8226700918956": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 63.99
+ },
  "planet-cyclery:8226701017260": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -27867,6 +28706,11 @@
   "last": "2026-11-17",
   "low": 59.99,
   "seed": true
+ },
+ "planet-cyclery:8226702131372": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 33.99
  },
  "planet-cyclery:8226702164140": {
   "first": "2026-11-16",
@@ -30223,6 +31067,19 @@
  },
  "sierra-bicycle-supply:9086319821048": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.2,
+   "price": 6399.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Stumpjumper 15 Pro",
+   "url": "https://shopbikesupply.com/products/2025-specialized-stumpjumper-15-pro?variant=46490120749304",
+   "variant": "Satin Green Tint / Gunmetal / Satin Metallic Sulphur / S1",
+   "was": 8000.0
+  },
   "last": "2026-11-17",
   "low": 6399.99
  },
@@ -30422,6 +31279,19 @@
  },
  "sierra-bicycle-supply:9144223695096": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.313,
+   "price": 2749.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Turbo Vado SL 4.0 Step-Through EQ",
+   "url": "https://shopbikesupply.com/products/turbo-vado-sl-4-0-step-through-eq?variant=46623696945400",
+   "variant": "Raspberry / Black Reflective / XL",
+   "was": 4000.0
+  },
   "last": "2026-11-17",
   "low": 2749.99
  },
@@ -31796,6 +32666,19 @@
  },
  "sierra-bicycle-supply:9239920935160": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.73,
+   "price": 22.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Women's Power Grid™ Short Sleeve Baselayer",
+   "url": "https://shopbikesupply.com/products/womens-power-grid-short-sleeve-baselayer-1?variant=46943843320056",
+   "variant": "M / Dark Navy",
+   "was": 85.0
+  },
   "last": "2026-11-17",
   "low": 22.99
  },
@@ -32001,6 +32884,19 @@
  },
  "sierra-bicycle-supply:9333222277368": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 72.0,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Minion DHF Tire",
+   "url": "https://shopbikesupply.com/products/minion-dhf-tire?variant=47621721096440",
+   "variant": "Minion DHF Tire - 27.5 x 2.3, Tubeless, Folding, Black, 3C Maxx Terra, EXO",
+   "was": 96.0
+  },
   "last": "2026-11-17",
   "low": 72.0
  },
@@ -32312,6 +33208,75 @@
   "last": "2026-11-17",
   "low": 99.99
  },
+ "silca:1333035663458": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 44.0
+ },
+ "silca:14875465974131": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tires",
+   "pct": 0.333,
+   "price": 28.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Ultimate Tubeless Sealant",
+   "url": "https://silca.cc/products/ultimate-tubeless-sealant?variant=51983936782707",
+   "variant": "1L",
+   "was": 42.0
+  },
+  "last": "2026-11-17",
+  "low": 28.0
+ },
+ "silca:15062715957619": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 103.0
+ },
+ "silca:15103580897651": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 100.0
+ },
+ "silca:15124732871027": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.201,
+   "price": 127.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Elettrico Ultimate Inflator",
+   "url": "https://silca.cc/products/elettrico-ultimate-inflator?variant=52725327462771",
+   "variant": "",
+   "was": 159.0
+  },
+  "last": "2026-11-17",
+  "low": 127.0
+ },
+ "silca:15148652953971": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 20.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Ultimate Tubeless Tape",
+   "url": "https://silca.cc/products/ultimate-tubeless-tape?variant=62351654846835",
+   "variant": "32mm",
+   "was": 25.0
+  },
+  "last": "2026-11-17",
+  "low": 20.0
+ },
  "silca:1523671748": {
   "first": "2026-11-16",
   "info": {
@@ -32329,6 +33294,131 @@
   },
   "last": "2026-11-17",
   "low": 59.4
+ },
+ "silca:15239094075763": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.214,
+   "price": 22.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Ultimate Tubeless Valves",
+   "url": "https://silca.cc/products/tubeless-valves?variant=62340472504691",
+   "variant": "50mm",
+   "was": 28.0
+  },
+  "last": "2026-11-17",
+  "low": 22.0
+ },
+ "silca:182198566940": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tires",
+   "pct": 0.2,
+   "price": 20.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Tire Levers Premio",
+   "url": "https://silca.cc/products/tire-levers-premio?variant=2198998220828",
+   "variant": "",
+   "was": 25.0
+  },
+  "last": "2026-11-17",
+  "low": 20.0
+ },
+ "silca:2111719833698": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 120.0
+ },
+ "silca:2133495939170": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 30.0
+ },
+ "silca:2211984670818": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:341328105": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tires",
+   "pct": 0.2,
+   "price": 56.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "HIRO Side-Lever Locking Presta Chuck- Carbon Steel",
+   "url": "https://silca.cc/products/hiro-locking-presta-chuck?variant=833485025",
+   "variant": "",
+   "was": 70.0
+  },
+  "last": "2026-11-17",
+  "low": 56.0
+ },
+ "silca:4353359675490": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:4374539012": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 52.0
+ },
+ "silca:4398636925026": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.356,
+   "price": 29.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Super Secret Chain Lube",
+   "url": "https://silca.cc/products/silca-super-secret-chain-lube?variant=31536317497442",
+   "variant": "8oz (240ml) Drip Bottle",
+   "was": 45.0
+  },
+  "last": "2026-11-17",
+  "low": 29.0
+ },
+ "silca:4429318148": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 407.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "SuperPista Ultimate Hiro Edition",
+   "url": "https://silca.cc/products/superpista-ultimate-plus-hiro?variant=14994338436",
+   "variant": "",
+   "was": 509.0
+  },
+  "last": "2026-11-17",
+  "low": 407.0
+ },
+ "silca:4454525993058": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 32.0
+ },
+ "silca:4509216866402": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
  },
  "silca:4512691978338": {
   "first": "2026-11-16",
@@ -32348,6 +33438,39 @@
   "last": "2026-11-17",
   "low": 30.0
  },
+ "silca:4520115798114": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 20.0
+ },
+ "silca:553828420": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.253,
+   "price": 74.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Impero Ultimate II Frame Pump",
+   "url": "https://silca.cc/products/impero-ultimate-frame-pump?variant=62178441494899",
+   "variant": "X-Large (see chart)",
+   "was": 99.0
+  },
+  "last": "2026-11-17",
+  "low": 74.0
+ },
+ "silca:6552734105698": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 28.0
+ },
+ "silca:6560630440034": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 56.0
+ },
  "silca:6598145015906": {
   "first": "2026-11-16",
   "info": {
@@ -32365,6 +33488,213 @@
   },
   "last": "2026-11-17",
   "low": 20.0
+ },
+ "silca:6598959693922": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 68.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "SICURO Titanium Bottle Cage - Black Cerakote Edition",
+   "url": "https://silca.cc/products/sicuro-titanium-bottle-cage-black-cerakote-edition?variant=39428495147106",
+   "variant": "",
+   "was": 85.0
+  },
+  "last": "2026-11-17",
+  "low": 68.0
+ },
+ "silca:6599862419554": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6599862452322": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 40.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "NASTRO PILOTI BAR TAPE - WHITE",
+   "url": "https://silca.cc/products/nastro-piloti-bar-tape-white?variant=39430882918498",
+   "variant": "",
+   "was": 50.0
+  },
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6603029610594": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.0
+ },
+ "silca:6609478844514": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 68.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Bourbon Titanium Cage",
+   "url": "https://silca.cc/products/bourbon-titanium-cage?variant=39461034459234",
+   "variant": "",
+   "was": 85.0
+  },
+  "last": "2026-11-17",
+  "low": 68.0
+ },
+ "silca:6609499881570": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 68.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Rainbow Titanium Cage",
+   "url": "https://silca.cc/products/rainbow-titanium-cage?variant=39461176344674",
+   "variant": "",
+   "was": 85.0
+  },
+  "last": "2026-11-17",
+  "low": 68.0
+ },
+ "silca:6609499947106": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 68.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Royal Purple Titanium Cage",
+   "url": "https://silca.cc/products/royal-purple-full-color-titanium-cage?variant=39461176541282",
+   "variant": "",
+   "was": 85.0
+  },
+  "last": "2026-11-17",
+  "low": 68.0
+ },
+ "silca:6613802582114": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 44.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Mattone Grande",
+   "url": "https://silca.cc/products/mattone-grande?variant=39472336339042",
+   "variant": "",
+   "was": 55.0
+  },
+  "last": "2026-11-17",
+  "low": 44.0
+ },
+ "silca:6621711237218": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 24.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Hypalon EDC Strap w/Boa Closure",
+   "url": "https://silca.cc/products/hypalon-edc-strap-w-boa-closure?variant=39496482160738",
+   "variant": "",
+   "was": 30.0
+  },
+  "last": "2026-11-17",
+  "low": 24.0
+ },
+ "silca:6667127849058": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.202,
+   "price": 87.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Pre-Waxed Race Chain",
+   "url": "https://silca.cc/products/pre-waxed-race-chain?variant=39622233522274",
+   "variant": "SHIMANO DURA-ACE 11S",
+   "was": 109.0
+  },
+  "last": "2026-11-17",
+  "low": 87.0
+ },
+ "silca:6696245756002": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 40.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "NASTRO CUSCINO 2.5 Cyan Blue",
+   "url": "https://silca.cc/products/nastro-cuscino-2-5-cyan-blue?variant=39736382095458",
+   "variant": "",
+   "was": 50.0
+  },
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6696258338914": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6696258797666": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6696259485794": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6696272330850": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6696278163554": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6696278360162": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6696278982754": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
  },
  "silca:6697460924514": {
   "first": "2026-11-16",
@@ -32384,6 +33714,77 @@
   "last": "2026-11-17",
   "low": 49.0
  },
+ "silca:6709071478882": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 24.0
+ },
+ "silca:6709071609954": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 20.0
+ },
+ "silca:6709071839330": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 36.0
+ },
+ "silca:6709072134242": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 24.0
+ },
+ "silca:6721975353442": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 40.0
+ },
+ "silca:6752764919906": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 60.0
+ },
+ "silca:6773823406178": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.201,
+   "price": 127.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Terra Floor Pump",
+   "url": "https://silca.cc/products/terra-floor-pump?variant=40026353205346",
+   "variant": "",
+   "was": 159.0
+  },
+  "last": "2026-11-17",
+  "low": 127.0
+ },
+ "silca:6783057789026": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 100.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Bike Care Box Set",
+   "url": "https://silca.cc/products/bike-care-set-of-4?variant=40063818399842",
+   "variant": "",
+   "was": 125.0
+  },
+  "last": "2026-11-17",
+  "low": 100.0
+ },
+ "silca:6804302397538": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 21.0
+ },
  "silca:6814230675554": {
   "first": "2026-11-16",
   "info": {
@@ -32401,6 +33802,29 @@
   },
   "last": "2026-11-17",
   "low": 29.0
+ },
+ "silca:6837740929122": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tires",
+   "pct": 0.286,
+   "price": 25.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Schradero Schrader Chuck",
+   "url": "https://silca.cc/products/schradero-schrader-chuck?variant=41320976121954",
+   "variant": "Hose Barb",
+   "was": 35.0
+  },
+  "last": "2026-11-17",
+  "low": 25.0
+ },
+ "silca:6851559555170": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 68.0
  },
  "silca:6851942940770": {
   "first": "2026-11-16",
@@ -32420,6 +33844,79 @@
   "last": "2026-11-17",
   "low": 20.0
  },
+ "silca:6867778699362": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 29.0
+ },
+ "silca:6894963458146": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.0
+ },
+ "silca:6894965981282": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.0
+ },
+ "silca:6894994554978": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.0
+ },
+ "silca:6894997405794": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.0
+ },
+ "silca:6894997536866": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.0
+ },
+ "silca:6894997995618": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.0
+ },
+ "silca:6894998224994": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.0
+ },
+ "silca:6894998323298": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 51.0
+ },
+ "silca:6894998618210": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 79.0
+ },
+ "silca:6986519281762": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.31,
+   "price": 69.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Chain Waxing System",
+   "url": "https://silca.cc/products/chain-waxing-system?variant=40737695465570",
+   "variant": "",
+   "was": 99.99
+  },
+  "last": "2026-11-17",
+  "low": 69.0
+ },
+ "silca:6989023445090": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 69.0
+ },
  "silca:6990722269282": {
   "first": "2026-11-16",
   "info": {
@@ -32436,7 +33933,7 @@
    "was": 160.0
   },
   "last": "2026-11-17",
-  "low": 96.0
+  "low": 40.0
  },
  "silca:6990726725730": {
   "first": "2026-11-16",
@@ -32454,7 +33951,25 @@
    "was": 95.0
   },
   "last": "2026-11-17",
-  "low": 57.0
+  "low": 24.0
+ },
+ "silca:772515201122": {
+  "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.497,
+   "price": 83.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Pista Floor Pump - Red",
+   "url": "https://silca.cc/products/pista-floor-pump-red?variant=8252616048738",
+   "variant": "",
+   "was": 165.0
+  },
+  "last": "2026-11-17",
+  "low": 83.0
  },
  "silca:7747353864": {
   "first": "2026-11-16",
@@ -32474,6 +33989,11 @@
   "last": "2026-11-17",
   "low": 36.0
  },
+ "silca:7751074760": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 60.0
+ },
  "silca:7772917448": {
   "first": "2026-11-16",
   "info": {
@@ -32491,6 +34011,11 @@
   },
   "last": "2026-11-17",
   "low": 129.0
+ },
+ "silca:882028228": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 52.0
  },
  "specialized:1000097790": {
   "first": "2026-11-17",
@@ -32531,6 +34056,11 @@
   "first": "2026-11-17",
   "last": "2026-11-17",
   "low": 157.99
+ },
+ "specialized:1000201562": {
+  "first": "2026-11-17",
+  "last": "2026-11-17",
+  "low": 27.99
  },
  "specialized:1000208967": {
   "first": "2026-11-16",
@@ -32706,6 +34236,19 @@
  },
  "specialized:4221403": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.2,
+   "price": 6399.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "Stumpjumper 15 Pro  - SRAM X0 AXS, FOX Factory (2025)",
+   "url": "https://www.specialized.com/us/en/p/4221403",
+   "variant": "",
+   "was": 7999.99
+  },
   "last": "2026-11-17",
   "low": 6399.99
  },
@@ -33035,6 +34578,19 @@
  },
  "specialized:4294785": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.19,
+   "price": 8499.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "Turbo Levo 4 EVO Pro (2027)",
+   "url": "https://www.specialized.com/us/en/p/4294785",
+   "variant": "",
+   "was": 10499.99
+  },
   "last": "2026-11-17",
   "low": 8499.99
  },
@@ -34278,6 +35834,19 @@
  },
  "the-lost-co:8227208364230": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.2,
+   "price": 527.0,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Super Deluxe Ultimate RC2T w/ HBO - 205X60 - C2",
+   "url": "https://www.thelostco.com/products/rockshox-super-deluxe-ultimate-rc2t-w-hbo-205x60-c2?variant=43845718081734",
+   "variant": "",
+   "was": 659.0
+  },
   "last": "2026-11-17",
   "low": 527.0,
   "seed": true
@@ -34309,6 +35878,19 @@
  },
  "the-lost-co:8227209871558": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "RockShox",
+   "category": "suspension",
+   "pct": 0.323,
+   "price": 459.95,
+   "sponsored": false,
+   "store": "the-lost-co",
+   "store_name": "The Lost Co",
+   "title": "Vivid Coil Ultimate RC2T - 205X57.5 - C1",
+   "url": "https://www.thelostco.com/products/rockshox-vivid-coil-ultimate-rc2t-205x57-5-c1?variant=43845721227462",
+   "variant": "",
+   "was": 679.0
+  },
   "last": "2026-11-17",
   "low": 459.95,
   "seed": true
