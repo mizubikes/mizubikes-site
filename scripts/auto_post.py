@@ -57,17 +57,55 @@ def existing_posts() -> list[dict]:
     return posts
 
 
-def next_seed_topic() -> str | None:
+STOP = {"vs", "versus", "the", "a", "an", "and", "or", "for", "to", "of", "on", "in", "with",
+        "which", "should", "you", "buy", "is", "are", "it", "what", "how", "best", "one"}
+
+
+def key_words(text: str) -> set[str]:
+    """Words that identify a topic: the part before any colon, minus filler."""
+    head = text.split(":")[0].lower()
+    return {w for w in re.findall(r"[a-z0-9]+", head) if w not in STOP}
+
+
+def already_covered(topic: str, posts: list[dict]) -> str | None:
+    """Title of an existing post that covers this topic, if any. A topic counts
+    as covered when every identifying word of it appears in one post's title."""
+    want = key_words(topic)
+    if len(want) < 2:
+        return None
+    # numbers (model numbers, sizes) anywhere in the topic must match too, so
+    # "tire width: 40mm vs 50mm" isn't mistaken for a tire pressure post
+    nums = {w for w in re.findall(r"[a-z0-9]+", topic.lower()) if re.search(r"\d", w)}
+    for p in posts:
+        have = set(re.findall(r"[a-z0-9]+", p["title"].lower()))
+        if want <= have and nums <= have:
+            return p["title"]
+    return None
+
+
+def next_seed_topic(posts: list[dict]) -> str | None:
+    """Top topic from topics.txt that no existing post covers. Covered topics
+    are dropped from the list so they never come up again."""
     if not TOPICS_FILE.exists():
         return None
     lines = [l.strip() for l in TOPICS_FILE.read_text(encoding="utf-8").splitlines()]
-    topics = [l for l in lines if l and not l.startswith("#")]
-    if not topics:
-        return None
-    first = topics[0]
-    remaining = [l for l in lines if l.strip() != first]
-    TOPICS_FILE.write_text("\n".join(remaining).strip() + "\n", encoding="utf-8")
-    return first
+    chosen, drop = None, set()
+    for l in lines:
+        if not l or l.startswith("#"):
+            continue
+        hit = already_covered(l, posts)
+        if hit:
+            print(f"Skipping seed already covered by '{hit}': {l}")
+            drop.add(l)
+            continue
+        chosen = l
+        break
+    if chosen:
+        drop.add(chosen)
+    if drop:
+        remaining = [l for l in lines if l.strip() not in drop]
+        TOPICS_FILE.write_text("\n".join(remaining).strip() + "\n", encoding="utf-8")
+    return chosen
 
 
 SYSTEM_PROMPT = f"""You write for mizubikes.com, a cycling site run by Jared, an engineer in Southern California who wrenches on and rides high-performance road and gravel bikes.
@@ -216,8 +254,16 @@ def yaml_str(s: str) -> str:
 
 def main() -> None:
     posts = existing_posts()
-    seed = next_seed_topic()
+    seed = next_seed_topic(posts)
     data = generate_post(seed, posts)
+
+    # last check: don't open a PR for a post the site already has
+    slugs = {p["url"].rstrip("/").rsplit("/", 1)[-1] for p in posts}
+    dup = already_covered(data["title"], posts)
+    if data["slug"] in slugs or dup:
+        print(f"Draft duplicates an existing post ({dup or data['slug']}); not opening a PR.")
+        set_output("skip", "true")
+        return
 
     image_path, caption, pixabay_url = fetch_cover(data["image_query"], data["slug"])
 
