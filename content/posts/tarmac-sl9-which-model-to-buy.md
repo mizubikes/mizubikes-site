@@ -73,7 +73,7 @@ The Comp-to-Expert step is the best value in the lineup by a wide margin. You ge
 
 ## Should you just buy an SL8 instead?
 
-Maybe. The SL9 is an evolution, not a revolution. I went through what actually changed in [Tarmac SL9 vs SL8](/posts/specialized-tarmac-sl9-launch/). With the SL9 out, discounted SL8s are a strong buy this winter, especially with the Black Friday sales running now. My [Black Friday bike deals](/posts/black-friday-bike-deals-2026/) post tracks the sales as they go live. And if you'd rather build one from parts, I worked out [whether a custom SL8 build is cheaper than a complete](/posts/specialized-sl8-complete-vs-custom-build-cost/).
+Maybe. The SL9 is an evolution, not a revolution. I went through what actually changed in [Tarmac SL9 vs SL8](/posts/specialized-tarmac-sl9-launch/). With the SL9 out, discounted SL8s are a strong buy this winter, especially with the Black Friday sales running now. My [Black Friday bike deals](/posts/black-friday-bike-deals-2026/) post tracks the sales as they go live. Considering a frameset instead? I compared [the S-Works SL9 frameset with the Canyon Aeroad CFR](/posts/canyon-aeroad-cfr-vs-tarmac-sl9/). And if you'd rather build one from parts, I worked out [whether a custom SL8 build is cheaper than a complete](/posts/specialized-sl8-complete-vs-custom-build-cost/).
 
 ## FAQ
 
