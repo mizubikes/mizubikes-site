@@ -880,6 +880,1492 @@
   "low": 1299.99,
   "seed": true
  },
+ "btd:db12m": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 82.5
+ },
+ "btd:db21b": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 27.0
+ },
+ "btd:dbcbt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 75.0
+ },
+ "btd:dbcc4": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 94.5
+ },
+ "btd:dbccv": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 94.5
+ },
+ "btd:dbcfp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 115.5
+ },
+ "btd:dbcl1": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 27.0
+ },
+ "btd:dbcmw": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 74.25
+ },
+ "btd:dbcpf": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.0
+ },
+ "btd:dbcsl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 82.5
+ },
+ "btd:dbcwa": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 108.0
+ },
+ "btd:dbpfl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 54.0
+ },
+ "btd:dbpis": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.25
+ },
+ "btd:dbpos": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 33.0
+ },
+ "btd:dbqsr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 42.0
+ },
+ "btd:fiagk": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 104.99
+ },
+ "btd:fiarr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 78.74
+ },
+ "btd:fidsa": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 89.99
+ },
+ "btd:fif00": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 244.99
+ },
+ "btd:fifa1": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:fifa3": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.24
+ },
+ "btd:fifa5": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 89.99
+ },
+ "btd:fifai": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 217.49
+ },
+ "btd:fifat": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 247.49
+ },
+ "btd:fifav": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:fifds": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.24
+ },
+ "btd:fifld": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:fifls": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:fifr1": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:fifr3": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.24
+ },
+ "btd:fifrl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:fift1": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 89.99
+ },
+ "btd:fiftd": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:fiftl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:fifv3": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.24
+ },
+ "btd:fifv9": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 89.99
+ },
+ "btd:fifva": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 89.99
+ },
+ "btd:fifvl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:fifvs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.24
+ },
+ "btd:finnj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 349.99
+ },
+ "btd:fiujh": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 172.49
+ },
+ "btd:ke129": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 34.97
+ },
+ "btd:ke9po": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 51.06
+ },
+ "btd:keedg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 65.76
+ },
+ "btd:kehnb": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 53.86
+ },
+ "btd:keiku": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 68.56
+ },
+ "btd:kek20": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 21.67
+ },
+ "btd:kek4t": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 53.86
+ },
+ "btd:kekct": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 43.37
+ },
+ "btd:kekda": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 59.46
+ },
+ "btd:kekdt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 65.76
+ },
+ "btd:kekri": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 59.46
+ },
+ "btd:kekve": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 55.26
+ },
+ "btd:kekwe": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 21.67
+ },
+ "btd:kekwi": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.47
+ },
+ "btd:kenhb": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 65.76
+ },
+ "btd:keyte": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 62.96
+ },
+ "btd:miaca": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 26.24
+ },
+ "btd:mibab": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.24
+ },
+ "btd:micd2": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.24
+ },
+ "btd:micgr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.24
+ },
+ "btd:mictr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.24
+ },
+ "btd:midyc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 21.74
+ },
+ "btd:miffr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.24
+ },
+ "btd:mihoi": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.24
+ },
+ "btd:mijhf": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 59.99
+ },
+ "btd:mijhy": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 59.99
+ },
+ "btd:mim20": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 44.99
+ },
+ "btd:mim24": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 39.74
+ },
+ "btd:mim4l": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 35.24
+ },
+ "btd:mimc5": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 32.99
+ },
+ "btd:mimcc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 39.74
+ },
+ "btd:mimci": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 32.99
+ },
+ "btd:mimcr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.74
+ },
+ "btd:mimcz": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 39.74
+ },
+ "btd:mimfr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 57.74
+ },
+ "btd:mimif": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 44.99
+ },
+ "btd:miml4": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 35.24
+ },
+ "btd:mimp5": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 62.99
+ },
+ "btd:mimpa": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 59.24
+ },
+ "btd:mimpp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.74
+ },
+ "btd:mimpt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 53.99
+ },
+ "btd:mimst": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 32.99
+ },
+ "btd:mimtt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 47.24
+ },
+ "btd:mip26": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 26.24
+ },
+ "btd:mip7t": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 26.24
+ },
+ "btd:mipc6": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 26.24
+ },
+ "btd:mipcm": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 34.49
+ },
+ "btd:miptc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 26.24
+ },
+ "btd:miptt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.49
+ },
+ "btd:mitlr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 78.74
+ },
+ "btd:miuyh": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 59.24
+ },
+ "btd:mu55t": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.0
+ },
+ "btd:muamc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 41.25
+ },
+ "btd:muamp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 30.0
+ },
+ "btd:mubhg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 25.49
+ },
+ "btd:mucc7": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 33.75
+ },
+ "btd:mudrc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.99
+ },
+ "btd:mufbr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 27.74
+ },
+ "btd:mulaf": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 37.5
+ },
+ "btd:mumbb": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 37.5
+ },
+ "btd:mumpb": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 33.74
+ },
+ "btd:mumpd": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.99
+ },
+ "btd:mumr2": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 25.5
+ },
+ "btd:muppp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 28.5
+ },
+ "btd:mux3d": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.99
+ },
+ "btd:o4bba": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 113.75
+ },
+ "btd:o4cli": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 111.99
+ },
+ "btd:o4drc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 67.49
+ },
+ "btd:o4llo": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 34.99
+ },
+ "btd:o4oes": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 71.6
+ },
+ "btd:o4onu": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 111.99
+ },
+ "btd:o4sle": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 22.8
+ },
+ "btd:o4vtc": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "OneUp Components",
+   "category": "cockpit",
+   "pct": 0.25,
+   "price": 119.99,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "V2 Carbon MTB Handlebar",
+   "url": "https://www.biketiresdirect.com/product/oneup-components-v2-carbon-mtb-handlebar",
+   "variant": "",
+   "was": 159.99
+  },
+  "last": "2026-11-18",
+  "low": 119.99
+ },
+ "btd:o4vth": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "OneUp Components",
+   "category": "suspension",
+   "pct": 0.25,
+   "price": 202.49,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Dropper Post V3",
+   "url": "https://www.biketiresdirect.com/product/oneup-components-dropper-post-v3",
+   "variant": "",
+   "was": 269.99
+  },
+  "last": "2026-11-18",
+  "low": 202.49
+ },
+ "btd:pf013": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.5
+ },
+ "btd:pf042": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 77.0
+ },
+ "btd:pf0k0": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 84.0
+ },
+ "btd:pf0l0": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.5
+ },
+ "btd:pf133": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pf232": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.5
+ },
+ "btd:pf233": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.5
+ },
+ "btd:pf291": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.5
+ },
+ "btd:pf343": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 52.5
+ },
+ "btd:pf352": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 76.99
+ },
+ "btd:pf3xl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 143.5
+ },
+ "btd:pf5in": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 52.5
+ },
+ "btd:pfa24": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 77.0
+ },
+ "btd:pfaaa": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.0
+ },
+ "btd:pfaam": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 31.5
+ },
+ "btd:pfabc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.5
+ },
+ "btd:pfabs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 87.5
+ },
+ "btd:pfagg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 111.3
+ },
+ "btd:pfahj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 119.0
+ },
+ "btd:pfalh": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 21.0
+ },
+ "btd:pfalm": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 126.0
+ },
+ "btd:pfalp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 115.5
+ },
+ "btd:pfamf": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 112.0
+ },
+ "btd:pfamm": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 112.0
+ },
+ "btd:pfars": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 122.5
+ },
+ "btd:pfart": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 38.5
+ },
+ "btd:pfasc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.5
+ },
+ "btd:pfasj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pfast": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 84.0
+ },
+ "btd:pfatf": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pfawj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 105.0
+ },
+ "btd:pfbad": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 56.0
+ },
+ "btd:pfbal": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 28.0
+ },
+ "btd:pfbas": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 56.0
+ },
+ "btd:pfbat": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 56.0
+ },
+ "btd:pfbet": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 35.0
+ },
+ "btd:pfbip": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 157.5
+ },
+ "btd:pfblk": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 105.0
+ },
+ "btd:pfbtc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 112.0
+ },
+ "btd:pfbut": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.0
+ },
+ "btd:pfc25": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 105.0
+ },
+ "btd:pfc3j": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 25.19
+ },
+ "btd:pfca8": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pfcar": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 126.0
+ },
+ "btd:pfcgc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 35.0
+ },
+ "btd:pfcha": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 175.0
+ },
+ "btd:pfchp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 38.5
+ },
+ "btd:pfcjm": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pfcnt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 91.0
+ },
+ "btd:pfcop": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 105.0
+ },
+ "btd:pfcpg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.5
+ },
+ "btd:pfcss": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 38.5
+ },
+ "btd:pfdac": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.5
+ },
+ "btd:pfdan": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 140.0
+ },
+ "btd:pfdik": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pfdog": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 168.0
+ },
+ "btd:pfdqr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 38.25
+ },
+ "btd:pfeb5": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 108.5
+ },
+ "btd:pfecb": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 143.5
+ },
+ "btd:pfeee": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 231.0
+ },
+ "btd:pfeef": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 35.0
+ },
+ "btd:pfegs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 122.5
+ },
+ "btd:pfems": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.0
+ },
+ "btd:pfep5": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 227.5
+ },
+ "btd:pfepg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 199.5
+ },
+ "btd:pfes5": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 91.0
+ },
+ "btd:pfftw": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 98.0
+ },
+ "btd:pffuc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 147.0
+ },
+ "btd:pfgay": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 133.0
+ },
+ "btd:pfggg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 49.0
+ },
+ "btd:pfggr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.0
+ },
+ "btd:pfggz": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 31.5
+ },
+ "btd:pfgif": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 115.5
+ },
+ "btd:pfgit": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 115.5
+ },
+ "btd:pfhja": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 28.0
+ },
+ "btd:pfhoj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 111.3
+ },
+ "btd:pfhsz": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.5
+ },
+ "btd:pfhuk": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 80.5
+ },
+ "btd:pfhvv": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 98.0
+ },
+ "btd:pfjct": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.5
+ },
+ "btd:pfjdt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.5
+ },
+ "btd:pfjha": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 21.0
+ },
+ "btd:pfkan": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 28.0
+ },
+ "btd:pfkjq": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 38.5
+ },
+ "btd:pfkkk": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 245.0
+ },
+ "btd:pfkuk": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 143.5
+ },
+ "btd:pflos": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 231.0
+ },
+ "btd:pflsc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.5
+ },
+ "btd:pfmab": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 87.5
+ },
+ "btd:pfmad": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 56.0
+ },
+ "btd:pfmaj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.0
+ },
+ "btd:pfman": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 199.5
+ },
+ "btd:pfmas": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.0
+ },
+ "btd:pfmat": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pfmct": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.5
+ },
+ "btd:pfmej": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 77.0
+ },
+ "btd:pfmmg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 28.0
+ },
+ "btd:pfmod": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 31.5
+ },
+ "btd:pfmpa": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 122.5
+ },
+ "btd:pfmpb": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 175.0
+ },
+ "btd:pfmps": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 143.5
+ },
+ "btd:pfnag": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 108.5
+ },
+ "btd:pfngr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 140.0
+ },
+ "btd:pfnig": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 112.0
+ },
+ "btd:pfnjo": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.0
+ },
+ "btd:pfooa": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 52.5
+ },
+ "btd:pfpav": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 133.0
+ },
+ "btd:pfphu": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 126.0
+ },
+ "btd:pfpow": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.5
+ },
+ "btd:pfppp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 245.0
+ },
+ "btd:pfpqt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.5
+ },
+ "btd:pfpsh": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 77.0
+ },
+ "btd:pfpsi": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 140.0
+ },
+ "btd:pfptk": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 38.5
+ },
+ "btd:pfptw": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.5
+ },
+ "btd:pfpwj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 203.0
+ },
+ "btd:pfpws": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 87.5
+ },
+ "btd:pfqae": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 98.0
+ },
+ "btd:pfqbj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.5
+ },
+ "btd:pfqqq": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.5
+ },
+ "btd:pfqsc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.5
+ },
+ "btd:pfqtc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 91.0
+ },
+ "btd:pfqtt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 77.0
+ },
+ "btd:pfqwj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.0
+ },
+ "btd:pfqwy": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 60.0
+ },
+ "btd:pfred": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 126.0
+ },
+ "btd:pfrmj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 112.0
+ },
+ "btd:pfrok": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 42.0
+ },
+ "btd:pfrop": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.5
+ },
+ "btd:pfrsc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.0
+ },
+ "btd:pfrsh": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 112.0
+ },
+ "btd:pfsad": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 168.0
+ },
+ "btd:pfsat": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 42.0
+ },
+ "btd:pfsgr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 52.5
+ },
+ "btd:pfsqz": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 82.0
+ },
+ "btd:pfstp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 77.0
+ },
+ "btd:pfsus": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 80.5
+ },
+ "btd:pfswj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 91.0
+ },
+ "btd:pfswl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.5
+ },
+ "btd:pfswp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 72.0
+ },
+ "btd:pft15": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 21.0
+ },
+ "btd:pftcb": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 126.0
+ },
+ "btd:pftcc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 28.0
+ },
+ "btd:pftcl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pfter": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.5
+ },
+ "btd:pftlc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.5
+ },
+ "btd:pftpl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 133.0
+ },
+ "btd:pftrn": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 49.0
+ },
+ "btd:pfttt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 98.0
+ },
+ "btd:pfvbn": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 35.0
+ },
+ "btd:pfvby": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 35.0
+ },
+ "btd:pfw3a": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 60.0
+ },
+ "btd:pfwa4": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.0
+ },
+ "btd:pfwaa": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.0
+ },
+ "btd:pfwah": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 119.0
+ },
+ "btd:pfwau": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pfwbp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 115.5
+ },
+ "btd:pfwbs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 122.5
+ },
+ "btd:pfwej": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 60.0
+ },
+ "btd:pfwep": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 227.5
+ },
+ "btd:pfwge": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 31.5
+ },
+ "btd:pfwho": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 152.6
+ },
+ "btd:pfwmm": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.5
+ },
+ "btd:pfwoe": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 42.0
+ },
+ "btd:pfwom": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 175.0
+ },
+ "btd:pfwpr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 126.0
+ },
+ "btd:pfwqj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.5
+ },
+ "btd:pfwqv": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.5
+ },
+ "btd:pfwrs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 112.0
+ },
+ "btd:pfwrx": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 42.0
+ },
+ "btd:pfwtc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 63.0
+ },
+ "btd:pfwts": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 45.5
+ },
+ "btd:pfwvg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 115.5
+ },
+ "btd:pfwwj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 203.0
+ },
+ "btd:pfxxr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 31.5
+ },
+ "btd:pfyag": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 133.0
+ },
+ "btd:pfzre": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 27.5
+ },
  "btd:sc1ue": {
   "first": "2026-11-17",
   "last": "2026-11-18",
@@ -1731,6 +3217,606 @@
   "last": "2026-11-18",
   "low": 29.4
  },
+ "btd:sng1w": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.211,
+   "price": 30.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Gear Wipes Canister (110 Sheets)",
+   "url": "https://www.biketiresdirect.com/product/silca-gear-wipes-canister-110-sheets",
+   "variant": "",
+   "was": 38.0
+  },
+  "last": "2026-11-18",
+  "low": 30.0
+ },
+ "btd:snhfc": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 120.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Hirobel Frame Clamp",
+   "url": "https://www.biketiresdirect.com/product/silca-hirobel-frame-clamp",
+   "variant": "",
+   "was": 150.0
+  },
+  "last": "2026-11-18",
+  "low": 120.0
+ },
+ "btd:snhwm": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 32.0
+ },
+ "btd:snhx1": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.352,
+   "price": 81.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "HX-ONE home essentials tool kit in wood box",
+   "url": "https://www.biketiresdirect.com/product/silca-hx-one-home-essentials-tool-kit-in-wood-box",
+   "variant": "",
+   "was": 125.0
+  },
+  "last": "2026-11-18",
+  "low": 81.0
+ },
+ "btd:sniak": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 36.0
+ },
+ "btd:snian": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.3,
+   "price": 28.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Italian Army Knife Multitool - Nove",
+   "url": "https://www.biketiresdirect.com/product/silca-italian-army-knife-multitool-nove",
+   "variant": "",
+   "was": 40.0
+  },
+  "last": "2026-11-18",
+  "low": 28.0
+ },
+ "btd:snldu": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 40.0
+ },
+ "btd:snmge": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 40.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Mattone Seat Pack",
+   "url": "https://www.biketiresdirect.com/product/silca-mattone-seat-pack",
+   "variant": "",
+   "was": 50.0
+  },
+  "last": "2026-11-18",
+  "low": 40.0
+ },
+ "btd:snnjh": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 68.0
+ },
+ "btd:snnnh": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 40.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Nastro Cuscino Handlebar Tape 2.5mm",
+   "url": "https://www.biketiresdirect.com/product/silca-nastro-cuscino-handlebar-tape-25mm",
+   "variant": "",
+   "was": 50.0
+  },
+  "last": "2026-11-18",
+  "low": 40.0
+ },
+ "btd:snprw": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 87.2
+ },
+ "btd:snsbc": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 24.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Ultimate Brake and Drivetrain Cleaner, 16oz",
+   "url": "https://www.biketiresdirect.com/product/silca-ultimate-brake-and-drivetrain-cleaner-16oz",
+   "variant": "",
+   "was": 30.0
+  },
+  "last": "2026-11-18",
+  "low": 24.0
+ },
+ "btd:snsbx": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 100.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Bicycle Spa Box",
+   "url": "https://www.biketiresdirect.com/product/silca-bicycle-spa-box",
+   "variant": "",
+   "was": 125.0
+  },
+  "last": "2026-11-18",
+  "low": 100.0
+ },
+ "btd:snsga": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.4,
+   "price": 96.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Grinta Adventure Saddle Bag",
+   "url": "https://www.biketiresdirect.com/product/silca-grinta-adventure-saddle-bag",
+   "variant": "",
+   "was": 160.0
+  },
+  "last": "2026-11-18",
+  "low": 96.0
+ },
+ "btd:snsmg": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 44.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Mattone Grande Seat Pack",
+   "url": "https://www.biketiresdirect.com/product/silca-mattone-grande-seat-pack",
+   "variant": "",
+   "was": 55.0
+  },
+  "last": "2026-11-18",
+  "low": 44.0
+ },
+ "btd:snstp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 29.0
+ },
+ "btd:snstv": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 22.4
+ },
+ "btd:snsu1": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 28.0
+ },
+ "btd:snsyn": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 20.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Synergetic Wet Chain Lube",
+   "url": "https://www.biketiresdirect.com/product/silca-synergetic-wet-chain-lube",
+   "variant": "",
+   "was": 25.0
+  },
+  "last": "2026-11-18",
+  "low": 20.0
+ },
+ "btd:snubw": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 20.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Ultimate Bike Wash, 16oz",
+   "url": "https://www.biketiresdirect.com/product/silca-ultimate-bike-wash-16oz",
+   "variant": "",
+   "was": 25.0
+  },
+  "last": "2026-11-18",
+  "low": 20.0
+ },
+ "btd:snucs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 28.8
+ },
+ "btd:snucw": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.0
+ },
+ "btd:snudh": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 79.2
+ },
+ "btd:snugs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 36.0
+ },
+ "btd:snwsy": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.31,
+   "price": 69.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Chain Waxing System",
+   "url": "https://www.biketiresdirect.com/product/silca-chain-waxing-system",
+   "variant": "",
+   "was": 99.99
+  },
+  "last": "2026-11-18",
+  "low": 69.0
+ },
+ "btd:snygr": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "tires",
+   "pct": 0.3,
+   "price": 36.37,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Ultimate Sealant 1000ml and Injector Bundle",
+   "url": "https://www.biketiresdirect.com/product/silca-ultimate-sealant-1000ml-and-injector-bundle",
+   "variant": "",
+   "was": 51.95
+  },
+  "last": "2026-11-18",
+  "low": 36.37
+ },
+ "btd:snzoe": {
+  "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 56.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Sicuro Titanium Bottle Cage V2",
+   "url": "https://www.biketiresdirect.com/product/silca-sicuro-titanium-bottle-cage-v2",
+   "variant": "",
+   "was": 70.0
+  },
+  "last": "2026-11-18",
+  "low": 56.0
+ },
+ "btd:taf2s": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 499.99
+ },
+ "btd:tanmp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 199.99
+ },
+ "btd:tjadd": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 558.95
+ },
+ "btd:tjapt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 558.95
+ },
+ "btd:tjapx": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 358.95
+ },
+ "btd:tjbrp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 278.95
+ },
+ "btd:tjccq": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 76.96
+ },
+ "btd:tjezr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 79.96
+ },
+ "btd:tjlpt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 46.95
+ },
+ "btd:tjout": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 478.95
+ },
+ "btd:tjrd3": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 748.95
+ },
+ "btd:tjrev": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 879.96
+ },
+ "btd:tjspt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 748.95
+ },
+ "btd:tjt2a": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 518.95
+ },
+ "btd:tjtbd": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 133.95
+ },
+ "btd:tjtpr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 318.95
+ },
+ "btd:tjtrb": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 110.95
+ },
+ "btd:tjttp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 718.95
+ },
+ "btd:tjv3r": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 1038.95
+ },
+ "btd:tjver": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 798.95
+ },
+ "btd:tjvhp": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 104.96
+ },
+ "btd:tjxxl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.96
+ },
+ "btd:wtaae": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.95
+ },
+ "btd:wtbba": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.95
+ },
+ "btd:wtbde": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 55.95
+ },
+ "btd:wtcgs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.95
+ },
+ "btd:wtmji": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.95
+ },
+ "btd:wtmkj": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 60.95
+ },
+ "btd:wtnhe": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 24.95
+ },
+ "btd:wtroc": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 33.95
+ },
+ "btd:wtwbr": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.95
+ },
+ "btd:wtwby": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.95
+ },
+ "btd:wtwcg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.95
+ },
+ "btd:wtwge": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 40.95
+ },
+ "btd:wtwgs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 90.23
+ },
+ "btd:wtwks": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.95
+ },
+ "btd:wtwmg": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.95
+ },
+ "btd:wtwmt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 60.95
+ },
+ "btd:wtwnn": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.95
+ },
+ "btd:wtwpt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 60.95
+ },
+ "btd:wtwra": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 55.95
+ },
+ "btd:wtwre": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 55.95
+ },
+ "btd:wtwri": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.95
+ },
+ "btd:wtwrs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 78.11
+ },
+ "btd:wtwrt": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 57.96
+ },
+ "btd:wtwsl": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 96.95
+ },
+ "btd:wtwso": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 78.95
+ },
+ "btd:wtwss": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 79.1
+ },
+ "btd:wtwst": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 27.95
+ },
+ "btd:wtwt2": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 55.95
+ },
+ "btd:wtwtd": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 90.23
+ },
+ "btd:wtwtv": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 66.95
+ },
+ "btd:wtwvs": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.95
+ },
+ "btd:wtwvu": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 55.95
+ },
  "contender:15399759216885": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -1754,6 +3840,11 @@
   "last": "2026-11-16",
   "low": 3895.0,
   "seed": true
+ },
+ "contender:15547721679093": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 3599.0
  },
  "contender:15549021880565": {
   "first": "2026-11-17",
@@ -2122,6 +4213,19 @@
  },
  "contender:6740843757736": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 30.4,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Gear Wipe Bulk 110",
+   "url": "https://contenderbicycles.com/products/silca-gear-wipe?variant=39935694700712",
+   "variant": "",
+   "was": 38.0
+  },
   "last": "2026-11-18",
   "low": 30.4
  },
@@ -2194,6 +4298,19 @@
  },
  "contender:6754495627432": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 36.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Italian Army Knife - Tredici",
+   "url": "https://contenderbicycles.com/products/silca-italian-army-knife-tredici?variant=39973791531176",
+   "variant": "",
+   "was": 45.0
+  },
   "last": "2026-11-18",
   "low": 36.0
  },
@@ -2385,6 +4502,19 @@
  },
  "contender:7929044173045": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 44.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Mattone Grande Saddle Pack",
+   "url": "https://contenderbicycles.com/products/silca-mattone-grande-saddle-pack?variant=43710797971701",
+   "variant": "Black",
+   "was": 55.0
+  },
   "last": "2026-11-18",
   "low": 44.0
  },
@@ -2565,6 +4695,19 @@
  },
  "contender:8067118694645": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 60.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Gravelero Mini-Pump",
+   "url": "https://contenderbicycles.com/products/silca-gravelero-mini-pump?variant=43916310839541",
+   "variant": "",
+   "was": 75.0
+  },
   "last": "2026-11-18",
   "low": 60.0
  },
@@ -3264,6 +5407,19 @@
  },
  "contender:8885267333365": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 68.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "SICURO Titanium Bottle Cage - Black Cerakote Edition",
+   "url": "https://contenderbicycles.com/products/silca-sicuro-titanium-bottle-cage-black-cerakote-edition?variant=46050052276469",
+   "variant": "",
+   "was": 85.0
+  },
   "last": "2026-11-18",
   "low": 68.0
  },
@@ -3696,6 +5852,19 @@
  },
  "contender:9138955878645": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 103.19,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Elettrico Micro Inflator",
+   "url": "https://contenderbicycles.com/products/silca-elettrico-micro?variant=46704130425077",
+   "variant": "",
+   "was": 128.99
+  },
   "last": "2026-11-18",
   "low": 103.19
  },
@@ -4079,6 +6248,19 @@
  },
  "contender:9369112084725": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 24.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Ultimate Ceramic Waterless Wash",
+   "url": "https://contenderbicycles.com/products/silca-ultimate-ceramic-waterless-wash?variant=47138346336501",
+   "variant": "16oz",
+   "was": 30.0
+  },
   "last": "2026-11-18",
   "low": 24.0
  },
@@ -5389,6 +7571,19 @@
  },
  "fanatik:3735817347": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 72.0,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Minion DHF 27.5\" x 2.3\" Tire",
+   "url": "https://www.fanatikbike.com/products/maxxis-minion-dhf-27-5-x-2-3-tire?variant=10759480899",
+   "variant": "EXO - 3C MaxxTerra",
+   "was": 96.0
+  },
   "last": "2026-11-18",
   "low": 72.0,
   "seed": true
@@ -5615,6 +7810,11 @@
   "last": "2026-11-18",
   "low": 26.0,
   "seed": true
+ },
+ "fanatik:4584276623406": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 69.99
  },
  "fanatik:4584276787246": {
   "first": "2026-11-16",
@@ -7015,6 +9215,19 @@
  },
  "fanatik:7083102994478": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.225,
+   "price": 89.95,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Minion DHR II WT 29\" x 2.5\" Tire",
+   "url": "https://www.fanatikbike.com/products/minion-dhr-ii-27-5-wt-tire?variant=41061601378350",
+   "variant": "DH - 3C MaxxGrip / Black",
+   "was": 116.0
+  },
   "last": "2026-11-18",
   "low": 89.95,
   "seed": true
@@ -7263,6 +9476,19 @@
  },
  "fanatik:7141652234286": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.143,
+   "price": 30.0,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Eagle 70 Transmission Single-Click 12-Speed Shifter",
+   "url": "https://www.fanatikbike.com/products/sram-eagle-70-transmission-single-click-12-speed-shifter?variant=41286071877678",
+   "variant": "",
+   "was": 35.0
+  },
   "last": "2026-11-18",
   "low": 30.0
  },
@@ -7351,7 +9577,7 @@
   "first": "2026-11-16",
   "info": {
    "brand": "Specialized",
-   "category": "accessories",
+   "category": "bikes",
    "pct": 0.34,
    "price": 3299.99,
    "sponsored": false,
@@ -7806,6 +10032,19 @@
  },
  "fanatik:7556440096814": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.19,
+   "price": 8499.99,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Turbo Levo 4 EVO Pro Complete E-Bike",
+   "url": "https://www.fanatikbike.com/products/specialized-turbo-levo-4-evo-pro-complete-e-bike?variant=42249349857326",
+   "variant": "Satin Carbon/Dolomite / S2",
+   "was": 10499.99
+  },
   "last": "2026-11-18",
   "low": 8499.99
  },
@@ -7985,7 +10224,7 @@
  "fanatik:7656572583982": {
   "first": "2026-11-16",
   "info": {
-   "brand": "Deity Components",
+   "brand": "Deity",
    "category": "cockpit",
    "pct": 0.25,
    "price": 135.0,
@@ -8871,6 +11110,11 @@
   "last": "2026-11-18",
   "low": 66.97
  },
+ "incycle:6742349545603": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 59.97
+ },
  "incycle:6742361473155": {
   "first": "2026-11-16",
   "info": {
@@ -8975,6 +11219,19 @@
  },
  "incycle:6748420538499": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Quality Wheels",
+   "category": "wheels",
+   "pct": 0.249,
+   "price": 111.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "105/DT 533d Front Wheel",
+   "url": "https://www.incycle.com/products/quality-wheels-105-dt-533d-front-wheel?variant=39689403105411",
+   "variant": "29\" 12 x 100mm Center-Lock Black",
+   "was": 149.0
+  },
   "last": "2026-11-18",
   "low": 111.97
  },
@@ -9332,7 +11589,7 @@
    "sponsored": false,
    "store": "incycle",
    "store_name": "inCycle",
-   "title": "Specialized S-Works Turbo RapidAir 2Bliss Ready T2/T5",
+   "title": "S-Works Turbo RapidAir 2Bliss Ready T2/T5",
    "url": "https://www.incycle.com/products/specialized-s-works-turbo-rapidair-2br-t2-t5-tire-700x26c?variant=42883514466435",
    "variant": "Black / 700 x 26",
    "was": 89.99
@@ -12049,6 +14306,11 @@
   "last": "2026-11-18",
   "low": 2999.99
  },
+ "incycle:8703346671747": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 5499.99
+ },
  "incycle:8703346704515": {
   "first": "2026-11-16",
   "last": "2026-11-18",
@@ -12205,6 +14467,19 @@
  },
  "incycle:8762605338755": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Specialized",
+   "category": "wheels",
+   "pct": 0.4,
+   "price": 359.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Roval Traverse HD 350 6B",
+   "url": "https://www.incycle.com/products/specialized-roval-traverse-hd-350-6b?variant=45848381587587",
+   "variant": "Satin Carbon / Gloss Black / 29 Front 28H",
+   "was": 599.99
+  },
   "last": "2026-11-18",
   "low": 359.97
  },
@@ -12707,7 +14982,7 @@
  "mikes-bikes:4350490116165": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 27.95
+  "low": 26.24
  },
  "mikes-bikes:4353413087301": {
   "first": "2026-11-16",
@@ -12966,7 +15241,7 @@
  "mikes-bikes:6637802618949": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 95.95
+  "low": 89.99
  },
  "mikes-bikes:6637802651717": {
   "first": "2026-11-16",
@@ -12981,7 +15256,7 @@
  "mikes-bikes:6637802782789": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 139.95
+  "low": 131.24
  },
  "mikes-bikes:6638415904837": {
   "first": "2026-11-16",
@@ -13213,7 +15488,7 @@
  "mikes-bikes:6702230470725": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 143.95
+  "low": 134.99
  },
  "mikes-bikes:6702231879749": {
   "first": "2026-11-17",
@@ -13259,7 +15534,7 @@
  "mikes-bikes:6733824360517": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 279.95
+  "low": 262.49
  },
  "mikes-bikes:6733867876421": {
   "first": "2026-11-16",
@@ -13269,7 +15544,7 @@
  "mikes-bikes:6733880918085": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 319.95
+  "low": 299.99
  },
  "mikes-bikes:6736636444741": {
   "first": "2026-11-16",
@@ -13302,17 +15577,17 @@
  "mikes-bikes:6737904435269": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 319.95
+  "low": 299.99
  },
  "mikes-bikes:6737925439557": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 183.95
+  "low": 172.49
  },
  "mikes-bikes:6738420432965": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 27.95
+  "low": 26.24
  },
  "mikes-bikes:6740732444741": {
   "first": "2026-11-16",
@@ -13368,7 +15643,7 @@
  "mikes-bikes:6777158172741": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 263.95
+  "low": 247.49
  },
  "mikes-bikes:6778086064197": {
   "first": "2026-11-16",
@@ -13438,7 +15713,7 @@
   "info": {
    "brand": "Wahoo Fitness",
    "category": "electronics",
-   "pct": 0.352,
+   "pct": 0.2,
    "price": 679.99,
    "sponsored": false,
    "store": "mikes-bikes",
@@ -13446,7 +15721,7 @@
    "title": "KICKR V6 Smart Trainer",
    "url": "https://mikesbikes.com/products/wahoo-kickr-v6-power-trainer?variant=40285215227973",
    "variant": "",
-   "was": 1049.99
+   "was": 849.99
   },
   "last": "2026-11-18",
   "low": 679.99
@@ -13815,12 +16090,12 @@
  "mikes-bikes:6895431876677": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 183.95
+  "low": 172.49
  },
  "mikes-bikes:6895431909445": {
   "first": "2026-11-16",
   "last": "2026-11-18",
-  "low": 139.95
+  "low": 131.24
  },
  "mikes-bikes:6900383023173": {
   "first": "2026-11-16",
@@ -15032,7 +17307,7 @@
  },
  "mikes-bikes:7736240635973": {
   "first": "2026-11-16",
-  "last": "2026-11-17",
+  "last": "2026-11-18",
   "low": 5799.0
  },
  "mikes-bikes:7736243224645": {
@@ -15618,6 +17893,19 @@
  },
  "mikes-bikes:8129284833349": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Cannondale",
+   "category": "framesets",
+   "pct": 0.45,
+   "price": 4949.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Habit Neo 2",
+   "url": "https://mikesbikes.com/products/cannondale-habit-neo-2-2026?variant=45163834376261",
+   "variant": "Tiger Eye / Large",
+   "was": 8998.99
+  },
   "last": "2026-11-18",
   "low": 4049.77
  },
@@ -17047,7 +19335,7 @@
  },
  "pearl-izumi:7696316170411": {
   "first": "2026-11-16",
-  "last": "2026-11-16",
+  "last": "2026-11-18",
   "low": 29.7
  },
  "pearl-izumi:7696316235947": {
@@ -21921,6 +24209,11 @@
   "low": 34.99,
   "seed": true
  },
+ "planet-cyclery:8043859706028": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 32.49
+ },
  "planet-cyclery:8043859771564": {
   "first": "2026-11-16",
   "last": "2026-11-18",
@@ -22235,6 +24528,19 @@
  },
  "planet-cyclery:8043941593260": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "brakes",
+   "pct": 0.2,
+   "price": 399.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Dura-Ace BC-9000 Road Brake Cable - OEM Packed - Silver",
+   "url": "https://www.planetcyclery.com/products/shimano-dura-ace-bc-9000-road-brake-cable-oem-packed-silver?variant=43768671469740",
+   "variant": "Silver / 2000mm - Polymer Coated / Bulk 20 Pack",
+   "was": 500.0
+  },
   "last": "2026-11-18",
   "low": 399.99
  },
@@ -27220,6 +29526,19 @@
  },
  "planet-cyclery:8044671959212": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Fox Suspension",
+   "category": "suspension",
+   "pct": 0.201,
+   "price": 246.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Transfer Factory Dropper Seatpost - 31.6 - Internal",
+   "url": "https://www.planetcyclery.com/products/fox-suspension-transfer-factory-dropper-seatpost-31-6-internal?variant=43770524434604",
+   "variant": "Black / 120mm Drop - No Remote",
+   "was": 309.0
+  },
   "last": "2026-11-18",
   "low": 246.99
  },
@@ -27499,6 +29818,19 @@
  },
  "planet-cyclery:8044702957740": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Wolf Tooth Components",
+   "category": "cockpit",
+   "pct": 0.204,
+   "price": 174.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "EC44 Premium Complete Headset - Orange",
+   "url": "https://www.planetcyclery.com/products/wolf-tooth-components-ec44-premium-complete-headset-orange?variant=43770585645228",
+   "variant": "Orange",
+   "was": 219.95
+  },
   "last": "2026-11-18",
   "low": 174.99,
   "seed": true
@@ -28211,7 +30543,7 @@
    "sponsored": false,
    "store": "planet-cyclery",
    "store_name": "Planet Cyclery",
-   "title": "Cervelo Caledonia-5 700c Frameset - Carmine",
+   "title": "Caledonia-5 700c Frameset - Carmine",
    "url": "https://www.planetcyclery.com/products/cervelo-caledonia-5-700c-frameset-carmine?variant=43931281588396",
    "variant": "Carmine / 51cm (20\")",
    "was": 4999.99
@@ -31399,8 +33731,8 @@
   "info": {
    "brand": "Specialized",
    "category": "wheels",
-   "pct": 0.294,
-   "price": 1199.99,
+   "pct": 0.353,
+   "price": 1099.99,
    "sponsored": false,
    "store": "sierra-bicycle-supply",
    "store_name": "Sierra Bicycle Supply",
@@ -31410,7 +33742,7 @@
    "was": 1699.98
   },
   "last": "2026-11-18",
-  "low": 1199.99
+  "low": 1099.99
  },
  "sierra-bicycle-supply:10231048175864": {
   "first": "2026-11-16",
@@ -31653,6 +33985,19 @@
  },
  "sierra-bicycle-supply:7988410056952": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "tires",
+   "pct": 0.438,
+   "price": 44.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "S-Works Turbo 2Bliss Ready T2/T5 - Road Tire",
+   "url": "https://shopbikesupply.com/products/2023-specialized-s-works-turbo-2bliss-ready-t2-t5-road-tire?variant=43806590664952",
+   "variant": "700 x 26",
+   "was": 80.0
+  },
   "last": "2026-11-18",
   "low": 44.99
  },
@@ -32495,6 +34840,19 @@
  },
  "sierra-bicycle-supply:9144270684408": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.693,
+   "price": 22.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Men's Power Grid™ Sleeveless Baselayer",
+   "url": "https://shopbikesupply.com/products/mens-power-grid-sleeveless-baselayer?variant=46623857836280",
+   "variant": "Dove Grey / XXL",
+   "was": 75.0
+  },
   "last": "2026-11-18",
   "low": 22.99
  },
@@ -34008,6 +36366,19 @@
  },
  "silca:15103580897651": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.2,
+   "price": 100.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Ultimate Shock Pump",
+   "url": "https://silca.cc/products/ultimate-shock-pump?variant=52642358821235",
+   "variant": "",
+   "was": 125.0
+  },
   "last": "2026-11-18",
   "low": 100.0
  },
@@ -34052,8 +36423,8 @@
   "info": {
    "brand": "Silca",
    "category": "tools",
-   "pct": 0.4,
-   "price": 59.4,
+   "pct": 0.354,
+   "price": 64.0,
    "sponsored": false,
    "store": "silca",
    "store_name": "Silca",
@@ -34762,6 +37133,19 @@
  },
  "silca:6989023445090": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "tools",
+   "pct": 0.31,
+   "price": 69.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Chain Waxing System - UK Plug",
+   "url": "https://silca.cc/products/chain-waxing-system-2?variant=40743763705954",
+   "variant": "",
+   "was": 99.99
+  },
   "last": "2026-11-18",
   "low": 69.0
  },
@@ -35138,7 +37522,7 @@
    "variant": "",
    "was": 7999.99
   },
-  "last": "2026-11-17",
+  "last": "2026-11-18",
   "low": 3999.99
  },
  "specialized:4221408": {
@@ -35148,6 +37532,19 @@
  },
  "specialized:4221549": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "framesets",
+   "pct": 0.398,
+   "price": 3699.99,
+   "sponsored": false,
+   "store": "specialized",
+   "store_name": "Specialized",
+   "title": "S-Works Shiv TT Disc Module - FACT 11r Carbon (2025)",
+   "url": "https://www.specialized.com/us/en/p/4221549",
+   "variant": "",
+   "was": 6149.99
+  },
   "last": "2026-11-18",
   "low": 3699.99
  },
@@ -36364,6 +38761,16 @@
   "low": 26.4,
   "seed": true
  },
+ "the-lost-co:7791573598406": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 399.19
+ },
+ "the-lost-co:7791573696710": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 399.19
+ },
  "the-lost-co:7797888516294": {
   "first": "2026-11-16",
   "last": "2026-11-18",
@@ -36554,6 +38961,21 @@
   "low": 155.19,
   "seed": true
  },
+ "the-lost-co:7831032201414": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 307.19
+ },
+ "the-lost-co:7831032234182": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 395.99
+ },
+ "the-lost-co:7831032266950": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 395.99
+ },
  "the-lost-co:7831046226118": {
   "first": "2026-11-16",
   "last": "2026-11-18",
@@ -36647,6 +39069,21 @@
   "first": "2026-11-16",
   "last": "2026-11-18",
   "low": 70.4
+ },
+ "the-lost-co:8093280895174": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 228.8
+ },
+ "the-lost-co:8093280927942": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 228.8
+ },
+ "the-lost-co:8093280960710": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 115.2
  },
  "the-lost-co:8119412850886": {
   "first": "2026-11-16",
@@ -36809,6 +39246,156 @@
   "low": 33.75,
   "seed": true
  },
+ "the-lost-co:8299323588806": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299323785414": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299324014790": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299324211398": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299324408006": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299324506310": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299324637382": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299324801222": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299324965062": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299325194438": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299325292742": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299325456582": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299325620422": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299325751494": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299325849798": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8299325882566": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 48.79
+ },
+ "the-lost-co:8363116822726": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:8363116888262": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:8363116953798": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:8363116986566": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:8363117019334": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:8363117150406": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:8363117215942": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:8363117248710": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:8363117347014": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:8363117412550": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:8363117445318": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:8363117478086": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:8363117510854": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:8363117543622": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 143.19
+ },
  "the-lost-co:8420244193478": {
   "first": "2026-11-16",
   "last": "2026-11-18",
@@ -36933,6 +39520,11 @@
   "low": 449.25,
   "seed": true
  },
+ "the-lost-co:8490530767046": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
  "the-lost-co:8491017666758": {
   "first": "2026-11-16",
   "info": {
@@ -36957,6 +39549,76 @@
   "last": "2026-11-18",
   "low": 119.99,
   "seed": true
+ },
+ "the-lost-co:8515733881030": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515733913798": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515733946566": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734012102": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734077638": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734110406": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734175942": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734241478": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734274246": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734307014": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734339782": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734372550": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734438086": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8515734503622": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
  },
  "the-lost-co:8588508496070": {
   "first": "2026-11-16",
@@ -36983,6 +39645,31 @@
   "low": 2499.0,
   "seed": true
  },
+ "the-lost-co:8650842112198": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:8666285539526": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 105.59
+ },
+ "the-lost-co:8666285572294": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 105.59
+ },
+ "the-lost-co:8666285605062": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 105.59
+ },
+ "the-lost-co:8666345210054": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 97.59
+ },
  "the-lost-co:8666357661894": {
   "first": "2026-11-16",
   "last": "2026-11-18",
@@ -37000,6 +39687,11 @@
   "last": "2026-11-18",
   "low": 46.39,
   "seed": true
+ },
+ "the-lost-co:8687166161094": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 39.19
  },
  "the-lost-co:8780594053318": {
   "first": "2026-11-16",
@@ -37093,6 +39785,16 @@
   "low": 119.99,
   "seed": true
  },
+ "the-lost-co:8826636337350": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.4
+ },
+ "the-lost-co:8826636370118": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.4
+ },
  "the-lost-co:8834784755910": {
   "first": "2026-11-16",
   "last": "2026-11-18",
@@ -37123,6 +39825,16 @@
   "last": "2026-11-18",
   "low": 4981.57,
   "seed": true
+ },
+ "the-lost-co:8872740094150": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 75.99
+ },
+ "the-lost-co:8872740159686": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 75.99
  },
  "the-lost-co:8875148705990": {
   "first": "2026-11-16",
@@ -37288,17 +40000,642 @@
   "low": 243.59,
   "seed": true
  },
+ "the-lost-co:8993521008838": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 461.59
+ },
+ "the-lost-co:8993521336518": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 461.59
+ },
+ "the-lost-co:8993521369286": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 461.59
+ },
+ "the-lost-co:8993521402054": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 461.59
+ },
+ "the-lost-co:8993521434822": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 461.59
+ },
+ "the-lost-co:8993521467590": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 705.59
+ },
+ "the-lost-co:8993521598662": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 461.59
+ },
+ "the-lost-co:8993521631430": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 750.39
+ },
+ "the-lost-co:8993521664198": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 151.99
+ },
+ "the-lost-co:8993521762502": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 151.99
+ },
+ "the-lost-co:8993521828038": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 750.39
+ },
+ "the-lost-co:8993521959110": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 461.59
+ },
+ "the-lost-co:8993521991878": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 461.59
+ },
+ "the-lost-co:9016486068422": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 461.59
+ },
+ "the-lost-co:9025833337030": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025833369798": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 308.79
+ },
+ "the-lost-co:9025833435334": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:9025833533638": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:9025833566406": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:9025833664710": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:9025833763014": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 79.99
+ },
+ "the-lost-co:9025833828550": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 308.79
+ },
  "the-lost-co:9025834352838": {
   "first": "2026-11-16",
   "last": "2026-11-18",
   "low": 37.11,
   "seed": true
  },
+ "the-lost-co:9025834451142": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 366.39
+ },
+ "the-lost-co:9025834549446": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025835434182": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 79.99
+ },
+ "the-lost-co:9025835696326": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 683.19
+ },
+ "the-lost-co:9025835729094": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:9025835827398": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:9025835925702": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 308.79
+ },
+ "the-lost-co:9025836024006": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 220.79
+ },
+ "the-lost-co:9025836122310": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:9025836220614": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 308.79
+ },
+ "the-lost-co:9025836286150": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 440.79
+ },
+ "the-lost-co:9025836318918": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 79.99
+ },
+ "the-lost-co:9025836712134": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 308.79
+ },
+ "the-lost-co:9025836744902": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 683.19
+ },
+ "the-lost-co:9025836908742": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 727.19
+ },
+ "the-lost-co:9025836941510": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 727.19
+ },
+ "the-lost-co:9025837105350": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 727.19
+ },
+ "the-lost-co:9025837203654": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 727.19
+ },
+ "the-lost-co:9025837269190": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 727.19
+ },
+ "the-lost-co:9025837334726": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025837367494": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 308.79
+ },
+ "the-lost-co:9025838284998": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025838317766": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025838350534": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025838514374": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 727.19
+ },
+ "the-lost-co:9025838579910": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 308.79
+ },
+ "the-lost-co:9025838710982": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025838809286": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025838874822": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025838940358": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025838973126": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025839005894": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 54.39
+ },
+ "the-lost-co:9025839169734": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025839268038": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025839333574": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025839366342": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 75.99
+ },
+ "the-lost-co:9025839497414": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025839562950": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025839694022": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025839825094": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 75.99
+ },
+ "the-lost-co:9025839923398": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025839956166": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025840316614": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025840382150": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025840513222": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025840578758": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025840742598": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025840775366": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025840906438": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 439.99
+ },
+ "the-lost-co:9025841037510": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025841103046": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025841168582": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 75.99
+ },
+ "the-lost-co:9025841234118": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 54.39
+ },
+ "the-lost-co:9025841332422": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 83.99
+ },
+ "the-lost-co:9025841365190": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 83.99
+ },
+ "the-lost-co:9025841397958": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 83.99
+ },
+ "the-lost-co:9025841463494": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 79.99
+ },
+ "the-lost-co:9025841791174": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 31.19
+ },
+ "the-lost-co:9025842446534": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 31.19
+ },
+ "the-lost-co:9025842708678": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 36.79
+ },
+ "the-lost-co:9025842741446": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 36.79
+ },
+ "the-lost-co:9025842872518": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 36.79
+ },
+ "the-lost-co:9025842938054": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 36.79
+ },
+ "the-lost-co:9025843101894": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 31.19
+ },
+ "the-lost-co:9025843527878": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 31.99
+ },
+ "the-lost-co:9025843658950": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 87.99
+ },
+ "the-lost-co:9025843757254": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 87.99
+ },
+ "the-lost-co:9025843822790": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 308.79
+ },
+ "the-lost-co:9025844216006": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025844248774": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025844379846": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025844412614": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025844445382": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025844543686": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025845067974": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 26.39
+ },
+ "the-lost-co:9025845199046": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 21.99
+ },
  "the-lost-co:9025848017094": {
   "first": "2026-11-16",
   "last": "2026-11-18",
   "low": 37.11,
   "seed": true
+ },
+ "the-lost-co:9025849295046": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 101.59
+ },
+ "the-lost-co:9025849458886": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 683.19
+ },
+ "the-lost-co:9025849524422": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 727.19
+ },
+ "the-lost-co:9025849557190": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 308.79
+ },
+ "the-lost-co:9025849753798": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 119.19
+ },
+ "the-lost-co:9025849786566": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 119.19
+ },
+ "the-lost-co:9025849819334": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 119.19
+ },
+ "the-lost-co:9025849950406": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 220.79
+ },
+ "the-lost-co:9025850015942": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 56.79
+ },
+ "the-lost-co:9025850114246": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 56.79
+ },
+ "the-lost-co:9025850147014": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 56.79
+ },
+ "the-lost-co:9025850212550": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 56.79
+ },
+ "the-lost-co:9025850278086": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 75.99
+ },
+ "the-lost-co:9025850376390": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 78.39
+ },
+ "the-lost-co:9025850409158": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 78.39
+ },
+ "the-lost-co:9025850540230": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 78.39
+ },
+ "the-lost-co:9025850572998": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 78.39
+ },
+ "the-lost-co:9025850638534": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 78.39
+ },
+ "the-lost-co:9025850736838": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 158.39
+ },
+ "the-lost-co:9025850769606": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 158.39
+ },
+ "the-lost-co:9025850835142": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 158.39
+ },
+ "the-lost-co:9025850933446": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 158.39
+ },
+ "the-lost-co:9025851031750": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 158.39
+ },
+ "the-lost-co:9025851228358": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 32.79
+ },
+ "the-lost-co:9025851293894": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 32.79
+ },
+ "the-lost-co:9025851326662": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025851752646": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 54.39
  },
  "the-lost-co:9025851883718": {
   "first": "2026-11-16",
@@ -37371,6 +40708,216 @@
   "last": "2026-11-18",
   "low": 26.99,
   "seed": true
+ },
+ "the-lost-co:9025852801222": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 70.39
+ },
+ "the-lost-co:9025853325510": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853391046": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853456582": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853489350": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853522118": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853685958": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853718726": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853751494": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853784262": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853915334": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025853980870": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025854046406": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025854111942": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025854144710": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025854243014": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025854308550": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025854374086": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 150.39
+ },
+ "the-lost-co:9025855160518": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855193286": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855357126": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855389894": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855422662": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855520966": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855586502": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855619270": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855684806": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855783110": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855815878": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855848646": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025855881414": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025856045254": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025856078022": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025856110790": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025856176326": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025856307398": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 23.19
+ },
+ "the-lost-co:9025857454278": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025857487046": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025857519814": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025857618118": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025857716422": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
+ },
+ "the-lost-co:9025857781958": {
+  "first": "2026-11-18",
+  "last": "2026-11-18",
+  "low": 131.19
  },
  "the-lost-co:9100887720134": {
   "first": "2026-11-16",
@@ -45680,6 +49227,19 @@
  },
  "wolf-tooth:462799808": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Wolf Tooth",
+   "category": "drivetrain",
+   "pct": 0.286,
+   "price": 49.95,
+   "sponsored": false,
+   "store": "wolf-tooth",
+   "store_name": "Wolf Tooth Components",
+   "title": "94 mm BCD for SRAM XO1, X1, GX, and NX Crankset",
+   "url": "https://www.wolftoothcomponents.com/products/94-bcd-for-sram-x1-crankset?variant=1331182328",
+   "variant": "30T / Drop-Stop A",
+   "was": 69.95
+  },
   "last": "2026-11-18",
   "low": 49.95
  },
