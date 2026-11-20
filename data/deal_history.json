@@ -3169,6 +3169,19 @@
  },
  "btd:scsov": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Schwalbe",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 51.75,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "G-One Overland 365 700c Gravel Tire",
+   "url": "https://www.biketiresdirect.com/product/schwalbe-g-one-overland-365-700c-gravel-tire",
+   "variant": "",
+   "was": 69.0
+  },
   "last": "2026-11-19",
   "low": 51.75
  },
@@ -3710,6 +3723,19 @@
  },
  "btd:snucw": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 24.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Ultimate Ceramic Waterless Wash, 16oz",
+   "url": "https://www.biketiresdirect.com/product/silca-ultimate-ceramic-waterless-wash-16oz",
+   "variant": "",
+   "was": 30.0
+  },
   "last": "2026-11-19",
   "low": 24.0
  },
@@ -3720,6 +3746,19 @@
  },
  "btd:snugs": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 36.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Ultimate Graphene Spray Wax, 16oz",
+   "url": "https://www.biketiresdirect.com/product/silca-ultimate-graphene-spray-wax-16oz",
+   "variant": "",
+   "was": 45.0
+  },
   "last": "2026-11-19",
   "low": 36.0
  },
@@ -4046,6 +4085,21 @@
   "first": "2026-11-18",
   "last": "2026-11-19",
   "low": 55.95
+ },
+ "contender:15396115153141": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 9349.0
+ },
+ "contender:15396115841269": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 2719.0
+ },
+ "contender:15396149100789": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 4674.0
  },
  "contender:15399759216885": {
   "first": "2026-11-16",
@@ -6431,6 +6485,19 @@
  },
  "contender:9365293793525": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.179,
+   "price": 11498.78,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "S-Works Aethos 2 Di2",
+   "url": "https://contenderbicycles.com/products/specialized-s-works-aethos-2-di2?variant=47089291559157",
+   "variant": "Gloss Dolomite Metallic / Satin Nebula Metallic / 52",
+   "was": 13999.0
+  },
   "last": "2026-11-19",
   "low": 11498.78
  },
@@ -7736,6 +7803,19 @@
  },
  "fanatik:1944682987566": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.225,
+   "price": 89.95,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Assegai 29\" x 2.5\" WT Tire",
+   "url": "https://www.fanatikbike.com/products/maxxis-assegai-29x2-5-wt-tire?variant=17286285688878",
+   "variant": "DH - 3C MaxxGrip",
+   "was": 116.0
+  },
   "last": "2026-11-19",
   "low": 89.95,
   "seed": true
@@ -10621,6 +10701,42 @@
   "last": "2026-11-19",
   "low": 560.0
  },
+ "fanatik:7692184485934": {
+  "first": "2026-11-19",
+  "info": {
+   "brand": "Fox",
+   "category": "suspension",
+   "pct": 0.23,
+   "price": 1000.0,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "36 - Grip X2 - E-Optimized - 29\" - 160mm - 2027 - Fanatik Outlet",
+   "url": "https://www.fanatikbike.com/products/fox-36-grip-x2-e-optimized-29-160mm-2027-fanatik-outlet?variant=42934917824558",
+   "variant": "",
+   "was": 1299.0
+  },
+  "last": "2026-11-19",
+  "low": 1000.0
+ },
+ "fanatik:7692197036078": {
+  "first": "2026-11-19",
+  "info": {
+   "brand": "Crank Brothers",
+   "category": "wheels",
+   "pct": 0.25,
+   "price": 525.0,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Synthesis E-MTB Alloy 2.0 Wheelset - XD Driver - MX - Fanatik Outlet",
+   "url": "https://www.fanatikbike.com/products/crank-brothers-synthesis-e-mtb-alloy-2-0-wheelset-xd-driver-mx-fanatik-outlet?variant=42935015243822",
+   "variant": "",
+   "was": 700.0
+  },
+  "last": "2026-11-19",
+  "low": 525.0
+ },
  "fanatik:7801762243": {
   "first": "2026-11-16",
   "info": {
@@ -11079,6 +11195,11 @@
   "last": "2026-11-19",
   "low": 67.97,
   "seed": true
+ },
+ "incycle:6618778665091": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 33.97
  },
  "incycle:6618780074115": {
   "first": "2026-11-16",
@@ -11660,6 +11781,19 @@
  },
  "incycle:6770896732291": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "wheels",
+   "pct": 0.247,
+   "price": 744.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Roval Alpinist CL II",
+   "url": "https://www.incycle.com/products/specialized-alpinist-cl-ii-rear-satin-carbon-satin-blk-700c?variant=39724944523395",
+   "variant": "Satin Carbon / Satin Black / 700c Rear",
+   "was": 989.99
+  },
   "last": "2026-11-19",
   "low": 744.99
  },
@@ -14687,6 +14821,19 @@
  },
  "incycle:8722201444483": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.179,
+   "price": 11499.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "S-Works Aethos 2 - Shimano Dura-Ace Di2 (2026)",
+   "url": "https://www.incycle.com/products/2026-specialized-s-works-aethos-2-shimano-dura-ace-di2?variant=45713588781187",
+   "variant": "Gloss Premium Fjord Metallic / Dolomite Metallic / 49",
+   "was": 13999.99
+  },
   "last": "2026-11-19",
   "low": 11499.99
  },
@@ -15518,6 +15665,19 @@
  },
  "mikes-bikes:6608065822789": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Pirelli Tire",
+   "category": "tires",
+   "pct": 0.407,
+   "price": 21.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Cinturato SmarTube",
+   "url": "https://mikesbikes.com/products/pirelli-cinturato-smartube?variant=39395454124101",
+   "variant": "650x40-55 / 60mm",
+   "was": 36.99
+  },
   "last": "2026-11-19",
   "low": 21.95
  },
@@ -16887,7 +17047,7 @@
  },
  "mikes-bikes:7338862936133": {
   "first": "2026-11-16",
-  "last": "2026-11-18",
+  "last": "2026-11-19",
   "low": 5649.0
  },
  "mikes-bikes:7353250152517": {
@@ -17716,6 +17876,24 @@
   },
   "last": "2026-11-19",
   "low": 399.99
+ },
+ "mikes-bikes:7743412961349": {
+  "first": "2026-11-19",
+  "info": {
+   "brand": "Wahoo Fitness",
+   "category": "electronics",
+   "pct": 0.273,
+   "price": 399.95,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "KICKR Core 2 Smart Trainer",
+   "url": "https://mikesbikes.com/products/wahoo-kickr-core-2-smart-trainer?variant=43468735381573",
+   "variant": "",
+   "was": 549.99
+  },
+  "last": "2026-11-19",
+  "low": 399.95
  },
  "mikes-bikes:7762287624261": {
   "first": "2026-11-16",
@@ -18701,14 +18879,14 @@
   "info": {
    "brand": "OneUp Components",
    "category": "cockpit",
-   "pct": 0.325,
-   "price": 108.0,
+   "pct": 0.25,
+   "price": 119.99,
    "sponsored": false,
    "store": "oneup",
    "store_name": "OneUp Components",
    "title": "V2 Carbon Handlebar",
-   "url": "https://www.oneupcomponents.com/products/v2-carbon-handlebar?variant=42107797635169",
-   "variant": "760mm / 35mm",
+   "url": "https://www.oneupcomponents.com/products/v2-carbon-handlebar?variant=42107797504097",
+   "variant": "800mm / 20mm",
    "was": 159.99
   },
   "last": "2026-11-19",
@@ -21696,6 +21874,11 @@
   "last": "2026-11-19",
   "low": 29.7
  },
+ "planet-cyclery:8043254644908": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 21.95
+ },
  "planet-cyclery:8043263787180": {
   "first": "2026-11-16",
   "last": "2026-11-19",
@@ -24030,6 +24213,19 @@
  },
  "planet-cyclery:8043825791148": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Shimano",
+   "category": "wheels",
+   "pct": 0.2,
+   "price": 680.0,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Ultegra R8170 C36 Tubeless Disc 700c Road Wheel - Rear",
+   "url": "https://www.planetcyclery.com/products/shimano-ultegra-r8170-c36-tubeless-disc-700c-road-wheel-rear?variant=43768394875052",
+   "variant": "Black / 12x142mm Rear E-Thru - 24h - 11/12 Speed",
+   "was": 850.0
+  },
   "last": "2026-11-19",
   "low": 680.0
  },
@@ -25133,6 +25329,11 @@
   "low": 129.99,
   "seed": true
  },
+ "planet-cyclery:8044027674796": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 34.99
+ },
  "planet-cyclery:8044028756140": {
   "first": "2026-11-16",
   "last": "2026-11-19",
@@ -25386,6 +25587,16 @@
   "low": 49.99,
   "seed": true
  },
+ "planet-cyclery:8044114608300": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 112.49
+ },
+ "planet-cyclery:8044115624108": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 112.49
+ },
  "planet-cyclery:8044115787948": {
   "first": "2026-11-16",
   "last": "2026-11-19",
@@ -25409,6 +25620,11 @@
   "last": "2026-11-19",
   "low": 37.49,
   "seed": true
+ },
+ "planet-cyclery:8044117164204": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 112.49
  },
  "planet-cyclery:8044117393580": {
   "first": "2026-11-16",
@@ -26426,7 +26642,7 @@
    "sponsored": false,
    "store": "planet-cyclery",
    "store_name": "Planet Cyclery",
-   "title": "OneUp EDC Light Tool System - Orange",
+   "title": "EDC Light Tool System - Orange",
    "url": "https://www.planetcyclery.com/products/oneup-edc-light-tool-system-orange?variant=43769218597036",
    "variant": "Orange",
    "was": 39.99
@@ -28521,6 +28737,11 @@
   "low": 37.49,
   "seed": true
  },
+ "planet-cyclery:8044541083820": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 37.49
+ },
  "planet-cyclery:8044541411500": {
   "first": "2026-11-16",
   "last": "2026-11-17",
@@ -28662,6 +28883,19 @@
  },
  "planet-cyclery:8044561793196": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.18,
+   "price": 20.49,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "GX Eagle T-Type AXS Rear Derailleur Skid Kit",
+   "url": "https://www.planetcyclery.com/products/sram-gx-eagle-t-type-axs-rear-derailleur-skid-kit?variant=43770189316268",
+   "variant": "Black / Includes Bolts",
+   "was": 25.0
+  },
   "last": "2026-11-19",
   "low": 20.49
  },
@@ -31475,6 +31709,11 @@
   "low": 119.99,
   "seed": true
  },
+ "planet-cyclery:8177430855852": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 119.99
+ },
  "planet-cyclery:8177430888620": {
   "first": "2026-11-16",
   "last": "2026-11-19",
@@ -31492,6 +31731,11 @@
   "last": "2026-11-19",
   "low": 119.99,
   "seed": true
+ },
+ "planet-cyclery:8177431019692": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 119.99
  },
  "planet-cyclery:8177431052460": {
   "first": "2026-11-16",
@@ -32225,6 +32469,11 @@
   "last": "2026-11-19",
   "low": 119.99,
   "seed": true
+ },
+ "planet-cyclery:8226705277100": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 119.99
  },
  "planet-cyclery:8226705309868": {
   "first": "2026-11-16",
@@ -34156,6 +34405,19 @@
  },
  "sierra-bicycle-supply:10231063642360": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.2,
+   "price": 6399.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Turbo Levo 4 Comp",
+   "url": "https://shopbikesupply.com/products/turbo-levo-4-comp?variant=50035587055864",
+   "variant": "Gloss Dolomite / Shadow Silver / S3",
+   "was": 8000.0
+  },
   "last": "2026-11-19",
   "low": 6399.99
  },
@@ -34190,7 +34452,7 @@
    "was": 474.99
   },
   "last": "2026-11-19",
-  "low": 309.99
+  "low": 299.99
  },
  "sierra-bicycle-supply:10320360440056": {
   "first": "2026-11-16",
@@ -34218,7 +34480,7 @@
  "sierra-bicycle-supply:15460673192184": {
   "first": "2026-11-16",
   "last": "2026-11-19",
-  "low": 3299.99
+  "low": 3199.99
  },
  "sierra-bicycle-supply:15464013562104": {
   "first": "2026-11-16",
@@ -34229,6 +34491,16 @@
   "first": "2026-11-16",
   "last": "2026-11-19",
   "low": 54.99
+ },
+ "sierra-bicycle-supply:15500854821112": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 399.99
+ },
+ "sierra-bicycle-supply:15500876218616": {
+  "first": "2026-11-19",
+  "last": "2026-11-19",
+  "low": 199.99
  },
  "sierra-bicycle-supply:4789235777674": {
   "first": "2026-11-16",
@@ -34499,6 +34771,24 @@
   "first": "2026-11-16",
   "last": "2026-11-19",
   "low": 714.99
+ },
+ "sierra-bicycle-supply:8787217252600": {
+  "first": "2026-11-19",
+  "info": {
+   "brand": "Specialized",
+   "category": "framesets",
+   "pct": 0.313,
+   "price": 1099.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "STATUS 2 170 Frameset",
+   "url": "https://shopbikesupply.com/products/specialized-status-2-170-frameset?variant=45827725983992",
+   "variant": "Satin Dark Navy / Dove Grey / S0",
+   "was": 1600.0
+  },
+  "last": "2026-11-19",
+  "low": 1099.99
  },
  "sierra-bicycle-supply:8841126314232": {
   "first": "2026-11-16",
@@ -37433,6 +37723,19 @@
  },
  "silca:6721975353442": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 40.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "NASTRO CUSCINO 2.5 BLACK",
+   "url": "https://silca.cc/products/nastro-cuscino-2-5-black?variant=39822251262050",
+   "variant": "",
+   "was": 50.0
+  },
   "last": "2026-11-19",
   "low": 40.0
  },
@@ -37533,6 +37836,19 @@
  },
  "silca:6851559555170": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 68.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Unicorn Titanium Cage",
+   "url": "https://silca.cc/products/unicorn-titanium-cage?variant=40281667305570",
+   "variant": "",
+   "was": 85.0
+  },
   "last": "2026-11-19",
   "low": 68.0
  },
@@ -37805,7 +38121,7 @@
  },
  "specialized:1000201562": {
   "first": "2026-11-17",
-  "last": "2026-11-18",
+  "last": "2026-11-19",
   "low": 27.99
  },
  "specialized:1000208967": {
