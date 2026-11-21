@@ -973,6 +973,19 @@
  },
  "btd:comno": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Continental",
+   "category": "tires",
+   "pct": 0.3,
+   "price": 46.16,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Race King Performance 27.5 Inch MTB Tire",
+   "url": "https://www.biketiresdirect.com/product/continental-race-king-performance-275-inch-mtb-tire",
+   "variant": "",
+   "was": 65.95
+  },
   "last": "2026-11-20",
   "low": 46.16
  },
@@ -1279,6 +1292,19 @@
  },
  "btd:g5nhg": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Giant",
+   "category": "bikes",
+   "pct": 0.4,
+   "price": 4200.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "TCR Advanced Pro 0 Road Bike (2025)",
+   "url": "https://www.biketiresdirect.com/product/giant-2025-tcr-advanced-pro-0-road-bike",
+   "variant": "",
+   "was": 7000.0
+  },
   "last": "2026-11-20",
   "low": 4200.0
  },
@@ -3881,6 +3907,19 @@
  },
  "btd:saeas": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.2,
+   "price": 112.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Eagle 70 Transmission Rear Derailleur",
+   "url": "https://www.biketiresdirect.com/product/sram-eagle-70-transmission-rear-derailleur",
+   "variant": "",
+   "was": 140.0
+  },
   "last": "2026-11-20",
   "low": 112.0
  },
@@ -3924,6 +3963,19 @@
  },
  "btd:safau": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "SRAM",
+   "category": "brakes",
+   "pct": 0.2,
+   "price": 80.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Force AXS D1 Disc Brake Caliper",
+   "url": "https://www.biketiresdirect.com/product/sram-force-axs-d1-disc-brake-caliper",
+   "variant": "",
+   "was": 100.0
+  },
   "last": "2026-11-20",
   "low": 80.0
  },
@@ -3934,6 +3986,19 @@
  },
  "btd:safrl": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.35,
+   "price": 29.25,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Rival/Force eTap AXS Hood Covers",
+   "url": "https://www.biketiresdirect.com/product/sram-rival-force-etap-axs-hood-covers",
+   "variant": "",
+   "was": 45.0
+  },
   "last": "2026-11-20",
   "low": 29.25
  },
@@ -4039,6 +4104,24 @@
   "first": "2026-11-20",
   "last": "2026-11-20",
   "low": 123.75
+ },
+ "btd:saset": {
+  "first": "2026-11-20",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.45,
+   "price": 24.75,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Red/Force eTap AXS Hood Covers",
+   "url": "https://www.biketiresdirect.com/product/sram-red-force-etap-axs-hood-covers",
+   "variant": "",
+   "was": 45.0
+  },
+  "last": "2026-11-20",
+  "low": 24.75
  },
  "btd:sasfi": {
   "first": "2026-11-20",
@@ -5321,6 +5404,19 @@
  },
  "btd:shcff": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Shimano",
+   "category": "wheels",
+   "pct": 0.3,
+   "price": 1599.5,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "WH-R9270 C50-TL Dura-Ace Carbon Disc Wheelset",
+   "url": "https://www.biketiresdirect.com/product/shimano-wh-r9270-c50-tl-dura-ace-carbon-disc-wheelset",
+   "variant": "",
+   "was": 2285.0
+  },
   "last": "2026-11-20",
   "low": 1599.5
  },
@@ -5349,6 +5445,19 @@
  },
  "btd:shcsi": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Shimano",
+   "category": "wheels",
+   "pct": 0.35,
+   "price": 471.25,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "WH-R8170 C60-TL Ultegra Carbon Disc Wheelset",
+   "url": "https://www.biketiresdirect.com/product/shimano-wh-r8170-c60-tl-ultegra-carbon-disc-wheelset",
+   "variant": "",
+   "was": 725.0
+  },
   "last": "2026-11-20",
   "low": 471.25
  },
@@ -5892,6 +6001,19 @@
  },
  "btd:snldu": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 40.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Nastro Cuscino Handlebar Tape 3.75mm",
+   "url": "https://www.biketiresdirect.com/product/silca-nastro-cuscino-handlebar-tape-375mm",
+   "variant": "",
+   "was": 50.0
+  },
   "last": "2026-11-20",
   "low": 40.0
  },
@@ -6364,6 +6486,19 @@
  },
  "btd:vibgv": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Vittoria",
+   "category": "tires",
+   "pct": 0.5,
+   "price": 37.99,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Terreno Mix G2.0 700c Gravel Endurance Tire",
+   "url": "https://www.biketiresdirect.com/product/vittoria-terreno-mix-g20-700c-gravel-endurance-tire",
+   "variant": "",
+   "was": 75.99
+  },
   "last": "2026-11-20",
   "low": 37.99
  },
@@ -6453,6 +6588,19 @@
  },
  "btd:vivzl": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Vittoria",
+   "category": "tires",
+   "pct": 0.5,
+   "price": 37.99,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Terreno Zero G2.0 700c Gravel Lite Tire",
+   "url": "https://www.biketiresdirect.com/product/vittoria-terreno-zero-g20-700c-gravel-lite-tire",
+   "variant": "",
+   "was": 75.99
+  },
   "last": "2026-11-20",
   "low": 37.99
  },
@@ -6669,6 +6817,19 @@
  },
  "btd:zpcei": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Zipp",
+   "category": "cockpit",
+   "pct": 0.3,
+   "price": 199.5,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Carbon SL Speed Stem",
+   "url": "https://www.biketiresdirect.com/product/zipp-carbon-sl-speed-stem",
+   "variant": "",
+   "was": 285.0
+  },
   "last": "2026-11-20",
   "low": 199.5
  },
@@ -6904,6 +7065,19 @@
  },
  "btd:zpzze": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Zipp",
+   "category": "cockpit",
+   "pct": 0.25,
+   "price": 88.5,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Service Course SL-70 Ergo Handlebar",
+   "url": "https://www.biketiresdirect.com/product/zipp-service-course-sl-70-ergo-handlebar_1",
+   "variant": "",
+   "was": 118.0
+  },
   "last": "2026-11-20",
   "low": 88.5
  },
@@ -7625,6 +7799,19 @@
  },
  "contender:7929020973301": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.3,
+   "price": 28.0,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Italian Army Knife - NOVE",
+   "url": "https://contenderbicycles.com/products/silca-italian-army-knife-nove?variant=43441608196341",
+   "variant": "",
+   "was": 40.0
+  },
   "last": "2026-11-20",
   "low": 28.0
  },
@@ -10126,6 +10313,19 @@
  },
  "contender:9712038936821": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Fox",
+   "category": "apparel",
+   "pct": 0.3,
+   "price": 209.99,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Youth Proframe Thrive",
+   "url": "https://contenderbicycles.com/products/fox-youth-proframe-thrive?variant=48244402290933",
+   "variant": "Nutmeg / OS",
+   "was": 299.95
+  },
   "last": "2026-11-20",
   "low": 209.99,
   "seed": true
@@ -15559,6 +15759,16 @@
   "low": 74.99,
   "seed": true
  },
+ "incycle:7912592375939": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 2099.99
+ },
+ "incycle:7912592408707": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 1899.97
+ },
  "incycle:7912592507011": {
   "first": "2026-11-16",
   "last": "2026-11-20",
@@ -16131,8 +16341,8 @@
    "store": "incycle",
    "store_name": "inCycle",
    "title": "Stumpjumper 15 Öhlins Coil (2025)",
-   "url": "https://www.incycle.com/products/2025-specialized-stumpjumper-15-ohlins-edition?variant=44549931237507",
-   "variant": "Satin Copper Speckle / Satin Silver Dust / S3",
+   "url": "https://www.incycle.com/products/2025-specialized-stumpjumper-15-ohlins-edition?variant=44549931008131",
+   "variant": "Satin Copper Speckle / Satin Silver Dust / S6",
    "was": 7999.99
   },
   "last": "2026-11-20",
@@ -16499,6 +16709,11 @@
   "last": "2026-11-20",
   "low": 199.99
  },
+ "incycle:8474785087619": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 5799.99
+ },
  "incycle:8474785448067": {
   "first": "2026-11-16",
   "last": "2026-11-20",
@@ -16543,6 +16758,11 @@
   "last": "2026-11-20",
   "low": 35.97,
   "seed": true
+ },
+ "incycle:8495080407171": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 3499.99
  },
  "incycle:8495080734851": {
   "first": "2026-11-16",
@@ -16803,6 +17023,11 @@
   "first": "2026-11-17",
   "last": "2026-11-18",
   "low": 1749.97
+ },
+ "incycle:8558006567043": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 2699.99
  },
  "incycle:8561582997635": {
   "first": "2026-11-16",
@@ -17170,6 +17395,11 @@
   "last": "2026-11-20",
   "low": 48.99,
   "seed": true
+ },
+ "incycle:8611500949635": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 3399.97
  },
  "incycle:8624893001859": {
   "first": "2026-11-16",
@@ -17936,6 +18166,11 @@
   "low": 5739.97,
   "seed": true
  },
+ "incycle:9083621474435": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 3499.99
+ },
  "incycle:9083661582467": {
   "first": "2026-11-16",
   "last": "2026-11-20",
@@ -18051,6 +18286,19 @@
  },
  "incycle:9259774476419": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.2,
+   "price": 6399.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Turbo Levo 4 Comp (2027)",
+   "url": "https://www.incycle.com/products/levo-comp-carbon-g4-4263411?variant=48053480423555",
+   "variant": "Gloss Bordeaux Metallic / Ruby Metallic / S3",
+   "was": 7999.99
+  },
   "last": "2026-11-20",
   "low": 6399.99
  },
@@ -19324,7 +19572,7 @@
  },
  "mikes-bikes:6867816513605": {
   "first": "2026-11-16",
-  "last": "2026-11-17",
+  "last": "2026-11-20",
   "low": 2398.95
  },
  "mikes-bikes:6869895413829": {
@@ -19396,6 +19644,11 @@
   "last": "2026-11-20",
   "low": 90.77
  },
+ "mikes-bikes:6884208279621": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 3499.77
+ },
  "mikes-bikes:6888655519813": {
   "first": "2026-11-16",
   "last": "2026-11-20",
@@ -19464,6 +19717,24 @@
   "first": "2026-11-16",
   "last": "2026-11-20",
   "low": 131.24
+ },
+ "mikes-bikes:6896268574789": {
+  "first": "2026-11-20",
+  "info": {
+   "brand": "Santa Cruz",
+   "category": "bikes",
+   "pct": 0.636,
+   "price": 1999.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Tallboy 5 C S",
+   "url": "https://mikesbikes.com/products/santa-cruz-tallboy-5-c-s?variant=40583181664325",
+   "variant": "Gloss White / XX-Large",
+   "was": 5499.99
+  },
+  "last": "2026-11-20",
+  "low": 1999.77
  },
  "mikes-bikes:6900383023173": {
   "first": "2026-11-16",
@@ -19550,11 +19821,11 @@
    "store": "mikes-bikes",
    "store_name": "Mike's Bikes",
    "title": "Heckler SL CC X0 Transmission Reserve",
-   "url": "https://mikesbikes.com/products/santa-cruz-heckler-sl-cc-x0-transmission-reserve-2024?variant=44649480650821",
-   "variant": "Gloss Magenta / XX-Large",
+   "url": "https://mikesbikes.com/products/santa-cruz-heckler-sl-cc-x0-transmission-reserve-2024?variant=44649480618053",
+   "variant": "Silver / XX-Large",
    "was": 11699.99
   },
-  "last": "2026-11-19",
+  "last": "2026-11-20",
   "low": 4499.77
  },
  "mikes-bikes:6906676838469": {
@@ -21114,8 +21385,8 @@
    "store": "mikes-bikes",
    "store_name": "Mike's Bikes",
    "title": "Shuttle LT Pro X0 Eagle Transmission",
-   "url": "https://mikesbikes.com/products/pivot-shuttle-lt-pro-x0-eagle-transmission-2027?variant=44559825862725",
-   "variant": "Black Royal Purple / X-Large",
+   "url": "https://mikesbikes.com/products/pivot-shuttle-lt-pro-x0-eagle-transmission-2027?variant=44559825797189",
+   "variant": "Black Royal Purple / Medium",
    "was": 12599.0
   },
   "last": "2026-11-20",
@@ -21510,8 +21781,8 @@
    "store": "oneup",
    "store_name": "OneUp Components",
    "title": "EDC Lite Tool",
-   "url": "https://www.oneupcomponents.com/products/edc-lite-tool?variant=32868656087137",
-   "variant": "Black",
+   "url": "https://www.oneupcomponents.com/products/edc-lite-tool?variant=32868656250977",
+   "variant": "Blue",
    "was": 39.99
   },
   "last": "2026-11-20",
@@ -24317,6 +24588,11 @@
   "low": 45.49,
   "seed": true
  },
+ "planet-cyclery:8043067015340": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 75.59
+ },
  "planet-cyclery:8043069014188": {
   "first": "2026-11-16",
   "last": "2026-11-20",
@@ -26823,6 +27099,11 @@
   "low": 64.0,
   "seed": true
  },
+ "planet-cyclery:8043765629100": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 64.0
+ },
  "planet-cyclery:8043765727404": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -27532,6 +27813,11 @@
   "last": "2026-11-20",
   "low": 69.99,
   "seed": true
+ },
+ "planet-cyclery:8043851808940": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 46.99
  },
  "planet-cyclery:8043852365996": {
   "first": "2026-11-16",
@@ -28405,6 +28691,11 @@
   "low": 78.49,
   "seed": true
  },
+ "planet-cyclery:8044080595116": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 74.99
+ },
  "planet-cyclery:8044086788268": {
   "first": "2026-11-16",
   "info": {
@@ -28495,6 +28786,11 @@
   "last": "2026-11-20",
   "low": 49.99,
   "seed": true
+ },
+ "planet-cyclery:8044106449068": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 48.95
  },
  "planet-cyclery:8044106514604": {
   "first": "2026-11-16",
@@ -28724,6 +29020,11 @@
   "low": 34.99,
   "seed": true
  },
+ "planet-cyclery:8044134301868": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 26.99
+ },
  "planet-cyclery:8044134400172": {
   "first": "2026-11-16",
   "last": "2026-11-20",
@@ -28743,6 +29044,16 @@
   "first": "2026-11-16",
   "last": "2026-11-20",
   "low": 55.99
+ },
+ "planet-cyclery:8044135284908": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 26.99
+ },
+ "planet-cyclery:8044135448748": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 26.99
  },
  "planet-cyclery:8044135547052": {
   "first": "2026-11-16",
@@ -28771,6 +29082,11 @@
   "low": 224.99,
   "seed": true
  },
+ "planet-cyclery:8044137250988": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 26.99
+ },
  "planet-cyclery:8044137414828": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -28788,6 +29104,11 @@
   "last": "2026-11-16",
   "low": 212.45,
   "seed": true
+ },
+ "planet-cyclery:8044138102956": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 26.99
  },
  "planet-cyclery:8044139610284": {
   "first": "2026-11-16",
@@ -31482,6 +31803,11 @@
   "low": 113.99,
   "seed": true
  },
+ "planet-cyclery:8044500385964": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 164.0
+ },
  "planet-cyclery:8044505792684": {
   "first": "2026-11-16",
   "last": "2026-11-20",
@@ -31645,6 +31971,11 @@
   "last": "2026-11-20",
   "low": 109.99,
   "seed": true
+ },
+ "planet-cyclery:8044525420716": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 79.99
  },
  "planet-cyclery:8044525617324": {
   "first": "2026-11-16",
@@ -34628,6 +34959,11 @@
   "low": 123.0,
   "seed": true
  },
+ "planet-cyclery:8175791931564": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 112.0
+ },
  "planet-cyclery:8175795798188": {
   "first": "2026-11-16",
   "last": "2026-11-20",
@@ -35787,6 +36123,24 @@
   "low": 24.99,
   "seed": true
  },
+ "planet-cyclery:8263901773996": {
+  "first": "2026-11-20",
+  "info": {
+   "brand": "Garmin",
+   "category": "electronics",
+   "pct": 0.25,
+   "price": 299.99,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Edge MTB Advanced GPS Computer",
+   "url": "https://www.planetcyclery.com/products/garmin-edge-mtb-advanced-gps-computer?variant=44497581539500",
+   "variant": "Black",
+   "was": 399.99
+  },
+  "last": "2026-11-20",
+  "low": 299.99
+ },
  "planet-cyclery:8263901937836": {
   "first": "2026-11-16",
   "info": {
@@ -36501,6 +36855,11 @@
   "last": "2026-11-20",
   "low": 3199.99
  },
+ "planet-cyclery:8444298231980": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 55.99
+ },
  "planet-cyclery:8444298264748": {
   "first": "2026-11-16",
   "info": {
@@ -36539,6 +36898,11 @@
   "low": 44.99,
   "seed": true
  },
+ "planet-cyclery:8444298461356": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 52.49
+ },
  "planet-cyclery:8444298494124": {
   "first": "2026-11-16",
   "info": {
@@ -36557,6 +36921,186 @@
   "last": "2026-11-20",
   "low": 44.99,
   "seed": true
+ },
+ "planet-cyclery:8444298526892": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 62.99
+ },
+ "planet-cyclery:8444298592428": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 76.99
+ },
+ "planet-cyclery:8444298625196": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 115.49
+ },
+ "planet-cyclery:8444298657964": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 115.49
+ },
+ "planet-cyclery:8444298690732": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 62.99
+ },
+ "planet-cyclery:8444298723500": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 62.99
+ },
+ "planet-cyclery:8444298756268": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 62.99
+ },
+ "planet-cyclery:8444298887340": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 76.99
+ },
+ "planet-cyclery:8444298920108": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 76.99
+ },
+ "planet-cyclery:8444298952876": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 97.99
+ },
+ "planet-cyclery:8444298985644": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 97.99
+ },
+ "planet-cyclery:8444299051180": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 97.99
+ },
+ "planet-cyclery:8444299083948": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 118.99
+ },
+ "planet-cyclery:8444299116716": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 104.99
+ },
+ "planet-cyclery:8444299149484": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 129.49
+ },
+ "planet-cyclery:8444299182252": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 83.99
+ },
+ "planet-cyclery:8444299280556": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 97.99
+ },
+ "planet-cyclery:8444299411628": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 26.49
+ },
+ "planet-cyclery:8444299444396": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 22.49
+ },
+ "planet-cyclery:8444299509932": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 22.49
+ },
+ "planet-cyclery:8444299608236": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 22.49
+ },
+ "planet-cyclery:8444299641004": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 31.49
+ },
+ "planet-cyclery:8444299673772": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 83.99
+ },
+ "planet-cyclery:8444299706540": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 83.99
+ },
+ "planet-cyclery:8444299739308": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 90.99
+ },
+ "planet-cyclery:8444299772076": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 118.99
+ },
+ "planet-cyclery:8444299804844": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 118.99
+ },
+ "planet-cyclery:8444299837612": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 139.99
+ },
+ "planet-cyclery:8444299870380": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 139.99
+ },
+ "planet-cyclery:8444299903148": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 104.99
+ },
+ "planet-cyclery:8444299935916": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 104.99
+ },
+ "planet-cyclery:8444300001452": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 34.99
+ },
+ "planet-cyclery:8444300034220": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 90.99
+ },
+ "planet-cyclery:8444300066988": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 90.99
+ },
+ "planet-cyclery:8444300132524": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 35.99
+ },
+ "planet-cyclery:8444300165292": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 59.99
  },
  "planet-cyclery:8444731424940": {
   "first": "2026-11-16",
@@ -39350,6 +39894,19 @@
  },
  "sierra-bicycle-supply:9239603544312": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.179,
+   "price": 11499.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "S-Works Aethos 2 - SRAM RED AXS",
+   "url": "https://shopbikesupply.com/products/s-works-aethos-2-sram-red-axs?variant=46943070028024",
+   "variant": "Satin Carbon / Gloss Dolomite Metallic / 49",
+   "was": 14000.0
+  },
   "last": "2026-11-20",
   "low": 11499.99
  },
@@ -40223,6 +40780,19 @@
  },
  "silca:2133495939170": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.211,
+   "price": 30.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "Gear Wipes Canister (110 sheets)",
+   "url": "https://silca.cc/products/gear-wipes?variant=19747392716898",
+   "variant": "",
+   "was": 38.0
+  },
   "last": "2026-11-20",
   "low": 30.0
  },
@@ -40669,6 +41239,19 @@
  },
  "silca:6696278982754": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 40.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "NASTRO CUSCINO 3.75 Grey",
+   "url": "https://silca.cc/products/nastro-cuscino-3-75-grey?variant=39736802279522",
+   "variant": "",
+   "was": 50.0
+  },
   "last": "2026-11-20",
   "low": 40.0
  },
@@ -41663,6 +42246,11 @@
   },
   "last": "2026-11-20",
   "low": 699.99
+ },
+ "specialized:4279306": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 5499.99
  },
  "specialized:4291508": {
   "first": "2026-11-16",
@@ -43219,7 +43807,7 @@
  },
  "the-lost-co:8363117084870": {
   "first": "2026-11-19",
-  "last": "2026-11-19",
+  "last": "2026-11-20",
   "low": 439.99
  },
  "the-lost-co:8363117150406": {
@@ -43239,7 +43827,7 @@
  },
  "the-lost-co:8363117314246": {
   "first": "2026-11-19",
-  "last": "2026-11-19",
+  "last": "2026-11-20",
   "low": 439.99
  },
  "the-lost-co:8363117347014": {
@@ -43326,8 +43914,8 @@
    "store": "the-lost-co",
    "store_name": "The Lost Co",
    "title": "Factory Float X2 Shock w/ Climb Switch - 230 x 57.5/60/62.5/65 mm (2026)",
-   "url": "https://www.thelostco.com/products/2026-fox-factory-float-x2-shock-w-climb-switch-230-x-57-5-60-62-5-65-mm?variant=44487110033606",
-   "variant": "230 x 60 mm",
+   "url": "https://www.thelostco.com/products/2026-fox-factory-float-x2-shock-w-climb-switch-230-x-57-5-60-62-5-65-mm?variant=44487110000838",
+   "variant": "230 x 57.5 mm",
    "was": 809.0
   },
   "last": "2026-11-20",
@@ -44055,7 +44643,7 @@
  },
  "the-lost-co:9025835925702": {
   "first": "2026-11-18",
-  "last": "2026-11-19",
+  "last": "2026-11-20",
   "low": 308.79
  },
  "the-lost-co:9025836024006": {
@@ -44947,6 +45535,26 @@
   "last": "2026-11-20",
   "low": 239.15,
   "seed": true
+ },
+ "the-lost-co:9183517114566": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 150.39
+ },
+ "the-lost-co:9183518654662": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 705.59
+ },
+ "the-lost-co:9183518720198": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 750.39
+ },
+ "the-lost-co:9183518818502": {
+  "first": "2026-11-20",
+  "last": "2026-11-20",
+  "low": 750.39
  },
  "the-pros-closet:10225957011648": {
   "first": "2026-11-16",
