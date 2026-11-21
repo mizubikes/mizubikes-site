@@ -7,8 +7,8 @@ categories: ["Mountain"]
 tags: ["Specialized Epic 9", "Cannondale Scalpel", "XC mountain bike", "bike comparison"]
 cover:
   image: "/images/specialized-epic-9-vs-cannondale-scalpel-cover.webp"
-  alt: "Cross-country mountain biker riding a dirt singletrack trail"
-  caption: "Photo: kinkate / Pixabay"
+  alt: "Cannondale Scalpel carbon XC full-suspension bike in gray and red with a Fox fork and SRAM Transmission drivetrain"
+  caption: "Cannondale Scalpel"
   relative: false
 draft: false
 ---
@@ -61,6 +61,9 @@ At the very top, the S-Works Epic 9 costs $1,250 more than the Scalpel LAB71. Bi
 This is the clearest difference in how the two bikes work. The Epic 9 Pro and S-Works use RockShox Flight Attendant, which adjusts the suspension automatically. The Epic 9 Expert and below don't have it. If you want it, see my list of [XC bikes with Flight Attendant](/posts/xc-bikes-with-flight-attendant/).
 
 The Scalpel makes you choose the mode yourself. In a [downcountry group test](https://enduro-mtb.com/en/best-downcountry-bike-comparison-test/), Enduro reported that the Cannondale's remote worked without accidental mode changes but needs manual selection between Open, Pedal and Lock.
+
+![Cannondale Scalpel in black with RockShox suspension and a SRAM Transmission drivetrain](/images/cannondale-scalpel-rockshox-build.webp)
+*Most Scalpel builds use a conventional RockShox or Fox fork instead of the Lefty.*
 
 Then there's the Lefty. In North America it came only on the LAB71 at launch, and Cannondale's US site still lists the LAB71 with the Lefty Ocho Carbon. The rest of the Scalpel range uses RockShox or Fox. The Lefty is smooth and precise, but it needs specialized service tools and shops that can work on it. Specialized uses standard RockShox forks throughout.
 
