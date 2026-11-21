@@ -7,8 +7,8 @@ categories: ["Mountain"]
 tags: ["Specialized Epic 9", "Cannondale Scalpel", "XC mountain bike", "bike comparison"]
 cover:
   image: "/images/specialized-epic-9-vs-cannondale-scalpel-cover.webp"
-  alt: "Cannondale Scalpel carbon XC full-suspension bike in gray and red with a Fox fork and SRAM Transmission drivetrain"
-  caption: "Cannondale Scalpel"
+  alt: "Side-by-side: S-Works Specialized Epic 9 in gray and a Cannondale Scalpel in gray and red, both carbon 29-inch XC full-suspension bikes"
+  caption: "Specialized Epic 9 (S-Works) and Cannondale Scalpel"
   relative: false
 draft: false
 ---
