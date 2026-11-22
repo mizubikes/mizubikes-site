@@ -1,7 +1,6 @@
 # One topic per line, phrased the way people search. The auto-drafter uses the top line, then deletes it.
 # Comparisons and specific buyer questions get the most clicks on this site, so keep them near the top.
 # When this list is empty, Claude picks a topic from recent launches the same way.
-Gravel tire width: 40mm vs 45mm vs 50mm
 Specialized Turbo Levo 4 vs Amflow PX Carbon
 Garmin Edge 1050 vs Wahoo Elemnt Roam for gravel
 Gravel bike vs endurance road bike: which should you buy
