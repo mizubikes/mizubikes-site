@@ -4923,7 +4923,7 @@
  },
  "btd:scspe": {
   "first": "2026-11-17",
-  "last": "2026-11-20",
+  "last": "2026-11-21",
   "low": 68.25
  },
  "btd:scspm": {
@@ -6178,6 +6178,19 @@
  },
  "btd:snsu1": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "tires",
+   "pct": 0.333,
+   "price": 28.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Ultimate Sealant, 1000ml",
+   "url": "https://www.biketiresdirect.com/product/silca-ultimate-sealant-1000ml",
+   "variant": "",
+   "was": 42.0
+  },
   "last": "2026-11-21",
   "low": 28.0
  },
@@ -6596,6 +6609,19 @@
  },
  "btd:vivdl": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Vittoria",
+   "category": "tires",
+   "pct": 0.5,
+   "price": 37.99,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Terreno Dry G2.0 700c Gravel Lite Tire",
+   "url": "https://www.biketiresdirect.com/product/vittoria-terreno-dry-g20-700c-gravel-lite-tire",
+   "variant": "",
+   "was": 75.99
+  },
   "last": "2026-11-21",
   "low": 37.99
  },
@@ -10153,6 +10179,19 @@
  },
  "contender:9589080129781": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "BMC",
+   "category": "bikes",
+   "pct": 0.4,
+   "price": 4379.4,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Kaius 01 THREE 2026",
+   "url": "https://contenderbicycles.com/products/bmc-kaius-01-three-2026?variant=47963322843381",
+   "variant": "Stone Grey / 54",
+   "was": 7299.0
+  },
   "last": "2026-11-21",
   "low": 4379.4,
   "seed": true
@@ -11661,6 +11700,19 @@
  },
  "fanatik:613899272238": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Wolf Tooth Components",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 79.95,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "ReMote Sustain for Reverb B-Post",
+   "url": "https://www.fanatikbike.com/products/wolf-tooth-components-remote-sustain-for-reverb-b-post?variant=7519665193006",
+   "variant": "Shimano IS-AB",
+   "was": 99.95
+  },
   "last": "2026-11-21",
   "low": 79.95,
   "seed": true
@@ -11679,6 +11731,19 @@
  },
  "fanatik:6553554911278": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Fox Racing Shox",
+   "category": "suspension",
+   "pct": 0.311,
+   "price": 275.0,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Transfer SL Factory 27.2mm Dropper Post",
+   "url": "https://www.fanatikbike.com/products/fox-transfer-sl-factory-27-2mm-dropper-post?variant=39310698905646",
+   "variant": "50mm",
+   "was": 399.0
+  },
   "last": "2026-11-21",
   "low": 275.0,
   "seed": true
@@ -19815,6 +19880,19 @@
  },
  "mikes-bikes:6904689328197": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Santa Cruz",
+   "category": "framesets",
+   "pct": 0.589,
+   "price": 2999.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Heckler SL C R",
+   "url": "https://mikesbikes.com/products/santa-cruz-heckler-sl-c-r-2024?variant=43841691058245",
+   "variant": "Gloss Magenta / X-Large",
+   "was": 7299.99
+  },
   "last": "2026-11-21",
   "low": 2999.77
  },
@@ -21731,7 +21809,7 @@
  "obed:10385040375983": {
   "first": "2026-11-21",
   "last": "2026-11-21",
-  "low": 79.0
+  "low": 60.0
  },
  "obed:7201650475183": {
   "first": "2026-11-19",
@@ -33105,6 +33183,19 @@
  },
  "planet-cyclery:8044640305324": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "OneUp",
+   "category": "suspension",
+   "pct": 0.25,
+   "price": 202.49,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "Dropper Post V3 - 240mm",
+   "url": "https://www.planetcyclery.com/products/oneup-dropper-post-v3-240mm?variant=43770420986028",
+   "variant": "Black / 30.9mm - 610mm / 240mm Drop",
+   "was": 269.99
+  },
   "last": "2026-11-21",
   "low": 202.49,
   "seed": true
@@ -36868,6 +36959,19 @@
  },
  "planet-cyclery:8374685466796": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Yeti",
+   "category": "bikes",
+   "pct": 0.188,
+   "price": 5200.0,
+   "sponsored": false,
+   "store": "planet-cyclery",
+   "store_name": "Planet Cyclery",
+   "title": "SB160 C2 29 - Eagle 90 - Raw Carbon",
+   "url": "https://www.planetcyclery.com/products/yeti-sb160-c2-29-eagle-90-raw-carbon?variant=44900193796268",
+   "variant": "Raw Carbon / X-Large",
+   "was": 6400.0
+  },
   "last": "2026-11-21",
   "low": 5200.0
  },
@@ -44110,7 +44214,7 @@
  },
  "the-lost-co:8363117084870": {
   "first": "2026-11-19",
-  "last": "2026-11-20",
+  "last": "2026-11-21",
   "low": 439.99
  },
  "the-lost-co:8363117150406": {
@@ -44130,7 +44234,7 @@
  },
  "the-lost-co:8363117314246": {
   "first": "2026-11-19",
-  "last": "2026-11-20",
+  "last": "2026-11-21",
   "low": 439.99
  },
  "the-lost-co:8363117347014": {
