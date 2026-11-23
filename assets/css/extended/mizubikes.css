@@ -591,3 +591,23 @@ body {
   .mb-cat-grid .mb-card img { border-radius: 6px; }
   .mb-mobile-card img { border-radius: 6px; }
 }
+
+/* ---------- Tablet and desktop: post cards as white panels, like the deals ---------- */
+@media (min-width: 769px) {
+  .mb-card-grid .mb-card {
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0 0 14px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .mb-card-grid .mb-card:hover { border-color: #1B8FAB; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06); }
+  .mb-card-grid .mb-card img,
+  .mb-card-grid .mb-card .mb-card-noimg {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0.75rem;
+  }
+  .mb-card-grid .mb-card > :not(img):not(.mb-card-noimg) { margin-left: 14px; margin-right: 14px; }
+}
