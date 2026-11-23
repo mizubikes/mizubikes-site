@@ -7,8 +7,8 @@ categories: ["Gravel"]
 tags: ["gravel tires", "tire width", "tubeless", "rolling resistance"]
 cover:
   image: "/images/gravel-tire-width-40mm-vs-45mm-vs-50mm-cover.webp"
-  alt: "Cyclist riding a gravel bike on a wide dirt road"
-  caption: "Photo: jdspixelworld / Pixabay"
+  alt: "Specialized gravel tire with a fast-rolling center tread and tan sidewalls"
+  caption: "Photo: Specialized"
   relative: false
 draft: false
 ---
