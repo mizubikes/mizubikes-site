@@ -1287,6 +1287,19 @@
  },
  "btd:g5nbt": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Giant",
+   "category": "framesets",
+   "pct": 0.4,
+   "price": 2640.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "TCR Advanced SL Frameset (2025)",
+   "url": "https://www.biketiresdirect.com/product/giant-2025-tcr-advanced-sl-frameset",
+   "variant": "",
+   "was": 4400.0
+  },
   "last": "2026-11-22",
   "low": 2640.0
  },
@@ -5245,7 +5258,7 @@
  },
  "btd:sesig": {
   "first": "2026-11-20",
-  "last": "2026-11-21",
+  "last": "2026-11-22",
   "low": 187.42
  },
  "btd:sesiw": {
@@ -7015,6 +7028,19 @@
  },
  "btd:zpxwp": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Zipp",
+   "category": "cockpit",
+   "pct": 0.3,
+   "price": 120.4,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Service Course SL Seatpost",
+   "url": "https://www.biketiresdirect.com/product/zipp-service-course-sl-seatpost_2",
+   "variant": "",
+   "was": 172.0
+  },
   "last": "2026-11-22",
   "low": 120.4
  },
@@ -19794,6 +19820,19 @@
  },
  "mikes-bikes:6884208279621": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Santa Cruz",
+   "category": "bikes",
+   "pct": 0.557,
+   "price": 3499.77,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "Tallboy 5 CC X0 AXS",
+   "url": "https://mikesbikes.com/products/santa-cruz-tallboy-5-cc-x0-axs-2024?variant=43702994337861",
+   "variant": "Gloss White / XX-Large",
+   "was": 7899.99
+  },
   "last": "2026-11-22",
   "low": 3499.77
  },
@@ -41703,6 +41742,19 @@
  },
  "silca:6696278360162": {
   "first": "2026-11-17",
+  "info": {
+   "brand": "Silca",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 40.0,
+   "sponsored": false,
+   "store": "silca",
+   "store_name": "Silca",
+   "title": "NASTRO CUSCINO 3.75 Red",
+   "url": "https://silca.cc/products/copy-of-nastro-cuscino-3-75-red?variant=39736797134946",
+   "variant": "",
+   "was": 50.0
+  },
   "last": "2026-11-22",
   "low": 40.0
  },
