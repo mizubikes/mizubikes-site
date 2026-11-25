@@ -187,8 +187,8 @@
   "info": {
    "brand": "Fox",
    "category": "accessories",
-   "pct": 0.299,
-   "price": 699.99,
+   "pct": 0.5,
+   "price": 499.99,
    "sponsored": false,
    "store": "bikes-online",
    "store_name": "Bikes Online",
@@ -198,7 +198,7 @@
    "was": 999.0
   },
   "last": "2026-11-24",
-  "low": 699.99,
+  "low": 499.99,
   "seed": true
  },
  "bikes-online:10244417323300": {
@@ -631,7 +631,7 @@
    "was": 109.99
   },
   "last": "2026-11-24",
-  "low": 59.99,
+  "low": 49.99,
   "seed": true
  },
  "bikes-online:15369731473700": {
@@ -693,7 +693,7 @@
  "bikes-online:15369731637540": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 69.99,
+  "low": 49.99,
   "seed": true
  },
  "bikes-online:15369731670308": {
@@ -5427,7 +5427,7 @@
    "variant": "",
    "was": 102.0
   },
-  "last": "2026-11-23",
+  "last": "2026-11-24",
   "low": 76.5
  },
  "btd:scoku": {
@@ -8024,6 +8024,24 @@
   "first": "2026-11-20",
   "last": "2026-11-24",
   "low": 88.5
+ },
+ "chris-king:9156258529398": {
+  "first": "2026-11-24",
+  "info": {
+   "brand": "Chris King Precision Components",
+   "category": "wheels",
+   "pct": 0.15,
+   "price": 999.0,
+   "sponsored": false,
+   "store": "chris-king",
+   "store_name": "Chris King",
+   "title": "FACTORY FINDS - Stan's Flow MK4 29\" Boost Centerlock Matte Black",
+   "url": "https://chrisking.com/products/factory-finds-stans-flow-mk4-29-boost-centerlock-matte-black-copy?variant=49491307167862",
+   "variant": "XD",
+   "was": 1175.0
+  },
+  "last": "2026-11-24",
+  "low": 999.0
  },
  "contender:15396115153141": {
   "first": "2026-11-19",
@@ -15147,6 +15165,11 @@
   "low": 164.99,
   "seed": true
  },
+ "incycle:4613902106755": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 37.49
+ },
  "incycle:4625898897539": {
   "first": "2026-11-16",
   "info": {
@@ -15262,13 +15285,13 @@
  "incycle:6618758676611": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 2099.97,
+  "low": 1399.97,
   "seed": true
  },
  "incycle:6618763985027": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 1999.97,
+  "low": 996.97,
   "seed": true
  },
  "incycle:6618765754499": {
@@ -15366,6 +15389,11 @@
   "last": "2026-11-17",
   "low": 32.97,
   "seed": true
+ },
+ "incycle:6729737470083": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 1999.97
  },
  "incycle:6739363659907": {
   "first": "2026-11-16",
@@ -15663,7 +15691,7 @@
  "incycle:6743947346051": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 699.99
+  "low": 399.97
  },
  "incycle:6743960092803": {
   "first": "2026-11-17",
@@ -16253,7 +16281,25 @@
    "was": 4999.99
   },
   "last": "2026-11-24",
-  "low": 3899.97
+  "low": 2374.97
+ },
+ "incycle:7821564575875": {
+  "first": "2026-11-24",
+  "info": {
+   "brand": "Wahoo",
+   "category": "electronics",
+   "pct": 0.2,
+   "price": 679.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Kickr Smart Power Trainer",
+   "url": "https://www.incycle.com/products/wahoo-kickr-v6?variant=43087832481923",
+   "variant": "",
+   "was": 849.99
+  },
+  "last": "2026-11-24",
+  "low": 679.99
  },
  "incycle:7848549744771": {
   "first": "2026-11-16",
@@ -16626,7 +16672,7 @@
  "incycle:7886645297283": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 4498.97,
+  "low": 3039.97,
   "seed": true
  },
  "incycle:7892533313667": {
@@ -16679,7 +16725,7 @@
  "incycle:7906992488579": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 349.97,
+  "low": 279.97,
   "seed": true
  },
  "incycle:7907313746051": {
@@ -16789,17 +16835,17 @@
  "incycle:7912592375939": {
   "first": "2026-11-20",
   "last": "2026-11-24",
-  "low": 2099.99
+  "low": 1199.97
  },
  "incycle:7912592408707": {
   "first": "2026-11-20",
   "last": "2026-11-24",
-  "low": 1899.97
+  "low": 1599.97
  },
  "incycle:7912592507011": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 2099.97,
+  "low": 1399.97,
   "seed": true
  },
  "incycle:7913032450179": {
@@ -16854,7 +16900,7 @@
  "incycle:8011061100675": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 799.97,
+  "low": 607.97,
   "seed": true
  },
  "incycle:8023353000067": {
@@ -17219,6 +17265,75 @@
   "low": 127.97,
   "seed": true
  },
+ "incycle:8198787170435": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 71.99
+ },
+ "incycle:8198787235971": {
+  "first": "2026-11-24",
+  "info": {
+   "brand": "OneUp",
+   "category": "suspension",
+   "pct": 0.4,
+   "price": 110.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "V2 Dropper Post",
+   "url": "https://www.incycle.com/products/oneup-v2-dropper-post?variant=44113827463299",
+   "variant": "120mm 34.9",
+   "was": 184.99
+  },
+  "last": "2026-11-24",
+  "low": 110.99
+ },
+ "incycle:8198787465347": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 35.99
+ },
+ "incycle:8198787530883": {
+  "first": "2026-11-24",
+  "info": {
+   "brand": "OneUp",
+   "category": "tools",
+   "pct": 0.357,
+   "price": 44.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "EDC Tool v2 - Black",
+   "url": "https://www.incycle.com/products/oneup-edc-tool-v2-blk?variant=44113827987587",
+   "variant": "",
+   "was": 69.99
+  },
+  "last": "2026-11-24",
+  "low": 44.99
+ },
+ "incycle:8198787563651": {
+  "first": "2026-11-24",
+  "info": {
+   "brand": "OneUp",
+   "category": "suspension",
+   "pct": 0.25,
+   "price": 202.49,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "V3 Dropper Post",
+   "url": "https://www.incycle.com/products/oneup-v3-dropper-post?variant=44113828020355",
+   "variant": "210mm 31.6",
+   "was": 269.99
+  },
+  "last": "2026-11-24",
+  "low": 202.49
+ },
+ "incycle:8198787727491": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 31.99
+ },
  "incycle:8203933941891": {
   "first": "2026-11-16",
   "last": "2026-11-24",
@@ -17242,6 +17357,11 @@
   "last": "2026-11-24",
   "low": 23.97,
   "seed": true
+ },
+ "incycle:8262815350915": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 6554.97
  },
  "incycle:8269550944387": {
   "first": "2026-11-16",
@@ -17369,8 +17489,8 @@
   "info": {
    "brand": "Specialized",
    "category": "bikes",
-   "pct": 0.2,
-   "price": 6399.99,
+   "pct": 0.4,
+   "price": 4799.97,
    "sponsored": false,
    "store": "incycle",
    "store_name": "inCycle",
@@ -17380,7 +17500,7 @@
    "was": 7999.99
   },
   "last": "2026-11-24",
-  "low": 6399.99,
+  "low": 4799.97,
   "seed": true
  },
  "incycle:8375876944003": {
@@ -17401,6 +17521,11 @@
   "last": "2026-11-24",
   "low": 3999.99
  },
+ "incycle:8375876976771": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 2051.97
+ },
  "incycle:8375877009539": {
   "first": "2026-11-16",
   "info": {
@@ -17417,7 +17542,7 @@
    "was": 5999.99
   },
   "last": "2026-11-24",
-  "low": 4799.99,
+  "low": 3599.97,
   "seed": true
  },
  "incycle:8375877337219": {
@@ -17425,8 +17550,8 @@
   "info": {
    "brand": "Specialized",
    "category": "framesets",
-   "pct": 0.19,
-   "price": 1699.99,
+   "pct": 0.4,
+   "price": 1259.97,
    "sponsored": false,
    "store": "incycle",
    "store_name": "inCycle",
@@ -17436,7 +17561,7 @@
    "was": 2099.99
   },
   "last": "2026-11-24",
-  "low": 1699.99
+  "low": 1259.97
  },
  "incycle:8378675560579": {
   "first": "2026-11-16",
@@ -17562,7 +17687,7 @@
  "incycle:8423511031939": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 549.99,
+  "low": 419.97,
   "seed": true
  },
  "incycle:8424344518787": {
@@ -17587,7 +17712,7 @@
  "incycle:8425036218499": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 599.99,
+  "low": 539.97,
   "seed": true
  },
  "incycle:8425036611715": {
@@ -17598,7 +17723,7 @@
  "incycle:8441027264643": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 799.99,
+  "low": 599.97,
   "seed": true
  },
  "incycle:8444501491843": {
@@ -17626,22 +17751,32 @@
   "low": 119.97,
   "seed": true
  },
+ "incycle:8450856091779": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 4844.97
+ },
  "incycle:8451564470403": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 7999.99,
+  "low": 5699.97,
   "seed": true
  },
  "incycle:8451699802243": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 10399.99,
+  "low": 7409.97,
   "seed": true
  },
  "incycle:8451699835011": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 5999.99
+  "low": 4274.97
+ },
+ "incycle:8451701538947": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 5999.97
  },
  "incycle:8451701571715": {
   "first": "2026-11-16",
@@ -17659,13 +17794,18 @@
    "was": 6099.99
   },
   "last": "2026-11-24",
-  "low": 4799.99,
+  "low": 4559.97,
   "seed": true
+ },
+ "incycle:8451701670019": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 3704.97
  },
  "incycle:8451701964931": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 8799.99
+  "low": 6269.97
  },
  "incycle:8452024402051": {
   "first": "2026-11-16",
@@ -17683,7 +17823,7 @@
    "was": 8999.99
   },
   "last": "2026-11-24",
-  "low": 7199.99,
+  "low": 5399.97,
   "seed": true
  },
  "incycle:8457986179203": {
@@ -17781,12 +17921,12 @@
  "incycle:8492316622979": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 12799.99
+  "low": 8639.97
  },
  "incycle:8492316721283": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 5599.99,
+  "low": 3989.97,
   "seed": true
  },
  "incycle:8492316819587": {
@@ -17794,6 +17934,11 @@
   "last": "2026-11-24",
   "low": 2799.99,
   "seed": true
+ },
+ "incycle:8493013270659": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 2999.97
  },
  "incycle:8494124892291": {
   "first": "2026-11-16",
@@ -17815,7 +17960,7 @@
  "incycle:8495080407171": {
   "first": "2026-11-20",
   "last": "2026-11-24",
-  "low": 3499.99
+  "low": 1999.97
  },
  "incycle:8495080734851": {
   "first": "2026-11-16",
@@ -17845,6 +17990,11 @@
   "last": "2026-11-24",
   "low": 167.97,
   "seed": true
+ },
+ "incycle:8502089384067": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 119.99
  },
  "incycle:8503380738179": {
   "first": "2026-11-16",
@@ -17879,7 +18029,7 @@
    "was": 1099.99
   },
   "last": "2026-11-24",
-  "low": 699.99,
+  "low": 659.97,
   "seed": true
  },
  "incycle:8506516603011": {
@@ -17898,8 +18048,26 @@
    "was": 4999.99
   },
   "last": "2026-11-24",
-  "low": 3999.97,
+  "low": 2849.97,
   "seed": true
+ },
+ "incycle:8507254898819": {
+  "first": "2026-11-24",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.43,
+   "price": 2165.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Crux Comp - Shimano GRX (2025)",
+   "url": "https://www.incycle.com/products/2025-specialized-crux-comp?variant=44989646667907",
+   "variant": "Gloss Carbon / Purple Haze / Rebel Pink / Birch / 58",
+   "was": 3799.99
+  },
+  "last": "2026-11-24",
+  "low": 2165.97
  },
  "incycle:8510027268227": {
   "first": "2026-11-16",
@@ -17931,10 +18099,15 @@
   "low": 25.97,
   "seed": true
  },
+ "incycle:8515783164035": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 399.99
+ },
  "incycle:8520557199491": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 7199.99,
+  "low": 5129.97,
   "seed": true
  },
  "incycle:8520557396099": {
@@ -17980,6 +18153,11 @@
   "low": 56.97,
   "seed": true
  },
+ "incycle:8539526365315": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 119.99
+ },
  "incycle:8539527512195": {
   "first": "2026-11-16",
   "info": {
@@ -18023,6 +18201,11 @@
   "last": "2026-11-16",
   "low": 69.97,
   "seed": true
+ },
+ "incycle:8546941337731": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 71.99
  },
  "incycle:8546945204355": {
   "first": "2026-11-16",
@@ -18072,6 +18255,11 @@
   "low": 59.97,
   "seed": true
  },
+ "incycle:8555492049027": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 398.97
+ },
  "incycle:8555492114563": {
   "first": "2026-11-17",
   "last": "2026-11-18",
@@ -18080,7 +18268,7 @@
  "incycle:8558006567043": {
   "first": "2026-11-20",
   "last": "2026-11-24",
-  "low": 2699.99
+  "low": 1799.97
  },
  "incycle:8561582997635": {
   "first": "2026-11-16",
@@ -18245,6 +18433,11 @@
   "low": 146.99,
   "seed": true
  },
+ "incycle:8585873326211": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 21.59
+ },
  "incycle:8585927393411": {
   "first": "2026-11-16",
   "last": "2026-11-24",
@@ -18390,10 +18583,28 @@
   "low": 92.97,
   "seed": true
  },
+ "incycle:8602377519235": {
+  "first": "2026-11-24",
+  "info": {
+   "brand": "Wahoo",
+   "category": "electronics",
+   "pct": 0.2,
+   "price": 279.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Elemnt Bolt V3",
+   "url": "https://www.incycle.com/products/wahoo-elemnt-bolt-v3?variant=45324461113475",
+   "variant": "",
+   "was": 349.99
+  },
+  "last": "2026-11-24",
+  "low": 279.99
+ },
  "incycle:8606421745795": {
   "first": "2026-11-16",
   "last": "2026-11-24",
-  "low": 4674.99
+  "low": 3134.97
  },
  "incycle:8610436644995": {
   "first": "2026-11-16",
@@ -18452,7 +18663,7 @@
  "incycle:8611500949635": {
   "first": "2026-11-20",
   "last": "2026-11-24",
-  "low": 3399.97
+  "low": 2199.97
  },
  "incycle:8624893001859": {
   "first": "2026-11-16",
@@ -18518,6 +18729,11 @@
   "last": "2026-11-16",
   "low": 69.97,
   "seed": true
+ },
+ "incycle:8654111506563": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 740.97
  },
  "incycle:8657586061443": {
   "first": "2026-11-16",
@@ -18916,6 +19132,24 @@
   "low": 26.97,
   "seed": true
  },
+ "incycle:8703345754243": {
+  "first": "2026-11-24",
+  "info": {
+   "brand": "Wahoo",
+   "category": "electronics",
+   "pct": 0.273,
+   "price": 399.99,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "KICKR CORE 2",
+   "url": "https://www.incycle.com/products/wahoo-kickr-core-2-with-11spd-cassette?variant=45652728447107",
+   "variant": "",
+   "was": 549.99
+  },
+  "last": "2026-11-24",
+  "low": 399.99
+ },
  "incycle:8703346475139": {
   "first": "2026-11-16",
   "last": "2026-11-24",
@@ -19219,6 +19453,11 @@
   "low": 5739.97,
   "seed": true
  },
+ "incycle:9083621245059": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 3299.97
+ },
  "incycle:9083621474435": {
   "first": "2026-11-20",
   "last": "2026-11-24",
@@ -19503,10 +19742,20 @@
   "last": "2026-11-24",
   "low": 191.25
  },
+ "mikes-bikes:2090835673155": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 878.95
+ },
  "mikes-bikes:2090867392579": {
   "first": "2026-11-16",
   "last": "2026-11-24",
   "low": 164.77
+ },
+ "mikes-bikes:2090939744323": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 479.95
  },
  "mikes-bikes:2091727618115": {
   "first": "2026-11-16",
@@ -20568,6 +20817,11 @@
   },
   "last": "2026-11-24",
   "low": 179.77
+ },
+ "mikes-bikes:6847478333509": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 1039.95
  },
  "mikes-bikes:6848711229509": {
   "first": "2026-11-16",
@@ -21804,6 +22058,11 @@
   "first": "2026-11-17",
   "last": "2026-11-24",
   "low": 124.77
+ },
+ "mikes-bikes:7559313326149": {
+  "first": "2026-11-24",
+  "last": "2026-11-24",
+  "low": 799.95
  },
  "mikes-bikes:7583922290757": {
   "first": "2026-11-16",
@@ -32873,7 +33132,7 @@
  },
  "planet-cyclery:8044396675244": {
   "first": "2026-11-23",
-  "last": "2026-11-23",
+  "last": "2026-11-24",
   "low": 95.99
  },
  "planet-cyclery:8044396937388": {
@@ -45886,7 +46145,7 @@
  },
  "the-lost-co:7776527810758": {
   "first": "2026-11-23",
-  "last": "2026-11-23",
+  "last": "2026-11-24",
   "low": 85.56
  },
  "the-lost-co:7776527876294": {
@@ -46607,7 +46866,7 @@
  },
  "the-lost-co:8363117084870": {
   "first": "2026-11-19",
-  "last": "2026-11-23",
+  "last": "2026-11-24",
   "low": 439.99
  },
  "the-lost-co:8363117150406": {
@@ -46627,7 +46886,7 @@
  },
  "the-lost-co:8363117314246": {
   "first": "2026-11-19",
-  "last": "2026-11-23",
+  "last": "2026-11-24",
   "low": 439.99
  },
  "the-lost-co:8363117347014": {
@@ -47497,6 +47756,11 @@
  },
  "the-lost-co:8993521664198": {
   "first": "2026-11-18",
+  "last": "2026-11-24",
+  "low": 151.99
+ },
+ "the-lost-co:8993521696966": {
+  "first": "2026-11-24",
   "last": "2026-11-24",
   "low": 151.99
  },
