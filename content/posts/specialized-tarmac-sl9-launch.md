@@ -53,3 +53,5 @@ For now, only the S-Works tier exists. Expect the range to extend into Pro and E
 If you're weighing the SL9 against the outgoing model, see [the SL8 complete vs custom build cost math](/posts/specialized-sl8-complete-vs-custom-build-cost/), and if you want one bike for road and gravel, [the Crux 5 quiver-killer argument](/posts/crux-5-quiver-killer-road-bike/) is worth a read.
 
 *Deciding between models? Here's [Tarmac SL9 Comp vs Expert vs S-Level vs S-Works](/posts/tarmac-sl9-which-model-to-buy/), with what each step up costs per gram.*
+
+*Already own an SL8? Here's [whether it's worth upgrading to the SL9](/posts/tarmac-sl8-vs-sl9-worth-upgrading/).*
