@@ -12,9 +12,9 @@ tags:
 - Road Bikes
 - Upgrades
 cover:
-  image: /images/tarmac-sl8-vs-sl9-upgrade.webp
-  alt: Tarmac SL8 to SL9, worth the upgrade? 4 watts less drag, 2 grams heavier, about 15 seconds saved per hour
-  caption: 'Graphic: Mizubikes'
+  image: /images/my-tarmac-sl8-ultegra-enve.webp
+  alt: My white Specialized Tarmac SL8 with Shimano Ultegra Di2 and ENVE wheels
+  caption: 'My Tarmac SL8. Photo: Mizubikes'
   relative: false
 draft: false
 ---
@@ -22,6 +22,9 @@ draft: false
 I ride a 54cm Tarmac SL8, so this one's personal. The SL9 is out, it looks great, and I've been asking myself the same question a lot of SL8 owners are: is it actually worth upgrading?
 
 **Quick answer:** For most SL8 owners, no. The SL9 is about 4 watts more aero by Specialized's numbers, which works out to roughly 15 seconds per hour of riding. The frame weight, geometry, tire clearance and ride are basically the same. The upgrade makes sense if you want a UDH dropout for SRAM's newer drivetrains, if you race and every watt counts, or if you can sell your SL8 for close to what an SL9 costs you. Otherwise, the same money spent on wheels, tires or fit will make you faster.
+
+![Tarmac SL8 to SL9: 4 watts less drag, 2 grams heavier, about 15 seconds saved per hour](/images/tarmac-sl8-vs-sl9-upgrade.webp)
+*Graphic: Mizubikes*
 
 ## What actually changed
 
