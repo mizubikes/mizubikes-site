@@ -7,8 +7,8 @@ categories: ["E-Bike"]
 tags: ["Specialized Turbo Levo 4", "Amflow PX Carbon", "eMTB", "Avinox M2S", "E-Bike Comparison"]
 cover:
   image: "/images/specialized-turbo-levo-4-vs-amflow-px-carbon-cover.webp"
-  alt: "Amflow PX Carbon e-mountain bike with SRAM Transmission and Schwalbe tires"
-  caption: "Amflow PX Carbon. Photo: Amflow"
+  alt: "Specialized Turbo Levo 4 next to an Amflow PX Carbon e-mountain bike"
+  caption: "Turbo Levo 4 (left) and Amflow PX Carbon (right). Photos: Specialized, Amflow"
   relative: false
 draft: false
 ---
