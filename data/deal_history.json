@@ -59,6 +59,11 @@
   "low": 89.99,
   "seed": true
  },
+ "bikes-online:10045489578276": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 99.99
+ },
  "bikes-online:10057378922788": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -872,6 +877,11 @@
   "last": "2026-11-25",
   "low": 69.98,
   "seed": true
+ },
+ "bikes-online:9976594268452": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 39.99
  },
  "bikes-online:9986515304740": {
   "first": "2026-11-16",
@@ -5795,7 +5805,7 @@
  },
  "btd:scspe": {
   "first": "2026-11-17",
-  "last": "2026-11-23",
+  "last": "2026-11-25",
   "low": 68.25
  },
  "btd:scspm": {
@@ -7330,6 +7340,11 @@
   "last": "2026-11-25",
   "low": 123.96
  },
+ "btd:tp15p": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 74.36
+ },
  "btd:tp231": {
   "first": "2026-11-25",
   "last": "2026-11-25",
@@ -8284,7 +8299,7 @@
  },
  "contender:15480831639797": {
   "first": "2026-11-16",
-  "last": "2026-11-16",
+  "last": "2026-11-25",
   "low": 3895.0,
   "seed": true
  },
@@ -8551,7 +8566,7 @@
  },
  "contender:6121672343720": {
   "first": "2026-11-16",
-  "last": "2026-11-16",
+  "last": "2026-11-25",
   "low": 140.0,
   "seed": true
  },
@@ -8605,7 +8620,7 @@
  },
  "contender:6647167615144": {
   "first": "2026-11-16",
-  "last": "2026-11-16",
+  "last": "2026-11-25",
   "low": 75.0,
   "seed": true
  },
@@ -9016,7 +9031,7 @@
  },
  "contender:7937819443445": {
   "first": "2026-11-16",
-  "last": "2026-11-16",
+  "last": "2026-11-25",
   "low": 20.0,
   "seed": true
  },
@@ -14974,7 +14989,7 @@
  },
  "fanatik:7685080055854": {
   "first": "2026-11-16",
-  "last": "2026-11-20",
+  "last": "2026-11-25",
   "low": 125.0,
   "seed": true
  },
@@ -16297,6 +16312,19 @@
  },
  "incycle:7740235677827": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "apparel",
+   "pct": 0.506,
+   "price": 209.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "S-Works Vent EVO Gravel Shoes",
+   "url": "https://www.incycle.com/products/s-works-vent-evo-shoe-red-44-5?variant=68318504779907",
+   "variant": "Black / 36 / Regular",
+   "was": 424.99
+  },
   "last": "2026-11-25",
   "low": 209.97
  },
@@ -17541,6 +17569,19 @@
  },
  "incycle:8198787367043": {
   "first": "2026-11-25",
+  "info": {
+   "brand": "OneUp",
+   "category": "suspension",
+   "pct": 0.4,
+   "price": 55.19,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "V2 Dropper Post Cartridge",
+   "url": "https://www.incycle.com/products/oneup-v2-dropper-post-cartridge?variant=44113827823747",
+   "variant": "180mm",
+   "was": 91.99
+  },
   "last": "2026-11-25",
   "low": 55.19
  },
@@ -18067,7 +18108,7 @@
  },
  "incycle:8450856091779": {
   "first": "2026-11-24",
-  "last": "2026-11-24",
+  "last": "2026-11-25",
   "low": 4844.97
  },
  "incycle:8451564470403": {
@@ -18298,6 +18339,11 @@
   "last": "2026-11-25",
   "low": 38.99,
   "seed": true
+ },
+ "incycle:8497633525891": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 711.97
  },
  "incycle:8499423445123": {
   "first": "2026-11-16",
@@ -18925,6 +18971,11 @@
   },
   "last": "2026-11-25",
   "low": 749.99
+ },
+ "incycle:8599555506307": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 2759.97
  },
  "incycle:8601124798595": {
   "first": "2026-11-16",
@@ -21400,7 +21451,7 @@
  "mikes-bikes:6865170399301": {
   "first": "2026-11-16",
   "last": "2026-11-25",
-  "low": 224.95
+  "low": 199.95
  },
  "mikes-bikes:6865186095173": {
   "first": "2026-11-16",
@@ -21523,6 +21574,11 @@
   "first": "2026-11-24",
   "last": "2026-11-25",
   "low": 225.0
+ },
+ "mikes-bikes:6887299481669": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 359.99
  },
  "mikes-bikes:6888655519813": {
   "first": "2026-11-16",
@@ -21744,6 +21800,11 @@
   "last": "2026-11-25",
   "low": 32.99
  },
+ "mikes-bikes:6907819720773": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 183.99
+ },
  "mikes-bikes:6909282025541": {
   "first": "2026-11-16",
   "last": "2026-11-25",
@@ -21763,6 +21824,11 @@
   "first": "2026-11-16",
   "last": "2026-11-25",
   "low": 223.95
+ },
+ "mikes-bikes:6910990614597": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 59.99
  },
  "mikes-bikes:6910994972741": {
   "first": "2026-11-16",
@@ -21791,6 +21857,31 @@
   "first": "2026-11-16",
   "last": "2026-11-25",
   "low": 49.77
+ },
+ "mikes-bikes:6913260814405": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 142.49
+ },
+ "mikes-bikes:6913260879941": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 142.49
+ },
+ "mikes-bikes:6913261142085": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 134.99
+ },
+ "mikes-bikes:6913261436997": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 112.49
+ },
+ "mikes-bikes:6913261568069": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 142.49
  },
  "mikes-bikes:6913821474885": {
   "first": "2026-11-16",
@@ -21924,6 +22015,11 @@
   "first": "2026-11-16",
   "last": "2026-11-25",
   "low": 39.77
+ },
+ "mikes-bikes:6971822276677": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 29.95
  },
  "mikes-bikes:6980434559045": {
   "first": "2026-11-16",
@@ -22271,6 +22367,16 @@
   "last": "2026-11-25",
   "low": 31.77
  },
+ "mikes-bikes:7424392200261": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 202.49
+ },
+ "mikes-bikes:7424393347141": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 104.99
+ },
  "mikes-bikes:7425899724869": {
   "first": "2026-11-16",
   "last": "2026-11-25",
@@ -22361,6 +22467,11 @@
   "first": "2026-11-16",
   "last": "2026-11-25",
   "low": 119.99
+ },
+ "mikes-bikes:7480745328709": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 202.49
  },
  "mikes-bikes:7488938180677": {
   "first": "2026-11-17",
@@ -22643,10 +22754,35 @@
   "last": "2026-11-25",
   "low": 352.49
  },
+ "mikes-bikes:7626639605829": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 7649.95
+ },
+ "mikes-bikes:7626641276997": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 6637.95
+ },
+ "mikes-bikes:7626641965125": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 10752.95
+ },
  "mikes-bikes:7626642292805": {
   "first": "2026-11-16",
   "last": "2026-11-25",
-  "low": 5219.95
+  "low": 4929.95
+ },
+ "mikes-bikes:7626647175237": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 8712.95
+ },
+ "mikes-bikes:7626648289349": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 8584.95
  },
  "mikes-bikes:7626649108549": {
   "first": "2026-11-16",
@@ -22807,6 +22943,11 @@
   "last": "2026-11-25",
   "low": 9599.0
  },
+ "mikes-bikes:7699217088581": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 3187.95
+ },
  "mikes-bikes:7699233734725": {
   "first": "2026-11-16",
   "last": "2026-11-25",
@@ -22827,6 +22968,16 @@
   "last": "2026-11-25",
   "low": 5799.0
  },
+ "mikes-bikes:7727719579717": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 142.49
+ },
+ "mikes-bikes:7727720431685": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 142.49
+ },
  "mikes-bikes:7727819980869": {
   "first": "2026-11-16",
   "info": {
@@ -22844,6 +22995,16 @@
   },
   "last": "2026-11-25",
   "low": 199.95
+ },
+ "mikes-bikes:7727820406853": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 7649.95
+ },
+ "mikes-bikes:7727820668997": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 6289.95
  },
  "mikes-bikes:7729880203333": {
   "first": "2026-11-16",
@@ -23028,6 +23189,16 @@
   "last": "2026-11-24",
   "low": 6399.0
  },
+ "mikes-bikes:7770378993733": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 104.99
+ },
+ "mikes-bikes:7770423328837": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 104.99
+ },
  "mikes-bikes:7773036118085": {
   "first": "2026-11-23",
   "last": "2026-11-25",
@@ -23055,13 +23226,23 @@
  },
  "mikes-bikes:7785621880901": {
   "first": "2026-11-16",
-  "last": "2026-11-18",
+  "last": "2026-11-25",
   "low": 181.77
  },
  "mikes-bikes:7785622110277": {
   "first": "2026-11-16",
   "last": "2026-11-25",
   "low": 146.77
+ },
+ "mikes-bikes:7794291703877": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 239.99
+ },
+ "mikes-bikes:7794293669957": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 159.99
  },
  "mikes-bikes:7794297372741": {
   "first": "2026-11-16",
@@ -23096,10 +23277,35 @@
   "last": "2026-11-25",
   "low": 1759.95
  },
+ "mikes-bikes:7833222086725": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 3017.95
+ },
+ "mikes-bikes:7850681729093": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 7607.95
+ },
  "mikes-bikes:7862693658693": {
   "first": "2026-11-16",
   "last": "2026-11-25",
-  "low": 4094.95
+  "low": 3867.95
+ },
+ "mikes-bikes:7862696247365": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 5992.95
+ },
+ "mikes-bikes:7862696575045": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 10624.95
+ },
+ "mikes-bikes:7862700146757": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 10837.95
  },
  "mikes-bikes:7862709059653": {
   "first": "2026-11-16",
@@ -23406,6 +23612,11 @@
   "last": "2026-11-25",
   "low": 102.77
  },
+ "mikes-bikes:7960903090245": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 95.99
+ },
  "mikes-bikes:7960955879493": {
   "first": "2026-11-16",
   "last": "2026-11-25",
@@ -23527,7 +23738,7 @@
  },
  "mikes-bikes:8105924165701": {
   "first": "2026-11-16",
-  "last": "2026-11-23",
+  "last": "2026-11-25",
   "low": 63.99
  },
  "mikes-bikes:8121877495877": {
@@ -29198,7 +29409,7 @@
  },
  "planet-cyclery:8043753472172": {
   "first": "2026-11-16",
-  "last": "2026-11-17",
+  "last": "2026-11-25",
   "low": 64.0,
   "seed": true
  },
@@ -29324,7 +29535,7 @@
  },
  "planet-cyclery:8043765006508": {
   "first": "2026-11-16",
-  "last": "2026-11-22",
+  "last": "2026-11-25",
   "low": 64.0,
   "seed": true
  },
@@ -29733,8 +29944,8 @@
   "info": {
    "brand": "Shimano",
    "category": "wheels",
-   "pct": 0.2,
-   "price": 680.0,
+   "pct": 0.306,
+   "price": 589.99,
    "sponsored": false,
    "store": "planet-cyclery",
    "store_name": "Planet Cyclery",
@@ -39613,7 +39824,7 @@
    "variant": "Gloss Day Green / X-Large",
    "was": 4049.0
   },
-  "last": "2026-11-20",
+  "last": "2026-11-25",
   "low": 3049.0,
   "seed": true
  },
@@ -41437,8 +41648,8 @@
   "info": {
    "brand": "Specialized",
    "category": "framesets",
-   "pct": 0.194,
-   "price": 2899.99,
+   "pct": 0.43,
+   "price": 2051.99,
    "sponsored": false,
    "store": "sierra-bicycle-supply",
    "store_name": "Sierra Bicycle Supply",
@@ -41448,7 +41659,7 @@
    "was": 3600.0
   },
   "last": "2026-11-25",
-  "low": 2899.99
+  "low": 2051.99
  },
  "sierra-bicycle-supply:8674155659512": {
   "first": "2026-11-16",
@@ -41545,7 +41756,7 @@
    "was": 8000.0
   },
   "last": "2026-11-25",
-  "low": 6399.99
+  "low": 4799.99
  },
  "sierra-bicycle-supply:9097100755192": {
   "first": "2026-11-16",
@@ -41629,7 +41840,7 @@
  "sierra-bicycle-supply:9130758930680": {
   "first": "2026-11-16",
   "last": "2026-11-25",
-  "low": 799.99
+  "low": 599.99
  },
  "sierra-bicycle-supply:9144208326904": {
   "first": "2026-11-16",
@@ -41729,7 +41940,7 @@
  "sierra-bicycle-supply:9144221696248": {
   "first": "2026-11-16",
   "last": "2026-11-25",
-  "low": 549.99
+  "low": 419.99
  },
  "sierra-bicycle-supply:9144222613752": {
   "first": "2026-11-16",
@@ -41872,8 +42083,8 @@
   "info": {
    "brand": "Specialized",
    "category": "bikes",
-   "pct": 0.2,
-   "price": 4799.99,
+   "pct": 0.4,
+   "price": 3599.99,
    "sponsored": false,
    "store": "sierra-bicycle-supply",
    "store_name": "Sierra Bicycle Supply",
@@ -41883,7 +42094,7 @@
    "was": 6000.0
   },
   "last": "2026-11-25",
-  "low": 4799.99
+  "low": 3599.99
  },
  "sierra-bicycle-supply:9144235131128": {
   "first": "2026-11-16",
@@ -42280,7 +42491,7 @@
    "was": 8000.0
   },
   "last": "2026-11-25",
-  "low": 4799.99
+  "low": 3039.99
  },
  "sierra-bicycle-supply:9167400534264": {
   "first": "2026-11-16",
@@ -42678,8 +42889,8 @@
   "info": {
    "brand": "Specialized",
    "category": "framesets",
-   "pct": 0.19,
-   "price": 1699.99,
+   "pct": 0.4,
+   "price": 1259.99,
    "sponsored": false,
    "store": "sierra-bicycle-supply",
    "store_name": "Sierra Bicycle Supply",
@@ -42689,7 +42900,7 @@
    "was": 2100.0
   },
   "last": "2026-11-25",
-  "low": 1699.99
+  "low": 1259.99
  },
  "sierra-bicycle-supply:9189668978936": {
   "first": "2026-11-16",
@@ -42710,6 +42921,11 @@
   "first": "2026-11-16",
   "last": "2026-11-25",
   "low": 2999.99
+ },
+ "sierra-bicycle-supply:9189669994744": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 1599.99
  },
  "sierra-bicycle-supply:9189670322424": {
   "first": "2026-11-16",
@@ -42770,7 +42986,7 @@
  "sierra-bicycle-supply:9194483646712": {
   "first": "2026-11-16",
   "last": "2026-11-25",
-  "low": 2999.99
+  "low": 2759.99
  },
  "sierra-bicycle-supply:9194483843320": {
   "first": "2026-11-16",
@@ -42793,7 +43009,7 @@
    "was": 1600.0
   },
   "last": "2026-11-25",
-  "low": 799.99
+  "low": 607.99
  },
  "sierra-bicycle-supply:9195555291384": {
   "first": "2026-11-21",
@@ -42915,6 +43131,24 @@
   "first": "2026-11-16",
   "last": "2026-11-25",
   "low": 24.99
+ },
+ "sierra-bicycle-supply:9218925494520": {
+  "first": "2026-11-25",
+  "info": {
+   "brand": "Specialized",
+   "category": "bikes",
+   "pct": 0.6,
+   "price": 1999.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Turbo Vado 5.0 Step-Through",
+   "url": "https://shopbikesupply.com/products/turbo-vado-5-0-step-through-1?variant=46862551351544",
+   "variant": "XL / Red Tint / Silver Reflective",
+   "was": 5000.0
+  },
+  "last": "2026-11-25",
+  "low": 1999.99
  },
  "sierra-bicycle-supply:9218928083192": {
   "first": "2026-11-16",
@@ -45110,7 +45344,7 @@
  },
  "specialized:1000267784": {
   "first": "2026-11-17",
-  "last": "2026-11-24",
+  "last": "2026-11-25",
   "low": 89.99
  },
  "specialized:1000267861": {
@@ -45526,8 +45760,8 @@
   "info": {
    "brand": "Specialized",
    "category": "bikes",
-   "pct": 0.348,
-   "price": 2999.99,
+   "pct": 0.4,
+   "price": 2759.99,
    "sponsored": false,
    "store": "specialized",
    "store_name": "Specialized",
@@ -45974,6 +46208,24 @@
   "last": "2026-11-16",
   "low": 39.95
  },
+ "state:7721745809495": {
+  "first": "2026-11-25",
+  "info": {
+   "brand": "Zipp",
+   "category": "wheels",
+   "pct": 0.15,
+   "price": 1275.0,
+   "sponsored": false,
+   "store": "state",
+   "store_name": "State Bicycle Co",
+   "title": "303 XPLR S Carbon Tubeless Disc Gravel Wheelset",
+   "url": "https://www.statebicycle.com/products/zipp-303-xplr-s-carbon-tubeless-disc-gravel-wheelset?variant=44099891363927",
+   "variant": "",
+   "was": 1500.0
+  },
+  "last": "2026-11-25",
+  "low": 1275.0
+ },
  "state:7721780936791": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -45984,10 +46236,128 @@
   "last": "2026-11-16",
   "low": 175.0
  },
+ "state:7737502728279": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 199.75
+ },
+ "state:7737538117719": {
+  "first": "2026-11-25",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.15,
+   "price": 306.0,
+   "sponsored": false,
+   "store": "state",
+   "store_name": "State Bicycle Co",
+   "title": "Rival XPLR AXS Rear Derailleur — 13-Speed, Max 46T, UDH",
+   "url": "https://www.statebicycle.com/products/sram-rival-xplr-axs-rear-derailleur-13-speed-max-46t-udh?variant=44166178635863",
+   "variant": "",
+   "was": 360.0
+  },
+  "last": "2026-11-25",
+  "low": 306.0
+ },
+ "state:7737544998999": {
+  "first": "2026-11-25",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.15,
+   "price": 374.0,
+   "sponsored": false,
+   "store": "state",
+   "store_name": "State Bicycle Co",
+   "title": "S1000 Eagle Transmission AXS Derailleur — 12-Speed, Max 52T",
+   "url": "https://www.statebicycle.com/products/sram-s1000-eagle-transmission-axs-derailleur-12-speed-max-52t?variant=44166211960919",
+   "variant": "",
+   "was": 440.0
+  },
+  "last": "2026-11-25",
+  "low": 374.0
+ },
+ "state:7737677545559": {
+  "first": "2026-11-25",
+  "info": {
+   "brand": "Industry Nine",
+   "category": "wheels",
+   "pct": 0.15,
+   "price": 1317.49,
+   "sponsored": false,
+   "store": "state",
+   "store_name": "State Bicycle Co",
+   "title": "Sector Carbon Wheelset — 29\", 1/1 Hubs, Boost, 6-Bolt",
+   "url": "https://www.statebicycle.com/products/industry-nine-sector-carbon-wheelset-29-1-1-hubs-boost-6-bolt?variant=44166486229079",
+   "variant": "HG",
+   "was": 1549.99
+  },
+  "last": "2026-11-25",
+  "low": 1317.49
+ },
+ "state:7740645474391": {
+  "first": "2026-11-25",
+  "info": {
+   "brand": "Zipp",
+   "category": "cockpit",
+   "pct": 0.15,
+   "price": 55.25,
+   "sponsored": false,
+   "store": "state",
+   "store_name": "State Bicycle Co",
+   "title": "Service Course 70 Ergo Road Handlebar",
+   "url": "https://www.statebicycle.com/products/zipp-service-course-70-road-handlebar?variant=44176631464023",
+   "variant": "38cm",
+   "was": 65.0
+  },
+  "last": "2026-11-25",
+  "low": 55.25
+ },
+ "state:7740651372631": {
+  "first": "2026-11-25",
+  "info": {
+   "brand": "SRAM",
+   "category": "drivetrain",
+   "pct": 0.15,
+   "price": 33.99,
+   "sponsored": false,
+   "store": "state",
+   "store_name": "State Bicycle Co",
+   "title": "Eagle 70 Transmission Flattop Chain",
+   "url": "https://www.statebicycle.com/products/sram-eagle-70-transmission-flattop-chain?variant=44176643489879",
+   "variant": "",
+   "was": 39.99
+  },
+  "last": "2026-11-25",
+  "low": 33.99
+ },
  "state:7783506313303": {
   "first": "2026-11-16",
   "last": "2026-11-16",
   "low": 375.0
+ },
+ "state:7791536472151": {
+  "first": "2026-11-25",
+  "info": {
+   "brand": "SRAM",
+   "category": "electronics",
+   "pct": 0.15,
+   "price": 212.49,
+   "sponsored": false,
+   "store": "state",
+   "store_name": "State Bicycle Co",
+   "title": "Dealer Item: Power Meter Crank Upgrade — Carbon Road",
+   "url": "https://www.statebicycle.com/products/dealer-item-power-meter-crank-upgrade-carbon-road?variant=44333825294423",
+   "variant": "",
+   "was": 249.99
+  },
+  "last": "2026-11-25",
+  "low": 212.49
+ },
+ "state:7811534553175": {
+  "first": "2026-11-25",
+  "last": "2026-11-25",
+  "low": 135.95
  },
  "state:7835820458071": {
   "first": "2026-11-16",
@@ -46185,8 +46555,8 @@
    "store": "the-lost-co",
    "store_name": "The Lost Co",
    "title": "Minion DHR II",
-   "url": "https://www.thelostco.com/products/maxxis-minion-dhr2?variant=24864955367524",
-   "variant": "3C MaxxTerra V1 / DoubleDown / 27.5 x 2.4\" WT",
+   "url": "https://www.thelostco.com/products/maxxis-minion-dhr2?variant=32461271892049",
+   "variant": "3C Maxx Grip / DH / 27.5 x 2.4\" WT",
    "was": 116.0
   },
   "last": "2026-11-25",
@@ -47586,7 +47956,7 @@
    "variant": "",
    "was": 40.0
   },
-  "last": "2026-11-20",
+  "last": "2026-11-25",
   "low": 34.0
  },
  "the-lost-co:8487686734022": {
