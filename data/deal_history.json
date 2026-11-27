@@ -1063,7 +1063,7 @@
  },
  "btd:cocth": {
   "first": "2026-11-24",
-  "last": "2026-11-25",
+  "last": "2026-11-26",
   "low": 49.56
  },
  "btd:coctp": {
@@ -5201,7 +5201,7 @@
  },
  "btd:scaav": {
   "first": "2026-11-17",
-  "last": "2026-11-25",
+  "last": "2026-11-26",
   "low": 36.75
  },
  "btd:scabb": {
@@ -5512,7 +5512,7 @@
    "variant": "",
    "was": 102.0
   },
-  "last": "2026-11-25",
+  "last": "2026-11-26",
   "low": 76.5
  },
  "btd:scoku": {
@@ -5844,7 +5844,7 @@
  },
  "btd:scspe": {
   "first": "2026-11-17",
-  "last": "2026-11-25",
+  "last": "2026-11-26",
   "low": 68.25
  },
  "btd:scspm": {
@@ -6113,7 +6113,7 @@
  },
  "btd:sesbe": {
   "first": "2026-11-20",
-  "last": "2026-11-25",
+  "last": "2026-11-26",
   "low": 97.42
  },
  "btd:sesbl": {
@@ -6930,6 +6930,19 @@
  },
  "btd:sniak": {
   "first": "2026-11-18",
+  "info": {
+   "brand": "Silca",
+   "category": "accessories",
+   "pct": 0.2,
+   "price": 36.0,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Italian Army Knife Multitool - Tredici",
+   "url": "https://www.biketiresdirect.com/product/silca-italian-army-knife-multitool-tredici",
+   "variant": "",
+   "was": 45.0
+  },
   "last": "2026-11-26",
   "low": 36.0
  },
@@ -11260,6 +11273,19 @@
  },
  "contender:9511270973685": {
   "first": "2026-11-26",
+  "info": {
+   "brand": "Fox",
+   "category": "apparel",
+   "pct": 0.2,
+   "price": 327.99,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "Proframe RS Aura Helmet",
+   "url": "https://contenderbicycles.com/products/fox-proframe-rs-aura-helmet?variant=47594955210997",
+   "variant": "Sage / L",
+   "was": 409.95
+  },
   "last": "2026-11-26",
   "low": 327.99
  },
@@ -12352,6 +12378,19 @@
  },
  "fanatik:3736117507": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Maxxis",
+   "category": "tires",
+   "pct": 0.25,
+   "price": 72.0,
+   "sponsored": false,
+   "store": "fanatik",
+   "store_name": "Fanatik Bike Co",
+   "title": "Minion DHR II 27.5\" x 2.3\" Tire",
+   "url": "https://www.fanatikbike.com/products/maxxis-minion-dhr-ii-27-5-x-2-3-tire?variant=10760236483",
+   "variant": "EXO - 3C MaxxTerra",
+   "was": 96.0
+  },
   "last": "2026-11-26",
   "low": 72.0,
   "seed": true
@@ -17683,6 +17722,19 @@
  },
  "incycle:8198787170435": {
   "first": "2026-11-24",
+  "info": {
+   "brand": "OneUp",
+   "category": "cockpit",
+   "pct": 0.44,
+   "price": 50.39,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "Stem Blk",
+   "url": "https://www.incycle.com/products/oneup-stem-blk?variant=44113827070083",
+   "variant": "35mm",
+   "was": 89.99
+  },
   "last": "2026-11-26",
   "low": 50.39
  },
@@ -18572,8 +18624,8 @@
    "store": "incycle",
    "store_name": "inCycle",
    "title": "Crux Comp - Shimano GRX (2025)",
-   "url": "https://www.incycle.com/products/2025-specialized-crux-comp?variant=44989646667907",
-   "variant": "Gloss Carbon / Purple Haze / Rebel Pink / Birch / 58",
+   "url": "https://www.incycle.com/products/2025-specialized-crux-comp?variant=44989646733443",
+   "variant": "Satin Carbon / Smoke / 61",
    "was": 3799.99
   },
   "last": "2026-11-26",
@@ -21701,6 +21753,19 @@
  },
  "mikes-bikes:6887299481669": {
   "first": "2026-11-25",
+  "info": {
+   "brand": "Shimano",
+   "category": "apparel",
+   "pct": 0.25,
+   "price": 359.99,
+   "sponsored": false,
+   "store": "mikes-bikes",
+   "store_name": "Mike's Bikes",
+   "title": "S-PHYRE Road Shoes",
+   "url": "https://mikesbikes.com/products/shimano-s-phyre-road-shoes?variant=40552503902277",
+   "variant": "Black / 46",
+   "was": 479.99
+  },
   "last": "2026-11-26",
   "low": 359.99
  },
@@ -23965,8 +24030,8 @@
    "store": "mikes-bikes",
    "store_name": "Mike's Bikes",
    "title": "Habit Neo 3",
-   "url": "https://mikesbikes.com/products/cannondale-habit-neo-3-2026?variant=45163835883589",
-   "variant": "Storm Cloud / X-Large",
+   "url": "https://mikesbikes.com/products/cannondale-habit-neo-3-2026?variant=45163835818053",
+   "variant": "Storm Cloud / Medium",
    "was": 6998.99
   },
   "last": "2026-11-26",
@@ -41960,8 +42025,8 @@
   "info": {
    "brand": "Specialized",
    "category": "bikes",
-   "pct": 0.2,
-   "price": 6399.99,
+   "pct": 0.4,
+   "price": 4799.99,
    "sponsored": false,
    "store": "sierra-bicycle-supply",
    "store_name": "Sierra Bicycle Supply",
@@ -47992,7 +48057,7 @@
  },
  "the-lost-co:8363117084870": {
   "first": "2026-11-19",
-  "last": "2026-11-25",
+  "last": "2026-11-26",
   "low": 439.99
  },
  "the-lost-co:8363117150406": {
@@ -48012,7 +48077,7 @@
  },
  "the-lost-co:8363117314246": {
   "first": "2026-11-19",
-  "last": "2026-11-25",
+  "last": "2026-11-26",
   "low": 439.99
  },
  "the-lost-co:8363117347014": {
