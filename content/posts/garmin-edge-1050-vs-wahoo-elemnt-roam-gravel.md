@@ -7,8 +7,8 @@ categories: ["Gravel"]
 tags: ["bike computers", "Garmin Edge 1050", "Wahoo Elemnt Roam 3", "gravel navigation"]
 cover:
   image: "/images/garmin-edge-1050-vs-wahoo-elemnt-roam-gravel-cover.webp"
-  alt: "Close view of a gravel bike handlebar with a bike computer mounted, on a dirt road"
-  caption: "Photo: This_is_Engineering / Pixabay"
+  alt: "Garmin Edge 1050 bike computer showing the home screen"
+  caption: "Garmin Edge 1050. Photo: Garmin"
   relative: false
 draft: false
 ---
