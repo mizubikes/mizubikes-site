@@ -1,18 +1,25 @@
 # One topic per line, phrased the way people search. The auto-drafter uses the top line, then deletes it.
-# Comparisons and specific buyer questions get the most clicks on this site, so keep them near the top.
+# Search Console, Nov 2026: drivetrain and component "X vs Y" posts earn about 10 clicks per post, twice any other type.
+# Part-by-part weight and price tables (like SRAM Red vs Force E1) and spec charts (UDH chart, tire clearance chart) rank fastest.
+# Avoid broad "best X 2026" roundups (handlebars, saddles, shoes, bags): big sites own those searches.
 # When this list is empty, Claude picks a topic from recent launches the same way.
-Gravel bike vs endurance road bike: which should you buy
-Stumpjumper 15 vs Epic 8 Evo: which trail bike
-Are dropper posts worth it on a gravel bike
-700c vs 650b gravel wheels
+Shimano 105 Di2 vs Ultegra Di2: weight and price, part by part
+New Shimano GRX 13-speed groupset: what's confirmed so far
+SRAM Rival XPLR vs Force XPLR 13-speed: weight and price
+SRAM Eagle 70 vs Eagle 90 Transmission: is the upgrade worth it
+ENVE wheel alternatives: cheaper carbon wheels worth buying
+Shimano Ultegra Di2 vs SRAM Force AXS E1: which road groupset
+Full suspension mountain bikes with UDH: 2026 compatibility list
 Fox 32 Taper-Cast vs RockShox Rudy gravel fork
+Stumpjumper 15 vs Epic 8 Evo: which trail bike
+Shimano XTR M9200 Di2 vs XT M8200 Di2: worth the upgrade
+Road bike tire clearance chart 2026: max tire size by frame
+SRAM Rival AXS vs Shimano 105 Di2: which to buy
 Orange Seal vs Stan's tubeless sealant
 CushCore Gravel vs Vittoria Air-Liner
-Gravel bike vs cyclocross bike: what's different
-Best gravel tires for rough terrain 2026
-Best carbon gravel bike under $3,500
+700c vs 650b gravel wheels
+Dura-Ace Di2 vs SRAM Red AXS E1: weight and price
+Gravel bike vs endurance road bike: which should you buy
+Are dropper posts worth it on a gravel bike
 Gravel gearing for climbing: what chainring and cassette to run
-Best gravel handlebars 2026
-Best saddle for long gravel rides
-Best gravel cycling shoes 2026
-Best bikepacking bags for beginners
+Gravel bike vs cyclocross bike: what's different
