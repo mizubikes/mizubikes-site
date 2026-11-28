@@ -1,0 +1,18 @@
+{{- /* End of a post: up to 4 related posts, matched on tags, then category, then date
+       (see `related:` in hugo.yaml). Helps readers find the next comparison and helps
+       Google discover newer posts through internal links. */ -}}
+{{- $posts := where site.RegularPages "Type" "posts" -}}
+{{- $related := $posts.Related . | first 4 -}}
+{{- with $related }}
+<nav class="mb-related" aria-label="Related posts">
+  <h2 class="mb-related-title">Keep reading</h2>
+  <ul class="mb-related-list">
+    {{- range . }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{- with .Description }}<span>{{ . | plainify | truncate 120 }}</span>{{ end }}
+    </li>
+    {{- end }}
+  </ul>
+</nav>
+{{- end -}}

@@ -39,6 +39,17 @@ params:
     disableHLJS: true
   footer:
     text: 'As an Amazon Associate I earn from qualifying purchases. [Gravel](/gravel-bikes/) · [Mountain](/mountain-bikes/) · [Road](/road-bikes/) · [Deals by brand](/bike-deals/brands/) · [About](/about/) · [Contact](/contact/) · [Privacy Policy](/privacy-policy/)'
+related:
+  includeNewer: true
+  threshold: 20
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 40
+    - name: date
+      weight: 10
 markup:
   goldmark:
     renderer:

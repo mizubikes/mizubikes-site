@@ -611,3 +611,12 @@ body {
   }
   .mb-card-grid .mb-card > :not(img):not(.mb-card-noimg) { margin-left: 14px; margin-right: 14px; }
 }
+
+/* ---------- Related posts at the end of a post ---------- */
+.mb-related { margin: 28px 0 8px; padding: 18px 18px 6px; border: 1px solid #d7e9ee; border-radius: 12px; }
+.mb-related-title { margin: 0 0 10px; font-size: 18px; font-weight: 800; color: #0f3b47; }
+.mb-related-list { list-style: none; margin: 0; padding: 0; }
+.mb-related-list li { margin: 0 0 12px; padding: 0; }
+.mb-related-list a { font-weight: 700; color: #1B8FAB !important; box-shadow: none !important; text-decoration: none !important; }
+.mb-related-list a:hover { text-decoration: underline !important; }
+.mb-related-list span { display: block; font-size: 14px; color: #5b6b70; margin-top: 2px; line-height: 1.4; }

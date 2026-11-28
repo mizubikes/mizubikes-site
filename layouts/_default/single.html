@@ -42,6 +42,7 @@
   </div>
   {{- end }}
   {{- if eq .Type "posts" }}{{ partial "deals/post-brand-link.html" . }}{{ end }}
+  {{- if eq .Type "posts" }}{{ partial "related-posts.html" . }}{{ end }}
 
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
