@@ -1,0 +1,50 @@
+name: IndexNow
+
+# Tells Bing and the other IndexNow search engines about new and changed pages
+# right after they go live, instead of waiting for a crawl.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "scripts/indexnow.py"
+      - ".github/workflows/indexnow.yml"
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Submit every URL in the live sitemap"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Wait for Netlify to publish the push
+        if: github.event_name == 'push'
+        run: sleep 240
+
+      - name: Submit URLs to IndexNow
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          SUBMIT_ALL: ${{ inputs.all }}
+        run: python scripts/indexnow.py
