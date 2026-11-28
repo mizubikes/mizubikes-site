@@ -18,7 +18,13 @@ cover:
   caption: 'Graphic: Mizubikes'
   relative: false
 draft: false
+saleEnds: 2026-12-01T23:59:00-08:00
+saleEndedText: 'Black Friday and Cyber Monday 2026 are over, so most prices and codes below have expired.'
+saleEndedLink: /bike-deals/
+saleEndedLinkText: 'See today''s bike deals, updated twice a day'
 ---
+
+{{< sale-ended >}}
 
 *Mizubikes may earn a commission from links in this post.*
 

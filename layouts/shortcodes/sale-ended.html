@@ -1,0 +1,14 @@
+{{- /* Shows a "sale ended" note once the date in the page's `saleEnds` front matter has
+       passed. Hugo checks the date at build time, and the daily deals and price workflows
+       rebuild the site, so the note appears within a day of the sale ending.
+       Front matter: saleEnds (required), saleEndedText, saleEndedLink, saleEndedLinkText. */ -}}
+{{- $p := .Page -}}
+{{- with $p.Params.saleEnds -}}
+  {{- if now.After (time.AsTime .) -}}
+<div class="sale-ended" role="note">
+  <strong>This sale has ended.</strong>
+  {{ $p.Params.saleEndedText | default "The prices below were sale prices and have probably gone back up." }}
+  {{- with $p.Params.saleEndedLink }} <a href="{{ . }}">{{ $p.Params.saleEndedLinkText | default "See today's deals" }} &rarr;</a>{{ end }}
+</div>
+  {{- end -}}
+{{- end -}}
