@@ -39,6 +39,9 @@ All weights below are mine, measured on my own scale, unless a row says otherwis
 | Cannondale CAAD13 fork | | 429 g | |
 | Cannondale SuperSix Evo Hi-Mod frame (2023) | 54cm | 818 g | 486 g lighter than the CAAD13 |
 | Cannondale SuperSix Evo Hi-Mod fork (2023) | | 404 g | |
+| S-Works Tarmac SL9 frame (RTP) | 54cm, out of the box with hangers, bottle bolts, steering stop chip | 739 g | [Full breakdown](/posts/tarmac-sl9-actual-frame-weight/) |
+| S-Works Tarmac SL9 frame (RTP) | 54cm, all hardware removed | 694 g | Specialized claims 687 g (56cm) |
+| S-Works Tarmac SL9 fork | Uncut steerer | 381 g | Will drop once cut |
 
 ## Complete bikes
 
