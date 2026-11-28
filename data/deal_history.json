@@ -6015,7 +6015,7 @@
    "variant": "",
    "was": 102.0
   },
-  "last": "2026-11-26",
+  "last": "2026-11-27",
   "low": 76.5
  },
  "btd:scoku": {
@@ -6503,8 +6503,8 @@
   "info": {
    "brand": "Schwalbe",
    "category": "tires",
-   "pct": 0.3,
-   "price": 75.6,
+   "pct": 0.35,
+   "price": 70.2,
    "sponsored": false,
    "store": "btd",
    "store_name": "BikeTiresDirect",
@@ -6736,7 +6736,7 @@
  },
  "btd:sh52z": {
   "first": "2026-11-20",
-  "last": "2026-11-26",
+  "last": "2026-11-27",
   "low": 23.09
  },
  "btd:sh56f": {
@@ -7089,6 +7089,19 @@
  },
  "btd:shdzz": {
   "first": "2026-11-27",
+  "info": {
+   "brand": "Shimano",
+   "category": "apparel",
+   "pct": 0.25,
+   "price": 393.75,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "SH-RC910N S-PHYRE Narrow Road Cycling Shoe",
+   "url": "https://www.biketiresdirect.com/product/shimano-span-classredfont-bolder-embargo-spansh-rc910n-s-phyre-narrow-road-cycling-shoe",
+   "variant": "",
+   "was": 525.0
+  },
   "last": "2026-11-27",
   "low": 393.75
  },
@@ -7229,6 +7242,19 @@
  },
  "btd:shhhc": {
   "first": "2026-11-27",
+  "info": {
+   "brand": "Shimano",
+   "category": "apparel",
+   "pct": 0.25,
+   "price": 393.75,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "SH-RC910 S-PHYRE Road Cycling Shoe",
+   "url": "https://www.biketiresdirect.com/product/shimano-span-classredfont-bolder-embargo-spansh-rc910-s-phyre-road-cycling-shoe",
+   "variant": "",
+   "was": 525.0
+  },
   "last": "2026-11-27",
   "low": 393.75
  },
@@ -7941,6 +7967,19 @@
  },
  "btd:shwhw": {
   "first": "2026-11-27",
+  "info": {
+   "brand": "Shimano",
+   "category": "wheels",
+   "pct": 0.25,
+   "price": 2227.5,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Dura-Ace WH-R9370 C60 TL Disc Brake Wheelset",
+   "url": "https://www.biketiresdirect.com/product/shimano-dura-ace-wh-r9370-c60-tl-disc-brake-wheelset",
+   "variant": "",
+   "was": 2970.0
+  },
   "last": "2026-11-27",
   "low": 2227.5
  },
@@ -8587,7 +8626,7 @@
  },
  "btd:tp15p": {
   "first": "2026-11-25",
-  "last": "2026-11-26",
+  "last": "2026-11-27",
   "low": 74.36
  },
  "btd:tp231": {
@@ -9786,6 +9825,19 @@
  },
  "btd:zpzoe": {
   "first": "2026-11-20",
+  "info": {
+   "brand": "Zipp",
+   "category": "cockpit",
+   "pct": 0.2,
+   "price": 236.8,
+   "sponsored": false,
+   "store": "btd",
+   "store_name": "BikeTiresDirect",
+   "title": "Carbon SL-70 Ergo Handlebar",
+   "url": "https://www.biketiresdirect.com/product/zipp-carbon-sl-70-ergo-handlebar",
+   "variant": "",
+   "was": 296.0
+  },
   "last": "2026-11-27",
   "low": 236.8
  },
@@ -12175,6 +12227,19 @@
  },
  "contender:9080327962869": {
   "first": "2026-11-27",
+  "info": {
+   "brand": "Wahoo",
+   "category": "electronics",
+   "pct": 0.2,
+   "price": 279.99,
+   "sponsored": false,
+   "store": "contender",
+   "store_name": "Contender Bicycles",
+   "title": "ELEMNT BOLT V3 GPS Cycling Computer",
+   "url": "https://contenderbicycles.com/products/wahoo-elemnt-bolt-v3-gps-cycling-computer?variant=46548764197109",
+   "variant": "",
+   "was": 349.99
+  },
   "last": "2026-11-27",
   "low": 279.99
  },
@@ -20069,6 +20134,19 @@
  },
  "incycle:8375876976771": {
   "first": "2026-11-24",
+  "info": {
+   "brand": "Specialized",
+   "category": "framesets",
+   "pct": 0.316,
+   "price": 2051.97,
+   "sponsored": false,
+   "store": "incycle",
+   "store_name": "inCycle",
+   "title": "S-Works Stumpjumper 15 Frameset  - FOX FLOAT GENIE Factory (2025)",
+   "url": "https://www.incycle.com/products/2025-specialized-s-works-stumpjumper-15-frame?variant=44549931532419",
+   "variant": "Satin Nrly Blk / Blk / Cool Grey / Obsidian / Satin Dove Grey / S1",
+   "was": 2999.99
+  },
   "last": "2026-11-27",
   "low": 2051.97
  },
@@ -21195,7 +21273,7 @@
    "variant": "",
    "was": 349.99
   },
-  "last": "2026-11-24",
+  "last": "2026-11-27",
   "low": 279.99
  },
  "incycle:8606421745795": {
@@ -22960,6 +23038,21 @@
   "last": "2026-11-27",
   "low": 187.5
  },
+ "mikes-bikes:6647060791365": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 47.99
+ },
+ "mikes-bikes:6647060889669": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 47.99
+ },
+ "mikes-bikes:6647060987973": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 47.99
+ },
  "mikes-bikes:6650522566725": {
   "first": "2026-11-16",
   "last": "2026-11-27",
@@ -23138,6 +23231,16 @@
   "first": "2026-11-17",
   "last": "2026-11-27",
   "low": 89.77
+ },
+ "mikes-bikes:6708246708293": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 70.49
+ },
+ "mikes-bikes:6708252115013": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 60.74
  },
  "mikes-bikes:6721556709445": {
   "first": "2026-11-16",
@@ -23324,6 +23427,11 @@
   "last": "2026-11-27",
   "low": 85.59
  },
+ "mikes-bikes:6789618630725": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 72.74
+ },
  "mikes-bikes:6792252686405": {
   "first": "2026-11-23",
   "info": {
@@ -23422,6 +23530,11 @@
   "first": "2026-11-16",
   "last": "2026-11-27",
   "low": 35.99
+ },
+ "mikes-bikes:6815518752837": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 72.74
  },
  "mikes-bikes:6820405477445": {
   "first": "2026-11-16",
@@ -23655,6 +23768,11 @@
   "first": "2026-11-16",
   "last": "2026-11-27",
   "low": 2398.95
+ },
+ "mikes-bikes:6867974619205": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 70.49
  },
  "mikes-bikes:6867975569477": {
   "first": "2026-11-23",
@@ -23979,8 +24097,8 @@
    "store": "mikes-bikes",
    "store_name": "Mike's Bikes",
    "title": "Heckler SL CC X0 Transmission Reserve",
-   "url": "https://mikesbikes.com/products/santa-cruz-heckler-sl-cc-x0-transmission-reserve-2024?variant=44649480650821",
-   "variant": "Gloss Magenta / XX-Large",
+   "url": "https://mikesbikes.com/products/santa-cruz-heckler-sl-cc-x0-transmission-reserve-2024?variant=44649480618053",
+   "variant": "Silver / XX-Large",
    "was": 11699.99
   },
   "last": "2026-11-27",
@@ -24210,7 +24328,7 @@
  "mikes-bikes:6971822276677": {
   "first": "2026-11-25",
   "last": "2026-11-27",
-  "low": 29.95
+  "low": 22.46
  },
  "mikes-bikes:6980434559045": {
   "first": "2026-11-16",
@@ -24234,6 +24352,11 @@
   "first": "2026-11-17",
   "last": "2026-11-27",
   "low": 45.0
+ },
+ "mikes-bikes:6987340742725": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 23.24
  },
  "mikes-bikes:6992225992773": {
   "first": "2026-11-16",
@@ -24371,6 +24494,16 @@
   "last": "2026-11-27",
   "low": 247.5
  },
+ "mikes-bikes:7247910174789": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 67.49
+ },
+ "mikes-bikes:7250856378437": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 83.99
+ },
  "mikes-bikes:7329061077061": {
   "first": "2026-11-16",
   "info": {
@@ -24461,6 +24594,11 @@
   "first": "2026-11-16",
   "last": "2026-11-27",
   "low": 7999.95
+ },
+ "mikes-bikes:7358841454661": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 61.49
  },
  "mikes-bikes:7358842568773": {
   "first": "2026-11-16",
@@ -25148,6 +25286,11 @@
   "first": "2026-11-16",
   "last": "2026-11-27",
   "low": 4279.95
+ },
+ "mikes-bikes:7717178310725": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 61.49
  },
  "mikes-bikes:7717196365893": {
   "first": "2026-11-16",
@@ -26027,8 +26170,8 @@
    "store": "mikes-bikes",
    "store_name": "Mike's Bikes",
    "title": "Habit Neo 2",
-   "url": "https://mikesbikes.com/products/cannondale-habit-neo-2-2026?variant=45163834376261",
-   "variant": "Tiger Eye / Large",
+   "url": "https://mikesbikes.com/products/cannondale-habit-neo-2-2026?variant=45163834343493",
+   "variant": "Tiger Eye / Medium",
    "was": 8998.99
   },
   "last": "2026-11-27",
@@ -26051,6 +26194,11 @@
   },
   "last": "2026-11-27",
   "low": 3850.77
+ },
+ "mikes-bikes:8131979280453": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 89.24
  },
  "mikes-bikes:8209351802949": {
   "first": "2026-11-16",
@@ -38209,8 +38357,8 @@
    "store": "planet-cyclery",
    "store_name": "Planet Cyclery",
    "title": "Dropper Post V3 - 90mm",
-   "url": "https://www.planetcyclery.com/products/oneup-dropper-post-v3-90mm?variant=43770416890028",
-   "variant": "Black / 27.2mm - 295mm / 90mm Drop",
+   "url": "https://www.planetcyclery.com/products/oneup-dropper-post-v3-90mm?variant=43770416922796",
+   "variant": "Black / 30.9mm - 295mm / 90mm Drop",
    "was": 269.99
   },
   "last": "2026-11-27",
@@ -43771,6 +43919,34 @@
   "last": "2026-11-27",
   "low": 78.95
  },
+ "sierra-bicycle-supply:10353554718968": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 84.17
+ },
+ "sierra-bicycle-supply:10353554751736": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 84.17
+ },
+ "sierra-bicycle-supply:10353554784504": {
+  "first": "2026-11-27",
+  "info": {
+   "brand": "Pirelli",
+   "category": "tires",
+   "pct": 0.28,
+   "price": 84.17,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Scorpion EMPEROR Tire - Folding - Tubeless Ready - Black",
+   "url": "https://shopbikesupply.com/products/scorpion-emperor-tire-folding-tubeless-ready-black?variant=50625732706552",
+   "variant": "27.5''x2.40 / Supersoft / DHWALL+",
+   "was": 116.9
+  },
+  "last": "2026-11-27",
+  "low": 84.17
+ },
  "sierra-bicycle-supply:15436919996664": {
   "first": "2026-11-16",
   "last": "2026-11-16",
@@ -44058,6 +44234,19 @@
  },
  "sierra-bicycle-supply:8674155659512": {
   "first": "2026-11-16",
+  "info": {
+   "brand": "Specialized",
+   "category": "framesets",
+   "pct": 0.366,
+   "price": 3899.99,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "S-Works Shiv TT Module",
+   "url": "https://shopbikesupply.com/products/2025-specialized-s-works-shiv-module-gloss-glacial-metallic-red-to-gold-pearl-edge-fade-metallic-white-silver?variant=47729890033912",
+   "variant": "XS / Gloss Tarmac Black / Metallic White Silver",
+   "was": 6149.99
+  },
   "last": "2026-11-27",
   "low": 3899.99
  },
@@ -44923,6 +45112,16 @@
   "last": "2026-11-27",
   "low": 95.89
  },
+ "sierra-bicycle-supply:9175691493624": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 30.17
+ },
+ "sierra-bicycle-supply:9175704764664": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 35.93
+ },
  "sierra-bicycle-supply:9175721836792": {
   "first": "2026-11-16",
   "info": {
@@ -45150,6 +45349,11 @@
   "first": "2026-11-16",
   "last": "2026-11-27",
   "low": 26.99
+ },
+ "sierra-bicycle-supply:9181436805368": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 30.17
  },
  "sierra-bicycle-supply:9185610891512": {
   "first": "2026-11-16",
@@ -46060,6 +46264,16 @@
   "last": "2026-11-27",
   "low": 2299.99
  },
+ "sierra-bicycle-supply:9256090403064": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 30.17
+ },
+ "sierra-bicycle-supply:9256090632440": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 40.25
+ },
  "sierra-bicycle-supply:9332061503736": {
   "first": "2026-11-16",
   "info": {
@@ -46180,6 +46394,39 @@
   "last": "2026-11-27",
   "low": 54.0
  },
+ "sierra-bicycle-supply:9361923277048": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 74.81
+ },
+ "sierra-bicycle-supply:9361923997944": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 74.81
+ },
+ "sierra-bicycle-supply:9361924227320": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 82.73
+ },
+ "sierra-bicycle-supply:9362059395320": {
+  "first": "2026-11-27",
+  "info": {
+   "brand": "Pirelli",
+   "category": "tires",
+   "pct": 0.28,
+   "price": 74.81,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Cinturato Gravel S Tire",
+   "url": "https://shopbikesupply.com/products/cinturato-gravel-s-tire?variant=47751021756664",
+   "variant": "Pirelli Cinturato Gravel S Tire - 700 x 45, Tubeless, Folding, Black",
+   "was": 103.9
+  },
+  "last": "2026-11-27",
+  "low": 74.81
+ },
  "sierra-bicycle-supply:9367335141624": {
   "first": "2026-11-16",
   "last": "2026-11-27",
@@ -46189,6 +46436,11 @@
   "first": "2026-11-21",
   "last": "2026-11-27",
   "low": 48.95
+ },
+ "sierra-bicycle-supply:9367365910776": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 74.81
  },
  "sierra-bicycle-supply:9367366205688": {
   "first": "2026-11-21",
@@ -46204,6 +46456,11 @@
   "first": "2026-11-21",
   "last": "2026-11-27",
   "low": 60.95
+ },
+ "sierra-bicycle-supply:9367367450872": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 59.69
  },
  "sierra-bicycle-supply:9367367483640": {
   "first": "2026-11-21",
@@ -46225,6 +46482,11 @@
   "last": "2026-11-27",
   "low": 60.95
  },
+ "sierra-bicycle-supply:9367368925432": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 84.89
+ },
  "sierra-bicycle-supply:9367369023736": {
   "first": "2026-11-21",
   "last": "2026-11-27",
@@ -46234,6 +46496,11 @@
   "first": "2026-11-21",
   "last": "2026-11-27",
   "low": 55.95
+ },
+ "sierra-bicycle-supply:9367369220344": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 74.81
  },
  "sierra-bicycle-supply:9367369351416": {
   "first": "2026-11-16",
@@ -46255,6 +46522,24 @@
   "last": "2026-11-27",
   "low": 24.95
  },
+ "sierra-bicycle-supply:9367438229752": {
+  "first": "2026-11-27",
+  "info": {
+   "brand": "Pirelli",
+   "category": "tires",
+   "pct": 0.28,
+   "price": 87.05,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "P ZERO Race TLR 4S Tire",
+   "url": "https://shopbikesupply.com/products/p-zero-race-tlr-4s-tire?variant=47768111972600",
+   "variant": "28C / 700x28C",
+   "was": 120.9
+  },
+  "last": "2026-11-27",
+  "low": 87.05
+ },
  "sierra-bicycle-supply:9367438622968": {
   "first": "2026-11-21",
   "last": "2026-11-27",
@@ -46275,6 +46560,11 @@
   "last": "2026-11-27",
   "low": 74.99
  },
+ "sierra-bicycle-supply:9369322619128": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 42.41
+ },
  "sierra-bicycle-supply:9369323208952": {
   "first": "2026-11-21",
   "last": "2026-11-27",
@@ -46290,10 +46580,48 @@
   "last": "2026-11-27",
   "low": 24.95
  },
+ "sierra-bicycle-supply:9369327993080": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 52.49
+ },
  "sierra-bicycle-supply:9369331433720": {
   "first": "2026-11-21",
   "last": "2026-11-27",
   "low": 40.95
+ },
+ "sierra-bicycle-supply:9369521979640": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 27.29
+ },
+ "sierra-bicycle-supply:9389567607032": {
+  "first": "2026-11-27",
+  "info": {
+   "brand": "Pirelli",
+   "category": "tires",
+   "pct": 0.28,
+   "price": 74.81,
+   "sponsored": false,
+   "store": "sierra-bicycle-supply",
+   "store_name": "Sierra Bicycle Supply",
+   "title": "Scorpion Race XC RH",
+   "url": "https://shopbikesupply.com/products/scorpion-race-xc-rh?variant=47926491316472",
+   "variant": "ProWALL",
+   "was": 103.9
+  },
+  "last": "2026-11-27",
+  "low": 74.81
+ },
+ "sierra-bicycle-supply:9389568262392": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 82.01
+ },
+ "sierra-bicycle-supply:9389571244280": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 82.01
  },
  "sierra-bicycle-supply:9392986390776": {
   "first": "2026-11-21",
@@ -46315,6 +46643,11 @@
   "last": "2026-11-27",
   "low": 48.95
  },
+ "sierra-bicycle-supply:9397667725560": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 82.01
+ },
  "sierra-bicycle-supply:9397707735288": {
   "first": "2026-11-21",
   "last": "2026-11-27",
@@ -46329,6 +46662,11 @@
   "first": "2026-11-16",
   "last": "2026-11-27",
   "low": 374.99
+ },
+ "sierra-bicycle-supply:9402930659576": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 84.17
  },
  "sierra-bicycle-supply:9402939146488": {
   "first": "2026-11-21",
@@ -46420,6 +46758,11 @@
   },
   "last": "2026-11-27",
   "low": 999.99
+ },
+ "sierra-bicycle-supply:9628269641976": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 92.09
  },
  "sierra-bicycle-supply:9811653394680": {
   "first": "2026-11-16",
@@ -46560,10 +46903,25 @@
   "last": "2026-11-27",
   "low": 99.99
  },
+ "sierra-bicycle-supply:9863950926072": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 96.41
+ },
+ "sierra-bicycle-supply:9863953416440": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 96.41
+ },
  "sierra-bicycle-supply:9953713651960": {
   "first": "2026-11-21",
   "last": "2026-11-27",
   "low": 21.95
+ },
+ "sierra-bicycle-supply:9996282462456": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 279.99
  },
  "silca:1333035663458": {
   "first": "2026-11-17",
@@ -47725,7 +48083,7 @@
  },
  "specialized:1000197323": {
   "first": "2026-11-17",
-  "last": "2026-11-24",
+  "last": "2026-11-27",
   "low": 157.99
  },
  "specialized:1000201562": {
@@ -47758,7 +48116,7 @@
  },
  "specialized:1000232634": {
   "first": "2026-11-17",
-  "last": "2026-11-24",
+  "last": "2026-11-27",
   "low": 69.99
  },
  "specialized:1000233947": {
@@ -49223,6 +49581,11 @@
   "low": 48.0,
   "seed": true
  },
+ "the-lost-co:6617221955782": {
+  "first": "2026-11-27",
+  "last": "2026-11-27",
+  "low": 165.0
+ },
  "the-lost-co:6638723367110": {
   "first": "2026-11-16",
   "last": "2026-11-27",
@@ -49487,7 +49850,7 @@
  },
  "the-lost-co:7776527876294": {
   "first": "2026-11-23",
-  "last": "2026-11-26",
+  "last": "2026-11-27",
   "low": 91.16
  },
  "the-lost-co:7776528564422": {
