@@ -47,7 +47,7 @@ A warning before the table: these numbers are not measured the same way. Some br
 
 The Canyon Grail is the clearest example of the shift. The previous Grail was officially limited to 42mm. The new one, launched in September 2026, takes 57mm. The tradeoff is the drivetrain: Canyon says keeping front derailleur compatibility would have capped rear clearance at 50mm, so it went 1x only. If you want a 2x gravel bike, that choice matters. I covered the launch in more detail in [Canyon's New Grail Is Here, and It Finally Fits Real Tires](/posts/canyon-grail-2027-launch/).
 
-Specialized made a similar move with the Crux 5. Specialized no longer makes a cyclocross bike, and the Crux is now a gravel racer with 55mm clearance. It's also 1x-compatible only, which is the same pattern as the Grail. More on that in my [Crux 5 breakdown](/posts/specialized-crux-5-2026/).
+Specialized made a similar move with the Crux 5. Specialized no longer makes a cyclocross bike, and the Crux is now a gravel racer with 55mm clearance. It's also 1x-compatible only, which is the same pattern as the Grail. More on that in my [Crux 5 tire clearance and specs breakdown](/posts/specialized-crux-5-2026/).
 
 Ridley's Kanzo Fast 2.0 goes slightly past both. It clears 58mm, or a 29x2.3" mountain bike tire, and that edges out the Allied Able and Lauf Seigla by a single millimetre. Whether that extra millimetre means much is debatable, but the real point is that a 55mm tire now fits an aero race frame.
 

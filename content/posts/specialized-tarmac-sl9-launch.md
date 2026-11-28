@@ -1,8 +1,8 @@
 ---
-title: 'Specialized Tarmac SL9: What Actually Changed vs SL8'
+title: 'Specialized Tarmac SL9: Price, Weight and What''s New'
 date: 2026-06-30
-lastmod: 2026-11-16
-description: 'Specialized calls the S-Works Tarmac SL9 its fastest road bike ever. What''s real, what''s marketing and how it compares to the SL8.'
+lastmod: 2026-11-28
+description: 'Tarmac SL9: 687g claimed frame, 32mm tire clearance, UDH, 4W less drag than the SL8, launched June 30, 2026 at $13,500-$14,000 for S-Works. What''s real and what''s marketing.'
 slug: specialized-tarmac-sl9-launch
 aliases:
 - /posts/specialized-tarmac-sl9-leak/
@@ -48,7 +48,7 @@ This is Remco Evenepoel's bike now, and Specialized clearly built the launch sto
 
 The bigger open question, and one we'll only get real answers to once independent reviewers put meaningful miles on production bikes, is whether the SL9 is actually as fast as Specialized's own model says it is, or just fast enough to keep the marketing claim technically defensible. Early first-ride impressions out of the Costa Brava launch camp have already been mixed on that front, with more than one outlet noting the on-road gains feel more marginal than the wind tunnel numbers suggest.
 
-For now, only the S-Works tier exists. Expect the range to extend into Pro and Expert-level builds at lower price points as the SL9 rolls out over the rest of the year — that's the version most of us will actually end up considering.
+At launch, only the S-Works tier existed. The range has since grown to cheaper builds, and I compared them in [Tarmac SL9 Comp vs Expert vs S-Level vs S-Works](/posts/tarmac-sl9-which-model-to-buy/).
 
 If you're weighing the SL9 against the outgoing model, see [the SL8 complete vs custom build cost math](/posts/specialized-sl8-complete-vs-custom-build-cost/), and if you want one bike for road and gravel, [the Crux 5 quiver-killer argument](/posts/crux-5-quiver-killer-road-bike/) is worth a read.
 

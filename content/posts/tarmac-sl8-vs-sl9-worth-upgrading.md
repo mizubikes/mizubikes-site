@@ -83,7 +83,7 @@ If the goal is speed, there's more to gain for less money:
 
 **Keep your SL8 if:** you ride for fitness, group rides or events, and you're happy with how it rides. You already have one of the best race bikes made, and the SL9 rides the same. Put the money into wheels, tires or a fit.
 
-**Buying new and don't own either?** A discounted SL8 is the value pick this winter. With S-Works SL8 framesets this cheap, you get 99% of an SL9 for a lot less. If you'd rather have the newest, see [Tarmac SL9 Comp vs Expert vs S-Level vs S-Works](/posts/tarmac-sl9-which-model-to-buy/) or how the SL9 frameset stacks up against the [Canyon Aeroad CFR](/posts/canyon-aeroad-cfr-vs-tarmac-sl9/). For more on what changed, see [Tarmac SL9 vs SL8](/posts/specialized-tarmac-sl9-launch/).
+**Buying new and don't own either?** A discounted SL8 is the value pick this winter. With S-Works SL8 framesets this cheap, you get 99% of an SL9 for a lot less. If you'd rather have the newest, see [Tarmac SL9 Comp vs Expert vs S-Level vs S-Works](/posts/tarmac-sl9-which-model-to-buy/) or how the SL9 frameset stacks up against the [Canyon Aeroad CFR](/posts/canyon-aeroad-cfr-vs-tarmac-sl9/). For the full launch details, see [Specialized Tarmac SL9: price, weight and what's new](/posts/specialized-tarmac-sl9-launch/).
 
 ## FAQ
 

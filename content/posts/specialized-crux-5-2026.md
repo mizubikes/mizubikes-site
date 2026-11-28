@@ -1,7 +1,7 @@
 ---
-title: 'Specialized Crux 5: Full Aero With 55mm Tire Clearance'
+title: 'Specialized Crux 5 Tire Clearance, Weight and Specs (2026)'
 date: 2026-05-28
-lastmod: 2026-11-16
+lastmod: 2026-11-28
 description: 'Crux 5 tire clearance is 55mm front and rear, up from 47mm, on an aero FACT 12r frame under 790 grams. Specs, 1x-only gearing and pricing.'
 slug: specialized-crux-5-2026
 aliases:

@@ -26,6 +26,8 @@ I think we're getting close.
 
 **Quick answer:** Yes, the Crux 5 works as a road bike for most riders. With a second wheelset and 28 to 32mm road tires, it's lighter than most aero road frames and its geometry is still race-low. The exceptions are crit racers, who'll notice the slower handling, and riders on long mountain climbs, who may miss a 2x drivetrain.
 
+*Just want the Crux 5 tire clearance? It's 55mm front and rear, up from 47mm on the Crux 4. The full numbers are in [Specialized Crux 5 tire clearance, weight and specs](/posts/specialized-crux-5-2026/).*
+
 | | S-Works Crux 5 | S-Works Tarmac SL8 | S-Works Tarmac SL9 |
 |---|---|---|---|
 | Claimed frame weight | 789 g | 685 g | 687 g |
