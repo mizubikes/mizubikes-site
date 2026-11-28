@@ -1,7 +1,8 @@
 ---
-title: '1x vs 2x Road Gearing: What 13-Speed XPLR Costs You'
+title: '1x13 vs 2x12 Road Gearing: What SRAM XPLR Costs You'
 date: 2026-09-11
-description: I ran the numbers on SRAM's 13-speed Force XPLR 1x against a standard 2x road setup. The gaps and total range aren't what most people assume.
+lastmod: 2026-11-28
+description: 'SRAM 13-speed XPLR 1x vs a 2x12 road setup: 11 of 13 cogs match a 10-36 road cassette, and a 46T ring with 10-46 gives 460% range vs 452% for a 48/35 with 10-33.'
 slug: 1x-vs-2x-road-gearing-sram-xplr-13-speed
 categories:
 - Road
@@ -20,6 +21,8 @@ draft: false
 ---
 
 The knock on running 1x on a road bike is always the same two things: you lose range, and you get big gaps between gears. It's why most people never seriously consider dropping the front derailleur on the road. When I built up my [SuperSix Evo with SRAM's 13-speed Force XPLR group](/posts/cannondale-supersix-evo-2026-xplr-1x-build/), I wanted to stop guessing and put real numbers to both claims. Neither one held up the way I expected.
+
+**Quick answer:** A 46T ring with SRAM's 13-speed 10-46 XPLR cassette gives 460% range, slightly more than the 452% of a common 48/35 crank with a 10-33. Eleven of its 13 cogs match a 12-speed 10-36 road cassette. What you give up is the size of the last two climbing steps, 32-38-46.
 
 ## The gaps: 11 of 13 gears are identical
 
@@ -53,3 +56,11 @@ There's a second, setup-level caveat I ran into on the build itself: XPLR is a g
 For a lot of road riding, the honest answer is that 1x gives up far less than its reputation suggests: road-identical spacing where you actually ride, more range than a common 2x, one fewer thing up front to fail, and a cleaner cockpit. The tradeoff is concentrated in the top two climbing gears and a bit of setup fussiness — not in the day-to-day riding most people imagined they'd lose.
 
 If you want to run the setup yourself, the two parts that make the gearing work are the [SRAM Force AXS XPLR rear derailleur](https://amzn.to/4r7suZV) and the [SRAM XG-1371 XPLR 10-46 cassette](https://amzn.to/4xO86iQ). And if you want to see the whole thing built up from a bare frame, that's the [SuperSix Evo XPLR build](/posts/cannondale-supersix-evo-2026-xplr-1x-build/).
+
+## FAQ
+
+**Is there a 2x version of SRAM 13-speed?** No. SRAM's 13-speed groups, Red XPLR, Force XPLR and Rival XPLR, are 1x only. The 2x road groups are still 12-speed.
+
+**1x13 vs 2x12: which has more range?** A 46T ring with the 10-46 cassette gives 460%. A 48/35 crank with a 10-33 gives 452%, and the widest common 2x, 48/35 with a 10-36, gives 494%.
+
+**Can you run XPLR on a road bike?** Yes, if the frame has UDH, because the XPLR derailleur bolts straight to the frame. That's what I did on my [SuperSix Evo](/posts/cannondale-supersix-evo-2026-xplr-1x-build/). Short road chainstays make the chain angle sharper in the extreme gears, which costs a little shift crispness.

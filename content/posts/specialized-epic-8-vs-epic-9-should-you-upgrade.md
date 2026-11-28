@@ -1,8 +1,8 @@
 ---
-title: 'Epic 8 vs Epic 9: What Changed and Should You Upgrade?'
+title: 'Specialized Epic 8 vs Epic 9: Weight, Changes, Should You Upgrade?'
 date: 2026-04-28
-lastmod: 2026-11-01
-description: 'Epic 8 vs Epic 9 compared: frame weight, suspension, storage, cable routing, pricing and who should actually upgrade. Side-by-side table included.'
+lastmod: 2026-11-28
+description: 'Epic 8 vs Epic 9: the Epic 9 frame is 179g lighter (1,589g in medium), has about 11% less suspension friction and drops in-frame SWAT. Table, prices and who should upgrade.'
 categories:
 - Mountain
 tags:
@@ -22,6 +22,8 @@ cover:
 The Specialized Epic 9 dropped today, and if you're already riding an Epic 8, you're probably asking the same question: is this actually a significant enough jump to justify the upgrade?
 
 The short answer is that the Epic 9 is a genuinely better race bike in almost every measurable way. Whether that matters for how *you* ride is a different question. Here's everything that changed.
+
+**Quick answer:** The Epic 9 frame is 179 grams lighter than the Epic 8 (1,589 g vs about 1,768 g in medium), claims about 11% less suspension friction, and keeps the same 120 mm of travel. It loses the in-frame SWAT storage and only works with wireless drivetrains. If you race, upgrade. If you ride trail on an Epic 8, it's still a great bike.
 
 ## Epic 8 vs Epic 9 at a Glance
 
@@ -117,6 +119,16 @@ Here's the honest breakdown depending on your situation.
 
 Ultimately, the Epic 9 is a genuinely impressive step forward — Specialized didn't just reskin the Epic 8. But impressive and necessary aren't the same thing. Your Epic 8 is still an excellent bike.
 
-I'm on an Epic 8 Evo myself, and I wrote up why I'm keeping it in [The Specialized Epic 9 Is Here. My Epic 8 Evo Isn't Going Anywhere](/posts/specialized-epic-9-vs-epic-8-evo/). If the wireless-only requirement is what's holding you back, [SRAM's Eagle S-Series breakdown](/posts/sram-s-series-eagle-groupsets/) covers what a drivetrain swap actually costs. And if you're leaning toward a trail bike instead, here's [why I chose the Stumpjumper 15 Alloy](/posts/stumpjumper-15-alloy-build/).
+I'm on an Epic 8 Evo myself, and I wrote up why I'm keeping it in [Is There an Epic 9 Evo? Why I'm Keeping My Epic 8 Evo](/posts/specialized-epic-9-vs-epic-8-evo/). If the wireless-only requirement is what's holding you back, [SRAM's Eagle S-Series breakdown](/posts/sram-s-series-eagle-groupsets/) covers what a drivetrain swap actually costs. And if you're leaning toward a trail bike instead, here's [why I chose the Stumpjumper 15 Alloy](/posts/stumpjumper-15-alloy-build/).
 
 *Want automatic suspension? Here's [which XC bike with Flight Attendant to buy](/posts/xc-bikes-with-flight-attendant/).*
+
+## FAQ
+
+**Is the Epic 9 lighter than the Epic 8?** Yes. A medium Epic 9 frame with shock and hardware weighs 1,589 g, 179 g less than the Epic 8. About 110 g of that comes out of the front triangle, where the in-frame SWAT storage used to be.
+
+**What's the difference between the Epic World Cup and the Epic 9?** There's no new Epic World Cup. The Epic 9 replaces the Epic 8, the Epic World Cup and the Epic Hardtail. It borrows the World Cup's shock-under-the-top-tube layout and smaller rocker link, but runs 120 mm of travel front and rear.
+
+**How much does a complete Epic 9 weigh?** The Epic 9 Expert is 22 lb 14.5 oz in medium. The S-Works is 21 lb 4.7 oz, and the S-Works Ultralight LTD is 19 lb 1.5 oz.
+
+**Is there an Epic 9 Evo?** Not as of November 2026. You can fit a 130 mm fork to the Epic 9, but it's still built around racing.

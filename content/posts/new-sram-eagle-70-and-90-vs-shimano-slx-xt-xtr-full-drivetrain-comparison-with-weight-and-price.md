@@ -1,7 +1,7 @@
 ---
 title: 'SRAM Eagle 70 vs Shimano XT, SLX, XTR: Weight and Price'
 date: '2025-03-30T05:22:45+00:00'
-lastmod: 2026-11-13
+lastmod: 2026-11-28
 description: 'SRAM Eagle 70 vs Shimano XT: XT is about 550g lighter for $130 more and fits any frame. Plus Eagle 90, SLX and XTR weights, prices and UDH fit.'
 url: /new-sram-eagle-70-and-90-vs-shimano-slx-xt-xtr-full-drivetrain-comparison-with-weight-and-price/
 categories:
@@ -24,7 +24,9 @@ In this post, I break down the major contenders by **weight, MSRP** and overall 
 
 **SRAM Eagle 70 vs Shimano XT:** XT M8100 is about 550g lighter (1,743g vs 2,290g) for about $130 more ($621 vs $490 MSRP), and it fits any frame with a derailleur hanger. Eagle 70 is the cheaper, tougher hangerless option, but only if your frame is UDH.
 
-**Quick answer:** **Shimano SLX M7100** is still the best value: it's lighter than Eagle 70 and costs less. **Eagle 90** is the pick if your frame is UDH and you want Transmission-style shifting without paying for AXS. **XT M8100** is the sweet spot for mechanical weight savings. The only reason to buy **XTR M9100** is if you're chasing grams.
+Comparing **Eagle 90** with Shimano's new XT M8200 instead? That one has its own post: [SRAM Eagle 90 vs Shimano XT M8200](/posts/sram-eagle-90-vs-shimano-xt/).
+
+**Quick answer:** **Shimano SLX M7100** is still the best value while stock lasts: it's lighter than Eagle 70 and costs less. Shimano retired the SLX name in 2026 and Deore M7200 now fills that slot. **Eagle 90** is the pick if your frame is UDH and you want Transmission-style shifting without paying for AXS. **XT M8100** is the sweet spot for mechanical weight savings. The only reason to buy **XTR M9100** is if you're chasing grams.
 
 *Mizubikes may earn a commission from links in this post.*
 
@@ -81,7 +83,7 @@ For lightweight builds or high-performance riding:
 
 ## 2026 Update: Shimano Goes Wireless
 
-Since this post first went up, Shimano launched wireless Di2 for mountain bikes. **XTR Di2 M9200** arrived in mid-2025, followed by **XT Di2 M8200** and **Deore Di2 M6200** that fall. Mechanical XT M8100 and SLX M7100 are still the cable options. Here are the key Di2 parts:
+Since this post first went up, Shimano launched wireless Di2 for mountain bikes. **XTR Di2 M9200** arrived in mid-2025, followed by **XT Di2 M8200** and **Deore Di2 M6200** that fall. On the cable side, Shimano followed in mid-2026 with mechanical XT M8200 and Deore M7200, which takes over from SLX. I compared those in [Shimano XT vs SLX: SLX Is Gone, What to Buy in 2026](/posts/shimano-xt-vs-slx-mountain-bike-groupset/). Here are the key Di2 parts:
 
 | Shimano Di2 part | XTR Di2 (M9200) | XT Di2 (M8200) | Deore Di2 (M6200) |
 |---|---|---|---|
@@ -91,7 +93,17 @@ Since this post first went up, Shimano launched wireless Di2 for mountain bikes.
 
 *Source: [BikeRadar real-world weights](https://www.bikeradar.com/features/tech/shimano-xtr-xt-and-deore-di2-real-world-weights), October 2025.*
 
-So the real 2026 decision is no longer just SRAM vs Shimano. It's cable vs wireless. If you want wireless, compare Shimano's Di2 groups against SRAM's AXS Transmission, which I broke down in [SRAM Eagle S-Series: One Lineup to Replace Nine Drivetrains](/posts/sram-s-series-eagle-groupsets/). If you want cables, the table above still holds, and SLX is still the value pick.
+So the real 2026 decision is no longer just SRAM vs Shimano. It's cable vs wireless. If you want wireless, compare Shimano's Di2 groups against SRAM's AXS Transmission, which I broke down in [SRAM Eagle S-Series: One Lineup to Replace Nine Drivetrains](/posts/sram-s-series-eagle-groupsets/). If you want cables, the table above still holds for weight and price, and SLX M7100 (or its Deore M7200 replacement) is still the value pick.
+
+## FAQ
+
+**What is the Shimano equivalent of SRAM Eagle 70?** On price, Eagle 70 ($490) sits between SLX M7100 ($396) and XT M8100 ($621). On weight it's heavier than both, at about 2,290 g. For the same money, the closest Shimano match is SLX, which is now Deore M7200.
+
+**SRAM Eagle 70 vs Shimano Deore: which should I buy?** Deore M7200 is Shimano's replacement for SLX. I don't have full-group weights for M7200 yet, but SLX was both lighter and cheaper than Eagle 70 and fits any frame with a derailleur hanger. Eagle 70 makes sense when your frame is UDH and you want the hangerless derailleur.
+
+**Is Eagle 70 heavier than Shimano XT?** Yes, by about 550 g as a group: 2,290 g for Eagle 70 vs 1,743 g for XT M8100.
+
+**Will Eagle 70 or 90 fit a frame without UDH?** No. Both use SRAM's Full Mount derailleur, which bolts to the frame through the UDH interface. Without UDH, stick with Shimano or older hanger-mount SRAM Eagle.
 
 ## Where to Buy SRAM and Shimano Drivetrains
 

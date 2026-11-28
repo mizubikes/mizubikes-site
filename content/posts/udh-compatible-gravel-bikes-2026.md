@@ -1,8 +1,8 @@
 ---
-title: 'SRAM UDH Compatibility Chart: Gravel Bikes (2026)'
+title: 'SRAM UDH Compatibility Chart 2026: Gravel Frames List'
 date: 2026-05-19
-lastmod: 2026-11-01
-description: 'SRAM UDH compatibility chart for gravel bikes: every UDH-compatible gravel frame from SRAM''s Bike Finder, so you can check before buying XPLR or Transmission.'
+lastmod: 2026-11-28
+description: '76 UDH gravel frames from SRAM''s Bike Finder in one chart, with the 66 confirmed for 13-speed XPLR. Check your frame before buying Red, Force or Rival XPLR.'
 slug: udh-compatible-gravel-bikes-2026
 categories:
 - Gravel
@@ -20,6 +20,8 @@ draft: false
 ---
 
 If you're shopping for a gravel bike and want to run SRAM's 13-speed XPLR ecosystem — or just want the future-proofing that UDH brings — the first question is whether the frame you're considering actually has it. We've pulled every gravel bike currently listed on [SRAM's official Bike Finder](https://bikefinder.sram.com/?technology=UDH&rideType=Gravel&sort=Featured&sortOrder=asc&site=Road) with the UDH filter applied, as of May 2026.
+
+**Quick answer:** SRAM's Bike Finder lists 76 UDH gravel frames from 31 brands, and 66 of them are confirmed for 13-speed XPLR. The full chart is below. If your frame isn't on it, check the maker's spec sheet, because SRAM's list doesn't cover every brand.
 
 **A note before you use this list:** This is sourced directly from SRAM's Bike Finder tool and reflects only the bikes SRAM has listed there. It is not an exhaustive list of every UDH-compatible frame on the market — there are likely other frames from brands not represented in the Bike Finder, particularly smaller builders and direct-to-consumer brands, that also use the UDH standard. Always verify directly with the frame manufacturer before purchasing, especially on the used market where model year matters.
 
@@ -124,5 +126,13 @@ Frames marked **XPLR** are confirmed compatible with SRAM's Full Mount 13-speed 
 Several big gravel launches came after May, and they weren't on the Bike Finder when this list was made: the [third-generation Canyon Grail](/posts/canyon-grail-2027-launch/) (September 2026), the [Specialized Crux 5](/posts/specialized-crux-5-2026/), and Ridley's Kanzo Fast 2.0. All three are 1x-only frames built around wide tires. Confirm UDH and XPLR compatibility on SRAM's Bike Finder or the brand's spec sheet before you buy. The [2026 gravel tire clearance chart](/posts/gravel-bike-tire-clearance-chart-2026/) covers the tire side of the decision.
 
 If you've already built one of these up, here's mine for reference: a [13-speed Force XPLR 1x road build](/posts/cannondale-supersix-evo-2026-xplr-1x-build/) and a [hardtail gravel conversion with Garbaruk's 10-52](/posts/mtb-to-gravel-garbaruk-10-52/).
+
+## FAQ
+
+**Is the Specialized Crux UDH?** The 2025 Crux is. The Crux Expert AXS, Crux Pro, S-Works Crux and S-Works Crux LTD are all on SRAM's list as XPLR-ready. Earlier Crux frames switched to UDH mid-generation, so check the model year on a used one; I cover that in [Will SRAM 1x13 XPLR Fit Your Gravel Bike?](/posts/udh-sram-1x13-gravel-frame-compatibility/). The newer Crux 5 came out after this list was pulled, so confirm it on SRAM's Bike Finder.
+
+**What's the difference between UDH and XPLR-ready?** UDH means the frame takes SRAM's Universal Derailleur Hanger. XPLR-ready means SRAM has also confirmed it works with the 13-speed Full Mount derailleur, which bolts straight to the frame through the UDH interface.
+
+**How do I check if a frame has UDH?** Use [SRAM's Bike Finder](https://bikefinder.sram.com/?technology=UDH&rideType=Gravel&sort=Featured&sortOrder=asc&site=Road) with the UDH filter, or the frame maker's spec sheet. On a used bike, match the exact model year, since several frames changed dropouts partway through a generation.
 
 *This list was last updated May 2026. SRAM's Bike Finder is the authoritative source — [check it directly](https://bikefinder.sram.com/?technology=UDH&rideType=Gravel&sort=Featured&sortOrder=asc&site=Road) for the most current information.*
